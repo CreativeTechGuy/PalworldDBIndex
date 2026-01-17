@@ -1,8 +1,10 @@
-// cspell:words setstate, eqeqeq, backreference, isnan, nonoctal, nonconstructor, typedefs
+// cspell:words setstate, eqeqeq, backreference, isnan, nonoctal, nonconstructor, typedefs, innerhtml
 
 import typescriptPlugin from "@typescript-eslint/eslint-plugin";
 import typescriptEsLintParser from "@typescript-eslint/parser";
 import importPlugin from "eslint-plugin-import";
+import jsxA11yPlugin from "eslint-plugin-jsx-a11y";
+import solidPlugin from "eslint-plugin-solid";
 import globals from "globals";
 
 /*
@@ -11,9 +13,17 @@ import globals from "globals";
         https://eslint.org/docs/latest/rules/
         https://github.com/import-js/eslint-plugin-import
         https://typescript-eslint.io/rules/
+        https://github.com/jsx-eslint/eslint-plugin-jsx-a11y#supported-rules
+        https://github.com/solidjs-community/eslint-plugin-solid#rules
 */
 
 const baseRestrictedImports = {
+    patterns: [
+        {
+            group: ["../*"],
+            message: "Usage of relative parent imports is not allowed.",
+        },
+    ],
     paths: [
         {
             name: ".",
@@ -574,6 +584,42 @@ export default [
             ],
             "require-await": "off",
             "@typescript-eslint/require-await": "error",
+        },
+    },
+    {
+        files: ["**/*.tsx", "**/*.ts"],
+        plugins: {
+            "@typescript-eslint": typescriptPlugin,
+            "jsx-a11y": jsxA11yPlugin,
+            solid: solidPlugin,
+        },
+        rules: {
+            // JSX A11y - This plugin is being extended because there's an extensive amount of custom options automatically applied
+            ...jsxA11yPlugin.flatConfigs.recommended.rules,
+            // Solid - https://github.com/solidjs-community/eslint-plugin-solid#rules
+            "solid/components-return-once": "warn",
+            "solid/event-handlers": "warn",
+            "solid/imports": "warn",
+            "solid/jsx-no-duplicate-props": "warn",
+            "solid/jsx-no-script-url": "error",
+            "solid/jsx-uses-vars": "error",
+            "solid/no-destructure": "error",
+            "solid/no-innerhtml": "warn",
+            "solid/no-react-deps": "warn",
+            "solid/no-react-specific-props": "warn",
+            "solid/no-unknown-namespaces": "error",
+            "solid/prefer-for": "error",
+            "solid/reactivity": "error",
+            "solid/self-closing-comp": "warn",
+            "solid/style-prop": "warn",
+            // TypeScript Overrides
+            "@typescript-eslint/explicit-function-return-type": [
+                "error",
+                {
+                    allowExpressions: true,
+                    allowTypedFunctionExpressions: true,
+                },
+            ],
         },
     },
 ];

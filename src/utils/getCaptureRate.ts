@@ -1,12 +1,12 @@
-import gameSettings from "../data/BP_PalGameSetting.json";
-import wildPalsStats from "../data/DT_PalWildSpawner.json";
+import gameSettings from "~/raw_data/BP_PalGameSetting.json";
+import wildPalsStats from "~/raw_data/DT_PalWildSpawner.json";
 
 type CaptureRate = {
     normal: number;
     backBonus: number;
 };
 
-type MinimumSpheres = Record<string, number>;
+export type MinimumSpheres = Record<string, number>;
 
 const gameSettingsObject = gameSettings.find((entry) => entry.Type === "BP_PalGameSetting_C")!;
 const captureJudgeArray = gameSettingsObject.Properties!.CaptureJudgeRateArray;

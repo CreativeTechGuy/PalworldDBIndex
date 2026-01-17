@@ -1,3 +1,5 @@
+import { pascalCaseToTitleCase } from "./pascalCaseToTitleCase";
+
 /* eslint-disable @typescript-eslint/naming-convention */
 const map = {
     ElementType1: "Element 1",
@@ -22,9 +24,7 @@ export function mapColumnHeader(header: string): string {
     if (header in map) {
         return map[header as keyof typeof map];
     }
-    header = header.replace(/[a-z][A-Z]/g, (match) => {
-        return `${match[0]} ${match[1]}`;
-    });
+    header = pascalCaseToTitleCase(header);
     header = header.replaceAll("_", " ");
     return header;
 }

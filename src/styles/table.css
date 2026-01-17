@@ -1,0 +1,54 @@
+.pal-table {
+    border-collapse: separate;
+    border-spacing: 0;
+
+    & thead {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    & td,
+    & th {
+        background: lightgrey;
+        padding: 1px 3px;
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+    }
+
+    & tr:last-child > td,
+    & th:last-child {
+        border-bottom: 1px solid black;
+    }
+
+    & td:last-child {
+        border-right: 1px solid black;
+    }
+
+    & th {
+        border-bottom: 2px solid black;
+        cursor: pointer;
+    }
+
+    & td:first-child {
+        border-right: 2px solid black;
+    }
+
+    & td:nth-child(2n),
+    th:nth-child(2n) {
+        background: darkgrey;
+    }
+
+    & tr > td:first-child {
+        position: sticky;
+        left: 0;
+    }
+
+    & tbody > tr:hover > td {
+        background-color: lightblue;
+    }
+
+    & tbody > tr:hover > td:nth-child(2n) {
+        background-color: lightskyblue;
+    }
+}

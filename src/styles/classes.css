@@ -1,0 +1,33 @@
+.link-button {
+    background: none;
+    border: 0;
+    padding: 0;
+    text-align: initial;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.link-button:hover {
+    color: lightcoral;
+}
+
+.hover-content {
+    position: absolute;
+    width: max-content;
+    top: -100000px;
+    left: -100000px;
+    z-index: 10;
+    background: lightcoral;
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid black;
+    box-shadow: 3px 2px 5px 0px #000000b3;
+}
+
+.center {
+    text-align: center;
+}
+
+.one-line-text {
+    white-space: nowrap;
+}

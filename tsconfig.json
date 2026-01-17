@@ -6,6 +6,7 @@
         "lib": ["ES2024", "DOM", "DOM.Iterable"],
         "allowJs": true,
         "jsx": "preserve",
+        "jsxImportSource": "solid-js",
         "esModuleInterop": true,
         "module": "ESNext",
         "moduleResolution": "bundler",

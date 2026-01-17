@@ -1,9 +1,12 @@
-import type { UserConfig } from "vite";
+import { resolve } from "node:path";
+import { defineConfig } from "vite";
+import solidPlugin from "vite-plugin-solid";
 
-export default {
+export default defineConfig({
+    plugins: [solidPlugin()],
     resolve: {
         alias: {
-            "~/": "src/",
+            "~": resolve(import.meta.dirname, "src"),
         },
     },
     clearScreen: false,
@@ -20,4 +23,4 @@ export default {
             fileName: "license.txt",
         },
     },
-} satisfies UserConfig;
+});
