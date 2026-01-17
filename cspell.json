@@ -1,7 +1,7 @@
 {
     "version": "0.2",
     "words": ["autofix", "Combi", "Lifmunk", "Paldex", "Waza", "Zukan"],
-    "ignorePaths": ["package.json", "package-lock.json"],
+    "ignorePaths": ["package.json", "package-lock.json", "src/data"],
     "useGitignore": true,
     "validateDirectives": true,
     "maxFileSize": 1000000,
