@@ -1,0 +1,57 @@
+[
+    {
+        "Type": "BlendSpace1D",
+        "Name": "BS_Swim_ScorpionMan",
+        "Class": "UScriptClass'BlendSpace1D'",
+        "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "TargetWeightInterpolationSpeedPerSec": 3.0,
+            "AnimLength": 0.8,
+            "SampleData": [
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_ScorpionMan_Idle_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ScorpionMan/AS_ScorpionMan_Idle_Swim.0"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 0.8
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_ScorpionMan_Idle_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ScorpionMan/AS_ScorpionMan_Idle_Swim.0"
+                    },
+                    "SampleValue": {
+                        "X": 864.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.2
+                }
+            ],
+            "BlendSpaceData": {
+                "Segments": [
+                    {
+                        "SampleIndices": 0,
+                        "SampleIndices[1]": 1,
+                        "Vertices": 0.0,
+                        "Vertices[1]": 1.0
+                    }
+                ]
+            },
+            "BlendParameters": {
+                "DisplayName": "Front",
+                "Max": 864.0
+            },
+            "Skeleton": {
+                "ObjectName": "Skeleton'SK_ScorpionMan_Skeleton'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Skeleton/ScorpionMan/SK_ScorpionMan_Skeleton.2"
+            }
+        },
+        "SkeletonGuid": "65F4DB13-413159A4-319AA099-DADE9BF8"
+    }
+]

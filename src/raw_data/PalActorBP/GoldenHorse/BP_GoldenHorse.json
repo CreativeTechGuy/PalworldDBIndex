@@ -1,0 +1,1896 @@
+[
+    {
+        "Type": "BlueprintGeneratedClass",
+        "Name": "BP_GoldenHorse_C",
+        "Class": "UScriptClass'BlueprintGeneratedClass'",
+        "Super": {
+            "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "SimpleConstructionScript": {
+                "ObjectName": "SimpleConstructionScript'BP_GoldenHorse_C:SimpleConstructionScript_0'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.46"
+            },
+            "InheritableComponentHandler": {
+                "ObjectName": "InheritableComponentHandler'BP_GoldenHorse_C:InheritableComponentHandler'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.5"
+            }
+        },
+        "SuperStruct": {
+            "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+        },
+        "ChildProperties": [
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalSpeedCollision",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalSpeedCollisionComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalBodyPartsCapsule8",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalBodyPartsCapsule7",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalBodyPartsCapsule6",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalBodyPartsCapsule5",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalBodyPartsCapsule4",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalBodyPartsCapsule3",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalBodyPartsCapsule2",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalBodyPartsCapsule1",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalBodyPartsCapsule",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "BP_PalRideMarkerSaddle",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "BlueprintGeneratedClass'BP_PalRideMarkerSaddle_C'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerSaddle.0"
+                }
+            }
+        ],
+        "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+        "ClassWithin": {
+            "ObjectName": "Class'Object'",
+            "ObjectPath": "/Script/CoreUObject"
+        },
+        "ClassConfigName": "Game",
+        "bCooked": true,
+        "ClassDefaultObject": {
+            "ObjectName": "BP_GoldenHorse_C'Default__BP_GoldenHorse_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.1"
+        },
+        "EditorTags": {
+            "BlueprintType": "BPTYPE_Normal"
+        }
+    },
+    {
+        "Type": "BP_GoldenHorse_C",
+        "Name": "Default__BP_GoldenHorse_C",
+        "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.BP_GoldenHorse_C'",
+        "Template": {
+            "ObjectName": "BP_MonsterBase_C'Default__BP_MonsterBase_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.1"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "LiftupObjectComponent": {
+                "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_GoldenHorse_C:Liftup'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.19"
+            },
+            "ActionComponent": {
+                "ObjectName": "PalActionComponent'Default__BP_GoldenHorse_C:ActionComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.6"
+            },
+            "CharacterParameterComponent": {
+                "ObjectName": "PalCharacterParameterComponent'Default__BP_GoldenHorse_C:CharacterParameterComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.21"
+            },
+            "StaticCharacterParameterComponent": {
+                "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_GoldenHorse_C:StaticCharacterParameterComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.30"
+            },
+            "DamageReactionComponent": {
+                "ObjectName": "PalDamageReactionComponent'Default__BP_GoldenHorse_C:DamageReactionComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.22"
+            },
+            "StatusComponent": {
+                "ObjectName": "PalStatusComponent'Default__BP_GoldenHorse_C:StatusComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.31"
+            },
+            "CameraBoom": {
+                "ObjectName": "PalShooterSpringArmComponent'Default__BP_GoldenHorse_C:CameraBoom'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.27"
+            },
+            "FollowCamera": {
+                "ObjectName": "PalCharacterCameraComponent'Default__BP_GoldenHorse_C:FollowCamera'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.18"
+            },
+            "LookAtComponent": {
+                "ObjectName": "PalLookAtComponent'Default__BP_GoldenHorse_C:LookAtComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.24"
+            },
+            "FootIKComponent": {
+                "ObjectName": "PalFootIKComponent'Default__BP_GoldenHorse_C:FootIKComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.23"
+            },
+            "VisualEffectComponent": {
+                "ObjectName": "PalVisualEffectComponent'Default__BP_GoldenHorse_C:VisualEffectComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.32"
+            },
+            "PassiveSkillComponent": {
+                "ObjectName": "PalPassiveSkillComponent'Default__BP_GoldenHorse_C:PassiveSkillComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.26"
+            },
+            "AnimNotifyComponent": {
+                "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_GoldenHorse_C:AnimNotifyComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.7"
+            },
+            "AroundInfoCollectorComponent": {
+                "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_GoldenHorse_C:AroundInfoCollectorComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.17"
+            },
+            "RagdollInteractiveSphere": {
+                "ObjectName": "SphereComponent'Default__BP_GoldenHorse_C:RagdollInteractiveSphere'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.47"
+            },
+            "Mesh": {
+                "ObjectName": "PalSkeletalMeshComponent'Default__BP_GoldenHorse_C:CharacterMesh0'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.28"
+            },
+            "CharacterMovement": {
+                "ObjectName": "PalCharacterMovementComponent'Default__BP_GoldenHorse_C:CharMoveComp'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.20"
+            },
+            "CapsuleComponent": {
+                "ObjectName": "CapsuleComponent'Default__BP_GoldenHorse_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.4"
+            },
+            "RootComponent": {
+                "ObjectName": "CapsuleComponent'Default__BP_GoldenHorse_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.4"
+            }
+        }
+    },
+    {
+        "Type": "BP_PalCryComponent_C",
+        "Name": "BP_PalCryComponent_GEN_VARIABLE",
+        "Outer": "BP_GoldenHorse_C",
+        "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.BP_PalCryComponent_C'",
+        "Template": {
+            "ObjectName": "BP_PalCryComponent_C'BP_MonsterBase_C:BP_PalCryComponent_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.2"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+        "Properties": {
+            "CryPalID": "EPalTribeID::GoldenHorse"
+        }
+    },
+    {
+        "Type": "BP_PalRideMarkerSaddle_C",
+        "Name": "BP_PalRideMarkerSaddle_GEN_VARIABLE",
+        "Outer": "BP_GoldenHorse_C",
+        "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerSaddle.BP_PalRideMarkerSaddle_C'",
+        "Template": {
+            "ObjectName": "BP_PalRideMarkerSaddle_C'Default__BP_PalRideMarkerSaddle_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerSaddle.1"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "RelativeLocation": {
+                "X": 6.184564e-11,
+                "Y": -10.0,
+                "Z": 0.0
+            },
+            "RelativeRotation": {
+                "Pitch": -90.0,
+                "Yaw": -2.0846885e-10,
+                "Roll": 1.4569876e-9
+            }
+        }
+    },
+    {
+        "Type": "CapsuleComponent",
+        "Name": "CollisionCylinder",
+        "Outer": "Default__BP_GoldenHorse_C",
+        "Class": "UScriptClass'CapsuleComponent'",
+        "Template": {
+            "ObjectName": "CapsuleComponent'Default__BP_MonsterBase_C:CollisionCylinder'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.3"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "CapsuleHalfHeight": 30.0,
+            "CapsuleRadius": 30.0
+        }
+    },
+    {
+        "Type": "InheritableComponentHandler",
+        "Name": "InheritableComponentHandler",
+        "Outer": "BP_GoldenHorse_C",
+        "Class": "UScriptClass'InheritableComponentHandler'",
+        "Flags": "RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "Records": [
+                {
+                    "ComponentClass": {
+                        "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
+                        "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
+                    },
+                    "ComponentTemplate": {
+                        "ObjectName": "BP_PalCryComponent_C'BP_GoldenHorse_C:BP_PalCryComponent_GEN_VARIABLE'",
+                        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.2"
+                    },
+                    "ComponentKey": {
+                        "OwnerClass": {
+                            "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+                            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+                        },
+                        "SCSVariableName": "BP_PalCryComponent",
+                        "AssociatedGuid": "A971BE27-4B3C10FC-863FA284-ECDC3286"
+                    },
+                    "CookedComponentInstancingData": {
+                        "ChangedPropertyList": [],
+                        "bHasValidCookedData": false
+                    }
+                },
+                {
+                    "ComponentClass": {
+                        "ObjectName": "Class'PalPartnerSkillParameterComponent'",
+                        "ObjectPath": "/Script/Pal"
+                    },
+                    "ComponentTemplate": {
+                        "ObjectName": "PalPartnerSkillParameterComponent'BP_GoldenHorse_C:PalPartnerSkillParameter_GEN_VARIABLE'",
+                        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.25"
+                    },
+                    "ComponentKey": {
+                        "OwnerClass": {
+                            "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+                            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+                        },
+                        "SCSVariableName": "PalPartnerSkillParameter",
+                        "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
+                    },
+                    "CookedComponentInstancingData": {
+                        "ChangedPropertyList": [],
+                        "bHasValidCookedData": false
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Type": "PalActionComponent",
+        "Name": "ActionComponent",
+        "Outer": "Default__BP_GoldenHorse_C",
+        "Class": "UScriptClass'PalActionComponent'",
+        "Template": {
+            "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalAnimNotifyParameterComponent",
+        "Name": "AnimNotifyComponent",
+        "Outer": "Default__BP_GoldenHorse_C",
+        "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+        "Template": {
+            "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalBodyPartsCapsuleComponent",
+        "Name": "PalBodyPartsCapsule1_GEN_VARIABLE",
+        "Outer": "BP_GoldenHorse_C",
+        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "CapsuleHalfHeight": 48.462223,
+            "CapsuleRadius": 21.41497,
+            "RelativeLocation": {
+                "X": 16.660583,
+                "Y": -8.845407,
+                "Z": -0.004040461
+            },
+            "RelativeRotation": {
+                "Pitch": 90.0,
+                "Yaw": 1263.5763,
+                "Roll": 1251.5596
+            }
+        }
+    },
+    {
+        "Type": "PalBodyPartsCapsuleComponent",
+        "Name": "PalBodyPartsCapsule2_GEN_VARIABLE",
+        "Outer": "BP_GoldenHorse_C",
+        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "CapsuleHalfHeight": 79.672325,
+            "CapsuleRadius": 37.924625,
+            "RelativeLocation": {
+                "X": 41.970127,
+                "Y": 8.37237,
+                "Z": 0.032796275
+            },
+            "RelativeRotation": {
+                "Pitch": 90.0,
+                "Yaw": 1260.0,
+                "Roll": 1255.7366
+            }
+        }
+    },
+    {
+        "Type": "PalBodyPartsCapsuleComponent",
+        "Name": "PalBodyPartsCapsule3_GEN_VARIABLE",
+        "Outer": "BP_GoldenHorse_C",
+        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "CapsuleHalfHeight": 59.337425,
+            "CapsuleRadius": 13.5278,
+            "RelativeLocation": {
+                "X": 32.199738,
+                "Y": -4.3726425,
+                "Z": -1.0444643
+            },
+            "RelativeRotation": {
+                "Pitch": 90.0,
+                "Yaw": 1.5902774e-15,
+                "Roll": 1.9537692e-14
+            }
+        }
+    },
+    {
+        "Type": "PalBodyPartsCapsuleComponent",
+        "Name": "PalBodyPartsCapsule4_GEN_VARIABLE",
+        "Outer": "BP_GoldenHorse_C",
+        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "CapsuleHalfHeight": 59.337425,
+            "CapsuleRadius": 13.5278,
+            "RelativeLocation": {
+                "X": -32.199738,
+                "Y": 4.372642,
+                "Z": -1.0444643
+            },
+            "RelativeRotation": {
+                "Pitch": 90.0,
+                "Yaw": 1.5902774e-15,
+                "Roll": 1.9537692e-14
+            }
+        }
+    },
+    {
+        "Type": "PalBodyPartsCapsuleComponent",
+        "Name": "PalBodyPartsCapsule5_GEN_VARIABLE",
+        "Outer": "BP_GoldenHorse_C",
+        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "CapsuleHalfHeight": 38.717716,
+            "CapsuleRadius": 17.584265,
+            "RelativeLocation": {
+                "X": 13.088808,
+                "Y": 0.9207749,
+                "Z": 5.187059
+            },
+            "RelativeRotation": {
+                "Pitch": 90.0,
+                "Yaw": 1.5902774e-15,
+                "Roll": 1.9537692e-14
+            }
+        }
+    },
+    {
+        "Type": "PalBodyPartsCapsuleComponent",
+        "Name": "PalBodyPartsCapsule6_GEN_VARIABLE",
+        "Outer": "BP_GoldenHorse_C",
+        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "CapsuleHalfHeight": 38.717716,
+            "CapsuleRadius": 17.584265,
+            "RelativeLocation": {
+                "X": -13.088809,
+                "Y": -4.527073,
+                "Z": -1.8572428
+            },
+            "RelativeRotation": {
+                "Pitch": 90.0,
+                "Yaw": 1.5902774e-15,
+                "Roll": 1.9537692e-14
+            }
+        }
+    },
+    {
+        "Type": "PalBodyPartsCapsuleComponent",
+        "Name": "PalBodyPartsCapsule7_GEN_VARIABLE",
+        "Outer": "BP_GoldenHorse_C",
+        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "CapsuleHalfHeight": 38.717716,
+            "CapsuleRadius": 12.79641,
+            "RelativeLocation": {
+                "X": 26.130537,
+                "Y": -2.3749943,
+                "Z": 1.5921448
+            },
+            "RelativeRotation": {
+                "Pitch": 90.0,
+                "Yaw": 1080.0,
+                "Roll": 1086.1296
+            }
+        }
+    },
+    {
+        "Type": "PalBodyPartsCapsuleComponent",
+        "Name": "PalBodyPartsCapsule8_GEN_VARIABLE",
+        "Outer": "BP_GoldenHorse_C",
+        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "CapsuleHalfHeight": 38.717716,
+            "CapsuleRadius": 12.79641,
+            "RelativeLocation": {
+                "X": -26.130539,
+                "Y": 2.374994,
+                "Z": 1.5921448
+            },
+            "RelativeRotation": {
+                "Pitch": 90.0,
+                "Yaw": 1080.0,
+                "Roll": 1086.1296
+            }
+        }
+    },
+    {
+        "Type": "PalBodyPartsCapsuleComponent",
+        "Name": "PalBodyPartsCapsule_GEN_VARIABLE",
+        "Outer": "BP_GoldenHorse_C",
+        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "BodyPartsType": "EPalBodyPartsType::Weak",
+            "CapsuleHalfHeight": 48.462223,
+            "CapsuleRadius": 29.811459,
+            "RelativeLocation": {
+                "X": -16.976204,
+                "Y": 2.7674147e-7,
+                "Z": 0.0
+            },
+            "RelativeRotation": {
+                "Pitch": 90.0,
+                "Yaw": -2.7522018e-14,
+                "Roll": -1.24125e-11
+            }
+        }
+    },
+    {
+        "Type": "PalCharacterAroundInfoCollectorComponent",
+        "Name": "AroundInfoCollectorComponent",
+        "Outer": "Default__BP_GoldenHorse_C",
+        "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AttachParent": {
+                "ObjectName": "CapsuleComponent'Default__BP_GoldenHorse_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.4"
+            }
+        }
+    },
+    {
+        "Type": "PalCharacterCameraComponent",
+        "Name": "FollowCamera",
+        "Outer": "Default__BP_GoldenHorse_C",
+        "Class": "UScriptClass'PalCharacterCameraComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AttachParent": {
+                "ObjectName": "PalShooterSpringArmComponent'Default__BP_GoldenHorse_C:CameraBoom'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.27"
+            }
+        }
+    },
+    {
+        "Type": "PalCharacterLiftupObjectComponent",
+        "Name": "Liftup",
+        "Outer": "Default__BP_GoldenHorse_C",
+        "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalCharacterMovementComponent",
+        "Name": "CharMoveComp",
+        "Outer": "Default__BP_GoldenHorse_C",
+        "Class": "UScriptClass'PalCharacterMovementComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "InWaterRate": 0.47,
+            "GravityScale": 2.5,
+            "JumpZVelocity": 1300.0,
+            "Buoyancy": 2.0
+        }
+    },
+    {
+        "Type": "PalCharacterParameterComponent",
+        "Name": "CharacterParameterComponent",
+        "Outer": "Default__BP_GoldenHorse_C",
+        "Class": "UScriptClass'PalCharacterParameterComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalDamageReactionComponent",
+        "Name": "DamageReactionComponent",
+        "Outer": "Default__BP_GoldenHorse_C",
+        "Class": "UScriptClass'PalDamageReactionComponent'",
+        "Template": {
+            "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalFootIKComponent",
+        "Name": "FootIKComponent",
+        "Outer": "Default__BP_GoldenHorse_C",
+        "Class": "UScriptClass'PalFootIKComponent'",
+        "Template": {
+            "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "FootIKSettings": [
+                {
+                    "Key": "EPalFootType::ForeFootLeft",
+                    "Value": {
+                        "bIsEnableIK": true,
+                        "RayCastBoneName": "leg_front_04_l",
+                        "RayStartOffset": 50.0,
+                        "RayEndOffset": 30.0
+                    }
+                },
+                {
+                    "Key": "EPalFootType::ForeFootRight",
+                    "Value": {
+                        "bIsEnableIK": true,
+                        "RayCastBoneName": "leg_front_04_r",
+                        "RayStartOffset": 50.0,
+                        "RayEndOffset": 30.0
+                    }
+                },
+                {
+                    "Key": "EPalFootType::HindFootLeft",
+                    "Value": {
+                        "bIsEnableIK": true,
+                        "RayCastBoneName": "leg_back_05_l",
+                        "RayStartOffset": 50.0,
+                        "RayEndOffset": 30.0
+                    }
+                },
+                {
+                    "Key": "EPalFootType::HindFootRight",
+                    "Value": {
+                        "bIsEnableIK": true,
+                        "RayCastBoneName": "leg_back_05_r",
+                        "RayStartOffset": 50.0,
+                        "RayEndOffset": 30.0
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Type": "PalLookAtComponent",
+        "Name": "LookAtComponent",
+        "Outer": "Default__BP_GoldenHorse_C",
+        "Class": "UScriptClass'PalLookAtComponent'",
+        "Template": {
+            "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalPartnerSkillParameterComponent",
+        "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
+        "Outer": "BP_GoldenHorse_C",
+        "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
+        "Template": {
+            "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+        "Properties": {
+            "RestrictionItems": [
+                {
+                    "Key": "SkillUnlock_GoldenHorse"
+                }
+            ],
+            "PassiveSkills": [
+                {
+                    "SkillAndParameters": [
+                        {
+                            "Key": {
+                                "Key": "GiveAEarth_Ride"
+                            },
+                            "Value": {
+                                "DelayTime": 0.0,
+                                "TriggerTypeFlags": 4,
+                                "WorkType": "EPalWorkType::None",
+                                "MapObjectId": [],
+                                "ItemId": [],
+                                "AssignOthers": false,
+                                "TargetElementType": "EPalElementType::None",
+                                "PalIds": [],
+                                "PalTribeIds": [],
+                                "bNotAssignSelf": false,
+                                "ItemParam": {
+                                    "ItemTypeA": "EPalItemTypeA::None",
+                                    "ItemTypeB": "EPalItemTypeB::None",
+                                    "ItemIds": [],
+                                    "ExcludedItemIds": []
+                                },
+                                "RegeneParam": {
+                                    "Interval": 0
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "Key": "GiveElement_TrainerATK_UP_PartnerSkill_Ride_1"
+                            },
+                            "Value": {
+                                "DelayTime": 0.0,
+                                "TriggerTypeFlags": 0,
+                                "WorkType": "EPalWorkType::None",
+                                "MapObjectId": [],
+                                "ItemId": [],
+                                "AssignOthers": false,
+                                "TargetElementType": "EPalElementType::None",
+                                "PalIds": [],
+                                "PalTribeIds": [],
+                                "bNotAssignSelf": false,
+                                "ItemParam": {
+                                    "ItemTypeA": "EPalItemTypeA::None",
+                                    "ItemTypeB": "EPalItemTypeB::None",
+                                    "ItemIds": [],
+                                    "ExcludedItemIds": []
+                                },
+                                "RegeneParam": {
+                                    "Interval": 0
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "SkillAndParameters": [
+                        {
+                            "Key": {
+                                "Key": "GiveAEarth_Ride"
+                            },
+                            "Value": {
+                                "DelayTime": 0.0,
+                                "TriggerTypeFlags": 4,
+                                "WorkType": "EPalWorkType::None",
+                                "MapObjectId": [],
+                                "ItemId": [],
+                                "AssignOthers": false,
+                                "TargetElementType": "EPalElementType::None",
+                                "PalIds": [],
+                                "PalTribeIds": [],
+                                "bNotAssignSelf": false,
+                                "ItemParam": {
+                                    "ItemTypeA": "EPalItemTypeA::None",
+                                    "ItemTypeB": "EPalItemTypeB::None",
+                                    "ItemIds": [],
+                                    "ExcludedItemIds": []
+                                },
+                                "RegeneParam": {
+                                    "Interval": 0
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "Key": "GiveElement_TrainerATK_UP_PartnerSkill_Ride_2"
+                            },
+                            "Value": {
+                                "DelayTime": 0.0,
+                                "TriggerTypeFlags": 0,
+                                "WorkType": "EPalWorkType::None",
+                                "MapObjectId": [],
+                                "ItemId": [],
+                                "AssignOthers": false,
+                                "TargetElementType": "EPalElementType::None",
+                                "PalIds": [],
+                                "PalTribeIds": [],
+                                "bNotAssignSelf": false,
+                                "ItemParam": {
+                                    "ItemTypeA": "EPalItemTypeA::None",
+                                    "ItemTypeB": "EPalItemTypeB::None",
+                                    "ItemIds": [],
+                                    "ExcludedItemIds": []
+                                },
+                                "RegeneParam": {
+                                    "Interval": 0
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "SkillAndParameters": [
+                        {
+                            "Key": {
+                                "Key": "GiveAEarth_Ride"
+                            },
+                            "Value": {
+                                "DelayTime": 0.0,
+                                "TriggerTypeFlags": 4,
+                                "WorkType": "EPalWorkType::None",
+                                "MapObjectId": [],
+                                "ItemId": [],
+                                "AssignOthers": false,
+                                "TargetElementType": "EPalElementType::None",
+                                "PalIds": [],
+                                "PalTribeIds": [],
+                                "bNotAssignSelf": false,
+                                "ItemParam": {
+                                    "ItemTypeA": "EPalItemTypeA::None",
+                                    "ItemTypeB": "EPalItemTypeB::None",
+                                    "ItemIds": [],
+                                    "ExcludedItemIds": []
+                                },
+                                "RegeneParam": {
+                                    "Interval": 0
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "Key": "GiveElement_TrainerATK_UP_PartnerSkill_Ride_3"
+                            },
+                            "Value": {
+                                "DelayTime": 0.0,
+                                "TriggerTypeFlags": 0,
+                                "WorkType": "EPalWorkType::None",
+                                "MapObjectId": [],
+                                "ItemId": [],
+                                "AssignOthers": false,
+                                "TargetElementType": "EPalElementType::None",
+                                "PalIds": [],
+                                "PalTribeIds": [],
+                                "bNotAssignSelf": false,
+                                "ItemParam": {
+                                    "ItemTypeA": "EPalItemTypeA::None",
+                                    "ItemTypeB": "EPalItemTypeB::None",
+                                    "ItemIds": [],
+                                    "ExcludedItemIds": []
+                                },
+                                "RegeneParam": {
+                                    "Interval": 0
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "SkillAndParameters": [
+                        {
+                            "Key": {
+                                "Key": "GiveAEarth_Ride"
+                            },
+                            "Value": {
+                                "DelayTime": 0.0,
+                                "TriggerTypeFlags": 4,
+                                "WorkType": "EPalWorkType::None",
+                                "MapObjectId": [],
+                                "ItemId": [],
+                                "AssignOthers": false,
+                                "TargetElementType": "EPalElementType::None",
+                                "PalIds": [],
+                                "PalTribeIds": [],
+                                "bNotAssignSelf": false,
+                                "ItemParam": {
+                                    "ItemTypeA": "EPalItemTypeA::None",
+                                    "ItemTypeB": "EPalItemTypeB::None",
+                                    "ItemIds": [],
+                                    "ExcludedItemIds": []
+                                },
+                                "RegeneParam": {
+                                    "Interval": 0
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "Key": "GiveElement_TrainerATK_UP_PartnerSkill_Ride_4"
+                            },
+                            "Value": {
+                                "DelayTime": 0.0,
+                                "TriggerTypeFlags": 0,
+                                "WorkType": "EPalWorkType::None",
+                                "MapObjectId": [],
+                                "ItemId": [],
+                                "AssignOthers": false,
+                                "TargetElementType": "EPalElementType::None",
+                                "PalIds": [],
+                                "PalTribeIds": [],
+                                "bNotAssignSelf": false,
+                                "ItemParam": {
+                                    "ItemTypeA": "EPalItemTypeA::None",
+                                    "ItemTypeB": "EPalItemTypeB::None",
+                                    "ItemIds": [],
+                                    "ExcludedItemIds": []
+                                },
+                                "RegeneParam": {
+                                    "Interval": 0
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "SkillAndParameters": [
+                        {
+                            "Key": {
+                                "Key": "GiveAEarth_Ride"
+                            },
+                            "Value": {
+                                "DelayTime": 0.0,
+                                "TriggerTypeFlags": 4,
+                                "WorkType": "EPalWorkType::None",
+                                "MapObjectId": [],
+                                "ItemId": [],
+                                "AssignOthers": false,
+                                "TargetElementType": "EPalElementType::None",
+                                "PalIds": [],
+                                "PalTribeIds": [],
+                                "bNotAssignSelf": false,
+                                "ItemParam": {
+                                    "ItemTypeA": "EPalItemTypeA::None",
+                                    "ItemTypeB": "EPalItemTypeB::None",
+                                    "ItemIds": [],
+                                    "ExcludedItemIds": []
+                                },
+                                "RegeneParam": {
+                                    "Interval": 0
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "Key": "GiveElement_TrainerATK_UP_PartnerSkill_Ride_5"
+                            },
+                            "Value": {
+                                "DelayTime": 0.0,
+                                "TriggerTypeFlags": 0,
+                                "WorkType": "EPalWorkType::None",
+                                "MapObjectId": [],
+                                "ItemId": [],
+                                "AssignOthers": false,
+                                "TargetElementType": "EPalElementType::None",
+                                "PalIds": [],
+                                "PalTribeIds": [],
+                                "bNotAssignSelf": false,
+                                "ItemParam": {
+                                    "ItemTypeA": "EPalItemTypeA::None",
+                                    "ItemTypeB": "EPalItemTypeB::None",
+                                    "ItemIds": [],
+                                    "ExcludedItemIds": []
+                                },
+                                "RegeneParam": {
+                                    "Interval": 0
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "Type": "PalPassiveSkillComponent",
+        "Name": "PassiveSkillComponent",
+        "Outer": "Default__BP_GoldenHorse_C",
+        "Class": "UScriptClass'PalPassiveSkillComponent'",
+        "Template": {
+            "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalShooterSpringArmComponent",
+        "Name": "CameraBoom",
+        "Outer": "Default__BP_GoldenHorse_C",
+        "Class": "UScriptClass'PalShooterSpringArmComponent'",
+        "Template": {
+            "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "WalkCameraArmLength": 400.0,
+            "WalkCameraOffset": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 85.0
+            },
+            "AimCameraArmLength": 165.0,
+            "AimCameraOffset": {
+                "X": 0.0,
+                "Y": 50.0,
+                "Z": 105.0
+            },
+            "AirCameraArmLength": 400.0,
+            "AirCameraOffset": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 85.0
+            },
+            "AirAimCameraArmLength": 165.0,
+            "AirAimCameraOffset": {
+                "X": 0.0,
+                "Y": 50.0,
+                "Z": 105.0
+            },
+            "AttachParent": {
+                "ObjectName": "CapsuleComponent'Default__BP_GoldenHorse_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.4"
+            },
+            "RelativeLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 75.0
+            }
+        }
+    },
+    {
+        "Type": "PalSkeletalMeshComponent",
+        "Name": "CharacterMesh0",
+        "Outer": "Default__BP_GoldenHorse_C",
+        "Class": "UScriptClass'PalSkeletalMeshComponent'",
+        "Template": {
+            "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "bIsEnableGroundTilt": true,
+            "PitchAngle": 15.0,
+            "RollAngle": 3.0,
+            "AnimClass": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_GoldenHorse_C'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/ABP_GoldenHorse.1"
+            },
+            "SkeletalMesh": {
+                "ObjectName": "SkeletalMesh'SK_GoldenHorse'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/GoldenHorse/SK_GoldenHorse.0"
+            },
+            "SkinnedAsset": {
+                "ObjectName": "SkeletalMesh'SK_GoldenHorse'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/GoldenHorse/SK_GoldenHorse.0"
+            },
+            "AttachParent": {
+                "ObjectName": "CapsuleComponent'Default__BP_GoldenHorse_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.4"
+            },
+            "RelativeLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -30.0
+            }
+        }
+    },
+    {
+        "Type": "PalSpeedCollisionComponent",
+        "Name": "PalSpeedCollision_GEN_VARIABLE",
+        "Outer": "BP_GoldenHorse_C",
+        "Class": "UScriptClass'PalSpeedCollisionComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "RelativeLocation": {
+                "X": 0.0,
+                "Y": 50.0,
+                "Z": 66.0
+            },
+            "RelativeScale3D": {
+                "X": 2.0,
+                "Y": 2.0,
+                "Z": 2.0
+            }
+        }
+    },
+    {
+        "Type": "PalStaticCharacterParameterComponent",
+        "Name": "StaticCharacterParameterComponent",
+        "Outer": "Default__BP_GoldenHorse_C",
+        "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+        "Template": {
+            "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "MeshCapsuleHalfHeight": 105.0,
+            "MeshCapsuleRadius": 42.465893,
+            "MeshRelativeLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -105.0
+            },
+            "AIActionMap": [
+                {
+                    "Key": "EPalAIActionType::Cooperation",
+                    "Value": {
+                        "ObjectName": "BlueprintGeneratedClass'BP_AIActionRideCall_C'",
+                        "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Coop/BP_AIActionRideCall.0"
+                    }
+                }
+            ],
+            "RandomRestMontageInfos": [
+                {
+                    "RandomRestMontage": {
+                        "ObjectName": "AnimMontage'AM_GoldenHorse_Rest01'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GoldenHorse/AM_GoldenHorse_Rest01.0"
+                    },
+                    "Weight": 1.0,
+                    "LoopNum_Min": 3,
+                    "LoopNum_Max": 5,
+                    "AfterIdleTime": 2.0
+                },
+                {
+                    "RandomRestMontage": {
+                        "ObjectName": "AnimMontage'AM_GoldenHorse_Rest02'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GoldenHorse/AM_GoldenHorse_Rest02.0"
+                    },
+                    "Weight": 1.0,
+                    "LoopNum_Min": 1,
+                    "LoopNum_Max": 1,
+                    "AfterIdleTime": 2.0
+                },
+                {
+                    "RandomRestMontage": {
+                        "ObjectName": "AnimMontage'AM_GoldenHorse_Rest03'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GoldenHorse/AM_GoldenHorse_Rest03.0"
+                    },
+                    "Weight": 1.0,
+                    "LoopNum_Min": 1,
+                    "LoopNum_Max": 1,
+                    "AfterIdleTime": 2.0
+                }
+            ],
+            "GeneralAnimSequenceMap": [
+                {
+                    "Key": "EPalGeneralAnimSequenceType::JumpLoop",
+                    "Value": {
+                        "ObjectName": "AnimSequence'AS_GoldenHorse_JumpLoop'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GoldenHorse/AS_GoldenHorse_JumpLoop.0"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralAnimSequenceType::JumpEnd",
+                    "Value": {
+                        "ObjectName": "AnimSequence'AS_GoldenHorse_JumpEnd'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GoldenHorse/AS_GoldenHorse_JumpEnd.0"
+                    }
+                }
+            ],
+            "GeneralMontageMap": [
+                {
+                    "Key": "EPalGeneralMontageType::GeneralAttackReady_Far",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_GoldenHorse_FarSkill_Start'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GoldenHorse/AM_GoldenHorse_FarSkill_Start.0"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::GeneralAttackReadyLoop_Far",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_GoldenHorse_FarSkill_StartLoop'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GoldenHorse/AM_GoldenHorse_FarSkill_StartLoop.0"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::GeneralAttackProcess_Far",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_GoldenHorse_FarSkill_Action'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GoldenHorse/AM_GoldenHorse_FarSkill_Action.0"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::GeneralAttackProcessLoop_Far",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_GoldenHorse_FarSkill_ActionLoop'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GoldenHorse/AM_GoldenHorse_FarSkill_ActionLoop.0"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::GeneralAttackAfter_Far",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_GoldenHorse_FarSkill_End'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GoldenHorse/AM_GoldenHorse_FarSkill_End.0"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::SleepStart",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_GoldenHorse_SleepStart'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GoldenHorse/AM_GoldenHorse_SleepStart.0"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::SleepLoop",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_GoldenHorse_SleepLoop'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GoldenHorse/AM_GoldenHorse_SleepLoop.0"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::SleepEnd",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_GoldenHorse_SleepEnd'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GoldenHorse/AM_GoldenHorse_SleepEnd.0"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::DamageAdditive",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_GoldenHorse_Hit'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GoldenHorse/AM_GoldenHorse_Hit.0"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::BeLiftupStart",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_GoldenHorse_Carrying_Start'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GoldenHorse/AM_GoldenHorse_Carrying_Start.0"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::BeLiftupLoop",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_GoldenHorse_Carrying'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GoldenHorse/AM_GoldenHorse_Carrying.0"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::JumpStart",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_GoldenHorse_JumpStart'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GoldenHorse/AM_GoldenHorse_JumpStart.0"
+                    }
+                }
+            ],
+            "GeneralBlendSpaceMap": [
+                {
+                    "Key": "EPalGeneralBlendSpaceType::GeneralMove",
+                    "Value": {
+                        "ObjectName": "BlendSpace1D'BS_Move_GoldenHorse'",
+                        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BS_Move_GoldenHorse.0"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralBlendSpaceType::RidingMove",
+                    "Value": {
+                        "ObjectName": "BlendSpace1D'BS_Move_GoldenHorse_Riding'",
+                        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BS_Move_GoldenHorse_Riding.0"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralBlendSpaceType::Swim",
+                    "Value": {
+                        "ObjectName": "BlendSpace1D'BS_Swim_GoldenHorse'",
+                        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BS_Swim_GoldenHorse.0"
+                    }
+                }
+            ],
+            "ActionMontageMap": [
+                {
+                    "Key": "EPalActionType::Menace",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_GoldenHorse_Encount'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GoldenHorse/AM_GoldenHorse_Encount.0"
+                    }
+                },
+                {
+                    "Key": "EPalActionType::Eat",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_GoldenHorse_Eat'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GoldenHorse/AM_GoldenHorse_Eat.0"
+                    }
+                },
+                {
+                    "Key": "EPalActionType::KnockBack",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_GoldenHorse_Damage'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GoldenHorse/AM_GoldenHorse_Damage.0"
+                    }
+                },
+                {
+                    "Key": "EPalActionType::ForwardWalk",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_GoldenHorse_Walk'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GoldenHorse/AM_GoldenHorse_Walk.0"
+                    }
+                },
+                {
+                    "Key": "EPalActionType::GetupUtubuse_orRight",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_GoldenHorse_GetUp_RightDown'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GoldenHorse/AM_GoldenHorse_GetUp_RightDown.0"
+                    }
+                },
+                {
+                    "Key": "EPalActionType::GetupAomuke_orRight",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_GoldenHorse_GetUp_LeftDown'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GoldenHorse/AM_GoldenHorse_GetUp_LeftDown.0"
+                    }
+                },
+                {
+                    "Key": "EPalActionType::PalPetting",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_GoldenHorse_Petting'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GoldenHorse/AM_GoldenHorse_Petting.0"
+                    }
+                },
+                {
+                    "Key": "EPalActionType::CommonWork",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_GoldenHorse_Eat'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GoldenHorse/AM_GoldenHorse_Eat.0"
+                    }
+                },
+                {
+                    "Key": "EPalActionType::IdleInSpa",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_GoldenHorse_Spa'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GoldenHorse/AM_GoldenHorse_Spa.0"
+                    }
+                },
+                {
+                    "Key": "EPalActionType::BackStep",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_GoldenHorse_Backstep'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GoldenHorse/AM_GoldenHorse_Backstep.0"
+                    }
+                }
+            ],
+            "SleepOnSideInfoMapForMapObject": [
+                {
+                    "Key": {
+                        "Key": "MedicalPalBed_02"
+                    },
+                    "Value": {
+                        "LocationOffset": {
+                            "X": -50.0,
+                            "Y": 0.0,
+                            "Z": 0.0
+                        },
+                        "RotatorOffset": {
+                            "Pitch": 0.0,
+                            "Yaw": 155.0,
+                            "Roll": 0.0
+                        },
+                        "bShouldApply": true
+                    }
+                },
+                {
+                    "Key": {
+                        "Key": "MedicalPalBed_03"
+                    },
+                    "Value": {
+                        "LocationOffset": {
+                            "X": -50.0,
+                            "Y": 0.0,
+                            "Z": 0.0
+                        },
+                        "RotatorOffset": {
+                            "Pitch": 0.0,
+                            "Yaw": 155.0,
+                            "Roll": 0.0
+                        },
+                        "bShouldApply": true
+                    }
+                },
+                {
+                    "Key": {
+                        "Key": "MedicalPalBed_04"
+                    },
+                    "Value": {
+                        "LocationOffset": {
+                            "X": -50.0,
+                            "Y": 90.0,
+                            "Z": 0.0
+                        },
+                        "RotatorOffset": {
+                            "Pitch": 10.0,
+                            "Yaw": 165.0,
+                            "Roll": 0.0
+                        },
+                        "bShouldApply": true
+                    }
+                }
+            ],
+            "WazaActionDeclarationMap": [
+                {
+                    "Key": "EPalWazaID::Unique_GoldenHorse_StoneDash",
+                    "Value": {
+                        "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/GoldenHorse/BP_UniqueAction_GoldenHorse_StoneDash.BP_UniqueAction_GoldenHorse_StoneDash_C",
+                        "SubPathString": ""
+                    }
+                }
+            ],
+            "HPGaugeUIOffset": {
+                "X": 30.0,
+                "Y": -25.0
+            },
+            "GetupMotion_UtubuseOrRight_0FramePelvisLocation": {
+                "X": 24.115898,
+                "Y": 0.807511,
+                "Z": 0.021437
+            },
+            "GetupMotion_AomukeOrLeft_0FramePelvisLocation": {
+                "X": 24.115898,
+                "Y": 0.807519,
+                "Z": -0.02153
+            },
+            "PettingSize": "EPalPettingSizeType::Medium",
+            "PettingDistance": 157.0,
+            "WaterEffectMap": [
+                {
+                    "Key": "EPalWaterEffectType::SwimIdle",
+                    "Value": {
+                        "Effect": {
+                            "ObjectName": "NiagaraSystem'NS_InWaterPal'",
+                            "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_InWaterPal.14"
+                        },
+                        "Offset": {
+                            "X": 80.0,
+                            "Y": 0.0,
+                            "Z": 0.0
+                        },
+                        "Scale": 1.5
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Type": "PalStatusComponent",
+        "Name": "StatusComponent",
+        "Outer": "Default__BP_GoldenHorse_C",
+        "Class": "UScriptClass'PalStatusComponent'",
+        "Template": {
+            "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalVisualEffectComponent",
+        "Name": "VisualEffectComponent",
+        "Outer": "Default__BP_GoldenHorse_C",
+        "Class": "UScriptClass'PalVisualEffectComponent'",
+        "Template": {
+            "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "SceneComponent",
+        "Name": "DefaultSceneRoot_GEN_VARIABLE",
+        "Outer": "BP_GoldenHorse_C",
+        "Class": "UScriptClass'SceneComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_0",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'SceneComponent'",
+                "ObjectPath": "/Script/Engine"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "SceneComponent'BP_GoldenHorse_C:DefaultSceneRoot_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.33"
+            },
+            "VariableGuid": "90FC31AE-49381CFB-97BA38A9-3D5BD5A2",
+            "InternalVariableName": "DefaultSceneRoot"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_1",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "BlueprintGeneratedClass'BP_PalRideMarkerSaddle_C'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerSaddle.0"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "BP_PalRideMarkerSaddle_C'BP_GoldenHorse_C:BP_PalRideMarkerSaddle_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.3"
+            },
+            "AttachToName": "spine_01",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "349B24F0-43616FF6-C66F4A96-0335B9DE",
+            "InternalVariableName": "BP_PalRideMarkerSaddle"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_10",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalBodyPartsCapsuleComponent'BP_GoldenHorse_C:PalBodyPartsCapsule8_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.15"
+            },
+            "AttachToName": "leg_back_03_r",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "51560F81-4BD9135C-86C2E3B0-80452E44",
+            "InternalVariableName": "PalBodyPartsCapsule8"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_11",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalSpeedCollisionComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalSpeedCollisionComponent'BP_GoldenHorse_C:PalSpeedCollision_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.29"
+            },
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "D96CFFA1-4622827A-0B14F1A9-52E0235E",
+            "InternalVariableName": "PalSpeedCollision"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_2",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalBodyPartsCapsuleComponent'BP_GoldenHorse_C:PalBodyPartsCapsule1_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.8"
+            },
+            "AttachToName": "neck_01",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "8184CE82-45E906AB-69D0B388-D4AC21C7",
+            "InternalVariableName": "PalBodyPartsCapsule1"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_3",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalBodyPartsCapsuleComponent'BP_GoldenHorse_C:PalBodyPartsCapsule_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.16"
+            },
+            "AttachToName": "head",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "E86E3892-41CAA09B-16430787-73E1CE33",
+            "InternalVariableName": "PalBodyPartsCapsule"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_4",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalBodyPartsCapsuleComponent'BP_GoldenHorse_C:PalBodyPartsCapsule2_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.9"
+            },
+            "AttachToName": "pelvis",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "8CE20C36-42F077AB-60E678A9-4036701F",
+            "InternalVariableName": "PalBodyPartsCapsule2"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_5",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalBodyPartsCapsuleComponent'BP_GoldenHorse_C:PalBodyPartsCapsule3_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.10"
+            },
+            "AttachToName": "leg_front_02_l",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "D169D583-446CF695-1AAB90AE-2C68AFAB",
+            "InternalVariableName": "PalBodyPartsCapsule3"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_6",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalBodyPartsCapsuleComponent'BP_GoldenHorse_C:PalBodyPartsCapsule4_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.11"
+            },
+            "AttachToName": "leg_front_02_r",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "CB38EA27-4D601327-11BDA7BE-4AAA827D",
+            "InternalVariableName": "PalBodyPartsCapsule4"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_7",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalBodyPartsCapsuleComponent'BP_GoldenHorse_C:PalBodyPartsCapsule5_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.12"
+            },
+            "AttachToName": "leg_back_02_l",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "51E8B419-4BE5EB31-46F4D7B2-41F756EA",
+            "InternalVariableName": "PalBodyPartsCapsule5"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_8",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalBodyPartsCapsuleComponent'BP_GoldenHorse_C:PalBodyPartsCapsule6_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.13"
+            },
+            "AttachToName": "leg_back_02_r",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "412C6524-4387AC71-D206ED9C-B715B244",
+            "InternalVariableName": "PalBodyPartsCapsule6"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_9",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalBodyPartsCapsuleComponent'BP_GoldenHorse_C:PalBodyPartsCapsule7_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.14"
+            },
+            "AttachToName": "leg_back_03_l",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "2F481D79-4B0DD78A-69ED27B0-194249E6",
+            "InternalVariableName": "PalBodyPartsCapsule7"
+        }
+    },
+    {
+        "Type": "SimpleConstructionScript",
+        "Name": "SimpleConstructionScript_0",
+        "Outer": "BP_GoldenHorse_C",
+        "Class": "UScriptClass'SimpleConstructionScript'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "RootNodes": [
+                {
+                    "ObjectName": "SCS_Node'BP_GoldenHorse_C:SimpleConstructionScript_0.SCS_Node_1'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.35"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_GoldenHorse_C:SimpleConstructionScript_0.SCS_Node_3'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.39"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_GoldenHorse_C:SimpleConstructionScript_0.SCS_Node_2'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.38"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_GoldenHorse_C:SimpleConstructionScript_0.SCS_Node_4'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.40"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_GoldenHorse_C:SimpleConstructionScript_0.SCS_Node_5'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.41"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_GoldenHorse_C:SimpleConstructionScript_0.SCS_Node_6'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.42"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_GoldenHorse_C:SimpleConstructionScript_0.SCS_Node_7'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.43"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_GoldenHorse_C:SimpleConstructionScript_0.SCS_Node_8'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.44"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_GoldenHorse_C:SimpleConstructionScript_0.SCS_Node_9'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.45"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_GoldenHorse_C:SimpleConstructionScript_0.SCS_Node_10'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.36"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_GoldenHorse_C:SimpleConstructionScript_0.SCS_Node_11'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.37"
+                }
+            ],
+            "AllNodes": [
+                {
+                    "ObjectName": "SCS_Node'BP_GoldenHorse_C:SimpleConstructionScript_0.SCS_Node_1'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.35"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_GoldenHorse_C:SimpleConstructionScript_0.SCS_Node_3'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.39"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_GoldenHorse_C:SimpleConstructionScript_0.SCS_Node_2'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.38"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_GoldenHorse_C:SimpleConstructionScript_0.SCS_Node_4'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.40"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_GoldenHorse_C:SimpleConstructionScript_0.SCS_Node_5'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.41"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_GoldenHorse_C:SimpleConstructionScript_0.SCS_Node_6'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.42"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_GoldenHorse_C:SimpleConstructionScript_0.SCS_Node_7'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.43"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_GoldenHorse_C:SimpleConstructionScript_0.SCS_Node_8'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.44"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_GoldenHorse_C:SimpleConstructionScript_0.SCS_Node_9'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.45"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_GoldenHorse_C:SimpleConstructionScript_0.SCS_Node_10'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.36"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_GoldenHorse_C:SimpleConstructionScript_0.SCS_Node_11'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.37"
+                }
+            ],
+            "DefaultSceneRootNode": {
+                "ObjectName": "SCS_Node'BP_GoldenHorse_C:SimpleConstructionScript_0.SCS_Node_0'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.34"
+            }
+        }
+    },
+    {
+        "Type": "SphereComponent",
+        "Name": "RagdollInteractiveSphere",
+        "Outer": "Default__BP_GoldenHorse_C",
+        "Class": "UScriptClass'SphereComponent'",
+        "Template": {
+            "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AttachParent": {
+                "ObjectName": "CapsuleComponent'Default__BP_GoldenHorse_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.4"
+            }
+        }
+    }
+]

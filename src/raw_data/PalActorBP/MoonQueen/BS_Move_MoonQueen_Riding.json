@@ -1,0 +1,111 @@
+[
+    {
+        "Type": "BlendSpace1D",
+        "Name": "BS_Move_MoonQueen_Riding",
+        "Class": "UScriptClass'BlendSpace1D'",
+        "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "TargetWeightInterpolationSpeedPerSec": 3.0,
+            "AnimLength": 4.266667,
+            "SampleData": [
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_MoonQueen_Run_Riding'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MoonQueen/AS_MoonQueen_Run_Riding.0"
+                    },
+                    "SampleValue": {
+                        "X": 450.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.1
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_MoonQueen_Walk_Riding'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MoonQueen/AS_MoonQueen_Walk_Riding.0"
+                    },
+                    "SampleValue": {
+                        "X": 150.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.2
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_MoonQueen_Walk_Riding'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MoonQueen/AS_MoonQueen_Walk_Riding.0"
+                    },
+                    "SampleValue": {
+                        "X": 3.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 0.2
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_MoonQueen_Idle'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MoonQueen/AS_MoonQueen_Idle.0"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_MoonQueen_Run_Riding'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MoonQueen/AS_MoonQueen_Run_Riding.0"
+                    },
+                    "SampleValue": {
+                        "X": 550.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 2.9
+                }
+            ],
+            "BlendSpaceData": {
+                "Segments": [
+                    {
+                        "SampleIndices": 3,
+                        "SampleIndices[1]": 2,
+                        "Vertices": 0.0,
+                        "Vertices[1]": 0.0054545454
+                    },
+                    {
+                        "SampleIndices": 2,
+                        "SampleIndices[1]": 1,
+                        "Vertices": 0.0054545454,
+                        "Vertices[1]": 0.27272728
+                    },
+                    {
+                        "SampleIndices": 1,
+                        "SampleIndices[1]": 0,
+                        "Vertices": 0.27272728,
+                        "Vertices[1]": 0.8181818
+                    },
+                    {
+                        "SampleIndices": 0,
+                        "SampleIndices[1]": 4,
+                        "Vertices": 0.8181818,
+                        "Vertices[1]": 1.0
+                    }
+                ]
+            },
+            "BlendParameters": {
+                "DisplayName": "Front",
+                "Max": 550.0
+            },
+            "Skeleton": {
+                "ObjectName": "Skeleton'SK_MoonQueen_Skeleton'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Skeleton/MoonQueen/SK_MoonQueen_Skeleton.4"
+            }
+        },
+        "SkeletonGuid": "D2584E80-4C2E3F54-DE715DAE-B55155D9"
+    }
+]

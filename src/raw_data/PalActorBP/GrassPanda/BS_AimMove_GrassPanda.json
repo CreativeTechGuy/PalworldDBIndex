@@ -1,0 +1,748 @@
+[
+    {
+        "Type": "BlendSpace",
+        "Name": "BS_AimMove_GrassPanda",
+        "Class": "UScriptClass'BlendSpace'",
+        "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "InterpolationParam": {
+                "InterpolationTime": 0.3,
+                "InterpolationType": "EFilterInterpolationType::BSIT_Cubic"
+            },
+            "InterpolationParam[1]": {
+                "InterpolationTime": 0.3,
+                "InterpolationType": "EFilterInterpolationType::BSIT_Cubic"
+            },
+            "AnimLength": 1.3333334,
+            "SampleData": [
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_GrassPanda_Aim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GrassPanda/AS_GrassPanda_Aim.0"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_GrassPanda_Aim_WalkFwd'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GrassPanda/AS_GrassPanda_Aim_WalkFwd.0"
+                    },
+                    "SampleValue": {
+                        "X": 100.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.1
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_GrassPanda_Aim_WalkBack'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GrassPanda/AS_GrassPanda_Aim_WalkBack.0"
+                    },
+                    "SampleValue": {
+                        "X": -100.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_GrassPanda_Aim_WalkRight'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GrassPanda/AS_GrassPanda_Aim_WalkRight.0"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": 100.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_GrassPanda_Aim_WalkLeft'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GrassPanda/AS_GrassPanda_Aim_WalkLeft.0"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": -100.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_GrassPanda_Aim_WalkBack'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GrassPanda/AS_GrassPanda_Aim_WalkBack.0"
+                    },
+                    "SampleValue": {
+                        "X": -200.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 2.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_GrassPanda_Aim_WalkFwd'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GrassPanda/AS_GrassPanda_Aim_WalkFwd.0"
+                    },
+                    "SampleValue": {
+                        "X": 200.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 2.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_GrassPanda_Aim_WalkRight'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GrassPanda/AS_GrassPanda_Aim_WalkRight.0"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": 200.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 2.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_GrassPanda_Aim_WalkLeft'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/GrassPanda/AS_GrassPanda_Aim_WalkLeft.0"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": -200.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 2.0
+                }
+            ],
+            "BlendSpaceData": {
+                "Triangles": [
+                    {
+                        "SampleIndices": 8,
+                        "SampleIndices[1]": 4,
+                        "SampleIndices[2]": 5,
+                        "Vertices": {
+                            "X": 0.5,
+                            "Y": 0.16666667
+                        },
+                        "Vertices[1]": {
+                            "X": 0.5,
+                            "Y": 0.33333334
+                        },
+                        "Vertices[2]": {
+                            "X": 0.16666667,
+                            "Y": 0.5
+                        },
+                        "EdgeInfo": {
+                            "Normal": {
+                                "X": 1.0,
+                                "Y": 0.0
+                            },
+                            "NeighbourTriangleIndex": 3,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        },
+                        "EdgeInfo[1]": {
+                            "Normal": {
+                                "X": 0.4472136,
+                                "Y": 0.8944272
+                            },
+                            "NeighbourTriangleIndex": 1,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        },
+                        "EdgeInfo[2]": {
+                            "Normal": {
+                                "X": -0.70710677,
+                                "Y": -0.70710677
+                            },
+                            "NeighbourTriangleIndex": -1,
+                            "AdjacentPerimeterTriangleIndices": 10,
+                            "AdjacentPerimeterTriangleIndices[1]": 5,
+                            "AdjacentPerimeterVertexIndices": 1,
+                            "AdjacentPerimeterVertexIndices[1]": 0
+                        }
+                    },
+                    {
+                        "SampleIndices": 4,
+                        "SampleIndices[1]": 2,
+                        "SampleIndices[2]": 5,
+                        "Vertices": {
+                            "X": 0.5,
+                            "Y": 0.33333334
+                        },
+                        "Vertices[1]": {
+                            "X": 0.33333334,
+                            "Y": 0.5
+                        },
+                        "Vertices[2]": {
+                            "X": 0.16666667,
+                            "Y": 0.5
+                        },
+                        "EdgeInfo": {
+                            "Normal": {
+                                "X": 0.70710677,
+                                "Y": 0.70710677
+                            },
+                            "NeighbourTriangleIndex": 2,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        },
+                        "EdgeInfo[1]": {
+                            "Normal": {
+                                "X": 0.0,
+                                "Y": 1.0
+                            },
+                            "NeighbourTriangleIndex": 6,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        },
+                        "EdgeInfo[2]": {
+                            "Normal": {
+                                "X": -0.4472136,
+                                "Y": -0.8944272
+                            },
+                            "NeighbourTriangleIndex": 0,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        }
+                    },
+                    {
+                        "SampleIndices": 4,
+                        "SampleIndices[1]": 0,
+                        "SampleIndices[2]": 2,
+                        "Vertices": {
+                            "X": 0.5,
+                            "Y": 0.33333334
+                        },
+                        "Vertices[1]": {
+                            "X": 0.5,
+                            "Y": 0.5
+                        },
+                        "Vertices[2]": {
+                            "X": 0.33333334,
+                            "Y": 0.5
+                        },
+                        "EdgeInfo": {
+                            "Normal": {
+                                "X": 1.0,
+                                "Y": 0.0
+                            },
+                            "NeighbourTriangleIndex": 4,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        },
+                        "EdgeInfo[1]": {
+                            "Normal": {
+                                "X": 0.0,
+                                "Y": 1.0
+                            },
+                            "NeighbourTriangleIndex": 7,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        },
+                        "EdgeInfo[2]": {
+                            "Normal": {
+                                "X": -0.70710677,
+                                "Y": -0.70710677
+                            },
+                            "NeighbourTriangleIndex": 1,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        }
+                    },
+                    {
+                        "SampleIndices": 8,
+                        "SampleIndices[1]": 1,
+                        "SampleIndices[2]": 4,
+                        "Vertices": {
+                            "X": 0.5,
+                            "Y": 0.16666667
+                        },
+                        "Vertices[1]": {
+                            "X": 0.6666667,
+                            "Y": 0.5
+                        },
+                        "Vertices[2]": {
+                            "X": 0.5,
+                            "Y": 0.33333334
+                        },
+                        "EdgeInfo": {
+                            "Normal": {
+                                "X": 0.8944272,
+                                "Y": -0.4472136
+                            },
+                            "NeighbourTriangleIndex": 5,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        },
+                        "EdgeInfo[1]": {
+                            "Normal": {
+                                "X": -0.70710677,
+                                "Y": 0.70710677
+                            },
+                            "NeighbourTriangleIndex": 4,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        },
+                        "EdgeInfo[2]": {
+                            "Normal": {
+                                "X": -1.0,
+                                "Y": 0.0
+                            },
+                            "NeighbourTriangleIndex": 0,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        }
+                    },
+                    {
+                        "SampleIndices": 4,
+                        "SampleIndices[1]": 1,
+                        "SampleIndices[2]": 0,
+                        "Vertices": {
+                            "X": 0.5,
+                            "Y": 0.33333334
+                        },
+                        "Vertices[1]": {
+                            "X": 0.6666667,
+                            "Y": 0.5
+                        },
+                        "Vertices[2]": {
+                            "X": 0.5,
+                            "Y": 0.5
+                        },
+                        "EdgeInfo": {
+                            "Normal": {
+                                "X": 0.70710677,
+                                "Y": -0.70710677
+                            },
+                            "NeighbourTriangleIndex": 3,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        },
+                        "EdgeInfo[1]": {
+                            "Normal": {
+                                "X": 0.0,
+                                "Y": 1.0
+                            },
+                            "NeighbourTriangleIndex": 8,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        },
+                        "EdgeInfo[2]": {
+                            "Normal": {
+                                "X": -1.0,
+                                "Y": 0.0
+                            },
+                            "NeighbourTriangleIndex": 2,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        }
+                    },
+                    {
+                        "SampleIndices": 8,
+                        "SampleIndices[1]": 6,
+                        "SampleIndices[2]": 1,
+                        "Vertices": {
+                            "X": 0.5,
+                            "Y": 0.16666667
+                        },
+                        "Vertices[1]": {
+                            "X": 0.8333333,
+                            "Y": 0.5
+                        },
+                        "Vertices[2]": {
+                            "X": 0.6666667,
+                            "Y": 0.5
+                        },
+                        "EdgeInfo": {
+                            "Normal": {
+                                "X": 0.70710677,
+                                "Y": -0.70710677
+                            },
+                            "NeighbourTriangleIndex": -1,
+                            "AdjacentPerimeterTriangleIndices": 0,
+                            "AdjacentPerimeterTriangleIndices[1]": 11,
+                            "AdjacentPerimeterVertexIndices": 2,
+                            "AdjacentPerimeterVertexIndices[1]": 0
+                        },
+                        "EdgeInfo[1]": {
+                            "Normal": {
+                                "X": 0.0,
+                                "Y": 1.0
+                            },
+                            "NeighbourTriangleIndex": 9,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        },
+                        "EdgeInfo[2]": {
+                            "Normal": {
+                                "X": -0.8944272,
+                                "Y": 0.4472136
+                            },
+                            "NeighbourTriangleIndex": 3,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        }
+                    },
+                    {
+                        "SampleIndices": 2,
+                        "SampleIndices[1]": 3,
+                        "SampleIndices[2]": 5,
+                        "Vertices": {
+                            "X": 0.33333334,
+                            "Y": 0.5
+                        },
+                        "Vertices[1]": {
+                            "X": 0.5,
+                            "Y": 0.6666667
+                        },
+                        "Vertices[2]": {
+                            "X": 0.16666667,
+                            "Y": 0.5
+                        },
+                        "EdgeInfo": {
+                            "Normal": {
+                                "X": 0.70710677,
+                                "Y": -0.70710677
+                            },
+                            "NeighbourTriangleIndex": 7,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        },
+                        "EdgeInfo[1]": {
+                            "Normal": {
+                                "X": -0.4472136,
+                                "Y": 0.8944272
+                            },
+                            "NeighbourTriangleIndex": 10,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        },
+                        "EdgeInfo[2]": {
+                            "Normal": {
+                                "X": 0.0,
+                                "Y": -1.0
+                            },
+                            "NeighbourTriangleIndex": 1,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        }
+                    },
+                    {
+                        "SampleIndices": 0,
+                        "SampleIndices[1]": 3,
+                        "SampleIndices[2]": 2,
+                        "Vertices": {
+                            "X": 0.5,
+                            "Y": 0.5
+                        },
+                        "Vertices[1]": {
+                            "X": 0.5,
+                            "Y": 0.6666667
+                        },
+                        "Vertices[2]": {
+                            "X": 0.33333334,
+                            "Y": 0.5
+                        },
+                        "EdgeInfo": {
+                            "Normal": {
+                                "X": 1.0,
+                                "Y": 0.0
+                            },
+                            "NeighbourTriangleIndex": 8,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        },
+                        "EdgeInfo[1]": {
+                            "Normal": {
+                                "X": -0.70710677,
+                                "Y": 0.70710677
+                            },
+                            "NeighbourTriangleIndex": 6,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        },
+                        "EdgeInfo[2]": {
+                            "Normal": {
+                                "X": 0.0,
+                                "Y": -1.0
+                            },
+                            "NeighbourTriangleIndex": 2,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        }
+                    },
+                    {
+                        "SampleIndices": 1,
+                        "SampleIndices[1]": 3,
+                        "SampleIndices[2]": 0,
+                        "Vertices": {
+                            "X": 0.6666667,
+                            "Y": 0.5
+                        },
+                        "Vertices[1]": {
+                            "X": 0.5,
+                            "Y": 0.6666667
+                        },
+                        "Vertices[2]": {
+                            "X": 0.5,
+                            "Y": 0.5
+                        },
+                        "EdgeInfo": {
+                            "Normal": {
+                                "X": 0.70710677,
+                                "Y": 0.70710677
+                            },
+                            "NeighbourTriangleIndex": 9,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        },
+                        "EdgeInfo[1]": {
+                            "Normal": {
+                                "X": -1.0,
+                                "Y": 0.0
+                            },
+                            "NeighbourTriangleIndex": 7,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        },
+                        "EdgeInfo[2]": {
+                            "Normal": {
+                                "X": 0.0,
+                                "Y": -1.0
+                            },
+                            "NeighbourTriangleIndex": 4,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        }
+                    },
+                    {
+                        "SampleIndices": 6,
+                        "SampleIndices[1]": 3,
+                        "SampleIndices[2]": 1,
+                        "Vertices": {
+                            "X": 0.8333333,
+                            "Y": 0.5
+                        },
+                        "Vertices[1]": {
+                            "X": 0.5,
+                            "Y": 0.6666667
+                        },
+                        "Vertices[2]": {
+                            "X": 0.6666667,
+                            "Y": 0.5
+                        },
+                        "EdgeInfo": {
+                            "Normal": {
+                                "X": 0.4472136,
+                                "Y": 0.8944272
+                            },
+                            "NeighbourTriangleIndex": 11,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        },
+                        "EdgeInfo[1]": {
+                            "Normal": {
+                                "X": -0.70710677,
+                                "Y": -0.70710677
+                            },
+                            "NeighbourTriangleIndex": 8,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        },
+                        "EdgeInfo[2]": {
+                            "Normal": {
+                                "X": 0.0,
+                                "Y": -1.0
+                            },
+                            "NeighbourTriangleIndex": 5,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        }
+                    },
+                    {
+                        "SampleIndices": 3,
+                        "SampleIndices[1]": 7,
+                        "SampleIndices[2]": 5,
+                        "Vertices": {
+                            "X": 0.5,
+                            "Y": 0.6666667
+                        },
+                        "Vertices[1]": {
+                            "X": 0.5,
+                            "Y": 0.8333333
+                        },
+                        "Vertices[2]": {
+                            "X": 0.16666667,
+                            "Y": 0.5
+                        },
+                        "EdgeInfo": {
+                            "Normal": {
+                                "X": 1.0,
+                                "Y": 0.0
+                            },
+                            "NeighbourTriangleIndex": 11,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        },
+                        "EdgeInfo[1]": {
+                            "Normal": {
+                                "X": -0.70710677,
+                                "Y": 0.70710677
+                            },
+                            "NeighbourTriangleIndex": -1,
+                            "AdjacentPerimeterTriangleIndices": 11,
+                            "AdjacentPerimeterTriangleIndices[1]": 0,
+                            "AdjacentPerimeterVertexIndices": 0,
+                            "AdjacentPerimeterVertexIndices[1]": 2
+                        },
+                        "EdgeInfo[2]": {
+                            "Normal": {
+                                "X": 0.4472136,
+                                "Y": -0.8944272
+                            },
+                            "NeighbourTriangleIndex": 6,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        }
+                    },
+                    {
+                        "SampleIndices": 6,
+                        "SampleIndices[1]": 7,
+                        "SampleIndices[2]": 3,
+                        "Vertices": {
+                            "X": 0.8333333,
+                            "Y": 0.5
+                        },
+                        "Vertices[1]": {
+                            "X": 0.5,
+                            "Y": 0.8333333
+                        },
+                        "Vertices[2]": {
+                            "X": 0.5,
+                            "Y": 0.6666667
+                        },
+                        "EdgeInfo": {
+                            "Normal": {
+                                "X": 0.70710677,
+                                "Y": 0.70710677
+                            },
+                            "NeighbourTriangleIndex": -1,
+                            "AdjacentPerimeterTriangleIndices": 5,
+                            "AdjacentPerimeterTriangleIndices[1]": 10,
+                            "AdjacentPerimeterVertexIndices": 0,
+                            "AdjacentPerimeterVertexIndices[1]": 1
+                        },
+                        "EdgeInfo[1]": {
+                            "Normal": {
+                                "X": -1.0,
+                                "Y": 0.0
+                            },
+                            "NeighbourTriangleIndex": 10,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        },
+                        "EdgeInfo[2]": {
+                            "Normal": {
+                                "X": -0.4472136,
+                                "Y": -0.8944272
+                            },
+                            "NeighbourTriangleIndex": 9,
+                            "AdjacentPerimeterTriangleIndices": -1,
+                            "AdjacentPerimeterTriangleIndices[1]": -1,
+                            "AdjacentPerimeterVertexIndices": -1,
+                            "AdjacentPerimeterVertexIndices[1]": -1
+                        }
+                    }
+                ]
+            },
+            "BlendParameters": {
+                "DisplayName": "Front",
+                "Min": -300.0,
+                "Max": 300.0
+            },
+            "BlendParameters[1]": {
+                "DisplayName": "LeftRight",
+                "Min": -300.0,
+                "Max": 300.0
+            },
+            "Skeleton": {
+                "ObjectName": "Skeleton'SK_GrassPanda_Skeleton'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Skeleton/GrassPanda/SK_GrassPanda_Skeleton.9"
+            }
+        },
+        "SkeletonGuid": "42980989-42295E43-E390F49E-EC261439"
+    }
+]

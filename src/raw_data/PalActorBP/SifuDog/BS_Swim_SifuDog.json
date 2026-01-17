@@ -1,0 +1,75 @@
+[
+    {
+        "Type": "BlendSpace1D",
+        "Name": "BS_Swim_SifuDog",
+        "Class": "UScriptClass'BlendSpace1D'",
+        "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "TargetWeightInterpolationSpeedPerSec": 3.0,
+            "AnimLength": 2.6666667,
+            "SampleData": [
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_SifuDog_Walk'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SifuDog/AS_SifuDog_Walk.0"
+                    },
+                    "SampleValue": {
+                        "X": 550.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 3.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_SifuDog_Idle_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SifuDog/AS_SifuDog_Idle_Swim.0"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_SifuDog_Idle_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SifuDog/AS_SifuDog_Idle_Swim.0"
+                    },
+                    "SampleValue": {
+                        "X": 275.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 3.0
+                }
+            ],
+            "BlendSpaceData": {
+                "Segments": [
+                    {
+                        "SampleIndices": 1,
+                        "SampleIndices[1]": 2,
+                        "Vertices": 0.0,
+                        "Vertices[1]": 0.5
+                    },
+                    {
+                        "SampleIndices": 2,
+                        "SampleIndices[1]": 0,
+                        "Vertices": 0.5,
+                        "Vertices[1]": 1.0
+                    }
+                ]
+            },
+            "BlendParameters": {
+                "DisplayName": "Front",
+                "Max": 550.0
+            },
+            "Skeleton": {
+                "ObjectName": "Skeleton'SK_SifuDog_Skeleton'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Skeleton/SifuDog/SK_SifuDog_Skeleton.3"
+            }
+        },
+        "SkeletonGuid": "9213A8AA-42500F51-156B0185-00FC0EB6"
+    }
+]

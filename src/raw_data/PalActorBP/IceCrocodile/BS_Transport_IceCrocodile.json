@@ -1,0 +1,93 @@
+[
+    {
+        "Type": "BlendSpace1D",
+        "Name": "BS_Transport_IceCrocodile",
+        "Class": "UScriptClass'BlendSpace1D'",
+        "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "TargetWeightInterpolationSpeedPerSec": 3.0,
+            "AnimLength": 6.0,
+            "SampleData": [
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_IceCrocodile_Transport'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/IceCrocodile/AS_IceCrocodile_Transport.0"
+                    },
+                    "SampleValue": {
+                        "X": 5.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 0.1725
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_IceCrocodile_Transport'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/IceCrocodile/AS_IceCrocodile_Transport.0"
+                    },
+                    "SampleValue": {
+                        "X": 40.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_IceCrocodile_Transport'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/IceCrocodile/AS_IceCrocodile_Transport.0"
+                    },
+                    "SampleValue": {
+                        "X": 240.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 6.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_IceCrocodile_Idle'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/IceCrocodile/AS_IceCrocodile_Idle.0"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                }
+            ],
+            "BlendSpaceData": {
+                "Segments": [
+                    {
+                        "SampleIndices": 3,
+                        "SampleIndices[1]": 0,
+                        "Vertices": 0.0,
+                        "Vertices[1]": 0.020833334
+                    },
+                    {
+                        "SampleIndices": 0,
+                        "SampleIndices[1]": 1,
+                        "Vertices": 0.020833334,
+                        "Vertices[1]": 0.16666667
+                    },
+                    {
+                        "SampleIndices": 1,
+                        "SampleIndices[1]": 2,
+                        "Vertices": 0.16666667,
+                        "Vertices[1]": 1.0
+                    }
+                ]
+            },
+            "BlendParameters": {
+                "DisplayName": "Front",
+                "Max": 240.0
+            },
+            "Skeleton": {
+                "ObjectName": "Skeleton'SK_IceCrocodile_Skeleton'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Skeleton/IceCrocodile/SK_IceCrocodile_Skeleton.4"
+            }
+        },
+        "SkeletonGuid": "662C8529-416D19E6-C6D2678F-C5BCD010"
+    }
+]

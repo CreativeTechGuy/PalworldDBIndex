@@ -1,0 +1,93 @@
+[
+    {
+        "Type": "BlendSpace1D",
+        "Name": "BS_Transport_HoodGhost",
+        "Class": "UScriptClass'BlendSpace1D'",
+        "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "TargetWeightInterpolationSpeedPerSec": 3.0,
+            "AnimLength": 2.0,
+            "SampleData": [
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_HoodGhost_Idle'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/HoodGhost/AS_HoodGhost_Idle"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_HoodGhost_Transport'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/HoodGhost/AS_HoodGhost_Transport"
+                    },
+                    "SampleValue": {
+                        "X": 200.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_HoodGhost_Transport'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/HoodGhost/AS_HoodGhost_Transport"
+                    },
+                    "SampleValue": {
+                        "X": 400.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.5
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_HoodGhost_Transport'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/HoodGhost/AS_HoodGhost_Transport"
+                    },
+                    "SampleValue": {
+                        "X": 1.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 0.5
+                }
+            ],
+            "BlendSpaceData": {
+                "Segments": [
+                    {
+                        "SampleIndices": 0,
+                        "SampleIndices[1]": 3,
+                        "Vertices": 0.0,
+                        "Vertices[1]": 0.0025
+                    },
+                    {
+                        "SampleIndices": 3,
+                        "SampleIndices[1]": 1,
+                        "Vertices": 0.0025,
+                        "Vertices[1]": 0.5
+                    },
+                    {
+                        "SampleIndices": 1,
+                        "SampleIndices[1]": 2,
+                        "Vertices": 0.5,
+                        "Vertices[1]": 1.0
+                    }
+                ]
+            },
+            "BlendParameters": {
+                "DisplayName": "Front",
+                "Max": 400.0
+            },
+            "Skeleton": {
+                "ObjectName": "Skeleton'SK_HoodGhost_Skeleton'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Skeleton/HoodGhost/SK_HoodGhost_Skeleton.3"
+            }
+        },
+        "SkeletonGuid": "293DDDD6-42D83ADC-A82120A9-A09251D5"
+    }
+]

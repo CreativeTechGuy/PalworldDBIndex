@@ -1,0 +1,980 @@
+[
+    {
+        "Type": "BlueprintGeneratedClass",
+        "Name": "BP_Horus_Oilrig_C",
+        "Class": "UScriptClass'BlueprintGeneratedClass'",
+        "Super": {
+            "ObjectName": "BlueprintGeneratedClass'BP_Horus_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.0"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "SimpleConstructionScript": {
+                "ObjectName": "SimpleConstructionScript'BP_Horus_Oilrig_C:SimpleConstructionScript_0'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.36"
+            },
+            "InheritableComponentHandler": {
+                "ObjectName": "InheritableComponentHandler'BP_Horus_Oilrig_C:InheritableComponentHandler'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.4"
+            }
+        },
+        "SuperStruct": {
+            "ObjectName": "BlueprintGeneratedClass'BP_Horus_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.0"
+        },
+        "ChildProperties": [
+            {
+                "Type": "ObjectProperty",
+                "Name": "BP_PalRideMarkerBiggerHorse1",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "BlueprintGeneratedClass'BP_PalRideMarkerBiggerHorse_C'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerBiggerHorse.0"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalSpeedCollision_0",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalSpeedCollisionComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalBodyPartsCapsule3_0",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalBodyPartsCapsule2_0",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalBodyPartsCapsule1_0",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalBodyPartsCapsule_0",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalBodyPartsSphere_0",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalBodyPartsSphereComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            }
+        ],
+        "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+        "ClassWithin": {
+            "ObjectName": "Class'Object'",
+            "ObjectPath": "/Script/CoreUObject"
+        },
+        "ClassConfigName": "Game",
+        "bCooked": true,
+        "ClassDefaultObject": {
+            "ObjectName": "BP_Horus_Oilrig_C'Default__BP_Horus_Oilrig_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.1"
+        },
+        "EditorTags": {
+            "BlueprintType": "BPTYPE_Normal"
+        }
+    },
+    {
+        "Type": "BP_Horus_Oilrig_C",
+        "Name": "Default__BP_Horus_Oilrig_C",
+        "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.BP_Horus_Oilrig_C'",
+        "Template": {
+            "ObjectName": "BP_Horus_C'Default__BP_Horus_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.1"
+        },
+        "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "LiftupObjectComponent": {
+                "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_Horus_Oilrig_C:Liftup'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.14"
+            },
+            "ActionComponent": {
+                "ObjectName": "PalActionComponent'Default__BP_Horus_Oilrig_C:ActionComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.5"
+            },
+            "CharacterParameterComponent": {
+                "ObjectName": "PalCharacterParameterComponent'Default__BP_Horus_Oilrig_C:CharacterParameterComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.16"
+            },
+            "StaticCharacterParameterComponent": {
+                "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_Horus_Oilrig_C:StaticCharacterParameterComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.24"
+            },
+            "DamageReactionComponent": {
+                "ObjectName": "PalDamageReactionComponent'Default__BP_Horus_Oilrig_C:DamageReactionComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.17"
+            },
+            "StatusComponent": {
+                "ObjectName": "PalStatusComponent'Default__BP_Horus_Oilrig_C:StatusComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.25"
+            },
+            "CameraBoom": {
+                "ObjectName": "PalShooterSpringArmComponent'Default__BP_Horus_Oilrig_C:CameraBoom'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.21"
+            },
+            "FollowCamera": {
+                "ObjectName": "PalCharacterCameraComponent'Default__BP_Horus_Oilrig_C:FollowCamera'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.13"
+            },
+            "LookAtComponent": {
+                "ObjectName": "PalLookAtComponent'Default__BP_Horus_Oilrig_C:LookAtComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.19"
+            },
+            "FootIKComponent": {
+                "ObjectName": "PalFootIKComponent'Default__BP_Horus_Oilrig_C:FootIKComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.18"
+            },
+            "VisualEffectComponent": {
+                "ObjectName": "PalVisualEffectComponent'Default__BP_Horus_Oilrig_C:VisualEffectComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.26"
+            },
+            "PassiveSkillComponent": {
+                "ObjectName": "PalPassiveSkillComponent'Default__BP_Horus_Oilrig_C:PassiveSkillComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.20"
+            },
+            "AnimNotifyComponent": {
+                "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_Horus_Oilrig_C:AnimNotifyComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.6"
+            },
+            "AroundInfoCollectorComponent": {
+                "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_Horus_Oilrig_C:AroundInfoCollectorComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.12"
+            },
+            "RagdollInteractiveSphere": {
+                "ObjectName": "SphereComponent'Default__BP_Horus_Oilrig_C:RagdollInteractiveSphere'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.37"
+            },
+            "Mesh": {
+                "ObjectName": "PalSkeletalMeshComponent'Default__BP_Horus_Oilrig_C:CharacterMesh0'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.22"
+            },
+            "CharacterMovement": {
+                "ObjectName": "PalCharacterMovementComponent'Default__BP_Horus_Oilrig_C:CharMoveComp'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.15"
+            },
+            "CapsuleComponent": {
+                "ObjectName": "CapsuleComponent'Default__BP_Horus_Oilrig_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.3"
+            },
+            "RootComponent": {
+                "ObjectName": "CapsuleComponent'Default__BP_Horus_Oilrig_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.3"
+            }
+        }
+    },
+    {
+        "Type": "BP_PalRideMarkerBiggerHorse_C",
+        "Name": "BP_PalRideMarkerBiggerHorse1_GEN_VARIABLE",
+        "Outer": "BP_Horus_Oilrig_C",
+        "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerBiggerHorse.BP_PalRideMarkerBiggerHorse_C'",
+        "Template": {
+            "ObjectName": "BP_PalRideMarkerBiggerHorse_C'Default__BP_PalRideMarkerBiggerHorse_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerBiggerHorse.1"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "RelativeLocation": {
+                "X": -20.0,
+                "Y": -70.0,
+                "Z": 0.0
+            },
+            "RelativeRotation": {
+                "Pitch": 270.0,
+                "Yaw": 0.0,
+                "Roll": -0.0
+            }
+        }
+    },
+    {
+        "Type": "CapsuleComponent",
+        "Name": "CollisionCylinder",
+        "Outer": "Default__BP_Horus_Oilrig_C",
+        "Class": "UScriptClass'CapsuleComponent'",
+        "Template": {
+            "ObjectName": "CapsuleComponent'Default__BP_Horus_C:CollisionCylinder'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.4"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "InheritableComponentHandler",
+        "Name": "InheritableComponentHandler",
+        "Outer": "BP_Horus_Oilrig_C",
+        "Class": "UScriptClass'InheritableComponentHandler'",
+        "Flags": "RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalActionComponent",
+        "Name": "ActionComponent",
+        "Outer": "Default__BP_Horus_Oilrig_C",
+        "Class": "UScriptClass'PalActionComponent'",
+        "Template": {
+            "ObjectName": "PalActionComponent'Default__BP_Horus_C:ActionComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.6"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalAnimNotifyParameterComponent",
+        "Name": "AnimNotifyComponent",
+        "Outer": "Default__BP_Horus_Oilrig_C",
+        "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+        "Template": {
+            "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_Horus_C:AnimNotifyComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.7"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalBodyPartsCapsuleComponent",
+        "Name": "PalBodyPartsCapsule1_0_GEN_VARIABLE",
+        "Outer": "BP_Horus_Oilrig_C",
+        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AreaClassOverride": {
+                "ObjectName": "Class'NavArea_Obstacle'",
+                "ObjectPath": "/Script/NavigationSystem"
+            },
+            "bUseSystemDefaultObstacleAreaClass": false,
+            "BodyInstance": {
+                "CollisionProfileName": "PawnParts_NonBlock",
+                "CollisionResponses": {
+                    "ResponseArray": [
+                        {
+                            "Channel": "WorldStatic",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "WorldDynamic",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "Pawn",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "Visibility",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "Camera",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "PhysicsBody",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "Vehicle",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "Destructible",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "PlayerPawn",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "SystemVolume",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        }
+                    ]
+                }
+            },
+            "RelativeLocation": {
+                "X": 27.306286,
+                "Y": 83.19246,
+                "Z": 0.28140894
+            },
+            "RelativeRotation": {
+                "Pitch": 89.44547,
+                "Yaw": -175.35146,
+                "Roll": 173.21635
+            },
+            "RelativeScale3D": {
+                "X": 3.994725,
+                "Y": 4.355549,
+                "Z": 4.6613812
+            }
+        }
+    },
+    {
+        "Type": "PalBodyPartsCapsuleComponent",
+        "Name": "PalBodyPartsCapsule2_0_GEN_VARIABLE",
+        "Outer": "BP_Horus_Oilrig_C",
+        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AreaClassOverride": {
+                "ObjectName": "Class'NavArea_Obstacle'",
+                "ObjectPath": "/Script/NavigationSystem"
+            },
+            "bUseSystemDefaultObstacleAreaClass": false,
+            "BodyInstance": {
+                "CollisionProfileName": "PawnParts_NonBlock",
+                "CollisionResponses": {
+                    "ResponseArray": [
+                        {
+                            "Channel": "WorldStatic",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "WorldDynamic",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "Pawn",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "Visibility",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "Camera",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "PhysicsBody",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "Vehicle",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "Destructible",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "PlayerPawn",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "SystemVolume",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        }
+                    ]
+                }
+            },
+            "RelativeLocation": {
+                "X": -66.43613,
+                "Y": -83.803085,
+                "Z": -0.75389117
+            },
+            "RelativeRotation": {
+                "Pitch": 89.44547,
+                "Yaw": -175.35146,
+                "Roll": 173.21635
+            },
+            "RelativeScale3D": {
+                "X": 3.994725,
+                "Y": 4.355549,
+                "Z": 4.6613812
+            }
+        }
+    },
+    {
+        "Type": "PalBodyPartsCapsuleComponent",
+        "Name": "PalBodyPartsCapsule3_0_GEN_VARIABLE",
+        "Outer": "BP_Horus_Oilrig_C",
+        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AreaClassOverride": {
+                "ObjectName": "Class'NavArea_Obstacle'",
+                "ObjectPath": "/Script/NavigationSystem"
+            },
+            "bUseSystemDefaultObstacleAreaClass": false,
+            "RelativeLocation": {
+                "X": 138.19324,
+                "Y": -18.947193,
+                "Z": 1.5701283
+            },
+            "RelativeRotation": {
+                "Pitch": 89.083755,
+                "Yaw": -181.98547,
+                "Roll": 182.24013
+            },
+            "RelativeScale3D": {
+                "X": 3.994725,
+                "Y": 4.355549,
+                "Z": 4.6613812
+            }
+        }
+    },
+    {
+        "Type": "PalBodyPartsCapsuleComponent",
+        "Name": "PalBodyPartsCapsule_0_GEN_VARIABLE",
+        "Outer": "BP_Horus_Oilrig_C",
+        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AreaClassOverride": {
+                "ObjectName": "Class'NavArea_Obstacle'",
+                "ObjectPath": "/Script/NavigationSystem"
+            },
+            "bUseSystemDefaultObstacleAreaClass": false,
+            "RelativeRotation": {
+                "Pitch": 84.34075,
+                "Yaw": 377.11884,
+                "Roll": 51.46399
+            },
+            "RelativeScale3D": {
+                "X": -3.0319388,
+                "Y": -3.0319388,
+                "Z": -3.0319388
+            }
+        }
+    },
+    {
+        "Type": "PalBodyPartsSphereComponent",
+        "Name": "PalBodyPartsSphere_0_GEN_VARIABLE",
+        "Outer": "BP_Horus_Oilrig_C",
+        "Class": "UScriptClass'PalBodyPartsSphereComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "BodyPartsType": "EPalBodyPartsType::Weak",
+            "AreaClassOverride": {
+                "ObjectName": "Class'NavArea_Obstacle'",
+                "ObjectPath": "/Script/NavigationSystem"
+            },
+            "bUseSystemDefaultObstacleAreaClass": false,
+            "RelativeLocation": {
+                "X": 17.82915,
+                "Y": -4.9737205e-14,
+                "Z": 4.9660034e-8
+            },
+            "RelativeRotation": {
+                "Pitch": 0.0,
+                "Yaw": 1.4559424e-17,
+                "Roll": -0.0
+            },
+            "RelativeScale3D": {
+                "X": -2.4324107,
+                "Y": -2.4324107,
+                "Z": -2.4324107
+            }
+        }
+    },
+    {
+        "Type": "PalCharacterAroundInfoCollectorComponent",
+        "Name": "AroundInfoCollectorComponent",
+        "Outer": "Default__BP_Horus_Oilrig_C",
+        "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_Horus_C:AroundInfoCollectorComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.13"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AttachParent": {
+                "ObjectName": "CapsuleComponent'Default__BP_Horus_Oilrig_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.3"
+            }
+        }
+    },
+    {
+        "Type": "PalCharacterCameraComponent",
+        "Name": "FollowCamera",
+        "Outer": "Default__BP_Horus_Oilrig_C",
+        "Class": "UScriptClass'PalCharacterCameraComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterCameraComponent'Default__BP_Horus_C:FollowCamera'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.14"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AttachParent": {
+                "ObjectName": "PalShooterSpringArmComponent'Default__BP_Horus_Oilrig_C:CameraBoom'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.21"
+            }
+        }
+    },
+    {
+        "Type": "PalCharacterLiftupObjectComponent",
+        "Name": "Liftup",
+        "Outer": "Default__BP_Horus_Oilrig_C",
+        "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_Horus_C:Liftup'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.15"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalCharacterMovementComponent",
+        "Name": "CharMoveComp",
+        "Outer": "Default__BP_Horus_Oilrig_C",
+        "Class": "UScriptClass'PalCharacterMovementComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterMovementComponent'Default__BP_Horus_C:CharMoveComp'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.16"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalCharacterParameterComponent",
+        "Name": "CharacterParameterComponent",
+        "Outer": "Default__BP_Horus_Oilrig_C",
+        "Class": "UScriptClass'PalCharacterParameterComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterParameterComponent'Default__BP_Horus_C:CharacterParameterComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.17"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalDamageReactionComponent",
+        "Name": "DamageReactionComponent",
+        "Outer": "Default__BP_Horus_Oilrig_C",
+        "Class": "UScriptClass'PalDamageReactionComponent'",
+        "Template": {
+            "ObjectName": "PalDamageReactionComponent'Default__BP_Horus_C:DamageReactionComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.18"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalFootIKComponent",
+        "Name": "FootIKComponent",
+        "Outer": "Default__BP_Horus_Oilrig_C",
+        "Class": "UScriptClass'PalFootIKComponent'",
+        "Template": {
+            "ObjectName": "PalFootIKComponent'Default__BP_Horus_C:FootIKComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.20"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalLookAtComponent",
+        "Name": "LookAtComponent",
+        "Outer": "Default__BP_Horus_Oilrig_C",
+        "Class": "UScriptClass'PalLookAtComponent'",
+        "Template": {
+            "ObjectName": "PalLookAtComponent'Default__BP_Horus_C:LookAtComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.22"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalPassiveSkillComponent",
+        "Name": "PassiveSkillComponent",
+        "Outer": "Default__BP_Horus_Oilrig_C",
+        "Class": "UScriptClass'PalPassiveSkillComponent'",
+        "Template": {
+            "ObjectName": "PalPassiveSkillComponent'Default__BP_Horus_C:PassiveSkillComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.24"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalShooterSpringArmComponent",
+        "Name": "CameraBoom",
+        "Outer": "Default__BP_Horus_Oilrig_C",
+        "Class": "UScriptClass'PalShooterSpringArmComponent'",
+        "Template": {
+            "ObjectName": "PalShooterSpringArmComponent'Default__BP_Horus_C:CameraBoom'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.25"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AttachParent": {
+                "ObjectName": "CapsuleComponent'Default__BP_Horus_Oilrig_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.3"
+            }
+        }
+    },
+    {
+        "Type": "PalSkeletalMeshComponent",
+        "Name": "CharacterMesh0",
+        "Outer": "Default__BP_Horus_Oilrig_C",
+        "Class": "UScriptClass'PalSkeletalMeshComponent'",
+        "Template": {
+            "ObjectName": "PalSkeletalMeshComponent'Default__BP_Horus_C:CharacterMesh0'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.26"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AttachParent": {
+                "ObjectName": "CapsuleComponent'Default__BP_Horus_Oilrig_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.3"
+            }
+        }
+    },
+    {
+        "Type": "PalSpeedCollisionComponent",
+        "Name": "PalSpeedCollision_0_GEN_VARIABLE",
+        "Outer": "BP_Horus_Oilrig_C",
+        "Class": "UScriptClass'PalSpeedCollisionComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AreaClassOverride": {
+                "ObjectName": "Class'NavArea_Obstacle'",
+                "ObjectPath": "/Script/NavigationSystem"
+            },
+            "bUseSystemDefaultObstacleAreaClass": false,
+            "RelativeLocation": {
+                "X": 6.577882e-13,
+                "Y": 180.20279,
+                "Z": 367.11444
+            },
+            "RelativeScale3D": {
+                "X": 7.14777,
+                "Y": 10.098184,
+                "Z": 7.14777
+            }
+        }
+    },
+    {
+        "Type": "PalStaticCharacterParameterComponent",
+        "Name": "StaticCharacterParameterComponent",
+        "Outer": "Default__BP_Horus_Oilrig_C",
+        "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+        "Template": {
+            "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_Horus_C:StaticCharacterParameterComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.28"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "IsUncapturable": true
+        }
+    },
+    {
+        "Type": "PalStatusComponent",
+        "Name": "StatusComponent",
+        "Outer": "Default__BP_Horus_Oilrig_C",
+        "Class": "UScriptClass'PalStatusComponent'",
+        "Template": {
+            "ObjectName": "PalStatusComponent'Default__BP_Horus_C:StatusComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.29"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalVisualEffectComponent",
+        "Name": "VisualEffectComponent",
+        "Outer": "Default__BP_Horus_Oilrig_C",
+        "Class": "UScriptClass'PalVisualEffectComponent'",
+        "Template": {
+            "ObjectName": "PalVisualEffectComponent'Default__BP_Horus_C:VisualEffectComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.30"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "SceneComponent",
+        "Name": "DefaultSceneRoot_GEN_VARIABLE",
+        "Outer": "BP_Horus_Oilrig_C",
+        "Class": "UScriptClass'SceneComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_0",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'SceneComponent'",
+                "ObjectPath": "/Script/Engine"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "SceneComponent'BP_Horus_Oilrig_C:DefaultSceneRoot_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.27"
+            },
+            "VariableGuid": "60ABCA30-42669C47-FB4856B4-906214DB",
+            "InternalVariableName": "DefaultSceneRoot"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_2",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalBodyPartsSphereComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalBodyPartsSphereComponent'BP_Horus_Oilrig_C:PalBodyPartsSphere_0_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.11"
+            },
+            "AttachToName": "head",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "7D10EC67-43ECC56E-A58619A6-835523D0",
+            "InternalVariableName": "PalBodyPartsSphere_0"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_3",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalBodyPartsCapsuleComponent'BP_Horus_Oilrig_C:PalBodyPartsCapsule_0_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.10"
+            },
+            "AttachToName": "pelvis",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "C03825BE-4E34D0B3-4C0EB09A-82279F38",
+            "InternalVariableName": "PalBodyPartsCapsule_0"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_4",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalBodyPartsCapsuleComponent'BP_Horus_Oilrig_C:PalBodyPartsCapsule1_0_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.7"
+            },
+            "AttachToName": "wing_03_l",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "059E9F9C-4C7783BE-9898C89F-BE2D4E0E",
+            "InternalVariableName": "PalBodyPartsCapsule1_0"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_5",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalBodyPartsCapsuleComponent'BP_Horus_Oilrig_C:PalBodyPartsCapsule2_0_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.8"
+            },
+            "AttachToName": "wing_03_r",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "B4F5D226-4C3DDAED-DBF7F5A8-3F97EDE6",
+            "InternalVariableName": "PalBodyPartsCapsule2_0"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_6",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalBodyPartsCapsuleComponent'BP_Horus_Oilrig_C:PalBodyPartsCapsule3_0_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.9"
+            },
+            "AttachToName": "tail_A_02",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "A8F22E42-4F16E260-7E562AAA-B5674291",
+            "InternalVariableName": "PalBodyPartsCapsule3_0"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_7",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalSpeedCollisionComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalSpeedCollisionComponent'BP_Horus_Oilrig_C:PalSpeedCollision_0_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.23"
+            },
+            "AttachToName": "root",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "B6478001-4314DF37-B823DD98-3B0F8123",
+            "InternalVariableName": "PalSpeedCollision_0"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_8",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "BlueprintGeneratedClass'BP_PalRideMarkerBiggerHorse_C'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerBiggerHorse.0"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "BP_PalRideMarkerBiggerHorse_C'BP_Horus_Oilrig_C:BP_PalRideMarkerBiggerHorse1_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.2"
+            },
+            "AttachToName": "spine_02",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "60C32DF6-4BAFA528-164AE797-29BCA75F",
+            "InternalVariableName": "BP_PalRideMarkerBiggerHorse1"
+        }
+    },
+    {
+        "Type": "SimpleConstructionScript",
+        "Name": "SimpleConstructionScript_0",
+        "Outer": "BP_Horus_Oilrig_C",
+        "Class": "UScriptClass'SimpleConstructionScript'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "RootNodes": [
+                {
+                    "ObjectName": "SCS_Node'BP_Horus_Oilrig_C:SimpleConstructionScript_0.SCS_Node_2'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.29"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_Horus_Oilrig_C:SimpleConstructionScript_0.SCS_Node_3'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.30"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_Horus_Oilrig_C:SimpleConstructionScript_0.SCS_Node_4'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.31"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_Horus_Oilrig_C:SimpleConstructionScript_0.SCS_Node_5'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.32"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_Horus_Oilrig_C:SimpleConstructionScript_0.SCS_Node_6'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.33"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_Horus_Oilrig_C:SimpleConstructionScript_0.SCS_Node_7'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.34"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_Horus_Oilrig_C:SimpleConstructionScript_0.SCS_Node_8'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.35"
+                }
+            ],
+            "AllNodes": [
+                {
+                    "ObjectName": "SCS_Node'BP_Horus_Oilrig_C:SimpleConstructionScript_0.SCS_Node_2'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.29"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_Horus_Oilrig_C:SimpleConstructionScript_0.SCS_Node_3'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.30"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_Horus_Oilrig_C:SimpleConstructionScript_0.SCS_Node_4'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.31"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_Horus_Oilrig_C:SimpleConstructionScript_0.SCS_Node_5'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.32"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_Horus_Oilrig_C:SimpleConstructionScript_0.SCS_Node_6'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.33"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_Horus_Oilrig_C:SimpleConstructionScript_0.SCS_Node_7'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.34"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_Horus_Oilrig_C:SimpleConstructionScript_0.SCS_Node_8'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.35"
+                }
+            ],
+            "DefaultSceneRootNode": {
+                "ObjectName": "SCS_Node'BP_Horus_Oilrig_C:SimpleConstructionScript_0.SCS_Node_0'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.28"
+            }
+        }
+    },
+    {
+        "Type": "SphereComponent",
+        "Name": "RagdollInteractiveSphere",
+        "Outer": "Default__BP_Horus_Oilrig_C",
+        "Class": "UScriptClass'SphereComponent'",
+        "Template": {
+            "ObjectName": "SphereComponent'Default__BP_Horus_C:RagdollInteractiveSphere'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.44"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AttachParent": {
+                "ObjectName": "CapsuleComponent'Default__BP_Horus_Oilrig_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.3"
+            }
+        }
+    }
+]

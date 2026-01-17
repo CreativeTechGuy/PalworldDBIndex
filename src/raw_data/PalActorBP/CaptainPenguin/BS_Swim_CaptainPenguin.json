@@ -1,0 +1,75 @@
+[
+    {
+        "Type": "BlendSpace1D",
+        "Name": "BS_Swim_CaptainPenguin",
+        "Class": "UScriptClass'BlendSpace1D'",
+        "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "TargetWeightInterpolationSpeedPerSec": 3.0,
+            "AnimLength": 1.6,
+            "SampleData": [
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_CaptainPenguin_Idle_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CaptainPenguin/AS_CaptainPenguin_Idle_Swim.0"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_CaptainPenguin_Run_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CaptainPenguin/AS_CaptainPenguin_Run_Swim.0"
+                    },
+                    "SampleValue": {
+                        "X": 600.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.5
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_CaptainPenguin_Run_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CaptainPenguin/AS_CaptainPenguin_Run_Swim.0"
+                    },
+                    "SampleValue": {
+                        "X": 300.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                }
+            ],
+            "BlendSpaceData": {
+                "Segments": [
+                    {
+                        "SampleIndices": 0,
+                        "SampleIndices[1]": 2,
+                        "Vertices": 0.0,
+                        "Vertices[1]": 0.5
+                    },
+                    {
+                        "SampleIndices": 2,
+                        "SampleIndices[1]": 1,
+                        "Vertices": 0.5,
+                        "Vertices[1]": 1.0
+                    }
+                ]
+            },
+            "BlendParameters": {
+                "DisplayName": "Front",
+                "Max": 600.0
+            },
+            "Skeleton": {
+                "ObjectName": "Skeleton'SK_CaptainPenguin_Skeleton'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Skeleton/CaptainPenguin/SK_CaptainPenguin_Skeleton.4"
+            }
+        },
+        "SkeletonGuid": "96C39D12-4737E1B6-67A3049E-16C89695"
+    }
+]

@@ -1,0 +1,75 @@
+[
+    {
+        "Type": "BlendSpace1D",
+        "Name": "BS_Transport_IceWitch",
+        "Class": "UScriptClass'BlendSpace1D'",
+        "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "TargetWeightInterpolationSpeedPerSec": 3.0,
+            "AnimLength": 1.3333334,
+            "SampleData": [
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_IceWitch_Transport'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/IceWitch/AS_IceWitch_Transport.0"
+                    },
+                    "SampleValue": {
+                        "X": 130.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_IceWitch_Transport'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/IceWitch/AS_IceWitch_Transport.0"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 0.1
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_IceWitch_Transport'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/IceWitch/AS_IceWitch_Transport.0"
+                    },
+                    "SampleValue": {
+                        "X": 200.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.5
+                }
+            ],
+            "BlendSpaceData": {
+                "Segments": [
+                    {
+                        "SampleIndices": 1,
+                        "SampleIndices[1]": 0,
+                        "Vertices": 0.0,
+                        "Vertices[1]": 0.65
+                    },
+                    {
+                        "SampleIndices": 0,
+                        "SampleIndices[1]": 2,
+                        "Vertices": 0.65,
+                        "Vertices[1]": 1.0
+                    }
+                ]
+            },
+            "BlendParameters": {
+                "DisplayName": "Front",
+                "Max": 200.0
+            },
+            "Skeleton": {
+                "ObjectName": "Skeleton'SK_IceWitch_Skeleton'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Skeleton/IceWitch/SK_IceWitch_Skeleton.3"
+            }
+        },
+        "SkeletonGuid": "7A5510FA-44A717FD-8BE26F84-D8B1471D"
+    }
+]

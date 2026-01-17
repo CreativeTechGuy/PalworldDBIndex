@@ -1,0 +1,93 @@
+[
+    {
+        "Type": "BlendSpace1D",
+        "Name": "BS_Transport_OctopusGirl",
+        "Class": "UScriptClass'BlendSpace1D'",
+        "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "TargetWeightInterpolationSpeedPerSec": 3.0,
+            "AnimLength": 8.533334,
+            "SampleData": [
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_OctopusGirl_Idle'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/OctopusGirl/AS_OctopusGirl_Idle.0"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_OctopusGirl_Transport'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/OctopusGirl/AS_OctopusGirl_Transport.0"
+                    },
+                    "SampleValue": {
+                        "X": 250.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_OctopusGirl_Transport'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/OctopusGirl/AS_OctopusGirl_Transport.0"
+                    },
+                    "SampleValue": {
+                        "X": 400.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.5
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_OctopusGirl_Transport'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/OctopusGirl/AS_OctopusGirl_Transport.0"
+                    },
+                    "SampleValue": {
+                        "X": 50.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 0.5
+                }
+            ],
+            "BlendSpaceData": {
+                "Segments": [
+                    {
+                        "SampleIndices": 0,
+                        "SampleIndices[1]": 3,
+                        "Vertices": 0.0,
+                        "Vertices[1]": 0.125
+                    },
+                    {
+                        "SampleIndices": 3,
+                        "SampleIndices[1]": 1,
+                        "Vertices": 0.125,
+                        "Vertices[1]": 0.625
+                    },
+                    {
+                        "SampleIndices": 1,
+                        "SampleIndices[1]": 2,
+                        "Vertices": 0.625,
+                        "Vertices[1]": 1.0
+                    }
+                ]
+            },
+            "BlendParameters": {
+                "DisplayName": "Front",
+                "Max": 400.0
+            },
+            "Skeleton": {
+                "ObjectName": "Skeleton'SK_OctopusGirl_Skeleton'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Skeleton/OctopusGirl/SK_OctopusGirl_Skeleton.5"
+            }
+        },
+        "SkeletonGuid": "551F9C4E-46AF3150-32C1D78A-EA0450C6"
+    }
+]

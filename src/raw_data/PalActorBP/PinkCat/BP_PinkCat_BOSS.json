@@ -1,0 +1,485 @@
+[
+    {
+        "Type": "BlueprintGeneratedClass",
+        "Name": "BP_PinkCat_BOSS_C",
+        "Class": "UScriptClass'BlueprintGeneratedClass'",
+        "Super": {
+            "ObjectName": "BlueprintGeneratedClass'BP_PinkCat_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat.0"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "SimpleConstructionScript": {
+                "ObjectName": "SimpleConstructionScript'BP_PinkCat_BOSS_C:SimpleConstructionScript_0'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.22"
+            },
+            "InheritableComponentHandler": {
+                "ObjectName": "InheritableComponentHandler'BP_PinkCat_BOSS_C:InheritableComponentHandler'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.3"
+            }
+        },
+        "SuperStruct": {
+            "ObjectName": "BlueprintGeneratedClass'BP_PinkCat_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat.0"
+        },
+        "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+        "ClassWithin": {
+            "ObjectName": "Class'Object'",
+            "ObjectPath": "/Script/CoreUObject"
+        },
+        "ClassConfigName": "Game",
+        "bCooked": true,
+        "ClassDefaultObject": {
+            "ObjectName": "BP_PinkCat_BOSS_C'Default__BP_PinkCat_BOSS_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.1"
+        },
+        "EditorTags": {
+            "BlueprintType": "BPTYPE_Normal"
+        }
+    },
+    {
+        "Type": "BP_PinkCat_BOSS_C",
+        "Name": "Default__BP_PinkCat_BOSS_C",
+        "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.BP_PinkCat_BOSS_C'",
+        "Template": {
+            "ObjectName": "BP_PinkCat_C'Default__BP_PinkCat_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat.2"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "LiftupObjectComponent": {
+                "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_PinkCat_BOSS_C:Liftup'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.8"
+            },
+            "ActionComponent": {
+                "ObjectName": "PalActionComponent'Default__BP_PinkCat_BOSS_C:ActionComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.4"
+            },
+            "CharacterParameterComponent": {
+                "ObjectName": "PalCharacterParameterComponent'Default__BP_PinkCat_BOSS_C:CharacterParameterComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.10"
+            },
+            "StaticCharacterParameterComponent": {
+                "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_PinkCat_BOSS_C:StaticCharacterParameterComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.17"
+            },
+            "DamageReactionComponent": {
+                "ObjectName": "PalDamageReactionComponent'Default__BP_PinkCat_BOSS_C:DamageReactionComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.11"
+            },
+            "StatusComponent": {
+                "ObjectName": "PalStatusComponent'Default__BP_PinkCat_BOSS_C:StatusComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.18"
+            },
+            "CameraBoom": {
+                "ObjectName": "PalShooterSpringArmComponent'Default__BP_PinkCat_BOSS_C:CameraBoom'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.15"
+            },
+            "FollowCamera": {
+                "ObjectName": "PalCharacterCameraComponent'Default__BP_PinkCat_BOSS_C:FollowCamera'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.7"
+            },
+            "LookAtComponent": {
+                "ObjectName": "PalLookAtComponent'Default__BP_PinkCat_BOSS_C:LookAtComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.13"
+            },
+            "FootIKComponent": {
+                "ObjectName": "PalFootIKComponent'Default__BP_PinkCat_BOSS_C:FootIKComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.12"
+            },
+            "VisualEffectComponent": {
+                "ObjectName": "PalVisualEffectComponent'Default__BP_PinkCat_BOSS_C:VisualEffectComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.19"
+            },
+            "PassiveSkillComponent": {
+                "ObjectName": "PalPassiveSkillComponent'Default__BP_PinkCat_BOSS_C:PassiveSkillComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.14"
+            },
+            "AnimNotifyComponent": {
+                "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_PinkCat_BOSS_C:AnimNotifyComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.5"
+            },
+            "AroundInfoCollectorComponent": {
+                "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_PinkCat_BOSS_C:AroundInfoCollectorComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.6"
+            },
+            "RagdollInteractiveSphere": {
+                "ObjectName": "SphereComponent'Default__BP_PinkCat_BOSS_C:RagdollInteractiveSphere'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.23"
+            },
+            "Mesh": {
+                "ObjectName": "PalSkeletalMeshComponent'Default__BP_PinkCat_BOSS_C:CharacterMesh0'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.16"
+            },
+            "CharacterMovement": {
+                "ObjectName": "PalCharacterMovementComponent'Default__BP_PinkCat_BOSS_C:CharMoveComp'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.9"
+            },
+            "CapsuleComponent": {
+                "ObjectName": "CapsuleComponent'Default__BP_PinkCat_BOSS_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.2"
+            },
+            "RootComponent": {
+                "ObjectName": "CapsuleComponent'Default__BP_PinkCat_BOSS_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.2"
+            }
+        }
+    },
+    {
+        "Type": "CapsuleComponent",
+        "Name": "CollisionCylinder",
+        "Outer": "Default__BP_PinkCat_BOSS_C",
+        "Class": "UScriptClass'CapsuleComponent'",
+        "Template": {
+            "ObjectName": "CapsuleComponent'Default__BP_PinkCat_C:CollisionCylinder'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat.3"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "InheritableComponentHandler",
+        "Name": "InheritableComponentHandler",
+        "Outer": "BP_PinkCat_BOSS_C",
+        "Class": "UScriptClass'InheritableComponentHandler'",
+        "Flags": "RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalActionComponent",
+        "Name": "ActionComponent",
+        "Outer": "Default__BP_PinkCat_BOSS_C",
+        "Class": "UScriptClass'PalActionComponent'",
+        "Template": {
+            "ObjectName": "PalActionComponent'Default__BP_PinkCat_C:ActionComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat.5"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalAnimNotifyParameterComponent",
+        "Name": "AnimNotifyComponent",
+        "Outer": "Default__BP_PinkCat_BOSS_C",
+        "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+        "Template": {
+            "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_PinkCat_C:AnimNotifyComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat.6"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalCharacterAroundInfoCollectorComponent",
+        "Name": "AroundInfoCollectorComponent",
+        "Outer": "Default__BP_PinkCat_BOSS_C",
+        "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_PinkCat_C:AroundInfoCollectorComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat.9"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AttachParent": {
+                "ObjectName": "CapsuleComponent'Default__BP_PinkCat_BOSS_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.2"
+            }
+        }
+    },
+    {
+        "Type": "PalCharacterCameraComponent",
+        "Name": "FollowCamera",
+        "Outer": "Default__BP_PinkCat_BOSS_C",
+        "Class": "UScriptClass'PalCharacterCameraComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterCameraComponent'Default__BP_PinkCat_C:FollowCamera'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat.10"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AttachParent": {
+                "ObjectName": "PalShooterSpringArmComponent'Default__BP_PinkCat_BOSS_C:CameraBoom'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.15"
+            }
+        }
+    },
+    {
+        "Type": "PalCharacterLiftupObjectComponent",
+        "Name": "Liftup",
+        "Outer": "Default__BP_PinkCat_BOSS_C",
+        "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_PinkCat_C:Liftup'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat.11"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalCharacterMovementComponent",
+        "Name": "CharMoveComp",
+        "Outer": "Default__BP_PinkCat_BOSS_C",
+        "Class": "UScriptClass'PalCharacterMovementComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterMovementComponent'Default__BP_PinkCat_C:CharMoveComp'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat.12"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalCharacterParameterComponent",
+        "Name": "CharacterParameterComponent",
+        "Outer": "Default__BP_PinkCat_BOSS_C",
+        "Class": "UScriptClass'PalCharacterParameterComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterParameterComponent'Default__BP_PinkCat_C:CharacterParameterComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat.13"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalDamageReactionComponent",
+        "Name": "DamageReactionComponent",
+        "Outer": "Default__BP_PinkCat_BOSS_C",
+        "Class": "UScriptClass'PalDamageReactionComponent'",
+        "Template": {
+            "ObjectName": "PalDamageReactionComponent'Default__BP_PinkCat_C:DamageReactionComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat.14"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalFootIKComponent",
+        "Name": "FootIKComponent",
+        "Outer": "Default__BP_PinkCat_BOSS_C",
+        "Class": "UScriptClass'PalFootIKComponent'",
+        "Template": {
+            "ObjectName": "PalFootIKComponent'Default__BP_PinkCat_C:FootIKComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat.15"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalLookAtComponent",
+        "Name": "LookAtComponent",
+        "Outer": "Default__BP_PinkCat_BOSS_C",
+        "Class": "UScriptClass'PalLookAtComponent'",
+        "Template": {
+            "ObjectName": "PalLookAtComponent'Default__BP_PinkCat_C:LookAtComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat.16"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalPassiveSkillComponent",
+        "Name": "PassiveSkillComponent",
+        "Outer": "Default__BP_PinkCat_BOSS_C",
+        "Class": "UScriptClass'PalPassiveSkillComponent'",
+        "Template": {
+            "ObjectName": "PalPassiveSkillComponent'Default__BP_PinkCat_C:PassiveSkillComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat.18"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalShooterSpringArmComponent",
+        "Name": "CameraBoom",
+        "Outer": "Default__BP_PinkCat_BOSS_C",
+        "Class": "UScriptClass'PalShooterSpringArmComponent'",
+        "Template": {
+            "ObjectName": "PalShooterSpringArmComponent'Default__BP_PinkCat_C:CameraBoom'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat.19"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AttachParent": {
+                "ObjectName": "CapsuleComponent'Default__BP_PinkCat_BOSS_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.2"
+            },
+            "RelativeLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 60.0
+            }
+        }
+    },
+    {
+        "Type": "PalSkeletalMeshComponent",
+        "Name": "CharacterMesh0",
+        "Outer": "Default__BP_PinkCat_BOSS_C",
+        "Class": "UScriptClass'PalSkeletalMeshComponent'",
+        "Template": {
+            "ObjectName": "PalSkeletalMeshComponent'Default__BP_PinkCat_C:CharacterMesh0'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat.20"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AttachParent": {
+                "ObjectName": "CapsuleComponent'Default__BP_PinkCat_BOSS_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.2"
+            },
+            "RelativeScale3D": {
+                "X": 1.8,
+                "Y": 1.8,
+                "Z": 1.8
+            }
+        }
+    },
+    {
+        "Type": "PalStaticCharacterParameterComponent",
+        "Name": "StaticCharacterParameterComponent",
+        "Outer": "Default__BP_PinkCat_BOSS_C",
+        "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+        "Template": {
+            "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_PinkCat_C:StaticCharacterParameterComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat.21"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "MeshCapsuleHalfHeight": 90.0,
+            "MeshCapsuleRadius": 54.0,
+            "MeshRelativeLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -90.0
+            },
+            "SleepOnSideInfoMapForMapObject": [
+                {
+                    "Key": {
+                        "Key": "MedicalPalBed_02"
+                    },
+                    "Value": {
+                        "LocationOffset": {
+                            "X": 20.0,
+                            "Y": 60.0,
+                            "Z": 0.0
+                        },
+                        "RotatorOffset": {
+                            "Pitch": 0.0,
+                            "Yaw": 40.0,
+                            "Roll": 0.0
+                        },
+                        "bShouldApply": true
+                    }
+                },
+                {
+                    "Key": {
+                        "Key": "MedicalPalBed_03"
+                    },
+                    "Value": {
+                        "LocationOffset": {
+                            "X": 20.0,
+                            "Y": 60.0,
+                            "Z": 0.0
+                        },
+                        "RotatorOffset": {
+                            "Pitch": 0.0,
+                            "Yaw": 40.0,
+                            "Roll": 0.0
+                        },
+                        "bShouldApply": true
+                    }
+                },
+                {
+                    "Key": {
+                        "Key": "MedicalPalBed_04"
+                    },
+                    "Value": {
+                        "LocationOffset": {
+                            "X": 20.0,
+                            "Y": 150.0,
+                            "Z": 0.0
+                        },
+                        "RotatorOffset": {
+                            "Pitch": 0.0,
+                            "Yaw": 40.0,
+                            "Roll": 0.0
+                        },
+                        "bShouldApply": true
+                    }
+                }
+            ],
+            "HPGaugeUIOffset": {
+                "X": 0.0,
+                "Y": 60.0
+            },
+            "PettingSize": "EPalPettingSizeType::Medium",
+            "PettingDistance": 110.0,
+            "DefenseBuildObjectAssignDistance": 20.0,
+            "DefenseBuildObjectAssignHeight": 0.0
+        }
+    },
+    {
+        "Type": "PalStatusComponent",
+        "Name": "StatusComponent",
+        "Outer": "Default__BP_PinkCat_BOSS_C",
+        "Class": "UScriptClass'PalStatusComponent'",
+        "Template": {
+            "ObjectName": "PalStatusComponent'Default__BP_PinkCat_C:StatusComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat.22"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalVisualEffectComponent",
+        "Name": "VisualEffectComponent",
+        "Outer": "Default__BP_PinkCat_BOSS_C",
+        "Class": "UScriptClass'PalVisualEffectComponent'",
+        "Template": {
+            "ObjectName": "PalVisualEffectComponent'Default__BP_PinkCat_C:VisualEffectComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat.23"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "SceneComponent",
+        "Name": "DefaultSceneRoot_GEN_VARIABLE",
+        "Outer": "BP_PinkCat_BOSS_C",
+        "Class": "UScriptClass'SceneComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_0",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'SceneComponent'",
+                "ObjectPath": "/Script/Engine"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "SceneComponent'BP_PinkCat_BOSS_C:DefaultSceneRoot_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.20"
+            },
+            "VariableGuid": "AC22745F-4EC7B14A-963AD092-9214F9C8",
+            "InternalVariableName": "DefaultSceneRoot"
+        }
+    },
+    {
+        "Type": "SimpleConstructionScript",
+        "Name": "SimpleConstructionScript_0",
+        "Outer": "BP_PinkCat_BOSS_C",
+        "Class": "UScriptClass'SimpleConstructionScript'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "DefaultSceneRootNode": {
+                "ObjectName": "SCS_Node'BP_PinkCat_BOSS_C:SimpleConstructionScript_0.SCS_Node_0'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.21"
+            }
+        }
+    },
+    {
+        "Type": "SphereComponent",
+        "Name": "RagdollInteractiveSphere",
+        "Outer": "Default__BP_PinkCat_BOSS_C",
+        "Class": "UScriptClass'SphereComponent'",
+        "Template": {
+            "ObjectName": "SphereComponent'Default__BP_PinkCat_C:RagdollInteractiveSphere'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat.29"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AttachParent": {
+                "ObjectName": "CapsuleComponent'Default__BP_PinkCat_BOSS_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PinkCat/BP_PinkCat_BOSS.2"
+            }
+        }
+    }
+]

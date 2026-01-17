@@ -1,0 +1,111 @@
+[
+    {
+        "Type": "BlendSpace1D",
+        "Name": "BS_Move_SkyDragon",
+        "Class": "UScriptClass'BlendSpace1D'",
+        "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "TargetWeightInterpolationSpeedPerSec": 3.0,
+            "AnimLength": 2.1333334,
+            "SampleData": [
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_SkyDragon_Idle'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SkyDragon/AS_SkyDragon_Idle.0"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_SkyDragon_Run'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SkyDragon/AS_SkyDragon_Run.0"
+                    },
+                    "SampleValue": {
+                        "X": 700.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_SkyDragon_Walk'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SkyDragon/AS_SkyDragon_Walk.0"
+                    },
+                    "SampleValue": {
+                        "X": 240.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_SkyDragon_Run'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SkyDragon/AS_SkyDragon_Run.0"
+                    },
+                    "SampleValue": {
+                        "X": 900.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.285
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_SkyDragon_Run'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SkyDragon/AS_SkyDragon_Run.0"
+                    },
+                    "SampleValue": {
+                        "X": 1397.8771,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.5
+                }
+            ],
+            "BlendSpaceData": {
+                "Segments": [
+                    {
+                        "SampleIndices": 0,
+                        "SampleIndices[1]": 2,
+                        "Vertices": 0.0,
+                        "Vertices[1]": 0.17142858
+                    },
+                    {
+                        "SampleIndices": 2,
+                        "SampleIndices[1]": 1,
+                        "Vertices": 0.17142858,
+                        "Vertices[1]": 0.5
+                    },
+                    {
+                        "SampleIndices": 1,
+                        "SampleIndices[1]": 3,
+                        "Vertices": 0.5,
+                        "Vertices[1]": 0.64285713
+                    },
+                    {
+                        "SampleIndices": 3,
+                        "SampleIndices[1]": 4,
+                        "Vertices": 0.64285713,
+                        "Vertices[1]": 0.9984836
+                    }
+                ]
+            },
+            "BlendParameters": {
+                "DisplayName": "Front",
+                "Max": 1400.0
+            },
+            "Skeleton": {
+                "ObjectName": "Skeleton'SK_SkyDragon_Skeleton'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Skeleton/SkyDragon/SK_SkyDragon_Skeleton.4"
+            }
+        },
+        "SkeletonGuid": "161B4CD0-47CE39CA-A39025AC-91036DEC"
+    }
+]

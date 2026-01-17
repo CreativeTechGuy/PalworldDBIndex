@@ -1,0 +1,75 @@
+[
+    {
+        "Type": "BlendSpace1D",
+        "Name": "BS_Swim_HoodGhost",
+        "Class": "UScriptClass'BlendSpace1D'",
+        "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "TargetWeightInterpolationSpeedPerSec": 3.0,
+            "AnimLength": 1.6666666,
+            "SampleData": [
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_HoodGhost_Idle_Swim'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/HoodGhost/AS_HoodGhost_Idle_Swim"
+                    },
+                    "SampleValue": {
+                        "X": 275.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.5
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_HoodGhost_Idle_Swim'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/HoodGhost/AS_HoodGhost_Idle_Swim"
+                    },
+                    "SampleValue": {
+                        "X": 550.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 2.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_HoodGhost_Idle_Swim'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/HoodGhost/AS_HoodGhost_Idle_Swim"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                }
+            ],
+            "BlendSpaceData": {
+                "Segments": [
+                    {
+                        "SampleIndices": 2,
+                        "SampleIndices[1]": 0,
+                        "Vertices": 0.0,
+                        "Vertices[1]": 0.5
+                    },
+                    {
+                        "SampleIndices": 0,
+                        "SampleIndices[1]": 1,
+                        "Vertices": 0.5,
+                        "Vertices[1]": 1.0
+                    }
+                ]
+            },
+            "BlendParameters": {
+                "DisplayName": "Front",
+                "Max": 550.0
+            },
+            "Skeleton": {
+                "ObjectName": "Skeleton'SK_HoodGhost_Skeleton'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Skeleton/HoodGhost/SK_HoodGhost_Skeleton.3"
+            }
+        },
+        "SkeletonGuid": "293DDDD6-42D83ADC-A82120A9-A09251D5"
+    }
+]

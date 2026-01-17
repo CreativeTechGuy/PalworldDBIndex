@@ -1,0 +1,75 @@
+[
+    {
+        "Type": "BlendSpace1D",
+        "Name": "BS_Transport_YakushimaMonster001",
+        "Class": "UScriptClass'BlendSpace1D'",
+        "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "TargetWeightInterpolationSpeedPerSec": 3.0,
+            "AnimLength": 2.0,
+            "SampleData": [
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_YakushimaMonster001_Transport'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/YakushimaMonster001/AS_YakushimaMonster001_Transport.0"
+                    },
+                    "SampleValue": {
+                        "X": 300.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_YakushimaMonster001_Transport'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/YakushimaMonster001/AS_YakushimaMonster001_Transport.0"
+                    },
+                    "SampleValue": {
+                        "X": 900.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 3.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_YakushimaMonster001_Idle'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/YakushimaMonster001/AS_YakushimaMonster001_Idle.0"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                }
+            ],
+            "BlendSpaceData": {
+                "Segments": [
+                    {
+                        "SampleIndices": 2,
+                        "SampleIndices[1]": 0,
+                        "Vertices": 0.0,
+                        "Vertices[1]": 0.33333334
+                    },
+                    {
+                        "SampleIndices": 0,
+                        "SampleIndices[1]": 1,
+                        "Vertices": 0.33333334,
+                        "Vertices[1]": 1.0
+                    }
+                ]
+            },
+            "BlendParameters": {
+                "DisplayName": "Front",
+                "Max": 900.0
+            },
+            "Skeleton": {
+                "ObjectName": "Skeleton'SK_YakushimaMonster001_Skeleton'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Skeleton/YakushimaMonster001/SK_YakushimaMonster001_Skeleton.2"
+            }
+        },
+        "SkeletonGuid": "F8482094-42FFD80D-EF13258F-D1CC5374"
+    }
+]

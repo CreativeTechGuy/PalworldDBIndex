@@ -1,0 +1,74 @@
+[
+    {
+        "Type": "BlendSpace1D",
+        "Name": "BS_Swim_CowPal",
+        "Class": "UScriptClass'BlendSpace1D'",
+        "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "TargetWeightInterpolationSpeedPerSec": 3.0,
+            "AnimLength": 0.6666667,
+            "SampleData": [
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_CowPal_Idle_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CowPal/AS_CowPal_Idle_Swim.0"
+                    },
+                    "SampleValue": {
+                        "X": 700.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.4
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_CowPal_Idle_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CowPal/AS_CowPal_Idle_Swim.0"
+                    },
+                    "SampleValue": {
+                        "X": 350.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_CowPal_Idle_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CowPal/AS_CowPal_Idle_Swim.0"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 0.6
+                }
+            ],
+            "BlendSpaceData": {
+                "Segments": [
+                    {
+                        "SampleIndices": 2,
+                        "SampleIndices[1]": 1,
+                        "Vertices": 0.0,
+                        "Vertices[1]": 0.5
+                    },
+                    {
+                        "SampleIndices": 1,
+                        "SampleIndices[1]": 0,
+                        "Vertices": 0.5,
+                        "Vertices[1]": 1.0
+                    }
+                ]
+            },
+            "BlendParameters": {
+                "Max": 700.0
+            },
+            "Skeleton": {
+                "ObjectName": "Skeleton'SK_CowPal_Skeleton'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Skeleton/CowPal/SK_CowPal_Skeleton.1"
+            }
+        },
+        "SkeletonGuid": "DA7A0F35-45926497-EFF1D1B0-B8689E6E"
+    }
+]

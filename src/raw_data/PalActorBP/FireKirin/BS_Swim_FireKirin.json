@@ -1,0 +1,74 @@
+[
+    {
+        "Type": "BlendSpace1D",
+        "Name": "BS_Swim_FireKirin",
+        "Class": "UScriptClass'BlendSpace1D'",
+        "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "TargetWeightInterpolationSpeedPerSec": 3.0,
+            "AnimLength": 1.3333334,
+            "SampleData": [
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_FireKirin_Idle_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FireKirin/AS_FireKirin_Idle_Swim.0"
+                    },
+                    "SampleValue": {
+                        "X": 1300.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.5
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_FireKirin_Idle_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FireKirin/AS_FireKirin_Idle_Swim.0"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_FireKirin_Idle_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FireKirin/AS_FireKirin_Idle_Swim.0"
+                    },
+                    "SampleValue": {
+                        "X": 650.8461,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.2
+                }
+            ],
+            "BlendSpaceData": {
+                "Segments": [
+                    {
+                        "SampleIndices": 1,
+                        "SampleIndices[1]": 2,
+                        "Vertices": 0.0,
+                        "Vertices[1]": 0.5006509
+                    },
+                    {
+                        "SampleIndices": 2,
+                        "SampleIndices[1]": 0,
+                        "Vertices": 0.5006509,
+                        "Vertices[1]": 1.0
+                    }
+                ]
+            },
+            "BlendParameters": {
+                "Max": 1300.0
+            },
+            "Skeleton": {
+                "ObjectName": "Skeleton'SK_FireKirin_Skeleton'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Skeleton/FireKirin/SK_FireKirin_Skeleton.5"
+            }
+        },
+        "SkeletonGuid": "ADDB93DF-4A595496-A025A7B5-86D90FA8"
+    }
+]

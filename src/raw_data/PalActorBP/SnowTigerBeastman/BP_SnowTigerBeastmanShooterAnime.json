@@ -1,0 +1,66 @@
+[
+    {
+        "Type": "BlueprintGeneratedClass",
+        "Name": "BP_SnowTigerBeastmanShooterAnime_C",
+        "Class": "UScriptClass'BlueprintGeneratedClass'",
+        "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "SuperStruct": {
+            "ObjectName": "Class'PalShooterAnimeAssetBase'",
+            "ObjectPath": "/Script/Pal"
+        },
+        "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+        "ClassWithin": {
+            "ObjectName": "Class'Object'",
+            "ObjectPath": "/Script/CoreUObject"
+        },
+        "ClassConfigName": "Engine",
+        "bCooked": true,
+        "ClassDefaultObject": {
+            "ObjectName": "BP_SnowTigerBeastmanShooterAnime_C'Default__BP_SnowTigerBeastmanShooterAnime_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastmanShooterAnime.1"
+        },
+        "EditorTags": {
+            "BlueprintType": "BPTYPE_Normal"
+        }
+    },
+    {
+        "Type": "BP_SnowTigerBeastmanShooterAnime_C",
+        "Name": "Default__BP_SnowTigerBeastmanShooterAnime_C",
+        "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastmanShooterAnime.BP_SnowTigerBeastmanShooterAnime_C'",
+        "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AnimeInfo": {
+                "NormalMoveBlendSpace": {
+                    "ObjectName": "BlendSpace1D'BS_Move_SnowTigerBeastman'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BS_Move_SnowTigerBeastman.0"
+                },
+                "AimingMoveBlendSpace": {
+                    "ObjectName": "BlendSpace'BS_AimMove_SnowTigerBeastman'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BS_AimMove_SnowTigerBeastman.0"
+                },
+                "HipShootingMoveBlendSpace": {
+                    "ObjectName": "BlendSpace'BS_AimMove_SnowTigerBeastman'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BS_AimMove_SnowTigerBeastman.0"
+                },
+                "AnimationMap": [
+                    {
+                        "Key": "EWeaponAnimationType::PullTrigger",
+                        "Value": {
+                            "PoseMap": [
+                                {
+                                    "Key": "EWeaponAnimationPoseType::Stand",
+                                    "Value": {
+                                        "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Aim_Attack'",
+                                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Aim_Attack.0"
+                                    }
+                                }
+                            ],
+                            "isAutoStop": false,
+                            "EndDelegateType": "EPalWeaponAnimationEndDelegateType::MontageBlendingOut"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+]

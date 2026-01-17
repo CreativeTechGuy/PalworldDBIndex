@@ -1,0 +1,94 @@
+[
+    {
+        "Type": "BlendSpace1D",
+        "Name": "BS_Swim_Serpemt",
+        "Class": "UScriptClass'BlendSpace1D'",
+        "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "TargetWeightInterpolationSpeedPerSec": 3.0,
+            "bTargetWeightInterpolationEaseInOut": false,
+            "AnimLength": 4.266667,
+            "SampleData": [
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_Serpent_Idle_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Serpent/AS_Serpent_Idle_Swim.0"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_Serpent_Run_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Serpent/AS_Serpent_Run_Swim.1"
+                    },
+                    "SampleValue": {
+                        "X": 325.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_Serpent_Run_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Serpent/AS_Serpent_Run_Swim.1"
+                    },
+                    "SampleValue": {
+                        "X": 650.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 3.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_Serpent_Run_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Serpent/AS_Serpent_Run_Swim.1"
+                    },
+                    "SampleValue": {
+                        "X": 10.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 0.5
+                }
+            ],
+            "BlendSpaceData": {
+                "Segments": [
+                    {
+                        "SampleIndices": 0,
+                        "SampleIndices[1]": 3,
+                        "Vertices": 0.0,
+                        "Vertices[1]": 0.015384615
+                    },
+                    {
+                        "SampleIndices": 3,
+                        "SampleIndices[1]": 1,
+                        "Vertices": 0.015384615,
+                        "Vertices[1]": 0.5
+                    },
+                    {
+                        "SampleIndices": 1,
+                        "SampleIndices[1]": 2,
+                        "Vertices": 0.5,
+                        "Vertices[1]": 1.0
+                    }
+                ]
+            },
+            "BlendParameters": {
+                "DisplayName": "Front",
+                "Max": 650.0
+            },
+            "Skeleton": {
+                "ObjectName": "Skeleton'SK_Serpent_Skeleton'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Skeleton/Serpent/SK_Serpent_Skeleton.3"
+            }
+        },
+        "SkeletonGuid": "E6A74296-46B39F59-3FBAD79C-A8B195F5"
+    }
+]

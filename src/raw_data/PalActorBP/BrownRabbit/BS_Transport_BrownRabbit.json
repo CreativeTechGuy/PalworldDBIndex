@@ -1,0 +1,111 @@
+[
+    {
+        "Type": "BlendSpace1D",
+        "Name": "BS_Transport_BrownRabbit",
+        "Class": "UScriptClass'BlendSpace1D'",
+        "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "TargetWeightInterpolationSpeedPerSec": 3.0,
+            "AnimLength": 1.0666667,
+            "SampleData": [
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_BrownRabbit_Idle'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AS_BrownRabbit_Idle"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_BrownRabbit_Transport'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AS_BrownRabbit_Transport"
+                    },
+                    "SampleValue": {
+                        "X": 220.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_BrownRabbit_Transport'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AS_BrownRabbit_Transport"
+                    },
+                    "SampleValue": {
+                        "X": 330.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.5
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_BrownRabbit_Transport'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AS_BrownRabbit_Transport"
+                    },
+                    "SampleValue": {
+                        "X": 110.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 0.5
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_BrownRabbit_Transport'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AS_BrownRabbit_Transport"
+                    },
+                    "SampleValue": {
+                        "X": 22.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 0.1
+                }
+            ],
+            "BlendSpaceData": {
+                "Segments": [
+                    {
+                        "SampleIndices": 0,
+                        "SampleIndices[1]": 4,
+                        "Vertices": 0.0,
+                        "Vertices[1]": 0.06666667
+                    },
+                    {
+                        "SampleIndices": 4,
+                        "SampleIndices[1]": 3,
+                        "Vertices": 0.06666667,
+                        "Vertices[1]": 0.33333334
+                    },
+                    {
+                        "SampleIndices": 3,
+                        "SampleIndices[1]": 1,
+                        "Vertices": 0.33333334,
+                        "Vertices[1]": 0.6666667
+                    },
+                    {
+                        "SampleIndices": 1,
+                        "SampleIndices[1]": 2,
+                        "Vertices": 0.6666667,
+                        "Vertices[1]": 1.0
+                    }
+                ]
+            },
+            "BlendParameters": {
+                "DisplayName": "Front",
+                "Max": 330.0
+            },
+            "Skeleton": {
+                "ObjectName": "Skeleton'SK_BrownRabbit_Skeleton'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Skeleton/BrownRabbit/SK_BrownRabbit_Skeleton.3"
+            }
+        },
+        "SkeletonGuid": "350F844C-4FE0B378-C2200E85-C9CEAAD0"
+    }
+]

@@ -1,0 +1,40 @@
+[
+    {
+        "Type": "BlendSpace1D",
+        "Name": "BS_Move_yakushimaboss002_B",
+        "Class": "UScriptClass'BlendSpace1D'",
+        "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AnimLength": 8.533334,
+            "SampleData": [
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_YakushimaBoss002_Idle_B'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/YakushimaBoss002/AS_YakushimaBoss002_Idle_B.0"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                }
+            ],
+            "BlendSpaceData": {
+                "Segments": [
+                    {
+                        "SampleIndices": 0,
+                        "SampleIndices[1]": 0,
+                        "Vertices": 0.0,
+                        "Vertices[1]": 1.0
+                    }
+                ]
+            },
+            "Skeleton": {
+                "ObjectName": "Skeleton'SK_YakushimaBoss002_Skeleton'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Skeleton/YakushimaBoss002/SK_YakushimaBoss002_Skeleton.4"
+            }
+        },
+        "SkeletonGuid": "DF5F5BF1-4CBF5365-C5F6E5AD-F38D8A0C"
+    }
+]

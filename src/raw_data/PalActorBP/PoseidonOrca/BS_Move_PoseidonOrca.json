@@ -1,0 +1,129 @@
+[
+    {
+        "Type": "BlendSpace1D",
+        "Name": "BS_Move_PoseidonOrca",
+        "Class": "UScriptClass'BlendSpace1D'",
+        "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "TargetWeightInterpolationSpeedPerSec": 3.0,
+            "AnimLength": 4.0,
+            "SampleData": [
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_PoseidonOrca_Idle'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/PoseidonOrca/AS_PoseidonOrca_Idle.0"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_PoseidonOrca_Run'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/PoseidonOrca/AS_PoseidonOrca_Run.0"
+                    },
+                    "SampleValue": {
+                        "X": 1200.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.2
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_PoseidonOrca_Walk'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/PoseidonOrca/AS_PoseidonOrca_Walk.0"
+                    },
+                    "SampleValue": {
+                        "X": 300.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_PoseidonOrca_Run'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/PoseidonOrca/AS_PoseidonOrca_Run.0"
+                    },
+                    "SampleValue": {
+                        "X": 900.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_PoseidonOrca_Sprint'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/PoseidonOrca/AS_PoseidonOrca_Sprint.0"
+                    },
+                    "SampleValue": {
+                        "X": 1500.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_PoseidonOrca_Sprint'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/PoseidonOrca/AS_PoseidonOrca_Sprint.0"
+                    },
+                    "SampleValue": {
+                        "X": 2000.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.2
+                }
+            ],
+            "BlendSpaceData": {
+                "Segments": [
+                    {
+                        "SampleIndices": 0,
+                        "SampleIndices[1]": 2,
+                        "Vertices": 0.0,
+                        "Vertices[1]": 0.15
+                    },
+                    {
+                        "SampleIndices": 2,
+                        "SampleIndices[1]": 3,
+                        "Vertices": 0.15,
+                        "Vertices[1]": 0.45
+                    },
+                    {
+                        "SampleIndices": 3,
+                        "SampleIndices[1]": 1,
+                        "Vertices": 0.45,
+                        "Vertices[1]": 0.6
+                    },
+                    {
+                        "SampleIndices": 1,
+                        "SampleIndices[1]": 4,
+                        "Vertices": 0.6,
+                        "Vertices[1]": 0.75
+                    },
+                    {
+                        "SampleIndices": 4,
+                        "SampleIndices[1]": 5,
+                        "Vertices": 0.75,
+                        "Vertices[1]": 1.0
+                    }
+                ]
+            },
+            "BlendParameters": {
+                "DisplayName": "Front",
+                "Max": 2000.0
+            },
+            "Skeleton": {
+                "ObjectName": "Skeleton'SK_PoseidonOrca_Skeleton'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Skeleton/PoseidonOrca/SK_PoseidonOrca_Skeleton.4"
+            }
+        },
+        "SkeletonGuid": "348ABD71-41FAC237-61CEE283-D8815B54"
+    }
+]

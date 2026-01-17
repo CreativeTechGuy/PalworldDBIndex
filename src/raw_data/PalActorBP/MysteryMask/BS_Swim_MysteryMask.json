@@ -1,0 +1,75 @@
+[
+    {
+        "Type": "BlendSpace1D",
+        "Name": "BS_Swim_MysteryMask",
+        "Class": "UScriptClass'BlendSpace1D'",
+        "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "TargetWeightInterpolationSpeedPerSec": 3.0,
+            "AnimLength": 0.8,
+            "SampleData": [
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_MysteryMask_Idle_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MysteryMask/AS_MysteryMask_Idle_Swim.0"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 0.6
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_MysteryMask_Run'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MysteryMask/AS_MysteryMask_Run.0"
+                    },
+                    "SampleValue": {
+                        "X": 520.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_MysteryMask_Idle_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MysteryMask/AS_MysteryMask_Idle_Swim.0"
+                    },
+                    "SampleValue": {
+                        "X": 120.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 2.0
+                }
+            ],
+            "BlendSpaceData": {
+                "Segments": [
+                    {
+                        "SampleIndices": 0,
+                        "SampleIndices[1]": 2,
+                        "Vertices": 0.0,
+                        "Vertices[1]": 0.23076923
+                    },
+                    {
+                        "SampleIndices": 2,
+                        "SampleIndices[1]": 1,
+                        "Vertices": 0.23076923,
+                        "Vertices[1]": 1.0
+                    }
+                ]
+            },
+            "BlendParameters": {
+                "DisplayName": "Front",
+                "Max": 520.0
+            },
+            "Skeleton": {
+                "ObjectName": "Skeleton'SK_MysteryMask_Skeleton'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Skeleton/MysteryMask/SK_MysteryMask_Skeleton.2"
+            }
+        },
+        "SkeletonGuid": "477A7C17-4AB6B15A-9D754D8D-CF4364B5"
+    }
+]

@@ -1,0 +1,75 @@
+[
+    {
+        "Type": "BlendSpace1D",
+        "Name": "BS_Swim_Ronin",
+        "Class": "UScriptClass'BlendSpace1D'",
+        "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "TargetWeightInterpolationSpeedPerSec": 3.0,
+            "AnimLength": 1.0666667,
+            "SampleData": [
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_Ronin_Idle_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Ronin/AS_Ronin_Idle_Swim.0"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 0.8
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_Ronin_Idle_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Ronin/AS_Ronin_Idle_Swim.0"
+                    },
+                    "SampleValue": {
+                        "X": 900.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.4
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_Ronin_Idle_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Ronin/AS_Ronin_Idle_Swim.0"
+                    },
+                    "SampleValue": {
+                        "X": 450.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                }
+            ],
+            "BlendSpaceData": {
+                "Segments": [
+                    {
+                        "SampleIndices": 0,
+                        "SampleIndices[1]": 2,
+                        "Vertices": 0.0,
+                        "Vertices[1]": 0.5
+                    },
+                    {
+                        "SampleIndices": 2,
+                        "SampleIndices[1]": 1,
+                        "Vertices": 0.5,
+                        "Vertices[1]": 1.0
+                    }
+                ]
+            },
+            "BlendParameters": {
+                "DisplayName": "Front",
+                "Max": 900.0
+            },
+            "Skeleton": {
+                "ObjectName": "Skeleton'SK_Ronin_Skeleton'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Skeleton/Ronin/SK_Ronin_Skeleton.3"
+            }
+        },
+        "SkeletonGuid": "8E8299E1-4E6F2F6D-3C8375BE-F5927DFB"
+    }
+]

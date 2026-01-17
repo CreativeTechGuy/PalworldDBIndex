@@ -1,0 +1,147 @@
+[
+    {
+        "Type": "BlendSpace1D",
+        "Name": "BS_Move_IceCrocodile",
+        "Class": "UScriptClass'BlendSpace1D'",
+        "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "TargetWeightInterpolationSpeedPerSec": 3.0,
+            "AnimLength": 6.0,
+            "SampleData": [
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_IceCrocodile_Walk'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/IceCrocodile/AS_IceCrocodile_Walk.0"
+                    },
+                    "SampleValue": {
+                        "X": 40.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_IceCrocodile_Idle'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/IceCrocodile/AS_IceCrocodile_Idle.0"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_IceCrocodile_Run'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/IceCrocodile/AS_IceCrocodile_Run.0"
+                    },
+                    "SampleValue": {
+                        "X": 300.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_IceCrocodile_Run'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/IceCrocodile/AS_IceCrocodile_Run.0"
+                    },
+                    "SampleValue": {
+                        "X": 241.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 0.75
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_IceCrocodile_Run'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/IceCrocodile/AS_IceCrocodile_Run.0"
+                    },
+                    "SampleValue": {
+                        "X": 600.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.5
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_IceCrocodile_Walk'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/IceCrocodile/AS_IceCrocodile_Walk.0"
+                    },
+                    "SampleValue": {
+                        "X": 20.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 0.5
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_IceCrocodile_Walk'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/IceCrocodile/AS_IceCrocodile_Walk.0"
+                    },
+                    "SampleValue": {
+                        "X": 240.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 6.0
+                }
+            ],
+            "BlendSpaceData": {
+                "Segments": [
+                    {
+                        "SampleIndices": 1,
+                        "SampleIndices[1]": 5,
+                        "Vertices": 0.0,
+                        "Vertices[1]": 0.033333335
+                    },
+                    {
+                        "SampleIndices": 5,
+                        "SampleIndices[1]": 0,
+                        "Vertices": 0.033333335,
+                        "Vertices[1]": 0.06666667
+                    },
+                    {
+                        "SampleIndices": 0,
+                        "SampleIndices[1]": 6,
+                        "Vertices": 0.06666667,
+                        "Vertices[1]": 0.4
+                    },
+                    {
+                        "SampleIndices": 6,
+                        "SampleIndices[1]": 3,
+                        "Vertices": 0.4,
+                        "Vertices[1]": 0.40166667
+                    },
+                    {
+                        "SampleIndices": 3,
+                        "SampleIndices[1]": 2,
+                        "Vertices": 0.40166667,
+                        "Vertices[1]": 0.5
+                    },
+                    {
+                        "SampleIndices": 2,
+                        "SampleIndices[1]": 4,
+                        "Vertices": 0.5,
+                        "Vertices[1]": 1.0
+                    }
+                ]
+            },
+            "BlendParameters": {
+                "DisplayName": "Front",
+                "Max": 600.0
+            },
+            "Skeleton": {
+                "ObjectName": "Skeleton'SK_IceCrocodile_Skeleton'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Skeleton/IceCrocodile/SK_IceCrocodile_Skeleton.4"
+            }
+        },
+        "SkeletonGuid": "662C8529-416D19E6-C6D2678F-C5BCD010"
+    }
+]

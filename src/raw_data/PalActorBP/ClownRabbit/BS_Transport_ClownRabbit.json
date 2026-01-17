@@ -1,0 +1,75 @@
+[
+    {
+        "Type": "BlendSpace1D",
+        "Name": "BS_Transport_ClownRabbit",
+        "Class": "UScriptClass'BlendSpace1D'",
+        "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "TargetWeightInterpolationSpeedPerSec": 3.0,
+            "AnimLength": 1.3333334,
+            "SampleData": [
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_ClownRabbit_Transport'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/ClownRabbit/AS_ClownRabbit_Transport"
+                    },
+                    "SampleValue": {
+                        "X": 3.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 0.1
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_ClownRabbit_Transport'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/ClownRabbit/AS_ClownRabbit_Transport"
+                    },
+                    "SampleValue": {
+                        "X": 500.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_ClownRabbit_Idle'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/ClownRabbit/AS_ClownRabbit_Idle"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                }
+            ],
+            "BlendSpaceData": {
+                "Segments": [
+                    {
+                        "SampleIndices": 2,
+                        "SampleIndices[1]": 0,
+                        "Vertices": 0.0,
+                        "Vertices[1]": 0.006
+                    },
+                    {
+                        "SampleIndices": 0,
+                        "SampleIndices[1]": 1,
+                        "Vertices": 0.006,
+                        "Vertices[1]": 1.0
+                    }
+                ]
+            },
+            "BlendParameters": {
+                "DisplayName": "Front",
+                "Max": 500.0
+            },
+            "Skeleton": {
+                "ObjectName": "Skeleton'SK_ClownRabbit_Skeleton'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Skeleton/ClownRabbit/SK_ClownRabbit_Skeleton.2"
+            }
+        },
+        "SkeletonGuid": "44C9A867-46BFEE3B-BE09DBA0-F8C65C82"
+    }
+]

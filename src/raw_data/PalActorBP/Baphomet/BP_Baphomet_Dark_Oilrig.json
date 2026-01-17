@@ -1,0 +1,949 @@
+[
+    {
+        "Type": "BlueprintGeneratedClass",
+        "Name": "BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'BlueprintGeneratedClass'",
+        "Super": {
+            "ObjectName": "BlueprintGeneratedClass'BP_Baphomet_Dark_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark.0"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "SimpleConstructionScript": {
+                "ObjectName": "SimpleConstructionScript'BP_Baphomet_Dark_Oilrig_C:SimpleConstructionScript_0'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.38"
+            },
+            "InheritableComponentHandler": {
+                "ObjectName": "InheritableComponentHandler'BP_Baphomet_Dark_Oilrig_C:InheritableComponentHandler'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.3"
+            }
+        },
+        "SuperStruct": {
+            "ObjectName": "BlueprintGeneratedClass'BP_Baphomet_Dark_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark.0"
+        },
+        "ChildProperties": [
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalSpeedCollision_0",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalSpeedCollisionComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalBodyPartsCapsule5_0",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalBodyPartsCapsule4_0",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalBodyPartsCapsule3_0",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalBodyPartsCapsule2_0",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalBodyPartsCapsule1_0",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalBodyPartsCapsule_0",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalBodyPartsSphere_0",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalBodyPartsSphereComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            }
+        ],
+        "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+        "ClassWithin": {
+            "ObjectName": "Class'Object'",
+            "ObjectPath": "/Script/CoreUObject"
+        },
+        "ClassConfigName": "Game",
+        "bCooked": true,
+        "ClassDefaultObject": {
+            "ObjectName": "BP_Baphomet_Dark_Oilrig_C'Default__BP_Baphomet_Dark_Oilrig_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.1"
+        },
+        "EditorTags": {
+            "BlueprintType": "BPTYPE_Normal"
+        }
+    },
+    {
+        "Type": "BP_Baphomet_Dark_Oilrig_C",
+        "Name": "Default__BP_Baphomet_Dark_Oilrig_C",
+        "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.BP_Baphomet_Dark_Oilrig_C'",
+        "Template": {
+            "ObjectName": "BP_Baphomet_Dark_C'Default__BP_Baphomet_Dark_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark.1"
+        },
+        "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "LiftupObjectComponent": {
+                "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_Baphomet_Dark_Oilrig_C:Liftup'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.15"
+            },
+            "ActionComponent": {
+                "ObjectName": "PalActionComponent'Default__BP_Baphomet_Dark_Oilrig_C:ActionComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.4"
+            },
+            "CharacterParameterComponent": {
+                "ObjectName": "PalCharacterParameterComponent'Default__BP_Baphomet_Dark_Oilrig_C:CharacterParameterComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.17"
+            },
+            "StaticCharacterParameterComponent": {
+                "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_Baphomet_Dark_Oilrig_C:StaticCharacterParameterComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.25"
+            },
+            "DamageReactionComponent": {
+                "ObjectName": "PalDamageReactionComponent'Default__BP_Baphomet_Dark_Oilrig_C:DamageReactionComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.18"
+            },
+            "StatusComponent": {
+                "ObjectName": "PalStatusComponent'Default__BP_Baphomet_Dark_Oilrig_C:StatusComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.26"
+            },
+            "CameraBoom": {
+                "ObjectName": "PalShooterSpringArmComponent'Default__BP_Baphomet_Dark_Oilrig_C:CameraBoom'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.22"
+            },
+            "FollowCamera": {
+                "ObjectName": "PalCharacterCameraComponent'Default__BP_Baphomet_Dark_Oilrig_C:FollowCamera'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.14"
+            },
+            "LookAtComponent": {
+                "ObjectName": "PalLookAtComponent'Default__BP_Baphomet_Dark_Oilrig_C:LookAtComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.20"
+            },
+            "FootIKComponent": {
+                "ObjectName": "PalFootIKComponent'Default__BP_Baphomet_Dark_Oilrig_C:FootIKComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.19"
+            },
+            "VisualEffectComponent": {
+                "ObjectName": "PalVisualEffectComponent'Default__BP_Baphomet_Dark_Oilrig_C:VisualEffectComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.27"
+            },
+            "PassiveSkillComponent": {
+                "ObjectName": "PalPassiveSkillComponent'Default__BP_Baphomet_Dark_Oilrig_C:PassiveSkillComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.21"
+            },
+            "AnimNotifyComponent": {
+                "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_Baphomet_Dark_Oilrig_C:AnimNotifyComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.5"
+            },
+            "AroundInfoCollectorComponent": {
+                "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_Baphomet_Dark_Oilrig_C:AroundInfoCollectorComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.13"
+            },
+            "RagdollInteractiveSphere": {
+                "ObjectName": "SphereComponent'Default__BP_Baphomet_Dark_Oilrig_C:RagdollInteractiveSphere'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.39"
+            },
+            "Mesh": {
+                "ObjectName": "PalSkeletalMeshComponent'Default__BP_Baphomet_Dark_Oilrig_C:CharacterMesh0'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.23"
+            },
+            "CharacterMovement": {
+                "ObjectName": "PalCharacterMovementComponent'Default__BP_Baphomet_Dark_Oilrig_C:CharMoveComp'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.16"
+            },
+            "CapsuleComponent": {
+                "ObjectName": "CapsuleComponent'Default__BP_Baphomet_Dark_Oilrig_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.2"
+            },
+            "RootComponent": {
+                "ObjectName": "CapsuleComponent'Default__BP_Baphomet_Dark_Oilrig_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.2"
+            }
+        }
+    },
+    {
+        "Type": "CapsuleComponent",
+        "Name": "CollisionCylinder",
+        "Outer": "Default__BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'CapsuleComponent'",
+        "Template": {
+            "ObjectName": "CapsuleComponent'Default__BP_Baphomet_Dark_C:CollisionCylinder'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark.2"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "InheritableComponentHandler",
+        "Name": "InheritableComponentHandler",
+        "Outer": "BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'InheritableComponentHandler'",
+        "Flags": "RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalActionComponent",
+        "Name": "ActionComponent",
+        "Outer": "Default__BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'PalActionComponent'",
+        "Template": {
+            "ObjectName": "PalActionComponent'Default__BP_Baphomet_Dark_C:ActionComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark.4"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalAnimNotifyParameterComponent",
+        "Name": "AnimNotifyComponent",
+        "Outer": "Default__BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+        "Template": {
+            "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_Baphomet_Dark_C:AnimNotifyComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark.5"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalBodyPartsCapsuleComponent",
+        "Name": "PalBodyPartsCapsule1_0_GEN_VARIABLE",
+        "Outer": "BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AreaClassOverride": {
+                "ObjectName": "Class'NavArea_Obstacle'",
+                "ObjectPath": "/Script/NavigationSystem"
+            },
+            "bUseSystemDefaultObstacleAreaClass": false,
+            "RelativeLocation": {
+                "X": -29.0,
+                "Y": 10.0,
+                "Z": 5.0
+            },
+            "RelativeRotation": {
+                "Pitch": 62.261528,
+                "Yaw": 179.70918,
+                "Roll": 158.13266
+            }
+        }
+    },
+    {
+        "Type": "PalBodyPartsCapsuleComponent",
+        "Name": "PalBodyPartsCapsule2_0_GEN_VARIABLE",
+        "Outer": "BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "BodyPartsType": "EPalBodyPartsType::Strong",
+            "CapsuleHalfHeight": 45.0,
+            "AreaClassOverride": {
+                "ObjectName": "Class'NavArea_Obstacle'",
+                "ObjectPath": "/Script/NavigationSystem"
+            },
+            "bUseSystemDefaultObstacleAreaClass": false,
+            "RelativeLocation": {
+                "X": 50.0,
+                "Y": -5.77316e-14,
+                "Z": -7.1054274e-15
+            },
+            "RelativeRotation": {
+                "Pitch": -9.541664e-15,
+                "Yaw": -2.5444438e-14,
+                "Roll": 3.657638e-14
+            }
+        }
+    },
+    {
+        "Type": "PalBodyPartsCapsuleComponent",
+        "Name": "PalBodyPartsCapsule3_0_GEN_VARIABLE",
+        "Outer": "BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AreaClassOverride": {
+                "ObjectName": "Class'NavArea_Obstacle'",
+                "ObjectPath": "/Script/NavigationSystem"
+            },
+            "bUseSystemDefaultObstacleAreaClass": false,
+            "RelativeLocation": {
+                "X": 8.787236,
+                "Y": 18.325369,
+                "Z": 1.0755253
+            },
+            "RelativeRotation": {
+                "Pitch": -84.224304,
+                "Yaw": 90.26132,
+                "Roll": -58.06795
+            },
+            "RelativeScale3D": {
+                "X": 1.4951662,
+                "Y": 1.0,
+                "Z": 1.3865238
+            }
+        }
+    },
+    {
+        "Type": "PalBodyPartsCapsuleComponent",
+        "Name": "PalBodyPartsCapsule4_0_GEN_VARIABLE",
+        "Outer": "BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AreaClassOverride": {
+                "ObjectName": "Class'NavArea_Obstacle'",
+                "ObjectPath": "/Script/NavigationSystem"
+            },
+            "bUseSystemDefaultObstacleAreaClass": false,
+            "RelativeLocation": {
+                "X": -39.27731,
+                "Y": -11.781787,
+                "Z": -1.9475428
+            },
+            "RelativeRotation": {
+                "Pitch": -84.224304,
+                "Yaw": 90.26132,
+                "Roll": -58.06795
+            },
+            "RelativeScale3D": {
+                "X": 1.053895,
+                "Y": 0.5587288,
+                "Z": 1.2951539
+            }
+        }
+    },
+    {
+        "Type": "PalBodyPartsCapsuleComponent",
+        "Name": "PalBodyPartsCapsule5_0_GEN_VARIABLE",
+        "Outer": "BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AreaClassOverride": {
+                "ObjectName": "Class'NavArea_Obstacle'",
+                "ObjectPath": "/Script/NavigationSystem"
+            },
+            "bUseSystemDefaultObstacleAreaClass": false,
+            "RelativeLocation": {
+                "X": 41.748272,
+                "Y": 17.262638,
+                "Z": -2.4311898
+            },
+            "RelativeRotation": {
+                "Pitch": -81.22405,
+                "Yaw": 159.81732,
+                "Roll": -126.03305
+            },
+            "RelativeScale3D": {
+                "X": 1.053895,
+                "Y": 0.5587288,
+                "Z": 1.2951539
+            }
+        }
+    },
+    {
+        "Type": "PalBodyPartsCapsuleComponent",
+        "Name": "PalBodyPartsCapsule_0_GEN_VARIABLE",
+        "Outer": "BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AreaClassOverride": {
+                "ObjectName": "Class'NavArea_Obstacle'",
+                "ObjectPath": "/Script/NavigationSystem"
+            },
+            "bUseSystemDefaultObstacleAreaClass": false,
+            "RelativeLocation": {
+                "X": 52.036316,
+                "Y": 12.213324,
+                "Z": -6.5615892
+            },
+            "RelativeRotation": {
+                "Pitch": 62.260967,
+                "Yaw": 89.70915,
+                "Roll": 96.62555
+            }
+        }
+    },
+    {
+        "Type": "PalBodyPartsSphereComponent",
+        "Name": "PalBodyPartsSphere_0_GEN_VARIABLE",
+        "Outer": "BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'PalBodyPartsSphereComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "BodyPartsType": "EPalBodyPartsType::Weak",
+            "SphereRadius": 25.0,
+            "AreaClassOverride": {
+                "ObjectName": "Class'NavArea_Obstacle'",
+                "ObjectPath": "/Script/NavigationSystem"
+            },
+            "bUseSystemDefaultObstacleAreaClass": false,
+            "RelativeLocation": {
+                "X": 7.5673647,
+                "Y": 6.1702604,
+                "Z": 6.198883e-6
+            },
+            "RelativeRotation": {
+                "Pitch": 0.0,
+                "Yaw": 3.4150935e-6,
+                "Roll": 0.0
+            }
+        }
+    },
+    {
+        "Type": "PalCharacterAroundInfoCollectorComponent",
+        "Name": "AroundInfoCollectorComponent",
+        "Outer": "Default__BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_Baphomet_Dark_C:AroundInfoCollectorComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark.6"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AttachParent": {
+                "ObjectName": "CapsuleComponent'Default__BP_Baphomet_Dark_Oilrig_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.2"
+            }
+        }
+    },
+    {
+        "Type": "PalCharacterCameraComponent",
+        "Name": "FollowCamera",
+        "Outer": "Default__BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'PalCharacterCameraComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterCameraComponent'Default__BP_Baphomet_Dark_C:FollowCamera'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark.7"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AttachParent": {
+                "ObjectName": "PalShooterSpringArmComponent'Default__BP_Baphomet_Dark_Oilrig_C:CameraBoom'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.22"
+            }
+        }
+    },
+    {
+        "Type": "PalCharacterLiftupObjectComponent",
+        "Name": "Liftup",
+        "Outer": "Default__BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_Baphomet_Dark_C:Liftup'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark.8"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalCharacterMovementComponent",
+        "Name": "CharMoveComp",
+        "Outer": "Default__BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'PalCharacterMovementComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterMovementComponent'Default__BP_Baphomet_Dark_C:CharMoveComp'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark.9"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalCharacterParameterComponent",
+        "Name": "CharacterParameterComponent",
+        "Outer": "Default__BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'PalCharacterParameterComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterParameterComponent'Default__BP_Baphomet_Dark_C:CharacterParameterComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark.10"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalDamageReactionComponent",
+        "Name": "DamageReactionComponent",
+        "Outer": "Default__BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'PalDamageReactionComponent'",
+        "Template": {
+            "ObjectName": "PalDamageReactionComponent'Default__BP_Baphomet_Dark_C:DamageReactionComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark.11"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalFootIKComponent",
+        "Name": "FootIKComponent",
+        "Outer": "Default__BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'PalFootIKComponent'",
+        "Template": {
+            "ObjectName": "PalFootIKComponent'Default__BP_Baphomet_Dark_C:FootIKComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark.12"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalLookAtComponent",
+        "Name": "LookAtComponent",
+        "Outer": "Default__BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'PalLookAtComponent'",
+        "Template": {
+            "ObjectName": "PalLookAtComponent'Default__BP_Baphomet_Dark_C:LookAtComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark.13"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalPassiveSkillComponent",
+        "Name": "PassiveSkillComponent",
+        "Outer": "Default__BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'PalPassiveSkillComponent'",
+        "Template": {
+            "ObjectName": "PalPassiveSkillComponent'Default__BP_Baphomet_Dark_C:PassiveSkillComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark.14"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalShooterSpringArmComponent",
+        "Name": "CameraBoom",
+        "Outer": "Default__BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'PalShooterSpringArmComponent'",
+        "Template": {
+            "ObjectName": "PalShooterSpringArmComponent'Default__BP_Baphomet_Dark_C:CameraBoom'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark.15"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AttachParent": {
+                "ObjectName": "CapsuleComponent'Default__BP_Baphomet_Dark_Oilrig_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.2"
+            }
+        }
+    },
+    {
+        "Type": "PalSkeletalMeshComponent",
+        "Name": "CharacterMesh0",
+        "Outer": "Default__BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'PalSkeletalMeshComponent'",
+        "Template": {
+            "ObjectName": "PalSkeletalMeshComponent'Default__BP_Baphomet_Dark_C:CharacterMesh0'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark.16"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AttachParent": {
+                "ObjectName": "CapsuleComponent'Default__BP_Baphomet_Dark_Oilrig_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.2"
+            }
+        }
+    },
+    {
+        "Type": "PalSpeedCollisionComponent",
+        "Name": "PalSpeedCollision_0_GEN_VARIABLE",
+        "Outer": "BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'PalSpeedCollisionComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AreaClassOverride": {
+                "ObjectName": "Class'NavArea_Obstacle'",
+                "ObjectPath": "/Script/NavigationSystem"
+            },
+            "bUseSystemDefaultObstacleAreaClass": false,
+            "RelativeLocation": {
+                "X": -5.6430178e-15,
+                "Y": 27.361027,
+                "Z": 97.71937
+            },
+            "RelativeScale3D": {
+                "X": 2.7658663,
+                "Y": 2.7658663,
+                "Z": 2.7658663
+            }
+        }
+    },
+    {
+        "Type": "PalStaticCharacterParameterComponent",
+        "Name": "StaticCharacterParameterComponent",
+        "Outer": "Default__BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+        "Template": {
+            "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_Baphomet_Dark_C:StaticCharacterParameterComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark.17"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "IsUncapturable": true
+        }
+    },
+    {
+        "Type": "PalStatusComponent",
+        "Name": "StatusComponent",
+        "Outer": "Default__BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'PalStatusComponent'",
+        "Template": {
+            "ObjectName": "PalStatusComponent'Default__BP_Baphomet_Dark_C:StatusComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark.18"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalVisualEffectComponent",
+        "Name": "VisualEffectComponent",
+        "Outer": "Default__BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'PalVisualEffectComponent'",
+        "Template": {
+            "ObjectName": "PalVisualEffectComponent'Default__BP_Baphomet_Dark_C:VisualEffectComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark.19"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "SceneComponent",
+        "Name": "DefaultSceneRoot_GEN_VARIABLE",
+        "Outer": "BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'SceneComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_0",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'SceneComponent'",
+                "ObjectPath": "/Script/Engine"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "SceneComponent'BP_Baphomet_Dark_Oilrig_C:DefaultSceneRoot_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.28"
+            },
+            "VariableGuid": "D6947B84-4F29D0B8-A20149A7-21B71A46",
+            "InternalVariableName": "DefaultSceneRoot"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_2",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalBodyPartsSphereComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalBodyPartsSphereComponent'BP_Baphomet_Dark_Oilrig_C:PalBodyPartsSphere_0_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.12"
+            },
+            "AttachToName": "head",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "53303DDD-48239B1A-D7210698-68FBD306",
+            "InternalVariableName": "PalBodyPartsSphere_0"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_3",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalBodyPartsCapsuleComponent'BP_Baphomet_Dark_Oilrig_C:PalBodyPartsCapsule_0_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.11"
+            },
+            "AttachToName": "lowerarm_l",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "87A6EFC5-420B9F83-A507C985-3D999953",
+            "InternalVariableName": "PalBodyPartsCapsule_0"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_4",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalBodyPartsCapsuleComponent'BP_Baphomet_Dark_Oilrig_C:PalBodyPartsCapsule1_0_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.6"
+            },
+            "AttachToName": "lowerarm_r",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "1F269A55-41803621-39D2AFB1-8D44F14D",
+            "InternalVariableName": "PalBodyPartsCapsule1_0"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_5",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalBodyPartsCapsuleComponent'BP_Baphomet_Dark_Oilrig_C:PalBodyPartsCapsule2_0_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.7"
+            },
+            "AttachToName": "head",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "E5D5C3A7-433726DC-4CC96EA2-85F08E4F",
+            "InternalVariableName": "PalBodyPartsCapsule2_0"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_6",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalBodyPartsCapsuleComponent'BP_Baphomet_Dark_Oilrig_C:PalBodyPartsCapsule3_0_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.8"
+            },
+            "AttachToName": "pelvis",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "D5B2F3B3-4A7662DA-3886739B-47E75152",
+            "InternalVariableName": "PalBodyPartsCapsule3_0"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_7",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalBodyPartsCapsuleComponent'BP_Baphomet_Dark_Oilrig_C:PalBodyPartsCapsule4_0_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.9"
+            },
+            "AttachToName": "thigh_l",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "CBC81DF8-4E86EB4F-51E19ABA-BD0ABC3F",
+            "InternalVariableName": "PalBodyPartsCapsule4_0"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_8",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalBodyPartsCapsuleComponent'BP_Baphomet_Dark_Oilrig_C:PalBodyPartsCapsule5_0_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.10"
+            },
+            "AttachToName": "thigh_r",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "D16E98BF-4DD0463B-904184AF-EA6A92F8",
+            "InternalVariableName": "PalBodyPartsCapsule5_0"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_9",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalSpeedCollisionComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalSpeedCollisionComponent'BP_Baphomet_Dark_Oilrig_C:PalSpeedCollision_0_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.24"
+            },
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "601359EE-4CEFD733-696FC997-20A55F4D",
+            "InternalVariableName": "PalSpeedCollision_0"
+        }
+    },
+    {
+        "Type": "SimpleConstructionScript",
+        "Name": "SimpleConstructionScript_0",
+        "Outer": "BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'SimpleConstructionScript'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "RootNodes": [
+                {
+                    "ObjectName": "SCS_Node'BP_Baphomet_Dark_Oilrig_C:SimpleConstructionScript_0.SCS_Node_2'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.30"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_Baphomet_Dark_Oilrig_C:SimpleConstructionScript_0.SCS_Node_3'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.31"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_Baphomet_Dark_Oilrig_C:SimpleConstructionScript_0.SCS_Node_4'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.32"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_Baphomet_Dark_Oilrig_C:SimpleConstructionScript_0.SCS_Node_5'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.33"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_Baphomet_Dark_Oilrig_C:SimpleConstructionScript_0.SCS_Node_6'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.34"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_Baphomet_Dark_Oilrig_C:SimpleConstructionScript_0.SCS_Node_7'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.35"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_Baphomet_Dark_Oilrig_C:SimpleConstructionScript_0.SCS_Node_8'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.36"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_Baphomet_Dark_Oilrig_C:SimpleConstructionScript_0.SCS_Node_9'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.37"
+                }
+            ],
+            "AllNodes": [
+                {
+                    "ObjectName": "SCS_Node'BP_Baphomet_Dark_Oilrig_C:SimpleConstructionScript_0.SCS_Node_2'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.30"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_Baphomet_Dark_Oilrig_C:SimpleConstructionScript_0.SCS_Node_3'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.31"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_Baphomet_Dark_Oilrig_C:SimpleConstructionScript_0.SCS_Node_4'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.32"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_Baphomet_Dark_Oilrig_C:SimpleConstructionScript_0.SCS_Node_5'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.33"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_Baphomet_Dark_Oilrig_C:SimpleConstructionScript_0.SCS_Node_6'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.34"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_Baphomet_Dark_Oilrig_C:SimpleConstructionScript_0.SCS_Node_7'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.35"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_Baphomet_Dark_Oilrig_C:SimpleConstructionScript_0.SCS_Node_8'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.36"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_Baphomet_Dark_Oilrig_C:SimpleConstructionScript_0.SCS_Node_9'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.37"
+                }
+            ],
+            "DefaultSceneRootNode": {
+                "ObjectName": "SCS_Node'BP_Baphomet_Dark_Oilrig_C:SimpleConstructionScript_0.SCS_Node_0'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.29"
+            }
+        }
+    },
+    {
+        "Type": "SphereComponent",
+        "Name": "RagdollInteractiveSphere",
+        "Outer": "Default__BP_Baphomet_Dark_Oilrig_C",
+        "Class": "UScriptClass'SphereComponent'",
+        "Template": {
+            "ObjectName": "SphereComponent'Default__BP_Baphomet_Dark_C:RagdollInteractiveSphere'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark.23"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AttachParent": {
+                "ObjectName": "CapsuleComponent'Default__BP_Baphomet_Dark_Oilrig_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.2"
+            }
+        }
+    }
+]

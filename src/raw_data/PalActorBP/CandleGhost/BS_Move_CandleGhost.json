@@ -1,0 +1,93 @@
+[
+    {
+        "Type": "BlendSpace1D",
+        "Name": "BS_Move_CandleGhost",
+        "Class": "UScriptClass'BlendSpace1D'",
+        "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "TargetWeightInterpolationSpeedPerSec": 3.0,
+            "AnimLength": 4.266667,
+            "SampleData": [
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_CandleGhost_Idle'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CandleGhost/AS_CandleGhost_Idle.0"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_CandleGhost_Walk'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CandleGhost/AS_CandleGhost_Walk.0"
+                    },
+                    "SampleValue": {
+                        "X": 250.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_CandleGhost_Run'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CandleGhost/AS_CandleGhost_Run.0"
+                    },
+                    "SampleValue": {
+                        "X": 800.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_CandleGhost_Run'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CandleGhost/AS_CandleGhost_Run.0"
+                    },
+                    "SampleValue": {
+                        "X": 1000.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.2
+                }
+            ],
+            "BlendSpaceData": {
+                "Segments": [
+                    {
+                        "SampleIndices": 0,
+                        "SampleIndices[1]": 1,
+                        "Vertices": 0.0,
+                        "Vertices[1]": 0.25
+                    },
+                    {
+                        "SampleIndices": 1,
+                        "SampleIndices[1]": 2,
+                        "Vertices": 0.25,
+                        "Vertices[1]": 0.8
+                    },
+                    {
+                        "SampleIndices": 2,
+                        "SampleIndices[1]": 3,
+                        "Vertices": 0.8,
+                        "Vertices[1]": 1.0
+                    }
+                ]
+            },
+            "BlendParameters": {
+                "DisplayName": "Front",
+                "Max": 1000.0
+            },
+            "Skeleton": {
+                "ObjectName": "Skeleton'SK_CandleGhost_Skeleton'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Skeleton/CandleGhost/SK_CandleGhost_Skeleton.2"
+            }
+        },
+        "SkeletonGuid": "4D4C7949-42A4757E-4099DB99-3CD7C084"
+    }
+]

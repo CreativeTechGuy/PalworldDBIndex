@@ -1,0 +1,1278 @@
+[
+    {
+        "Type": "BlueprintGeneratedClass",
+        "Name": "BP_ElecLion_C",
+        "Class": "UScriptClass'BlueprintGeneratedClass'",
+        "Super": {
+            "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "SimpleConstructionScript": {
+                "ObjectName": "SimpleConstructionScript'BP_ElecLion_C:SimpleConstructionScript_0'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.38"
+            },
+            "InheritableComponentHandler": {
+                "ObjectName": "InheritableComponentHandler'BP_ElecLion_C:InheritableComponentHandler'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.7"
+            }
+        },
+        "SuperStruct": {
+            "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+        },
+        "Children": [
+            {
+                "ObjectName": "Function'BP_ElecLion_C:GetVisual_ExceptMainMesh_SyncAnyway'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.6"
+            }
+        ],
+        "ChildProperties": [
+            {
+                "Type": "ObjectProperty",
+                "Name": "BP_PalTimerPointLightComponent",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "BlueprintGeneratedClass'BP_PalTimerPointLightComponent_C'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.0"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalSpeedCollision",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalSpeedCollisionComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalBodyPartsCapsule1",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalBodyPartsCapsule",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalBodyPartsSphere",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalBodyPartsSphereComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "BP_PalRideMarkerSaddle",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "BlueprintGeneratedClass'BP_PalRideMarkerSaddle_C'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerSaddle.0"
+                }
+            }
+        ],
+        "FuncMap": {
+            "GetVisual_ExceptMainMesh_SyncAnyway": {
+                "ObjectName": "Function'BP_ElecLion_C:GetVisual_ExceptMainMesh_SyncAnyway'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.6"
+            }
+        },
+        "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+        "ClassWithin": {
+            "ObjectName": "Class'Object'",
+            "ObjectPath": "/Script/CoreUObject"
+        },
+        "ClassConfigName": "Game",
+        "bCooked": true,
+        "ClassDefaultObject": {
+            "ObjectName": "BP_ElecLion_C'Default__BP_ElecLion_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.1"
+        },
+        "EditorTags": {
+            "BlueprintType": "BPTYPE_Normal"
+        }
+    },
+    {
+        "Type": "BP_ElecLion_C",
+        "Name": "Default__BP_ElecLion_C",
+        "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.BP_ElecLion_C'",
+        "Template": {
+            "ObjectName": "BP_MonsterBase_C'Default__BP_MonsterBase_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.1"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "LiftupObjectComponent": {
+                "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_ElecLion_C:Liftup'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.15"
+            },
+            "ActionComponent": {
+                "ObjectName": "PalActionComponent'Default__BP_ElecLion_C:ActionComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.8"
+            },
+            "CharacterParameterComponent": {
+                "ObjectName": "PalCharacterParameterComponent'Default__BP_ElecLion_C:CharacterParameterComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.17"
+            },
+            "StaticCharacterParameterComponent": {
+                "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_ElecLion_C:StaticCharacterParameterComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.27"
+            },
+            "DamageReactionComponent": {
+                "ObjectName": "PalDamageReactionComponent'Default__BP_ElecLion_C:DamageReactionComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.18"
+            },
+            "StatusComponent": {
+                "ObjectName": "PalStatusComponent'Default__BP_ElecLion_C:StatusComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.28"
+            },
+            "CameraBoom": {
+                "ObjectName": "PalShooterSpringArmComponent'Default__BP_ElecLion_C:CameraBoom'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.24"
+            },
+            "FollowCamera": {
+                "ObjectName": "PalCharacterCameraComponent'Default__BP_ElecLion_C:FollowCamera'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.14"
+            },
+            "LookAtComponent": {
+                "ObjectName": "PalLookAtComponent'Default__BP_ElecLion_C:LookAtComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.21"
+            },
+            "FootIKComponent": {
+                "ObjectName": "PalFootIKComponent'Default__BP_ElecLion_C:FootIKComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.19"
+            },
+            "VisualEffectComponent": {
+                "ObjectName": "PalVisualEffectComponent'Default__BP_ElecLion_C:VisualEffectComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.29"
+            },
+            "PassiveSkillComponent": {
+                "ObjectName": "PalPassiveSkillComponent'Default__BP_ElecLion_C:PassiveSkillComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.23"
+            },
+            "AnimNotifyComponent": {
+                "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_ElecLion_C:AnimNotifyComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.9"
+            },
+            "AroundInfoCollectorComponent": {
+                "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_ElecLion_C:AroundInfoCollectorComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.13"
+            },
+            "RagdollInteractiveSphere": {
+                "ObjectName": "SphereComponent'Default__BP_ElecLion_C:RagdollInteractiveSphere'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.39"
+            },
+            "Mesh": {
+                "ObjectName": "PalSkeletalMeshComponent'Default__BP_ElecLion_C:CharacterMesh0'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.25"
+            },
+            "CharacterMovement": {
+                "ObjectName": "PalCharacterMovementComponent'Default__BP_ElecLion_C:CharMoveComp'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.16"
+            },
+            "CapsuleComponent": {
+                "ObjectName": "CapsuleComponent'Default__BP_ElecLion_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.5"
+            },
+            "RootComponent": {
+                "ObjectName": "CapsuleComponent'Default__BP_ElecLion_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.5"
+            }
+        }
+    },
+    {
+        "Type": "BP_PalCryComponent_C",
+        "Name": "BP_PalCryComponent_GEN_VARIABLE",
+        "Outer": "BP_ElecLion_C",
+        "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.BP_PalCryComponent_C'",
+        "Template": {
+            "ObjectName": "BP_PalCryComponent_C'BP_MonsterBase_C:BP_PalCryComponent_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.2"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+        "Properties": {
+            "CryPalID": "EPalTribeID::ElecLion"
+        }
+    },
+    {
+        "Type": "BP_PalRideMarkerSaddle_C",
+        "Name": "BP_PalRideMarkerSaddle_GEN_VARIABLE",
+        "Outer": "BP_ElecLion_C",
+        "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerSaddle.BP_PalRideMarkerSaddle_C'",
+        "Template": {
+            "ObjectName": "BP_PalRideMarkerSaddle_C'Default__BP_PalRideMarkerSaddle_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerSaddle.1"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "bEvaluateWorldPositionOffsetInRayTracing": true,
+            "RelativeLocation": {
+                "X": -2.3314684e-15,
+                "Y": -20.0,
+                "Z": 2.3092639e-14
+            },
+            "RelativeRotation": {
+                "Pitch": 270.0,
+                "Yaw": 5.679562e-17,
+                "Roll": 7.3834306e-16
+            }
+        }
+    },
+    {
+        "Type": "BP_PalTimerPointLightComponent_C",
+        "Name": "BP_PalTimerPointLightComponent_GEN_VARIABLE",
+        "Outer": "BP_ElecLion_C",
+        "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.BP_PalTimerPointLightComponent_C'",
+        "Template": {
+            "ObjectName": "BP_PalTimerPointLightComponent_C'Default__BP_PalTimerPointLightComponent_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.1"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "bUseInverseSquaredFalloff": false,
+            "AttenuationRadius": 1750.0,
+            "Intensity": 50.0,
+            "LightColor": {
+                "B": 58,
+                "G": 78,
+                "R": 129,
+                "A": 255,
+                "Hex": "814E3A"
+            },
+            "RelativeLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 215.0
+            },
+            "RelativeRotation": {
+                "Pitch": 0.0,
+                "Yaw": 90.0,
+                "Roll": -0.0
+            }
+        },
+        "RelativeRotation": {
+            "Pitch": 0.0,
+            "Yaw": 90.0,
+            "Roll": -0.0
+        },
+        "RelativeLocation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 215.0
+        },
+        "IntensityNits": 50.0,
+        "bUseInverseSquaredFalloff": false
+    },
+    {
+        "Type": "CapsuleComponent",
+        "Name": "CollisionCylinder",
+        "Outer": "Default__BP_ElecLion_C",
+        "Class": "UScriptClass'CapsuleComponent'",
+        "Template": {
+            "ObjectName": "CapsuleComponent'Default__BP_MonsterBase_C:CollisionCylinder'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.3"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "CapsuleHalfHeight": 30.0,
+            "CapsuleRadius": 30.0
+        }
+    },
+    {
+        "Type": "Function",
+        "Name": "GetVisual_ExceptMainMesh_SyncAnyway",
+        "Outer": "BP_ElecLion_C",
+        "Class": "UScriptClass'Function'",
+        "Super": {
+            "ObjectName": "Function'BP_MonsterBase_C:GetVisual_ExceptMainMesh_SyncAnyway'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.15"
+        },
+        "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+        "SuperStruct": {
+            "ObjectName": "Function'BP_MonsterBase_C:GetVisual_ExceptMainMesh_SyncAnyway'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.15"
+        },
+        "ChildProperties": [
+            {
+                "Type": "ArrayProperty",
+                "Name": "OutComponent",
+                "Flags": "RF_Public",
+                "ElementSize": 16,
+                "PropertyFlags": "Parm | OutParm | ContainsInstancedReference",
+                "Inner": {
+                    "Type": "ObjectProperty",
+                    "Name": "OutComponent",
+                    "Flags": "RF_Public",
+                    "ElementSize": 8,
+                    "PropertyFlags": "InstancedReference",
+                    "PropertyClass": {
+                        "ObjectName": "Class'SceneComponent'",
+                        "ObjectPath": "/Script/Engine"
+                    }
+                }
+            },
+            {
+                "Type": "ArrayProperty",
+                "Name": "NewLocalVar",
+                "Flags": "RF_Public",
+                "ElementSize": 16,
+                "PropertyFlags": "Edit | BlueprintVisible | ContainsInstancedReference",
+                "Inner": {
+                    "Type": "ObjectProperty",
+                    "Name": "NewLocalVar",
+                    "Flags": "RF_Public",
+                    "ElementSize": 8,
+                    "PropertyFlags": "InstancedReference",
+                    "PropertyClass": {
+                        "ObjectName": "Class'SceneComponent'",
+                        "ObjectPath": "/Script/Engine"
+                    }
+                }
+            },
+            {
+                "Type": "IntProperty",
+                "Name": "CallFunc_Array_Add_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 4
+            }
+        ],
+        "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+        "Type": "InheritableComponentHandler",
+        "Name": "InheritableComponentHandler",
+        "Outer": "BP_ElecLion_C",
+        "Class": "UScriptClass'InheritableComponentHandler'",
+        "Flags": "RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "Records": [
+                {
+                    "ComponentClass": {
+                        "ObjectName": "Class'PalInteractableSphereComponentNative'",
+                        "ObjectPath": "/Script/Pal"
+                    },
+                    "ComponentTemplate": {
+                        "ObjectName": "PalInteractableSphereComponentNative'BP_ElecLion_C:BP_InteractableSphere_GEN_VARIABLE'",
+                        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.20"
+                    },
+                    "ComponentKey": {
+                        "OwnerClass": {
+                            "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+                            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+                        },
+                        "SCSVariableName": "BP_InteractableSphere",
+                        "AssociatedGuid": "E1723F2E-426F1652-C58C1AA3-7D95233B"
+                    },
+                    "CookedComponentInstancingData": {
+                        "ChangedPropertyList": [],
+                        "bHasValidCookedData": false
+                    }
+                },
+                {
+                    "ComponentClass": {
+                        "ObjectName": "Class'PalPartnerSkillParameterComponent'",
+                        "ObjectPath": "/Script/Pal"
+                    },
+                    "ComponentTemplate": {
+                        "ObjectName": "PalPartnerSkillParameterComponent'BP_ElecLion_C:PalPartnerSkillParameter_GEN_VARIABLE'",
+                        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.22"
+                    },
+                    "ComponentKey": {
+                        "OwnerClass": {
+                            "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+                            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+                        },
+                        "SCSVariableName": "PalPartnerSkillParameter",
+                        "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
+                    },
+                    "CookedComponentInstancingData": {
+                        "ChangedPropertyList": [],
+                        "bHasValidCookedData": false
+                    }
+                },
+                {
+                    "ComponentClass": {
+                        "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
+                        "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
+                    },
+                    "ComponentTemplate": {
+                        "ObjectName": "BP_PalCryComponent_C'BP_ElecLion_C:BP_PalCryComponent_GEN_VARIABLE'",
+                        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.2"
+                    },
+                    "ComponentKey": {
+                        "OwnerClass": {
+                            "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+                            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+                        },
+                        "SCSVariableName": "BP_PalCryComponent",
+                        "AssociatedGuid": "A971BE27-4B3C10FC-863FA284-ECDC3286"
+                    },
+                    "CookedComponentInstancingData": {
+                        "ChangedPropertyList": [],
+                        "bHasValidCookedData": false
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Type": "PalActionComponent",
+        "Name": "ActionComponent",
+        "Outer": "Default__BP_ElecLion_C",
+        "Class": "UScriptClass'PalActionComponent'",
+        "Template": {
+            "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalAnimNotifyParameterComponent",
+        "Name": "AnimNotifyComponent",
+        "Outer": "Default__BP_ElecLion_C",
+        "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+        "Template": {
+            "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalBodyPartsCapsuleComponent",
+        "Name": "PalBodyPartsCapsule1_GEN_VARIABLE",
+        "Outer": "BP_ElecLion_C",
+        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AreaClassOverride": {
+                "ObjectName": "Class'NavArea_Obstacle'",
+                "ObjectPath": "/Script/NavigationSystem"
+            },
+            "bUseSystemDefaultObstacleAreaClass": false,
+            "RelativeLocation": {
+                "X": 25.082193,
+                "Y": 1.1336682e-7,
+                "Z": -21.29682
+            },
+            "RelativeRotation": {
+                "Pitch": 6.9717316e-7,
+                "Yaw": 90.0,
+                "Roll": 76.5806
+            },
+            "RelativeScale3D": {
+                "X": 2.6515503,
+                "Y": 2.2344007,
+                "Z": 1.7393272
+            }
+        }
+    },
+    {
+        "Type": "PalBodyPartsCapsuleComponent",
+        "Name": "PalBodyPartsCapsule_GEN_VARIABLE",
+        "Outer": "BP_ElecLion_C",
+        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AreaClassOverride": {
+                "ObjectName": "Class'NavArea_Obstacle'",
+                "ObjectPath": "/Script/NavigationSystem"
+            },
+            "bUseSystemDefaultObstacleAreaClass": false,
+            "RelativeLocation": {
+                "X": -5.9677816e-13,
+                "Y": -5.401667e-7,
+                "Z": 57.47051
+            },
+            "RelativeRotation": {
+                "Pitch": 2.8248999e-30,
+                "Yaw": 0.0,
+                "Roll": 90.0
+            },
+            "RelativeScale3D": {
+                "X": 3.2983599,
+                "Y": 3.2983599,
+                "Z": 2.3144615
+            }
+        }
+    },
+    {
+        "Type": "PalBodyPartsSphereComponent",
+        "Name": "PalBodyPartsSphere_GEN_VARIABLE",
+        "Outer": "BP_ElecLion_C",
+        "Class": "UScriptClass'PalBodyPartsSphereComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "BodyPartsType": "EPalBodyPartsType::Weak",
+            "SphereRadius": 40.0,
+            "AreaClassOverride": {
+                "ObjectName": "Class'NavArea_Obstacle'",
+                "ObjectPath": "/Script/NavigationSystem"
+            },
+            "bUseSystemDefaultObstacleAreaClass": false,
+            "RelativeLocation": {
+                "X": -7.718004,
+                "Y": -1.9071223e-13,
+                "Z": 17.791346
+            }
+        }
+    },
+    {
+        "Type": "PalCharacterAroundInfoCollectorComponent",
+        "Name": "AroundInfoCollectorComponent",
+        "Outer": "Default__BP_ElecLion_C",
+        "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AttachParent": {
+                "ObjectName": "CapsuleComponent'Default__BP_ElecLion_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.5"
+            }
+        }
+    },
+    {
+        "Type": "PalCharacterCameraComponent",
+        "Name": "FollowCamera",
+        "Outer": "Default__BP_ElecLion_C",
+        "Class": "UScriptClass'PalCharacterCameraComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AttachParent": {
+                "ObjectName": "PalShooterSpringArmComponent'Default__BP_ElecLion_C:CameraBoom'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.24"
+            }
+        }
+    },
+    {
+        "Type": "PalCharacterLiftupObjectComponent",
+        "Name": "Liftup",
+        "Outer": "Default__BP_ElecLion_C",
+        "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalCharacterMovementComponent",
+        "Name": "CharMoveComp",
+        "Outer": "Default__BP_ElecLion_C",
+        "Class": "UScriptClass'PalCharacterMovementComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "MaxWalkSpeed": 1000.0
+        }
+    },
+    {
+        "Type": "PalCharacterParameterComponent",
+        "Name": "CharacterParameterComponent",
+        "Outer": "Default__BP_ElecLion_C",
+        "Class": "UScriptClass'PalCharacterParameterComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalDamageReactionComponent",
+        "Name": "DamageReactionComponent",
+        "Outer": "Default__BP_ElecLion_C",
+        "Class": "UScriptClass'PalDamageReactionComponent'",
+        "Template": {
+            "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalFootIKComponent",
+        "Name": "FootIKComponent",
+        "Outer": "Default__BP_ElecLion_C",
+        "Class": "UScriptClass'PalFootIKComponent'",
+        "Template": {
+            "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalInteractableSphereComponentNative",
+        "Name": "BP_InteractableSphere_GEN_VARIABLE",
+        "Outer": "BP_ElecLion_C",
+        "Class": "UScriptClass'PalInteractableSphereComponentNative'",
+        "Template": {
+            "ObjectName": "PalInteractableSphereComponentNative'BP_MonsterBase_C:BP_InteractableSphere_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+        "Properties": {
+            "RelativeLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -47.871506
+            }
+        }
+    },
+    {
+        "Type": "PalLookAtComponent",
+        "Name": "LookAtComponent",
+        "Outer": "Default__BP_ElecLion_C",
+        "Class": "UScriptClass'PalLookAtComponent'",
+        "Template": {
+            "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalPartnerSkillParameterComponent",
+        "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
+        "Outer": "BP_ElecLion_C",
+        "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
+        "Template": {
+            "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+        "Properties": {
+            "RestrictionItems": [
+                {
+                    "Key": "SkillUnlock_ElecLion"
+                }
+            ]
+        }
+    },
+    {
+        "Type": "PalPassiveSkillComponent",
+        "Name": "PassiveSkillComponent",
+        "Outer": "Default__BP_ElecLion_C",
+        "Class": "UScriptClass'PalPassiveSkillComponent'",
+        "Template": {
+            "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalShooterSpringArmComponent",
+        "Name": "CameraBoom",
+        "Outer": "Default__BP_ElecLion_C",
+        "Class": "UScriptClass'PalShooterSpringArmComponent'",
+        "Template": {
+            "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "WalkCameraArmLength": 570.0,
+            "WalkCameraOffset": {
+                "X": 0.0,
+                "Y": 105.0,
+                "Z": 145.0
+            },
+            "AimCameraArmLength": 160.0,
+            "AimCameraOffset": {
+                "X": 0.0,
+                "Y": 50.0,
+                "Z": 133.0
+            },
+            "AirCameraArmLength": 570.0,
+            "AirCameraOffset": {
+                "X": 0.0,
+                "Y": 105.0,
+                "Z": 145.0
+            },
+            "AirAimCameraArmLength": 160.0,
+            "AirAimCameraOffset": {
+                "X": 0.0,
+                "Y": 50.0,
+                "Z": 133.0
+            },
+            "AttachParent": {
+                "ObjectName": "CapsuleComponent'Default__BP_ElecLion_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.5"
+            },
+            "RelativeLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 52.128494
+            }
+        }
+    },
+    {
+        "Type": "PalSkeletalMeshComponent",
+        "Name": "CharacterMesh0",
+        "Outer": "Default__BP_ElecLion_C",
+        "Class": "UScriptClass'PalSkeletalMeshComponent'",
+        "Template": {
+            "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "bIsEnableGroundTilt": true,
+            "PitchAngle": 12.0,
+            "RollAngle": 5.0,
+            "AnimClass": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_ElecLion_C'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/ABP_ElecLion.1"
+            },
+            "SkeletalMesh": {
+                "ObjectName": "SkeletalMesh'SK_ElecLion'",
+                "ObjectPath": "/Game/Pal/Model/Character/Monster/ElecLion/SK_ElecLion"
+            },
+            "SkinnedAsset": {
+                "ObjectName": "SkeletalMesh'SK_ElecLion'",
+                "ObjectPath": "/Game/Pal/Model/Character/Monster/ElecLion/SK_ElecLion"
+            },
+            "AttachParent": {
+                "ObjectName": "CapsuleComponent'Default__BP_ElecLion_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.5"
+            },
+            "RelativeLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -30.0
+            }
+        }
+    },
+    {
+        "Type": "PalSpeedCollisionComponent",
+        "Name": "PalSpeedCollision_GEN_VARIABLE",
+        "Outer": "BP_ElecLion_C",
+        "Class": "UScriptClass'PalSpeedCollisionComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AreaClassOverride": {
+                "ObjectName": "Class'NavArea_Obstacle'",
+                "ObjectPath": "/Script/NavigationSystem"
+            },
+            "bUseSystemDefaultObstacleAreaClass": false,
+            "RelativeLocation": {
+                "X": -4.1248014e-13,
+                "Y": 151.26306,
+                "Z": 129.32585
+            },
+            "RelativeScale3D": {
+                "X": 3.7189302,
+                "Y": 3.7189302,
+                "Z": 3.7189302
+            }
+        }
+    },
+    {
+        "Type": "PalStaticCharacterParameterComponent",
+        "Name": "StaticCharacterParameterComponent",
+        "Outer": "Default__BP_ElecLion_C",
+        "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+        "Template": {
+            "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "MeshCapsuleHalfHeight": 130.0,
+            "MeshCapsuleRadius": 60.0,
+            "MeshRelativeLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -130.0
+            },
+            "AIActionMap": [
+                {
+                    "Key": "EPalAIActionType::Cooperation",
+                    "Value": {
+                        "ObjectName": "BlueprintGeneratedClass'BP_AIActionRideCall_C'",
+                        "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Coop/BP_AIActionRideCall.0"
+                    }
+                }
+            ],
+            "GeneralAnimSequenceMap": [
+                {
+                    "Key": "EPalGeneralAnimSequenceType::JumpLoop",
+                    "Value": {
+                        "ObjectName": "AnimSequence'AS_ElecLion_JumpLoop'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/ElecLion/AS_ElecLion_JumpLoop"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralAnimSequenceType::JumpEnd",
+                    "Value": {
+                        "ObjectName": "AnimSequence'AS_ElecLion_JumpEnd'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/ElecLion/AS_ElecLion_JumpEnd"
+                    }
+                }
+            ],
+            "GeneralMontageMap": [
+                {
+                    "Key": "EPalGeneralMontageType::GeneralAttackReady_Far",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_ElecLion_FarSkill_Start'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/ElecLion/AM_ElecLion_FarSkill_Start"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::GeneralAttackReadyLoop_Far",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_ElecLion_FarSkill_StartLoop'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/ElecLion/AM_ElecLion_FarSkill_StartLoop"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::GeneralAttackProcess_Far",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_ElecLion_FarSkill_Action'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/ElecLion/AM_ElecLion_FarSkill_Action"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::GeneralAttackProcessLoop_Far",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_ElecLion_FarSkill_ActionLoop'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/ElecLion/AM_ElecLion_FarSkill_ActionLoop"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::GeneralAttackAfter_Far",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_ElecLion_FarSkill_End'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/ElecLion/AM_ElecLion_FarSkill_End"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::SleepStart",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_ElecLion_SleepStart'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/ElecLion/AM_ElecLion_SleepStart"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::SleepLoop",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_ElecLion_SleepLoop'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/ElecLion/AM_ElecLion_SleepLoop"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::SleepEnd",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_ElecLion_SleepEnd'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/ElecLion/AM_ElecLion_SleepEnd"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::DamageAdditive",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_ElecLion_Hit'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/ElecLion/AM_ElecLion_Hit"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::BeLiftupStart",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_ElecLion_Carrying_Start'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/ElecLion/AM_ElecLion_Carrying_Start"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::BeLiftupLoop",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_ElecLion_Carrying'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/ElecLion/AM_ElecLion_Carrying"
+                    }
+                }
+            ],
+            "GeneralBlendSpaceMap": [
+                {
+                    "Key": "EPalGeneralBlendSpaceType::GeneralMove",
+                    "Value": {
+                        "ObjectName": "BlendSpace1D'BS_Move_ElecLion'",
+                        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BS_Move_ElecLion.0"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralBlendSpaceType::RidingMove",
+                    "Value": {
+                        "ObjectName": "BlendSpace1D'BS_Move_ElecLion_Riding'",
+                        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BS_Move_ElecLion_Riding.0"
+                    }
+                }
+            ],
+            "ActionMontageMap": [
+                {
+                    "Key": "EPalActionType::Menace",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_ElecLion_Encount'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/ElecLion/AM_ElecLion_Encount"
+                    }
+                },
+                {
+                    "Key": "EPalActionType::Eat",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_ElecLion_Eat'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/ElecLion/AM_ElecLion_Eat"
+                    }
+                },
+                {
+                    "Key": "EPalActionType::KnockBack",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_ElecLion_Damage'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/ElecLion/AM_ElecLion_Damage"
+                    }
+                },
+                {
+                    "Key": "EPalActionType::ForwardWalk",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_ElecLion_Walk'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/ElecLion/AM_ElecLion_Walk"
+                    }
+                },
+                {
+                    "Key": "EPalActionType::GetupUtubuse_orRight",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_ElecLion_GetUp_RightDown'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/ElecLion/AM_ElecLion_GetUp_RightDown"
+                    }
+                },
+                {
+                    "Key": "EPalActionType::GetupAomuke_orRight",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_ElecLion_GetUp_LeftDown'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/ElecLion/AM_ElecLion_GetUp_LeftDown"
+                    }
+                },
+                {
+                    "Key": "EPalActionType::PalPetting",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_ElecLion_Petting'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/ElecLion/AM_ElecLion_Petting"
+                    }
+                },
+                {
+                    "Key": "EPalActionType::IdleInSpa",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_ElecLion_Spa'",
+                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/ElecLion/AM_ElecLion_Spa"
+                    }
+                }
+            ],
+            "HPGaugeUIOffset": {
+                "X": 0.0,
+                "Y": -20.0
+            },
+            "IsRightLeft_WakeupFromRagdoll": true,
+            "GetupMotion_UtubuseOrRight_0FramePelvisLocation": {
+                "X": -105.345085,
+                "Y": -46.693592,
+                "Z": 43.136032
+            },
+            "GetupMotion_AomukeOrLeft_0FramePelvisLocation": {
+                "X": 105.345085,
+                "Y": -46.693592,
+                "Z": 43.136024
+            },
+            "Ragdoll_RightLeftGetup_ForwardTailName": "spine_03",
+            "Ragdoll_RightLeftGetup_RightLegName": "leg_back_01_r",
+            "PettingSize": "EPalPettingSizeType::Medium",
+            "PettingDistance": 176.0
+        }
+    },
+    {
+        "Type": "PalStatusComponent",
+        "Name": "StatusComponent",
+        "Outer": "Default__BP_ElecLion_C",
+        "Class": "UScriptClass'PalStatusComponent'",
+        "Template": {
+            "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalVisualEffectComponent",
+        "Name": "VisualEffectComponent",
+        "Outer": "Default__BP_ElecLion_C",
+        "Class": "UScriptClass'PalVisualEffectComponent'",
+        "Template": {
+            "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "SceneComponent",
+        "Name": "DefaultSceneRoot_GEN_VARIABLE",
+        "Outer": "BP_ElecLion_C",
+        "Class": "UScriptClass'SceneComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_0",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'SceneComponent'",
+                "ObjectPath": "/Script/Engine"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "SceneComponent'BP_ElecLion_C:DefaultSceneRoot_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.30"
+            },
+            "VariableGuid": "4A764456-43C9F1C7-F55BBEBE-2196E797",
+            "InternalVariableName": "DefaultSceneRoot"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_1",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "BlueprintGeneratedClass'BP_PalRideMarkerSaddle_C'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerSaddle.0"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "BP_PalRideMarkerSaddle_C'BP_ElecLion_C:BP_PalRideMarkerSaddle_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.3"
+            },
+            "AttachToName": "spine_01",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "34BFF0D1-40788B08-A6DE92A7-99396688",
+            "InternalVariableName": "BP_PalRideMarkerSaddle"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_2",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalBodyPartsSphereComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalBodyPartsSphereComponent'BP_ElecLion_C:PalBodyPartsSphere_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.12"
+            },
+            "AttachToName": "head",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "05824153-429C825E-D35C8182-FB1323BC",
+            "InternalVariableName": "PalBodyPartsSphere"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_3",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalBodyPartsCapsuleComponent'BP_ElecLion_C:PalBodyPartsCapsule_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.11"
+            },
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "233C25E9-4EF9D6E6-086869B6-9E281F18",
+            "InternalVariableName": "PalBodyPartsCapsule"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_4",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalBodyPartsCapsuleComponent'BP_ElecLion_C:PalBodyPartsCapsule1_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.10"
+            },
+            "AttachToName": "head",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "057F12BA-461E1B40-AAEBF68A-4F3DD8CC",
+            "InternalVariableName": "PalBodyPartsCapsule1"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_5",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalSpeedCollisionComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalSpeedCollisionComponent'BP_ElecLion_C:PalSpeedCollision_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.26"
+            },
+            "AttachToName": "root",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "402ED46F-49E3B99D-F494B898-2F446278",
+            "InternalVariableName": "PalSpeedCollision"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_6",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "BlueprintGeneratedClass'BP_PalTimerPointLightComponent_C'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.0"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "BP_PalTimerPointLightComponent_C'BP_ElecLion_C:BP_PalTimerPointLightComponent_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.4"
+            },
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "B7B52195-4933C357-F609C2A4-C1F5540E",
+            "InternalVariableName": "BP_PalTimerPointLightComponent"
+        }
+    },
+    {
+        "Type": "SimpleConstructionScript",
+        "Name": "SimpleConstructionScript_0",
+        "Outer": "BP_ElecLion_C",
+        "Class": "UScriptClass'SimpleConstructionScript'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "RootNodes": [
+                {
+                    "ObjectName": "SCS_Node'BP_ElecLion_C:SimpleConstructionScript_0.SCS_Node_1'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.32"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_ElecLion_C:SimpleConstructionScript_0.SCS_Node_2'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.33"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_ElecLion_C:SimpleConstructionScript_0.SCS_Node_3'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.34"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_ElecLion_C:SimpleConstructionScript_0.SCS_Node_4'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.35"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_ElecLion_C:SimpleConstructionScript_0.SCS_Node_5'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.36"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_ElecLion_C:SimpleConstructionScript_0.SCS_Node_6'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.37"
+                }
+            ],
+            "AllNodes": [
+                {
+                    "ObjectName": "SCS_Node'BP_ElecLion_C:SimpleConstructionScript_0.SCS_Node_1'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.32"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_ElecLion_C:SimpleConstructionScript_0.SCS_Node_2'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.33"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_ElecLion_C:SimpleConstructionScript_0.SCS_Node_3'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.34"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_ElecLion_C:SimpleConstructionScript_0.SCS_Node_4'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.35"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_ElecLion_C:SimpleConstructionScript_0.SCS_Node_5'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.36"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_ElecLion_C:SimpleConstructionScript_0.SCS_Node_6'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.37"
+                }
+            ],
+            "DefaultSceneRootNode": {
+                "ObjectName": "SCS_Node'BP_ElecLion_C:SimpleConstructionScript_0.SCS_Node_0'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.31"
+            }
+        }
+    },
+    {
+        "Type": "SphereComponent",
+        "Name": "RagdollInteractiveSphere",
+        "Outer": "Default__BP_ElecLion_C",
+        "Class": "UScriptClass'SphereComponent'",
+        "Template": {
+            "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AttachParent": {
+                "ObjectName": "CapsuleComponent'Default__BP_ElecLion_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecLion/BP_ElecLion.5"
+            }
+        }
+    }
+]

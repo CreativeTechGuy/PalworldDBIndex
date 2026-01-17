@@ -1,0 +1,75 @@
+[
+    {
+        "Type": "BlendSpace1D",
+        "Name": "BS_Swim_NightBlueHorse",
+        "Class": "UScriptClass'BlendSpace1D'",
+        "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "TargetWeightInterpolationSpeedPerSec": 3.0,
+            "AnimLength": 2.0,
+            "SampleData": [
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_NightBlueHorse_Idle_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/NightBlueHorse/AS_NightBlueHorse_Idle_Swim.0"
+                    },
+                    "SampleValue": {
+                        "X": 1200.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.7
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_NightBlueHorse_Idle_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/NightBlueHorse/AS_NightBlueHorse_Idle_Swim.0"
+                    },
+                    "SampleValue": {
+                        "X": 600.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.5
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_NightBlueHorse_Idle_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/NightBlueHorse/AS_NightBlueHorse_Idle_Swim.0"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                }
+            ],
+            "BlendSpaceData": {
+                "Segments": [
+                    {
+                        "SampleIndices": 2,
+                        "SampleIndices[1]": 1,
+                        "Vertices": 0.0,
+                        "Vertices[1]": 0.5
+                    },
+                    {
+                        "SampleIndices": 1,
+                        "SampleIndices[1]": 0,
+                        "Vertices": 0.5,
+                        "Vertices[1]": 1.0
+                    }
+                ]
+            },
+            "BlendParameters": {
+                "DisplayName": "Front",
+                "Max": 1200.0
+            },
+            "Skeleton": {
+                "ObjectName": "Skeleton'SK_NightBlueHorse_Skeleton'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Skeleton/NightBlueHorse/SK_NightBlueHorse_Skeleton.2"
+            }
+        },
+        "SkeletonGuid": "693C91BD-453D5960-1A0A9EAE-6CAF6410"
+    }
+]

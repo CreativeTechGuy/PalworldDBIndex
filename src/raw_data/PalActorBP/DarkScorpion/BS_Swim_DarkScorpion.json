@@ -1,0 +1,57 @@
+[
+    {
+        "Type": "BlendSpace1D",
+        "Name": "BS_Swim_DarkScorpion",
+        "Class": "UScriptClass'BlendSpace1D'",
+        "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "TargetWeightInterpolationSpeedPerSec": 3.0,
+            "AnimLength": 1.0,
+            "SampleData": [
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_DarkScorpion_Idle_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/DarkScorpion/AS_DarkScorpion_Idle_Swim.0"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 0.3
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_DarkScorpion_Idle_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/DarkScorpion/AS_DarkScorpion_Idle_Swim.0"
+                    },
+                    "SampleValue": {
+                        "X": 1200.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 2.0
+                }
+            ],
+            "BlendSpaceData": {
+                "Segments": [
+                    {
+                        "SampleIndices": 0,
+                        "SampleIndices[1]": 1,
+                        "Vertices": 0.0,
+                        "Vertices[1]": 1.0
+                    }
+                ]
+            },
+            "BlendParameters": {
+                "DisplayName": "Front",
+                "Max": 1200.0
+            },
+            "Skeleton": {
+                "ObjectName": "Skeleton'SK_DarkScorpion_Skeleton'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Skeleton/DarkScorpion/SK_DarkScorpion_Skeleton.2"
+            }
+        },
+        "SkeletonGuid": "4FE7D05B-42D298B0-8CD8B2A9-4AB7D72B"
+    }
+]

@@ -1,0 +1,75 @@
+[
+    {
+        "Type": "BlendSpace1D",
+        "Name": "BS_Swim_BlackGriffon",
+        "Class": "UScriptClass'BlendSpace1D'",
+        "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "TargetWeightInterpolationSpeedPerSec": 3.0,
+            "AnimLength": 2.0,
+            "SampleData": [
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_BlackGriffon_Idle_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlackGriffon/AS_BlackGriffon_Idle_Swim.0"
+                    },
+                    "SampleValue": {
+                        "X": 1100.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.5
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_BlackGriffon_Idle_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlackGriffon/AS_BlackGriffon_Idle_Swim.0"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_BlackGriffon_Idle_Swim'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlackGriffon/AS_BlackGriffon_Idle_Swim.0"
+                    },
+                    "SampleValue": {
+                        "X": 550.71594,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.3
+                }
+            ],
+            "BlendSpaceData": {
+                "Segments": [
+                    {
+                        "SampleIndices": 1,
+                        "SampleIndices[1]": 2,
+                        "Vertices": 0.0,
+                        "Vertices[1]": 0.5006509
+                    },
+                    {
+                        "SampleIndices": 2,
+                        "SampleIndices[1]": 0,
+                        "Vertices": 0.5006509,
+                        "Vertices[1]": 1.0
+                    }
+                ]
+            },
+            "BlendParameters": {
+                "DisplayName": "Front",
+                "Max": 1100.0
+            },
+            "Skeleton": {
+                "ObjectName": "Skeleton'SK_BlackGriffon_Skeleton'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Skeleton/BlackGriffon/SK_BlackGriffon_Skeleton.8"
+            }
+        },
+        "SkeletonGuid": "DBA0A61F-461954D9-2529AD96-69797E32"
+    }
+]

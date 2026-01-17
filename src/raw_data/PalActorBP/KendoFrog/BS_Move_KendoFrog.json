@@ -1,0 +1,165 @@
+[
+    {
+        "Type": "BlendSpace1D",
+        "Name": "BS_Move_KendoFrog",
+        "Class": "UScriptClass'BlendSpace1D'",
+        "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "TargetWeightInterpolationSpeedPerSec": 3.0,
+            "AnimLength": 2.1333334,
+            "SampleData": [
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_KendoFrog_Idle'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KendoFrog/AS_KendoFrog_Idle.0"
+                    },
+                    "SampleValue": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_KendoFrog_Run'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KendoFrog/AS_KendoFrog_Run.0"
+                    },
+                    "SampleValue": {
+                        "X": 300.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_KendoFrog_Run'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KendoFrog/AS_KendoFrog_Run.0"
+                    },
+                    "SampleValue": {
+                        "X": 450.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.5
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_KendoFrog_Walk'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KendoFrog/AS_KendoFrog_Walk.0"
+                    },
+                    "SampleValue": {
+                        "X": 66.6,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 1.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_KendoFrog_Walk'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KendoFrog/AS_KendoFrog_Walk.0"
+                    },
+                    "SampleValue": {
+                        "X": 133.5,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 2.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_KendoFrog_Walk'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KendoFrog/AS_KendoFrog_Walk.0"
+                    },
+                    "SampleValue": {
+                        "X": 200.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 3.0
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_KendoFrog_Run'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KendoFrog/AS_KendoFrog_Run.0"
+                    },
+                    "SampleValue": {
+                        "X": 225.0,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 0.75
+                },
+                {
+                    "Animation": {
+                        "ObjectName": "AnimSequence'AS_KendoFrog_Walk'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KendoFrog/AS_KendoFrog_Walk.0"
+                    },
+                    "SampleValue": {
+                        "X": 33.3,
+                        "Y": 0.0,
+                        "Z": 0.0
+                    },
+                    "RateScale": 0.5
+                }
+            ],
+            "BlendSpaceData": {
+                "Segments": [
+                    {
+                        "SampleIndices": 0,
+                        "SampleIndices[1]": 7,
+                        "Vertices": 0.0,
+                        "Vertices[1]": 0.074
+                    },
+                    {
+                        "SampleIndices": 7,
+                        "SampleIndices[1]": 3,
+                        "Vertices": 0.074,
+                        "Vertices[1]": 0.148
+                    },
+                    {
+                        "SampleIndices": 3,
+                        "SampleIndices[1]": 4,
+                        "Vertices": 0.148,
+                        "Vertices[1]": 0.29666665
+                    },
+                    {
+                        "SampleIndices": 4,
+                        "SampleIndices[1]": 5,
+                        "Vertices": 0.29666665,
+                        "Vertices[1]": 0.44444445
+                    },
+                    {
+                        "SampleIndices": 5,
+                        "SampleIndices[1]": 6,
+                        "Vertices": 0.44444445,
+                        "Vertices[1]": 0.5
+                    },
+                    {
+                        "SampleIndices": 6,
+                        "SampleIndices[1]": 1,
+                        "Vertices": 0.5,
+                        "Vertices[1]": 0.6666667
+                    },
+                    {
+                        "SampleIndices": 1,
+                        "SampleIndices[1]": 2,
+                        "Vertices": 0.6666667,
+                        "Vertices[1]": 1.0
+                    }
+                ]
+            },
+            "BlendParameters": {
+                "DisplayName": "Front",
+                "Max": 450.0
+            },
+            "Skeleton": {
+                "ObjectName": "Skeleton'SK_KendoFrog_Skeleton'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Skeleton/KendoFrog/SK_KendoFrog_Skeleton.3"
+            }
+        },
+        "SkeletonGuid": "C6528767-4F297DCD-0B429FAD-E7F1F54F"
+    }
+]

@@ -1,0 +1,1226 @@
+[
+    {
+        "Type": "BlueprintGeneratedClass",
+        "Name": "BP_BlueberryFairy_C",
+        "Class": "UScriptClass'BlueprintGeneratedClass'",
+        "Super": {
+            "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "SimpleConstructionScript": {
+                "ObjectName": "SimpleConstructionScript'BP_BlueberryFairy_C:SimpleConstructionScript_0'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.32"
+            },
+            "InheritableComponentHandler": {
+                "ObjectName": "InheritableComponentHandler'BP_BlueberryFairy_C:InheritableComponentHandler'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.4"
+            }
+        },
+        "SuperStruct": {
+            "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+        },
+        "ChildProperties": [
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalFlyMeshHeightCtrl",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalFlyMeshHeightCtrlComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalBodyPartsCapsule2",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalBodyPartsCapsule1",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalBodyPartsCapsule",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            }
+        ],
+        "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+        "ClassWithin": {
+            "ObjectName": "Class'Object'",
+            "ObjectPath": "/Script/CoreUObject"
+        },
+        "ClassConfigName": "Game",
+        "bCooked": true,
+        "ClassDefaultObject": {
+            "ObjectName": "BP_BlueberryFairy_C'Default__BP_BlueberryFairy_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.1"
+        },
+        "EditorTags": {
+            "BlueprintType": "BPTYPE_Normal"
+        }
+    },
+    {
+        "Type": "BP_BlueberryFairy_C",
+        "Name": "Default__BP_BlueberryFairy_C",
+        "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.BP_BlueberryFairy_C'",
+        "Template": {
+            "ObjectName": "BP_MonsterBase_C'Default__BP_MonsterBase_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.1"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "LiftupObjectComponent": {
+                "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_BlueberryFairy_C:Liftup'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.12"
+            },
+            "ActionComponent": {
+                "ObjectName": "PalActionComponent'Default__BP_BlueberryFairy_C:ActionComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.5"
+            },
+            "CharacterParameterComponent": {
+                "ObjectName": "PalCharacterParameterComponent'Default__BP_BlueberryFairy_C:CharacterParameterComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.14"
+            },
+            "StaticCharacterParameterComponent": {
+                "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_BlueberryFairy_C:StaticCharacterParameterComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.23"
+            },
+            "DamageReactionComponent": {
+                "ObjectName": "PalDamageReactionComponent'Default__BP_BlueberryFairy_C:DamageReactionComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.15"
+            },
+            "StatusComponent": {
+                "ObjectName": "PalStatusComponent'Default__BP_BlueberryFairy_C:StatusComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.24"
+            },
+            "CameraBoom": {
+                "ObjectName": "PalShooterSpringArmComponent'Default__BP_BlueberryFairy_C:CameraBoom'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.21"
+            },
+            "FollowCamera": {
+                "ObjectName": "PalCharacterCameraComponent'Default__BP_BlueberryFairy_C:FollowCamera'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.11"
+            },
+            "LookAtComponent": {
+                "ObjectName": "PalLookAtComponent'Default__BP_BlueberryFairy_C:LookAtComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.18"
+            },
+            "FootIKComponent": {
+                "ObjectName": "PalFootIKComponent'Default__BP_BlueberryFairy_C:FootIKComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.17"
+            },
+            "VisualEffectComponent": {
+                "ObjectName": "PalVisualEffectComponent'Default__BP_BlueberryFairy_C:VisualEffectComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.25"
+            },
+            "PassiveSkillComponent": {
+                "ObjectName": "PalPassiveSkillComponent'Default__BP_BlueberryFairy_C:PassiveSkillComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.20"
+            },
+            "AnimNotifyComponent": {
+                "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_BlueberryFairy_C:AnimNotifyComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.6"
+            },
+            "AroundInfoCollectorComponent": {
+                "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_BlueberryFairy_C:AroundInfoCollectorComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.10"
+            },
+            "RagdollInteractiveSphere": {
+                "ObjectName": "SphereComponent'Default__BP_BlueberryFairy_C:RagdollInteractiveSphere'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.33"
+            },
+            "Mesh": {
+                "ObjectName": "PalSkeletalMeshComponent'Default__BP_BlueberryFairy_C:CharacterMesh0'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.22"
+            },
+            "CharacterMovement": {
+                "ObjectName": "PalCharacterMovementComponent'Default__BP_BlueberryFairy_C:CharMoveComp'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.13"
+            },
+            "CapsuleComponent": {
+                "ObjectName": "CapsuleComponent'Default__BP_BlueberryFairy_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.3"
+            },
+            "RootComponent": {
+                "ObjectName": "CapsuleComponent'Default__BP_BlueberryFairy_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.3"
+            }
+        }
+    },
+    {
+        "Type": "BP_PalCryComponent_C",
+        "Name": "BP_PalCryComponent_GEN_VARIABLE",
+        "Outer": "BP_BlueberryFairy_C",
+        "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.BP_PalCryComponent_C'",
+        "Template": {
+            "ObjectName": "BP_PalCryComponent_C'BP_MonsterBase_C:BP_PalCryComponent_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.2"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+        "Properties": {
+            "CryPalID": "EPalTribeID::BlueberryFairy"
+        }
+    },
+    {
+        "Type": "CapsuleComponent",
+        "Name": "CollisionCylinder",
+        "Outer": "Default__BP_BlueberryFairy_C",
+        "Class": "UScriptClass'CapsuleComponent'",
+        "Template": {
+            "ObjectName": "CapsuleComponent'Default__BP_MonsterBase_C:CollisionCylinder'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.3"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "CapsuleHalfHeight": 30.0,
+            "CapsuleRadius": 30.0,
+            "BodyInstance": {
+                "CollisionProfileName": "Pawn_NoDamageFlyPal",
+                "CollisionResponses": {
+                    "ResponseArray": [
+                        {
+                            "Channel": "Pawn",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "Visibility",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "Camera",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "Water",
+                            "Response": "ECollisionResponse::ECR_Block"
+                        },
+                        {
+                            "Channel": "Attack",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "PlayerPawn",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "ReticleRayCast",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "DropItemPhysicsBody",
+                            "Response": "ECollisionResponse::ECR_Block"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Type": "InheritableComponentHandler",
+        "Name": "InheritableComponentHandler",
+        "Outer": "BP_BlueberryFairy_C",
+        "Class": "UScriptClass'InheritableComponentHandler'",
+        "Flags": "RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "Records": [
+                {
+                    "ComponentClass": {
+                        "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
+                        "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
+                    },
+                    "ComponentTemplate": {
+                        "ObjectName": "BP_PalCryComponent_C'BP_BlueberryFairy_C:BP_PalCryComponent_GEN_VARIABLE'",
+                        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.2"
+                    },
+                    "ComponentKey": {
+                        "OwnerClass": {
+                            "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+                            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+                        },
+                        "SCSVariableName": "BP_PalCryComponent",
+                        "AssociatedGuid": "A971BE27-4B3C10FC-863FA284-ECDC3286"
+                    },
+                    "CookedComponentInstancingData": {
+                        "ChangedPropertyList": [],
+                        "bHasValidCookedData": false
+                    }
+                },
+                {
+                    "ComponentClass": {
+                        "ObjectName": "Class'PalPartnerSkillParameterComponent'",
+                        "ObjectPath": "/Script/Pal"
+                    },
+                    "ComponentTemplate": {
+                        "ObjectName": "PalPartnerSkillParameterComponent'BP_BlueberryFairy_C:PalPartnerSkillParameter_GEN_VARIABLE'",
+                        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.19"
+                    },
+                    "ComponentKey": {
+                        "OwnerClass": {
+                            "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+                            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+                        },
+                        "SCSVariableName": "PalPartnerSkillParameter",
+                        "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
+                    },
+                    "CookedComponentInstancingData": {
+                        "ChangedPropertyList": [],
+                        "bHasValidCookedData": false
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Type": "PalActionComponent",
+        "Name": "ActionComponent",
+        "Outer": "Default__BP_BlueberryFairy_C",
+        "Class": "UScriptClass'PalActionComponent'",
+        "Template": {
+            "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalAnimNotifyParameterComponent",
+        "Name": "AnimNotifyComponent",
+        "Outer": "Default__BP_BlueberryFairy_C",
+        "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+        "Template": {
+            "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalBodyPartsCapsuleComponent",
+        "Name": "PalBodyPartsCapsule1_GEN_VARIABLE",
+        "Outer": "BP_BlueberryFairy_C",
+        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "CapsuleHalfHeight": 58.863937,
+            "CapsuleRadius": 25.75789,
+            "RelativeLocation": {
+                "X": -25.0,
+                "Y": 4.0,
+                "Z": 0.0
+            },
+            "RelativeRotation": {
+                "Pitch": 90.0,
+                "Yaw": 5.3290705e-15,
+                "Roll": 9.329563
+            }
+        }
+    },
+    {
+        "Type": "PalBodyPartsCapsuleComponent",
+        "Name": "PalBodyPartsCapsule2_GEN_VARIABLE",
+        "Outer": "BP_BlueberryFairy_C",
+        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "CapsuleHalfHeight": 84.43395,
+            "CapsuleRadius": 46.20202,
+            "RelativeLocation": {
+                "X": -39.0,
+                "Y": -16.0,
+                "Z": 0.0
+            },
+            "RelativeRotation": {
+                "Pitch": 0.0,
+                "Yaw": 5.3290705e-15,
+                "Roll": 9.329563
+            }
+        }
+    },
+    {
+        "Type": "PalBodyPartsCapsuleComponent",
+        "Name": "PalBodyPartsCapsule_GEN_VARIABLE",
+        "Outer": "BP_BlueberryFairy_C",
+        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "BodyPartsType": "EPalBodyPartsType::Weak",
+            "CapsuleHalfHeight": 49.523396,
+            "CapsuleRadius": 49.523396,
+            "RelativeLocation": {
+                "X": 30.0,
+                "Y": 0.0,
+                "Z": 0.0
+            }
+        }
+    },
+    {
+        "Type": "PalCharacterAroundInfoCollectorComponent",
+        "Name": "AroundInfoCollectorComponent",
+        "Outer": "Default__BP_BlueberryFairy_C",
+        "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AttachParent": {
+                "ObjectName": "CapsuleComponent'Default__BP_BlueberryFairy_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.3"
+            }
+        }
+    },
+    {
+        "Type": "PalCharacterCameraComponent",
+        "Name": "FollowCamera",
+        "Outer": "Default__BP_BlueberryFairy_C",
+        "Class": "UScriptClass'PalCharacterCameraComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AttachParent": {
+                "ObjectName": "PalShooterSpringArmComponent'Default__BP_BlueberryFairy_C:CameraBoom'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.21"
+            }
+        }
+    },
+    {
+        "Type": "PalCharacterLiftupObjectComponent",
+        "Name": "Liftup",
+        "Outer": "Default__BP_BlueberryFairy_C",
+        "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalCharacterMovementComponent",
+        "Name": "CharMoveComp",
+        "Outer": "Default__BP_BlueberryFairy_C",
+        "Class": "UScriptClass'PalCharacterMovementComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "HoveringWaterEffectParameter": {
+                "EnableIdleHoveringWaterEffect": false
+            }
+        }
+    },
+    {
+        "Type": "PalCharacterParameterComponent",
+        "Name": "CharacterParameterComponent",
+        "Outer": "Default__BP_BlueberryFairy_C",
+        "Class": "UScriptClass'PalCharacterParameterComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalDamageReactionComponent",
+        "Name": "DamageReactionComponent",
+        "Outer": "Default__BP_BlueberryFairy_C",
+        "Class": "UScriptClass'PalDamageReactionComponent'",
+        "Template": {
+            "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalFlyMeshHeightCtrlComponent",
+        "Name": "PalFlyMeshHeightCtrl_GEN_VARIABLE",
+        "Outer": "BP_BlueberryFairy_C",
+        "Class": "UScriptClass'PalFlyMeshHeightCtrlComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalFootIKComponent",
+        "Name": "FootIKComponent",
+        "Outer": "Default__BP_BlueberryFairy_C",
+        "Class": "UScriptClass'PalFootIKComponent'",
+        "Template": {
+            "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalLookAtComponent",
+        "Name": "LookAtComponent",
+        "Outer": "Default__BP_BlueberryFairy_C",
+        "Class": "UScriptClass'PalLookAtComponent'",
+        "Template": {
+            "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalPartnerSkillParameterComponent",
+        "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
+        "Outer": "BP_BlueberryFairy_C",
+        "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
+        "Template": {
+            "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+        "Properties": {
+            "PassiveSkills": [
+                {
+                    "SkillAndParameters": [
+                        {
+                            "Key": {
+                                "Key": "FarmCropHarvestNumRate_01"
+                            },
+                            "Value": {
+                                "DelayTime": 0.0,
+                                "TriggerTypeFlags": 0,
+                                "WorkType": "EPalWorkType::None",
+                                "MapObjectId": [],
+                                "ItemId": [],
+                                "AssignOthers": false,
+                                "TargetElementType": "EPalElementType::None",
+                                "PalIds": [],
+                                "PalTribeIds": [],
+                                "bNotAssignSelf": false,
+                                "ItemParam": {
+                                    "ItemTypeA": "EPalItemTypeA::None",
+                                    "ItemTypeB": "EPalItemTypeB::None",
+                                    "ItemIds": [],
+                                    "ExcludedItemIds": []
+                                },
+                                "RegeneParam": {
+                                    "Interval": 0
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "SkillAndParameters": [
+                        {
+                            "Key": {
+                                "Key": "FarmCropHarvestNumRate_02"
+                            },
+                            "Value": {
+                                "DelayTime": 0.0,
+                                "TriggerTypeFlags": 0,
+                                "WorkType": "EPalWorkType::None",
+                                "MapObjectId": [],
+                                "ItemId": [],
+                                "AssignOthers": false,
+                                "TargetElementType": "EPalElementType::None",
+                                "PalIds": [],
+                                "PalTribeIds": [],
+                                "bNotAssignSelf": false,
+                                "ItemParam": {
+                                    "ItemTypeA": "EPalItemTypeA::None",
+                                    "ItemTypeB": "EPalItemTypeB::None",
+                                    "ItemIds": [],
+                                    "ExcludedItemIds": []
+                                },
+                                "RegeneParam": {
+                                    "Interval": 0
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "SkillAndParameters": [
+                        {
+                            "Key": {
+                                "Key": "FarmCropHarvestNumRate_03"
+                            },
+                            "Value": {
+                                "DelayTime": 0.0,
+                                "TriggerTypeFlags": 0,
+                                "WorkType": "EPalWorkType::None",
+                                "MapObjectId": [],
+                                "ItemId": [],
+                                "AssignOthers": false,
+                                "TargetElementType": "EPalElementType::None",
+                                "PalIds": [],
+                                "PalTribeIds": [],
+                                "bNotAssignSelf": false,
+                                "ItemParam": {
+                                    "ItemTypeA": "EPalItemTypeA::None",
+                                    "ItemTypeB": "EPalItemTypeB::None",
+                                    "ItemIds": [],
+                                    "ExcludedItemIds": []
+                                },
+                                "RegeneParam": {
+                                    "Interval": 0
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "SkillAndParameters": [
+                        {
+                            "Key": {
+                                "Key": "FarmCropHarvestNumRate_04"
+                            },
+                            "Value": {
+                                "DelayTime": 0.0,
+                                "TriggerTypeFlags": 0,
+                                "WorkType": "EPalWorkType::None",
+                                "MapObjectId": [],
+                                "ItemId": [],
+                                "AssignOthers": false,
+                                "TargetElementType": "EPalElementType::None",
+                                "PalIds": [],
+                                "PalTribeIds": [],
+                                "bNotAssignSelf": false,
+                                "ItemParam": {
+                                    "ItemTypeA": "EPalItemTypeA::None",
+                                    "ItemTypeB": "EPalItemTypeB::None",
+                                    "ItemIds": [],
+                                    "ExcludedItemIds": []
+                                },
+                                "RegeneParam": {
+                                    "Interval": 0
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "SkillAndParameters": [
+                        {
+                            "Key": {
+                                "Key": "FarmCropHarvestNumRate_05"
+                            },
+                            "Value": {
+                                "DelayTime": 0.0,
+                                "TriggerTypeFlags": 0,
+                                "WorkType": "EPalWorkType::None",
+                                "MapObjectId": [],
+                                "ItemId": [],
+                                "AssignOthers": false,
+                                "TargetElementType": "EPalElementType::None",
+                                "PalIds": [],
+                                "PalTribeIds": [],
+                                "bNotAssignSelf": false,
+                                "ItemParam": {
+                                    "ItemTypeA": "EPalItemTypeA::None",
+                                    "ItemTypeB": "EPalItemTypeB::None",
+                                    "ItemIds": [],
+                                    "ExcludedItemIds": []
+                                },
+                                "RegeneParam": {
+                                    "Interval": 0
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "Type": "PalPassiveSkillComponent",
+        "Name": "PassiveSkillComponent",
+        "Outer": "Default__BP_BlueberryFairy_C",
+        "Class": "UScriptClass'PalPassiveSkillComponent'",
+        "Template": {
+            "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalShooterSpringArmComponent",
+        "Name": "CameraBoom",
+        "Outer": "Default__BP_BlueberryFairy_C",
+        "Class": "UScriptClass'PalShooterSpringArmComponent'",
+        "Template": {
+            "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AttachParent": {
+                "ObjectName": "CapsuleComponent'Default__BP_BlueberryFairy_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.3"
+            },
+            "RelativeLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 70.0
+            }
+        }
+    },
+    {
+        "Type": "PalSkeletalMeshComponent",
+        "Name": "CharacterMesh0",
+        "Outer": "Default__BP_BlueberryFairy_C",
+        "Class": "UScriptClass'PalSkeletalMeshComponent'",
+        "Template": {
+            "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AnimClass": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_BlueberryFairy_C'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/ABP_BlueberryFairy.1"
+            },
+            "SkeletalMesh": {
+                "ObjectName": "SkeletalMesh'SK_BlueberryFairy'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/BlueberryFairy/SK_BlueberryFairy.0"
+            },
+            "SkinnedAsset": {
+                "ObjectName": "SkeletalMesh'SK_BlueberryFairy'",
+                "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/BlueberryFairy/SK_BlueberryFairy.0"
+            },
+            "AttachParent": {
+                "ObjectName": "CapsuleComponent'Default__BP_BlueberryFairy_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.3"
+            },
+            "RelativeLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -30.0
+            }
+        }
+    },
+    {
+        "Type": "PalStaticCharacterParameterComponent",
+        "Name": "StaticCharacterParameterComponent",
+        "Outer": "Default__BP_BlueberryFairy_C",
+        "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+        "Template": {
+            "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "MeshCapsuleHalfHeight": 100.0,
+            "MeshCapsuleRadius": 40.0,
+            "MeshRelativeLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -100.0
+            },
+            "RandomRestMontageInfos": [
+                {
+                    "RandomRestMontage": {
+                        "ObjectName": "AnimMontage'AM_BlueberryFairy_Rest01'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlueberryFairy/AM_BlueberryFairy_Rest01.0"
+                    },
+                    "Weight": 1.0,
+                    "LoopNum_Min": 1,
+                    "LoopNum_Max": 1,
+                    "AfterIdleTime": 3.0
+                },
+                {
+                    "RandomRestMontage": {
+                        "ObjectName": "AnimMontage'AM_BlueberryFairy_Rest02'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlueberryFairy/AM_BlueberryFairy_Rest02.0"
+                    },
+                    "Weight": 1.0,
+                    "LoopNum_Min": 1,
+                    "LoopNum_Max": 3,
+                    "AfterIdleTime": 4.0
+                },
+                {
+                    "RandomRestMontage": {
+                        "ObjectName": "AnimMontage'AM_BlueberryFairy_Rest03'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlueberryFairy/AM_BlueberryFairy_Rest03.0"
+                    },
+                    "Weight": 1.0,
+                    "LoopNum_Min": 1,
+                    "LoopNum_Max": 1,
+                    "AfterIdleTime": 4.0
+                }
+            ],
+            "GeneralMontageMap": [
+                {
+                    "Key": "EPalGeneralMontageType::GeneralAttackReady_Far",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_BlueberryFairy_FarSkill_Start'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlueberryFairy/AM_BlueberryFairy_FarSkill_Start.0"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::GeneralAttackReadyLoop_Far",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_BlueberryFairy_FarSkill_StartLoop'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlueberryFairy/AM_BlueberryFairy_FarSkill_StartLoop.0"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::GeneralAttackProcess_Far",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_BlueberryFairy_FarSkill_Action'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlueberryFairy/AM_BlueberryFairy_FarSkill_Action.0"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::GeneralAttackProcessLoop_Far",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_BlueberryFairy_FarSkill_ActionLoop'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlueberryFairy/AM_BlueberryFairy_FarSkill_ActionLoop.0"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::GeneralAttackAfter_Far",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_BlueberryFairy_FarSkill_End'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlueberryFairy/AM_BlueberryFairy_FarSkill_End.0"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::SleepStart",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_BlueberryFairy_SleepStart'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlueberryFairy/AM_BlueberryFairy_SleepStart.0"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::SleepLoop",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_BlueberryFairy_SleepLoop'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlueberryFairy/AM_BlueberryFairy_SleepLoop.0"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::SleepEnd",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_BlueberryFairy_SleepEnd'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlueberryFairy/AM_BlueberryFairy_SleepEnd.0"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::DamageAdditive",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_BlueberryFairy_Hit'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlueberryFairy/AM_BlueberryFairy_Hit.0"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::BeLiftupStart",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_BlueberryFairy_Carrying_Start'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlueberryFairy/AM_BlueberryFairy_Carrying_Start.0"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralMontageType::BeLiftupLoop",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_BlueberryFairy_Carrying'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlueberryFairy/AM_BlueberryFairy_Carrying.0"
+                    }
+                }
+            ],
+            "GeneralBlendSpaceMap": [
+                {
+                    "Key": "EPalGeneralBlendSpaceType::GeneralMove",
+                    "Value": {
+                        "ObjectName": "BlendSpace1D'BS_Move_BlueberryFairy'",
+                        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BS_Move_BlueberryFairy.0"
+                    }
+                },
+                {
+                    "Key": "EPalGeneralBlendSpaceType::TransportingObjectMove",
+                    "Value": {
+                        "ObjectName": "BlendSpace1D'BS_Transport_BlueberryFairy'",
+                        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BS_Transport_BlueberryFairy.0"
+                    }
+                }
+            ],
+            "ActionMontageMap": [
+                {
+                    "Key": "EPalActionType::Menace",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_BlueberryFairy_Encount'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlueberryFairy/AM_BlueberryFairy_Encount.0"
+                    }
+                },
+                {
+                    "Key": "EPalActionType::Eat",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_BlueberryFairy_Eat'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlueberryFairy/AM_BlueberryFairy_Eat.0"
+                    }
+                },
+                {
+                    "Key": "EPalActionType::KnockBack",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_BlueberryFairy_Damage'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlueberryFairy/AM_BlueberryFairy_Damage.0"
+                    }
+                },
+                {
+                    "Key": "EPalActionType::ForwardWalk",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_BlueberryFairy_Walk'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlueberryFairy/AM_BlueberryFairy_Walk.0"
+                    }
+                },
+                {
+                    "Key": "EPalActionType::Architecture",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_BlueberryFairy_Architecture'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlueberryFairy/AM_BlueberryFairy_Architecture.0"
+                    }
+                },
+                {
+                    "Key": "EPalActionType::GetupUtubuse_orRight",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_BlueberryFairy_GetUp_FrontDown'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlueberryFairy/AM_BlueberryFairy_GetUp_FrontDown.0"
+                    }
+                },
+                {
+                    "Key": "EPalActionType::PalPetting",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_BlueberryFairy_Petting'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlueberryFairy/AM_BlueberryFairy_Petting.0"
+                    }
+                },
+                {
+                    "Key": "EPalActionType::CommonWork",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_BlueberryFairy_CommonWork'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlueberryFairy/AM_BlueberryFairy_CommonWork.0"
+                    }
+                },
+                {
+                    "Key": "EPalActionType::Feeding",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_BlueberryFairy_Planting'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlueberryFairy/AM_BlueberryFairy_Planting.0"
+                    }
+                },
+                {
+                    "Key": "EPalActionType::ElectricShock",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_BlueberryFairy_ElectricShock'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlueberryFairy/AM_BlueberryFairy_ElectricShock.0"
+                    }
+                },
+                {
+                    "Key": "EPalActionType::IdleInSpa",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_BlueberryFairy_Spa'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlueberryFairy/AM_BlueberryFairy_Spa.0"
+                    }
+                },
+                {
+                    "Key": "EPalActionType::DefenseGunner",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_BlueberryFairy_Gunner'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlueberryFairy/AM_BlueberryFairy_Gunner.0"
+                    }
+                },
+                {
+                    "Key": "EPalActionType::FishPond",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_BlueberryFairy_FishPond'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlueberryFairy/AM_BlueberryFairy_FishPond.0"
+                    }
+                }
+            ],
+            "SleepOnSideInfoMapForMapObject": [
+                {
+                    "Key": {
+                        "Key": "MedicalPalBed_02"
+                    },
+                    "Value": {
+                        "LocationOffset": {
+                            "X": -30.0,
+                            "Y": 0.0,
+                            "Z": 0.0
+                        },
+                        "RotatorOffset": {
+                            "Pitch": 0.0,
+                            "Yaw": 0.0,
+                            "Roll": 0.0
+                        },
+                        "bShouldApply": true
+                    }
+                },
+                {
+                    "Key": {
+                        "Key": "MedicalPalBed_03"
+                    },
+                    "Value": {
+                        "LocationOffset": {
+                            "X": -30.0,
+                            "Y": 0.0,
+                            "Z": 0.0
+                        },
+                        "RotatorOffset": {
+                            "Pitch": 0.0,
+                            "Yaw": 0.0,
+                            "Roll": 0.0
+                        },
+                        "bShouldApply": true
+                    }
+                },
+                {
+                    "Key": {
+                        "Key": "MedicalPalBed_04"
+                    },
+                    "Value": {
+                        "LocationOffset": {
+                            "X": -30.0,
+                            "Y": 100.0,
+                            "Z": 0.0
+                        },
+                        "RotatorOffset": {
+                            "Pitch": 0.0,
+                            "Yaw": 0.0,
+                            "Roll": 0.0
+                        },
+                        "bShouldApply": true
+                    }
+                }
+            ],
+            "HPGaugeUIOffset": {
+                "X": 0.0,
+                "Y": 70.0
+            },
+            "IsBackWalkForwardAnime": true,
+            "PettingSize": "EPalPettingSizeType::Medium",
+            "PettingDistance": 70.0,
+            "PettingStartAddDistance": 40.0,
+            "DefenseBuildObjectAssignDistance": 20.0
+        }
+    },
+    {
+        "Type": "PalStatusComponent",
+        "Name": "StatusComponent",
+        "Outer": "Default__BP_BlueberryFairy_C",
+        "Class": "UScriptClass'PalStatusComponent'",
+        "Template": {
+            "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalVisualEffectComponent",
+        "Name": "VisualEffectComponent",
+        "Outer": "Default__BP_BlueberryFairy_C",
+        "Class": "UScriptClass'PalVisualEffectComponent'",
+        "Template": {
+            "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "SceneComponent",
+        "Name": "DefaultSceneRoot_GEN_VARIABLE",
+        "Outer": "BP_BlueberryFairy_C",
+        "Class": "UScriptClass'SceneComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_0",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'SceneComponent'",
+                "ObjectPath": "/Script/Engine"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "SceneComponent'BP_BlueberryFairy_C:DefaultSceneRoot_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.26"
+            },
+            "VariableGuid": "2C09AA4F-4DEAFDA8-DBA49B85-11A2F819",
+            "InternalVariableName": "DefaultSceneRoot"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_1",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalFlyMeshHeightCtrlComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalFlyMeshHeightCtrlComponent'BP_BlueberryFairy_C:PalFlyMeshHeightCtrl_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.16"
+            },
+            "VariableGuid": "8A957893-4C3F5DE4-E373BA94-5BC515E0",
+            "InternalVariableName": "PalFlyMeshHeightCtrl"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_2",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalBodyPartsCapsuleComponent'BP_BlueberryFairy_C:PalBodyPartsCapsule_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.9"
+            },
+            "AttachToName": "head",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "FA694B37-4B14B178-F07B0CAC-13B7916C",
+            "InternalVariableName": "PalBodyPartsCapsule"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_3",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalBodyPartsCapsuleComponent'BP_BlueberryFairy_C:PalBodyPartsCapsule1_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.7"
+            },
+            "AttachToName": "pelvis",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "FB866810-44EC9DFD-358D5B9A-E53FCE62",
+            "InternalVariableName": "PalBodyPartsCapsule1"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_4",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalBodyPartsCapsuleComponent'BP_BlueberryFairy_C:PalBodyPartsCapsule2_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.8"
+            },
+            "AttachToName": "pelvis",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "84C7E949-486D2C27-40254CA8-FB205B64",
+            "InternalVariableName": "PalBodyPartsCapsule2"
+        }
+    },
+    {
+        "Type": "SimpleConstructionScript",
+        "Name": "SimpleConstructionScript_0",
+        "Outer": "BP_BlueberryFairy_C",
+        "Class": "UScriptClass'SimpleConstructionScript'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "RootNodes": [
+                {
+                    "ObjectName": "SCS_Node'BP_BlueberryFairy_C:SimpleConstructionScript_0.SCS_Node_2'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.29"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_BlueberryFairy_C:SimpleConstructionScript_0.SCS_Node_3'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.30"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_BlueberryFairy_C:SimpleConstructionScript_0.SCS_Node_4'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.31"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_BlueberryFairy_C:SimpleConstructionScript_0.SCS_Node_1'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.28"
+                }
+            ],
+            "AllNodes": [
+                {
+                    "ObjectName": "SCS_Node'BP_BlueberryFairy_C:SimpleConstructionScript_0.SCS_Node_2'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.29"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_BlueberryFairy_C:SimpleConstructionScript_0.SCS_Node_3'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.30"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_BlueberryFairy_C:SimpleConstructionScript_0.SCS_Node_4'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.31"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_BlueberryFairy_C:SimpleConstructionScript_0.SCS_Node_1'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.28"
+                }
+            ],
+            "DefaultSceneRootNode": {
+                "ObjectName": "SCS_Node'BP_BlueberryFairy_C:SimpleConstructionScript_0.SCS_Node_0'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.27"
+            }
+        }
+    },
+    {
+        "Type": "SphereComponent",
+        "Name": "RagdollInteractiveSphere",
+        "Outer": "Default__BP_BlueberryFairy_C",
+        "Class": "UScriptClass'SphereComponent'",
+        "Template": {
+            "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AttachParent": {
+                "ObjectName": "CapsuleComponent'Default__BP_BlueberryFairy_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.3"
+            }
+        }
+    }
+]
