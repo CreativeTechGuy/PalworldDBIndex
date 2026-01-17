@@ -1,3 +1,5 @@
+**This site is in no way associated with or endorsed by Pocket Pair, Inc.**
+
 Notes
 
 - Items:
