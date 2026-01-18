@@ -4,8 +4,6 @@ const requiredPositiveValues = [
     "SlowWalkSpeed",
     "WalkSpeed",
     "RunSpeed",
-    "RideSprintSpeed",
-    "TransportSpeed",
     "SwimSpeed",
     "SwimDashSpeed",
 ] satisfies (keyof PalMonsterParameter)[];

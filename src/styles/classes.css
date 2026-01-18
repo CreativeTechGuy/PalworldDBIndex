@@ -80,3 +80,25 @@
     text-align: center;
     font-size: 2rem;
 }
+
+.map-markers {
+    max-width: 75vw;
+    max-height: 75vh;
+    aspect-ratio: 1 / 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    transform: rotate(-90deg);
+}
+
+.map-dot {
+    transition:
+        fill 0.5s ease-in-out,
+        r 0.2s ease-in;
+}
+
+.map-markers:hover > .map-dot {
+    fill: #00ff39;
+    r: calc(var(--initial-radius) * 2);
+}

@@ -17,6 +17,7 @@ export const customColumns = [
     "PartnerSkillUnlockLevel",
     "PartnerSkill",
     "ItemDrops",
+    "SpawnLocations",
 ] as const;
 
 export type DerivedPalData = Record<(typeof customColumns)[number], string>;
@@ -53,6 +54,7 @@ export function buildCustomData(key: string, _palData: PalMonsterParameter): Der
             .join(", "),
         PartnerSkill: skillNameMap[`PARTNERSKILL_${key}`]?.TextData.LocalizedString ?? "",
         PartnerSkillUnlockLevel: partnerSkillUnlockLevel,
+        SpawnLocations: "Map",
         PalDescription: descriptionsMap[`PAL_FIRST_SPAWN_DESC_${key}`].TextData.LocalizedString,
     };
 }

@@ -6,6 +6,7 @@ import { Name } from "./Name";
 import { PalDescription } from "./PalDescription";
 import { PartnerSkill } from "./PartnerSkill";
 import { PassiveSkill } from "./PassiveSkill";
+import { SpawnLocations } from "./SpawnLocations";
 
 export type CustomFieldProps<Value> = {
     value: Value;
@@ -21,4 +22,5 @@ export const customFields: Record<string, (props: CustomFieldProps<any>) => JSXE
     PassiveSkill2: PassiveSkill,
     PartnerSkill,
     ItemDrops,
+    SpawnLocations,
 };

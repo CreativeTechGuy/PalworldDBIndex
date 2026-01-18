@@ -7,6 +7,7 @@ export const defaultColumnOrder: (keyof CombinedData)[] = [
     "ElementType1",
     "ElementType2",
     "ZukanIndex",
+    "SpawnLocations",
     "MinimumSphere",
     "SlowWalkSpeed",
     "WalkSpeed",
