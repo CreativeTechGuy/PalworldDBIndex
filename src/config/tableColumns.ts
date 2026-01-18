@@ -1,5 +1,6 @@
-import { createEffect, createSignal } from "solid-js";
+import { createEffect, createSignal, runWithOwner } from "solid-js";
 import type { CombinedData } from "~/data/palCombinedData";
+import { fakeSolidOwner } from "~/utils/fakeSolidOwner";
 import { loadOrDefault } from "./loadOrDefault";
 
 export const defaultColumnOrder: (keyof CombinedData)[] = [
@@ -76,7 +77,9 @@ export const [userColumnSettings, setUserColumnSettings] = createSignal(
     })
 );
 
-createEffect(() => {
-    const settings = userColumnSettings();
-    localStorage.setItem("column-settings", JSON.stringify(settings));
+runWithOwner(fakeSolidOwner, () => {
+    createEffect(() => {
+        const settings = userColumnSettings();
+        localStorage.setItem("column-settings", JSON.stringify(settings));
+    });
 });

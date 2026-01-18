@@ -1,4 +1,4 @@
-import { createSignal, createEffect } from "solid-js";
+import { createSignal, createEffect, runWithOwner } from "solid-js";
 import {
     userColumnSettings,
     defaultColumnOrder,
@@ -6,6 +6,7 @@ import {
     forceHiddenColumns,
 } from "~/config/tableColumns";
 import { arrayIncludes } from "~/utils/arrayIncludes";
+import { fakeSolidOwner } from "~/utils/fakeSolidOwner";
 import { customColumns } from "./buildCustomData";
 import { type CombinedData, rows } from "./palCombinedData";
 
@@ -15,21 +16,22 @@ export const configurableColumns = buildColumnOrder({
     lastColumns: [],
     hiddenColumns: [...unmovableLeftColumns, ...forceHiddenColumns],
 });
-
-createEffect(() => {
-    setColumnOrder(
-        buildColumnOrder({
-            firstColumns: [
-                ...new Set([
-                    ...unmovableLeftColumns,
-                    ...(userColumnSettings().columnsFirst as (keyof CombinedData)[]),
-                    ...defaultColumnOrder,
-                ]),
-            ],
-            lastColumns: userColumnSettings().columnsLast as (keyof CombinedData)[],
-            hiddenColumns: [...new Set([...userColumnSettings().hidden, ...forceHiddenColumns])],
-        })
-    );
+runWithOwner(fakeSolidOwner, () => {
+    createEffect(() => {
+        setColumnOrder(
+            buildColumnOrder({
+                firstColumns: [
+                    ...new Set([
+                        ...unmovableLeftColumns,
+                        ...(userColumnSettings().columnsFirst as (keyof CombinedData)[]),
+                        ...defaultColumnOrder,
+                    ]),
+                ],
+                lastColumns: userColumnSettings().columnsLast as (keyof CombinedData)[],
+                hiddenColumns: [...new Set([...userColumnSettings().hidden, ...forceHiddenColumns])],
+            })
+        );
+    });
 });
 
 function buildColumnOrder<Value extends keyof CombinedData>(options: {

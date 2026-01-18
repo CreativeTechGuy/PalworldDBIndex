@@ -1,7 +1,8 @@
-import { createEffect, createSignal, For, onMount, type JSXElement } from "solid-js";
+import { createEffect, createSignal, For, onMount, runWithOwner, type JSXElement } from "solid-js";
 import { loadOrDefault } from "~/config/loadOrDefault";
 import { columnOrder } from "~/data/orderedColumns";
 import { rows, setRows } from "~/data/palCombinedData";
+import { fakeSolidOwner } from "~/utils/fakeSolidOwner";
 import { mapCellValue } from "~/utils/mapCellValue";
 import { mapColumnHeader } from "~/utils/mapColumnHeader";
 import { CustomField } from "./CustomField";
@@ -19,9 +20,11 @@ const [lastSortDirectionAscending, setLastSortDirectionAscending] = createSignal
     loadOrDefault<string>("table-sort-direction-ascending", "true") === "true"
 );
 
-createEffect(() => {
-    localStorage.setItem("table-sort-column", lastSortedColumn());
-    localStorage.setItem("table-sort-direction-ascending", lastSortDirectionAscending().toString());
+runWithOwner(fakeSolidOwner, () => {
+    createEffect(() => {
+        localStorage.setItem("table-sort-column", lastSortedColumn());
+        localStorage.setItem("table-sort-direction-ascending", lastSortDirectionAscending().toString());
+    });
 });
 
 export function PalTable(): JSXElement {

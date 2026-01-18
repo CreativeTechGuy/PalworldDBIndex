@@ -1,4 +1,5 @@
-import { createEffect, createSignal } from "solid-js";
+import { createEffect, createSignal, runWithOwner } from "solid-js";
+import { fakeSolidOwner } from "~/utils/fakeSolidOwner";
 import { loadOrDefault } from "./loadOrDefault";
 
 export const [sphereSettings, setSphereSettings] = createSignal(
@@ -11,7 +12,9 @@ export const [sphereSettings, setSphereSettings] = createSignal(
     })
 );
 
-createEffect(() => {
-    const settings = sphereSettings();
-    localStorage.setItem("sphere-settings", JSON.stringify(settings));
+runWithOwner(fakeSolidOwner, () => {
+    createEffect(() => {
+        const settings = sphereSettings();
+        localStorage.setItem("sphere-settings", JSON.stringify(settings));
+    });
 });
