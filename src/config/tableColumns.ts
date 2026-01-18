@@ -36,7 +36,7 @@ export const defaultColumnOrder: (keyof CombinedData)[] = [
     "CraftSpeed",
 ];
 
-export const unmovableColumns: (keyof CombinedData)[] = ["Name"];
+export const unmovableLeftColumns: (keyof CombinedData)[] = ["Name"];
 
 export const forceHiddenColumns: (keyof CombinedData)[] = [
     "OverrideNameTextID",

@@ -3,6 +3,10 @@ body {
     font-size: 15px;
 }
 
+body:has(.dialog-backdrop) {
+    overflow: hidden;
+}
+
 button {
     font-size: inherit;
 }

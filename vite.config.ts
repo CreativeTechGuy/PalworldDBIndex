@@ -12,7 +12,9 @@ export default defineConfig({
     },
     clearScreen: false,
     server: {
+        host: "0.0.0.0",
         port: 4143,
+        allowedHosts: true,
         strictPort: true,
         hmr: {
             overlay: false,

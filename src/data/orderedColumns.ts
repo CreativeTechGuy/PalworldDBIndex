@@ -1,5 +1,10 @@
 import { createSignal, createEffect } from "solid-js";
-import { userColumnSettings, defaultColumnOrder, unmovableColumns, forceHiddenColumns } from "~/config/tableColumns";
+import {
+    userColumnSettings,
+    defaultColumnOrder,
+    unmovableLeftColumns,
+    forceHiddenColumns,
+} from "~/config/tableColumns";
 import { arrayIncludes } from "~/utils/arrayIncludes";
 import { customColumns } from "./buildCustomData";
 import { type CombinedData, rows } from "./palCombinedData";
@@ -8,14 +13,18 @@ export const [columnOrder, setColumnOrder] = createSignal<(keyof CombinedData)[]
 export const configurableColumns = buildColumnOrder({
     firstColumns: defaultColumnOrder,
     lastColumns: [],
-    hiddenColumns: [...unmovableColumns, ...forceHiddenColumns],
+    hiddenColumns: [...unmovableLeftColumns, ...forceHiddenColumns],
 });
 
 createEffect(() => {
     setColumnOrder(
         buildColumnOrder({
             firstColumns: [
-                ...new Set([...(userColumnSettings().columnsFirst as (keyof CombinedData)[]), ...defaultColumnOrder]),
+                ...new Set([
+                    ...unmovableLeftColumns,
+                    ...(userColumnSettings().columnsFirst as (keyof CombinedData)[]),
+                    ...defaultColumnOrder,
+                ]),
             ],
             lastColumns: userColumnSettings().columnsLast as (keyof CombinedData)[],
             hiddenColumns: [...new Set([...userColumnSettings().hidden, ...forceHiddenColumns])],

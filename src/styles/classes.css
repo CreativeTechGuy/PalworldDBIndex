@@ -98,7 +98,9 @@
         r 0.2s ease-in;
 }
 
-.map-markers:hover > .map-dot {
-    fill: #00ff39;
-    r: calc(var(--initial-radius) * 2);
+@media (hover: hover) {
+    .map-markers:hover > .map-dot {
+        fill: #00ff39;
+        r: calc(var(--initial-radius) * 2px);
+    }
 }
