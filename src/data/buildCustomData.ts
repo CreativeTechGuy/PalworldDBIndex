@@ -6,6 +6,7 @@ import skillNames from "~/raw_data/DT_SkillNameText_Common.json";
 import techUnlocks from "~/raw_data/DT_TechnologyRecipeUnlock.json";
 import type { PalMonsterParameter } from "~/types/PalMonsterParameter";
 import { convertDataTableType } from "~/utils/convertDataTableType";
+import { getObjectByCaseInsensitiveKey } from "~/utils/getObjectByCaseInsensitiveKey";
 import { getPalItemDrops } from "./getPalItemDrops";
 import { getPalBlueprint } from "./palBlueprints";
 
@@ -29,8 +30,8 @@ const skillNameMap = convertDataTableType(skillNames, { partialData: true });
 const itemNameMap = convertDataTableType(itemNames);
 
 export function buildCustomData(key: string, _palData: PalMonsterParameter): DerivedPalData | null {
-    const localizedKey = `PAL_NAME_${key}` in palNamesMap ? `PAL_NAME_${key}` : null;
-    if (localizedKey === null) {
+    const palName = getObjectByCaseInsensitiveKey(palNamesMap, `PAL_NAME_${key}`)?.TextData.LocalizedString;
+    if (palName === undefined) {
         return null;
     }
     let partnerSkillUnlockLevel = "";
@@ -47,7 +48,7 @@ export function buildCustomData(key: string, _palData: PalMonsterParameter): Der
 
     return {
         Id: key,
-        Name: palNamesMap[localizedKey].TextData.LocalizedString,
+        Name: palName,
         MinimumSphere: "Spheres",
         ItemDrops: getPalItemDrops(key)
             .map((item) => itemNameMap[`ITEM_NAME_${item.Id}`].TextData.LocalizedString)
@@ -55,6 +56,7 @@ export function buildCustomData(key: string, _palData: PalMonsterParameter): Der
         PartnerSkill: skillNameMap[`PARTNERSKILL_${key}`]?.TextData.LocalizedString ?? "",
         PartnerSkillUnlockLevel: partnerSkillUnlockLevel,
         SpawnLocations: "Map",
-        PalDescription: descriptionsMap[`PAL_FIRST_SPAWN_DESC_${key}`].TextData.LocalizedString,
+        PalDescription: getObjectByCaseInsensitiveKey(descriptionsMap, `PAL_FIRST_SPAWN_DESC_${key}`)!.TextData
+            .LocalizedString,
     };
 }
