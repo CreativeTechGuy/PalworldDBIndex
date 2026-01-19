@@ -10,7 +10,7 @@ const itemNameMap = convertDataTableType(itemNames);
 export function ItemDrops(props: CustomFieldProps<string>): JSXElement {
     const itemDrops = createMemo(() => getPalItemDrops(props.palData.Id));
     return (
-        <Hover label={<div class="one-line-text">{props.value}</div>}>
+        <Hover label={<div>{props.value}</div>}>
             <table>
                 <tbody>
                     <tr>

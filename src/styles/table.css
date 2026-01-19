@@ -16,6 +16,10 @@
         border-left: 1px solid black;
     }
 
+    & td {
+        white-space: nowrap;
+    }
+
     & tr:last-child > td,
     & th:last-child {
         border-bottom: 1px solid black;
