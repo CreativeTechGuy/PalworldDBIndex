@@ -22,6 +22,7 @@ export const customColumns = [
     "SpawnLocations",
     "Rideable",
     "CombatStatTotal",
+    "CombatStatTotalFriendship",
 ] as const;
 
 export type DerivedPalData = Record<(typeof customColumns)[number], string>;
@@ -93,6 +94,14 @@ export function buildCustomData(key: string, palData: PalMonsterParameter): Deri
                     : "Land"
             : "",
         CombatStatTotal: (palData.ShotAttack + palData.Defense + palData.Hp).toString(),
+        CombatStatTotalFriendship: Math.round(
+            palData.ShotAttack +
+                palData.Defense +
+                palData.Hp +
+                palData.Friendship_HP * 10 +
+                palData.Friendship_Defense * 10 +
+                palData.Friendship_ShotAttack * 10
+        ).toString(),
         PartnerSkill: skillNameMap[`PARTNERSKILL_${key}`]?.TextData.LocalizedString ?? "",
         PartnerSkillUnlockLevel: partnerSkillUnlockLevel,
         SpawnLocations: "Map",
