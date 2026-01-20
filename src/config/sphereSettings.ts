@@ -8,6 +8,7 @@ export const [sphereSettings, setSphereSettings] = createSignal(
         lifmunkLevel: 0,
         worldSettingCaptureRate: 1,
         minCaptureRateAcceptable: 0.05,
+        sphereModuleCaptureStrength: 0,
         isBack: false,
     })
 );
@@ -18,3 +19,9 @@ runWithOwner(fakeSolidOwner, () => {
         localStorage.setItem("sphere-settings", JSON.stringify(settings));
     });
 });
+
+// eslint-disable-next-line solid/reactivity
+const defaultSettings = sphereSettings();
+export function resetSphereSettings(): void {
+    setSphereSettings(defaultSettings);
+}

@@ -18,26 +18,21 @@ const partnerSkillMap = convertDataTableType(partnerSkills);
 
 export function PartnerSkill(props: CustomFieldProps<string>): JSXElement {
     const partnerSkillData = createMemo(() => {
-        const blueprint = getPalBlueprint(props.palData.Id);
-        if (blueprint !== undefined) {
-            const partnerSkillComponent = blueprint.find((item) => item.Type === "PalPartnerSkillParameterComponent");
-            if (partnerSkillComponent !== undefined) {
-                const partnerSkillId = partnerSkillComponent.Properties?.SkillName;
-                if (partnerSkillId !== undefined && partnerSkillId in partnerSkillMap) {
-                    const properties = partnerSkillComponent.Properties as unknown as PartnerSkillParameterProperties;
-                    const isMainValueMultiplier =
-                        properties.ActiveSkill_MainValue_Overview_EditorOnly?.includes("倍率") === true;
-                    return {
-                        skillData: partnerSkillMap[partnerSkillId],
-                        byRank: {
-                            CoolDownTime: properties.ActiveSkill_OverWriteCoolTimeByRank ?? [],
-                            Power: !isMainValueMultiplier ? (properties.ActiveSkill_MainValueByRank ?? []) : [], // 威力
-                            PowerMultiplier: isMainValueMultiplier
-                                ? (properties.ActiveSkill_MainValueByRank ?? [])
-                                : [], // includes: 倍率
-                        },
-                    };
-                }
+        const partnerSkillComponent = getPalBlueprint(props.palData.Id, "PalPartnerSkillParameter_GEN_VARIABLE");
+        if (partnerSkillComponent !== undefined) {
+            const partnerSkillId = partnerSkillComponent.Properties?.SkillName;
+            if (partnerSkillId !== undefined && partnerSkillId in partnerSkillMap) {
+                const properties = partnerSkillComponent.Properties as unknown as PartnerSkillParameterProperties;
+                const isMainValueMultiplier =
+                    properties.ActiveSkill_MainValue_Overview_EditorOnly?.includes("倍率") === true;
+                return {
+                    skillData: partnerSkillMap[partnerSkillId],
+                    byRank: {
+                        CoolDownTime: properties.ActiveSkill_OverWriteCoolTimeByRank ?? [],
+                        Power: !isMainValueMultiplier ? (properties.ActiveSkill_MainValueByRank ?? []) : [], // 威力
+                        PowerMultiplier: isMainValueMultiplier ? (properties.ActiveSkill_MainValueByRank ?? []) : [], // includes: 倍率
+                    },
+                };
             }
         }
         return undefined;

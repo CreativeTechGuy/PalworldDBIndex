@@ -1,12 +1,13 @@
-import { createSignal, For, type JSXElement } from "solid-js";
+import { createSignal, type JSXElement } from "solid-js";
 import { Portal } from "solid-js/web";
 import { rootElement } from "~/config/rootElement";
-import { setSphereSettings, sphereSettings } from "~/config/sphereSettings";
-import { setUserColumnSettings, userColumnSettings } from "~/config/tableColumns";
+import { resetSphereSettings, setSphereSettings, sphereSettings } from "~/config/sphereSettings";
+import { resetColumnSettings, setUserColumnSettings, userColumnSettings } from "~/config/tableColumns";
 import { configurableColumns } from "~/data/orderedColumns";
 import settingsIcon from "~/icons/settings.svg";
 import { mapColumnHeader } from "~/utils/mapColumnHeader";
 import { Dialog } from "./Dialog";
+import { MultiSelectList } from "./MultiSelectList";
 
 export function Settings(): JSXElement {
     const [open, setOpen] = createSignal(false);
@@ -14,6 +15,7 @@ export function Settings(): JSXElement {
         <>
             <button
                 class="link-button floating-button"
+                title="Settings"
                 onClick={() => {
                     setOpen(true);
                 }}
@@ -62,7 +64,7 @@ export function Settings(): JSXElement {
                                             type="number"
                                             min="0"
                                             max="100"
-                                            step="10"
+                                            step="1"
                                             style={{ width: "3em" }}
                                             value={Math.round(sphereSettings().minCaptureRateAcceptable * 100)}
                                             onInput={(evt) => {
@@ -130,18 +132,51 @@ export function Settings(): JSXElement {
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td>Sphere Module Capture Strength</td>
+                                    <td>
+                                        <input
+                                            type="number"
+                                            min="0"
+                                            step="1"
+                                            style={{ width: "3em" }}
+                                            value={sphereSettings().sphereModuleCaptureStrength}
+                                            onInput={(evt) => {
+                                                setSphereSettings((current) => ({
+                                                    ...current,
+                                                    sphereModuleCaptureStrength: parseInt(evt.target.value, 10),
+                                                }));
+                                            }}
+                                        />
+                                    </td>
+                                </tr>
+                                <tr>
                                     <th colSpan={2}>Columns</th>
+                                </tr>
+                                <tr>
+                                    <td>Auto-hide non-unique columns</td>
+                                    <td>
+                                        <input
+                                            type="checkbox"
+                                            checked={userColumnSettings().autoHideRedundantColumns}
+                                            onInput={(evt) => {
+                                                setUserColumnSettings((current) => ({
+                                                    ...current,
+                                                    autoHideRedundantColumns: evt.target.checked,
+                                                }));
+                                            }}
+                                        />
+                                    </td>
                                 </tr>
                                 <ColumnConfigurationRow type="columnsFirst" label="Move columns to front" />
                                 <ColumnConfigurationRow type="columnsLast" label="Move columns to end" />
                                 <ColumnConfigurationRow type="hidden" label="Hide columns" />
                                 <tr>
-                                    <td colSpan={2}>
+                                    <td colSpan={2} class="center">
                                         <button
-                                            class="link-button center"
+                                            class="link-button"
                                             onClick={() => {
-                                                localStorage.clear();
-                                                location.reload();
+                                                resetSphereSettings();
+                                                resetColumnSettings();
                                             }}
                                         >
                                             Reset all settings
@@ -159,7 +194,7 @@ export function Settings(): JSXElement {
 
 type ColumnConfigurationRowProps = {
     label: string;
-    type: keyof ReturnType<typeof userColumnSettings>;
+    type: Exclude<keyof ReturnType<typeof userColumnSettings>, "autoHideRedundantColumns">;
 };
 
 function ColumnConfigurationRow(props: ColumnConfigurationRowProps): JSXElement {
@@ -183,34 +218,25 @@ function ColumnConfigurationRow(props: ColumnConfigurationRowProps): JSXElement 
                 </button>
             </td>
             <td>
-                <select
-                    multiple={true}
-                    onChange={(evt) => {
-                        // eslint-disable-next-line solid/reactivity
+                <MultiSelectList
+                    options={configurableColumns.map((columnName) => ({
+                        label: mapColumnHeader(columnName),
+                        value: columnName,
+                    }))}
+                    selected={userColumnSettings()[props.type]}
+                    onChange={(selected) => {
+                        const propsType = props.type;
                         setUserColumnSettings((current) => {
-                            const newColumns = [...evt.target.options]
-                                .filter((option) => option.selected)
-                                .map((option) => option.value);
                             return {
                                 ...current,
-                                columnsFirst: [...current.columnsFirst].filter(
-                                    (column) => !newColumns.includes(column)
-                                ),
-                                columnsLast: [...current.columnsLast].filter((column) => !newColumns.includes(column)),
-                                hidden: [...current.hidden].filter((column) => !newColumns.includes(column)),
-                                [props.type]: newColumns,
+                                columnsFirst: [...current.columnsFirst].filter((column) => !selected.includes(column)),
+                                columnsLast: [...current.columnsLast].filter((column) => !selected.includes(column)),
+                                hidden: [...current.hidden].filter((column) => !selected.includes(column)),
+                                [propsType]: selected,
                             };
                         });
                     }}
-                >
-                    <For each={configurableColumns}>
-                        {(columnName) => (
-                            <option value={columnName} selected={userColumnSettings()[props.type].includes(columnName)}>
-                                {mapColumnHeader(columnName)}
-                            </option>
-                        )}
-                    </For>
-                </select>
+                />
             </td>
         </tr>
     );

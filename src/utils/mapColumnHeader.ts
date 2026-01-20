@@ -19,6 +19,7 @@ const map: Record<string, string> = {
     WorkSuitability_Transport: "Transporting",
     WorkSuitability_MonsterFarm: "Farming",
     ShotAttack: "Attack",
+    Friendship_ShotAttack: "Friendship Attack",
 };
 
 export function mapColumnHeader(header: string): string {

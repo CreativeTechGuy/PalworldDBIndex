@@ -30,7 +30,7 @@ runWithOwner(fakeSolidOwner, () => {
                 ],
                 lastColumns: userColumnSettings().columnsLast as (keyof CombinedData)[],
                 hiddenColumns: [...new Set([...userColumnSettings().hidden, ...forceHiddenColumns])],
-                hideRedundantColumns: true,
+                hideRedundantColumns: userColumnSettings().autoHideRedundantColumns,
             })
         );
     });

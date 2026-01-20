@@ -11,7 +11,7 @@ export const defaultColumnOrder: (keyof CombinedData)[] = [
     "SpawnLocations",
     "MinimumSphere",
     "Rarity",
-    "StatTotal",
+    "CombatStatTotal",
     "Hp",
     "ShotAttack",
     "Defense",
@@ -19,9 +19,7 @@ export const defaultColumnOrder: (keyof CombinedData)[] = [
     "WalkSpeed",
     "RunSpeed",
     "RideSprintSpeed",
-    "IsRidable",
-    "IsFlying",
-    "IsSwimming",
+    "Rideable",
     "SwimSpeed",
     "SwimDashSpeed",
     "Stamina",
@@ -79,6 +77,7 @@ export const [userColumnSettings, setUserColumnSettings] = createSignal(
         columnsFirst: [] as string[],
         columnsLast: [] as string[],
         hidden: [...defaultHiddenColumns],
+        autoHideRedundantColumns: true,
     })
 );
 
@@ -88,3 +87,9 @@ runWithOwner(fakeSolidOwner, () => {
         localStorage.setItem("column-settings", JSON.stringify(settings));
     });
 });
+
+// eslint-disable-next-line solid/reactivity
+const defaultSettings = userColumnSettings();
+export function resetColumnSettings(): void {
+    setUserColumnSettings(defaultSettings);
+}

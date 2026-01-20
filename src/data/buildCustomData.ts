@@ -4,7 +4,7 @@ import palDescriptions from "~/raw_data/DT_PalFirstActivatedInfoText.json";
 import palNames from "~/raw_data/DT_PalNameText_Common.json";
 import skillNames from "~/raw_data/DT_SkillNameText_Common.json";
 import techUnlocks from "~/raw_data/DT_TechnologyRecipeUnlock.json";
-import type SwimmingPalBlueprintType from "~/raw_data/PalActorBP/Serpent/BP_Serpent.json";
+import type RidablePalBlueprintType from "~/raw_data/PalActorBP/Serpent/BP_Serpent.json";
 import type { PalMonsterParameter } from "~/types/PalMonsterParameter";
 import { convertDataTableType } from "~/utils/convertDataTableType";
 import { getObjectByCaseInsensitiveKey } from "~/utils/getObjectByCaseInsensitiveKey";
@@ -20,10 +20,8 @@ export const customColumns = [
     "PartnerSkill",
     "ItemDrops",
     "SpawnLocations",
-    "IsRidable",
-    "IsFlying",
-    "IsSwimming",
-    "StatTotal",
+    "Rideable",
+    "CombatStatTotal",
 ] as const;
 
 export type DerivedPalData = Record<(typeof customColumns)[number], string>;
@@ -41,40 +39,40 @@ export function buildCustomData(key: string, palData: PalMonsterParameter): Deri
     }
     let partnerSkillUnlockLevel = "";
     let isFlying = false;
+    let isFlyingAndGround = false;
     let isRidable = false;
     let isSwimming = false;
-    const blueprint = getPalBlueprint(key);
-    if (blueprint !== undefined) {
-        const partnerSkillComponent = blueprint.find((item) => item.Type === "PalPartnerSkillParameterComponent");
-        if (partnerSkillComponent !== undefined) {
-            const skillUnlockItem = partnerSkillComponent.Properties?.RestrictionItems?.[0].Key;
-            if (skillUnlockItem !== undefined && skillUnlockItem in techUnlockMap) {
-                partnerSkillUnlockLevel = techUnlockMap[skillUnlockItem].LevelCap.toString();
-            }
+    const blueprintSkillParameterComponent = getPalBlueprint(key, "PalPartnerSkillParameter_GEN_VARIABLE");
+
+    if (blueprintSkillParameterComponent !== undefined) {
+        const skillUnlockItem = blueprintSkillParameterComponent.Properties?.RestrictionItems?.[0].Key;
+        if (skillUnlockItem !== undefined && skillUnlockItem in techUnlockMap) {
+            partnerSkillUnlockLevel = techUnlockMap[skillUnlockItem].LevelCap.toString();
         }
-        const staticCharacterComponent = blueprint.find((item) => item.Type === "PalStaticCharacterParameterComponent");
-        if (staticCharacterComponent !== undefined) {
-            if (
-                staticCharacterComponent.Properties?.GeneralBlendSpaceMap?.some((item) =>
-                    item.Key.endsWith("RidingMove")
-                ) === true
-            ) {
-                isRidable = true;
-            }
-            if (
-                staticCharacterComponent.Properties?.GeneralBlendSpaceMap?.some((item) =>
-                    item.Key.endsWith("FlyingRidingMove")
-                ) === true
-            ) {
+    }
+    const blueprintStaticCharacterComponent = getPalBlueprint(key, "StaticCharacterParameterComponent");
+    if (blueprintStaticCharacterComponent !== undefined) {
+        if (
+            blueprintStaticCharacterComponent.Properties?.GeneralBlendSpaceMap?.some((item) =>
+                item.Key.endsWith("RidingMove")
+            ) === true
+        ) {
+            isRidable = true;
+        }
+        const movementType = (blueprintStaticCharacterComponent as (typeof RidablePalBlueprintType)[number]).Properties
+            ?.MovementType;
+        if (movementType?.includes("::Fly") === true) {
+            if (movementType.includes("::FlyAndLanding")) {
+                isFlyingAndGround = true;
+            } else {
                 isFlying = true;
             }
-            if (
-                (
-                    staticCharacterComponent as (typeof SwimmingPalBlueprintType)[number]
-                ).Properties?.MovementType?.endsWith("::Swim") === true
-            ) {
-                isSwimming = true;
-            }
+        }
+        if (movementType?.endsWith("::Swim") === true) {
+            isSwimming = true;
+        }
+        if (isSwimming || isFlying || isFlyingAndGround) {
+            isRidable = true;
         }
     }
 
@@ -85,10 +83,16 @@ export function buildCustomData(key: string, palData: PalMonsterParameter): Deri
         ItemDrops: getPalItemDrops(key)
             .map((item) => itemNameMap[`ITEM_NAME_${item.Id}`].TextData.LocalizedString)
             .join(", "),
-        IsFlying: isFlying.toString(),
-        IsRidable: isRidable.toString(),
-        IsSwimming: isSwimming.toString(),
-        StatTotal: (palData.ShotAttack + palData.Defense + palData.Hp).toString(),
+        Rideable: isRidable
+            ? isFlyingAndGround
+                ? "Flying/Land"
+                : isFlying
+                  ? "Flying"
+                  : isSwimming
+                    ? "Water"
+                    : "Land"
+            : "",
+        CombatStatTotal: (palData.ShotAttack + palData.Defense + palData.Hp).toString(),
         PartnerSkill: skillNameMap[`PARTNERSKILL_${key}`]?.TextData.LocalizedString ?? "",
         PartnerSkillUnlockLevel: partnerSkillUnlockLevel,
         SpawnLocations: "Map",

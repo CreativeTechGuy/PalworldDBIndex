@@ -13,8 +13,8 @@
 
 .floating-button {
     position: fixed;
-    right: 1em;
-    bottom: 1em;
+    right: 1rem;
+    bottom: 1rem;
     background-color: darkturquoise;
     border-radius: 50%;
     padding: 0.5rem;
@@ -98,5 +98,17 @@
     .map-markers:hover > .map-dot {
         fill: #00ff39;
         r: calc(var(--initial-radius) * 2px);
+    }
+}
+
+.multi-select-list {
+    overflow-y: auto;
+    max-height: 5rem;
+    width: max-content;
+    border: 1px solid black;
+
+    & label {
+        display: block;
+        white-space: nowrap;
     }
 }

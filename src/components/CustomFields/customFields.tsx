@@ -1,5 +1,6 @@
 import type { JSXElement } from "solid-js";
 import type { CombinedData } from "~/data/palCombinedData";
+import { Element } from "./Element";
 import { ItemDrops } from "./ItemDrops";
 import { MinimumSphere } from "./MinimumSphere";
 import { Name } from "./Name";
@@ -24,4 +25,6 @@ export const customFields: Record<string, (props: CustomFieldProps<any>) => JSXE
     PartnerSkill,
     ItemDrops,
     SpawnLocations,
+    ElementType1: Element,
+    ElementType2: Element,
 };

@@ -21,6 +21,7 @@ export function getMaxPalLevelForSpheres(options: {
     worldSettingCaptureRate: number;
     palIntrinsicCaptureRate: number;
     minCaptureRateAcceptable: number;
+    sphereModuleCaptureStrength: number;
     isBack: boolean;
 }): MinimumSpheres {
     const maxLevelForSpheres = sphereArray.reduce<MinimumSpheres>((acc, cur) => {
@@ -35,6 +36,7 @@ export function getMaxPalLevelForSpheres(options: {
                 lifmunkLevel: options.lifmunkLevel,
                 worldSettingCaptureRate: options.worldSettingCaptureRate,
                 palIntrinsicCaptureRate: options.palIntrinsicCaptureRate,
+                sphereModuleCaptureStrength: options.sphereModuleCaptureStrength,
                 spherePower: sphere.Value,
             });
             const rate = options.isBack ? captureRates.backBonus : captureRates.normal;
@@ -53,9 +55,10 @@ export function getCaptureRate(options: {
     lifmunkLevel: number;
     worldSettingCaptureRate: number;
     palIntrinsicCaptureRate: number;
+    sphereModuleCaptureStrength: number;
 }): CaptureRate {
     const scaledLifmunkLevel = options.lifmunkLevel / 2;
-    const throwPower = options.spherePower + scaledLifmunkLevel;
+    const throwPower = options.spherePower + scaledLifmunkLevel + options.sphereModuleCaptureStrength;
     const powerLevelDiff = throwPower - options.palLevel;
     let powerMultiplier;
     if (powerLevelDiff >= 50) {

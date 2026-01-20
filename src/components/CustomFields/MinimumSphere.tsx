@@ -53,7 +53,7 @@ export function MinimumSphere(props: CustomFieldProps<string>): JSXElement {
                     {hasUniqueBossStats() && (
                         <>
                             <br />
-                            {hasUniqueBossStats() && <div class="center bold">Boss Pal</div>}
+                            {hasUniqueBossStats() && <div class="center bold">Alpha Pal</div>}
                             <SphereList spheres={maxLevelsBoss()} />
                         </>
                     )}

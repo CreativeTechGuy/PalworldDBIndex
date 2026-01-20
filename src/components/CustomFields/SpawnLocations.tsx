@@ -1,6 +1,8 @@
 import { createMemo, createSignal, For, onMount, type JSXElement } from "solid-js";
 import { Dialog } from "~/components/Dialog";
 import { spawnLocationMap as spawnLocationMapUntyped, spawnerLocationMap } from "~/data/spawnLocations";
+// cspell:disable-next-line
+import bossSpawnerData from "~/raw_data/DT_BossSpawnerLoactionData.json";
 import raidBossData from "~/raw_data/DT_PalRaidBoss.json";
 import wildSpawnersData from "~/raw_data/DT_PalWildSpawner.json";
 import worldMapScaleData from "~/raw_data/DT_WorldMapUIData.json";
@@ -9,10 +11,22 @@ import type { SpawnData, SpawnerData } from "~/types/SpawnLocations";
 import { convertDataTableType } from "~/utils/convertDataTableType";
 import type { CustomFieldProps } from "./customFields";
 
+const cachedMapImg = document.createElement("img");
+cachedMapImg.id = "map-image-cache";
+cachedMapImg.src = mapImg;
+cachedMapImg.style.display = "none";
+document.body.appendChild(cachedMapImg);
+
 const spawnLocationMap = spawnLocationMapUntyped as SpawnData;
 const worldMapScale = worldMapScaleData[0].Rows;
 const raidBossMap = convertDataTableType(raidBossData);
 const spawnerLocations = Object.values(spawnerLocationMap as SpawnerData);
+const bossSpawnerMap = Object.values(convertDataTableType(bossSpawnerData)).reduce<
+    Partial<Record<string, { X: number; Y: number }>>
+>((acc, cur) => {
+    acc[cur.CharacterID.replace(/BOSS_/i, "")] = cur.Location;
+    return acc;
+}, {});
 const dungeonSpawns = Object.entries(convertDataTableType(wildSpawnersData)).reduce<
     Record<string, { X: number; Y: number; Radius: number }[]>
 >((acc, [key, value]) => {
@@ -38,22 +52,34 @@ const dungeonSpawns = Object.entries(convertDataTableType(wildSpawnersData)).red
 export function SpawnLocations(props: CustomFieldProps<string>): JSXElement {
     const [open, setOpen] = createSignal(false);
     const [isDay, setIsDay] = createSignal(true);
+    /* eslint-disable @typescript-eslint/prefer-nullish-coalescing, @typescript-eslint/strict-boolean-expressions */
     const radius = createMemo(
         () =>
-            spawnLocationMap[props.palData.Id]?.[isDay() ? "dayTimeLocations" : "nightTimeLocations"].Radius ??
-            spawnLocationMap[`BOSS_${props.palData.Id}`]?.[isDay() ? "dayTimeLocations" : "nightTimeLocations"].Radius
+            spawnLocationMap[props.palData.Id]?.[isDay() ? "dayTimeLocations" : "nightTimeLocations"].Radius ||
+            spawnLocationMap[`BOSS_${props.palData.Id}`]?.[isDay() ? "dayTimeLocations" : "nightTimeLocations"]
+                .Radius ||
+            15000
     );
+    /* eslint-enable @typescript-eslint/prefer-nullish-coalescing, @typescript-eslint/strict-boolean-expressions */
     const daySpawnLocations = createMemo(() =>
-        removeDuplicatePoints([
-            ...(spawnLocationMap[props.palData.Id]?.dayTimeLocations.locations ?? []),
-            ...(spawnLocationMap[`BOSS_${props.palData.Id}`]?.dayTimeLocations.locations ?? []),
-        ])
+        removeDuplicatePoints(
+            [
+                ...(spawnLocationMap[props.palData.Id]?.dayTimeLocations.locations ?? []),
+                ...(spawnLocationMap[`BOSS_${props.palData.Id}`]?.dayTimeLocations.locations ?? []),
+                ...(props.palData.Id in bossSpawnerMap ? [bossSpawnerMap[props.palData.Id]!] : []),
+            ],
+            radius()
+        )
     );
     const nightSpawnLocations = createMemo(() =>
-        removeDuplicatePoints([
-            ...(spawnLocationMap[props.palData.Id]?.nightTimeLocations.locations ?? []),
-            ...(spawnLocationMap[`BOSS_${props.palData.Id}`]?.nightTimeLocations.locations ?? []),
-        ])
+        removeDuplicatePoints(
+            [
+                ...(spawnLocationMap[props.palData.Id]?.nightTimeLocations.locations ?? []),
+                ...(spawnLocationMap[`BOSS_${props.palData.Id}`]?.nightTimeLocations.locations ?? []),
+                ...(props.palData.Id in bossSpawnerMap ? [bossSpawnerMap[props.palData.Id]!] : []),
+            ],
+            radius()
+        )
     );
     const hasDaySpawns = createMemo(() => daySpawnLocations().length > 0);
     const hasNightSpawns = createMemo(() => nightSpawnLocations().length > 0);
@@ -61,7 +87,9 @@ export function SpawnLocations(props: CustomFieldProps<string>): JSXElement {
     const spawnsTimeIdentical = createMemo(() => areArraysIdentical(daySpawnLocations(), nightSpawnLocations()));
     const canSwitchTime = createMemo(() => hasDaySpawns() && hasNightSpawns() && !spawnsTimeIdentical());
     const isRaidBoss = createMemo(() => `PalSummon_${props.palData.Id}` in raidBossMap);
-    const dungeonSpawnLocations = createMemo(() => removeDuplicatePoints(dungeonSpawns[props.palData.Id] ?? []));
+    const dungeonSpawnLocations = createMemo(() =>
+        removeDuplicatePoints(dungeonSpawns[props.palData.Id] ?? [], radius())
+    );
     const title = createMemo(() => {
         if (dungeonSpawnLocations().length > 0 && hasNoOverworldSpawns()) {
             return `Dungeons for ${props.palData.Name} (${dungeonSpawnLocations().length})`;
@@ -124,7 +152,7 @@ export function SpawnLocations(props: CustomFieldProps<string>): JSXElement {
                                 )}
                                 <div style={{ position: "relative", margin: "auto", width: "fit-content" }}>
                                     <img
-                                        src={mapImg}
+                                        src={cachedMapImg.src}
                                         style={{
                                             "max-width": "75vw",
                                             "max-height": "75vh",
@@ -139,7 +167,7 @@ export function SpawnLocations(props: CustomFieldProps<string>): JSXElement {
                                     >
                                         <For<{ X: number; Y: number; Radius?: number }[], JSXElement>
                                             each={
-                                                dungeonSpawnLocations().length > 0
+                                                hasNoOverworldSpawns()
                                                     ? dungeonSpawnLocations()
                                                     : isDay()
                                                       ? daySpawnLocations()
@@ -183,10 +211,11 @@ function areArraysIdentical(arr1: { X: number; Y: number }[], arr2: { X: number;
     return true;
 }
 
-function removeDuplicatePoints(arr: { X: number; Y: number }[]): { X: number; Y: number }[] {
+function removeDuplicatePoints(arr: { X: number; Y: number }[], radius: number): { X: number; Y: number }[] {
     const seenPoints = new Set<string>();
+    const roundFactor = Math.round(radius * 0.5);
     return arr.filter((item) => {
-        const point = `${item.X},${item.Y}`;
+        const point = `${Math.round(item.X / roundFactor)},${Math.round(item.Y / roundFactor)}`;
         if (seenPoints.has(point)) {
             return false;
         }

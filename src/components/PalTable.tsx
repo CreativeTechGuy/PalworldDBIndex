@@ -1,4 +1,14 @@
-import { createEffect, createSignal, For, onMount, runWithOwner, type JSXElement } from "solid-js";
+import {
+    createEffect,
+    createRenderEffect,
+    createSignal,
+    For,
+    on,
+    onMount,
+    runWithOwner,
+    type JSXElement,
+} from "solid-js";
+import { filterSettings, setFilterSettings } from "~/config/filter";
 import { loadOrDefault } from "~/config/loadOrDefault";
 import { unsortableColumns } from "~/config/tableColumns";
 import { columnOrder } from "~/data/orderedColumns";
@@ -13,7 +23,7 @@ const sorter = new Intl.Collator(undefined, {
     numeric: true,
 });
 
-const isNumericFieldCache = new Map<string, boolean>();
+const fieldDefaultSortAscending = new Map<string, boolean>();
 
 const [lastSortedColumn, setLastSortedColumn] = createSignal<ReturnType<typeof columnOrder>[number] | "none">(
     loadOrDefault("table-sort-column", "none")
@@ -30,72 +40,81 @@ runWithOwner(fakeSolidOwner, () => {
 });
 
 export function PalTable(): JSXElement {
-    const [highlightedRow, setHighlightedRow] = createSignal("");
+    const [initialized, setInitialized] = createSignal(false);
     onMount(() => {
-        // eslint-disable-next-line solid/reactivity -- Wait for any display text to get replaced by their respective components
+        // Wait for any display text to get replaced by their respective components
         window.requestAnimationFrame(() => {
-            const columnName = lastSortedColumn();
-            const sortAscending = lastSortDirectionAscending();
-            if (columnName !== "none") {
-                setLastSortedColumn("none");
-                if (!sortAscending) {
-                    setLastSortDirectionAscending((current) => !current);
-                }
-                sortColumn(columnName);
-                if (!sortAscending) {
-                    sortColumn(columnName);
-                }
-            }
-        });
-    });
-    function sortColumn(columnName: ReturnType<typeof columnOrder>[number]): void {
-        if (lastSortedColumn() === columnName) {
-            setRows((current) => [...current.reverse()]);
-        } else {
-            let multiplier = 1;
-            if (!isNumericFieldCache.has(columnName)) {
+            for (const columnName of columnOrder()) {
                 for (const row of rows()) {
                     if (mapCellValue(row[columnName].toString()) === "") {
                         continue;
                     } else if (
                         typeof row[columnName] === "number" ||
-                        row[columnName].toString().match(/^[0-9]+$/) !== null
+                        row[columnName].toString().match(/^[0-9]+$/) !== null ||
+                        arrayIncludes(["true", "false"], row[columnName])
                     ) {
-                        isNumericFieldCache.set(columnName, true);
+                        fieldDefaultSortAscending.set(columnName, false);
                         break;
                     }
-                    isNumericFieldCache.set(columnName, false);
+                    fieldDefaultSortAscending.set(columnName, true);
                     break;
                 }
             }
-            if (isNumericFieldCache.get(columnName) === true) {
-                multiplier = -1;
-            } else if (arrayIncludes(["true", "false"], rows()[0][columnName])) {
-                multiplier = -1;
+            sortColumn();
+            setInitialized(true);
+        });
+    });
+    createRenderEffect<string[]>(
+        on([lastSortedColumn, lastSortDirectionAscending, filterSettings], (_, prev) => {
+            if (!initialized()) {
+                return [];
             }
+            const lastHighlightedRows = prev?.[0] ?? [];
+            if (lastHighlightedRows.length !== filterSettings().highlightedRowIds.length) {
+                setTimeout(() => {
+                    sortColumn();
+                }, 500);
+            } else {
+                sortColumn();
+            }
+            return filterSettings().highlightedRowIds;
+        }),
+        []
+    );
+    function sortColumn(): void {
+        const columnName = lastSortedColumn();
+        if (columnName === "none") {
+            return;
+        }
+        const multiplier = lastSortDirectionAscending() ? 1 : -1;
+        const highlights = filterSettings().highlightedRowIds;
+        const sortSelectedToTop = filterSettings().sortSelectedToTop;
 
-            setRows((current) =>
-                current.toSorted((a, b) => {
-                    const aValue = a[columnName];
-                    const bValue = b[columnName];
-                    const isValueAEmpty = mapCellValue(aValue.toString()) === "";
-                    const isValueBEmpty = mapCellValue(bValue.toString()) === "";
-                    if (isValueAEmpty && !isValueBEmpty) {
-                        return 1;
-                    }
-                    if (isValueBEmpty && !isValueAEmpty) {
+        setRows((current) =>
+            current.toSorted((a, b) => {
+                const aValue = a[columnName];
+                const bValue = b[columnName];
+                const isValueAEmpty = ["", "N/A"].includes(mapCellValue(aValue.toString()));
+                const isValueBEmpty = ["", "N/A"].includes(mapCellValue(bValue.toString()));
+                if (sortSelectedToTop) {
+                    const isValueAHighlighted = highlights.includes(a.Id);
+                    const isValueBHighlighted = highlights.includes(b.Id);
+                    if (isValueAHighlighted && !isValueBHighlighted) {
                         return -1;
                     }
-                    return sorter.compare(aValue.toString(), bValue.toString()) * multiplier;
-                })
-            );
-        }
-        if (lastSortedColumn() === columnName) {
-            setLastSortDirectionAscending((current) => !current);
-        } else {
-            setLastSortDirectionAscending(true);
-        }
-        setLastSortedColumn(columnName);
+                    if (!isValueAHighlighted && isValueBHighlighted) {
+                        return 1;
+                    }
+                }
+                if (isValueAEmpty && !isValueBEmpty) {
+                    return 1;
+                }
+                if (isValueBEmpty && !isValueAEmpty) {
+                    return -1;
+                }
+                return sorter.compare(aValue.toString(), bValue.toString()) * multiplier;
+            })
+        );
     }
     return (
         <table class="pal-table">
@@ -108,7 +127,12 @@ export function PalTable(): JSXElement {
                                 if (unsortableColumns.includes(columnName)) {
                                     return;
                                 }
-                                sortColumn(columnName);
+                                if (lastSortedColumn() === columnName) {
+                                    setLastSortDirectionAscending((current) => !current);
+                                } else {
+                                    setLastSortDirectionAscending(fieldDefaultSortAscending.get(columnName) === true);
+                                }
+                                setLastSortedColumn(columnName);
                             }}
                         >
                             {mapColumnHeader(columnName)}
@@ -127,15 +151,33 @@ export function PalTable(): JSXElement {
                 <For each={rows()}>
                     {(palData, index) => (
                         <tr
-                            class={highlightedRow() === palData.Id ? "highlight" : undefined}
+                            class={filterSettings().highlightedRowIds.includes(palData.Id) ? "highlight" : undefined}
+                            style={{
+                                display:
+                                    filterSettings().filterMatchingRowIds?.includes(palData.Id) !== false
+                                        ? undefined
+                                        : "none",
+                            }}
                             onClick={function (this: HTMLTableRowElement, evt) {
-                                if (evt.target !== this && evt.target.parentElement !== this) {
+                                const composedPath = evt.composedPath();
+                                if (
+                                    !composedPath.includes(this) ||
+                                    composedPath.some((elem) => elem instanceof HTMLButtonElement)
+                                ) {
                                     return;
                                 }
-                                if (highlightedRow() === palData.Id) {
-                                    setHighlightedRow("");
+                                if (filterSettings().highlightedRowIds.includes(palData.Id)) {
+                                    setFilterSettings((current) => ({
+                                        ...current,
+                                        highlightedRowIds: current.highlightedRowIds.filter(
+                                            (item) => item !== palData.Id
+                                        ),
+                                    }));
                                 } else {
-                                    setHighlightedRow(palData.Id);
+                                    setFilterSettings((current) => ({
+                                        ...current,
+                                        highlightedRowIds: [...current.highlightedRowIds, palData.Id],
+                                    }));
                                 }
                             }}
                         >
