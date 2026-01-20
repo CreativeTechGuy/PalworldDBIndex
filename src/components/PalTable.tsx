@@ -1,20 +1,15 @@
-import {
-    createEffect,
-    createRenderEffect,
-    createSignal,
-    For,
-    on,
-    onMount,
-    runWithOwner,
-    type JSXElement,
-} from "solid-js";
+import { createRenderEffect, createSignal, For, on, onMount, type JSXElement } from "solid-js";
 import { filterSettings, setFilterSettings } from "~/config/filter";
-import { loadOrDefault } from "~/config/loadOrDefault";
 import { unsortableColumns } from "~/config/tableColumns";
+import {
+    lastSortDirectionAscending,
+    lastSortedColumn,
+    setLastSortDirectionAscending,
+    setLastSortedColumn,
+} from "~/config/tableSort";
 import { columnOrder } from "~/data/orderedColumns";
 import { rows, setRows } from "~/data/palCombinedData";
 import { arrayIncludes } from "~/utils/arrayIncludes";
-import { fakeSolidOwner } from "~/utils/fakeSolidOwner";
 import { mapCellValue } from "~/utils/mapCellValue";
 import { mapColumnHeader } from "~/utils/mapColumnHeader";
 import { CustomField } from "./CustomField";
@@ -24,20 +19,6 @@ const sorter = new Intl.Collator(undefined, {
 });
 
 const fieldDefaultSortAscending = new Map<string, boolean>();
-
-const [lastSortedColumn, setLastSortedColumn] = createSignal<ReturnType<typeof columnOrder>[number] | "none">(
-    loadOrDefault("table-sort-column", "none")
-);
-const [lastSortDirectionAscending, setLastSortDirectionAscending] = createSignal(
-    loadOrDefault<string>("table-sort-direction-ascending", "true") === "true"
-);
-
-runWithOwner(fakeSolidOwner, () => {
-    createEffect(() => {
-        localStorage.setItem("table-sort-column", lastSortedColumn());
-        localStorage.setItem("table-sort-direction-ascending", lastSortDirectionAscending().toString());
-    });
-});
 
 export function PalTable(): JSXElement {
     const [initialized, setInitialized] = createSignal(false);
@@ -83,19 +64,12 @@ export function PalTable(): JSXElement {
     );
     function sortColumn(): void {
         const columnName = lastSortedColumn();
-        if (columnName === "none") {
-            return;
-        }
         const multiplier = lastSortDirectionAscending() ? 1 : -1;
         const highlights = filterSettings().highlightedRowIds;
         const sortSelectedToTop = filterSettings().sortSelectedToTop;
 
         setRows((current) =>
             current.toSorted((a, b) => {
-                const aValue = a[columnName];
-                const bValue = b[columnName];
-                const isValueAEmpty = ["", "N/A"].includes(mapCellValue(aValue.toString()));
-                const isValueBEmpty = ["", "N/A"].includes(mapCellValue(bValue.toString()));
                 if (sortSelectedToTop) {
                     const isValueAHighlighted = highlights.includes(a.Id);
                     const isValueBHighlighted = highlights.includes(b.Id);
@@ -106,6 +80,10 @@ export function PalTable(): JSXElement {
                         return 1;
                     }
                 }
+                const aValue = a[columnName];
+                const bValue = b[columnName];
+                const isValueAEmpty = ["", "N/A"].includes(mapCellValue(aValue.toString()));
+                const isValueBEmpty = ["", "N/A"].includes(mapCellValue(bValue.toString()));
                 if (isValueAEmpty && !isValueBEmpty) {
                     return 1;
                 }

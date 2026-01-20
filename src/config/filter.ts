@@ -1,14 +1,14 @@
 import { createSignal } from "solid-js";
 
-export const [filterSettings, setFilterSettings] = createSignal({
+const defaultSettings = {
     sortSelectedToTop: false,
     filterText: "",
     filterMatchingRowIds: null as null | string[],
     highlightedRowIds: [] as string[],
-});
+};
 
-// eslint-disable-next-line solid/reactivity
-const defaultSettings = filterSettings();
+export const [filterSettings, setFilterSettings] = createSignal(defaultSettings);
+
 export function resetFilterSettings(): void {
     setFilterSettings(defaultSettings);
 }

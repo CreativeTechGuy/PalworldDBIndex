@@ -2,7 +2,8 @@ import { createSignal, type JSXElement } from "solid-js";
 import { Portal } from "solid-js/web";
 import { rootElement } from "~/config/rootElement";
 import { resetSphereSettings, setSphereSettings, sphereSettings } from "~/config/sphereSettings";
-import { resetColumnSettings, setUserColumnSettings, userColumnSettings } from "~/config/tableColumns";
+import { resetTableSort } from "~/config/tableSort";
+import { resetColumnSettings, setUserColumnSettings, userColumnSettings } from "~/config/userColumns";
 import { configurableColumns } from "~/data/orderedColumns";
 import settingsIcon from "~/icons/settings.svg";
 import { mapColumnHeader } from "~/utils/mapColumnHeader";
@@ -177,6 +178,7 @@ export function Settings(): JSXElement {
                                             onClick={() => {
                                                 resetSphereSettings();
                                                 resetColumnSettings();
+                                                resetTableSort();
                                             }}
                                         >
                                             Reset all settings

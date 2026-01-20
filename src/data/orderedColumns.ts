@@ -1,10 +1,6 @@
 import { createSignal, createEffect, runWithOwner } from "solid-js";
-import {
-    userColumnSettings,
-    defaultColumnOrder,
-    unmovableLeftColumns,
-    forceHiddenColumns,
-} from "~/config/tableColumns";
+import { defaultColumnOrder, unmovableLeftColumns, forceHiddenColumns } from "~/config/tableColumns";
+import { userColumnSettings } from "~/config/userColumns";
 import { arrayIncludes } from "~/utils/arrayIncludes";
 import { fakeSolidOwner } from "~/utils/fakeSolidOwner";
 import { customColumns } from "./buildCustomData";
