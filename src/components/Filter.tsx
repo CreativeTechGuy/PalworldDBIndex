@@ -1,4 +1,4 @@
-import { createSignal, type JSXElement } from "solid-js";
+import { createSignal, createUniqueId, type JSXElement } from "solid-js";
 import { Portal } from "solid-js/web";
 import { filterSettings, resetFilterSettings, setFilterSettings } from "~/config/filter";
 import { rootElement } from "~/config/rootElement";
@@ -10,6 +10,8 @@ import { Dialog } from "./Dialog";
 
 export function Filter(): JSXElement {
     const [open, setOpen] = createSignal(false);
+    const sortSelectedToTopId = createUniqueId();
+    const filterRowsId = createUniqueId();
     return (
         <>
             <button
@@ -33,9 +35,12 @@ export function Filter(): JSXElement {
                         <table>
                             <tbody>
                                 <tr>
-                                    <td>Move highlighted rows to top</td>
+                                    <td>
+                                        <label for={sortSelectedToTopId}>Move highlighted rows to top</label>
+                                    </td>
                                     <td>
                                         <input
+                                            id={sortSelectedToTopId}
                                             type="checkbox"
                                             checked={filterSettings().sortSelectedToTop}
                                             onChange={(evt) => {
@@ -48,9 +53,12 @@ export function Filter(): JSXElement {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Filter rows</td>
+                                    <td>
+                                        <label for={filterRowsId}>Filter rows</label>
+                                    </td>
                                     <td>
                                         <input
+                                            id={filterRowsId}
                                             type="search"
                                             value={filterSettings().filterText}
                                             onInput={(evt) => {

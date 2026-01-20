@@ -1,4 +1,4 @@
-import { createSignal, type JSXElement } from "solid-js";
+import { createSignal, createUniqueId, type JSXElement } from "solid-js";
 import { Portal } from "solid-js/web";
 import { rootElement } from "~/config/rootElement";
 import { resetSphereSettings, setSphereSettings, sphereSettings } from "~/config/sphereSettings";
@@ -12,6 +12,13 @@ import { MultiSelectList } from "./MultiSelectList";
 
 export function Settings(): JSXElement {
     const [open, setOpen] = createSignal(false);
+    const healthRemainingId = createUniqueId();
+    const minCaptureRateAcceptableId = createUniqueId();
+    const isBackId = createUniqueId();
+    const lifmunkLevelId = createUniqueId();
+    const worldSettingCaptureRateId = createUniqueId();
+    const sphereModuleCaptureStrengthId = createUniqueId();
+    const autoHideRedundantColumnsId = createUniqueId();
     return (
         <>
             <button
@@ -39,9 +46,12 @@ export function Settings(): JSXElement {
                                     </th>
                                 </tr>
                                 <tr>
-                                    <td>Pal Health Remaining</td>
+                                    <td>
+                                        <label for={healthRemainingId}>Pal Health Remaining</label>
+                                    </td>
                                     <td>
                                         <input
+                                            id={healthRemainingId}
                                             type="number"
                                             min="0"
                                             max="100"
@@ -59,9 +69,12 @@ export function Settings(): JSXElement {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Min Capture Chance Acceptable</td>
+                                    <td>
+                                        <label for={minCaptureRateAcceptableId}>Min Capture Chance Acceptable</label>
+                                    </td>
                                     <td>
                                         <input
+                                            id={minCaptureRateAcceptableId}
                                             type="number"
                                             min="0"
                                             max="100"
@@ -79,9 +92,12 @@ export function Settings(): JSXElement {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Include Back Bonus</td>
+                                    <td>
+                                        <label for={isBackId}>Include Back Bonus</label>
+                                    </td>
                                     <td>
                                         <input
+                                            id={isBackId}
                                             type="checkbox"
                                             checked={sphereSettings().isBack}
                                             onInput={(evt) => {
@@ -94,9 +110,12 @@ export function Settings(): JSXElement {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Statue of Power Level</td>
+                                    <td>
+                                        <label for={lifmunkLevelId}>Statue of Power Level</label>
+                                    </td>
                                     <td>
                                         <input
+                                            id={lifmunkLevelId}
                                             type="number"
                                             min="0"
                                             max="10"
@@ -113,9 +132,12 @@ export function Settings(): JSXElement {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>World Setting Capture Rate</td>
+                                    <td>
+                                        <label for={worldSettingCaptureRateId}>World Setting Capture Rate</label>
+                                    </td>
                                     <td>
                                         <input
+                                            id={worldSettingCaptureRateId}
                                             type="number"
                                             min="0.5"
                                             max="2"
@@ -133,9 +155,14 @@ export function Settings(): JSXElement {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Sphere Module Capture Strength</td>
+                                    <td>
+                                        <label for={sphereModuleCaptureStrengthId}>
+                                            Sphere Module Capture Strength
+                                        </label>
+                                    </td>
                                     <td>
                                         <input
+                                            id={sphereModuleCaptureStrengthId}
                                             type="number"
                                             min="0"
                                             step="1"
@@ -154,9 +181,12 @@ export function Settings(): JSXElement {
                                     <th colSpan={2}>Columns</th>
                                 </tr>
                                 <tr>
-                                    <td>Auto-hide non-unique columns</td>
+                                    <td>
+                                        <label for={autoHideRedundantColumnsId}>Auto-hide non-unique columns</label>
+                                    </td>
                                     <td>
                                         <input
+                                            id={autoHideRedundantColumnsId}
                                             type="checkbox"
                                             checked={userColumnSettings().autoHideRedundantColumns}
                                             onInput={(evt) => {

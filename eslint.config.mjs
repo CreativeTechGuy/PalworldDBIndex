@@ -593,6 +593,13 @@ export default [
             "jsx-a11y": jsxA11yPlugin,
             solid: solidPlugin,
         },
+        settings: {
+            "jsx-a11y": {
+                attributes: {
+                    for: ["for"],
+                },
+            },
+        },
         rules: {
             // JSX A11y - This plugin is being extended because there's an extensive amount of custom options automatically applied
             ...jsxA11yPlugin.flatConfigs.recommended.rules,
