@@ -18,7 +18,6 @@ export function Settings(): JSXElement {
     const lifmunkLevelId = createUniqueId();
     const worldSettingCaptureRateId = createUniqueId();
     const sphereModuleCaptureStrengthId = createUniqueId();
-    const autoHideRedundantColumnsId = createUniqueId();
     return (
         <>
             <button
@@ -76,7 +75,7 @@ export function Settings(): JSXElement {
                                         <input
                                             id={minCaptureRateAcceptableId}
                                             type="number"
-                                            min="0"
+                                            min="1"
                                             max="100"
                                             step="1"
                                             style={{ width: "3em" }}
@@ -179,24 +178,6 @@ export function Settings(): JSXElement {
                                 </tr>
                                 <tr>
                                     <th colSpan={2}>Columns</th>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <label for={autoHideRedundantColumnsId}>Auto-hide redundant columns</label>
-                                    </td>
-                                    <td>
-                                        <input
-                                            id={autoHideRedundantColumnsId}
-                                            type="checkbox"
-                                            checked={userColumnSettings().autoHideRedundantColumns}
-                                            onInput={(evt) => {
-                                                setUserColumnSettings((current) => ({
-                                                    ...current,
-                                                    autoHideRedundantColumns: evt.target.checked,
-                                                }));
-                                            }}
-                                        />
-                                    </td>
                                 </tr>
                                 <tr>
                                     <td>Reorder/hide columns</td>

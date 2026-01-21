@@ -45,7 +45,8 @@
         background: darkgrey;
     }
 
-    & tr > td:first-child {
+    & tr > td:first-child,
+    & thead > tr > th:first-child {
         position: sticky;
         left: 0;
     }

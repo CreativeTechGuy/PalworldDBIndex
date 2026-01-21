@@ -11,10 +11,9 @@ const defaultSettings = {
         (column) => !forceHiddenColumns.includes(column)
     ),
     hidden: [...defaultHiddenColumns],
-    autoHideRedundantColumns: true,
 };
 
-export const redundantColumns = defaultSettings.columnOrder.filter((column) => {
+const redundantColumns = defaultSettings.columnOrder.filter((column) => {
     if (arrayIncludes(customColumns, column)) {
         return false;
     }
@@ -28,6 +27,8 @@ export const redundantColumns = defaultSettings.columnOrder.filter((column) => {
     }
     return shouldHide;
 });
+
+defaultSettings.hidden = [...new Set([...defaultSettings.hidden, ...redundantColumns])];
 
 export const [userColumnSettings, setUserColumnSettings] = createSignal(
     loadOrDefault("column-settings", defaultSettings)

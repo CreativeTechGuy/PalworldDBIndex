@@ -1,6 +1,7 @@
 import { resolve } from "node:path";
 import { defineConfig } from "vite";
 import solidPlugin from "vite-plugin-solid";
+import "dotenv/config";
 
 export default defineConfig({
     base: "./",
@@ -11,7 +12,9 @@ export default defineConfig({
             transformIndexHtml: {
                 order: "post",
                 handler: (html) => {
-                    return html.replace("BUILD_DATE", new Date().toLocaleDateString());
+                    return html
+                        .replace("BUILD_DATE", new Date().toLocaleDateString())
+                        .replace("GAME_VERSION", process.env.GAME_VERSION ?? "unknown");
                 },
             },
         },

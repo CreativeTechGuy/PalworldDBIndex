@@ -39,28 +39,36 @@ export function Element(props: CustomFieldProps<string>): JSXElement {
         <>
             {props.value !== "" && (
                 <Hover label={mapCellValue(props.value)}>
-                    <div class="bold">Pal Strong Against</div>
-                    <ul>
-                        <For each={combinedStrengths()}>
-                            {(item) => {
-                                if (combinedWeaknesses().includes(item)) {
-                                    return null;
-                                }
-                                return <li>{item}</li>;
-                            }}
-                        </For>
-                    </ul>
-                    <div class="bold">Pal Weak Against</div>
-                    <ul>
-                        <For each={combinedWeaknesses()}>
-                            {(item) => {
-                                if (combinedStrengths().includes(item)) {
-                                    return null;
-                                }
-                                return <li>{item}</li>;
-                            }}
-                        </For>
-                    </ul>
+                    {combinedStrengths().length > 0 && (
+                        <>
+                            <div class="bold">Pal Strong Against</div>
+                            <ul>
+                                <For each={combinedStrengths()}>
+                                    {(item) => {
+                                        if (combinedWeaknesses().includes(item)) {
+                                            return null;
+                                        }
+                                        return <li>{item}</li>;
+                                    }}
+                                </For>
+                            </ul>
+                        </>
+                    )}
+                    {combinedWeaknesses().length > 0 && (
+                        <>
+                            <div class="bold">Pal Weak Against</div>
+                            <ul>
+                                <For each={combinedWeaknesses()}>
+                                    {(item) => {
+                                        if (combinedStrengths().includes(item)) {
+                                            return null;
+                                        }
+                                        return <li>{item}</li>;
+                                    }}
+                                </For>
+                            </ul>
+                        </>
+                    )}
                 </Hover>
             )}
         </>

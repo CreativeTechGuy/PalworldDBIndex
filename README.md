@@ -55,7 +55,7 @@ Notes
         - Content/Pal/DataTable/Waza/DT_WazaDataTable.json
 
 Figure out how to get version number??
-https://steamdb.info/app/2394010/patchnotes/
+https://steamdb.info/api/PatchnotesRSS/?appid=1623730
 
 https://github.com/CrystalFerrai/Ue4Export
 https://github.com/joric/CUE4Parse.CLI/wiki

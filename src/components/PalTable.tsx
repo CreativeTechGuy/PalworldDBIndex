@@ -98,33 +98,37 @@ export function PalTable(): JSXElement {
     return (
         <table class="pal-table">
             <thead>
-                <For each={visibleColumns()}>
-                    {(columnName) => (
-                        <th
-                            class={unsortableColumns.includes(columnName) ? "no-sort" : undefined}
-                            onClick={() => {
-                                if (unsortableColumns.includes(columnName)) {
-                                    return;
-                                }
-                                if (lastSortedColumn() === columnName) {
-                                    setLastSortDirectionAscending((current) => !current);
-                                } else {
-                                    setLastSortDirectionAscending(fieldDefaultSortAscending.get(columnName) === true);
-                                }
-                                setLastSortedColumn(columnName);
-                            }}
-                        >
-                            {mapColumnHeader(columnName)}
-                            <br />
-                            <span
-                                aria-hidden={lastSortedColumn() !== columnName}
-                                style={{ visibility: lastSortedColumn() !== columnName ? "hidden" : "visible" }}
+                <tr>
+                    <For each={visibleColumns()}>
+                        {(columnName) => (
+                            <th
+                                class={unsortableColumns.includes(columnName) ? "no-sort" : undefined}
+                                onClick={() => {
+                                    if (unsortableColumns.includes(columnName)) {
+                                        return;
+                                    }
+                                    if (lastSortedColumn() === columnName) {
+                                        setLastSortDirectionAscending((current) => !current);
+                                    } else {
+                                        setLastSortDirectionAscending(
+                                            fieldDefaultSortAscending.get(columnName) === true
+                                        );
+                                    }
+                                    setLastSortedColumn(columnName);
+                                }}
                             >
-                                {lastSortDirectionAscending() ? "▲" : "▼"}
-                            </span>
-                        </th>
-                    )}
-                </For>
+                                {mapColumnHeader(columnName)}
+                                <br />
+                                <span
+                                    aria-hidden={lastSortedColumn() !== columnName}
+                                    style={{ visibility: lastSortedColumn() !== columnName ? "hidden" : "visible" }}
+                                >
+                                    {lastSortDirectionAscending() ? "▲" : "▼"}
+                                </span>
+                            </th>
+                        )}
+                    </For>
+                </tr>
             </thead>
             <tbody>
                 <For each={rows()}>
