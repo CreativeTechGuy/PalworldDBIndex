@@ -5,9 +5,15 @@ import { getObjectByCaseInsensitiveKey } from "~/utils/getObjectByCaseInsensitiv
 type PalBlueprintType = typeof PalBlueprintType1;
 
 export const palBlueprints: Record<string, PalBlueprintType> = import.meta.glob(
-    ["~/raw_data/PalActorBP/*/BP_*.json", "!~/raw_data/PalActorBP/*/BP_*_BOSS*.json"],
+    [
+        "~/raw_data/Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/*/BP_*.json",
+        "!~/raw_data/Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/*/BP_*_BOSS*.json",
+    ],
     { eager: true, import: "default" }
 );
+if (Object.keys(palBlueprints).length === 0) {
+    throw new Error("Missing Pal blueprints");
+}
 
 export function getPalBlueprint(id: string, sectionName: string): PalBlueprintType[number] | undefined {
     const blueprint =
