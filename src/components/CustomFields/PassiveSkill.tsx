@@ -1,9 +1,9 @@
 import { createMemo, type JSXElement } from "solid-js";
 import { FormatTextTags } from "~/components/FormatTextTags";
 import { Hover } from "~/components/Hover";
-import passiveSkills from "~/raw_data/DT_PassiveSkill_Main.json";
-import skillDescriptions from "~/raw_data/DT_SkillDescText_Common.json";
-import skillNames from "~/raw_data/DT_SkillNameText_Common.json";
+import skillDescriptions from "~/raw_data/Pal/Content/L10N/en/Pal/DataTable/Text/DT_SkillDescText_Common.json";
+import skillNames from "~/raw_data/Pal/Content/L10N/en/Pal/DataTable/Text/DT_SkillNameText_Common.json";
+import passiveSkills from "~/raw_data/Pal/Content/Pal/DataTable/PassiveSkill/DT_PassiveSkill_Main.json";
 import { convertDataTableType } from "~/utils/convertDataTableType";
 import { mapCellValue } from "~/utils/mapCellValue";
 import type { CustomFieldProps } from "./customFields";

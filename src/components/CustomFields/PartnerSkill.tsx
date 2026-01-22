@@ -2,7 +2,7 @@ import { createMemo, type JSXElement } from "solid-js";
 import { FormatTextTags } from "~/components/FormatTextTags";
 import { Hover } from "~/components/Hover";
 import { getPalBlueprint } from "~/data/palBlueprints";
-import partnerSkills from "~/raw_data/DT_PartnerSkill.json";
+import partnerSkills from "~/raw_data/Pal/Content/Pal/DataTable/PartnerSkill/DT_PartnerSkill.json";
 import { convertDataTableType } from "~/utils/convertDataTableType";
 import type { CustomFieldProps } from "./customFields";
 

@@ -1,5 +1,4 @@
-import { writeFileSync } from "node:fs";
-import { globSync } from "glob";
+import { globSync, writeFileSync } from "node:fs";
 import sharp from "sharp";
 
 const images = globSync("dist/assets/*.png");

@@ -1,0 +1,1835 @@
+[
+    {
+        "Type": "BlueprintGeneratedClass",
+        "Name": "BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'BlueprintGeneratedClass'",
+        "Super": {
+            "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "NumReplicatedProperties": 2,
+            "DynamicBindingObjects": [
+                {
+                    "ObjectName": "ComponentDelegateBinding'BP_YakushimaBoss002_PartBase_C:ComponentDelegateBinding_0'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.3"
+                }
+            ],
+            "SimpleConstructionScript": {
+                "ObjectName": "SimpleConstructionScript'BP_YakushimaBoss002_PartBase_C:SimpleConstructionScript_0'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.41"
+            },
+            "InheritableComponentHandler": {
+                "ObjectName": "InheritableComponentHandler'BP_YakushimaBoss002_PartBase_C:InheritableComponentHandler'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.18"
+            },
+            "UberGraphFunction": {
+                "ObjectName": "Function'BP_YakushimaBoss002_PartBase_C:ExecuteUbergraph_BP_YakushimaBoss002_PartBase'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.5"
+            }
+        },
+        "SuperStruct": {
+            "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+        },
+        "Children": [
+            {
+                "ObjectName": "Function'BP_YakushimaBoss002_PartBase_C:GetHPGaugeLocation'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.6"
+            },
+            {
+                "ObjectName": "Function'BP_YakushimaBoss002_PartBase_C:IsRight'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.10"
+            },
+            {
+                "ObjectName": "Function'BP_YakushimaBoss002_PartBase_C:IsLeft'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.9"
+            },
+            {
+                "ObjectName": "Function'BP_YakushimaBoss002_PartBase_C:IsHead'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.8"
+            },
+            {
+                "ObjectName": "Function'BP_YakushimaBoss002_PartBase_C:GetPartsType'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.7"
+            },
+            {
+                "ObjectName": "Function'BP_YakushimaBoss002_PartBase_C:OnRep_IsBreak'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.11"
+            },
+            {
+                "ObjectName": "Function'BP_YakushimaBoss002_PartBase_C:BndEvt__BP_YakushimaBoss002_R_DamageReactionComponent_K2Node_ComponentBoundEvent_0_OnPartBrokenDelegate__DelegateSignature'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.4"
+            },
+            {
+                "ObjectName": "Function'BP_YakushimaBoss002_PartBase_C:SpawnEye'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.16"
+            },
+            {
+                "ObjectName": "Function'BP_YakushimaBoss002_PartBase_C:PlayDeathAnimation'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.12"
+            },
+            {
+                "ObjectName": "Function'BP_YakushimaBoss002_PartBase_C:ReceiveEndPlay'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.14"
+            },
+            {
+                "ObjectName": "Function'BP_YakushimaBoss002_PartBase_C:ReceiveBeginPlay'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.13"
+            },
+            {
+                "ObjectName": "Function'BP_YakushimaBoss002_PartBase_C:UpdateLocation'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.17"
+            },
+            {
+                "ObjectName": "Function'BP_YakushimaBoss002_PartBase_C:ReceiveTick'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.15"
+            },
+            {
+                "ObjectName": "Function'BP_YakushimaBoss002_PartBase_C:ExecuteUbergraph_BP_YakushimaBoss002_PartBase'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.5"
+            }
+        ],
+        "ChildProperties": [
+            {
+                "Type": "StructProperty",
+                "Name": "UberGraphFrame",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 16,
+                "PropertyFlags": "Transient | DuplicateTransient",
+                "Struct": {
+                    "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+                    "ObjectPath": "/Script/Engine"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalUVEye",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalUVEyeComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "PalBodyPartsCapsule",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "EyeHandle",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "Edit | BlueprintVisible | Net | DisableEditOnInstance",
+                "RepIndex": 28,
+                "PropertyClass": {
+                    "ObjectName": "Class'PalIndividualCharacterHandle'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "BoolProperty",
+                "Name": "IsBreak",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 1,
+                "PropertyFlags": "Edit | BlueprintVisible | Net | DisableEditOnInstance | RepNotify",
+                "RepIndex": 29,
+                "RepNotifyFunc": "OnRep_IsBreak",
+                "FieldSize": 1,
+                "ByteOffset": 0,
+                "ByteMask": 1,
+                "FieldMask": 255,
+                "BoolSize": 1,
+                "bIsNativeBool": true
+            },
+            {
+                "Type": "NameProperty",
+                "Name": "CharacterID_Green",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 12,
+                "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+            },
+            {
+                "Type": "ClassProperty",
+                "Name": "Controller_Green",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | UObjectWrapper",
+                "PropertyClass": {
+                    "ObjectName": "Class'Class'",
+                    "ObjectPath": "/Script/CoreUObject"
+                },
+                "MetaClass": {
+                    "ObjectName": "Class'Controller'",
+                    "ObjectPath": "/Script/Engine"
+                }
+            }
+        ],
+        "FuncMap": {
+            "ExecuteUbergraph_BP_YakushimaBoss002_PartBase": {
+                "ObjectName": "Function'BP_YakushimaBoss002_PartBase_C:ExecuteUbergraph_BP_YakushimaBoss002_PartBase'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.5"
+            },
+            "ReceiveTick": {
+                "ObjectName": "Function'BP_YakushimaBoss002_PartBase_C:ReceiveTick'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.15"
+            },
+            "UpdateLocation": {
+                "ObjectName": "Function'BP_YakushimaBoss002_PartBase_C:UpdateLocation'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.17"
+            },
+            "ReceiveBeginPlay": {
+                "ObjectName": "Function'BP_YakushimaBoss002_PartBase_C:ReceiveBeginPlay'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.13"
+            },
+            "ReceiveEndPlay": {
+                "ObjectName": "Function'BP_YakushimaBoss002_PartBase_C:ReceiveEndPlay'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.14"
+            },
+            "PlayDeathAnimation": {
+                "ObjectName": "Function'BP_YakushimaBoss002_PartBase_C:PlayDeathAnimation'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.12"
+            },
+            "SpawnEye": {
+                "ObjectName": "Function'BP_YakushimaBoss002_PartBase_C:SpawnEye'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.16"
+            },
+            "BndEvt__BP_YakushimaBoss002_R_DamageReactionComponent_K2Node_ComponentBoundEvent_0_OnPartBrokenDelegate__DelegateSignature": {
+                "ObjectName": "Function'BP_YakushimaBoss002_PartBase_C:BndEvt__BP_YakushimaBoss002_R_DamageReactionComponent_K2Node_ComponentBoundEvent_0_OnPartBrokenDelegate__DelegateSignature'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.4"
+            },
+            "OnRep_IsBreak": {
+                "ObjectName": "Function'BP_YakushimaBoss002_PartBase_C:OnRep_IsBreak'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.11"
+            },
+            "GetPartsType": {
+                "ObjectName": "Function'BP_YakushimaBoss002_PartBase_C:GetPartsType'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.7"
+            },
+            "IsHead": {
+                "ObjectName": "Function'BP_YakushimaBoss002_PartBase_C:IsHead'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.8"
+            },
+            "IsLeft": {
+                "ObjectName": "Function'BP_YakushimaBoss002_PartBase_C:IsLeft'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.9"
+            },
+            "IsRight": {
+                "ObjectName": "Function'BP_YakushimaBoss002_PartBase_C:IsRight'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.10"
+            },
+            "GetHPGaugeLocation": {
+                "ObjectName": "Function'BP_YakushimaBoss002_PartBase_C:GetHPGaugeLocation'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.6"
+            }
+        },
+        "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+        "ClassWithin": {
+            "ObjectName": "Class'Object'",
+            "ObjectPath": "/Script/CoreUObject"
+        },
+        "ClassConfigName": "Game",
+        "bCooked": true,
+        "ClassDefaultObject": {
+            "ObjectName": "BP_YakushimaBoss002_PartBase_C'Default__BP_YakushimaBoss002_PartBase_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.1"
+        },
+        "EditorTags": {
+            "BlueprintType": "BPTYPE_Normal"
+        }
+    },
+    {
+        "Type": "BP_YakushimaBoss002_PartBase_C",
+        "Name": "Default__BP_YakushimaBoss002_PartBase_C",
+        "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.BP_YakushimaBoss002_PartBase_C'",
+        "Template": {
+            "ObjectName": "BP_MonsterBase_C'Default__BP_MonsterBase_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.1"
+        },
+        "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "UberGraphFrame": {},
+            "CharacterID_Green": "RAID_YakushimaBoss001_Green",
+            "Controller_Green": {
+                "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_YakushimaBoss001_Green_C'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_YakushimaBoss001_Green.0"
+            },
+            "LiftupObjectComponent": {
+                "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_YakushimaBoss002_PartBase_C:Liftup'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.24"
+            },
+            "ActionComponent": {
+                "ObjectName": "PalActionComponent'Default__BP_YakushimaBoss002_PartBase_C:ActionComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.19"
+            },
+            "CharacterParameterComponent": {
+                "ObjectName": "PalCharacterParameterComponent'Default__BP_YakushimaBoss002_PartBase_C:CharacterParameterComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.26"
+            },
+            "StaticCharacterParameterComponent": {
+                "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_YakushimaBoss002_PartBase_C:StaticCharacterParameterComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.33"
+            },
+            "DamageReactionComponent": {
+                "ObjectName": "PalDamageReactionComponent'Default__BP_YakushimaBoss002_PartBase_C:DamageReactionComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.27"
+            },
+            "StatusComponent": {
+                "ObjectName": "PalStatusComponent'Default__BP_YakushimaBoss002_PartBase_C:StatusComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.34"
+            },
+            "CameraBoom": {
+                "ObjectName": "PalShooterSpringArmComponent'Default__BP_YakushimaBoss002_PartBase_C:CameraBoom'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.31"
+            },
+            "FollowCamera": {
+                "ObjectName": "PalCharacterCameraComponent'Default__BP_YakushimaBoss002_PartBase_C:FollowCamera'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.23"
+            },
+            "LookAtComponent": {
+                "ObjectName": "PalLookAtComponent'Default__BP_YakushimaBoss002_PartBase_C:LookAtComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.29"
+            },
+            "FootIKComponent": {
+                "ObjectName": "PalFootIKComponent'Default__BP_YakushimaBoss002_PartBase_C:FootIKComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.28"
+            },
+            "VisualEffectComponent": {
+                "ObjectName": "PalVisualEffectComponent'Default__BP_YakushimaBoss002_PartBase_C:VisualEffectComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.36"
+            },
+            "PassiveSkillComponent": {
+                "ObjectName": "PalPassiveSkillComponent'Default__BP_YakushimaBoss002_PartBase_C:PassiveSkillComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.30"
+            },
+            "AnimNotifyComponent": {
+                "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_YakushimaBoss002_PartBase_C:AnimNotifyComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.20"
+            },
+            "AroundInfoCollectorComponent": {
+                "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_YakushimaBoss002_PartBase_C:AroundInfoCollectorComponent'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.22"
+            },
+            "RagdollInteractiveSphere": {
+                "ObjectName": "SphereComponent'Default__BP_YakushimaBoss002_PartBase_C:RagdollInteractiveSphere'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.42"
+            },
+            "bIsDisable_ChangeTickInterval_ByImportance": true,
+            "bIsPart": true,
+            "bUseCustomAutoAimTarget": true,
+            "Mesh": {
+                "ObjectName": "PalSkeletalMeshComponent'Default__BP_YakushimaBoss002_PartBase_C:CharacterMesh0'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.32"
+            },
+            "CharacterMovement": {
+                "ObjectName": "PalCharacterMovementComponent'Default__BP_YakushimaBoss002_PartBase_C:CharMoveComp'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.25"
+            },
+            "CapsuleComponent": {
+                "ObjectName": "CapsuleComponent'Default__BP_YakushimaBoss002_PartBase_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.2"
+            },
+            "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+            "RootComponent": {
+                "ObjectName": "CapsuleComponent'Default__BP_YakushimaBoss002_PartBase_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.2"
+            }
+        }
+    },
+    {
+        "Type": "CapsuleComponent",
+        "Name": "CollisionCylinder",
+        "Outer": "Default__BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'CapsuleComponent'",
+        "Template": {
+            "ObjectName": "CapsuleComponent'Default__BP_MonsterBase_C:CollisionCylinder'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.3"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "CapsuleHalfHeight": 30.0,
+            "CapsuleRadius": 30.0,
+            "BodyInstance": {
+                "CollisionProfileName": "Pawn_NoDamageFlyPal",
+                "CollisionResponses": {
+                    "ResponseArray": [
+                        {
+                            "Channel": "Pawn",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "Visibility",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "Camera",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "Water",
+                            "Response": "ECollisionResponse::ECR_Block"
+                        },
+                        {
+                            "Channel": "Attack",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "PlayerPawn",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "ReticleRayCast",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "DropItemPhysicsBody",
+                            "Response": "ECollisionResponse::ECR_Block"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "Type": "ComponentDelegateBinding",
+        "Name": "ComponentDelegateBinding_0",
+        "Outer": "BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'ComponentDelegateBinding'",
+        "Flags": "RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentDelegateBindings": [
+                {
+                    "ComponentPropertyName": "DamageReactionComponent",
+                    "DelegatePropertyName": "OnPartBrokenDelegate",
+                    "FunctionNameToBind": "BndEvt__BP_YakushimaBoss002_R_DamageReactionComponent_K2Node_ComponentBoundEvent_0_OnPartBrokenDelegate__DelegateSignature"
+                }
+            ]
+        }
+    },
+    {
+        "Type": "Function",
+        "Name": "BndEvt__BP_YakushimaBoss002_R_DamageReactionComponent_K2Node_ComponentBoundEvent_0_OnPartBrokenDelegate__DelegateSignature",
+        "Outer": "BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'Function'",
+        "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+        "ChildProperties": [
+            {
+                "Type": "StructProperty",
+                "Name": "AttackInfo",
+                "Flags": "RF_Public",
+                "ElementSize": 80,
+                "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+                "Struct": {
+                    "ObjectName": "ScriptStruct'PalDeadInfo'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            }
+        ],
+        "FunctionFlags": "FUNC_BlueprintEvent"
+    },
+    {
+        "Type": "Function",
+        "Name": "ExecuteUbergraph_BP_YakushimaBoss002_PartBase",
+        "Outer": "BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'Function'",
+        "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+        "ChildProperties": [
+            {
+                "Type": "IntProperty",
+                "Name": "EntryPoint",
+                "Flags": "RF_Public",
+                "ElementSize": 4,
+                "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            },
+            {
+                "Type": "StrProperty",
+                "Name": "CallFunc_GetPartsType_PartsType",
+                "Flags": "RF_Public",
+                "ElementSize": 16
+            },
+            {
+                "Type": "BoolProperty",
+                "Name": "K2Node_SwitchString_CmpSuccess",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "FieldSize": 1,
+                "ByteOffset": 0,
+                "ByteMask": 1,
+                "FieldMask": 255,
+                "BoolSize": 1,
+                "bIsNativeBool": true
+            },
+            {
+                "Type": "StructProperty",
+                "Name": "K2Node_ComponentBoundEvent_AttackInfo",
+                "Flags": "RF_Public",
+                "ElementSize": 80,
+                "Struct": {
+                    "ObjectName": "ScriptStruct'PalDeadInfo'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "StructProperty",
+                "Name": "K2Node_MakeStruct_Guid",
+                "Flags": "RF_Public",
+                "ElementSize": 16,
+                "Struct": {
+                    "ObjectName": "ScriptStruct'Guid'",
+                    "ObjectPath": "/Script/CoreUObject"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetCharacterManager_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                    "ObjectName": "Class'PalCharacterManager'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "DelegateProperty",
+                "Name": "K2Node_CreateDelegate_OutputDelegate",
+                "Flags": "RF_Public",
+                "ElementSize": 20,
+                "SignatureFunction": {
+                    "ObjectName": "DelegateFunction'PalCharacterManager:IndividualIDCallback__DelegateSignature'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "StructProperty",
+                "Name": "CallFunc_K2_GetActorRotation_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 24,
+                "Struct": {
+                    "ObjectName": "ScriptStruct'Rotator'",
+                    "ObjectPath": "/Script/CoreUObject"
+                }
+            },
+            {
+                "Type": "StructProperty",
+                "Name": "K2Node_CustomEvent_id",
+                "Flags": "RF_Public",
+                "ElementSize": 48,
+                "Struct": {
+                    "ObjectName": "ScriptStruct'PalInstanceID'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetIndividualCharacterParameterByIstanceID_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                    "ObjectName": "Class'PalIndividualCharacterParameter'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetIndividualParameter_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                    "ObjectName": "Class'PalIndividualCharacterParameter'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetParentParameter_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                    "ObjectName": "Class'PalIndividualCharacterParameter'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetIndividualActor_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                    "ObjectName": "Class'PalCharacter'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetIndividualActor_ReturnValue_1",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                    "ObjectName": "Class'PalCharacter'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetController_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                    "ObjectName": "Class'Controller'",
+                    "ObjectPath": "/Script/Engine"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetAIController_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                    "ObjectName": "Class'AIController'",
+                    "ObjectPath": "/Script/AIModule"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsBP_Monster_AIController_Yakushima_Boss_001_Green",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                    "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_YakushimaBoss001_Green_C'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_YakushimaBoss001_Green.0"
+                }
+            },
+            {
+                "Type": "BoolProperty",
+                "Name": "K2Node_DynamicCast_bSuccess",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "FieldSize": 1,
+                "ByteOffset": 0,
+                "ByteMask": 1,
+                "FieldMask": 255,
+                "BoolSize": 1,
+                "bIsNativeBool": true
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsBP_Monster_AIController_Yakushima_Boss_002",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                    "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_YakushimaBoss002_C'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_YakushimaBoss002.0"
+                }
+            },
+            {
+                "Type": "BoolProperty",
+                "Name": "K2Node_DynamicCast_bSuccess_1",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "FieldSize": 1,
+                "ByteOffset": 0,
+                "ByteMask": 1,
+                "FieldMask": 255,
+                "BoolSize": 1,
+                "bIsNativeBool": true
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetAttachParentActor_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                    "ObjectName": "Class'Actor'",
+                    "ObjectPath": "/Script/Engine"
+                }
+            },
+            {
+                "Type": "StructProperty",
+                "Name": "CallFunc_K2_GetComponentLocation_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 24,
+                "Struct": {
+                    "ObjectName": "ScriptStruct'Vector'",
+                    "ObjectPath": "/Script/CoreUObject"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsBP_Yakushima_Boss_002_B",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                    "ObjectName": "BlueprintGeneratedClass'BP_YakushimaBoss002_B_C'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_B.0"
+                }
+            },
+            {
+                "Type": "BoolProperty",
+                "Name": "K2Node_DynamicCast_bSuccess_2",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "FieldSize": 1,
+                "ByteOffset": 0,
+                "ByteMask": 1,
+                "FieldMask": 255,
+                "BoolSize": 1,
+                "bIsNativeBool": true
+            },
+            {
+                "Type": "StructProperty",
+                "Name": "K2Node_MakeStruct_NetworkActorSpawnParameters",
+                "Flags": "RF_Public",
+                "ElementSize": 128,
+                "Struct": {
+                    "ObjectName": "ScriptStruct'NetworkActorSpawnParameters'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "BoolProperty",
+                "Name": "CallFunc_IsValid_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "FieldSize": 1,
+                "ByteOffset": 0,
+                "ByteMask": 1,
+                "FieldMask": 255,
+                "BoolSize": 1,
+                "bIsNativeBool": true
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_TryGetIndividualActor_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                    "ObjectName": "Class'PalCharacter'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "BoolProperty",
+                "Name": "CallFunc_IsValid_ReturnValue_1",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "FieldSize": 1,
+                "ByteOffset": 0,
+                "ByteMask": 1,
+                "FieldMask": 255,
+                "BoolSize": 1,
+                "bIsNativeBool": true
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetAIController_ReturnValue_1",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                    "ObjectName": "Class'AIController'",
+                    "ObjectPath": "/Script/AIModule"
+                }
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsBP_Monster_AIController_Yakushima_Boss_001_Green_1",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                    "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_YakushimaBoss001_Green_C'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_YakushimaBoss001_Green.0"
+                }
+            },
+            {
+                "Type": "BoolProperty",
+                "Name": "K2Node_DynamicCast_bSuccess_3",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "FieldSize": 1,
+                "ByteOffset": 0,
+                "ByteMask": 1,
+                "FieldMask": 255,
+                "BoolSize": 1,
+                "bIsNativeBool": true
+            },
+            {
+                "Type": "BoolProperty",
+                "Name": "CallFunc_IsServer_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "FieldSize": 1,
+                "ByteOffset": 0,
+                "ByteMask": 1,
+                "FieldMask": 255,
+                "BoolSize": 1,
+                "bIsNativeBool": true
+            },
+            {
+                "Type": "ByteProperty",
+                "Name": "K2Node_Event_EndPlayReason",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "Enum": {
+                    "ObjectName": "Enum'EEndPlayReason'",
+                    "ObjectPath": "/Script/Engine"
+                }
+            },
+            {
+                "Type": "BoolProperty",
+                "Name": "CallFunc_IsValid_ReturnValue_2",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "FieldSize": 1,
+                "ByteOffset": 0,
+                "ByteMask": 1,
+                "FieldMask": 255,
+                "BoolSize": 1,
+                "bIsNativeBool": true
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_TryGetIndividualActor_ReturnValue_1",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                    "ObjectName": "Class'PalCharacter'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "BoolProperty",
+                "Name": "CallFunc_IsValid_ReturnValue_3",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "FieldSize": 1,
+                "ByteOffset": 0,
+                "ByteMask": 1,
+                "FieldMask": 255,
+                "BoolSize": 1,
+                "bIsNativeBool": true
+            },
+            {
+                "Type": "BoolProperty",
+                "Name": "CallFunc_HasAuthority_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "FieldSize": 1,
+                "ByteOffset": 0,
+                "ByteMask": 1,
+                "FieldMask": 255,
+                "BoolSize": 1,
+                "bIsNativeBool": true
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetAttachParentActor_ReturnValue_1",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                    "ObjectName": "Class'Actor'",
+                    "ObjectPath": "/Script/Engine"
+                }
+            },
+            {
+                "Type": "BoolProperty",
+                "Name": "CallFunc_IsValid_ReturnValue_4",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "FieldSize": 1,
+                "ByteOffset": 0,
+                "ByteMask": 1,
+                "FieldMask": 255,
+                "BoolSize": 1,
+                "bIsNativeBool": true
+            },
+            {
+                "Type": "StructProperty",
+                "Name": "CallFunc_GetTransform_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 96,
+                "PropertyFlags": "ConstParm",
+                "Struct": {
+                    "ObjectName": "ScriptStruct'Transform'",
+                    "ObjectPath": "/Script/CoreUObject"
+                }
+            },
+            {
+                "Type": "StructProperty",
+                "Name": "CallFunc_BreakTransform_Location",
+                "Flags": "RF_Public",
+                "ElementSize": 24,
+                "Struct": {
+                    "ObjectName": "ScriptStruct'Vector'",
+                    "ObjectPath": "/Script/CoreUObject"
+                }
+            },
+            {
+                "Type": "StructProperty",
+                "Name": "CallFunc_BreakTransform_Rotation",
+                "Flags": "RF_Public",
+                "ElementSize": 24,
+                "Struct": {
+                    "ObjectName": "ScriptStruct'Rotator'",
+                    "ObjectPath": "/Script/CoreUObject"
+                }
+            },
+            {
+                "Type": "StructProperty",
+                "Name": "CallFunc_BreakTransform_Scale",
+                "Flags": "RF_Public",
+                "ElementSize": 24,
+                "Struct": {
+                    "ObjectName": "ScriptStruct'Vector'",
+                    "ObjectPath": "/Script/CoreUObject"
+                }
+            },
+            {
+                "Type": "DelegateProperty",
+                "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+                "Flags": "RF_Public",
+                "ElementSize": 20,
+                "SignatureFunction": {
+                    "ObjectName": "DelegateFunction'TimerDynamicDelegate__DelegateSignature'",
+                    "ObjectPath": "/Script/Engine"
+                }
+            },
+            {
+                "Type": "StructProperty",
+                "Name": "CallFunc_K2_SetActorLocationAndRotation_SweepHitResult",
+                "Flags": "RF_Public",
+                "ElementSize": 240,
+                "PropertyFlags": "ContainsInstancedReference",
+                "Struct": {
+                    "ObjectName": "ScriptStruct'HitResult'",
+                    "ObjectPath": "/Script/Engine"
+                }
+            },
+            {
+                "Type": "BoolProperty",
+                "Name": "CallFunc_K2_SetActorLocationAndRotation_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "FieldSize": 1,
+                "ByteOffset": 0,
+                "ByteMask": 1,
+                "FieldMask": 255,
+                "BoolSize": 1,
+                "bIsNativeBool": true
+            },
+            {
+                "Type": "StructProperty",
+                "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "Struct": {
+                    "ObjectName": "ScriptStruct'TimerHandle'",
+                    "ObjectPath": "/Script/Engine"
+                }
+            },
+            {
+                "Type": "FloatProperty",
+                "Name": "K2Node_Event_DeltaSeconds",
+                "Flags": "RF_Public",
+                "ElementSize": 4
+            },
+            {
+                "Type": "BoolProperty",
+                "Name": "CallFunc_IsDedicatedServer_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "FieldSize": 1,
+                "ByteOffset": 0,
+                "ByteMask": 1,
+                "FieldMask": 255,
+                "BoolSize": 1,
+                "bIsNativeBool": true
+            },
+            {
+                "Type": "StructProperty",
+                "Name": "CallFunc_GetInitializedCharacterSaveParemter_outParameter",
+                "Flags": "RF_Public",
+                "ElementSize": 864,
+                "Struct": {
+                    "ObjectName": "ScriptStruct'PalIndividualCharacterSaveParameter'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            },
+            {
+                "Type": "BoolProperty",
+                "Name": "CallFunc_GetInitializedCharacterSaveParemter_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "FieldSize": 1,
+                "ByteOffset": 0,
+                "ByteMask": 1,
+                "FieldMask": 255,
+                "BoolSize": 1,
+                "bIsNativeBool": true
+            },
+            {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_SpawnNewCharacter_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                    "ObjectName": "Class'PalIndividualCharacterHandle'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            }
+        ],
+        "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+    },
+    {
+        "Type": "Function",
+        "Name": "GetHPGaugeLocation",
+        "Outer": "BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'Function'",
+        "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+        "SuperStruct": {
+            "ObjectName": "Function'PalCharacter:GetHPGaugeLocation'",
+            "ObjectPath": "/Script/Pal"
+        },
+        "ChildProperties": [
+            {
+                "Type": "StructProperty",
+                "Name": "ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 24,
+                "PropertyFlags": "Parm | OutParm | ReturnParm",
+                "Struct": {
+                    "ObjectName": "ScriptStruct'Vector'",
+                    "ObjectPath": "/Script/CoreUObject"
+                }
+            },
+            {
+                "Type": "StructProperty",
+                "Name": "CallFunc_Conv_FloatToVector_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 24,
+                "Struct": {
+                    "ObjectName": "ScriptStruct'Vector'",
+                    "ObjectPath": "/Script/CoreUObject"
+                }
+            },
+            {
+                "Type": "StructProperty",
+                "Name": "CallFunc_Vector_Up_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 24,
+                "Struct": {
+                    "ObjectName": "ScriptStruct'Vector'",
+                    "ObjectPath": "/Script/CoreUObject"
+                }
+            },
+            {
+                "Type": "StructProperty",
+                "Name": "CallFunc_Multiply_VectorVector_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 24,
+                "Struct": {
+                    "ObjectName": "ScriptStruct'Vector'",
+                    "ObjectPath": "/Script/CoreUObject"
+                }
+            },
+            {
+                "Type": "StructProperty",
+                "Name": "CallFunc_K2_GetComponentLocation_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 24,
+                "Struct": {
+                    "ObjectName": "ScriptStruct'Vector'",
+                    "ObjectPath": "/Script/CoreUObject"
+                }
+            },
+            {
+                "Type": "StructProperty",
+                "Name": "CallFunc_Add_VectorVector_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 24,
+                "Struct": {
+                    "ObjectName": "ScriptStruct'Vector'",
+                    "ObjectPath": "/Script/CoreUObject"
+                }
+            }
+        ],
+        "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure | FUNC_Const"
+    },
+    {
+        "Type": "Function",
+        "Name": "GetPartsType",
+        "Outer": "BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'Function'",
+        "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+        "ChildProperties": [
+            {
+                "Type": "StrProperty",
+                "Name": "PartsType",
+                "Flags": "RF_Public",
+                "ElementSize": 16,
+                "PropertyFlags": "Parm | OutParm"
+            }
+        ],
+        "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+    },
+    {
+        "Type": "Function",
+        "Name": "IsHead",
+        "Outer": "BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'Function'",
+        "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+        "ChildProperties": [
+            {
+                "Type": "BoolProperty",
+                "Name": "IsHead",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "PropertyFlags": "Parm | OutParm",
+                "FieldSize": 1,
+                "ByteOffset": 0,
+                "ByteMask": 1,
+                "FieldMask": 255,
+                "BoolSize": 1,
+                "bIsNativeBool": true
+            },
+            {
+                "Type": "StrProperty",
+                "Name": "CallFunc_GetPartsType_PartsType",
+                "Flags": "RF_Public",
+                "ElementSize": 16
+            },
+            {
+                "Type": "BoolProperty",
+                "Name": "K2Node_SwitchString_CmpSuccess",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "FieldSize": 1,
+                "ByteOffset": 0,
+                "ByteMask": 1,
+                "FieldMask": 255,
+                "BoolSize": 1,
+                "bIsNativeBool": true
+            }
+        ],
+        "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+    },
+    {
+        "Type": "Function",
+        "Name": "IsLeft",
+        "Outer": "BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'Function'",
+        "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+        "ChildProperties": [
+            {
+                "Type": "BoolProperty",
+                "Name": "IsHead",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "PropertyFlags": "Parm | OutParm",
+                "FieldSize": 1,
+                "ByteOffset": 0,
+                "ByteMask": 1,
+                "FieldMask": 255,
+                "BoolSize": 1,
+                "bIsNativeBool": true
+            },
+            {
+                "Type": "StrProperty",
+                "Name": "CallFunc_GetPartsType_PartsType",
+                "Flags": "RF_Public",
+                "ElementSize": 16
+            },
+            {
+                "Type": "BoolProperty",
+                "Name": "K2Node_SwitchString_CmpSuccess",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "FieldSize": 1,
+                "ByteOffset": 0,
+                "ByteMask": 1,
+                "FieldMask": 255,
+                "BoolSize": 1,
+                "bIsNativeBool": true
+            }
+        ],
+        "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+    },
+    {
+        "Type": "Function",
+        "Name": "IsRight",
+        "Outer": "BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'Function'",
+        "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+        "ChildProperties": [
+            {
+                "Type": "BoolProperty",
+                "Name": "IsHead",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "PropertyFlags": "Parm | OutParm",
+                "FieldSize": 1,
+                "ByteOffset": 0,
+                "ByteMask": 1,
+                "FieldMask": 255,
+                "BoolSize": 1,
+                "bIsNativeBool": true
+            },
+            {
+                "Type": "StrProperty",
+                "Name": "CallFunc_GetPartsType_PartsType",
+                "Flags": "RF_Public",
+                "ElementSize": 16
+            },
+            {
+                "Type": "BoolProperty",
+                "Name": "K2Node_SwitchString_CmpSuccess",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "FieldSize": 1,
+                "ByteOffset": 0,
+                "ByteMask": 1,
+                "FieldMask": 255,
+                "BoolSize": 1,
+                "bIsNativeBool": true
+            }
+        ],
+        "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+    },
+    {
+        "Type": "Function",
+        "Name": "OnRep_IsBreak",
+        "Outer": "BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'Function'",
+        "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+        "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+        "Type": "Function",
+        "Name": "PlayDeathAnimation",
+        "Outer": "BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'Function'",
+        "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+        "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+        "Type": "Function",
+        "Name": "ReceiveBeginPlay",
+        "Outer": "BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'Function'",
+        "Super": {
+            "ObjectName": "Function'BP_MonsterBase_C:ReceiveBeginPlay'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.32"
+        },
+        "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+        "SuperStruct": {
+            "ObjectName": "Function'BP_MonsterBase_C:ReceiveBeginPlay'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.32"
+        },
+        "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+    },
+    {
+        "Type": "Function",
+        "Name": "ReceiveEndPlay",
+        "Outer": "BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'Function'",
+        "Super": {
+            "ObjectName": "Function'BP_MonsterBase_C:ReceiveEndPlay'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.33"
+        },
+        "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+        "SuperStruct": {
+            "ObjectName": "Function'BP_MonsterBase_C:ReceiveEndPlay'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.33"
+        },
+        "ChildProperties": [
+            {
+                "Type": "ByteProperty",
+                "Name": "EndPlayReason",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+                "Enum": {
+                    "ObjectName": "Enum'EEndPlayReason'",
+                    "ObjectPath": "/Script/Engine"
+                }
+            }
+        ],
+        "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+    },
+    {
+        "Type": "Function",
+        "Name": "ReceiveTick",
+        "Outer": "BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'Function'",
+        "Super": {
+            "ObjectName": "Function'BP_MonsterBase_C:ReceiveTick'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.34"
+        },
+        "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+        "SuperStruct": {
+            "ObjectName": "Function'BP_MonsterBase_C:ReceiveTick'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.34"
+        },
+        "ChildProperties": [
+            {
+                "Type": "FloatProperty",
+                "Name": "DeltaSeconds",
+                "Flags": "RF_Public",
+                "ElementSize": 4,
+                "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+        ],
+        "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+    },
+    {
+        "Type": "Function",
+        "Name": "SpawnEye",
+        "Outer": "BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'Function'",
+        "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+        "ChildProperties": [
+            {
+                "Type": "StructProperty",
+                "Name": "id",
+                "Flags": "RF_Public",
+                "ElementSize": 48,
+                "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+                "Struct": {
+                    "ObjectName": "ScriptStruct'PalInstanceID'",
+                    "ObjectPath": "/Script/Pal"
+                }
+            }
+        ],
+        "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+        "Type": "Function",
+        "Name": "UpdateLocation",
+        "Outer": "BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'Function'",
+        "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+        "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+        "Type": "InheritableComponentHandler",
+        "Name": "InheritableComponentHandler",
+        "Outer": "BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'InheritableComponentHandler'",
+        "Flags": "RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalActionComponent",
+        "Name": "ActionComponent",
+        "Outer": "Default__BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'PalActionComponent'",
+        "Template": {
+            "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalAnimNotifyParameterComponent",
+        "Name": "AnimNotifyComponent",
+        "Outer": "Default__BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+        "Template": {
+            "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalBodyPartsCapsuleComponent",
+        "Name": "PalBodyPartsCapsule_GEN_VARIABLE",
+        "Outer": "BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "BodyPartsFlags": 2,
+            "BodyInstance": {
+                "CollisionProfileName": "Custom",
+                "CollisionResponses": {
+                    "ResponseArray": [
+                        {
+                            "Channel": "WorldStatic",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "WorldDynamic",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "Visibility",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "Camera",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "PhysicsBody",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "Vehicle",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "Destructible",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "PlayerPawn",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "SystemVolume",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        },
+                        {
+                            "Channel": "Attack",
+                            "Response": "ECollisionResponse::ECR_Ignore"
+                        }
+                    ]
+                }
+            },
+            "RelativeRotation": {
+                "Pitch": 90.0,
+                "Yaw": -1.4740466e-10,
+                "Roll": -1.4739096e-10
+            }
+        }
+    },
+    {
+        "Type": "PalCharacterAroundInfoCollectorComponent",
+        "Name": "AroundInfoCollectorComponent",
+        "Outer": "Default__BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AttachParent": {
+                "ObjectName": "CapsuleComponent'Default__BP_YakushimaBoss002_PartBase_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.2"
+            }
+        }
+    },
+    {
+        "Type": "PalCharacterCameraComponent",
+        "Name": "FollowCamera",
+        "Outer": "Default__BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'PalCharacterCameraComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AttachParent": {
+                "ObjectName": "PalShooterSpringArmComponent'Default__BP_YakushimaBoss002_PartBase_C:CameraBoom'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.31"
+            }
+        }
+    },
+    {
+        "Type": "PalCharacterLiftupObjectComponent",
+        "Name": "Liftup",
+        "Outer": "Default__BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalCharacterMovementComponent",
+        "Name": "CharMoveComp",
+        "Outer": "Default__BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'PalCharacterMovementComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "NetworkSmoothingMode": "ENetworkSmoothingMode::Disabled",
+            "DefaultLandMovementMode": "EMovementMode::MOVE_None",
+            "DefaultWaterMovementMode": "EMovementMode::MOVE_None"
+        }
+    },
+    {
+        "Type": "PalCharacterParameterComponent",
+        "Name": "CharacterParameterComponent",
+        "Outer": "Default__BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'PalCharacterParameterComponent'",
+        "Template": {
+            "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalDamageReactionComponent",
+        "Name": "DamageReactionComponent",
+        "Outer": "Default__BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'PalDamageReactionComponent'",
+        "Template": {
+            "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalFootIKComponent",
+        "Name": "FootIKComponent",
+        "Outer": "Default__BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'PalFootIKComponent'",
+        "Template": {
+            "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalLookAtComponent",
+        "Name": "LookAtComponent",
+        "Outer": "Default__BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'PalLookAtComponent'",
+        "Template": {
+            "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalPassiveSkillComponent",
+        "Name": "PassiveSkillComponent",
+        "Outer": "Default__BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'PalPassiveSkillComponent'",
+        "Template": {
+            "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "PalShooterSpringArmComponent",
+        "Name": "CameraBoom",
+        "Outer": "Default__BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'PalShooterSpringArmComponent'",
+        "Template": {
+            "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AttachParent": {
+                "ObjectName": "CapsuleComponent'Default__BP_YakushimaBoss002_PartBase_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.2"
+            },
+            "RelativeLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 58.0
+            }
+        }
+    },
+    {
+        "Type": "PalSkeletalMeshComponent",
+        "Name": "CharacterMesh0",
+        "Outer": "Default__BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'PalSkeletalMeshComponent'",
+        "Template": {
+            "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AnimClass": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_YakushimaBoss002_R_C'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/ABP_YakushimaBoss002_R.1"
+            },
+            "VisibilityBasedAnimTickOption": "EVisibilityBasedAnimTickOption::AlwaysTickPoseAndRefreshBones",
+            "AttachParent": {
+                "ObjectName": "CapsuleComponent'Default__BP_YakushimaBoss002_PartBase_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.2"
+            },
+            "RelativeLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -32.0
+            }
+        }
+    },
+    {
+        "Type": "PalStaticCharacterParameterComponent",
+        "Name": "StaticCharacterParameterComponent",
+        "Outer": "Default__BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+        "Template": {
+            "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "MeshCapsuleHalfHeight": 88.0,
+            "MeshCapsuleRadius": 34.0,
+            "MeshRelativeLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -90.0
+            },
+            "GeneralMontageMap": [
+                {
+                    "Key": "EPalGeneralMontageType::DamageAdditive",
+                    "Value": {
+                        "ObjectName": "AnimMontage'AM_YakushimaBoss002_Hit_R'",
+                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/YakushimaBoss002/AM_YakushimaBoss002_Hit_R.0"
+                    }
+                }
+            ],
+            "GeneralBlendSpaceMap": [
+                {
+                    "Key": "EPalGeneralBlendSpaceType::GeneralMove",
+                    "Value": {
+                        "ObjectName": "BlendSpace1D'BS_Move_yakushimaboss002_R'",
+                        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BS_Move_yakushimaboss002_R.0"
+                    }
+                }
+            ],
+            "WazaActionDeclarationMap": [
+                {
+                    "Key": "EPalWazaID::Unique_YakushimaBoss002_PhantasmalBolt",
+                    "Value": {
+                        "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/YakushimaBoss002/BP_Action_Unique_YakushimaBoss002_PhantasmalBolt.BP_Action_Unique_YakushimaBoss002_PhantasmalBolt_C",
+                        "SubPathString": ""
+                    }
+                },
+                {
+                    "Key": "EPalWazaID::Unique_YakushimaBoss002_PhantasmalEye",
+                    "Value": {
+                        "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/YakushimaBoss002/BP_Action_Unique_YakushimaBoss002_PhantasmalEye.BP_Action_Unique_YakushimaBoss002_PhantasmalEye_C",
+                        "SubPathString": ""
+                    }
+                },
+                {
+                    "Key": "EPalWazaID::Unique_YakushimaBoss002_PhantasmalSphere",
+                    "Value": {
+                        "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/YakushimaBoss002/BP_Action_Unique_YakushimaBoss002_PhantasmalSphere.BP_Action_Unique_YakushimaBoss002_PhantasmalSphere_C",
+                        "SubPathString": ""
+                    }
+                },
+                {
+                    "Key": "EPalWazaID::Unique_YakushimaBoss002_PhantasmalDeathray",
+                    "Value": {
+                        "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/YakushimaBoss002/BP_Action_Unique_YakushimaBoss002_PhantasmalDeathray.BP_Action_Unique_YakushimaBoss002_PhantasmalDeathray_C",
+                        "SubPathString": ""
+                    }
+                }
+            ],
+            "HeadBoneName": "Socket_AimTarget",
+            "HPGaugeUIOffset": {
+                "X": 0.0,
+                "Y": 58.0
+            },
+            "IsUncapturable": true,
+            "IgnoreEffectType": [
+                "EPalAdditionalEffectType::Stun",
+                "EPalAdditionalEffectType::Sleep",
+                "EPalAdditionalEffectType::Poison",
+                "EPalAdditionalEffectType::Burn",
+                "EPalAdditionalEffectType::Wetness",
+                "EPalAdditionalEffectType::Freeze",
+                "EPalAdditionalEffectType::Electrical",
+                "EPalAdditionalEffectType::Muddy",
+                "EPalAdditionalEffectType::IvyCling",
+                "EPalAdditionalEffectType::Darkness",
+                "EPalAdditionalEffectType::Trap_LegHold"
+            ]
+        }
+    },
+    {
+        "Type": "PalStatusComponent",
+        "Name": "StatusComponent",
+        "Outer": "Default__BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'PalStatusComponent'",
+        "Template": {
+            "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "StatusMap": [
+                {
+                    "Key": "EPalStatusID::MorphChange",
+                    "Value": {
+                        "ObjectName": "BlueprintGeneratedClass'BP_Status_YakushimaBoss002_ChangeMorph_C'",
+                        "ObjectPath": "Pal/Content/Pal/Blueprint/Status/YakushimaBoss002/BP_Status_YakushimaBoss002_ChangeMorph.0"
+                    }
+                },
+                {
+                    "Key": "EPalStatusID::PartBreak",
+                    "Value": {
+                        "ObjectName": "BlueprintGeneratedClass'BP_Status_PartBreak_C'",
+                        "ObjectPath": "Pal/Content/Pal/Blueprint/Status/BP_Status_PartBreak.0"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Type": "PalUVEyeComponent",
+        "Name": "PalUVEye_GEN_VARIABLE",
+        "Outer": "BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'PalUVEyeComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "BoneName": "Socket_BulletMuzzle",
+            "EyeUVOffsetLimit": {
+                "X": 0.07,
+                "Y": 0.1
+            }
+        }
+    },
+    {
+        "Type": "PalVisualEffectComponent",
+        "Name": "VisualEffectComponent",
+        "Outer": "Default__BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'PalVisualEffectComponent'",
+        "Template": {
+            "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "SceneComponent",
+        "Name": "DefaultSceneRoot_GEN_VARIABLE",
+        "Outer": "BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'SceneComponent'",
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_0",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'SceneComponent'",
+                "ObjectPath": "/Script/Engine"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "SceneComponent'BP_YakushimaBoss002_PartBase_C:DefaultSceneRoot_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.37"
+            },
+            "VariableGuid": "1272BA8A-4A761109-4C14A99A-146A36B0",
+            "InternalVariableName": "DefaultSceneRoot"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_1",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalBodyPartsCapsuleComponent'BP_YakushimaBoss002_PartBase_C:PalBodyPartsCapsule_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.21"
+            },
+            "AttachToName": "Socket_BulletMuzzle",
+            "ParentComponentOrVariableName": "CharacterMesh0",
+            "bIsParentComponentNative": true,
+            "VariableGuid": "4B572B25-49B5C518-A8586EB8-1DDE011B",
+            "InternalVariableName": "PalBodyPartsCapsule"
+        }
+    },
+    {
+        "Type": "SCS_Node",
+        "Name": "SCS_Node_2",
+        "Outer": "SimpleConstructionScript_0",
+        "Class": "UScriptClass'SCS_Node'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "ComponentClass": {
+                "ObjectName": "Class'PalUVEyeComponent'",
+                "ObjectPath": "/Script/Pal"
+            },
+            "ComponentTemplate": {
+                "ObjectName": "PalUVEyeComponent'BP_YakushimaBoss002_PartBase_C:PalUVEye_GEN_VARIABLE'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.35"
+            },
+            "VariableGuid": "1E7E3FF2-4C28B609-544FC38A-DD44DC4F",
+            "InternalVariableName": "PalUVEye"
+        }
+    },
+    {
+        "Type": "SimpleConstructionScript",
+        "Name": "SimpleConstructionScript_0",
+        "Outer": "BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'SimpleConstructionScript'",
+        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "RootNodes": [
+                {
+                    "ObjectName": "SCS_Node'BP_YakushimaBoss002_PartBase_C:SimpleConstructionScript_0.SCS_Node_1'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.39"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_YakushimaBoss002_PartBase_C:SimpleConstructionScript_0.SCS_Node_2'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.40"
+                }
+            ],
+            "AllNodes": [
+                {
+                    "ObjectName": "SCS_Node'BP_YakushimaBoss002_PartBase_C:SimpleConstructionScript_0.SCS_Node_1'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.39"
+                },
+                {
+                    "ObjectName": "SCS_Node'BP_YakushimaBoss002_PartBase_C:SimpleConstructionScript_0.SCS_Node_2'",
+                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.40"
+                }
+            ],
+            "DefaultSceneRootNode": {
+                "ObjectName": "SCS_Node'BP_YakushimaBoss002_PartBase_C:SimpleConstructionScript_0.SCS_Node_0'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.38"
+            }
+        }
+    },
+    {
+        "Type": "SphereComponent",
+        "Name": "RagdollInteractiveSphere",
+        "Outer": "Default__BP_YakushimaBoss002_PartBase_C",
+        "Class": "UScriptClass'SphereComponent'",
+        "Template": {
+            "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+        },
+        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+        "Properties": {
+            "AttachParent": {
+                "ObjectName": "CapsuleComponent'Default__BP_YakushimaBoss002_PartBase_C:CollisionCylinder'",
+                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/YakushimaBoss002/BP_YakushimaBoss002_PartBase.2"
+            }
+        }
+    }
+]

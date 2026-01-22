@@ -1,10 +1,10 @@
 // cspell:words MAPOBJECT
 import { createMemo, For, type JSXElement } from "solid-js";
-import itemNames from "~/raw_data/DT_ItemNameText_Common.json";
-import mapObjectNames from "~/raw_data/DT_MapObjectNameText_Common.json";
-import characterNames from "~/raw_data/DT_PalNameText_Common.json";
-import skillNames from "~/raw_data/DT_SkillNameText_Common.json";
-import uiNames from "~/raw_data/DT_UI_Common_Text_Common.json";
+import itemNames from "~/raw_data/Pal/Content/L10N/en/Pal/DataTable/Text/DT_ItemNameText_Common.json";
+import mapObjectNames from "~/raw_data/Pal/Content/L10N/en/Pal/DataTable/Text/DT_MapObjectNameText_Common.json";
+import characterNames from "~/raw_data/Pal/Content/L10N/en/Pal/DataTable/Text/DT_PalNameText_Common.json";
+import skillNames from "~/raw_data/Pal/Content/L10N/en/Pal/DataTable/Text/DT_SkillNameText_Common.json";
+import uiNames from "~/raw_data/Pal/Content/L10N/en/Pal/DataTable/Text/DT_UI_Common_Text_Common.json";
 import { convertDataTableType } from "~/utils/convertDataTableType";
 
 type FormatTextTagsProps = {

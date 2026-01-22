@@ -1,10 +1,10 @@
 // cspell:words PARTNERSKILL
-import itemNames from "~/raw_data/DT_ItemNameText_Common.json";
-import palDescriptions from "~/raw_data/DT_PalFirstActivatedInfoText.json";
-import palNames from "~/raw_data/DT_PalNameText_Common.json";
-import skillNames from "~/raw_data/DT_SkillNameText_Common.json";
-import techUnlocks from "~/raw_data/DT_TechnologyRecipeUnlock.json";
-import type RidablePalBlueprintType from "~/raw_data/PalActorBP/Serpent/BP_Serpent.json";
+import itemNames from "~/raw_data/Pal/Content/L10N/en/Pal/DataTable/Text/DT_ItemNameText_Common.json";
+import palDescriptions from "~/raw_data/Pal/Content/L10N/en/Pal/DataTable/Text/DT_PalFirstActivatedInfoText.json";
+import palNames from "~/raw_data/Pal/Content/L10N/en/Pal/DataTable/Text/DT_PalNameText_Common.json";
+import skillNames from "~/raw_data/Pal/Content/L10N/en/Pal/DataTable/Text/DT_SkillNameText_Common.json";
+import type RidablePalBlueprintType from "~/raw_data/Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Serpent/BP_Serpent.json";
+import techUnlocks from "~/raw_data/Pal/Content/Pal/DataTable/Technology/DT_TechnologyRecipeUnlock.json";
 import type { PalMonsterParameter } from "~/types/PalMonsterParameter";
 import { convertDataTableType } from "~/utils/convertDataTableType";
 import { getObjectByCaseInsensitiveKey } from "~/utils/getObjectByCaseInsensitiveKey";

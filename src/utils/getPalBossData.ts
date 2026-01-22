@@ -1,4 +1,4 @@
-import basicPalData from "~/raw_data/DT_PalMonsterParameter.json";
+import basicPalData from "~/raw_data/Pal/Content/Pal/DataTable/Character/DT_PalMonsterParameter.json";
 import type { PalMonsterParameter } from "~/types/PalMonsterParameter";
 import { convertDataTableType } from "./convertDataTableType";
 

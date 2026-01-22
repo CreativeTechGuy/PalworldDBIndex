@@ -1,5 +1,5 @@
-import palItemDrops from "~/raw_data/DT_PalDropItem.json";
-import raidData from "~/raw_data/DT_PalRaidBoss.json";
+import raidData from "~/raw_data/Pal/Content/Pal/Blueprint/RaidBoss/DT_PalRaidBoss.json";
+import palItemDrops from "~/raw_data/Pal/Content/Pal/DataTable/Character/DT_PalDropItem.json";
 import { convertDataTableType } from "~/utils/convertDataTableType";
 
 type ItemDrops = {

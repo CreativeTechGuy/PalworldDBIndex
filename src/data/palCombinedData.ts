@@ -1,5 +1,5 @@
 import { createSignal } from "solid-js";
-import basicPalData from "~/raw_data/DT_PalMonsterParameter.json";
+import basicPalData from "~/raw_data/Pal/Content/Pal/DataTable/Character/DT_PalMonsterParameter.json";
 import type { PalMonsterParameter } from "~/types/PalMonsterParameter";
 import { isValidPal } from "~/utils/isValidPal";
 import { buildCustomData, type DerivedPalData } from "./buildCustomData";

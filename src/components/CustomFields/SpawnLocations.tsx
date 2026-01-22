@@ -1,12 +1,12 @@
 import { createMemo, createSignal, For, onMount, type JSXElement } from "solid-js";
 import { Dialog } from "~/components/Dialog";
 import { spawnLocationMap as spawnLocationMapUntyped, spawnerLocationMap } from "~/data/spawnLocations";
+import raidBossData from "~/raw_data/Pal/Content/Pal/Blueprint/RaidBoss/DT_PalRaidBoss.json";
+import wildSpawnersData from "~/raw_data/Pal/Content/Pal/DataTable/Spawner/DT_PalWildSpawner.json";
 // cspell:disable-next-line
-import bossSpawnerData from "~/raw_data/DT_BossSpawnerLoactionData.json";
-import raidBossData from "~/raw_data/DT_PalRaidBoss.json";
-import wildSpawnersData from "~/raw_data/DT_PalWildSpawner.json";
-import worldMapScaleData from "~/raw_data/DT_WorldMapUIData.json";
-import mapImg from "~/raw_data/T_WorldMap.png";
+import bossSpawnerData from "~/raw_data/Pal/Content/Pal/DataTable/UI/DT_BossSpawnerLoactionData.json";
+import worldMapScaleData from "~/raw_data/Pal/Content/Pal/DataTable/WorldMapUIData/DT_WorldMapUIData.json";
+import mapImg from "~/raw_data/Pal/Content/Pal/Texture/UI/Map/T_WorldMap.png";
 import type { SpawnData, SpawnerData } from "~/types/SpawnLocations";
 import { convertDataTableType } from "~/utils/convertDataTableType";
 import type { CustomFieldProps } from "./customFields";

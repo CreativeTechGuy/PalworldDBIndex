@@ -1,5 +1,5 @@
 import deepmerge from "deepmerge";
-import type PalBlueprintType1 from "~/raw_data/PalActorBP/PoseidonOrca/BP_PoseidonOrca.json";
+import type PalBlueprintType1 from "~/raw_data/Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PoseidonOrca/BP_PoseidonOrca.json";
 import { getObjectByCaseInsensitiveKey } from "~/utils/getObjectByCaseInsensitiveKey";
 
 type PalBlueprintType = typeof PalBlueprintType1;
@@ -11,10 +11,13 @@ export const palBlueprints: Record<string, PalBlueprintType> = import.meta.glob(
 
 export function getPalBlueprint(id: string, sectionName: string): PalBlueprintType[number] | undefined {
     const blueprint =
-        getObjectByCaseInsensitiveKey(palBlueprints, `/src/raw_data/PalActorBP/${id.split("_")[0]}/BP_${id}.json`) ??
         getObjectByCaseInsensitiveKey(
             palBlueprints,
-            `/src/raw_data/PalActorBP/${id.split("_")[0]}/BP_${id}_Normal.json`
+            `/src/raw_data/Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/${id.split("_")[0]}/BP_${id}.json`
+        ) ??
+        getObjectByCaseInsensitiveKey(
+            palBlueprints,
+            `/src/raw_data/Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/${id.split("_")[0]}/BP_${id}_Normal.json`
         );
     const section = blueprint?.find((item) => item.Name === sectionName);
     if (section === undefined) {

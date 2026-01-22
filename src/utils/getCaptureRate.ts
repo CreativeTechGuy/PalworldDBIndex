@@ -1,5 +1,5 @@
-import gameSettings from "~/raw_data/BP_PalGameSetting.json";
-import wildPalsStats from "~/raw_data/DT_PalWildSpawner.json";
+import gameSettings from "~/raw_data/Pal/Content/Pal/Blueprint/System/BP_PalGameSetting.json";
+import wildPalsStats from "~/raw_data/Pal/Content/Pal/DataTable/Spawner/DT_PalWildSpawner.json";
 
 type CaptureRate = {
     normal: number;
