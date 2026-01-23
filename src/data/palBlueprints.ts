@@ -1,5 +1,5 @@
 import deepmerge from "deepmerge";
-import type PalBlueprintType1 from "~/raw_data/Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PoseidonOrca/BP_PoseidonOrca.json";
+import type PalBlueprintType1 from "~/raw_data/Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DrillGame/BP_DrillGame.json";
 import { getObjectByCaseInsensitiveKey } from "~/utils/getObjectByCaseInsensitiveKey";
 
 type PalBlueprintType = typeof PalBlueprintType1;

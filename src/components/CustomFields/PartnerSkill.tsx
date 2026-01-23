@@ -4,6 +4,7 @@ import { Hover } from "~/components/Hover";
 import { getPalBlueprint } from "~/data/palBlueprints";
 import partnerSkills from "~/raw_data/Pal/Content/Pal/DataTable/PartnerSkill/DT_PartnerSkill.json";
 import passiveSkills from "~/raw_data/Pal/Content/Pal/DataTable/PassiveSkill/DT_PassiveSkill_Main.json";
+import attackDataTable from "~/raw_data/Pal/Content/Pal/DataTable/Waza/DT_WazaDataTable.json";
 import { convertDataTableType } from "~/utils/convertDataTableType";
 import { mapCellValue } from "~/utils/mapCellValue";
 import type { CustomFieldProps } from "./customFields";
@@ -43,12 +44,25 @@ const namePrefix = {
 
 const partnerSkillMap = convertDataTableType(partnerSkills, { partialData: true });
 const passiveSkillMap = convertDataTableType(passiveSkills, { partialData: true });
+const attackDataList = Object.values(convertDataTableType(attackDataTable));
 
 export function PartnerSkill(props: CustomFieldProps<string>): JSXElement {
     const partnerSkillData = createMemo<PartnerSkillData[]>(() => {
         const data: PartnerSkillData[] = [];
         const partnerSkillComponent = getPalBlueprint(props.palData.Id, "PalPartnerSkillParameter_GEN_VARIABLE");
         if (partnerSkillComponent !== undefined) {
+            const attackId = partnerSkillComponent.Properties?.FunnelAttackWazaID;
+            const attackEntry: PartnerSkillData = {};
+            if (attackId !== undefined) {
+                const attackData = attackDataList.find((item) => item.WazaType === attackId);
+                if (attackData !== undefined) {
+                    attackEntry.power = [attackData.Power];
+                    attackEntry.cooldown = [attackData.CoolTime];
+                    if (attackData.Element !== "EPalElementType::None") {
+                        attackEntry.element = attackData.Element;
+                    }
+                }
+            }
             const partnerSkillId = partnerSkillComponent.Properties?.SkillName;
             if (partnerSkillId !== undefined && partnerSkillId in partnerSkillMap) {
                 const properties = partnerSkillComponent.Properties as unknown as PartnerSkillParameterProperties;
@@ -56,6 +70,7 @@ export function PartnerSkill(props: CustomFieldProps<string>): JSXElement {
                     properties.ActiveSkill_MainValue_Overview_EditorOnly?.includes("倍率") === true;
                 const skillData = partnerSkillMap[partnerSkillId]!;
                 const newData: PartnerSkillData = {
+                    ...attackEntry,
                     duration: skillData.EffectTime > 1 ? skillData.EffectTime : undefined,
                     cooldown: [skillData.CoolDownTime],
                 };
@@ -71,6 +86,8 @@ export function PartnerSkill(props: CustomFieldProps<string>): JSXElement {
                     newData.powerMultiplier = properties.ActiveSkill_MainValueByRank;
                 }
                 data.push(newData);
+            } else if (Object.keys(attackEntry).length > 0) {
+                data.push(attackEntry);
             }
             const passiveSkillsByLevel = partnerSkillComponent.Properties?.PassiveSkills;
             if (passiveSkillsByLevel !== undefined) {
@@ -112,7 +129,7 @@ export function PartnerSkill(props: CustomFieldProps<string>): JSXElement {
                             }
                             skills[`${effectType}-${i}`].element ??=
                                 skill.Value.TargetElementType !== "EPalElementType::None"
-                                    ? mapCellValue(skill.Value.TargetElementType)
+                                    ? skill.Value.TargetElementType
                                     : undefined;
                             skills[`${effectType}-${i}`].name ??=
                                 `${namePrefix[target]}${mapCellValue(effectType.replace("EPalPassiveSkillEffectType::", ""))}`;
