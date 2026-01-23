@@ -26,7 +26,7 @@ const map: Record<string, string> = {
     DefenseWithFriendship: "Defense with Max Friendship",
     CombiRank: "Breeding Rank",
     CombiDuplicatePriority: "Breeding Duplicate Priority",
-    IgnoreCombi: "Custom Breeding",
+    IgnoreCombi: "Special Breeding Combination",
 };
 
 export function mapColumnHeader(header: string): string {

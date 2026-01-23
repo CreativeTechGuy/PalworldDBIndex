@@ -1,6 +1,7 @@
 import type { JSXElement } from "solid-js";
 import type { CombinedData } from "~/data/palCombinedData";
 import { Element } from "./Element";
+import { IgnoreCombi } from "./IgnoreCombi";
 import { ItemDrops } from "./ItemDrops";
 import { MinimumSphere } from "./MinimumSphere";
 import { Name } from "./Name";
@@ -29,4 +30,9 @@ export const customFields: Record<string, (props: CustomFieldProps<any>) => JSXE
     ElementType1: Element,
     ElementType2: Element,
     Id: NoMapCellValue,
+    Tribe: NoMapCellValue,
+    BPClass: NoMapCellValue,
+    GenusCategory: NoMapCellValue,
+    AIResponse: NoMapCellValue,
+    IgnoreCombi,
 };
