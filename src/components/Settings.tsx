@@ -37,7 +37,7 @@ export function Settings(): JSXElement {
                             setOpen(false);
                         }}
                     >
-                        <table>
+                        <table style={{ width: "100%" }}>
                             <tbody>
                                 <tr>
                                     <th colSpan={2} class="center">
@@ -176,6 +176,10 @@ export function Settings(): JSXElement {
                                         />
                                     </td>
                                 </tr>
+                            </tbody>
+                        </table>
+                        <table>
+                            <tbody>
                                 <tr>
                                     <th colSpan={2}>Columns</th>
                                 </tr>
