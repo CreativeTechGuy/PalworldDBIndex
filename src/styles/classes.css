@@ -12,15 +12,35 @@
 }
 
 .floating-button {
-    position: fixed;
-    right: 1rem;
-    bottom: 1rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
     background-color: darkturquoise;
     border-radius: 50%;
     padding: 0.5rem;
     width: 3rem;
     height: 3rem;
     box-shadow: 1px 1px 5px 2px #000000b3;
+}
+
+.floating-button-area {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+
+    .floating-button:nth-child(1) {
+        bottom: 3.5rem;
+    }
+
+    .floating-button:nth-child(3) {
+        right: 3.5rem;
+    }
+}
+
+body:has(.dialog-backdrop) {
+    .floating-button-area {
+        margin-bottom: var(--scrollbar-horizontal-height);
+    }
 }
 
 .select-none {
@@ -39,7 +59,7 @@
     border: 1px solid black;
     box-shadow: 3px 2px 5px 0px #000000b3;
 
-    & .dialog-title {
+    .dialog-title {
         font-size: 1rem;
     }
 }
@@ -69,6 +89,13 @@
     border-radius: 0.5rem;
     border: 1px solid black;
     box-shadow: 3px 2px 5px 0px #000000b3;
+    overflow: hidden;
+}
+
+.dialog-scroll-area {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 85vh;
 }
 
 .dialog-header {
@@ -85,10 +112,14 @@
     font-size: 2rem;
 }
 
+.map-image,
 .map-markers {
     max-width: 75vw;
     max-height: 75vh;
     aspect-ratio: 1 / 1;
+}
+
+.map-markers {
     position: absolute;
     top: 0;
     left: 0;
@@ -114,25 +145,13 @@
     r: calc(var(--initial-radius) * 2px);
 }
 
-.multi-select-list {
-    overflow-y: auto;
-    max-height: 5rem;
-    width: max-content;
-    border: 1px solid black;
-
-    & label {
-        display: block;
-        white-space: nowrap;
-    }
-}
-
 .table-cell-padding {
-    & td,
-    & th {
+    td,
+    th {
         padding-left: 0.5rem;
     }
-    & td:first-child,
-    & th:first-child {
+    td:first-child,
+    th:first-child {
         padding-left: 0;
     }
 }

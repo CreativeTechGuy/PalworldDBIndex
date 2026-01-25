@@ -152,16 +152,22 @@ export function PartnerSkill(props: CustomFieldProps<string>): JSXElement {
     return (
         <Hover label={props.value} title={props.value}>
             {partnerSkillData().length === 0 ? (
-                <FormatTextTags text={props.palData.PalDescription} />
+                <div style={{ "max-width": "min(30rem, 80vw)" }}>
+                    <FormatTextTags text={props.palData.PalDescription} oneLine={true} />
+                </div>
             ) : (
-                <>
-                    <FormatTextTags text={props.palData.PalDescription} />
-                    <br />
+                <div style={{ "max-width": "min-content" }}>
+                    <div>
+                        <FormatTextTags text={props.palData.PalDescription} oneLine={true} />
+                    </div>
                     <For each={partnerSkillData()}>
                         {(skill) => (
                             <>
                                 <br />
-                                <table class="table-cell-padding">
+                                <table
+                                    class="table-cell-padding"
+                                    style={{ "text-wrap": "nowrap", "min-width": "15rem" }}
+                                >
                                     <tbody>
                                         <Show when={skill.name}>
                                             {(name) => (
@@ -223,7 +229,7 @@ export function PartnerSkill(props: CustomFieldProps<string>): JSXElement {
                             </>
                         )}
                     </For>
-                </>
+                </div>
             )}
         </Hover>
     );

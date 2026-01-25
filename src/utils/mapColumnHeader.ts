@@ -24,6 +24,7 @@ const map: Record<string, string> = {
     HpWithFriendship: "Hp with Max Friendship",
     AttackWithFriendship: "Attack with Max Friendship",
     DefenseWithFriendship: "Defense with Max Friendship",
+    CaptureRateCorrect: "Capture Rate",
 };
 
 export function mapColumnHeader(header: string): string {

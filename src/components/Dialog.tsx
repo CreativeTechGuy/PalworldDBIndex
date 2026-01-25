@@ -44,7 +44,7 @@ export function Dialog(props: DialogProps): JSXElement {
                         <img src={closeIcon} style={{ width: "1.3rem", height: "1.3rem" }} alt="Close icon" />
                     </button>
                 </div>
-                {props.children}
+                <div class="dialog-scroll-area">{props.children}</div>
             </div>
         </div>
     );

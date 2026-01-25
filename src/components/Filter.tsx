@@ -16,7 +16,6 @@ export function Filter(): JSXElement {
         <>
             <button
                 class="link-button floating-button"
-                style={{ bottom: "4.5rem" }}
                 title="Filter rows"
                 onClick={() => {
                     setOpen(true);

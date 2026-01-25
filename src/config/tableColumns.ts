@@ -67,6 +67,9 @@ export const defaultHiddenColumns: (keyof CombinedData)[] = [
     "CombiDuplicatePriority",
     "CombiRank",
     "IgnoreCombi",
+    "Support",
+    "CaptureRateCorrect",
+    "ExpRatio",
 ];
 
 export const unsortableColumns: (keyof CombinedData)[] = ["MinimumSphere", "ItemDrops"];

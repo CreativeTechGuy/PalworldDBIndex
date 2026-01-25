@@ -148,10 +148,8 @@ export function SpawnLocations(props: CustomFieldProps<string>): JSXElement {
                                 <div style={{ position: "relative", margin: "auto", width: "fit-content" }}>
                                     <img
                                         src={mapImg}
+                                        class="map-image"
                                         style={{
-                                            "max-width": "75vw",
-                                            "max-height": "75vh",
-                                            "aspect-ratio": "1 / 1",
                                             filter: isDay() ? "none" : "brightness(0.5)",
                                         }}
                                         alt="World map"
