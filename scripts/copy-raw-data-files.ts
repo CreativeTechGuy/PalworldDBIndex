@@ -43,12 +43,6 @@ const destinationDir = "src/raw_data";
 const exportedFilesPath = process.argv[2];
 console.log("Copying from:", exportedFilesPath);
 
-const steamPatchNotesJSON = (await fetch(
-    "https://store.steampowered.com/events/ajaxgetadjacentpartnerevents/?appid=1623730&count_before=0&count_after=1"
-).then((res) => res.json())) as SteamAPIResponse;
-
-const newVersion = steamPatchNotesJSON.events[0].event_name.match(/v([0-9.]+)/)![1];
-
 for (const pattern of patterns) {
     const matchedFiles = globSync(pattern, {
         cwd: exportedFilesPath,
@@ -60,6 +54,12 @@ for (const pattern of patterns) {
         cpSync(join(exportedFilesPath, file), join(destinationDir, file), { force: true, recursive: true });
     }
 }
+
+const steamPatchNotesJSON = (await fetch(
+    "https://store.steampowered.com/events/ajaxgetadjacentpartnerevents/?appid=1623730&count_before=0&count_after=1"
+).then((res) => res.json())) as SteamAPIResponse;
+
+const newVersion = steamPatchNotesJSON.events[0].event_name.match(/v([0-9.]+)/)![1];
 
 const envFile = readFileSync(".env", "utf-8");
 console.log("New version: ", newVersion);
