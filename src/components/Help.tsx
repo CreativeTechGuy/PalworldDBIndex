@@ -13,13 +13,13 @@ const helpText = {
     Filters:
         "The filter funnel in the bottom corner lets you control how rows are displayed in the main table. Any highlighted rows can be automatically grouped together at the top of the table with an option here. Additionally you can only display rows which contain whatever filter text you enter on that popup. The filter rows option will try to match text across all of the currently visible columns.",
     "Minimum Spheres":
-        "First configure in the settings your Pal capture preferences to make this feature most useful. Then in the Minimum Spheres column, you'll see a popup showing the minimum sphere you need to get at least the capture rate you configured based on the Pal level.",
+        "In the settings, configure your Pal capture preferences to make this feature most useful. In the Minimum Spheres column, you'll see a popup showing the minimum sphere you need to get at least the capture rate you configured, based on the Pal level.",
     Element:
-        "Pals have weaknesses and advantages against other elements. Your Pal's weaknesses are based on the Elements of your Pal. The strengths are based on the Elements of the attacks your Pal uses. The popup on this column will show the strengths and weaknesses of the Pals two Elements combined.",
+        "Pals have weaknesses and advantages against other elements. Your Pal's weaknesses are based on the Elements of your Pal. The strengths are based on the Elements of the attacks your Pal uses. The popup on this column will show the strengths and weaknesses of the Pal's two Elements combined.",
     Friendship:
-        "Also known as Trust. This is a level that increases, up to 10, on your Pal the more they are with you and will increase their base stats. Several columns in the table show the stat changes based on Friendship and stats with Max Friendship.",
+        "Also known as Trust. This is a level that increases, up to 10, on your Pal the more they are in your party which will increase their base stats. Several columns in the table show the stat changes based on Friendship and stats with Max Friendship.",
     Breeding:
-        "In the Breeding column you'll see a list of every Pal combination which will lay an egg for the selected Pal. Often this list will be large; highlighting Pals in the main table will sort them to the top of the breeding pairs list. This can help you find parents which include Pals you have or want to pass down certain traits.",
+        "In the Breeding column you'll see a list of every Pal combination which will lay an egg for the selected Pal. This list will often be large. Highlighting Pals in the main table will sort them to the top of the breeding pairs list. This can help you find parents which include Pals you have or want to pass down certain traits.",
     Rideable:
         "Pals which are ridable can be Land, Flying, Water, or some hybrid. Non-flying pals can go in the water (which uses their Swim Speed stats) but will consume Stamina when doing so. Water pals are special in that they don't consume Stamina in water.",
     "Spawn Locations":
