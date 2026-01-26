@@ -37,10 +37,8 @@
     }
 }
 
-body:has(.dialog-backdrop) {
-    .floating-button-area {
-        margin-bottom: var(--scrollbar-horizontal-height);
-    }
+body:has(.dialog-backdrop) .floating-button-area {
+    margin-bottom: var(--scrollbar-horizontal-height);
 }
 
 .select-none {
