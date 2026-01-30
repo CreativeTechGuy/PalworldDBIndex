@@ -92,7 +92,7 @@ export function SpawnLocations(props: CustomFieldProps<string>): JSXElement {
                             <div class="center">
                                 {(canSwitchDungeon() || canSwitchTime()) && (
                                     <label>
-                                        Switch Spawn Map
+                                        Switch Spawn Map{" "}
                                         <select
                                             value={displayMode()}
                                             onChange={(evt) => {

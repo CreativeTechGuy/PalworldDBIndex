@@ -28,27 +28,30 @@ for (const spawn of Object.values(wildPalsStats[0].Rows)) {
     maxWildPalLevel = Math.max(maxLevel, maxWildPalLevel);
     for (let i = 1; i <= 3; i++) {
         const typedIndex = i as 1 | 2 | 3;
-        const pal = spawn[`Pal_${typedIndex}`].replace("BOSS_", "");
+        const pal = spawn[`Pal_${typedIndex}`].replace(/^BOSS_/i, "");
         if (pal.startsWith("PREDATOR_")) {
             continue;
         }
         if (pal === "None") {
             continue;
         }
-        palSpawners[pal] ??= { min: 999, max: 0, spawnPoints: [] };
-        palSpawners[pal].min = Math.min(palSpawners[pal].min, spawn[`LvMin_${typedIndex}`]);
-        palSpawners[pal].max = Math.max(palSpawners[pal].max, spawn[`LvMax_${typedIndex}`]);
         const locations = spawnerLocations.filter((item) => item.SpawnerName === spawn.SpawnerName);
-        for (const location of locations) {
-            palSpawners[pal].spawnPoints.push({
-                X: location.Location.X,
-                Y: location.Location.Y,
-                Radius: location.StaticRadius,
-                MinLevel: spawn[`LvMin_${typedIndex}`],
-                MaxLevel: spawn[`LvMax_${typedIndex}`],
-                NightOnly: spawn.OnlyTime === "EPalOneDayTimeType::Night",
-                Dungeon: location.PlacementType.startsWith("EPalSpawnerPlacementType::Dungeon"),
-            });
+        if (locations.length > 0) {
+            palSpawners[pal] ??= { min: 999, max: 0, spawnPoints: [] };
+            palSpawners[pal].min = Math.min(palSpawners[pal].min, spawn[`LvMin_${typedIndex}`]);
+            palSpawners[pal].max = Math.max(palSpawners[pal].max, spawn[`LvMax_${typedIndex}`]);
+
+            for (const location of locations) {
+                palSpawners[pal].spawnPoints.push({
+                    X: location.Location.X,
+                    Y: location.Location.Y,
+                    Radius: location.StaticRadius,
+                    MinLevel: spawn[`LvMin_${typedIndex}`],
+                    MaxLevel: spawn[`LvMax_${typedIndex}`],
+                    NightOnly: spawn.OnlyTime === "EPalOneDayTimeType::Night",
+                    Dungeon: location.PlacementType.startsWith("EPalSpawnerPlacementType::Dungeon"),
+                });
+            }
         }
     }
 }

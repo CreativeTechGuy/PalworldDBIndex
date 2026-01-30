@@ -23,7 +23,7 @@ const helpText = {
     Rideable:
         "Pals which are ridable can be Land, Flying, Water, or some hybrid. Non-flying pals can go in the water (which uses their Swim Speed stats) but will consume Stamina when doing so. Water pals are special in that they don't consume Stamina in water.",
     "Spawn Locations":
-        "The Spawn Areas highlight parts of the world map where the selected Pal will spawn. This may be somewhere in the overworld at day/night or in a dungeon. If they are a dungeon exclusive, the dungeon entrance will be shown instead. You can hover the map to pulse the dots on the map to help spotting them.",
+        "The Spawn Areas highlight parts of the world map where the selected Pal will spawn. This may be somewhere in the overworld at day/night or in a dungeon. If they are a dungeon exclusive, the dungeon entrance will be shown instead. You can hover the map to pulse the dots on the map to help spotting them. Hovering a dot on the map will show the level ranges for that area.",
 };
 
 export function Help(): JSXElement {
