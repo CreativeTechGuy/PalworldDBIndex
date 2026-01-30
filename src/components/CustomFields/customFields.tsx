@@ -9,6 +9,7 @@ import { NoMapCellValue } from "./NoMapCellValue";
 import { PalDescription } from "./PalDescription";
 import { PartnerSkill } from "./PartnerSkill";
 import { PassiveSkill } from "./PassiveSkill";
+import { Rideable } from "./Rideable";
 import { SpawnLocations } from "./SpawnLocations";
 
 export type CustomFieldProps<Value, PalData = CombinedData> = {
@@ -35,4 +36,5 @@ export const customFields: Record<string, (props: CustomFieldProps<any>) => JSXE
     GenusCategory: NoMapCellValue,
     AIResponse: NoMapCellValue,
     Breeding,
+    Rideable,
 };

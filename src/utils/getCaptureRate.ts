@@ -1,5 +1,5 @@
+import { maxWildPalLevel } from "~/data/palLevelRanges";
 import gameSettings from "~/raw_data/Pal/Content/Pal/Blueprint/System/BP_PalGameSetting.json";
-import wildPalsStats from "~/raw_data/Pal/Content/Pal/DataTable/Spawner/DT_PalWildSpawner.json";
 
 type CaptureRate = {
     normal: number;
@@ -11,9 +11,6 @@ export type MinimumSpheres = Record<string, number>;
 const gameSettingsObject = gameSettings.find((entry) => entry.Type === "BP_PalGameSetting_C")!;
 const captureJudgeArray = gameSettingsObject.Properties!.CaptureJudgeRateArray;
 const sphereArray = gameSettingsObject.Properties!.CaptureSphereLevelMap;
-export const maxWildPalLevel = Object.values(wildPalsStats[0].Rows)
-    .map((item) => Math.max(item.LvMax_1, item.LvMax_2, item.LvMax_3))
-    .sort((a, b) => b - a)[0];
 
 export function getMaxPalLevelForSpheres(options: {
     healthRemaining: number;
@@ -48,7 +45,7 @@ export function getMaxPalLevelForSpheres(options: {
     return maxLevelForSpheres;
 }
 
-export function getCaptureRate(options: {
+function getCaptureRate(options: {
     palLevel: number;
     healthRemaining: number;
     spherePower: number;

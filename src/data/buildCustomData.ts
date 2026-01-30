@@ -58,8 +58,8 @@ export function buildCustomData(key: string, palData: PalMonsterParameter): Deri
     const blueprintStaticCharacterComponent = getPalBlueprint(key, "StaticCharacterParameterComponent");
     if (blueprintStaticCharacterComponent !== undefined) {
         if (
-            blueprintStaticCharacterComponent.Properties?.GeneralBlendSpaceMap?.some((item) =>
-                item.Key.endsWith("RidingMove")
+            blueprintStaticCharacterComponent.Properties?.AIActionMap?.some((action) =>
+                action.Value.ObjectName.includes("ActionRide")
             ) === true
         ) {
             isRidable = true;
@@ -75,9 +75,6 @@ export function buildCustomData(key: string, palData: PalMonsterParameter): Deri
         }
         if (movementType?.endsWith("::Swim") === true) {
             isSwimming = true;
-        }
-        if (isSwimming || isFlying || isFlyingAndGround) {
-            isRidable = true;
         }
     }
 

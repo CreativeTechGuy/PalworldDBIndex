@@ -1,9 +1,10 @@
 import { createMemo, For, type JSXElement } from "solid-js";
 import { Hover } from "~/components/Hover";
 import { sphereSettings } from "~/config/sphereSettings";
+import { maxWildPalLevel } from "~/data/palLevelRanges";
 import itemNames from "~/raw_data/Pal/Content/L10N/en/Pal/DataTable/Text/DT_ItemNameText_Common.json";
 import { convertDataTableType } from "~/utils/convertDataTableType";
-import { getMaxPalLevelForSpheres, maxWildPalLevel, type MinimumSpheres } from "~/utils/getCaptureRate";
+import { getMaxPalLevelForSpheres, type MinimumSpheres } from "~/utils/getCaptureRate";
 import { getPalBossData } from "~/utils/getPalBossData";
 import type { CustomFieldProps } from "./customFields";
 

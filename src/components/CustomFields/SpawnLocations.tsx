@@ -1,5 +1,6 @@
 import { createMemo, createSignal, For, onMount, type JSXElement } from "solid-js";
 import { Dialog } from "~/components/Dialog";
+import { palLevelRanges } from "~/data/palLevelRanges";
 import { spawnLocationMap as spawnLocationMapUntyped, spawnerLocationMap } from "~/data/spawnLocations";
 import raidBossData from "~/raw_data/Pal/Content/Pal/Blueprint/RaidBoss/DT_PalRaidBoss.json";
 import wildSpawnersData from "~/raw_data/Pal/Content/Pal/DataTable/Spawner/DT_PalWildSpawner.json";
@@ -145,6 +146,10 @@ export function SpawnLocations(props: CustomFieldProps<string>): JSXElement {
                                         </button>
                                     </div>
                                 )}
+                                <div>
+                                    Level Range: {palLevelRanges[props.palData.Id].min} -{" "}
+                                    {palLevelRanges[props.palData.Id].max}
+                                </div>
                                 <div style={{ position: "relative", margin: "auto", width: "fit-content" }}>
                                     <img
                                         src={mapImg}

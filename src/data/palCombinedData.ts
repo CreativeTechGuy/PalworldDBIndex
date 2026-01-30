@@ -6,6 +6,8 @@ import { buildCustomData, type DerivedPalData } from "./buildCustomData";
 
 export type CombinedData = PalMonsterParameter & DerivedPalData;
 
+export const defaultPalData: Record<string, CombinedData> = {};
+
 const initialRows: CombinedData[] = [];
 for (const [key, data] of Object.entries(basicPalData[0].Rows)) {
     if (isValidPal(data)) {
@@ -13,10 +15,12 @@ for (const [key, data] of Object.entries(basicPalData[0].Rows)) {
         if (customData === null) {
             continue;
         }
-        initialRows.push({
+        const defaultData = {
             ...data,
             ...customData,
-        });
+        };
+        initialRows.push(defaultData);
+        defaultPalData[key] = structuredClone(defaultData);
     }
 }
 

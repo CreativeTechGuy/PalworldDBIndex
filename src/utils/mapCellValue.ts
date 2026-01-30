@@ -19,8 +19,8 @@ export function mapCellValue(value: string): string {
     for (const [source, replacement] of Object.entries(map)) {
         value = value.replaceAll(source, replacement);
     }
-    if (value.match(/^[0-9]+$/) !== null) {
-        return parseInt(value, 10).toLocaleString();
+    if (value.match(/^[0-9.]+$/) !== null) {
+        return (Math.round(parseFloat(value) * 100) / 100).toLocaleString();
     }
     value = pascalCaseToTitleCase(value);
     value = value.replaceAll("_", " ");
