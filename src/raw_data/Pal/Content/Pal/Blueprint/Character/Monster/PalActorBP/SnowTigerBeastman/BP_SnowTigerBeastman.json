@@ -1,1459 +1,1465 @@
 [
-    {
-        "Type": "BlueprintGeneratedClass",
-        "Name": "BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'BlueprintGeneratedClass'",
-        "Super": {
-            "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "SimpleConstructionScript": {
-                "ObjectName": "SimpleConstructionScript'BP_SnowTigerBeastman_C:SimpleConstructionScript_0'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.42"
-            },
-            "InheritableComponentHandler": {
-                "ObjectName": "InheritableComponentHandler'BP_SnowTigerBeastman_C:InheritableComponentHandler'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.4"
-            }
-        },
-        "SuperStruct": {
-            "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-        },
-        "ChildProperties": [
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalSpeedCollision",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalSpeedCollisionComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalRideMarker",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalRideMarkerComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalShooter",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalShooterComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsCapsule5",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsCapsule4",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsCapsule3",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsCapsule2",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsCapsule1",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsCapsule",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            }
-        ],
-        "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
-        "ClassWithin": {
-            "ObjectName": "Class'Object'",
-            "ObjectPath": "/Script/CoreUObject"
-        },
-        "ClassConfigName": "Game",
-        "bCooked": true,
-        "ClassDefaultObject": {
-            "ObjectName": "BP_SnowTigerBeastman_C'Default__BP_SnowTigerBeastman_C'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.2"
-        },
-        "EditorTags": {
-            "BlueprintType": "BPTYPE_Normal"
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_SnowTigerBeastman_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.42"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_SnowTigerBeastman_C:InheritableComponentHandler'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalSpeedCollision",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalSpeedCollisionComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "BP_PalCryComponent_C",
-        "Name": "BP_PalCryComponent_GEN_VARIABLE",
-        "Outer": "BP_SnowTigerBeastman_C",
-        "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.BP_PalCryComponent_C'",
-        "Template": {
-            "ObjectName": "BP_PalCryComponent_C'BP_MonsterBase_C:BP_PalCryComponent_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.2"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-        "Properties": {
-            "CryPalID": "EPalTribeID::SnowTigerBeastman"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalRideMarker",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalRideMarkerComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "BP_SnowTigerBeastman_C",
-        "Name": "Default__BP_SnowTigerBeastman_C",
-        "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.BP_SnowTigerBeastman_C'",
-        "Template": {
-            "ObjectName": "BP_MonsterBase_C'Default__BP_MonsterBase_C'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.1"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "LiftupObjectComponent": {
-                "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_SnowTigerBeastman_C:Liftup'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.15"
-            },
-            "ActionComponent": {
-                "ObjectName": "PalActionComponent'Default__BP_SnowTigerBeastman_C:ActionComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.5"
-            },
-            "CharacterParameterComponent": {
-                "ObjectName": "PalCharacterParameterComponent'Default__BP_SnowTigerBeastman_C:CharacterParameterComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.17"
-            },
-            "StaticCharacterParameterComponent": {
-                "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_SnowTigerBeastman_C:StaticCharacterParameterComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.28"
-            },
-            "DamageReactionComponent": {
-                "ObjectName": "PalDamageReactionComponent'Default__BP_SnowTigerBeastman_C:DamageReactionComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.18"
-            },
-            "StatusComponent": {
-                "ObjectName": "PalStatusComponent'Default__BP_SnowTigerBeastman_C:StatusComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.29"
-            },
-            "CameraBoom": {
-                "ObjectName": "PalShooterSpringArmComponent'Default__BP_SnowTigerBeastman_C:CameraBoom'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.25"
-            },
-            "FollowCamera": {
-                "ObjectName": "PalCharacterCameraComponent'Default__BP_SnowTigerBeastman_C:FollowCamera'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.14"
-            },
-            "LookAtComponent": {
-                "ObjectName": "PalLookAtComponent'Default__BP_SnowTigerBeastman_C:LookAtComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.20"
-            },
-            "FootIKComponent": {
-                "ObjectName": "PalFootIKComponent'Default__BP_SnowTigerBeastman_C:FootIKComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.19"
-            },
-            "VisualEffectComponent": {
-                "ObjectName": "PalVisualEffectComponent'Default__BP_SnowTigerBeastman_C:VisualEffectComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.30"
-            },
-            "PassiveSkillComponent": {
-                "ObjectName": "PalPassiveSkillComponent'Default__BP_SnowTigerBeastman_C:PassiveSkillComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.22"
-            },
-            "AnimNotifyComponent": {
-                "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_SnowTigerBeastman_C:AnimNotifyComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.6"
-            },
-            "AroundInfoCollectorComponent": {
-                "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_SnowTigerBeastman_C:AroundInfoCollectorComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.13"
-            },
-            "RagdollInteractiveSphere": {
-                "ObjectName": "SphereComponent'Default__BP_SnowTigerBeastman_C:RagdollInteractiveSphere'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.43"
-            },
-            "Mesh": {
-                "ObjectName": "PalSkeletalMeshComponent'Default__BP_SnowTigerBeastman_C:CharacterMesh0'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.26"
-            },
-            "CharacterMovement": {
-                "ObjectName": "PalCharacterMovementComponent'Default__BP_SnowTigerBeastman_C:CharMoveComp'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.16"
-            },
-            "CapsuleComponent": {
-                "ObjectName": "CapsuleComponent'Default__BP_SnowTigerBeastman_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.3"
-            },
-            "RootComponent": {
-                "ObjectName": "CapsuleComponent'Default__BP_SnowTigerBeastman_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.3"
-            }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalShooter",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalShooterComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "CapsuleComponent",
-        "Name": "CollisionCylinder",
-        "Outer": "Default__BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'CapsuleComponent'",
-        "Template": {
-            "ObjectName": "CapsuleComponent'Default__BP_MonsterBase_C:CollisionCylinder'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.3"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "CapsuleHalfHeight": 30.0,
-            "CapsuleRadius": 30.0
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule5",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "InheritableComponentHandler",
-        "Name": "InheritableComponentHandler",
-        "Outer": "BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'InheritableComponentHandler'",
-        "Flags": "RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "Records": [
-                {
-                    "ComponentClass": {
-                        "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-                        "ObjectPath": "/Script/Pal"
-                    },
-                    "ComponentTemplate": {
-                        "ObjectName": "PalPartnerSkillParameterComponent'BP_SnowTigerBeastman_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-                        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.21"
-                    },
-                    "ComponentKey": {
-                        "OwnerClass": {
-                            "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-                            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-                        },
-                        "SCSVariableName": "PalPartnerSkillParameter",
-                        "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
-                    },
-                    "CookedComponentInstancingData": {
-                        "ChangedPropertyList": [],
-                        "bHasValidCookedData": false
-                    }
-                },
-                {
-                    "ComponentClass": {
-                        "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
-                        "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
-                    },
-                    "ComponentTemplate": {
-                        "ObjectName": "BP_PalCryComponent_C'BP_SnowTigerBeastman_C:BP_PalCryComponent_GEN_VARIABLE'",
-                        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.1"
-                    },
-                    "ComponentKey": {
-                        "OwnerClass": {
-                            "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-                            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-                        },
-                        "SCSVariableName": "BP_PalCryComponent",
-                        "AssociatedGuid": "A971BE27-4B3C10FC-863FA284-ECDC3286"
-                    },
-                    "CookedComponentInstancingData": {
-                        "ChangedPropertyList": [],
-                        "bHasValidCookedData": false
-                    }
-                }
-            ]
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "PalActionComponent",
-        "Name": "ActionComponent",
-        "Outer": "Default__BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'PalActionComponent'",
-        "Template": {
-            "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalAnimNotifyParameterComponent",
-        "Name": "AnimNotifyComponent",
-        "Outer": "Default__BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
-        "Template": {
-            "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalBodyPartsCapsuleComponent",
-        "Name": "PalBodyPartsCapsule1_GEN_VARIABLE",
-        "Outer": "BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "CapsuleHalfHeight": 81.95001,
-            "CapsuleRadius": 51.172787,
-            "RelativeLocation": {
-                "X": 10.0,
-                "Y": 4.0,
-                "Z": 0.0
-            },
-            "RelativeRotation": {
-                "Pitch": 90.0,
-                "Yaw": 0.0,
-                "Roll": 0.0
-            }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "PalBodyPartsCapsuleComponent",
-        "Name": "PalBodyPartsCapsule2_GEN_VARIABLE",
-        "Outer": "BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "CapsuleHalfHeight": 63.099697,
-            "CapsuleRadius": 28.892195,
-            "RelativeLocation": {
-                "X": -39.0,
-                "Y": 4.0,
-                "Z": 0.0
-            },
-            "RelativeRotation": {
-                "Pitch": 90.0,
-                "Yaw": 0.0,
-                "Roll": 0.0
-            }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "PalBodyPartsCapsuleComponent",
-        "Name": "PalBodyPartsCapsule3_GEN_VARIABLE",
-        "Outer": "BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "CapsuleHalfHeight": 63.099697,
-            "CapsuleRadius": 28.892195,
-            "RelativeLocation": {
-                "X": 39.0,
-                "Y": 4.0,
-                "Z": 0.0
-            },
-            "RelativeRotation": {
-                "Pitch": 90.0,
-                "Yaw": 0.0,
-                "Roll": 0.0
-            }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "PalBodyPartsCapsuleComponent",
-        "Name": "PalBodyPartsCapsule4_GEN_VARIABLE",
-        "Outer": "BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "CapsuleHalfHeight": 107.69533,
-            "CapsuleRadius": 41.980053,
-            "RelativeLocation": {
-                "X": 71.0,
-                "Y": 18.0,
-                "Z": 0.0
-            },
-            "RelativeRotation": {
-                "Pitch": 90.0,
-                "Yaw": 0.0,
-                "Roll": 166.563
-            }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
     },
-    {
-        "Type": "PalBodyPartsCapsuleComponent",
-        "Name": "PalBodyPartsCapsule5_GEN_VARIABLE",
-        "Outer": "BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "CapsuleHalfHeight": 107.69533,
-            "CapsuleRadius": 41.980053,
-            "RelativeLocation": {
-                "X": -71.0,
-                "Y": -18.0,
-                "Z": 0.0
-            },
-            "RelativeRotation": {
-                "Pitch": 90.0,
-                "Yaw": 0.0,
-                "Roll": 166.563
-            }
-        }
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_SnowTigerBeastman_C'Default__BP_SnowTigerBeastman_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.2"
     },
-    {
-        "Type": "PalBodyPartsCapsuleComponent",
-        "Name": "PalBodyPartsCapsule_GEN_VARIABLE",
-        "Outer": "BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "BodyPartsType": "EPalBodyPartsType::Weak",
-            "CapsuleHalfHeight": 51.172787,
-            "CapsuleRadius": 51.172787,
-            "RelativeLocation": {
-                "X": 0.0,
-                "Y": 4.0,
-                "Z": 0.0
-            }
-        }
-    },
-    {
-        "Type": "PalCharacterAroundInfoCollectorComponent",
-        "Name": "AroundInfoCollectorComponent",
-        "Outer": "Default__BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
-        "Template": {
-            "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AttachParent": {
-                "ObjectName": "CapsuleComponent'Default__BP_SnowTigerBeastman_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.3"
-            }
-        }
-    },
-    {
-        "Type": "PalCharacterCameraComponent",
-        "Name": "FollowCamera",
-        "Outer": "Default__BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'PalCharacterCameraComponent'",
-        "Template": {
-            "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AttachParent": {
-                "ObjectName": "PalShooterSpringArmComponent'Default__BP_SnowTigerBeastman_C:CameraBoom'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.25"
-            }
-        }
-    },
-    {
-        "Type": "PalCharacterLiftupObjectComponent",
-        "Name": "Liftup",
-        "Outer": "Default__BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
-        "Template": {
-            "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalCharacterMovementComponent",
-        "Name": "CharMoveComp",
-        "Outer": "Default__BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'PalCharacterMovementComponent'",
-        "Template": {
-            "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "InWaterRate": 0.79999995,
-            "Buoyancy": 1.2
-        }
-    },
-    {
-        "Type": "PalCharacterParameterComponent",
-        "Name": "CharacterParameterComponent",
-        "Outer": "Default__BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'PalCharacterParameterComponent'",
-        "Template": {
-            "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalDamageReactionComponent",
-        "Name": "DamageReactionComponent",
-        "Outer": "Default__BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'PalDamageReactionComponent'",
-        "Template": {
-            "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalFootIKComponent",
-        "Name": "FootIKComponent",
-        "Outer": "Default__BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'PalFootIKComponent'",
-        "Template": {
-            "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "FootIKSettings": [
-                {
-                    "Key": "EPalFootType::HindFootRight",
-                    "Value": {
-                        "bIsEnableIK": true,
-                        "RayCastBoneName": "foot_r",
-                        "RayStartOffset": 50.0,
-                        "RayEndOffset": 30.0
-                    }
-                },
-                {
-                    "Key": "EPalFootType::HindFootLeft",
-                    "Value": {
-                        "bIsEnableIK": true,
-                        "RayCastBoneName": "foot_l",
-                        "RayStartOffset": 50.0,
-                        "RayEndOffset": 30.0
-                    }
-                }
-            ]
-        }
-    },
-    {
-        "Type": "PalLookAtComponent",
-        "Name": "LookAtComponent",
-        "Outer": "Default__BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'PalLookAtComponent'",
-        "Template": {
-            "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalPartnerSkillParameterComponent",
-        "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-        "Outer": "BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-        "Template": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-        "Properties": {
-            "RestrictionItems": [
-                {
-                    "Key": "SkillUnlock_SnowTigerBeastman"
-                }
-            ],
-            "SkillName": "UniqueRideMelee_SnowHammer",
-            "ActiveSkill_MainValue_Overview_EditorOnly": "ハンマー殴りの技威力",
-            "ActiveSkill_MainValueByRank": [100.0, 120.0, 140.0, 160.0, 200.0]
-        }
-    },
-    {
-        "Type": "PalPassiveSkillComponent",
-        "Name": "PassiveSkillComponent",
-        "Outer": "Default__BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'PalPassiveSkillComponent'",
-        "Template": {
-            "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalRideMarkerComponent",
-        "Name": "PalRideMarker_GEN_VARIABLE",
-        "Outer": "BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'PalRideMarkerComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "RidePositionType": "EPalRidePositionType::BiggerHorseRide",
-            "UniqueRidePalWeaponClass": {
-                "ObjectName": "BlueprintGeneratedClass'BP_UniqueRideWeapon_TigerHammer_C'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Weapon/UniqueRidePalWeapon/BP_UniqueRideWeapon_TigerHammer.0"
-            },
-            "UniqueRidePalID": {
-                "Key": "SnowTigerBeastman"
-            },
-            "RelativeLocation": {
-                "X": 45.0,
-                "Y": -55.0,
-                "Z": 1e-6
-            },
-            "RelativeRotation": {
-                "Pitch": -6.902331e-7,
-                "Yaw": 80.0,
-                "Roll": -90.0
-            }
-        }
-    },
-    {
-        "Type": "PalShooterComponent",
-        "Name": "PalShooter_GEN_VARIABLE",
-        "Outer": "BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'PalShooterComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "OtherWeaponAnimeAssetBPSoftClassMap": [
-                {
-                    "Key": "/Game/Pal/Blueprint/Weapon/UniqueRidePalWeapon/BP_UniqueRideWeapon_TigerHammer.BP_UniqueRideWeapon_TigerHammer_C",
-                    "Value": {
-                        "AssetPathName": "/Game/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastmanShooterAnime.BP_SnowTigerBeastmanShooterAnime_C",
-                        "SubPathString": ""
-                    }
-                }
-            ]
-        }
-    },
-    {
-        "Type": "PalShooterSpringArmComponent",
-        "Name": "CameraBoom",
-        "Outer": "Default__BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'PalShooterSpringArmComponent'",
-        "Template": {
-            "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "WalkCameraArmLength": 500.0,
-            "WalkCameraOffset": {
-                "X": 0.0,
-                "Y": 120.0,
-                "Z": 220.0
-            },
-            "AimCameraArmLength": 500.0,
-            "AimCameraOffset": {
-                "X": 0.0,
-                "Y": 200.0,
-                "Z": 220.0
-            },
-            "AirCameraArmLength": 500.0,
-            "AirCameraOffset": {
-                "X": 0.0,
-                "Y": 120.0,
-                "Z": 220.0
-            },
-            "AirAimCameraArmLength": 500.0,
-            "AirAimCameraOffset": {
-                "X": 0.0,
-                "Y": 200.0,
-                "Z": 220.0
-            },
-            "AttachParent": {
-                "ObjectName": "CapsuleComponent'Default__BP_SnowTigerBeastman_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.3"
-            },
-            "RelativeLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 120.0
-            }
-        }
-    },
-    {
-        "Type": "PalSkeletalMeshComponent",
-        "Name": "CharacterMesh0",
-        "Outer": "Default__BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'PalSkeletalMeshComponent'",
-        "Template": {
-            "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AnimClass": {
-                "ObjectName": "AnimBlueprintGeneratedClass'ABP_SnowTigerBeastman_C'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/ABP_SnowTigerBeastman.1"
-            },
-            "SkeletalMesh": {
-                "ObjectName": "SkeletalMesh'SK_SnowTigerBeastman'",
-                "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/SnowTigerBeastman/SK_SnowTigerBeastman.0"
-            },
-            "SkinnedAsset": {
-                "ObjectName": "SkeletalMesh'SK_SnowTigerBeastman'",
-                "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/SnowTigerBeastman/SK_SnowTigerBeastman.0"
-            },
-            "AttachParent": {
-                "ObjectName": "CapsuleComponent'Default__BP_SnowTigerBeastman_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.3"
-            },
-            "RelativeLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": -30.0
-            }
-        }
-    },
-    {
-        "Type": "PalSpeedCollisionComponent",
-        "Name": "PalSpeedCollision_GEN_VARIABLE",
-        "Outer": "BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'PalSpeedCollisionComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "RelativeLocation": {
-                "X": -1.7763568e-14,
-                "Y": 50.0,
-                "Z": 130.0
-            },
-            "RelativeRotation": {
-                "Pitch": 0.0,
-                "Yaw": 90.0,
-                "Roll": -0.0
-            },
-            "RelativeScale3D": {
-                "X": 4.0,
-                "Y": 4.0,
-                "Z": 4.0
-            }
-        }
-    },
-    {
-        "Type": "PalStaticCharacterParameterComponent",
-        "Name": "StaticCharacterParameterComponent",
-        "Outer": "Default__BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
-        "Template": {
-            "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "MeshCapsuleHalfHeight": 150.0,
-            "MeshCapsuleRadius": 60.0,
-            "MeshRelativeLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": -150.0
-            },
-            "AIActionMap": [
-                {
-                    "Key": "EPalAIActionType::Cooperation",
-                    "Value": {
-                        "ObjectName": "BlueprintGeneratedClass'BP_AIActionRideCall_C'",
-                        "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Coop/BP_AIActionRideCall.0"
-                    }
-                }
-            ],
-            "RandomRestMontageInfos": [
-                {
-                    "RandomRestMontage": {
-                        "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Rest01'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Rest01.0"
-                    },
-                    "Weight": 1.0,
-                    "LoopNum_Min": 1,
-                    "LoopNum_Max": 1,
-                    "AfterIdleTime": 2.0
-                },
-                {
-                    "RandomRestMontage": {
-                        "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Rest02'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Rest02.0"
-                    },
-                    "Weight": 1.0,
-                    "LoopNum_Min": 1,
-                    "LoopNum_Max": 1,
-                    "AfterIdleTime": 7.0
-                },
-                {
-                    "RandomRestMontage": {
-                        "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Rest03'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Rest03.0"
-                    },
-                    "Weight": 0.3,
-                    "LoopNum_Min": 1,
-                    "LoopNum_Max": 1,
-                    "AfterIdleTime": 5.0
-                }
-            ],
-            "GeneralAnimSequenceMap": [
-                {
-                    "Key": "EPalGeneralAnimSequenceType::JumpLoop",
-                    "Value": {
-                        "ObjectName": "AnimSequence'AS_SnowTigerBeastman_JumpLoop'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AS_SnowTigerBeastman_JumpLoop.0"
-                    }
-                },
-                {
-                    "Key": "EPalGeneralAnimSequenceType::JumpEnd",
-                    "Value": {
-                        "ObjectName": "AnimSequence'AS_SnowTigerBeastman_JumpEnd'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AS_SnowTigerBeastman_JumpEnd.0"
-                    }
-                }
-            ],
-            "GeneralMontageMap": [
-                {
-                    "Key": "EPalGeneralMontageType::GeneralAttackReady_Far",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_SnowTigerBeastman_FarSkill_Start'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_FarSkill_Start.0"
-                    }
-                },
-                {
-                    "Key": "EPalGeneralMontageType::GeneralAttackReadyLoop_Far",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_SnowTigerBeastman_FarSkill_StartLoop'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_FarSkill_StartLoop.0"
-                    }
-                },
-                {
-                    "Key": "EPalGeneralMontageType::GeneralAttackProcess_Far",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_SnowTigerBeastman_FarSkill_Action'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_FarSkill_Action.0"
-                    }
-                },
-                {
-                    "Key": "EPalGeneralMontageType::GeneralAttackProcessLoop_Far",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_SnowTigerBeastman_FarSkill_ActionLoop'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_FarSkill_ActionLoop.0"
-                    }
-                },
-                {
-                    "Key": "EPalGeneralMontageType::GeneralAttackAfter_Far",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_SnowTigerBeastman_FarSkill_End'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_FarSkill_End.0"
-                    }
-                },
-                {
-                    "Key": "EPalGeneralMontageType::SleepStart",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_SnowTigerBeastman_SleepStart'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_SleepStart.0"
-                    }
-                },
-                {
-                    "Key": "EPalGeneralMontageType::SleepLoop",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_SnowTigerBeastman_SleepLoop'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_SleepLoop.0"
-                    }
-                },
-                {
-                    "Key": "EPalGeneralMontageType::SleepEnd",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_SnowTigerBeastman_SleepEnd'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_SleepEnd.0"
-                    }
-                },
-                {
-                    "Key": "EPalGeneralMontageType::DamageAdditive",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Hit'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Hit.0"
-                    }
-                },
-                {
-                    "Key": "EPalGeneralMontageType::BeLiftupStart",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Carrying_Start'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Carrying_Start.0"
-                    }
-                },
-                {
-                    "Key": "EPalGeneralMontageType::BeLiftupLoop",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Carrying'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Carrying.0"
-                    }
-                }
-            ],
-            "GeneralBlendSpaceMap": [
-                {
-                    "Key": "EPalGeneralBlendSpaceType::GeneralMove",
-                    "Value": {
-                        "ObjectName": "BlendSpace1D'BS_Move_SnowTigerBeastman'",
-                        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BS_Move_SnowTigerBeastman.0"
-                    }
-                },
-                {
-                    "Key": "EPalGeneralBlendSpaceType::Swim",
-                    "Value": {
-                        "ObjectName": "BlendSpace1D'BS_Swim_SnowTigerBeastman'",
-                        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BS_Swim_SnowTigerBeastman.0"
-                    }
-                }
-            ],
-            "ActionMontageMap": [
-                {
-                    "Key": "EPalActionType::Menace",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Encount'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Encount.0"
-                    }
-                },
-                {
-                    "Key": "EPalActionType::Eat",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Eat'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Eat.0"
-                    }
-                },
-                {
-                    "Key": "EPalActionType::KnockBack",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Damage'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Damage.0"
-                    }
-                },
-                {
-                    "Key": "EPalActionType::ForwardWalk",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Walk'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Walk.0"
-                    }
-                },
-                {
-                    "Key": "EPalActionType::Mining",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Mining'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Mining.0"
-                    }
-                },
-                {
-                    "Key": "EPalActionType::GetupUtubuse_orRight",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_SnowTigerBeastman_GetUp_FrontDown'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_GetUp_FrontDown.0"
-                    }
-                },
-                {
-                    "Key": "EPalActionType::PalPetting",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Petting'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Petting.0"
-                    }
-                },
-                {
-                    "Key": "EPalActionType::Deforest",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Deforest'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Deforest.0"
-                    }
-                },
-                {
-                    "Key": "EPalActionType::ElectricShock",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_SnowTigerBeastman_ElectricShock'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_ElectricShock.0"
-                    }
-                },
-                {
-                    "Key": "EPalActionType::Cool",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Cooling'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Cooling.0"
-                    }
-                },
-                {
-                    "Key": "EPalActionType::IdleInSpa",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Spa'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Spa.0"
-                    }
-                }
-            ],
-            "SleepOnSideInfoMapForMapObject": [
-                {
-                    "Key": {
-                        "Key": "MedicalPalBed_02"
-                    },
-                    "Value": {
-                        "LocationOffset": {
-                            "X": -10.0,
-                            "Y": -10.0,
-                            "Z": 0.0
-                        },
-                        "RotatorOffset": {
-                            "Pitch": 0.0,
-                            "Yaw": 160.0,
-                            "Roll": 0.0
-                        },
-                        "bShouldApply": true
-                    }
-                },
-                {
-                    "Key": {
-                        "Key": "MedicalPalBed_03"
-                    },
-                    "Value": {
-                        "LocationOffset": {
-                            "X": -10.0,
-                            "Y": -10.0,
-                            "Z": 0.0
-                        },
-                        "RotatorOffset": {
-                            "Pitch": 0.0,
-                            "Yaw": 160.0,
-                            "Roll": 0.0
-                        },
-                        "bShouldApply": true
-                    }
-                },
-                {
-                    "Key": {
-                        "Key": "MedicalPalBed_04"
-                    },
-                    "Value": {
-                        "LocationOffset": {
-                            "X": -10.0,
-                            "Y": 90.0,
-                            "Z": 0.0
-                        },
-                        "RotatorOffset": {
-                            "Pitch": 0.0,
-                            "Yaw": 160.0,
-                            "Roll": 0.0
-                        },
-                        "bShouldApply": true
-                    }
-                }
-            ],
-            "WazaActionDeclarationMap": [
-                {
-                    "Key": "EPalWazaID::Unique_SnowTigerBeastman_SnowImpact",
-                    "Value": {
-                        "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/SnowTigerBeastman/BP_Action_Unique_SnowTigerBeastman_SnowImpact.BP_Action_Unique_SnowTigerBeastman_SnowImpact_C",
-                        "SubPathString": ""
-                    }
-                },
-                {
-                    "Key": "EPalWazaID::Unique_SnowTigerBeastman_TrampleSlash",
-                    "Value": {
-                        "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/SnowTigerBeastman/BP_Action_Unique_SnowTigerBeastman_TrampleSlash.BP_Action_Unique_SnowTigerBeastman_TrampleSlash_C",
-                        "SubPathString": ""
-                    }
-                }
-            ],
-            "HPGaugeUIOffset": {
-                "X": 10.0,
-                "Y": -50.0
-            },
-            "PettingSize": "EPalPettingSizeType::Large",
-            "PettingDistance": 110.0,
-            "PettingCameraArmLength_Override": 400.0,
-            "WaterEffectMap": [
-                {
-                    "Key": "EPalWaterEffectType::SwimIdle",
-                    "Value": {
-                        "Effect": {
-                            "ObjectName": "NiagaraSystem'NS_InWaterPal'",
-                            "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_InWaterPal.14"
-                        },
-                        "Offset": {
-                            "X": 0.0,
-                            "Y": 0.0,
-                            "Z": 0.0
-                        },
-                        "Scale": 1.5
-                    }
-                }
-            ]
-        }
-    },
-    {
-        "Type": "PalStatusComponent",
-        "Name": "StatusComponent",
-        "Outer": "Default__BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'PalStatusComponent'",
-        "Template": {
-            "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalVisualEffectComponent",
-        "Name": "VisualEffectComponent",
-        "Outer": "Default__BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'PalVisualEffectComponent'",
-        "Template": {
-            "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "SceneComponent",
-        "Name": "DefaultSceneRoot_GEN_VARIABLE",
-        "Outer": "BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'SceneComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_0",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'SceneComponent'",
-                "ObjectPath": "/Script/Engine"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "SceneComponent'BP_SnowTigerBeastman_C:DefaultSceneRoot_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.31"
-            },
-            "VariableGuid": "A14BBC00-452785C1-1D3ABC90-586D5F26",
-            "InternalVariableName": "DefaultSceneRoot"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_1",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalSpeedCollisionComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalSpeedCollisionComponent'BP_SnowTigerBeastman_C:PalSpeedCollision_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.27"
-            },
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "D142D5A9-430E14AC-938CA793-A7AA851C",
-            "InternalVariableName": "PalSpeedCollision"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_2",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsCapsuleComponent'BP_SnowTigerBeastman_C:PalBodyPartsCapsule_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.12"
-            },
-            "AttachToName": "head",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "2DEC6A87-484C3B84-A28AEA8B-D76D6B27",
-            "InternalVariableName": "PalBodyPartsCapsule"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_3",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsCapsuleComponent'BP_SnowTigerBeastman_C:PalBodyPartsCapsule1_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.7"
-            },
-            "AttachToName": "pelvis",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "D5F78C8B-44237F22-330C43B1-784ADD4B",
-            "InternalVariableName": "PalBodyPartsCapsule1"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_4",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsCapsuleComponent'BP_SnowTigerBeastman_C:PalBodyPartsCapsule2_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.8"
-            },
-            "AttachToName": "lowerarm_r",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "5437A7F0-4CFC8EDB-5E3136B1-475FE40E",
-            "InternalVariableName": "PalBodyPartsCapsule2"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_5",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsCapsuleComponent'BP_SnowTigerBeastman_C:PalBodyPartsCapsule3_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.9"
-            },
-            "AttachToName": "lowerarm_l",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "93FF0F26-4061258E-C8608A84-10B59984",
-            "InternalVariableName": "PalBodyPartsCapsule3"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_6",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsCapsuleComponent'BP_SnowTigerBeastman_C:PalBodyPartsCapsule4_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.10"
-            },
-            "AttachToName": "thigh_01_l",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "E3861DC3-4B863028-C20B7DA7-CF994C75",
-            "InternalVariableName": "PalBodyPartsCapsule4"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_7",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsCapsuleComponent'BP_SnowTigerBeastman_C:PalBodyPartsCapsule5_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.11"
-            },
-            "AttachToName": "thigh_01_r",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "8AD8A0F5-4AB881BE-CDC2EBAE-A71B4101",
-            "InternalVariableName": "PalBodyPartsCapsule5"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_8",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalShooterComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalShooterComponent'BP_SnowTigerBeastman_C:PalShooter_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.24"
-            },
-            "VariableGuid": "4C99ACF9-43A1EDC9-E6C125B8-A4B101FD",
-            "InternalVariableName": "PalShooter"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_9",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalRideMarkerComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalRideMarkerComponent'BP_SnowTigerBeastman_C:PalRideMarker_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.23"
-            },
-            "AttachToName": "head",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "B576178D-48654643-330BF68A-97058063",
-            "InternalVariableName": "PalRideMarker"
-        }
-    },
-    {
-        "Type": "SimpleConstructionScript",
-        "Name": "SimpleConstructionScript_0",
-        "Outer": "BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'SimpleConstructionScript'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "RootNodes": [
-                {
-                    "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_2'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.34"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_3'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.35"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_4'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.36"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_5'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.37"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_6'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.38"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_7'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.39"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_8'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.40"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_9'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.41"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_1'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.33"
-                }
-            ],
-            "AllNodes": [
-                {
-                    "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_2'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.34"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_3'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.35"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_4'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.36"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_5'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.37"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_6'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.38"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_7'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.39"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_8'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.40"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_9'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.41"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_1'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.33"
-                }
-            ],
-            "DefaultSceneRootNode": {
-                "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_0'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.32"
-            }
-        }
-    },
-    {
-        "Type": "SphereComponent",
-        "Name": "RagdollInteractiveSphere",
-        "Outer": "Default__BP_SnowTigerBeastman_C",
-        "Class": "UScriptClass'SphereComponent'",
-        "Template": {
-            "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AttachParent": {
-                "ObjectName": "CapsuleComponent'Default__BP_SnowTigerBeastman_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.3"
-            }
-        }
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
     }
+  },
+  {
+    "Type": "BP_PalCryComponent_C",
+    "Name": "BP_PalCryComponent_GEN_VARIABLE",
+    "Outer": "BP_SnowTigerBeastman_C",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.BP_PalCryComponent_C'",
+    "Template": {
+      "ObjectName": "BP_PalCryComponent_C'BP_MonsterBase_C:BP_PalCryComponent_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.2"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Properties": {
+      "CryPalID": "EPalTribeID::SnowTigerBeastman"
+    }
+  },
+  {
+    "Type": "BP_SnowTigerBeastman_C",
+    "Name": "Default__BP_SnowTigerBeastman_C",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.BP_SnowTigerBeastman_C'",
+    "Template": {
+      "ObjectName": "BP_MonsterBase_C'Default__BP_MonsterBase_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LiftupObjectComponent": {
+        "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_SnowTigerBeastman_C:Liftup'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.15"
+      },
+      "ActionComponent": {
+        "ObjectName": "PalActionComponent'Default__BP_SnowTigerBeastman_C:ActionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.5"
+      },
+      "CharacterParameterComponent": {
+        "ObjectName": "PalCharacterParameterComponent'Default__BP_SnowTigerBeastman_C:CharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.17"
+      },
+      "StaticCharacterParameterComponent": {
+        "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_SnowTigerBeastman_C:StaticCharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.28"
+      },
+      "DamageReactionComponent": {
+        "ObjectName": "PalDamageReactionComponent'Default__BP_SnowTigerBeastman_C:DamageReactionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.18"
+      },
+      "StatusComponent": {
+        "ObjectName": "PalStatusComponent'Default__BP_SnowTigerBeastman_C:StatusComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.29"
+      },
+      "CameraBoom": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_SnowTigerBeastman_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.25"
+      },
+      "FollowCamera": {
+        "ObjectName": "PalCharacterCameraComponent'Default__BP_SnowTigerBeastman_C:FollowCamera'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.14"
+      },
+      "LookAtComponent": {
+        "ObjectName": "PalLookAtComponent'Default__BP_SnowTigerBeastman_C:LookAtComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.20"
+      },
+      "FootIKComponent": {
+        "ObjectName": "PalFootIKComponent'Default__BP_SnowTigerBeastman_C:FootIKComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.19"
+      },
+      "VisualEffectComponent": {
+        "ObjectName": "PalVisualEffectComponent'Default__BP_SnowTigerBeastman_C:VisualEffectComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.30"
+      },
+      "PassiveSkillComponent": {
+        "ObjectName": "PalPassiveSkillComponent'Default__BP_SnowTigerBeastman_C:PassiveSkillComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.22"
+      },
+      "AnimNotifyComponent": {
+        "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_SnowTigerBeastman_C:AnimNotifyComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.6"
+      },
+      "AroundInfoCollectorComponent": {
+        "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_SnowTigerBeastman_C:AroundInfoCollectorComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.13"
+      },
+      "RagdollInteractiveSphere": {
+        "ObjectName": "SphereComponent'Default__BP_SnowTigerBeastman_C:RagdollInteractiveSphere'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.43"
+      },
+      "Mesh": {
+        "ObjectName": "PalSkeletalMeshComponent'Default__BP_SnowTigerBeastman_C:CharacterMesh0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.26"
+      },
+      "CharacterMovement": {
+        "ObjectName": "PalCharacterMovementComponent'Default__BP_SnowTigerBeastman_C:CharMoveComp'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.16"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_SnowTigerBeastman_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.3"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_SnowTigerBeastman_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.3"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": "Default__BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_MonsterBase_C:CollisionCylinder'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.3"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CapsuleHalfHeight": 30.0,
+      "CapsuleRadius": 30.0
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": "BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
+            "ObjectPath": "/Script/Pal"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "PalPartnerSkillParameterComponent'BP_SnowTigerBeastman_C:PalPartnerSkillParameter_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.21"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+            },
+            "SCSVariableName": "PalPartnerSkillParameter",
+            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
+            "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BP_PalCryComponent_C'BP_SnowTigerBeastman_C:BP_PalCryComponent_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.1"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+            },
+            "SCSVariableName": "BP_PalCryComponent",
+            "AssociatedGuid": "A971BE27-4B3C10FC-863FA284-ECDC3286"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PalActionComponent",
+    "Name": "ActionComponent",
+    "Outer": "Default__BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'PalActionComponent'",
+    "Template": {
+      "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalAnimNotifyParameterComponent",
+    "Name": "AnimNotifyComponent",
+    "Outer": "Default__BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+    "Template": {
+      "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule1_GEN_VARIABLE",
+    "Outer": "BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CapsuleHalfHeight": 81.95001,
+      "CapsuleRadius": 51.172787,
+      "RelativeLocation": {
+        "X": 10.0,
+        "Y": 4.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule2_GEN_VARIABLE",
+    "Outer": "BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CapsuleHalfHeight": 63.099697,
+      "CapsuleRadius": 28.892195,
+      "RelativeLocation": {
+        "X": -39.0,
+        "Y": 4.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule3_GEN_VARIABLE",
+    "Outer": "BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CapsuleHalfHeight": 63.099697,
+      "CapsuleRadius": 28.892195,
+      "RelativeLocation": {
+        "X": 39.0,
+        "Y": 4.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule4_GEN_VARIABLE",
+    "Outer": "BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CapsuleHalfHeight": 107.69533,
+      "CapsuleRadius": 41.980053,
+      "RelativeLocation": {
+        "X": 71.0,
+        "Y": 18.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 166.563
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule5_GEN_VARIABLE",
+    "Outer": "BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CapsuleHalfHeight": 107.69533,
+      "CapsuleRadius": 41.980053,
+      "RelativeLocation": {
+        "X": -71.0,
+        "Y": -18.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 166.563
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule_GEN_VARIABLE",
+    "Outer": "BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Weak",
+      "CapsuleHalfHeight": 51.172787,
+      "CapsuleRadius": 51.172787,
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 4.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterAroundInfoCollectorComponent",
+    "Name": "AroundInfoCollectorComponent",
+    "Outer": "Default__BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+    "Template": {
+      "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_SnowTigerBeastman_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.3"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterCameraComponent",
+    "Name": "FollowCamera",
+    "Outer": "Default__BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'PalCharacterCameraComponent'",
+    "Template": {
+      "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_SnowTigerBeastman_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.25"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterLiftupObjectComponent",
+    "Name": "Liftup",
+    "Outer": "Default__BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+    "Template": {
+      "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalCharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Outer": "Default__BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'PalCharacterMovementComponent'",
+    "Template": {
+      "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "InWaterRate": 0.79999995,
+      "Buoyancy": 1.2
+    }
+  },
+  {
+    "Type": "PalCharacterParameterComponent",
+    "Name": "CharacterParameterComponent",
+    "Outer": "Default__BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'PalCharacterParameterComponent'",
+    "Template": {
+      "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalDamageReactionComponent",
+    "Name": "DamageReactionComponent",
+    "Outer": "Default__BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'PalDamageReactionComponent'",
+    "Template": {
+      "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalFootIKComponent",
+    "Name": "FootIKComponent",
+    "Outer": "Default__BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'PalFootIKComponent'",
+    "Template": {
+      "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "FootIKSettings": [
+        {
+          "Key": "EPalFootType::HindFootRight",
+          "Value": {
+            "bIsEnableIK": true,
+            "RayCastBoneName": "foot_r",
+            "RayStartOffset": 50.0,
+            "RayEndOffset": 30.0
+          }
+        },
+        {
+          "Key": "EPalFootType::HindFootLeft",
+          "Value": {
+            "bIsEnableIK": true,
+            "RayCastBoneName": "foot_l",
+            "RayStartOffset": 50.0,
+            "RayEndOffset": 30.0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PalLookAtComponent",
+    "Name": "LookAtComponent",
+    "Outer": "Default__BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'PalLookAtComponent'",
+    "Template": {
+      "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalPartnerSkillParameterComponent",
+    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
+    "Outer": "BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
+    "Template": {
+      "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Properties": {
+      "RestrictionItems": [
+        {
+          "Key": "SkillUnlock_SnowTigerBeastman"
+        }
+      ],
+      "SkillName": "UniqueRideMelee_SnowHammer",
+      "ActiveSkill_MainValue_Overview_EditorOnly": "ハンマー殴りの技威力",
+      "ActiveSkill_MainValueByRank": [
+        100.0,
+        120.0,
+        140.0,
+        160.0,
+        200.0
+      ]
+    }
+  },
+  {
+    "Type": "PalPassiveSkillComponent",
+    "Name": "PassiveSkillComponent",
+    "Outer": "Default__BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'PalPassiveSkillComponent'",
+    "Template": {
+      "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalRideMarkerComponent",
+    "Name": "PalRideMarker_GEN_VARIABLE",
+    "Outer": "BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'PalRideMarkerComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RidePositionType": "EPalRidePositionType::BiggerHorseRide",
+      "UniqueRidePalWeaponClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_UniqueRideWeapon_TigerHammer_C'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Weapon/UniqueRidePalWeapon/BP_UniqueRideWeapon_TigerHammer.0"
+      },
+      "UniqueRidePalID": {
+        "Key": "SnowTigerBeastman"
+      },
+      "RelativeLocation": {
+        "X": 45.0,
+        "Y": -55.0,
+        "Z": 1E-06
+      },
+      "RelativeRotation": {
+        "Pitch": -6.902331E-07,
+        "Yaw": 80.0,
+        "Roll": -90.0
+      }
+    }
+  },
+  {
+    "Type": "PalShooterComponent",
+    "Name": "PalShooter_GEN_VARIABLE",
+    "Outer": "BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'PalShooterComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OtherWeaponAnimeAssetBPSoftClassMap": [
+        {
+          "Key": "/Game/Pal/Blueprint/Weapon/UniqueRidePalWeapon/BP_UniqueRideWeapon_TigerHammer.BP_UniqueRideWeapon_TigerHammer_C",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastmanShooterAnime.BP_SnowTigerBeastmanShooterAnime_C",
+            "SubPathString": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PalShooterSpringArmComponent",
+    "Name": "CameraBoom",
+    "Outer": "Default__BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'PalShooterSpringArmComponent'",
+    "Template": {
+      "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WalkCameraArmLength": 500.0,
+      "WalkCameraOffset": {
+        "X": 0.0,
+        "Y": 120.0,
+        "Z": 220.0
+      },
+      "AimCameraArmLength": 500.0,
+      "AimCameraOffset": {
+        "X": 0.0,
+        "Y": 200.0,
+        "Z": 220.0
+      },
+      "AirCameraArmLength": 500.0,
+      "AirCameraOffset": {
+        "X": 0.0,
+        "Y": 120.0,
+        "Z": 220.0
+      },
+      "AirAimCameraArmLength": 500.0,
+      "AirAimCameraOffset": {
+        "X": 0.0,
+        "Y": 200.0,
+        "Z": 220.0
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_SnowTigerBeastman_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 120.0
+      }
+    }
+  },
+  {
+    "Type": "PalSkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Outer": "Default__BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'PalSkeletalMeshComponent'",
+    "Template": {
+      "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_SnowTigerBeastman_C'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/ABP_SnowTigerBeastman.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_SnowTigerBeastman'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/SnowTigerBeastman/SK_SnowTigerBeastman.0"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_SnowTigerBeastman'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/SnowTigerBeastman/SK_SnowTigerBeastman.0"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_SnowTigerBeastman_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -30.0
+      }
+    }
+  },
+  {
+    "Type": "PalSpeedCollisionComponent",
+    "Name": "PalSpeedCollision_GEN_VARIABLE",
+    "Outer": "BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'PalSpeedCollisionComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -1.7763568E-14,
+        "Y": 50.0,
+        "Z": 130.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": -0.0
+      },
+      "RelativeScale3D": {
+        "X": 4.0,
+        "Y": 4.0,
+        "Z": 4.0
+      }
+    }
+  },
+  {
+    "Type": "PalStaticCharacterParameterComponent",
+    "Name": "StaticCharacterParameterComponent",
+    "Outer": "Default__BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+    "Template": {
+      "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MeshCapsuleHalfHeight": 150.0,
+      "MeshCapsuleRadius": 60.0,
+      "MeshRelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -150.0
+      },
+      "AIActionMap": [
+        {
+          "Key": "EPalAIActionType::Cooperation",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AIActionRideCall_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Coop/BP_AIActionRideCall.0"
+          }
+        }
+      ],
+      "RandomRestMontageInfos": [
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Rest01'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Rest01.0"
+          },
+          "Weight": 1.0,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 2.0
+        },
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Rest02'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Rest02.0"
+          },
+          "Weight": 1.0,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 7.0
+        },
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Rest03'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Rest03.0"
+          },
+          "Weight": 0.3,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 5.0
+        }
+      ],
+      "GeneralAnimSequenceMap": [
+        {
+          "Key": "EPalGeneralAnimSequenceType::JumpLoop",
+          "Value": {
+            "ObjectName": "AnimSequence'AS_SnowTigerBeastman_JumpLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AS_SnowTigerBeastman_JumpLoop.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralAnimSequenceType::JumpEnd",
+          "Value": {
+            "ObjectName": "AnimSequence'AS_SnowTigerBeastman_JumpEnd'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AS_SnowTigerBeastman_JumpEnd.0"
+          }
+        }
+      ],
+      "GeneralMontageMap": [
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackReady_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_SnowTigerBeastman_FarSkill_Start'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_FarSkill_Start.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackReadyLoop_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_SnowTigerBeastman_FarSkill_StartLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_FarSkill_StartLoop.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackProcess_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_SnowTigerBeastman_FarSkill_Action'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_FarSkill_Action.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackProcessLoop_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_SnowTigerBeastman_FarSkill_ActionLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_FarSkill_ActionLoop.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackAfter_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_SnowTigerBeastman_FarSkill_End'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_FarSkill_End.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::SleepStart",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_SnowTigerBeastman_SleepStart'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_SleepStart.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::SleepLoop",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_SnowTigerBeastman_SleepLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_SleepLoop.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::SleepEnd",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_SnowTigerBeastman_SleepEnd'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_SleepEnd.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::DamageAdditive",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Hit'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Hit.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::BeLiftupStart",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Carrying_Start'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Carrying_Start.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::BeLiftupLoop",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Carrying'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Carrying.0"
+          }
+        }
+      ],
+      "GeneralBlendSpaceMap": [
+        {
+          "Key": "EPalGeneralBlendSpaceType::GeneralMove",
+          "Value": {
+            "ObjectName": "BlendSpace1D'BS_Move_SnowTigerBeastman'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BS_Move_SnowTigerBeastman.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralBlendSpaceType::Swim",
+          "Value": {
+            "ObjectName": "BlendSpace1D'BS_Swim_SnowTigerBeastman'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BS_Swim_SnowTigerBeastman.0"
+          }
+        }
+      ],
+      "ActionMontageMap": [
+        {
+          "Key": "EPalActionType::Menace",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Encount'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Encount.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::Eat",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Eat'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Eat.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::KnockBack",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Damage'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Damage.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::ForwardWalk",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Walk'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Walk.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::Mining",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Mining'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Mining.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::GetupUtubuse_orRight",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_SnowTigerBeastman_GetUp_FrontDown'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_GetUp_FrontDown.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::PalPetting",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Petting'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Petting.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::Deforest",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Deforest'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Deforest.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::ElectricShock",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_SnowTigerBeastman_ElectricShock'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_ElectricShock.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::Cool",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Cooling'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Cooling.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::IdleInSpa",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_SnowTigerBeastman_Spa'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SnowTigerBeastman/AM_SnowTigerBeastman_Spa.0"
+          }
+        }
+      ],
+      "SleepOnSideInfoMapForMapObject": [
+        {
+          "Key": {
+            "Key": "MedicalPalBed_02"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -10.0,
+              "Y": -10.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 160.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_03"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -10.0,
+              "Y": -10.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 160.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_04"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -10.0,
+              "Y": 90.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 160.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        }
+      ],
+      "WazaActionDeclarationMap": [
+        {
+          "Key": "EPalWazaID::Unique_SnowTigerBeastman_SnowImpact",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/SnowTigerBeastman/BP_Action_Unique_SnowTigerBeastman_SnowImpact.BP_Action_Unique_SnowTigerBeastman_SnowImpact_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EPalWazaID::Unique_SnowTigerBeastman_TrampleSlash",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/SnowTigerBeastman/BP_Action_Unique_SnowTigerBeastman_TrampleSlash.BP_Action_Unique_SnowTigerBeastman_TrampleSlash_C",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "HPGaugeUIOffset": {
+        "X": 10.0,
+        "Y": -50.0
+      },
+      "PettingSize": "EPalPettingSizeType::Large",
+      "PettingDistance": 110.0,
+      "PettingCameraArmLength_Override": 400.0,
+      "WaterEffectMap": [
+        {
+          "Key": "EPalWaterEffectType::SwimIdle",
+          "Value": {
+            "Effect": {
+              "ObjectName": "NiagaraSystem'NS_InWaterPal'",
+              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_InWaterPal.14"
+            },
+            "Offset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": 1.5
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PalStatusComponent",
+    "Name": "StatusComponent",
+    "Outer": "Default__BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'PalStatusComponent'",
+    "Template": {
+      "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalVisualEffectComponent",
+    "Name": "VisualEffectComponent",
+    "Outer": "Default__BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'PalVisualEffectComponent'",
+    "Template": {
+      "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_SnowTigerBeastman_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.31"
+      },
+      "VariableGuid": "A14BBC00-452785C1-1D3ABC90-586D5F26",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalSpeedCollisionComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalSpeedCollisionComponent'BP_SnowTigerBeastman_C:PalSpeedCollision_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.27"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "D142D5A9-430E14AC-938CA793-A7AA851C",
+      "InternalVariableName": "PalSpeedCollision"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_SnowTigerBeastman_C:PalBodyPartsCapsule_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.12"
+      },
+      "AttachToName": "head",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "2DEC6A87-484C3B84-A28AEA8B-D76D6B27",
+      "InternalVariableName": "PalBodyPartsCapsule"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_SnowTigerBeastman_C:PalBodyPartsCapsule1_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.7"
+      },
+      "AttachToName": "pelvis",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "D5F78C8B-44237F22-330C43B1-784ADD4B",
+      "InternalVariableName": "PalBodyPartsCapsule1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_SnowTigerBeastman_C:PalBodyPartsCapsule2_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.8"
+      },
+      "AttachToName": "lowerarm_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "5437A7F0-4CFC8EDB-5E3136B1-475FE40E",
+      "InternalVariableName": "PalBodyPartsCapsule2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_SnowTigerBeastman_C:PalBodyPartsCapsule3_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.9"
+      },
+      "AttachToName": "lowerarm_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "93FF0F26-4061258E-C8608A84-10B59984",
+      "InternalVariableName": "PalBodyPartsCapsule3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_SnowTigerBeastman_C:PalBodyPartsCapsule4_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.10"
+      },
+      "AttachToName": "thigh_01_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "E3861DC3-4B863028-C20B7DA7-CF994C75",
+      "InternalVariableName": "PalBodyPartsCapsule4"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_SnowTigerBeastman_C:PalBodyPartsCapsule5_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.11"
+      },
+      "AttachToName": "thigh_01_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8AD8A0F5-4AB881BE-CDC2EBAE-A71B4101",
+      "InternalVariableName": "PalBodyPartsCapsule5"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalShooterComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalShooterComponent'BP_SnowTigerBeastman_C:PalShooter_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.24"
+      },
+      "VariableGuid": "4C99ACF9-43A1EDC9-E6C125B8-A4B101FD",
+      "InternalVariableName": "PalShooter"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalRideMarkerComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalRideMarkerComponent'BP_SnowTigerBeastman_C:PalRideMarker_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.23"
+      },
+      "AttachToName": "head",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "B576178D-48654643-330BF68A-97058063",
+      "InternalVariableName": "PalRideMarker"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.33"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.33"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_SnowTigerBeastman_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.32"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "RagdollInteractiveSphere",
+    "Outer": "Default__BP_SnowTigerBeastman_C",
+    "Class": "UScriptClass'SphereComponent'",
+    "Template": {
+      "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_SnowTigerBeastman_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.3"
+      }
+    }
+  }
 ]

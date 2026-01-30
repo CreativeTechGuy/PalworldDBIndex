@@ -1,680 +1,680 @@
 [
-    {
-        "Type": "BlueprintGeneratedClass",
-        "Name": "BP_LazyDragon_Electric_C",
-        "Class": "UScriptClass'BlueprintGeneratedClass'",
-        "Super": {
-            "ObjectName": "BlueprintGeneratedClass'BP_LazyDragon_C'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.0"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "SimpleConstructionScript": {
-                "ObjectName": "SimpleConstructionScript'BP_LazyDragon_Electric_C:SimpleConstructionScript_0'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.27"
-            },
-            "InheritableComponentHandler": {
-                "ObjectName": "InheritableComponentHandler'BP_LazyDragon_Electric_C:InheritableComponentHandler'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.5"
-            }
-        },
-        "SuperStruct": {
-            "ObjectName": "BlueprintGeneratedClass'BP_LazyDragon_C'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.0"
-        },
-        "Children": [
-            {
-                "ObjectName": "Function'BP_LazyDragon_Electric_C:GetVisual_ExceptMainMesh_SyncAnyway'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.4"
-            }
-        ],
-        "ChildProperties": [
-            {
-                "Type": "ObjectProperty",
-                "Name": "BP_PalTimerPointLightComponent",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "BlueprintGeneratedClass'BP_PalTimerPointLightComponent_C'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.0"
-                }
-            }
-        ],
-        "FuncMap": {
-            "GetVisual_ExceptMainMesh_SyncAnyway": {
-                "ObjectName": "Function'BP_LazyDragon_Electric_C:GetVisual_ExceptMainMesh_SyncAnyway'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.4"
-            }
-        },
-        "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
-        "ClassWithin": {
-            "ObjectName": "Class'Object'",
-            "ObjectPath": "/Script/CoreUObject"
-        },
-        "ClassConfigName": "Game",
-        "bCooked": true,
-        "ClassDefaultObject": {
-            "ObjectName": "BP_LazyDragon_Electric_C'Default__BP_LazyDragon_Electric_C'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.1"
-        },
-        "EditorTags": {
-            "BlueprintType": "BPTYPE_Normal"
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_LazyDragon_Electric_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_LazyDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.0"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_LazyDragon_Electric_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.27"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_LazyDragon_Electric_C:InheritableComponentHandler'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_LazyDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.0"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_LazyDragon_Electric_C:GetVisual_ExceptMainMesh_SyncAnyway'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.4"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_PalTimerPointLightComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PalTimerPointLightComponent_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.0"
         }
+      }
+    ],
+    "FuncMap": {
+      "GetVisual_ExceptMainMesh_SyncAnyway": {
+        "ObjectName": "Function'BP_LazyDragon_Electric_C:GetVisual_ExceptMainMesh_SyncAnyway'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.4"
+      }
     },
-    {
-        "Type": "BP_LazyDragon_Electric_C",
-        "Name": "Default__BP_LazyDragon_Electric_C",
-        "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.BP_LazyDragon_Electric_C'",
-        "Template": {
-            "ObjectName": "BP_LazyDragon_C'Default__BP_LazyDragon_C'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.1"
-        },
-        "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "LiftupObjectComponent": {
-                "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_LazyDragon_Electric_C:Liftup'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.10"
-            },
-            "ActionComponent": {
-                "ObjectName": "PalActionComponent'Default__BP_LazyDragon_Electric_C:ActionComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.6"
-            },
-            "CharacterParameterComponent": {
-                "ObjectName": "PalCharacterParameterComponent'Default__BP_LazyDragon_Electric_C:CharacterParameterComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.12"
-            },
-            "StaticCharacterParameterComponent": {
-                "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_LazyDragon_Electric_C:StaticCharacterParameterComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.21"
-            },
-            "DamageReactionComponent": {
-                "ObjectName": "PalDamageReactionComponent'Default__BP_LazyDragon_Electric_C:DamageReactionComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.13"
-            },
-            "StatusComponent": {
-                "ObjectName": "PalStatusComponent'Default__BP_LazyDragon_Electric_C:StatusComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.22"
-            },
-            "CameraBoom": {
-                "ObjectName": "PalShooterSpringArmComponent'Default__BP_LazyDragon_Electric_C:CameraBoom'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.19"
-            },
-            "FollowCamera": {
-                "ObjectName": "PalCharacterCameraComponent'Default__BP_LazyDragon_Electric_C:FollowCamera'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.9"
-            },
-            "LookAtComponent": {
-                "ObjectName": "PalLookAtComponent'Default__BP_LazyDragon_Electric_C:LookAtComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.15"
-            },
-            "FootIKComponent": {
-                "ObjectName": "PalFootIKComponent'Default__BP_LazyDragon_Electric_C:FootIKComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.14"
-            },
-            "VisualEffectComponent": {
-                "ObjectName": "PalVisualEffectComponent'Default__BP_LazyDragon_Electric_C:VisualEffectComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.23"
-            },
-            "PassiveSkillComponent": {
-                "ObjectName": "PalPassiveSkillComponent'Default__BP_LazyDragon_Electric_C:PassiveSkillComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.17"
-            },
-            "AnimNotifyComponent": {
-                "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_LazyDragon_Electric_C:AnimNotifyComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.7"
-            },
-            "AroundInfoCollectorComponent": {
-                "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_LazyDragon_Electric_C:AroundInfoCollectorComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.8"
-            },
-            "RagdollInteractiveSphere": {
-                "ObjectName": "SphereComponent'Default__BP_LazyDragon_Electric_C:RagdollInteractiveSphere'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.28"
-            },
-            "Mesh": {
-                "ObjectName": "PalSkeletalMeshComponent'Default__BP_LazyDragon_Electric_C:CharacterMesh0'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.20"
-            },
-            "CharacterMovement": {
-                "ObjectName": "PalCharacterMovementComponent'Default__BP_LazyDragon_Electric_C:CharMoveComp'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.11"
-            },
-            "CapsuleComponent": {
-                "ObjectName": "CapsuleComponent'Default__BP_LazyDragon_Electric_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.3"
-            },
-            "RootComponent": {
-                "ObjectName": "CapsuleComponent'Default__BP_LazyDragon_Electric_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.3"
-            }
-        }
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
     },
-    {
-        "Type": "BP_PalTimerPointLightComponent_C",
-        "Name": "BP_PalTimerPointLightComponent_GEN_VARIABLE",
-        "Outer": "BP_LazyDragon_Electric_C",
-        "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.BP_PalTimerPointLightComponent_C'",
-        "Template": {
-            "ObjectName": "BP_PalTimerPointLightComponent_C'Default__BP_PalTimerPointLightComponent_C'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.1"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "bUseInverseSquaredFalloff": false,
-            "SourceRadius": 750.0,
-            "SoftSourceRadius": 750.0,
-            "InverseExposureBlend": 1.0,
-            "AttenuationRadius": 1300.0,
-            "Intensity": 20.0,
-            "LightColor": {
-                "B": 64,
-                "G": 115,
-                "R": 129,
-                "A": 255,
-                "Hex": "817340"
-            },
-            "RelativeLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 560.0
-            },
-            "RelativeRotation": {
-                "Pitch": -0.0,
-                "Yaw": -1.2722219e-14,
-                "Roll": 0.0
-            }
-        },
-        "RelativeRotation": {
-            "Pitch": -0.0,
-            "Yaw": -1.2722219e-14,
-            "Roll": 0.0
-        },
-        "RelativeLocation": {
-            "X": 0.0,
-            "Y": 0.0,
-            "Z": 560.0
-        },
-        "IntensityNits": 20.0,
-        "bUseInverseSquaredFalloff": false
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_LazyDragon_Electric_C'Default__BP_LazyDragon_Electric_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.1"
     },
-    {
-        "Type": "CapsuleComponent",
-        "Name": "CollisionCylinder",
-        "Outer": "Default__BP_LazyDragon_Electric_C",
-        "Class": "UScriptClass'CapsuleComponent'",
-        "Template": {
-            "ObjectName": "CapsuleComponent'Default__BP_LazyDragon_C:CollisionCylinder'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.3"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "Function",
-        "Name": "GetVisual_ExceptMainMesh_SyncAnyway",
-        "Outer": "BP_LazyDragon_Electric_C",
-        "Class": "UScriptClass'Function'",
-        "Super": {
-            "ObjectName": "Function'BP_MonsterBase_C:GetVisual_ExceptMainMesh_SyncAnyway'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.15"
-        },
-        "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
-        "SuperStruct": {
-            "ObjectName": "Function'BP_MonsterBase_C:GetVisual_ExceptMainMesh_SyncAnyway'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.15"
-        },
-        "ChildProperties": [
-            {
-                "Type": "ArrayProperty",
-                "Name": "OutComponent",
-                "Flags": "RF_Public",
-                "ElementSize": 16,
-                "PropertyFlags": "Parm | OutParm | ContainsInstancedReference",
-                "Inner": {
-                    "Type": "ObjectProperty",
-                    "Name": "OutComponent",
-                    "Flags": "RF_Public",
-                    "ElementSize": 8,
-                    "PropertyFlags": "InstancedReference",
-                    "PropertyClass": {
-                        "ObjectName": "Class'SceneComponent'",
-                        "ObjectPath": "/Script/Engine"
-                    }
-                }
-            },
-            {
-                "Type": "ArrayProperty",
-                "Name": "NewLocalVar",
-                "Flags": "RF_Public",
-                "ElementSize": 16,
-                "PropertyFlags": "Edit | BlueprintVisible | ContainsInstancedReference",
-                "Inner": {
-                    "Type": "ObjectProperty",
-                    "Name": "NewLocalVar",
-                    "Flags": "RF_Public",
-                    "ElementSize": 8,
-                    "PropertyFlags": "InstancedReference",
-                    "PropertyClass": {
-                        "ObjectName": "Class'SceneComponent'",
-                        "ObjectPath": "/Script/Engine"
-                    }
-                }
-            },
-            {
-                "Type": "IntProperty",
-                "Name": "CallFunc_Array_Add_ReturnValue",
-                "Flags": "RF_Public",
-                "ElementSize": 4
-            }
-        ],
-        "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
-    },
-    {
-        "Type": "InheritableComponentHandler",
-        "Name": "InheritableComponentHandler",
-        "Outer": "BP_LazyDragon_Electric_C",
-        "Class": "UScriptClass'InheritableComponentHandler'",
-        "Flags": "RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "Records": [
-                {
-                    "ComponentClass": {
-                        "ObjectName": "Class'PalRideMarkerComponent'",
-                        "ObjectPath": "/Script/Pal"
-                    },
-                    "ComponentTemplate": {
-                        "ObjectName": "PalRideMarkerComponent'BP_LazyDragon_Electric_C:PalRideMarker_GEN_VARIABLE'",
-                        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.18"
-                    },
-                    "ComponentKey": {
-                        "OwnerClass": {
-                            "ObjectName": "BlueprintGeneratedClass'BP_LazyDragon_C'",
-                            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.0"
-                        },
-                        "SCSVariableName": "PalRideMarker",
-                        "AssociatedGuid": "65C18BE9-413AA8E3-3F1C5DAC-7653E387"
-                    },
-                    "CookedComponentInstancingData": {
-                        "ChangedPropertyList": [],
-                        "bHasValidCookedData": false
-                    }
-                },
-                {
-                    "ComponentClass": {
-                        "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-                        "ObjectPath": "/Script/Pal"
-                    },
-                    "ComponentTemplate": {
-                        "ObjectName": "PalPartnerSkillParameterComponent'BP_LazyDragon_Electric_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-                        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.16"
-                    },
-                    "ComponentKey": {
-                        "OwnerClass": {
-                            "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-                            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-                        },
-                        "SCSVariableName": "PalPartnerSkillParameter",
-                        "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
-                    },
-                    "CookedComponentInstancingData": {
-                        "ChangedPropertyList": [],
-                        "bHasValidCookedData": false
-                    }
-                }
-            ]
-        }
-    },
-    {
-        "Type": "PalActionComponent",
-        "Name": "ActionComponent",
-        "Outer": "Default__BP_LazyDragon_Electric_C",
-        "Class": "UScriptClass'PalActionComponent'",
-        "Template": {
-            "ObjectName": "PalActionComponent'Default__BP_LazyDragon_C:ActionComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.9"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalAnimNotifyParameterComponent",
-        "Name": "AnimNotifyComponent",
-        "Outer": "Default__BP_LazyDragon_Electric_C",
-        "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
-        "Template": {
-            "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_LazyDragon_C:AnimNotifyComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.10"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalCharacterAroundInfoCollectorComponent",
-        "Name": "AroundInfoCollectorComponent",
-        "Outer": "Default__BP_LazyDragon_Electric_C",
-        "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
-        "Template": {
-            "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_LazyDragon_C:AroundInfoCollectorComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.14"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AttachParent": {
-                "ObjectName": "CapsuleComponent'Default__BP_LazyDragon_Electric_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.3"
-            }
-        }
-    },
-    {
-        "Type": "PalCharacterCameraComponent",
-        "Name": "FollowCamera",
-        "Outer": "Default__BP_LazyDragon_Electric_C",
-        "Class": "UScriptClass'PalCharacterCameraComponent'",
-        "Template": {
-            "ObjectName": "PalCharacterCameraComponent'Default__BP_LazyDragon_C:FollowCamera'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.15"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AttachParent": {
-                "ObjectName": "PalShooterSpringArmComponent'Default__BP_LazyDragon_Electric_C:CameraBoom'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.19"
-            },
-            "RelativeLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-            }
-        }
-    },
-    {
-        "Type": "PalCharacterLiftupObjectComponent",
-        "Name": "Liftup",
-        "Outer": "Default__BP_LazyDragon_Electric_C",
-        "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
-        "Template": {
-            "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_LazyDragon_C:Liftup'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.16"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalCharacterMovementComponent",
-        "Name": "CharMoveComp",
-        "Outer": "Default__BP_LazyDragon_Electric_C",
-        "Class": "UScriptClass'PalCharacterMovementComponent'",
-        "Template": {
-            "ObjectName": "PalCharacterMovementComponent'Default__BP_LazyDragon_C:CharMoveComp'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.17"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalCharacterParameterComponent",
-        "Name": "CharacterParameterComponent",
-        "Outer": "Default__BP_LazyDragon_Electric_C",
-        "Class": "UScriptClass'PalCharacterParameterComponent'",
-        "Template": {
-            "ObjectName": "PalCharacterParameterComponent'Default__BP_LazyDragon_C:CharacterParameterComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.18"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalDamageReactionComponent",
-        "Name": "DamageReactionComponent",
-        "Outer": "Default__BP_LazyDragon_Electric_C",
-        "Class": "UScriptClass'PalDamageReactionComponent'",
-        "Template": {
-            "ObjectName": "PalDamageReactionComponent'Default__BP_LazyDragon_C:DamageReactionComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.19"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalFootIKComponent",
-        "Name": "FootIKComponent",
-        "Outer": "Default__BP_LazyDragon_Electric_C",
-        "Class": "UScriptClass'PalFootIKComponent'",
-        "Template": {
-            "ObjectName": "PalFootIKComponent'Default__BP_LazyDragon_C:FootIKComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.20"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalLookAtComponent",
-        "Name": "LookAtComponent",
-        "Outer": "Default__BP_LazyDragon_Electric_C",
-        "Class": "UScriptClass'PalLookAtComponent'",
-        "Template": {
-            "ObjectName": "PalLookAtComponent'Default__BP_LazyDragon_C:LookAtComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.22"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalPartnerSkillParameterComponent",
-        "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-        "Outer": "BP_LazyDragon_Electric_C",
-        "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-        "Template": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_LazyDragon_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.23"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-        "Properties": {
-            "RestrictionItems": [
-                {
-                    "Key": "SkillUnlock_LazyDragon_Electric"
-                }
-            ]
-        }
-    },
-    {
-        "Type": "PalPassiveSkillComponent",
-        "Name": "PassiveSkillComponent",
-        "Outer": "Default__BP_LazyDragon_Electric_C",
-        "Class": "UScriptClass'PalPassiveSkillComponent'",
-        "Template": {
-            "ObjectName": "PalPassiveSkillComponent'Default__BP_LazyDragon_C:PassiveSkillComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.24"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalRideMarkerComponent",
-        "Name": "PalRideMarker_GEN_VARIABLE",
-        "Outer": "BP_LazyDragon_Electric_C",
-        "Class": "UScriptClass'PalRideMarkerComponent'",
-        "Template": {
-            "ObjectName": "PalRideMarkerComponent'BP_LazyDragon_C:PalRideMarker_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.25"
-        },
-        "Flags": "RF_Public | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-        "Properties": {
-            "bEvaluateWorldPositionOffsetInRayTracing": true
-        }
-    },
-    {
-        "Type": "PalShooterSpringArmComponent",
-        "Name": "CameraBoom",
-        "Outer": "Default__BP_LazyDragon_Electric_C",
-        "Class": "UScriptClass'PalShooterSpringArmComponent'",
-        "Template": {
-            "ObjectName": "PalShooterSpringArmComponent'Default__BP_LazyDragon_C:CameraBoom'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.27"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AttachParent": {
-                "ObjectName": "CapsuleComponent'Default__BP_LazyDragon_Electric_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.3"
-            },
-            "RelativeLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 190.0
-            }
-        }
-    },
-    {
-        "Type": "PalSkeletalMeshComponent",
-        "Name": "CharacterMesh0",
-        "Outer": "Default__BP_LazyDragon_Electric_C",
-        "Class": "UScriptClass'PalSkeletalMeshComponent'",
-        "Template": {
-            "ObjectName": "PalSkeletalMeshComponent'Default__BP_LazyDragon_C:CharacterMesh0'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.28"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "SkeletalMesh": {
-                "ObjectName": "SkeletalMesh'SK_LazyDragon_Electric'",
-                "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/LazyDragon/SK_LazyDragon_Electric.0"
-            },
-            "SkinnedAsset": {
-                "ObjectName": "SkeletalMesh'SK_LazyDragon_Electric'",
-                "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/LazyDragon/SK_LazyDragon_Electric.0"
-            },
-            "AttachParent": {
-                "ObjectName": "CapsuleComponent'Default__BP_LazyDragon_Electric_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.3"
-            }
-        }
-    },
-    {
-        "Type": "PalStaticCharacterParameterComponent",
-        "Name": "StaticCharacterParameterComponent",
-        "Outer": "Default__BP_LazyDragon_Electric_C",
-        "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
-        "Template": {
-            "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_LazyDragon_C:StaticCharacterParameterComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.30"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "MeshCapsuleHalfHeight": 220.0,
-            "MeshRelativeLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": -220.0
-            },
-            "ElectricActionInfo": {
-                "ActionLoopOverwrite": {
-                    "ObjectName": "AnimMontage'AM_LazyDragon_FarSkill_ActionLoop'",
-                    "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LazyDragon/AM_LazyDragon_FarSkill_ActionLoop.0"
-                }
-            }
-        }
-    },
-    {
-        "Type": "PalStatusComponent",
-        "Name": "StatusComponent",
-        "Outer": "Default__BP_LazyDragon_Electric_C",
-        "Class": "UScriptClass'PalStatusComponent'",
-        "Template": {
-            "ObjectName": "PalStatusComponent'Default__BP_LazyDragon_C:StatusComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.31"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalVisualEffectComponent",
-        "Name": "VisualEffectComponent",
-        "Outer": "Default__BP_LazyDragon_Electric_C",
-        "Class": "UScriptClass'PalVisualEffectComponent'",
-        "Template": {
-            "ObjectName": "PalVisualEffectComponent'Default__BP_LazyDragon_C:VisualEffectComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.32"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "SceneComponent",
-        "Name": "DefaultSceneRoot_GEN_VARIABLE",
-        "Outer": "BP_LazyDragon_Electric_C",
-        "Class": "UScriptClass'SceneComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_0",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'SceneComponent'",
-                "ObjectPath": "/Script/Engine"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "SceneComponent'BP_LazyDragon_Electric_C:DefaultSceneRoot_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.24"
-            },
-            "VariableGuid": "360F0C50-4A30367D-B1408D92-14D97015",
-            "InternalVariableName": "DefaultSceneRoot"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_1",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "BlueprintGeneratedClass'BP_PalTimerPointLightComponent_C'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.0"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "BP_PalTimerPointLightComponent_C'BP_LazyDragon_Electric_C:BP_PalTimerPointLightComponent_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.2"
-            },
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "2E313CAE-416E98AB-5BC42F81-C8B1CF98",
-            "InternalVariableName": "BP_PalTimerPointLightComponent"
-        }
-    },
-    {
-        "Type": "SimpleConstructionScript",
-        "Name": "SimpleConstructionScript_0",
-        "Outer": "BP_LazyDragon_Electric_C",
-        "Class": "UScriptClass'SimpleConstructionScript'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "RootNodes": [
-                {
-                    "ObjectName": "SCS_Node'BP_LazyDragon_Electric_C:SimpleConstructionScript_0.SCS_Node_1'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.26"
-                }
-            ],
-            "AllNodes": [
-                {
-                    "ObjectName": "SCS_Node'BP_LazyDragon_Electric_C:SimpleConstructionScript_0.SCS_Node_1'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.26"
-                }
-            ],
-            "DefaultSceneRootNode": {
-                "ObjectName": "SCS_Node'BP_LazyDragon_Electric_C:SimpleConstructionScript_0.SCS_Node_0'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.25"
-            }
-        }
-    },
-    {
-        "Type": "SphereComponent",
-        "Name": "RagdollInteractiveSphere",
-        "Outer": "Default__BP_LazyDragon_Electric_C",
-        "Class": "UScriptClass'SphereComponent'",
-        "Template": {
-            "ObjectName": "SphereComponent'Default__BP_LazyDragon_C:RagdollInteractiveSphere'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.42"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AttachParent": {
-                "ObjectName": "CapsuleComponent'Default__BP_LazyDragon_Electric_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.3"
-            }
-        }
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
     }
+  },
+  {
+    "Type": "BP_LazyDragon_Electric_C",
+    "Name": "Default__BP_LazyDragon_Electric_C",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.BP_LazyDragon_Electric_C'",
+    "Template": {
+      "ObjectName": "BP_LazyDragon_C'Default__BP_LazyDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.1"
+    },
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LiftupObjectComponent": {
+        "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_LazyDragon_Electric_C:Liftup'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.10"
+      },
+      "ActionComponent": {
+        "ObjectName": "PalActionComponent'Default__BP_LazyDragon_Electric_C:ActionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.6"
+      },
+      "CharacterParameterComponent": {
+        "ObjectName": "PalCharacterParameterComponent'Default__BP_LazyDragon_Electric_C:CharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.12"
+      },
+      "StaticCharacterParameterComponent": {
+        "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_LazyDragon_Electric_C:StaticCharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.21"
+      },
+      "DamageReactionComponent": {
+        "ObjectName": "PalDamageReactionComponent'Default__BP_LazyDragon_Electric_C:DamageReactionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.13"
+      },
+      "StatusComponent": {
+        "ObjectName": "PalStatusComponent'Default__BP_LazyDragon_Electric_C:StatusComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.22"
+      },
+      "CameraBoom": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_LazyDragon_Electric_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.19"
+      },
+      "FollowCamera": {
+        "ObjectName": "PalCharacterCameraComponent'Default__BP_LazyDragon_Electric_C:FollowCamera'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.9"
+      },
+      "LookAtComponent": {
+        "ObjectName": "PalLookAtComponent'Default__BP_LazyDragon_Electric_C:LookAtComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.15"
+      },
+      "FootIKComponent": {
+        "ObjectName": "PalFootIKComponent'Default__BP_LazyDragon_Electric_C:FootIKComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.14"
+      },
+      "VisualEffectComponent": {
+        "ObjectName": "PalVisualEffectComponent'Default__BP_LazyDragon_Electric_C:VisualEffectComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.23"
+      },
+      "PassiveSkillComponent": {
+        "ObjectName": "PalPassiveSkillComponent'Default__BP_LazyDragon_Electric_C:PassiveSkillComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.17"
+      },
+      "AnimNotifyComponent": {
+        "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_LazyDragon_Electric_C:AnimNotifyComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.7"
+      },
+      "AroundInfoCollectorComponent": {
+        "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_LazyDragon_Electric_C:AroundInfoCollectorComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.8"
+      },
+      "RagdollInteractiveSphere": {
+        "ObjectName": "SphereComponent'Default__BP_LazyDragon_Electric_C:RagdollInteractiveSphere'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.28"
+      },
+      "Mesh": {
+        "ObjectName": "PalSkeletalMeshComponent'Default__BP_LazyDragon_Electric_C:CharacterMesh0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.20"
+      },
+      "CharacterMovement": {
+        "ObjectName": "PalCharacterMovementComponent'Default__BP_LazyDragon_Electric_C:CharMoveComp'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.11"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_LazyDragon_Electric_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.3"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_LazyDragon_Electric_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.3"
+      }
+    }
+  },
+  {
+    "Type": "BP_PalTimerPointLightComponent_C",
+    "Name": "BP_PalTimerPointLightComponent_GEN_VARIABLE",
+    "Outer": "BP_LazyDragon_Electric_C",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.BP_PalTimerPointLightComponent_C'",
+    "Template": {
+      "ObjectName": "BP_PalTimerPointLightComponent_C'Default__BP_PalTimerPointLightComponent_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bUseInverseSquaredFalloff": false,
+      "SourceRadius": 750.0,
+      "SoftSourceRadius": 750.0,
+      "InverseExposureBlend": 1.0,
+      "AttenuationRadius": 1300.0,
+      "Intensity": 20.0,
+      "LightColor": {
+        "B": 64,
+        "G": 115,
+        "R": 129,
+        "A": 255,
+        "Hex": "817340"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 560.0
+      },
+      "RelativeRotation": {
+        "Pitch": -0.0,
+        "Yaw": -1.2722219E-14,
+        "Roll": 0.0
+      }
+    },
+    "RelativeRotation": {
+      "Pitch": -0.0,
+      "Yaw": -1.2722219E-14,
+      "Roll": 0.0
+    },
+    "RelativeLocation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 560.0
+    },
+    "IntensityNits": 20.0,
+    "bUseInverseSquaredFalloff": false
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": "Default__BP_LazyDragon_Electric_C",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_LazyDragon_C:CollisionCylinder'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.3"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "Function",
+    "Name": "GetVisual_ExceptMainMesh_SyncAnyway",
+    "Outer": "BP_LazyDragon_Electric_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'BP_MonsterBase_C:GetVisual_ExceptMainMesh_SyncAnyway'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.15"
+    },
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'BP_MonsterBase_C:GetVisual_ExceptMainMesh_SyncAnyway'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.15"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ArrayProperty",
+        "Name": "OutComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "Parm | OutParm | ContainsInstancedReference",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "OutComponent",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "InstancedReference",
+          "PropertyClass": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "NewLocalVar",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | ContainsInstancedReference",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "NewLocalVar",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "InstancedReference",
+          "PropertyClass": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Add_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": "BP_LazyDragon_Electric_C",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'PalRideMarkerComponent'",
+            "ObjectPath": "/Script/Pal"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "PalRideMarkerComponent'BP_LazyDragon_Electric_C:PalRideMarker_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.18"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_LazyDragon_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.0"
+            },
+            "SCSVariableName": "PalRideMarker",
+            "AssociatedGuid": "65C18BE9-413AA8E3-3F1C5DAC-7653E387"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
+            "ObjectPath": "/Script/Pal"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "PalPartnerSkillParameterComponent'BP_LazyDragon_Electric_C:PalPartnerSkillParameter_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.16"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+            },
+            "SCSVariableName": "PalPartnerSkillParameter",
+            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PalActionComponent",
+    "Name": "ActionComponent",
+    "Outer": "Default__BP_LazyDragon_Electric_C",
+    "Class": "UScriptClass'PalActionComponent'",
+    "Template": {
+      "ObjectName": "PalActionComponent'Default__BP_LazyDragon_C:ActionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.9"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalAnimNotifyParameterComponent",
+    "Name": "AnimNotifyComponent",
+    "Outer": "Default__BP_LazyDragon_Electric_C",
+    "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+    "Template": {
+      "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_LazyDragon_C:AnimNotifyComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.10"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalCharacterAroundInfoCollectorComponent",
+    "Name": "AroundInfoCollectorComponent",
+    "Outer": "Default__BP_LazyDragon_Electric_C",
+    "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+    "Template": {
+      "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_LazyDragon_C:AroundInfoCollectorComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.14"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_LazyDragon_Electric_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.3"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterCameraComponent",
+    "Name": "FollowCamera",
+    "Outer": "Default__BP_LazyDragon_Electric_C",
+    "Class": "UScriptClass'PalCharacterCameraComponent'",
+    "Template": {
+      "ObjectName": "PalCharacterCameraComponent'Default__BP_LazyDragon_C:FollowCamera'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.15"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_LazyDragon_Electric_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.19"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterLiftupObjectComponent",
+    "Name": "Liftup",
+    "Outer": "Default__BP_LazyDragon_Electric_C",
+    "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+    "Template": {
+      "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_LazyDragon_C:Liftup'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.16"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalCharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Outer": "Default__BP_LazyDragon_Electric_C",
+    "Class": "UScriptClass'PalCharacterMovementComponent'",
+    "Template": {
+      "ObjectName": "PalCharacterMovementComponent'Default__BP_LazyDragon_C:CharMoveComp'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.17"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalCharacterParameterComponent",
+    "Name": "CharacterParameterComponent",
+    "Outer": "Default__BP_LazyDragon_Electric_C",
+    "Class": "UScriptClass'PalCharacterParameterComponent'",
+    "Template": {
+      "ObjectName": "PalCharacterParameterComponent'Default__BP_LazyDragon_C:CharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.18"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalDamageReactionComponent",
+    "Name": "DamageReactionComponent",
+    "Outer": "Default__BP_LazyDragon_Electric_C",
+    "Class": "UScriptClass'PalDamageReactionComponent'",
+    "Template": {
+      "ObjectName": "PalDamageReactionComponent'Default__BP_LazyDragon_C:DamageReactionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.19"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalFootIKComponent",
+    "Name": "FootIKComponent",
+    "Outer": "Default__BP_LazyDragon_Electric_C",
+    "Class": "UScriptClass'PalFootIKComponent'",
+    "Template": {
+      "ObjectName": "PalFootIKComponent'Default__BP_LazyDragon_C:FootIKComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.20"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalLookAtComponent",
+    "Name": "LookAtComponent",
+    "Outer": "Default__BP_LazyDragon_Electric_C",
+    "Class": "UScriptClass'PalLookAtComponent'",
+    "Template": {
+      "ObjectName": "PalLookAtComponent'Default__BP_LazyDragon_C:LookAtComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.22"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalPartnerSkillParameterComponent",
+    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
+    "Outer": "BP_LazyDragon_Electric_C",
+    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
+    "Template": {
+      "ObjectName": "PalPartnerSkillParameterComponent'BP_LazyDragon_C:PalPartnerSkillParameter_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.23"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Properties": {
+      "RestrictionItems": [
+        {
+          "Key": "SkillUnlock_LazyDragon_Electric"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PalPassiveSkillComponent",
+    "Name": "PassiveSkillComponent",
+    "Outer": "Default__BP_LazyDragon_Electric_C",
+    "Class": "UScriptClass'PalPassiveSkillComponent'",
+    "Template": {
+      "ObjectName": "PalPassiveSkillComponent'Default__BP_LazyDragon_C:PassiveSkillComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.24"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalRideMarkerComponent",
+    "Name": "PalRideMarker_GEN_VARIABLE",
+    "Outer": "BP_LazyDragon_Electric_C",
+    "Class": "UScriptClass'PalRideMarkerComponent'",
+    "Template": {
+      "ObjectName": "PalRideMarkerComponent'BP_LazyDragon_C:PalRideMarker_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.25"
+    },
+    "Flags": "RF_Public | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Properties": {
+      "bEvaluateWorldPositionOffsetInRayTracing": true
+    }
+  },
+  {
+    "Type": "PalShooterSpringArmComponent",
+    "Name": "CameraBoom",
+    "Outer": "Default__BP_LazyDragon_Electric_C",
+    "Class": "UScriptClass'PalShooterSpringArmComponent'",
+    "Template": {
+      "ObjectName": "PalShooterSpringArmComponent'Default__BP_LazyDragon_C:CameraBoom'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.27"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_LazyDragon_Electric_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 190.0
+      }
+    }
+  },
+  {
+    "Type": "PalSkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Outer": "Default__BP_LazyDragon_Electric_C",
+    "Class": "UScriptClass'PalSkeletalMeshComponent'",
+    "Template": {
+      "ObjectName": "PalSkeletalMeshComponent'Default__BP_LazyDragon_C:CharacterMesh0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.28"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_LazyDragon_Electric'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/LazyDragon/SK_LazyDragon_Electric.0"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_LazyDragon_Electric'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/LazyDragon/SK_LazyDragon_Electric.0"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_LazyDragon_Electric_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.3"
+      }
+    }
+  },
+  {
+    "Type": "PalStaticCharacterParameterComponent",
+    "Name": "StaticCharacterParameterComponent",
+    "Outer": "Default__BP_LazyDragon_Electric_C",
+    "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+    "Template": {
+      "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_LazyDragon_C:StaticCharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.30"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MeshCapsuleHalfHeight": 220.0,
+      "MeshRelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -220.0
+      },
+      "ElectricActionInfo": {
+        "ActionLoopOverwrite": {
+          "ObjectName": "AnimMontage'AM_LazyDragon_FarSkill_ActionLoop'",
+          "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LazyDragon/AM_LazyDragon_FarSkill_ActionLoop.0"
+        }
+      }
+    }
+  },
+  {
+    "Type": "PalStatusComponent",
+    "Name": "StatusComponent",
+    "Outer": "Default__BP_LazyDragon_Electric_C",
+    "Class": "UScriptClass'PalStatusComponent'",
+    "Template": {
+      "ObjectName": "PalStatusComponent'Default__BP_LazyDragon_C:StatusComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.31"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalVisualEffectComponent",
+    "Name": "VisualEffectComponent",
+    "Outer": "Default__BP_LazyDragon_Electric_C",
+    "Class": "UScriptClass'PalVisualEffectComponent'",
+    "Template": {
+      "ObjectName": "PalVisualEffectComponent'Default__BP_LazyDragon_C:VisualEffectComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.32"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_LazyDragon_Electric_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_LazyDragon_Electric_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.24"
+      },
+      "VariableGuid": "360F0C50-4A30367D-B1408D92-14D97015",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PalTimerPointLightComponent_C'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_PalTimerPointLightComponent_C'BP_LazyDragon_Electric_C:BP_PalTimerPointLightComponent_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.2"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "2E313CAE-416E98AB-5BC42F81-C8B1CF98",
+      "InternalVariableName": "BP_PalTimerPointLightComponent"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_LazyDragon_Electric_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_LazyDragon_Electric_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.26"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_LazyDragon_Electric_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.26"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_LazyDragon_Electric_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.25"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "RagdollInteractiveSphere",
+    "Outer": "Default__BP_LazyDragon_Electric_C",
+    "Class": "UScriptClass'SphereComponent'",
+    "Template": {
+      "ObjectName": "SphereComponent'Default__BP_LazyDragon_C:RagdollInteractiveSphere'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.42"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_LazyDragon_Electric_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon_Electric.3"
+      }
+    }
+  }
 ]

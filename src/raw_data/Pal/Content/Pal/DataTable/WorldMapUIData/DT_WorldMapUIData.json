@@ -1,60 +1,60 @@
 [
-    {
-        "Type": "DataTable",
-        "Name": "DT_WorldMapUIData",
-        "Class": "UScriptClass'DataTable'",
-        "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "RowStruct": {
-                "ObjectName": "ScriptStruct'PalWorldMapUIDataTableRow'",
-                "ObjectPath": "/Script/Pal"
-            }
+  {
+    "Type": "DataTable",
+    "Name": "DT_WorldMapUIData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalWorldMapUIDataTableRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "MainMap": {
+        "minMapTextureBlockSize": {
+          "X": 8192.0,
+          "Y": 8192.0
         },
-        "Rows": {
-            "MainMap": {
-                "minMapTextureBlockSize": {
-                    "X": 8192.0,
-                    "Y": 8192.0
-                },
-                "mapBlockNum": {
-                    "X": 1.0,
-                    "Y": 1.0
-                },
-                "landScapeRealPositionMin": {
-                    "X": -999940.0,
-                    "Y": -738920.0,
-                    "Z": 1.0
-                },
-                "landScapeRealPositionMax": {
-                    "X": 447900.0,
-                    "Y": 708920.0,
-                    "Z": 1.0
-                },
-                "textureDataMap": [
-                    {
-                        "Key": "FirstRegion",
-                        "Value": {
-                            "Texture": {
-                                "AssetPathName": "/Game/Pal/Texture/UI/Map/T_WorldMap.T_WorldMap",
-                                "SubPathString": ""
-                            },
-                            "blockSize": {
-                                "X": 1.0,
-                                "Y": 1.0
-                            },
-                            "gridPosition": {
-                                "X": 0.0,
-                                "Y": 0.0
-                            },
-                            "regionNameMsgId": "None"
-                        }
-                    }
-                ],
-                "DefaultMaskTexture": {
-                    "AssetPathName": "/Game/Pal/Texture/UI/Map/T_MainWorld5_DefaultMask.T_MainWorld5_DefaultMask",
-                    "SubPathString": ""
-                }
+        "mapBlockNum": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "landScapeRealPositionMin": {
+          "X": -999940.0,
+          "Y": -738920.0,
+          "Z": 1.0
+        },
+        "landScapeRealPositionMax": {
+          "X": 447900.0,
+          "Y": 708920.0,
+          "Z": 1.0
+        },
+        "textureDataMap": [
+          {
+            "Key": "FirstRegion",
+            "Value": {
+              "Texture": {
+                "AssetPathName": "/Game/Pal/Texture/UI/Map/T_WorldMap.T_WorldMap",
+                "SubPathString": ""
+              },
+              "blockSize": {
+                "X": 1.0,
+                "Y": 1.0
+              },
+              "gridPosition": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "regionNameMsgId": "None"
             }
+          }
+        ],
+        "DefaultMaskTexture": {
+          "AssetPathName": "/Game/Pal/Texture/UI/Map/T_MainWorld5_DefaultMask.T_MainWorld5_DefaultMask",
+          "SubPathString": ""
         }
+      }
     }
+  }
 ]

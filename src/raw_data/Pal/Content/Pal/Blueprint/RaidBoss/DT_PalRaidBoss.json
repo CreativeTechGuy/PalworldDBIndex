@@ -1,2082 +1,2106 @@
 [
-    {
-        "Type": "CompositeDataTable",
-        "Name": "DT_PalRaidBoss",
-        "Class": "UScriptClass'CompositeDataTable'",
-        "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ParentTables": [
-                {
-                    "ObjectName": "DataTable'DT_PalRaidBoss_Common'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/RaidBoss/DT_PalRaidBoss_Common.0"
-                }
-            ],
-            "RowStruct": {
-                "ObjectName": "ScriptStruct'PalRaidBossDataRow'",
-                "ObjectPath": "/Script/Pal"
-            }
-        },
-        "Rows": {
-            "PalSummon_NightLady": {
-                "InfoList": [
-                    {
-                        "PalId": {
-                            "Key": "RAID_NightLady"
-                        },
-                        "Level": 30,
-                        "WarpWazaID": "EPalWazaID::Unique_NightLady_WarpBeam_Straight",
-                        "BaseCampAttackWazaIDs": ["EPalWazaID::Unique_NightLady_WarpBeam_Straight"],
-                        "OverrideInitialElement1": "EPalElementType::None",
-                        "OverrideInitialElement2": "EPalElementType::None",
-                        "CanModeChange": false,
-                        "IgnoreLargeDown": false,
-                        "ModeChange_AddStatusToAllWhenModeChgange": "EPalStatusID::None",
-                        "ModeChange_Element1": "EPalElementType::None",
-                        "ModeChange_Element2": "EPalElementType::None",
-                        "ModeChange_AddPassiveSkill": [],
-                        "ModeChange_AddWaza": [],
-                        "ModeChange_RemoveWaza": [],
-                        "AIControllerClass": null
-                    }
-                ],
-                "SummonMeteor_Num": [],
-                "SummonGeneratorClass": null,
-                "EggPalIDAndWeight": [
-                    {
-                        "Key": {
-                            "Key": "BOSS_NightLady"
-                        },
-                        "Value": 0.1
-                    },
-                    {
-                        "Key": {
-                            "Key": "NightLady"
-                        },
-                        "Value": 0.9
-                    }
-                ],
-                "SuccessItemList": [
-                    {
-                        "ItemName": {
-                            "Key": "Accessory_HeatColdResist_2"
-                        },
-                        "Rate": 100.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "ExpBoost_04"
-                        },
-                        "Rate": 100.0,
-                        "Min": 1,
-                        "Max": 3
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "AncientParts2"
-                        },
-                        "Rate": 100.0,
-                        "Min": 1,
-                        "Max": 1
-                    }
-                ],
-                "SuccessAnyOneItemList": [
-                    {
-                        "ItemName": {
-                            "Key": "PalCrystal_Ex"
-                        },
-                        "Num": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Ruby"
-                        },
-                        "Num": 3
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "LvUP_01"
-                        },
-                        "Num": 1
-                    }
-                ],
-                "AchievementId": "11",
-                "OverrideRaidBossBattleActorClass": null
-            },
-            "PalSummon_NightLady_Dark": {
-                "InfoList": [
-                    {
-                        "PalId": {
-                            "Key": "RAID_NightLady_Dark"
-                        },
-                        "Level": 50,
-                        "WarpWazaID": "EPalWazaID::Unique_NightLady_WarpBeam",
-                        "BaseCampAttackWazaIDs": [
-                            "EPalWazaID::Unique_NightLady_WarpBeam",
-                            "EPalWazaID::Unique_NightLady_FlameNightmare"
-                        ],
-                        "OverrideInitialElement1": "EPalElementType::None",
-                        "OverrideInitialElement2": "EPalElementType::None",
-                        "CanModeChange": true,
-                        "IgnoreLargeDown": false,
-                        "ModeChange_AddStatusToAllWhenModeChgange": "EPalStatusID::Freeze",
-                        "ModeChange_Element1": "EPalElementType::Ice",
-                        "ModeChange_Element2": "EPalElementType::None",
-                        "ModeChange_AddPassiveSkill": [
-                            "PAL_ALLAttack_up2",
-                            "Noukin",
-                            "PAL_sadist",
-                            "PAL_oraora",
-                            "ElementBoost_Dark_2_PAL"
-                        ],
-                        "ModeChange_AddWaza": [
-                            "EPalWazaID::DiamondFall",
-                            "EPalWazaID::IcicleThrow",
-                            "EPalWazaID::FrostBreath",
-                            "EPalWazaID::IceBlade"
-                        ],
-                        "ModeChange_RemoveWaza": [
-                            "EPalWazaID::DarkPulse",
-                            "EPalWazaID::DarkCanon",
-                            "EPalWazaID::ShadowBall",
-                            "EPalWazaID::DarkArrow"
-                        ],
-                        "AIControllerClass": null
-                    }
-                ],
-                "SummonMeteor_Num": [],
-                "SummonGeneratorClass": null,
-                "EggPalIDAndWeight": [
-                    {
-                        "Key": {
-                            "Key": "BOSS_NightLady_Dark"
-                        },
-                        "Value": 0.1
-                    },
-                    {
-                        "Key": {
-                            "Key": "NightLady_Dark"
-                        },
-                        "Value": 0.9
-                    }
-                ],
-                "SuccessItemList": [
-                    {
-                        "ItemName": {
-                            "Key": "Accessory_HeatColdResist_3"
-                        },
-                        "Rate": 100.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "AncientParts2"
-                        },
-                        "Rate": 100.0,
-                        "Min": 1,
-                        "Max": 2
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "PalSummon_NightLady_Dark_2"
-                        },
-                        "Rate": 100.0,
-                        "Min": 1,
-                        "Max": 1
-                    }
-                ],
-                "SuccessAnyOneItemList": [
-                    {
-                        "ItemName": {
-                            "Key": "Fruit_hp_01"
-                        },
-                        "Num": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Fruit_attack_01"
-                        },
-                        "Num": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Fruit__defense_01"
-                        },
-                        "Num": 1
-                    }
-                ],
-                "AchievementId": "12",
-                "OverrideRaidBossBattleActorClass": null
-            },
-            "PalSummon_NightLady_Dark_2": {
-                "InfoList": [
-                    {
-                        "PalId": {
-                            "Key": "RAID_NightLady_Dark_2"
-                        },
-                        "Level": 50,
-                        "WarpWazaID": "EPalWazaID::Unique_NightLady_WarpBeam",
-                        "BaseCampAttackWazaIDs": [
-                            "EPalWazaID::Unique_NightLady_WarpBeam",
-                            "EPalWazaID::Unique_NightLady_FlameNightmare"
-                        ],
-                        "OverrideInitialElement1": "EPalElementType::None",
-                        "OverrideInitialElement2": "EPalElementType::None",
-                        "CanModeChange": true,
-                        "IgnoreLargeDown": false,
-                        "ModeChange_AddStatusToAllWhenModeChgange": "EPalStatusID::Freeze",
-                        "ModeChange_Element1": "EPalElementType::Ice",
-                        "ModeChange_Element2": "EPalElementType::None",
-                        "ModeChange_AddPassiveSkill": [
-                            "PAL_ALLAttack_up2",
-                            "Noukin",
-                            "PAL_sadist",
-                            "PAL_oraora",
-                            "ElementBoost_Dark_2_PAL"
-                        ],
-                        "ModeChange_AddWaza": [
-                            "EPalWazaID::DiamondFall",
-                            "EPalWazaID::IcicleThrow",
-                            "EPalWazaID::FrostBreath",
-                            "EPalWazaID::IceBlade"
-                        ],
-                        "ModeChange_RemoveWaza": [
-                            "EPalWazaID::DarkPulse",
-                            "EPalWazaID::DarkCanon",
-                            "EPalWazaID::ShadowBall",
-                            "EPalWazaID::DarkArrow"
-                        ],
-                        "AIControllerClass": null
-                    }
-                ],
-                "SummonMeteor_Num": [],
-                "SummonGeneratorClass": null,
-                "EggPalIDAndWeight": [
-                    {
-                        "Key": {
-                            "Key": "BOSS_NightLady_Dark"
-                        },
-                        "Value": 0.1
-                    },
-                    {
-                        "Key": {
-                            "Key": "NightLady_Dark"
-                        },
-                        "Value": 0.9
-                    }
-                ],
-                "SuccessItemList": [
-                    {
-                        "ItemName": {
-                            "Key": "Accessory_HeatColdResist_3"
-                        },
-                        "Rate": 100.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "AncientParts2"
-                        },
-                        "Rate": 100.0,
-                        "Min": 2,
-                        "Max": 3
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "HeadEquip001_purple"
-                        },
-                        "Rate": 100.0,
-                        "Min": 1,
-                        "Max": 1
-                    }
-                ],
-                "SuccessAnyOneItemList": [
-                    {
-                        "ItemName": {
-                            "Key": "Fruit_hp_01"
-                        },
-                        "Num": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Fruit_attack_01"
-                        },
-                        "Num": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Fruit__defense_01"
-                        },
-                        "Num": 1
-                    }
-                ],
-                "AchievementId": "12",
-                "OverrideRaidBossBattleActorClass": null
-            },
-            "PalSummon_KingBahamut_Dragon": {
-                "InfoList": [
-                    {
-                        "PalId": {
-                            "Key": "RAID_KingBahamut_Dragon"
-                        },
-                        "Level": 55,
-                        "WarpWazaID": "EPalWazaID::Unique_KingBahamut_AirCrash",
-                        "BaseCampAttackWazaIDs": ["EPalWazaID::Unique_KingBahamut_AirCrash"],
-                        "OverrideInitialElement1": "EPalElementType::None",
-                        "OverrideInitialElement2": "EPalElementType::None",
-                        "CanModeChange": true,
-                        "IgnoreLargeDown": false,
-                        "ModeChange_AddStatusToAllWhenModeChgange": "EPalStatusID::Electrical",
-                        "ModeChange_Element1": "EPalElementType::Electricity",
-                        "ModeChange_Element2": "EPalElementType::None",
-                        "ModeChange_AddPassiveSkill": [
-                            "ElementBoost_Dragon_2_PAL",
-                            "Deffence_up2",
-                            "PAL_masochist",
-                            "Deffence_up1",
-                            "MoveSpeed_up_3"
-                        ],
-                        "ModeChange_AddWaza": [
-                            "EPalWazaID::ThunderStorm",
-                            "EPalWazaID::ThunderRain",
-                            "EPalWazaID::RangeThunder",
-                            "EPalWazaID::Thunderbolt",
-                            "EPalWazaID::LightningStrike"
-                        ],
-                        "ModeChange_RemoveWaza": [
-                            "EPalWazaID::DragonMeteor",
-                            "EPalWazaID::FlameWall",
-                            "EPalWazaID::Eruption",
-                            "EPalWazaID::FireBall"
-                        ],
-                        "AIControllerClass": null
-                    }
-                ],
-                "SummonMeteor_Num": [],
-                "SummonGeneratorClass": null,
-                "EggPalIDAndWeight": [
-                    {
-                        "Key": {
-                            "Key": "BOSS_KingBahamut_Dragon"
-                        },
-                        "Value": 0.1
-                    },
-                    {
-                        "Key": {
-                            "Key": "KingBahamut_Dragon"
-                        },
-                        "Value": 0.9
-                    }
-                ],
-                "SuccessItemList": [
-                    {
-                        "ItemName": {
-                            "Key": "Accessory_HP_3"
-                        },
-                        "Rate": 33.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "AncientParts2"
-                        },
-                        "Rate": 100.0,
-                        "Min": 2,
-                        "Max": 2
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "PalSummon_KingBahamut_Dragon_2"
-                        },
-                        "Rate": 100.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Accessory_AT_3"
-                        },
-                        "Rate": 33.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Accessory_defense_3"
-                        },
-                        "Rate": 33.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "LvUP_01"
-                        },
-                        "Rate": 100.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Ruby"
-                        },
-                        "Rate": 100.0,
-                        "Min": 5,
-                        "Max": 10
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "PalCrystal_Ex"
-                        },
-                        "Rate": 100.0,
-                        "Min": 10,
-                        "Max": 10
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_hp_01"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_stamina_01"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_attack_01"
-                        },
-                        "Rate": 100.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_workspeed_01"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_weight_01"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    }
-                ],
-                "SuccessAnyOneItemList": [
-                    {
-                        "ItemName": {
-                            "Key": "Fruit_hp_01"
-                        },
-                        "Num": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Fruit_attack_01"
-                        },
-                        "Num": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Fruit__defense_01"
-                        },
-                        "Num": 1
-                    }
-                ],
-                "AchievementId": "14",
-                "OverrideRaidBossBattleActorClass": null
-            },
-            "PalSummon_KingBahamut_Dragon_2": {
-                "InfoList": [
-                    {
-                        "PalId": {
-                            "Key": "RAID_KingBahamut_Dragon_2"
-                        },
-                        "Level": 55,
-                        "WarpWazaID": "EPalWazaID::Unique_KingBahamut_AirCrash",
-                        "BaseCampAttackWazaIDs": ["EPalWazaID::Unique_KingBahamut_AirCrash"],
-                        "OverrideInitialElement1": "EPalElementType::None",
-                        "OverrideInitialElement2": "EPalElementType::None",
-                        "CanModeChange": true,
-                        "IgnoreLargeDown": false,
-                        "ModeChange_AddStatusToAllWhenModeChgange": "EPalStatusID::Electrical",
-                        "ModeChange_Element1": "EPalElementType::Electricity",
-                        "ModeChange_Element2": "EPalElementType::None",
-                        "ModeChange_AddPassiveSkill": [
-                            "ElementBoost_Dragon_2_PAL",
-                            "Deffence_up2",
-                            "PAL_masochist",
-                            "Deffence_up1",
-                            "MoveSpeed_up_3"
-                        ],
-                        "ModeChange_AddWaza": [
-                            "EPalWazaID::ThunderStorm",
-                            "EPalWazaID::ThunderRain",
-                            "EPalWazaID::RangeThunder",
-                            "EPalWazaID::Railbolt",
-                            "EPalWazaID::LightningStrike"
-                        ],
-                        "ModeChange_RemoveWaza": [
-                            "EPalWazaID::DragonMeteor",
-                            "EPalWazaID::FlameWall",
-                            "EPalWazaID::Eruption",
-                            "EPalWazaID::FireBall"
-                        ],
-                        "AIControllerClass": null
-                    }
-                ],
-                "SummonMeteor_Num": [],
-                "SummonGeneratorClass": null,
-                "EggPalIDAndWeight": [
-                    {
-                        "Key": {
-                            "Key": "BOSS_KingBahamut_Dragon"
-                        },
-                        "Value": 0.1
-                    },
-                    {
-                        "Key": {
-                            "Key": "KingBahamut_Dragon"
-                        },
-                        "Value": 0.9
-                    }
-                ],
-                "SuccessItemList": [
-                    {
-                        "ItemName": {
-                            "Key": "AncientParts2"
-                        },
-                        "Rate": 100.0,
-                        "Min": 3,
-                        "Max": 3
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "HeadEquip041"
-                        },
-                        "Rate": 100.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "LvUP_01"
-                        },
-                        "Rate": 100.0,
-                        "Min": 2,
-                        "Max": 3
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Diamond"
-                        },
-                        "Rate": 100.0,
-                        "Min": 5,
-                        "Max": 10
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "PalCrystal_Ex"
-                        },
-                        "Rate": 100.0,
-                        "Min": 10,
-                        "Max": 20
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "PalSummon_KingBahamut_Dragon_2"
-                        },
-                        "Rate": 100.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_hp_02"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_stamina_02"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_attack_02"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_workspeed_02"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_weight_02"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    }
-                ],
-                "SuccessAnyOneItemList": [
-                    {
-                        "ItemName": {
-                            "Key": "Fruit_hp_01"
-                        },
-                        "Num": 2
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Fruit_attack_01"
-                        },
-                        "Num": 2
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Fruit__defense_01"
-                        },
-                        "Num": 2
-                    }
-                ],
-                "AchievementId": "14",
-                "OverrideRaidBossBattleActorClass": null
-            },
-            "PalSummon_DarkMechaDragon": {
-                "InfoList": [
-                    {
-                        "PalId": {
-                            "Key": "RAID_DarkMechaDragon"
-                        },
-                        "Level": 60,
-                        "WarpWazaID": "EPalWazaID::Unique_DarkMechaDragon_WarpComet",
-                        "BaseCampAttackWazaIDs": ["EPalWazaID::Unique_DarkMechaDragon_WarpComet"],
-                        "OverrideInitialElement1": "EPalElementType::None",
-                        "OverrideInitialElement2": "EPalElementType::None",
-                        "CanModeChange": false,
-                        "IgnoreLargeDown": false,
-                        "ModeChange_AddStatusToAllWhenModeChgange": "EPalStatusID::None",
-                        "ModeChange_Element1": "EPalElementType::None",
-                        "ModeChange_Element2": "EPalElementType::None",
-                        "ModeChange_AddPassiveSkill": [],
-                        "ModeChange_AddWaza": [],
-                        "ModeChange_RemoveWaza": [],
-                        "AIControllerClass": null
-                    }
-                ],
-                "SummonMeteor_Num": [
-                    {
-                        "HPRate": 0.7,
-                        "SummonPalInfoList": [
-                            {
-                                "PalNameAndNum": [
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_DarkAlien"
-                                        },
-                                        "Value": 3
-                                    }
-                                ]
-                            },
-                            {
-                                "PalNameAndNum": [
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_DarkAlien"
-                                        },
-                                        "Value": 3
-                                    }
-                                ]
-                            },
-                            {
-                                "PalNameAndNum": [
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_DarkAlien"
-                                        },
-                                        "Value": 3
-                                    }
-                                ]
-                            },
-                            {
-                                "PalNameAndNum": [
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_DarkAlien"
-                                        },
-                                        "Value": 3
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "HPRate": 0.4,
-                        "SummonPalInfoList": [
-                            {
-                                "PalNameAndNum": [
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_WhiteAlienDragon"
-                                        },
-                                        "Value": 1
-                                    },
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_DarkAlien"
-                                        },
-                                        "Value": 3
-                                    }
-                                ]
-                            },
-                            {
-                                "PalNameAndNum": [
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_DarkAlien"
-                                        },
-                                        "Value": 4
-                                    }
-                                ]
-                            },
-                            {
-                                "PalNameAndNum": [
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_WhiteAlienDragon"
-                                        },
-                                        "Value": 1
-                                    },
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_DarkAlien"
-                                        },
-                                        "Value": 3
-                                    }
-                                ]
-                            },
-                            {
-                                "PalNameAndNum": [
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_DarkAlien"
-                                        },
-                                        "Value": 4
-                                    }
-                                ]
-                            },
-                            {
-                                "PalNameAndNum": [
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_WhiteAlienDragon"
-                                        },
-                                        "Value": 1
-                                    },
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_DarkAlien"
-                                        },
-                                        "Value": 3
-                                    }
-                                ]
-                            },
-                            {
-                                "PalNameAndNum": [
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_DarkAlien"
-                                        },
-                                        "Value": 4
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "SummonGeneratorClass": {
-                    "ObjectName": "BlueprintGeneratedClass'BP_RaidBossMeteorGenerator_C'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/RaidBoss/SummonGenerator/BP_RaidBossMeteorGenerator.0"
-                },
-                "EggPalIDAndWeight": [
-                    {
-                        "Key": {
-                            "Key": "BOSS_DarkMechaDragon"
-                        },
-                        "Value": 0.1
-                    },
-                    {
-                        "Key": {
-                            "Key": "DarkMechaDragon"
-                        },
-                        "Value": 0.9
-                    }
-                ],
-                "SuccessItemList": [
-                    {
-                        "ItemName": {
-                            "Key": "Accessory_DragonResist_3"
-                        },
-                        "Rate": 33.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "AncientParts2"
-                        },
-                        "Rate": 100.0,
-                        "Min": 3,
-                        "Max": 3
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "PalSummon_DarkMechaDragon_2"
-                        },
-                        "Rate": 100.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Accessory_DarkResist_3"
-                        },
-                        "Rate": 33.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Accessory_MaxWeightUp_03"
-                        },
-                        "Rate": 33.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "LvUP_01"
-                        },
-                        "Rate": 100.0,
-                        "Min": 2,
-                        "Max": 2
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Ruby"
-                        },
-                        "Rate": 100.0,
-                        "Min": 5,
-                        "Max": 10
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "PalCrystal_Ex"
-                        },
-                        "Rate": 100.0,
-                        "Min": 10,
-                        "Max": 10
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_hp_01"
-                        },
-                        "Rate": 100.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_stamina_01"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_attack_01"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_workspeed_01"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_weight_01"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    }
-                ],
-                "SuccessAnyOneItemList": [
-                    {
-                        "ItemName": {
-                            "Key": "Fruit_hp_01"
-                        },
-                        "Num": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Fruit_attack_01"
-                        },
-                        "Num": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Fruit__defense_01"
-                        },
-                        "Num": 1
-                    }
-                ],
-                "AchievementId": "33",
-                "OverrideRaidBossBattleActorClass": null
-            },
-            "PalSummon_DarkMechaDragon_2": {
-                "InfoList": [
-                    {
-                        "PalId": {
-                            "Key": "RAID_DarkMechaDragon_2"
-                        },
-                        "Level": 60,
-                        "WarpWazaID": "EPalWazaID::Unique_DarkMechaDragon_WarpComet",
-                        "BaseCampAttackWazaIDs": ["EPalWazaID::Unique_DarkMechaDragon_WarpComet"],
-                        "OverrideInitialElement1": "EPalElementType::None",
-                        "OverrideInitialElement2": "EPalElementType::None",
-                        "CanModeChange": false,
-                        "IgnoreLargeDown": false,
-                        "ModeChange_AddStatusToAllWhenModeChgange": "EPalStatusID::None",
-                        "ModeChange_Element1": "EPalElementType::None",
-                        "ModeChange_Element2": "EPalElementType::None",
-                        "ModeChange_AddPassiveSkill": [],
-                        "ModeChange_AddWaza": [],
-                        "ModeChange_RemoveWaza": [],
-                        "AIControllerClass": null
-                    }
-                ],
-                "SummonMeteor_Num": [
-                    {
-                        "HPRate": 0.8,
-                        "SummonPalInfoList": [
-                            {
-                                "PalNameAndNum": [
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_DarkAlien_MAX"
-                                        },
-                                        "Value": 3
-                                    }
-                                ]
-                            },
-                            {
-                                "PalNameAndNum": [
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_DarkAlien_MAX"
-                                        },
-                                        "Value": 3
-                                    }
-                                ]
-                            },
-                            {
-                                "PalNameAndNum": [
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_DarkAlien_MAX"
-                                        },
-                                        "Value": 3
-                                    }
-                                ]
-                            },
-                            {
-                                "PalNameAndNum": [
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_DarkAlien_MAX"
-                                        },
-                                        "Value": 3
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "HPRate": 0.5,
-                        "SummonPalInfoList": [
-                            {
-                                "PalNameAndNum": [
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_WhiteAlienDragon_MAX"
-                                        },
-                                        "Value": 1
-                                    },
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_DarkAlien_MAX"
-                                        },
-                                        "Value": 3
-                                    }
-                                ]
-                            },
-                            {
-                                "PalNameAndNum": [
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_DarkAlien_MAX"
-                                        },
-                                        "Value": 3
-                                    }
-                                ]
-                            },
-                            {
-                                "PalNameAndNum": [
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_WhiteAlienDragon_MAX"
-                                        },
-                                        "Value": 1
-                                    },
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_DarkAlien_MAX"
-                                        },
-                                        "Value": 3
-                                    }
-                                ]
-                            },
-                            {
-                                "PalNameAndNum": [
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_DarkAlien_MAX"
-                                        },
-                                        "Value": 3
-                                    }
-                                ]
-                            },
-                            {
-                                "PalNameAndNum": [
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_WhiteAlienDragon_MAX"
-                                        },
-                                        "Value": 1
-                                    },
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_DarkAlien_MAX"
-                                        },
-                                        "Value": 3
-                                    }
-                                ]
-                            },
-                            {
-                                "PalNameAndNum": [
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_DarkAlien_MAX"
-                                        },
-                                        "Value": 3
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "HPRate": 0.2,
-                        "SummonPalInfoList": [
-                            {
-                                "PalNameAndNum": [
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_WhiteAlienDragon_MAX"
-                                        },
-                                        "Value": 1
-                                    },
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_DarkAlien_MAX"
-                                        },
-                                        "Value": 3
-                                    }
-                                ]
-                            },
-                            {
-                                "PalNameAndNum": [
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_DarkAlien_MAX"
-                                        },
-                                        "Value": 3
-                                    }
-                                ]
-                            },
-                            {
-                                "PalNameAndNum": [
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_WhiteAlienDragon_MAX"
-                                        },
-                                        "Value": 1
-                                    },
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_DarkAlien_MAX"
-                                        },
-                                        "Value": 3
-                                    }
-                                ]
-                            },
-                            {
-                                "PalNameAndNum": [
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_DarkAlien_MAX"
-                                        },
-                                        "Value": 3
-                                    }
-                                ]
-                            },
-                            {
-                                "PalNameAndNum": [
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_WhiteAlienDragon_MAX"
-                                        },
-                                        "Value": 1
-                                    },
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_DarkAlien_MAX"
-                                        },
-                                        "Value": 3
-                                    }
-                                ]
-                            },
-                            {
-                                "PalNameAndNum": [
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_DarkAlien_MAX"
-                                        },
-                                        "Value": 3
-                                    }
-                                ]
-                            },
-                            {
-                                "PalNameAndNum": [
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_WhiteAlienDragon_MAX"
-                                        },
-                                        "Value": 1
-                                    },
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_DarkAlien_MAX"
-                                        },
-                                        "Value": 3
-                                    }
-                                ]
-                            },
-                            {
-                                "PalNameAndNum": [
-                                    {
-                                        "Key": {
-                                            "Key": "SUMMON_DarkAlien_MAX"
-                                        },
-                                        "Value": 4
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "SummonGeneratorClass": {
-                    "ObjectName": "BlueprintGeneratedClass'BP_RaidBossMeteorGenerator_C'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/RaidBoss/SummonGenerator/BP_RaidBossMeteorGenerator.0"
-                },
-                "EggPalIDAndWeight": [
-                    {
-                        "Key": {
-                            "Key": "BOSS_DarkMechaDragon"
-                        },
-                        "Value": 0.1
-                    },
-                    {
-                        "Key": {
-                            "Key": "DarkMechaDragon"
-                        },
-                        "Value": 0.9
-                    }
-                ],
-                "SuccessItemList": [
-                    {
-                        "ItemName": {
-                            "Key": "AncientParts2"
-                        },
-                        "Rate": 100.0,
-                        "Min": 3,
-                        "Max": 3
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "PalSummon_DarkMechaDragon_2"
-                        },
-                        "Rate": 100.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "LvUP_01"
-                        },
-                        "Rate": 100.0,
-                        "Min": 2,
-                        "Max": 3
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Diamond"
-                        },
-                        "Rate": 100.0,
-                        "Min": 5,
-                        "Max": 10
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "PalCrystal_Ex"
-                        },
-                        "Rate": 100.0,
-                        "Min": 10,
-                        "Max": 20
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_hp_02"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_stamina_02"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_attack_02"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_workspeed_02"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_weight_02"
-                        },
-                        "Rate": 100.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "HeadEquip044"
-                        },
-                        "Rate": 100.0,
-                        "Min": 1,
-                        "Max": 1
-                    }
-                ],
-                "SuccessAnyOneItemList": [
-                    {
-                        "ItemName": {
-                            "Key": "Fruit_hp_01"
-                        },
-                        "Num": 3
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Fruit_attack_01"
-                        },
-                        "Num": 3
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Fruit__defense_01"
-                        },
-                        "Num": 3
-                    }
-                ],
-                "AchievementId": "33",
-                "OverrideRaidBossBattleActorClass": null
-            },
-            "PalSummon_YakushimaBoss002": {
-                "InfoList": [
-                    {
-                        "PalId": {
-                            "Key": "RAID_YakushimaBoss002"
-                        },
-                        "Level": 50,
-                        "WarpWazaID": "EPalWazaID::None",
-                        "BaseCampAttackWazaIDs": ["EPalWazaID::Unique_YakushimaBoss002_PhantasmalEye"],
-                        "OverrideInitialElement1": "EPalElementType::None",
-                        "OverrideInitialElement2": "EPalElementType::None",
-                        "CanModeChange": false,
-                        "IgnoreLargeDown": false,
-                        "ModeChange_AddStatusToAllWhenModeChgange": "EPalStatusID::None",
-                        "ModeChange_Element1": "EPalElementType::None",
-                        "ModeChange_Element2": "EPalElementType::None",
-                        "ModeChange_AddPassiveSkill": [],
-                        "ModeChange_AddWaza": [],
-                        "ModeChange_RemoveWaza": [],
-                        "AIControllerClass": {
-                            "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_YakushimaBoss002_C'",
-                            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_YakushimaBoss002.0"
-                        }
-                    }
-                ],
-                "SummonMeteor_Num": [],
-                "SummonGeneratorClass": null,
-                "EggPalIDAndWeight": [],
-                "SuccessItemList": [
-                    {
-                        "ItemName": {
-                            "Key": "Accessory_HP_3"
-                        },
-                        "Rate": 33.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "AncientParts2"
-                        },
-                        "Rate": 100.0,
-                        "Min": 2,
-                        "Max": 2
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Accessory_AT_3"
-                        },
-                        "Rate": 33.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Accessory_defense_3"
-                        },
-                        "Rate": 33.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "LvUP_01"
-                        },
-                        "Rate": 100.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Ruby"
-                        },
-                        "Rate": 100.0,
-                        "Min": 5,
-                        "Max": 10
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "PalCrystal_Ex"
-                        },
-                        "Rate": 100.0,
-                        "Min": 10,
-                        "Max": 10
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_hp_01"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_stamina_01"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_attack_01"
-                        },
-                        "Rate": 100.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_workspeed_01"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_weight_01"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "YakushimaBlade005"
-                        },
-                        "Rate": 22.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "YakushimaHeadEquip005"
-                        },
-                        "Rate": 10.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "PalSummon_YakushimaBoss002_2"
-                        },
-                        "Rate": 100.0,
-                        "Min": 1,
-                        "Max": 1
-                    }
-                ],
-                "SuccessAnyOneItemList": [
-                    {
-                        "ItemName": {
-                            "Key": "Fruit_hp_01"
-                        },
-                        "Num": 3
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Fruit_attack_01"
-                        },
-                        "Num": 3
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Fruit__defense_01"
-                        },
-                        "Num": 3
-                    }
-                ],
-                "AchievementId": "",
-                "OverrideRaidBossBattleActorClass": {
-                    "ObjectName": "BlueprintGeneratedClass'BP_PalRaidBossBattle_YakushimaBoss002_C'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/RaidBoss/BP_PalRaidBossBattle_YakushimaBoss002.0"
-                }
-            },
-            "PalSummon_YakushimaBoss002_2": {
-                "InfoList": [
-                    {
-                        "PalId": {
-                            "Key": "RAID_YakushimaBoss002_2"
-                        },
-                        "Level": 65,
-                        "WarpWazaID": "EPalWazaID::None",
-                        "BaseCampAttackWazaIDs": ["EPalWazaID::Unique_YakushimaBoss002_PhantasmalEye"],
-                        "OverrideInitialElement1": "EPalElementType::None",
-                        "OverrideInitialElement2": "EPalElementType::None",
-                        "CanModeChange": false,
-                        "IgnoreLargeDown": false,
-                        "ModeChange_AddStatusToAllWhenModeChgange": "EPalStatusID::None",
-                        "ModeChange_Element1": "EPalElementType::None",
-                        "ModeChange_Element2": "EPalElementType::None",
-                        "ModeChange_AddPassiveSkill": [],
-                        "ModeChange_AddWaza": [],
-                        "ModeChange_RemoveWaza": [],
-                        "AIControllerClass": {
-                            "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_YakushimaBoss002_2_C'",
-                            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_YakushimaBoss002_2.0"
-                        }
-                    }
-                ],
-                "SummonMeteor_Num": [],
-                "SummonGeneratorClass": null,
-                "EggPalIDAndWeight": [],
-                "SuccessItemList": [
-                    {
-                        "ItemName": {
-                            "Key": "AncientParts2"
-                        },
-                        "Rate": 100.0,
-                        "Min": 3,
-                        "Max": 3
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "PalSummon_YakushimaBoss002_2"
-                        },
-                        "Rate": 100.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "LvUP_01"
-                        },
-                        "Rate": 100.0,
-                        "Min": 2,
-                        "Max": 3
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Diamond"
-                        },
-                        "Rate": 100.0,
-                        "Min": 5,
-                        "Max": 10
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "PalCrystal_Ex"
-                        },
-                        "Rate": 100.0,
-                        "Min": 10,
-                        "Max": 20
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_hp_02"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_stamina_02"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_attack_02"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_workspeed_02"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_weight_02"
-                        },
-                        "Rate": 100.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Blueprint_YakushimaBlade002_5"
-                        },
-                        "Rate": 25.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Blueprint_YakushimaGun001_5"
-                        },
-                        "Rate": 25.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Blueprint_YakushimaLantern001_5"
-                        },
-                        "Rate": 25.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Blueprint_YakushimaBlade003_5"
-                        },
-                        "Rate": 25.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Blueprint_YakushimaBoss002_Relic"
-                        },
-                        "Rate": 100.0,
-                        "Min": 1,
-                        "Max": 1
-                    }
-                ],
-                "SuccessAnyOneItemList": [
-                    {
-                        "ItemName": {
-                            "Key": "Fruit_hp_01"
-                        },
-                        "Num": 3
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Fruit_attack_01"
-                        },
-                        "Num": 3
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Fruit__defense_01"
-                        },
-                        "Num": 3
-                    }
-                ],
-                "AchievementId": "",
-                "OverrideRaidBossBattleActorClass": {
-                    "ObjectName": "BlueprintGeneratedClass'BP_PalRaidBossBattle_YakushimaBoss002_C'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/RaidBoss/BP_PalRaidBossBattle_YakushimaBoss002.0"
-                }
-            },
-            "PalSummon_LegendDeer": {
-                "InfoList": [
-                    {
-                        "PalId": {
-                            "Key": "RAID_LegendDeer"
-                        },
-                        "Level": 65,
-                        "WarpWazaID": "EPalWazaID::Unique_LegendDeer_WarpPillarBurst",
-                        "BaseCampAttackWazaIDs": ["EPalWazaID::Unique_LegendDeer_WarpPillarBurst"],
-                        "OverrideInitialElement1": "EPalElementType::Leaf",
-                        "OverrideInitialElement2": "EPalElementType::Water",
-                        "CanModeChange": false,
-                        "IgnoreLargeDown": true,
-                        "ModeChange_AddStatusToAllWhenModeChgange": "EPalStatusID::None",
-                        "ModeChange_Element1": "EPalElementType::Normal",
-                        "ModeChange_Element2": "EPalElementType::None",
-                        "ModeChange_AddPassiveSkill": ["CoolTimeReduction_Down_1", "PAL_masochist"],
-                        "ModeChange_AddWaza": [
-                            "EPalWazaID::Unique_LegendDeer_WarpPillarBurst",
-                            "EPalWazaID::RadiantBarrage",
-                            "EPalWazaID::Unique_LegendDeer_RadiantWingRush",
-                            "EPalWazaID::HolyBlast",
-                            "EPalWazaID::AirBlade",
-                            "EPalWazaID::PowerBall"
-                        ],
-                        "ModeChange_RemoveWaza": [
-                            "EPalWazaID::CrossWind",
-                            "EPalWazaID::SolarBeam",
-                            "EPalWazaID::SeaGush",
-                            "EPalWazaID::WallSplash",
-                            "EPalWazaID::RipTide",
-                            "EPalWazaID::RootLance"
-                        ],
-                        "AIControllerClass": {
-                            "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_RaidBoss_LegendDeer_C'",
-                            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_RaidBoss_LegendDeer.0"
-                        }
-                    }
-                ],
-                "SummonMeteor_Num": [],
-                "SummonGeneratorClass": null,
-                "EggPalIDAndWeight": [
-                    {
-                        "Key": {
-                            "Key": "BOSS_LegendDeer"
-                        },
-                        "Value": 0.1
-                    },
-                    {
-                        "Key": {
-                            "Key": "LegendDeer"
-                        },
-                        "Value": 0.9
-                    }
-                ],
-                "SuccessItemList": [
-                    {
-                        "ItemName": {
-                            "Key": "Accessory_AquaResist_3"
-                        },
-                        "Rate": 33.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "AncientParts2"
-                        },
-                        "Rate": 100.0,
-                        "Min": 3,
-                        "Max": 3
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "PalSummon_LegendDeer_2"
-                        },
-                        "Rate": 100.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Accessory_LeafResist_3"
-                        },
-                        "Rate": 33.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Accessory_MaxWeightUp_03"
-                        },
-                        "Rate": 33.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "LvUP_01"
-                        },
-                        "Rate": 100.0,
-                        "Min": 2,
-                        "Max": 2
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Ruby"
-                        },
-                        "Rate": 100.0,
-                        "Min": 5,
-                        "Max": 10
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "PalCrystal_Ex"
-                        },
-                        "Rate": 100.0,
-                        "Min": 10,
-                        "Max": 10
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_hp_01"
-                        },
-                        "Rate": 100.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_stamina_01"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_attack_01"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_workspeed_01"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_weight_01"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Accessory_NormalResist_3"
-                        },
-                        "Rate": 33.0,
-                        "Min": 1,
-                        "Max": 1
-                    }
-                ],
-                "SuccessAnyOneItemList": [
-                    {
-                        "ItemName": {
-                            "Key": "Fruit_hp_01"
-                        },
-                        "Num": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Fruit_attack_01"
-                        },
-                        "Num": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Fruit__defense_01"
-                        },
-                        "Num": 1
-                    }
-                ],
-                "AchievementId": "57",
-                "OverrideRaidBossBattleActorClass": {
-                    "ObjectName": "BlueprintGeneratedClass'BP_PalRaidBossBattle_LegendDeer_C'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/RaidBoss/BP_PalRaidBossBattle_LegendDeer.0"
-                }
-            },
-            "PalSummon_LegendDeer_2": {
-                "InfoList": [
-                    {
-                        "PalId": {
-                            "Key": "RAID_LegendDeer_2"
-                        },
-                        "Level": 65,
-                        "WarpWazaID": "EPalWazaID::Unique_LegendDeer_WarpPillarBurst",
-                        "BaseCampAttackWazaIDs": ["EPalWazaID::Unique_LegendDeer_WarpPillarBurst"],
-                        "OverrideInitialElement1": "EPalElementType::Leaf",
-                        "OverrideInitialElement2": "EPalElementType::Water",
-                        "CanModeChange": false,
-                        "IgnoreLargeDown": true,
-                        "ModeChange_AddStatusToAllWhenModeChgange": "EPalStatusID::None",
-                        "ModeChange_Element1": "EPalElementType::Normal",
-                        "ModeChange_Element2": "EPalElementType::None",
-                        "ModeChange_AddPassiveSkill": ["CoolTimeReduction_Down_1", "PAL_masochist"],
-                        "ModeChange_AddWaza": [
-                            "EPalWazaID::Unique_LegendDeer_WarpPillarBurst",
-                            "EPalWazaID::RadiantBarrage",
-                            "EPalWazaID::Unique_LegendDeer_RadiantWingRush",
-                            "EPalWazaID::HolyBlast",
-                            "EPalWazaID::AirBlade",
-                            "EPalWazaID::PowerBall"
-                        ],
-                        "ModeChange_RemoveWaza": [
-                            "EPalWazaID::CrossWind",
-                            "EPalWazaID::SolarBeam",
-                            "EPalWazaID::SeaGush",
-                            "EPalWazaID::WallSplash",
-                            "EPalWazaID::RipTide",
-                            "EPalWazaID::RootLance"
-                        ],
-                        "AIControllerClass": {
-                            "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_RaidBoss_LegendDeer_2_C'",
-                            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_RaidBoss_LegendDeer_2.0"
-                        }
-                    }
-                ],
-                "SummonMeteor_Num": [],
-                "SummonGeneratorClass": null,
-                "EggPalIDAndWeight": [
-                    {
-                        "Key": {
-                            "Key": "BOSS_LegendDeer"
-                        },
-                        "Value": 0.1
-                    },
-                    {
-                        "Key": {
-                            "Key": "LegendDeer"
-                        },
-                        "Value": 0.9
-                    }
-                ],
-                "SuccessItemList": [
-                    {
-                        "ItemName": {
-                            "Key": "AncientParts2"
-                        },
-                        "Rate": 100.0,
-                        "Min": 3,
-                        "Max": 3
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "PalSummon_LegendDeer_2"
-                        },
-                        "Rate": 100.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "LvUP_01"
-                        },
-                        "Rate": 100.0,
-                        "Min": 2,
-                        "Max": 3
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Diamond"
-                        },
-                        "Rate": 100.0,
-                        "Min": 5,
-                        "Max": 10
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "PalCrystal_Ex"
-                        },
-                        "Rate": 100.0,
-                        "Min": 10,
-                        "Max": 20
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_hp_02"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_stamina_02"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_attack_02"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_workspeed_02"
-                        },
-                        "Rate": 20.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Lotus_weight_02"
-                        },
-                        "Rate": 100.0,
-                        "Min": 1,
-                        "Max": 1
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "HeadEquip046"
-                        },
-                        "Rate": 100.0,
-                        "Min": 1,
-                        "Max": 1
-                    }
-                ],
-                "SuccessAnyOneItemList": [
-                    {
-                        "ItemName": {
-                            "Key": "Fruit_hp_01"
-                        },
-                        "Num": 4
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Fruit_attack_01"
-                        },
-                        "Num": 4
-                    },
-                    {
-                        "ItemName": {
-                            "Key": "Fruit__defense_01"
-                        },
-                        "Num": 4
-                    }
-                ],
-                "AchievementId": "57",
-                "OverrideRaidBossBattleActorClass": {
-                    "ObjectName": "BlueprintGeneratedClass'BP_PalRaidBossBattle_LegendDeer_C'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/RaidBoss/BP_PalRaidBossBattle_LegendDeer.0"
-                }
-            }
+  {
+    "Type": "CompositeDataTable",
+    "Name": "DT_PalRaidBoss",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_PalRaidBoss_Common'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/RaidBoss/DT_PalRaidBoss_Common.0"
         }
+      ],
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalRaidBossDataRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "PalSummon_NightLady": {
+        "InfoList": [
+          {
+            "PalId": {
+              "Key": "RAID_NightLady"
+            },
+            "Level": 30,
+            "WarpWazaID": "EPalWazaID::Unique_NightLady_WarpBeam_Straight",
+            "BaseCampAttackWazaIDs": [
+              "EPalWazaID::Unique_NightLady_WarpBeam_Straight"
+            ],
+            "OverrideInitialElement1": "EPalElementType::None",
+            "OverrideInitialElement2": "EPalElementType::None",
+            "CanModeChange": false,
+            "IgnoreLargeDown": false,
+            "ModeChange_AddStatusToAllWhenModeChgange": "EPalStatusID::None",
+            "ModeChange_Element1": "EPalElementType::None",
+            "ModeChange_Element2": "EPalElementType::None",
+            "ModeChange_AddPassiveSkill": [],
+            "ModeChange_AddWaza": [],
+            "ModeChange_RemoveWaza": [],
+            "AIControllerClass": null
+          }
+        ],
+        "SummonMeteor_Num": [],
+        "SummonGeneratorClass": null,
+        "EggPalIDAndWeight": [
+          {
+            "Key": {
+              "Key": "BOSS_NightLady"
+            },
+            "Value": 0.1
+          },
+          {
+            "Key": {
+              "Key": "NightLady"
+            },
+            "Value": 0.9
+          }
+        ],
+        "SuccessItemList": [
+          {
+            "ItemName": {
+              "Key": "Accessory_HeatColdResist_2"
+            },
+            "Rate": 100.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "ExpBoost_04"
+            },
+            "Rate": 100.0,
+            "Min": 1,
+            "Max": 3
+          },
+          {
+            "ItemName": {
+              "Key": "AncientParts2"
+            },
+            "Rate": 100.0,
+            "Min": 1,
+            "Max": 1
+          }
+        ],
+        "SuccessAnyOneItemList": [
+          {
+            "ItemName": {
+              "Key": "PalCrystal_Ex"
+            },
+            "Num": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Ruby"
+            },
+            "Num": 3
+          },
+          {
+            "ItemName": {
+              "Key": "LvUP_01"
+            },
+            "Num": 1
+          }
+        ],
+        "AchievementId": "11",
+        "OverrideRaidBossBattleActorClass": null
+      },
+      "PalSummon_NightLady_Dark": {
+        "InfoList": [
+          {
+            "PalId": {
+              "Key": "RAID_NightLady_Dark"
+            },
+            "Level": 50,
+            "WarpWazaID": "EPalWazaID::Unique_NightLady_WarpBeam",
+            "BaseCampAttackWazaIDs": [
+              "EPalWazaID::Unique_NightLady_WarpBeam",
+              "EPalWazaID::Unique_NightLady_FlameNightmare"
+            ],
+            "OverrideInitialElement1": "EPalElementType::None",
+            "OverrideInitialElement2": "EPalElementType::None",
+            "CanModeChange": true,
+            "IgnoreLargeDown": false,
+            "ModeChange_AddStatusToAllWhenModeChgange": "EPalStatusID::Freeze",
+            "ModeChange_Element1": "EPalElementType::Ice",
+            "ModeChange_Element2": "EPalElementType::None",
+            "ModeChange_AddPassiveSkill": [
+              "PAL_ALLAttack_up2",
+              "Noukin",
+              "PAL_sadist",
+              "PAL_oraora",
+              "ElementBoost_Dark_2_PAL"
+            ],
+            "ModeChange_AddWaza": [
+              "EPalWazaID::DiamondFall",
+              "EPalWazaID::IcicleThrow",
+              "EPalWazaID::FrostBreath",
+              "EPalWazaID::IceBlade"
+            ],
+            "ModeChange_RemoveWaza": [
+              "EPalWazaID::DarkPulse",
+              "EPalWazaID::DarkCanon",
+              "EPalWazaID::ShadowBall",
+              "EPalWazaID::DarkArrow"
+            ],
+            "AIControllerClass": null
+          }
+        ],
+        "SummonMeteor_Num": [],
+        "SummonGeneratorClass": null,
+        "EggPalIDAndWeight": [
+          {
+            "Key": {
+              "Key": "BOSS_NightLady_Dark"
+            },
+            "Value": 0.1
+          },
+          {
+            "Key": {
+              "Key": "NightLady_Dark"
+            },
+            "Value": 0.9
+          }
+        ],
+        "SuccessItemList": [
+          {
+            "ItemName": {
+              "Key": "Accessory_HeatColdResist_3"
+            },
+            "Rate": 100.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "AncientParts2"
+            },
+            "Rate": 100.0,
+            "Min": 1,
+            "Max": 2
+          },
+          {
+            "ItemName": {
+              "Key": "PalSummon_NightLady_Dark_2"
+            },
+            "Rate": 100.0,
+            "Min": 1,
+            "Max": 1
+          }
+        ],
+        "SuccessAnyOneItemList": [
+          {
+            "ItemName": {
+              "Key": "Fruit_hp_01"
+            },
+            "Num": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Fruit_attack_01"
+            },
+            "Num": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Fruit__defense_01"
+            },
+            "Num": 1
+          }
+        ],
+        "AchievementId": "12",
+        "OverrideRaidBossBattleActorClass": null
+      },
+      "PalSummon_NightLady_Dark_2": {
+        "InfoList": [
+          {
+            "PalId": {
+              "Key": "RAID_NightLady_Dark_2"
+            },
+            "Level": 50,
+            "WarpWazaID": "EPalWazaID::Unique_NightLady_WarpBeam",
+            "BaseCampAttackWazaIDs": [
+              "EPalWazaID::Unique_NightLady_WarpBeam",
+              "EPalWazaID::Unique_NightLady_FlameNightmare"
+            ],
+            "OverrideInitialElement1": "EPalElementType::None",
+            "OverrideInitialElement2": "EPalElementType::None",
+            "CanModeChange": true,
+            "IgnoreLargeDown": false,
+            "ModeChange_AddStatusToAllWhenModeChgange": "EPalStatusID::Freeze",
+            "ModeChange_Element1": "EPalElementType::Ice",
+            "ModeChange_Element2": "EPalElementType::None",
+            "ModeChange_AddPassiveSkill": [
+              "PAL_ALLAttack_up2",
+              "Noukin",
+              "PAL_sadist",
+              "PAL_oraora",
+              "ElementBoost_Dark_2_PAL"
+            ],
+            "ModeChange_AddWaza": [
+              "EPalWazaID::DiamondFall",
+              "EPalWazaID::IcicleThrow",
+              "EPalWazaID::FrostBreath",
+              "EPalWazaID::IceBlade"
+            ],
+            "ModeChange_RemoveWaza": [
+              "EPalWazaID::DarkPulse",
+              "EPalWazaID::DarkCanon",
+              "EPalWazaID::ShadowBall",
+              "EPalWazaID::DarkArrow"
+            ],
+            "AIControllerClass": null
+          }
+        ],
+        "SummonMeteor_Num": [],
+        "SummonGeneratorClass": null,
+        "EggPalIDAndWeight": [
+          {
+            "Key": {
+              "Key": "BOSS_NightLady_Dark"
+            },
+            "Value": 0.1
+          },
+          {
+            "Key": {
+              "Key": "NightLady_Dark"
+            },
+            "Value": 0.9
+          }
+        ],
+        "SuccessItemList": [
+          {
+            "ItemName": {
+              "Key": "Accessory_HeatColdResist_3"
+            },
+            "Rate": 100.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "AncientParts2"
+            },
+            "Rate": 100.0,
+            "Min": 2,
+            "Max": 3
+          },
+          {
+            "ItemName": {
+              "Key": "HeadEquip001_purple"
+            },
+            "Rate": 100.0,
+            "Min": 1,
+            "Max": 1
+          }
+        ],
+        "SuccessAnyOneItemList": [
+          {
+            "ItemName": {
+              "Key": "Fruit_hp_01"
+            },
+            "Num": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Fruit_attack_01"
+            },
+            "Num": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Fruit__defense_01"
+            },
+            "Num": 1
+          }
+        ],
+        "AchievementId": "12",
+        "OverrideRaidBossBattleActorClass": null
+      },
+      "PalSummon_KingBahamut_Dragon": {
+        "InfoList": [
+          {
+            "PalId": {
+              "Key": "RAID_KingBahamut_Dragon"
+            },
+            "Level": 55,
+            "WarpWazaID": "EPalWazaID::Unique_KingBahamut_AirCrash",
+            "BaseCampAttackWazaIDs": [
+              "EPalWazaID::Unique_KingBahamut_AirCrash"
+            ],
+            "OverrideInitialElement1": "EPalElementType::None",
+            "OverrideInitialElement2": "EPalElementType::None",
+            "CanModeChange": true,
+            "IgnoreLargeDown": false,
+            "ModeChange_AddStatusToAllWhenModeChgange": "EPalStatusID::Electrical",
+            "ModeChange_Element1": "EPalElementType::Electricity",
+            "ModeChange_Element2": "EPalElementType::None",
+            "ModeChange_AddPassiveSkill": [
+              "ElementBoost_Dragon_2_PAL",
+              "Deffence_up2",
+              "PAL_masochist",
+              "Deffence_up1",
+              "MoveSpeed_up_3"
+            ],
+            "ModeChange_AddWaza": [
+              "EPalWazaID::ThunderStorm",
+              "EPalWazaID::ThunderRain",
+              "EPalWazaID::RangeThunder",
+              "EPalWazaID::Thunderbolt",
+              "EPalWazaID::LightningStrike"
+            ],
+            "ModeChange_RemoveWaza": [
+              "EPalWazaID::DragonMeteor",
+              "EPalWazaID::FlameWall",
+              "EPalWazaID::Eruption",
+              "EPalWazaID::FireBall"
+            ],
+            "AIControllerClass": null
+          }
+        ],
+        "SummonMeteor_Num": [],
+        "SummonGeneratorClass": null,
+        "EggPalIDAndWeight": [
+          {
+            "Key": {
+              "Key": "BOSS_KingBahamut_Dragon"
+            },
+            "Value": 0.1
+          },
+          {
+            "Key": {
+              "Key": "KingBahamut_Dragon"
+            },
+            "Value": 0.9
+          }
+        ],
+        "SuccessItemList": [
+          {
+            "ItemName": {
+              "Key": "Accessory_HP_3"
+            },
+            "Rate": 33.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "AncientParts2"
+            },
+            "Rate": 100.0,
+            "Min": 2,
+            "Max": 2
+          },
+          {
+            "ItemName": {
+              "Key": "PalSummon_KingBahamut_Dragon_2"
+            },
+            "Rate": 100.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Accessory_AT_3"
+            },
+            "Rate": 33.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Accessory_defense_3"
+            },
+            "Rate": 33.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "LvUP_01"
+            },
+            "Rate": 100.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Ruby"
+            },
+            "Rate": 100.0,
+            "Min": 5,
+            "Max": 10
+          },
+          {
+            "ItemName": {
+              "Key": "PalCrystal_Ex"
+            },
+            "Rate": 100.0,
+            "Min": 10,
+            "Max": 10
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_hp_01"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_stamina_01"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_attack_01"
+            },
+            "Rate": 100.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_workspeed_01"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_weight_01"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          }
+        ],
+        "SuccessAnyOneItemList": [
+          {
+            "ItemName": {
+              "Key": "Fruit_hp_01"
+            },
+            "Num": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Fruit_attack_01"
+            },
+            "Num": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Fruit__defense_01"
+            },
+            "Num": 1
+          }
+        ],
+        "AchievementId": "14",
+        "OverrideRaidBossBattleActorClass": null
+      },
+      "PalSummon_KingBahamut_Dragon_2": {
+        "InfoList": [
+          {
+            "PalId": {
+              "Key": "RAID_KingBahamut_Dragon_2"
+            },
+            "Level": 55,
+            "WarpWazaID": "EPalWazaID::Unique_KingBahamut_AirCrash",
+            "BaseCampAttackWazaIDs": [
+              "EPalWazaID::Unique_KingBahamut_AirCrash"
+            ],
+            "OverrideInitialElement1": "EPalElementType::None",
+            "OverrideInitialElement2": "EPalElementType::None",
+            "CanModeChange": true,
+            "IgnoreLargeDown": false,
+            "ModeChange_AddStatusToAllWhenModeChgange": "EPalStatusID::Electrical",
+            "ModeChange_Element1": "EPalElementType::Electricity",
+            "ModeChange_Element2": "EPalElementType::None",
+            "ModeChange_AddPassiveSkill": [
+              "ElementBoost_Dragon_2_PAL",
+              "Deffence_up2",
+              "PAL_masochist",
+              "Deffence_up1",
+              "MoveSpeed_up_3"
+            ],
+            "ModeChange_AddWaza": [
+              "EPalWazaID::ThunderStorm",
+              "EPalWazaID::ThunderRain",
+              "EPalWazaID::RangeThunder",
+              "EPalWazaID::Railbolt",
+              "EPalWazaID::LightningStrike"
+            ],
+            "ModeChange_RemoveWaza": [
+              "EPalWazaID::DragonMeteor",
+              "EPalWazaID::FlameWall",
+              "EPalWazaID::Eruption",
+              "EPalWazaID::FireBall"
+            ],
+            "AIControllerClass": null
+          }
+        ],
+        "SummonMeteor_Num": [],
+        "SummonGeneratorClass": null,
+        "EggPalIDAndWeight": [
+          {
+            "Key": {
+              "Key": "BOSS_KingBahamut_Dragon"
+            },
+            "Value": 0.1
+          },
+          {
+            "Key": {
+              "Key": "KingBahamut_Dragon"
+            },
+            "Value": 0.9
+          }
+        ],
+        "SuccessItemList": [
+          {
+            "ItemName": {
+              "Key": "AncientParts2"
+            },
+            "Rate": 100.0,
+            "Min": 3,
+            "Max": 3
+          },
+          {
+            "ItemName": {
+              "Key": "HeadEquip041"
+            },
+            "Rate": 100.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "LvUP_01"
+            },
+            "Rate": 100.0,
+            "Min": 2,
+            "Max": 3
+          },
+          {
+            "ItemName": {
+              "Key": "Diamond"
+            },
+            "Rate": 100.0,
+            "Min": 5,
+            "Max": 10
+          },
+          {
+            "ItemName": {
+              "Key": "PalCrystal_Ex"
+            },
+            "Rate": 100.0,
+            "Min": 10,
+            "Max": 20
+          },
+          {
+            "ItemName": {
+              "Key": "PalSummon_KingBahamut_Dragon_2"
+            },
+            "Rate": 100.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_hp_02"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_stamina_02"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_attack_02"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_workspeed_02"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_weight_02"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          }
+        ],
+        "SuccessAnyOneItemList": [
+          {
+            "ItemName": {
+              "Key": "Fruit_hp_01"
+            },
+            "Num": 2
+          },
+          {
+            "ItemName": {
+              "Key": "Fruit_attack_01"
+            },
+            "Num": 2
+          },
+          {
+            "ItemName": {
+              "Key": "Fruit__defense_01"
+            },
+            "Num": 2
+          }
+        ],
+        "AchievementId": "14",
+        "OverrideRaidBossBattleActorClass": null
+      },
+      "PalSummon_DarkMechaDragon": {
+        "InfoList": [
+          {
+            "PalId": {
+              "Key": "RAID_DarkMechaDragon"
+            },
+            "Level": 60,
+            "WarpWazaID": "EPalWazaID::Unique_DarkMechaDragon_WarpComet",
+            "BaseCampAttackWazaIDs": [
+              "EPalWazaID::Unique_DarkMechaDragon_WarpComet"
+            ],
+            "OverrideInitialElement1": "EPalElementType::None",
+            "OverrideInitialElement2": "EPalElementType::None",
+            "CanModeChange": false,
+            "IgnoreLargeDown": false,
+            "ModeChange_AddStatusToAllWhenModeChgange": "EPalStatusID::None",
+            "ModeChange_Element1": "EPalElementType::None",
+            "ModeChange_Element2": "EPalElementType::None",
+            "ModeChange_AddPassiveSkill": [],
+            "ModeChange_AddWaza": [],
+            "ModeChange_RemoveWaza": [],
+            "AIControllerClass": null
+          }
+        ],
+        "SummonMeteor_Num": [
+          {
+            "HPRate": 0.7,
+            "SummonPalInfoList": [
+              {
+                "PalNameAndNum": [
+                  {
+                    "Key": {
+                      "Key": "SUMMON_DarkAlien"
+                    },
+                    "Value": 3
+                  }
+                ]
+              },
+              {
+                "PalNameAndNum": [
+                  {
+                    "Key": {
+                      "Key": "SUMMON_DarkAlien"
+                    },
+                    "Value": 3
+                  }
+                ]
+              },
+              {
+                "PalNameAndNum": [
+                  {
+                    "Key": {
+                      "Key": "SUMMON_DarkAlien"
+                    },
+                    "Value": 3
+                  }
+                ]
+              },
+              {
+                "PalNameAndNum": [
+                  {
+                    "Key": {
+                      "Key": "SUMMON_DarkAlien"
+                    },
+                    "Value": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "HPRate": 0.4,
+            "SummonPalInfoList": [
+              {
+                "PalNameAndNum": [
+                  {
+                    "Key": {
+                      "Key": "SUMMON_WhiteAlienDragon"
+                    },
+                    "Value": 1
+                  },
+                  {
+                    "Key": {
+                      "Key": "SUMMON_DarkAlien"
+                    },
+                    "Value": 3
+                  }
+                ]
+              },
+              {
+                "PalNameAndNum": [
+                  {
+                    "Key": {
+                      "Key": "SUMMON_DarkAlien"
+                    },
+                    "Value": 4
+                  }
+                ]
+              },
+              {
+                "PalNameAndNum": [
+                  {
+                    "Key": {
+                      "Key": "SUMMON_WhiteAlienDragon"
+                    },
+                    "Value": 1
+                  },
+                  {
+                    "Key": {
+                      "Key": "SUMMON_DarkAlien"
+                    },
+                    "Value": 3
+                  }
+                ]
+              },
+              {
+                "PalNameAndNum": [
+                  {
+                    "Key": {
+                      "Key": "SUMMON_DarkAlien"
+                    },
+                    "Value": 4
+                  }
+                ]
+              },
+              {
+                "PalNameAndNum": [
+                  {
+                    "Key": {
+                      "Key": "SUMMON_WhiteAlienDragon"
+                    },
+                    "Value": 1
+                  },
+                  {
+                    "Key": {
+                      "Key": "SUMMON_DarkAlien"
+                    },
+                    "Value": 3
+                  }
+                ]
+              },
+              {
+                "PalNameAndNum": [
+                  {
+                    "Key": {
+                      "Key": "SUMMON_DarkAlien"
+                    },
+                    "Value": 4
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "SummonGeneratorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_RaidBossMeteorGenerator_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/RaidBoss/SummonGenerator/BP_RaidBossMeteorGenerator.0"
+        },
+        "EggPalIDAndWeight": [
+          {
+            "Key": {
+              "Key": "BOSS_DarkMechaDragon"
+            },
+            "Value": 0.1
+          },
+          {
+            "Key": {
+              "Key": "DarkMechaDragon"
+            },
+            "Value": 0.9
+          }
+        ],
+        "SuccessItemList": [
+          {
+            "ItemName": {
+              "Key": "Accessory_DragonResist_3"
+            },
+            "Rate": 33.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "AncientParts2"
+            },
+            "Rate": 100.0,
+            "Min": 3,
+            "Max": 3
+          },
+          {
+            "ItemName": {
+              "Key": "PalSummon_DarkMechaDragon_2"
+            },
+            "Rate": 100.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Accessory_DarkResist_3"
+            },
+            "Rate": 33.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Accessory_MaxWeightUp_03"
+            },
+            "Rate": 33.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "LvUP_01"
+            },
+            "Rate": 100.0,
+            "Min": 2,
+            "Max": 2
+          },
+          {
+            "ItemName": {
+              "Key": "Ruby"
+            },
+            "Rate": 100.0,
+            "Min": 5,
+            "Max": 10
+          },
+          {
+            "ItemName": {
+              "Key": "PalCrystal_Ex"
+            },
+            "Rate": 100.0,
+            "Min": 10,
+            "Max": 10
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_hp_01"
+            },
+            "Rate": 100.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_stamina_01"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_attack_01"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_workspeed_01"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_weight_01"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          }
+        ],
+        "SuccessAnyOneItemList": [
+          {
+            "ItemName": {
+              "Key": "Fruit_hp_01"
+            },
+            "Num": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Fruit_attack_01"
+            },
+            "Num": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Fruit__defense_01"
+            },
+            "Num": 1
+          }
+        ],
+        "AchievementId": "33",
+        "OverrideRaidBossBattleActorClass": null
+      },
+      "PalSummon_DarkMechaDragon_2": {
+        "InfoList": [
+          {
+            "PalId": {
+              "Key": "RAID_DarkMechaDragon_2"
+            },
+            "Level": 60,
+            "WarpWazaID": "EPalWazaID::Unique_DarkMechaDragon_WarpComet",
+            "BaseCampAttackWazaIDs": [
+              "EPalWazaID::Unique_DarkMechaDragon_WarpComet"
+            ],
+            "OverrideInitialElement1": "EPalElementType::None",
+            "OverrideInitialElement2": "EPalElementType::None",
+            "CanModeChange": false,
+            "IgnoreLargeDown": false,
+            "ModeChange_AddStatusToAllWhenModeChgange": "EPalStatusID::None",
+            "ModeChange_Element1": "EPalElementType::None",
+            "ModeChange_Element2": "EPalElementType::None",
+            "ModeChange_AddPassiveSkill": [],
+            "ModeChange_AddWaza": [],
+            "ModeChange_RemoveWaza": [],
+            "AIControllerClass": null
+          }
+        ],
+        "SummonMeteor_Num": [
+          {
+            "HPRate": 0.8,
+            "SummonPalInfoList": [
+              {
+                "PalNameAndNum": [
+                  {
+                    "Key": {
+                      "Key": "SUMMON_DarkAlien_MAX"
+                    },
+                    "Value": 3
+                  }
+                ]
+              },
+              {
+                "PalNameAndNum": [
+                  {
+                    "Key": {
+                      "Key": "SUMMON_DarkAlien_MAX"
+                    },
+                    "Value": 3
+                  }
+                ]
+              },
+              {
+                "PalNameAndNum": [
+                  {
+                    "Key": {
+                      "Key": "SUMMON_DarkAlien_MAX"
+                    },
+                    "Value": 3
+                  }
+                ]
+              },
+              {
+                "PalNameAndNum": [
+                  {
+                    "Key": {
+                      "Key": "SUMMON_DarkAlien_MAX"
+                    },
+                    "Value": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "HPRate": 0.5,
+            "SummonPalInfoList": [
+              {
+                "PalNameAndNum": [
+                  {
+                    "Key": {
+                      "Key": "SUMMON_WhiteAlienDragon_MAX"
+                    },
+                    "Value": 1
+                  },
+                  {
+                    "Key": {
+                      "Key": "SUMMON_DarkAlien_MAX"
+                    },
+                    "Value": 3
+                  }
+                ]
+              },
+              {
+                "PalNameAndNum": [
+                  {
+                    "Key": {
+                      "Key": "SUMMON_DarkAlien_MAX"
+                    },
+                    "Value": 3
+                  }
+                ]
+              },
+              {
+                "PalNameAndNum": [
+                  {
+                    "Key": {
+                      "Key": "SUMMON_WhiteAlienDragon_MAX"
+                    },
+                    "Value": 1
+                  },
+                  {
+                    "Key": {
+                      "Key": "SUMMON_DarkAlien_MAX"
+                    },
+                    "Value": 3
+                  }
+                ]
+              },
+              {
+                "PalNameAndNum": [
+                  {
+                    "Key": {
+                      "Key": "SUMMON_DarkAlien_MAX"
+                    },
+                    "Value": 3
+                  }
+                ]
+              },
+              {
+                "PalNameAndNum": [
+                  {
+                    "Key": {
+                      "Key": "SUMMON_WhiteAlienDragon_MAX"
+                    },
+                    "Value": 1
+                  },
+                  {
+                    "Key": {
+                      "Key": "SUMMON_DarkAlien_MAX"
+                    },
+                    "Value": 3
+                  }
+                ]
+              },
+              {
+                "PalNameAndNum": [
+                  {
+                    "Key": {
+                      "Key": "SUMMON_DarkAlien_MAX"
+                    },
+                    "Value": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "HPRate": 0.2,
+            "SummonPalInfoList": [
+              {
+                "PalNameAndNum": [
+                  {
+                    "Key": {
+                      "Key": "SUMMON_WhiteAlienDragon_MAX"
+                    },
+                    "Value": 1
+                  },
+                  {
+                    "Key": {
+                      "Key": "SUMMON_DarkAlien_MAX"
+                    },
+                    "Value": 3
+                  }
+                ]
+              },
+              {
+                "PalNameAndNum": [
+                  {
+                    "Key": {
+                      "Key": "SUMMON_DarkAlien_MAX"
+                    },
+                    "Value": 3
+                  }
+                ]
+              },
+              {
+                "PalNameAndNum": [
+                  {
+                    "Key": {
+                      "Key": "SUMMON_WhiteAlienDragon_MAX"
+                    },
+                    "Value": 1
+                  },
+                  {
+                    "Key": {
+                      "Key": "SUMMON_DarkAlien_MAX"
+                    },
+                    "Value": 3
+                  }
+                ]
+              },
+              {
+                "PalNameAndNum": [
+                  {
+                    "Key": {
+                      "Key": "SUMMON_DarkAlien_MAX"
+                    },
+                    "Value": 3
+                  }
+                ]
+              },
+              {
+                "PalNameAndNum": [
+                  {
+                    "Key": {
+                      "Key": "SUMMON_WhiteAlienDragon_MAX"
+                    },
+                    "Value": 1
+                  },
+                  {
+                    "Key": {
+                      "Key": "SUMMON_DarkAlien_MAX"
+                    },
+                    "Value": 3
+                  }
+                ]
+              },
+              {
+                "PalNameAndNum": [
+                  {
+                    "Key": {
+                      "Key": "SUMMON_DarkAlien_MAX"
+                    },
+                    "Value": 3
+                  }
+                ]
+              },
+              {
+                "PalNameAndNum": [
+                  {
+                    "Key": {
+                      "Key": "SUMMON_WhiteAlienDragon_MAX"
+                    },
+                    "Value": 1
+                  },
+                  {
+                    "Key": {
+                      "Key": "SUMMON_DarkAlien_MAX"
+                    },
+                    "Value": 3
+                  }
+                ]
+              },
+              {
+                "PalNameAndNum": [
+                  {
+                    "Key": {
+                      "Key": "SUMMON_DarkAlien_MAX"
+                    },
+                    "Value": 4
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "SummonGeneratorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_RaidBossMeteorGenerator_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/RaidBoss/SummonGenerator/BP_RaidBossMeteorGenerator.0"
+        },
+        "EggPalIDAndWeight": [
+          {
+            "Key": {
+              "Key": "BOSS_DarkMechaDragon"
+            },
+            "Value": 0.1
+          },
+          {
+            "Key": {
+              "Key": "DarkMechaDragon"
+            },
+            "Value": 0.9
+          }
+        ],
+        "SuccessItemList": [
+          {
+            "ItemName": {
+              "Key": "AncientParts2"
+            },
+            "Rate": 100.0,
+            "Min": 3,
+            "Max": 3
+          },
+          {
+            "ItemName": {
+              "Key": "PalSummon_DarkMechaDragon_2"
+            },
+            "Rate": 100.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "LvUP_01"
+            },
+            "Rate": 100.0,
+            "Min": 2,
+            "Max": 3
+          },
+          {
+            "ItemName": {
+              "Key": "Diamond"
+            },
+            "Rate": 100.0,
+            "Min": 5,
+            "Max": 10
+          },
+          {
+            "ItemName": {
+              "Key": "PalCrystal_Ex"
+            },
+            "Rate": 100.0,
+            "Min": 10,
+            "Max": 20
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_hp_02"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_stamina_02"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_attack_02"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_workspeed_02"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_weight_02"
+            },
+            "Rate": 100.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "HeadEquip044"
+            },
+            "Rate": 100.0,
+            "Min": 1,
+            "Max": 1
+          }
+        ],
+        "SuccessAnyOneItemList": [
+          {
+            "ItemName": {
+              "Key": "Fruit_hp_01"
+            },
+            "Num": 3
+          },
+          {
+            "ItemName": {
+              "Key": "Fruit_attack_01"
+            },
+            "Num": 3
+          },
+          {
+            "ItemName": {
+              "Key": "Fruit__defense_01"
+            },
+            "Num": 3
+          }
+        ],
+        "AchievementId": "33",
+        "OverrideRaidBossBattleActorClass": null
+      },
+      "PalSummon_YakushimaBoss002": {
+        "InfoList": [
+          {
+            "PalId": {
+              "Key": "RAID_YakushimaBoss002"
+            },
+            "Level": 50,
+            "WarpWazaID": "EPalWazaID::None",
+            "BaseCampAttackWazaIDs": [
+              "EPalWazaID::Unique_YakushimaBoss002_PhantasmalEye"
+            ],
+            "OverrideInitialElement1": "EPalElementType::None",
+            "OverrideInitialElement2": "EPalElementType::None",
+            "CanModeChange": false,
+            "IgnoreLargeDown": false,
+            "ModeChange_AddStatusToAllWhenModeChgange": "EPalStatusID::None",
+            "ModeChange_Element1": "EPalElementType::None",
+            "ModeChange_Element2": "EPalElementType::None",
+            "ModeChange_AddPassiveSkill": [],
+            "ModeChange_AddWaza": [],
+            "ModeChange_RemoveWaza": [],
+            "AIControllerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_YakushimaBoss002_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_YakushimaBoss002.0"
+            }
+          }
+        ],
+        "SummonMeteor_Num": [],
+        "SummonGeneratorClass": null,
+        "EggPalIDAndWeight": [],
+        "SuccessItemList": [
+          {
+            "ItemName": {
+              "Key": "Accessory_HP_3"
+            },
+            "Rate": 33.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "AncientParts2"
+            },
+            "Rate": 100.0,
+            "Min": 2,
+            "Max": 2
+          },
+          {
+            "ItemName": {
+              "Key": "Accessory_AT_3"
+            },
+            "Rate": 33.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Accessory_defense_3"
+            },
+            "Rate": 33.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "LvUP_01"
+            },
+            "Rate": 100.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Ruby"
+            },
+            "Rate": 100.0,
+            "Min": 5,
+            "Max": 10
+          },
+          {
+            "ItemName": {
+              "Key": "PalCrystal_Ex"
+            },
+            "Rate": 100.0,
+            "Min": 10,
+            "Max": 10
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_hp_01"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_stamina_01"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_attack_01"
+            },
+            "Rate": 100.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_workspeed_01"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_weight_01"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "YakushimaBlade005"
+            },
+            "Rate": 22.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "YakushimaHeadEquip005"
+            },
+            "Rate": 10.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "PalSummon_YakushimaBoss002_2"
+            },
+            "Rate": 100.0,
+            "Min": 1,
+            "Max": 1
+          }
+        ],
+        "SuccessAnyOneItemList": [
+          {
+            "ItemName": {
+              "Key": "Fruit_hp_01"
+            },
+            "Num": 3
+          },
+          {
+            "ItemName": {
+              "Key": "Fruit_attack_01"
+            },
+            "Num": 3
+          },
+          {
+            "ItemName": {
+              "Key": "Fruit__defense_01"
+            },
+            "Num": 3
+          }
+        ],
+        "AchievementId": "",
+        "OverrideRaidBossBattleActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PalRaidBossBattle_YakushimaBoss002_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/RaidBoss/BP_PalRaidBossBattle_YakushimaBoss002.0"
+        }
+      },
+      "PalSummon_YakushimaBoss002_2": {
+        "InfoList": [
+          {
+            "PalId": {
+              "Key": "RAID_YakushimaBoss002_2"
+            },
+            "Level": 65,
+            "WarpWazaID": "EPalWazaID::None",
+            "BaseCampAttackWazaIDs": [
+              "EPalWazaID::Unique_YakushimaBoss002_PhantasmalEye"
+            ],
+            "OverrideInitialElement1": "EPalElementType::None",
+            "OverrideInitialElement2": "EPalElementType::None",
+            "CanModeChange": false,
+            "IgnoreLargeDown": false,
+            "ModeChange_AddStatusToAllWhenModeChgange": "EPalStatusID::None",
+            "ModeChange_Element1": "EPalElementType::None",
+            "ModeChange_Element2": "EPalElementType::None",
+            "ModeChange_AddPassiveSkill": [],
+            "ModeChange_AddWaza": [],
+            "ModeChange_RemoveWaza": [],
+            "AIControllerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_YakushimaBoss002_2_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_YakushimaBoss002_2.0"
+            }
+          }
+        ],
+        "SummonMeteor_Num": [],
+        "SummonGeneratorClass": null,
+        "EggPalIDAndWeight": [],
+        "SuccessItemList": [
+          {
+            "ItemName": {
+              "Key": "AncientParts2"
+            },
+            "Rate": 100.0,
+            "Min": 3,
+            "Max": 3
+          },
+          {
+            "ItemName": {
+              "Key": "PalSummon_YakushimaBoss002_2"
+            },
+            "Rate": 100.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "LvUP_01"
+            },
+            "Rate": 100.0,
+            "Min": 2,
+            "Max": 3
+          },
+          {
+            "ItemName": {
+              "Key": "Diamond"
+            },
+            "Rate": 100.0,
+            "Min": 5,
+            "Max": 10
+          },
+          {
+            "ItemName": {
+              "Key": "PalCrystal_Ex"
+            },
+            "Rate": 100.0,
+            "Min": 10,
+            "Max": 20
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_hp_02"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_stamina_02"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_attack_02"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_workspeed_02"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_weight_02"
+            },
+            "Rate": 100.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Blueprint_YakushimaBlade002_5"
+            },
+            "Rate": 25.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Blueprint_YakushimaGun001_5"
+            },
+            "Rate": 25.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Blueprint_YakushimaLantern001_5"
+            },
+            "Rate": 25.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Blueprint_YakushimaBlade003_5"
+            },
+            "Rate": 25.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Blueprint_YakushimaBoss002_Relic"
+            },
+            "Rate": 100.0,
+            "Min": 1,
+            "Max": 1
+          }
+        ],
+        "SuccessAnyOneItemList": [
+          {
+            "ItemName": {
+              "Key": "Fruit_hp_01"
+            },
+            "Num": 3
+          },
+          {
+            "ItemName": {
+              "Key": "Fruit_attack_01"
+            },
+            "Num": 3
+          },
+          {
+            "ItemName": {
+              "Key": "Fruit__defense_01"
+            },
+            "Num": 3
+          }
+        ],
+        "AchievementId": "",
+        "OverrideRaidBossBattleActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PalRaidBossBattle_YakushimaBoss002_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/RaidBoss/BP_PalRaidBossBattle_YakushimaBoss002.0"
+        }
+      },
+      "PalSummon_LegendDeer": {
+        "InfoList": [
+          {
+            "PalId": {
+              "Key": "RAID_LegendDeer"
+            },
+            "Level": 65,
+            "WarpWazaID": "EPalWazaID::Unique_LegendDeer_WarpPillarBurst",
+            "BaseCampAttackWazaIDs": [
+              "EPalWazaID::Unique_LegendDeer_WarpPillarBurst"
+            ],
+            "OverrideInitialElement1": "EPalElementType::Leaf",
+            "OverrideInitialElement2": "EPalElementType::Water",
+            "CanModeChange": false,
+            "IgnoreLargeDown": true,
+            "ModeChange_AddStatusToAllWhenModeChgange": "EPalStatusID::None",
+            "ModeChange_Element1": "EPalElementType::Normal",
+            "ModeChange_Element2": "EPalElementType::None",
+            "ModeChange_AddPassiveSkill": [
+              "CoolTimeReduction_Down_1",
+              "PAL_masochist"
+            ],
+            "ModeChange_AddWaza": [
+              "EPalWazaID::Unique_LegendDeer_WarpPillarBurst",
+              "EPalWazaID::RadiantBarrage",
+              "EPalWazaID::Unique_LegendDeer_RadiantWingRush",
+              "EPalWazaID::HolyBlast",
+              "EPalWazaID::AirBlade",
+              "EPalWazaID::PowerBall"
+            ],
+            "ModeChange_RemoveWaza": [
+              "EPalWazaID::CrossWind",
+              "EPalWazaID::SolarBeam",
+              "EPalWazaID::SeaGush",
+              "EPalWazaID::WallSplash",
+              "EPalWazaID::RipTide",
+              "EPalWazaID::RootLance"
+            ],
+            "AIControllerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_RaidBoss_LegendDeer_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_RaidBoss_LegendDeer.0"
+            }
+          }
+        ],
+        "SummonMeteor_Num": [],
+        "SummonGeneratorClass": null,
+        "EggPalIDAndWeight": [
+          {
+            "Key": {
+              "Key": "BOSS_LegendDeer"
+            },
+            "Value": 0.1
+          },
+          {
+            "Key": {
+              "Key": "LegendDeer"
+            },
+            "Value": 0.9
+          }
+        ],
+        "SuccessItemList": [
+          {
+            "ItemName": {
+              "Key": "Accessory_AquaResist_3"
+            },
+            "Rate": 33.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "AncientParts2"
+            },
+            "Rate": 100.0,
+            "Min": 3,
+            "Max": 3
+          },
+          {
+            "ItemName": {
+              "Key": "PalSummon_LegendDeer_2"
+            },
+            "Rate": 100.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Accessory_LeafResist_3"
+            },
+            "Rate": 33.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Accessory_MaxWeightUp_03"
+            },
+            "Rate": 33.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "LvUP_01"
+            },
+            "Rate": 100.0,
+            "Min": 2,
+            "Max": 2
+          },
+          {
+            "ItemName": {
+              "Key": "Ruby"
+            },
+            "Rate": 100.0,
+            "Min": 5,
+            "Max": 10
+          },
+          {
+            "ItemName": {
+              "Key": "PalCrystal_Ex"
+            },
+            "Rate": 100.0,
+            "Min": 10,
+            "Max": 10
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_hp_01"
+            },
+            "Rate": 100.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_stamina_01"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_attack_01"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_workspeed_01"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_weight_01"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Accessory_NormalResist_3"
+            },
+            "Rate": 33.0,
+            "Min": 1,
+            "Max": 1
+          }
+        ],
+        "SuccessAnyOneItemList": [
+          {
+            "ItemName": {
+              "Key": "Fruit_hp_01"
+            },
+            "Num": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Fruit_attack_01"
+            },
+            "Num": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Fruit__defense_01"
+            },
+            "Num": 1
+          }
+        ],
+        "AchievementId": "57",
+        "OverrideRaidBossBattleActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PalRaidBossBattle_LegendDeer_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/RaidBoss/BP_PalRaidBossBattle_LegendDeer.0"
+        }
+      },
+      "PalSummon_LegendDeer_2": {
+        "InfoList": [
+          {
+            "PalId": {
+              "Key": "RAID_LegendDeer_2"
+            },
+            "Level": 65,
+            "WarpWazaID": "EPalWazaID::Unique_LegendDeer_WarpPillarBurst",
+            "BaseCampAttackWazaIDs": [
+              "EPalWazaID::Unique_LegendDeer_WarpPillarBurst"
+            ],
+            "OverrideInitialElement1": "EPalElementType::Leaf",
+            "OverrideInitialElement2": "EPalElementType::Water",
+            "CanModeChange": false,
+            "IgnoreLargeDown": true,
+            "ModeChange_AddStatusToAllWhenModeChgange": "EPalStatusID::None",
+            "ModeChange_Element1": "EPalElementType::Normal",
+            "ModeChange_Element2": "EPalElementType::None",
+            "ModeChange_AddPassiveSkill": [
+              "CoolTimeReduction_Down_1",
+              "PAL_masochist"
+            ],
+            "ModeChange_AddWaza": [
+              "EPalWazaID::Unique_LegendDeer_WarpPillarBurst",
+              "EPalWazaID::RadiantBarrage",
+              "EPalWazaID::Unique_LegendDeer_RadiantWingRush",
+              "EPalWazaID::HolyBlast",
+              "EPalWazaID::AirBlade",
+              "EPalWazaID::PowerBall"
+            ],
+            "ModeChange_RemoveWaza": [
+              "EPalWazaID::CrossWind",
+              "EPalWazaID::SolarBeam",
+              "EPalWazaID::SeaGush",
+              "EPalWazaID::WallSplash",
+              "EPalWazaID::RipTide",
+              "EPalWazaID::RootLance"
+            ],
+            "AIControllerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_RaidBoss_LegendDeer_2_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/Monster/BP_MonsterAIController_RaidBoss_LegendDeer_2.0"
+            }
+          }
+        ],
+        "SummonMeteor_Num": [],
+        "SummonGeneratorClass": null,
+        "EggPalIDAndWeight": [
+          {
+            "Key": {
+              "Key": "BOSS_LegendDeer"
+            },
+            "Value": 0.1
+          },
+          {
+            "Key": {
+              "Key": "LegendDeer"
+            },
+            "Value": 0.9
+          }
+        ],
+        "SuccessItemList": [
+          {
+            "ItemName": {
+              "Key": "AncientParts2"
+            },
+            "Rate": 100.0,
+            "Min": 3,
+            "Max": 3
+          },
+          {
+            "ItemName": {
+              "Key": "PalSummon_LegendDeer_2"
+            },
+            "Rate": 100.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "LvUP_01"
+            },
+            "Rate": 100.0,
+            "Min": 2,
+            "Max": 3
+          },
+          {
+            "ItemName": {
+              "Key": "Diamond"
+            },
+            "Rate": 100.0,
+            "Min": 5,
+            "Max": 10
+          },
+          {
+            "ItemName": {
+              "Key": "PalCrystal_Ex"
+            },
+            "Rate": 100.0,
+            "Min": 10,
+            "Max": 20
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_hp_02"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_stamina_02"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_attack_02"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_workspeed_02"
+            },
+            "Rate": 20.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Lotus_weight_02"
+            },
+            "Rate": 100.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "HeadEquip046"
+            },
+            "Rate": 100.0,
+            "Min": 1,
+            "Max": 1
+          }
+        ],
+        "SuccessAnyOneItemList": [
+          {
+            "ItemName": {
+              "Key": "Fruit_hp_01"
+            },
+            "Num": 4
+          },
+          {
+            "ItemName": {
+              "Key": "Fruit_attack_01"
+            },
+            "Num": 4
+          },
+          {
+            "ItemName": {
+              "Key": "Fruit__defense_01"
+            },
+            "Num": 4
+          }
+        ],
+        "AchievementId": "57",
+        "OverrideRaidBossBattleActorClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PalRaidBossBattle_LegendDeer_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/RaidBoss/BP_PalRaidBossBattle_LegendDeer.0"
+        }
+      }
     }
+  }
 ]

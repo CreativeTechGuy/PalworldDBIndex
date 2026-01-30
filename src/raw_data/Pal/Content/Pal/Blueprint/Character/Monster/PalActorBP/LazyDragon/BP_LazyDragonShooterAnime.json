@@ -1,54 +1,54 @@
 [
-    {
-        "Type": "BlueprintGeneratedClass",
-        "Name": "BP_LazyDragonShooterAnime_C",
-        "Class": "UScriptClass'BlueprintGeneratedClass'",
-        "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "SuperStruct": {
-            "ObjectName": "Class'PalShooterAnimeAssetBase'",
-            "ObjectPath": "/Script/Pal"
-        },
-        "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
-        "ClassWithin": {
-            "ObjectName": "Class'Object'",
-            "ObjectPath": "/Script/CoreUObject"
-        },
-        "ClassConfigName": "Engine",
-        "bCooked": true,
-        "ClassDefaultObject": {
-            "ObjectName": "BP_LazyDragonShooterAnime_C'Default__BP_LazyDragonShooterAnime_C'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragonShooterAnime.1"
-        },
-        "EditorTags": {
-            "BlueprintType": "BPTYPE_Normal"
-        }
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_LazyDragonShooterAnime_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'PalShooterAnimeAssetBase'",
+      "ObjectPath": "/Script/Pal"
     },
-    {
-        "Type": "BP_LazyDragonShooterAnime_C",
-        "Name": "Default__BP_LazyDragonShooterAnime_C",
-        "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragonShooterAnime.BP_LazyDragonShooterAnime_C'",
-        "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AnimeInfo": {
-                "AimingMoveBlendSpace": {
-                    "ObjectName": "BlendSpace'BS_AimMove_LazyDragon'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BS_AimMove_LazyDragon.0"
-                },
-                "HipShootingMoveBlendSpace": {
-                    "ObjectName": "BlendSpace'BS_AimMove_LazyDragon'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BS_AimMove_LazyDragon.0"
-                },
-                "AnimationMap": [
-                    {
-                        "Key": "EWeaponAnimationType::PullTrigger",
-                        "Value": {
-                            "PoseMap": [],
-                            "isAutoStop": false,
-                            "EndDelegateType": "EPalWeaponAnimationEndDelegateType::MontageBlendingOut"
-                        }
-                    }
-                ]
-            }
-        }
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_LazyDragonShooterAnime_C'Default__BP_LazyDragonShooterAnime_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragonShooterAnime.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
     }
+  },
+  {
+    "Type": "BP_LazyDragonShooterAnime_C",
+    "Name": "Default__BP_LazyDragonShooterAnime_C",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragonShooterAnime.BP_LazyDragonShooterAnime_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AnimeInfo": {
+        "AimingMoveBlendSpace": {
+          "ObjectName": "BlendSpace'BS_AimMove_LazyDragon'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BS_AimMove_LazyDragon.0"
+        },
+        "HipShootingMoveBlendSpace": {
+          "ObjectName": "BlendSpace'BS_AimMove_LazyDragon'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BS_AimMove_LazyDragon.0"
+        },
+        "AnimationMap": [
+          {
+            "Key": "EWeaponAnimationType::PullTrigger",
+            "Value": {
+              "PoseMap": [],
+              "isAutoStop": false,
+              "EndDelegateType": "EPalWeaponAnimationEndDelegateType::MontageBlendingOut"
+            }
+          }
+        ]
+      }
+    }
+  }
 ]

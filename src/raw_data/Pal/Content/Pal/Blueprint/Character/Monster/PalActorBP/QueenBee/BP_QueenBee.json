@@ -1,1708 +1,1710 @@
 [
-    {
-        "Type": "BlueprintGeneratedClass",
-        "Name": "BP_QueenBee_C",
-        "Class": "UScriptClass'BlueprintGeneratedClass'",
-        "Super": {
-            "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "SimpleConstructionScript": {
-                "ObjectName": "SimpleConstructionScript'BP_QueenBee_C:SimpleConstructionScript_0'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.44"
-            },
-            "InheritableComponentHandler": {
-                "ObjectName": "InheritableComponentHandler'BP_QueenBee_C:InheritableComponentHandler'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.5"
-            }
-        },
-        "SuperStruct": {
-            "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-        },
-        "Children": [
-            {
-                "ObjectName": "Function'BP_QueenBee_C:GetHandAttachMesh'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.4"
-            }
-        ],
-        "ChildProperties": [
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalFlyMeshHeightCtrl",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalFlyMeshHeightCtrlComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsCapsule7",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsCapsule6",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsCapsule5",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsCapsule4",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsCapsule3",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsCapsule2",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsCapsule1",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsCapsule",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "Weapon",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'SkeletalMeshComponent'",
-                    "ObjectPath": "/Script/Engine"
-                }
-            }
-        ],
-        "FuncMap": {
-            "GetHandAttachMesh": {
-                "ObjectName": "Function'BP_QueenBee_C:GetHandAttachMesh'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.4"
-            }
-        },
-        "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
-        "ClassWithin": {
-            "ObjectName": "Class'Object'",
-            "ObjectPath": "/Script/CoreUObject"
-        },
-        "ClassConfigName": "Game",
-        "bCooked": true,
-        "ClassDefaultObject": {
-            "ObjectName": "BP_QueenBee_C'Default__BP_QueenBee_C'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.2"
-        },
-        "EditorTags": {
-            "BlueprintType": "BPTYPE_Normal"
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_QueenBee_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_QueenBee_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.44"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_QueenBee_C:InheritableComponentHandler'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_QueenBee_C:GetHandAttachMesh'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.4"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalFlyMeshHeightCtrl",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalFlyMeshHeightCtrlComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "BP_PalCryComponent_C",
-        "Name": "BP_PalCryComponent_GEN_VARIABLE",
-        "Outer": "BP_QueenBee_C",
-        "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.BP_PalCryComponent_C'",
-        "Template": {
-            "ObjectName": "BP_PalCryComponent_C'BP_MonsterBase_C:BP_PalCryComponent_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.2"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-        "Properties": {
-            "CryPalID": "EPalTribeID::QueenBee"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule7",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "BP_QueenBee_C",
-        "Name": "Default__BP_QueenBee_C",
-        "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.BP_QueenBee_C'",
-        "Template": {
-            "ObjectName": "BP_MonsterBase_C'Default__BP_MonsterBase_C'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.1"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "LiftupObjectComponent": {
-                "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_QueenBee_C:Liftup'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.18"
-            },
-            "ActionComponent": {
-                "ObjectName": "PalActionComponent'Default__BP_QueenBee_C:ActionComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.6"
-            },
-            "CharacterParameterComponent": {
-                "ObjectName": "PalCharacterParameterComponent'Default__BP_QueenBee_C:CharacterParameterComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.20"
-            },
-            "StaticCharacterParameterComponent": {
-                "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_QueenBee_C:StaticCharacterParameterComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.29"
-            },
-            "DamageReactionComponent": {
-                "ObjectName": "PalDamageReactionComponent'Default__BP_QueenBee_C:DamageReactionComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.21"
-            },
-            "StatusComponent": {
-                "ObjectName": "PalStatusComponent'Default__BP_QueenBee_C:StatusComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.30"
-            },
-            "CameraBoom": {
-                "ObjectName": "PalShooterSpringArmComponent'Default__BP_QueenBee_C:CameraBoom'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.27"
-            },
-            "FollowCamera": {
-                "ObjectName": "PalCharacterCameraComponent'Default__BP_QueenBee_C:FollowCamera'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.17"
-            },
-            "LookAtComponent": {
-                "ObjectName": "PalLookAtComponent'Default__BP_QueenBee_C:LookAtComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.24"
-            },
-            "FootIKComponent": {
-                "ObjectName": "PalFootIKComponent'Default__BP_QueenBee_C:FootIKComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.23"
-            },
-            "VisualEffectComponent": {
-                "ObjectName": "PalVisualEffectComponent'Default__BP_QueenBee_C:VisualEffectComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.31"
-            },
-            "PassiveSkillComponent": {
-                "ObjectName": "PalPassiveSkillComponent'Default__BP_QueenBee_C:PassiveSkillComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.26"
-            },
-            "AnimNotifyComponent": {
-                "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_QueenBee_C:AnimNotifyComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.7"
-            },
-            "AroundInfoCollectorComponent": {
-                "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_QueenBee_C:AroundInfoCollectorComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.16"
-            },
-            "RagdollInteractiveSphere": {
-                "ObjectName": "SphereComponent'Default__BP_QueenBee_C:RagdollInteractiveSphere'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.46"
-            },
-            "Mesh": {
-                "ObjectName": "PalSkeletalMeshComponent'Default__BP_QueenBee_C:CharacterMesh0'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.28"
-            },
-            "CharacterMovement": {
-                "ObjectName": "PalCharacterMovementComponent'Default__BP_QueenBee_C:CharMoveComp'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.19"
-            },
-            "CapsuleComponent": {
-                "ObjectName": "CapsuleComponent'Default__BP_QueenBee_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.3"
-            },
-            "RootComponent": {
-                "ObjectName": "CapsuleComponent'Default__BP_QueenBee_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.3"
-            }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule6",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "CapsuleComponent",
-        "Name": "CollisionCylinder",
-        "Outer": "Default__BP_QueenBee_C",
-        "Class": "UScriptClass'CapsuleComponent'",
-        "Template": {
-            "ObjectName": "CapsuleComponent'Default__BP_MonsterBase_C:CollisionCylinder'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.3"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "CapsuleHalfHeight": 30.0,
-            "CapsuleRadius": 30.0,
-            "BodyInstance": {
-                "CollisionProfileName": "Pawn_NoDamageFlyPal",
-                "CollisionResponses": {
-                    "ResponseArray": [
-                        {
-                            "Channel": "Pawn",
-                            "Response": "ECollisionResponse::ECR_Ignore"
-                        },
-                        {
-                            "Channel": "Visibility",
-                            "Response": "ECollisionResponse::ECR_Ignore"
-                        },
-                        {
-                            "Channel": "Camera",
-                            "Response": "ECollisionResponse::ECR_Ignore"
-                        },
-                        {
-                            "Channel": "Water",
-                            "Response": "ECollisionResponse::ECR_Block"
-                        },
-                        {
-                            "Channel": "Attack",
-                            "Response": "ECollisionResponse::ECR_Ignore"
-                        },
-                        {
-                            "Channel": "PlayerPawn",
-                            "Response": "ECollisionResponse::ECR_Ignore"
-                        },
-                        {
-                            "Channel": "ReticleRayCast",
-                            "Response": "ECollisionResponse::ECR_Ignore"
-                        },
-                        {
-                            "Channel": "DropItemPhysicsBody",
-                            "Response": "ECollisionResponse::ECR_Block"
-                        }
-                    ]
-                }
-            }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule5",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "Function",
-        "Name": "GetHandAttachMesh",
-        "Outer": "BP_QueenBee_C",
-        "Class": "UScriptClass'Function'",
-        "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
-        "SuperStruct": {
-            "ObjectName": "Function'PalCharacter:GetHandAttachMesh'",
-            "ObjectPath": "/Script/Pal"
-        },
-        "ChildProperties": [
-            {
-                "Type": "ObjectProperty",
-                "Name": "ReturnValue",
-                "Flags": "RF_Public",
-                "ElementSize": 8,
-                "PropertyFlags": "Parm | OutParm | ReturnParm | InstancedReference",
-                "PropertyClass": {
-                    "ObjectName": "Class'SkeletalMeshComponent'",
-                    "ObjectPath": "/Script/Engine"
-                }
-            }
-        ],
-        "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
-    },
-    {
-        "Type": "InheritableComponentHandler",
-        "Name": "InheritableComponentHandler",
-        "Outer": "BP_QueenBee_C",
-        "Class": "UScriptClass'InheritableComponentHandler'",
-        "Flags": "RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "Records": [
-                {
-                    "ComponentClass": {
-                        "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-                        "ObjectPath": "/Script/Pal"
-                    },
-                    "ComponentTemplate": {
-                        "ObjectName": "PalPartnerSkillParameterComponent'BP_QueenBee_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-                        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.25"
-                    },
-                    "ComponentKey": {
-                        "OwnerClass": {
-                            "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-                            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-                        },
-                        "SCSVariableName": "PalPartnerSkillParameter",
-                        "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
-                    },
-                    "CookedComponentInstancingData": {
-                        "ChangedPropertyList": [],
-                        "bHasValidCookedData": false
-                    }
-                },
-                {
-                    "ComponentClass": {
-                        "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
-                        "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
-                    },
-                    "ComponentTemplate": {
-                        "ObjectName": "BP_PalCryComponent_C'BP_QueenBee_C:BP_PalCryComponent_GEN_VARIABLE'",
-                        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.1"
-                    },
-                    "ComponentKey": {
-                        "OwnerClass": {
-                            "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-                            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-                        },
-                        "SCSVariableName": "BP_PalCryComponent",
-                        "AssociatedGuid": "A971BE27-4B3C10FC-863FA284-ECDC3286"
-                    },
-                    "CookedComponentInstancingData": {
-                        "ChangedPropertyList": [],
-                        "bHasValidCookedData": false
-                    }
-                }
-            ]
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "PalActionComponent",
-        "Name": "ActionComponent",
-        "Outer": "Default__BP_QueenBee_C",
-        "Class": "UScriptClass'PalActionComponent'",
-        "Template": {
-            "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalAnimNotifyParameterComponent",
-        "Name": "AnimNotifyComponent",
-        "Outer": "Default__BP_QueenBee_C",
-        "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
-        "Template": {
-            "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalBodyPartsCapsuleComponent",
-        "Name": "PalBodyPartsCapsule1_GEN_VARIABLE",
-        "Outer": "BP_QueenBee_C",
-        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AreaClassOverride": {
-                "ObjectName": "Class'NavArea_Obstacle'",
-                "ObjectPath": "/Script/NavigationSystem"
-            },
-            "bUseSystemDefaultObstacleAreaClass": false,
-            "RelativeLocation": {
-                "X": -58.314827,
-                "Y": 2.5004032e-10,
-                "Z": 7.122029e-8
-            },
-            "RelativeRotation": {
-                "Pitch": 90.0,
-                "Yaw": 359.9774,
-                "Roll": 359.9774
-            },
-            "RelativeScale3D": {
-                "X": -2.5895422,
-                "Y": -2.5895422,
-                "Z": -2.5895422
-            }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "PalBodyPartsCapsuleComponent",
-        "Name": "PalBodyPartsCapsule2_GEN_VARIABLE",
-        "Outer": "BP_QueenBee_C",
-        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AreaClassOverride": {
-                "ObjectName": "Class'NavArea_Obstacle'",
-                "ObjectPath": "/Script/NavigationSystem"
-            },
-            "bUseSystemDefaultObstacleAreaClass": false,
-            "RelativeLocation": {
-                "X": 18.553566,
-                "Y": 10.345786,
-                "Z": -0.2644275
-            },
-            "RelativeRotation": {
-                "Pitch": -80.41472,
-                "Yaw": -159.63272,
-                "Roll": 145.24448
-            },
-            "RelativeScale3D": {
-                "X": 1.0,
-                "Y": 1.0,
-                "Z": 1.2440464
-            }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "PalBodyPartsCapsuleComponent",
-        "Name": "PalBodyPartsCapsule3_GEN_VARIABLE",
-        "Outer": "BP_QueenBee_C",
-        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AreaClassOverride": {
-                "ObjectName": "Class'NavArea_Obstacle'",
-                "ObjectPath": "/Script/NavigationSystem"
-            },
-            "bUseSystemDefaultObstacleAreaClass": false,
-            "RelativeLocation": {
-                "X": -18.040148,
-                "Y": -8.005947,
-                "Z": -0.32065913
-            },
-            "RelativeRotation": {
-                "Pitch": -80.41472,
-                "Yaw": -159.63272,
-                "Roll": 145.24448
-            },
-            "RelativeScale3D": {
-                "X": 1.0,
-                "Y": 1.0,
-                "Z": 1.2440464
-            }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "PalBodyPartsCapsuleComponent",
-        "Name": "PalBodyPartsCapsule4_GEN_VARIABLE",
-        "Outer": "BP_QueenBee_C",
-        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AreaClassOverride": {
-                "ObjectName": "Class'NavArea_Obstacle'",
-                "ObjectPath": "/Script/NavigationSystem"
-            },
-            "bUseSystemDefaultObstacleAreaClass": false,
-            "RelativeLocation": {
-                "X": 42.955494,
-                "Y": -2.652317e-8,
-                "Z": 1.8358867e-7
-            },
-            "RelativeRotation": {
-                "Pitch": -90.0,
-                "Yaw": -182.8071,
-                "Roll": 182.8071
-            },
-            "RelativeScale3D": {
-                "X": 1.0,
-                "Y": 1.0,
-                "Z": 1.646479
-            }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "PalBodyPartsCapsuleComponent",
-        "Name": "PalBodyPartsCapsule5_GEN_VARIABLE",
-        "Outer": "BP_QueenBee_C",
-        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AreaClassOverride": {
-                "ObjectName": "Class'NavArea_Obstacle'",
-                "ObjectPath": "/Script/NavigationSystem"
-            },
-            "bUseSystemDefaultObstacleAreaClass": false,
-            "RelativeLocation": {
-                "X": -28.39914,
-                "Y": -5.046283e-8,
-                "Z": 2.1955886e-6
-            },
-            "RelativeRotation": {
-                "Pitch": -90.0,
-                "Yaw": -360.0,
-                "Roll": 360.0
-            },
-            "RelativeScale3D": {
-                "X": 1.0,
-                "Y": 1.0,
-                "Z": 1.646479
-            }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Weapon",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshComponent'",
+          "ObjectPath": "/Script/Engine"
         }
+      }
+    ],
+    "FuncMap": {
+      "GetHandAttachMesh": {
+        "ObjectName": "Function'BP_QueenBee_C:GetHandAttachMesh'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.4"
+      }
     },
-    {
-        "Type": "PalBodyPartsCapsuleComponent",
-        "Name": "PalBodyPartsCapsule6_GEN_VARIABLE",
-        "Outer": "BP_QueenBee_C",
-        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AreaClassOverride": {
-                "ObjectName": "Class'NavArea_Obstacle'",
-                "ObjectPath": "/Script/NavigationSystem"
-            },
-            "bUseSystemDefaultObstacleAreaClass": false,
-            "RelativeLocation": {
-                "X": 17.967747,
-                "Y": -3.4906012e-8,
-                "Z": 3.1483255e-6
-            },
-            "RelativeRotation": {
-                "Pitch": -90.0,
-                "Yaw": -360.0,
-                "Roll": 360.0
-            },
-            "RelativeScale3D": {
-                "X": 1.0803185,
-                "Y": 1.0803185,
-                "Z": 2.704205
-            }
-        }
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
     },
-    {
-        "Type": "PalBodyPartsCapsuleComponent",
-        "Name": "PalBodyPartsCapsule7_GEN_VARIABLE",
-        "Outer": "BP_QueenBee_C",
-        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AreaClassOverride": {
-                "ObjectName": "Class'NavArea_Obstacle'",
-                "ObjectPath": "/Script/NavigationSystem"
-            },
-            "bUseSystemDefaultObstacleAreaClass": false,
-            "RelativeLocation": {
-                "X": -24.92138,
-                "Y": -4.9296307e-8,
-                "Z": 3.1606592e-6
-            },
-            "RelativeRotation": {
-                "Pitch": -90.0,
-                "Yaw": -360.0,
-                "Roll": 360.0
-            },
-            "RelativeScale3D": {
-                "X": 1.0803185,
-                "Y": 1.0803185,
-                "Z": 2.704205
-            }
-        }
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_QueenBee_C'Default__BP_QueenBee_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.2"
     },
-    {
-        "Type": "PalBodyPartsCapsuleComponent",
-        "Name": "PalBodyPartsCapsule_GEN_VARIABLE",
-        "Outer": "BP_QueenBee_C",
-        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "BodyPartsType": "EPalBodyPartsType::Weak",
-            "CapsuleHalfHeight": 33.0,
-            "CapsuleRadius": 20.0,
-            "AreaClassOverride": {
-                "ObjectName": "Class'NavArea_Obstacle'",
-                "ObjectPath": "/Script/NavigationSystem"
-            },
-            "bUseSystemDefaultObstacleAreaClass": false,
-            "RelativeLocation": {
-                "X": 10.0,
-                "Y": 32.0,
-                "Z": 1.6600382e-7
-            }
-        }
-    },
-    {
-        "Type": "PalCharacterAroundInfoCollectorComponent",
-        "Name": "AroundInfoCollectorComponent",
-        "Outer": "Default__BP_QueenBee_C",
-        "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
-        "Template": {
-            "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AttachParent": {
-                "ObjectName": "CapsuleComponent'Default__BP_QueenBee_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.3"
-            }
-        }
-    },
-    {
-        "Type": "PalCharacterCameraComponent",
-        "Name": "FollowCamera",
-        "Outer": "Default__BP_QueenBee_C",
-        "Class": "UScriptClass'PalCharacterCameraComponent'",
-        "Template": {
-            "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AttachParent": {
-                "ObjectName": "PalShooterSpringArmComponent'Default__BP_QueenBee_C:CameraBoom'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.27"
-            }
-        }
-    },
-    {
-        "Type": "PalCharacterLiftupObjectComponent",
-        "Name": "Liftup",
-        "Outer": "Default__BP_QueenBee_C",
-        "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
-        "Template": {
-            "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalCharacterMovementComponent",
-        "Name": "CharMoveComp",
-        "Outer": "Default__BP_QueenBee_C",
-        "Class": "UScriptClass'PalCharacterMovementComponent'",
-        "Template": {
-            "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "HoveringWaterEffectParameter": {
-                "EnableIdleHoveringWaterEffect": false
-            }
-        }
-    },
-    {
-        "Type": "PalCharacterParameterComponent",
-        "Name": "CharacterParameterComponent",
-        "Outer": "Default__BP_QueenBee_C",
-        "Class": "UScriptClass'PalCharacterParameterComponent'",
-        "Template": {
-            "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalDamageReactionComponent",
-        "Name": "DamageReactionComponent",
-        "Outer": "Default__BP_QueenBee_C",
-        "Class": "UScriptClass'PalDamageReactionComponent'",
-        "Template": {
-            "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalFlyMeshHeightCtrlComponent",
-        "Name": "PalFlyMeshHeightCtrl_GEN_VARIABLE",
-        "Outer": "BP_QueenBee_C",
-        "Class": "UScriptClass'PalFlyMeshHeightCtrlComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalFootIKComponent",
-        "Name": "FootIKComponent",
-        "Outer": "Default__BP_QueenBee_C",
-        "Class": "UScriptClass'PalFootIKComponent'",
-        "Template": {
-            "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalLookAtComponent",
-        "Name": "LookAtComponent",
-        "Outer": "Default__BP_QueenBee_C",
-        "Class": "UScriptClass'PalLookAtComponent'",
-        "Template": {
-            "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalPartnerSkillParameterComponent",
-        "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-        "Outer": "BP_QueenBee_C",
-        "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-        "Template": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-        "Properties": {
-            "PassiveSkills": [
-                {
-                    "SkillAndParameters": []
-                },
-                {
-                    "SkillAndParameters": [
-                        {
-                            "Key": {
-                                "Key": "ATK_up_PartnerSkill_1"
-                            },
-                            "Value": {
-                                "DelayTime": 0.0,
-                                "TriggerTypeFlags": 0,
-                                "WorkType": "EPalWorkType::None",
-                                "MapObjectId": [],
-                                "ItemId": [],
-                                "AssignOthers": false,
-                                "TargetElementType": "EPalElementType::None",
-                                "PalIds": [],
-                                "PalTribeIds": [],
-                                "bNotAssignSelf": false,
-                                "ItemParam": {
-                                    "ItemTypeA": "EPalItemTypeA::None",
-                                    "ItemTypeB": "EPalItemTypeB::None",
-                                    "ItemIds": [],
-                                    "ExcludedItemIds": []
-                                },
-                                "RegeneParam": {
-                                    "Interval": 0
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "SkillAndParameters": [
-                        {
-                            "Key": {
-                                "Key": "ATK_up_PartnerSkill_2"
-                            },
-                            "Value": {
-                                "DelayTime": 0.0,
-                                "TriggerTypeFlags": 0,
-                                "WorkType": "EPalWorkType::None",
-                                "MapObjectId": [],
-                                "ItemId": [],
-                                "AssignOthers": false,
-                                "TargetElementType": "EPalElementType::None",
-                                "PalIds": [],
-                                "PalTribeIds": [],
-                                "bNotAssignSelf": false,
-                                "ItemParam": {
-                                    "ItemTypeA": "EPalItemTypeA::None",
-                                    "ItemTypeB": "EPalItemTypeB::None",
-                                    "ItemIds": [],
-                                    "ExcludedItemIds": []
-                                },
-                                "RegeneParam": {
-                                    "Interval": 0
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "SkillAndParameters": [
-                        {
-                            "Key": {
-                                "Key": "ATK_up_PartnerSkill_3"
-                            },
-                            "Value": {
-                                "DelayTime": 0.0,
-                                "TriggerTypeFlags": 0,
-                                "WorkType": "EPalWorkType::None",
-                                "MapObjectId": [],
-                                "ItemId": [],
-                                "AssignOthers": false,
-                                "TargetElementType": "EPalElementType::None",
-                                "PalIds": [],
-                                "PalTribeIds": [],
-                                "bNotAssignSelf": false,
-                                "ItemParam": {
-                                    "ItemTypeA": "EPalItemTypeA::None",
-                                    "ItemTypeB": "EPalItemTypeB::None",
-                                    "ItemIds": [],
-                                    "ExcludedItemIds": []
-                                },
-                                "RegeneParam": {
-                                    "Interval": 0
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "SkillAndParameters": [
-                        {
-                            "Key": {
-                                "Key": "ATK_up_PartnerSkill_4"
-                            },
-                            "Value": {
-                                "DelayTime": 0.0,
-                                "TriggerTypeFlags": 0,
-                                "WorkType": "EPalWorkType::None",
-                                "MapObjectId": [],
-                                "ItemId": [],
-                                "AssignOthers": false,
-                                "TargetElementType": "EPalElementType::None",
-                                "PalIds": [],
-                                "PalTribeIds": [],
-                                "bNotAssignSelf": false,
-                                "ItemParam": {
-                                    "ItemTypeA": "EPalItemTypeA::None",
-                                    "ItemTypeB": "EPalItemTypeB::None",
-                                    "ItemIds": [],
-                                    "ExcludedItemIds": []
-                                },
-                                "RegeneParam": {
-                                    "Interval": 0
-                                }
-                            }
-                        }
-                    ]
-                }
-            ]
-        }
-    },
-    {
-        "Type": "PalPassiveSkillComponent",
-        "Name": "PassiveSkillComponent",
-        "Outer": "Default__BP_QueenBee_C",
-        "Class": "UScriptClass'PalPassiveSkillComponent'",
-        "Template": {
-            "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalShooterSpringArmComponent",
-        "Name": "CameraBoom",
-        "Outer": "Default__BP_QueenBee_C",
-        "Class": "UScriptClass'PalShooterSpringArmComponent'",
-        "Template": {
-            "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AttachParent": {
-                "ObjectName": "CapsuleComponent'Default__BP_QueenBee_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.3"
-            },
-            "RelativeLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 140.0
-            }
-        }
-    },
-    {
-        "Type": "PalSkeletalMeshComponent",
-        "Name": "CharacterMesh0",
-        "Outer": "Default__BP_QueenBee_C",
-        "Class": "UScriptClass'PalSkeletalMeshComponent'",
-        "Template": {
-            "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AnimClass": {
-                "ObjectName": "AnimBlueprintGeneratedClass'ABP_QueenBee_C'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/ABP_QueenBee.1"
-            },
-            "SkeletalMesh": {
-                "ObjectName": "SkeletalMesh'SK_QueenBee'",
-                "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/QueenBee/SK_QueenBee.0"
-            },
-            "SkinnedAsset": {
-                "ObjectName": "SkeletalMesh'SK_QueenBee'",
-                "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/QueenBee/SK_QueenBee.0"
-            },
-            "AttachParent": {
-                "ObjectName": "CapsuleComponent'Default__BP_QueenBee_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.3"
-            },
-            "RelativeLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": -30.0
-            }
-        }
-    },
-    {
-        "Type": "PalStaticCharacterParameterComponent",
-        "Name": "StaticCharacterParameterComponent",
-        "Outer": "Default__BP_QueenBee_C",
-        "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
-        "Template": {
-            "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "MeshCapsuleHalfHeight": 170.0,
-            "MeshCapsuleRadius": 100.0,
-            "MeshRelativeLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": -170.0
-            },
-            "RandomRestMontageInfos": [
-                {
-                    "RandomRestMontage": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_Rest01'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Rest01.0"
-                    },
-                    "Weight": 1.0,
-                    "LoopNum_Min": 1,
-                    "LoopNum_Max": 1,
-                    "AfterIdleTime": 2.0
-                },
-                {
-                    "RandomRestMontage": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_Rest02'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Rest02.0"
-                    },
-                    "Weight": 0.5,
-                    "LoopNum_Min": 1,
-                    "LoopNum_Max": 1,
-                    "AfterIdleTime": 2.0
-                },
-                {
-                    "RandomRestMontage": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_Rest03'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Rest03.0"
-                    },
-                    "Weight": 1.0,
-                    "LoopNum_Min": 1,
-                    "LoopNum_Max": 1,
-                    "AfterIdleTime": 2.0
-                },
-                {
-                    "RandomRestMontage": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_Encount'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Encount.0"
-                    },
-                    "Weight": 1.0,
-                    "LoopNum_Min": 1,
-                    "LoopNum_Max": 1,
-                    "AfterIdleTime": 2.0
-                },
-                {
-                    "RandomRestMontage": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_Eat'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Eat.0"
-                    },
-                    "Weight": 1.0,
-                    "LoopNum_Min": 1,
-                    "LoopNum_Max": 2,
-                    "AfterIdleTime": 2.0
-                }
-            ],
-            "GeneralMontageMap": [
-                {
-                    "Key": "EPalGeneralMontageType::GeneralAttackReady_Far",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_FarSkill_Start'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_FarSkill_Start.0"
-                    }
-                },
-                {
-                    "Key": "EPalGeneralMontageType::GeneralAttackReadyLoop_Far",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_FarSkill_StartLoop'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_FarSkill_StartLoop.0"
-                    }
-                },
-                {
-                    "Key": "EPalGeneralMontageType::GeneralAttackProcess_Far",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_FarSkill_Action'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_FarSkill_Action.0"
-                    }
-                },
-                {
-                    "Key": "EPalGeneralMontageType::GeneralAttackProcessLoop_Far",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_FarSkill_ActionLoop'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_FarSkill_ActionLoop.0"
-                    }
-                },
-                {
-                    "Key": "EPalGeneralMontageType::GeneralAttackAfter_Far",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_FarSkill_End'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_FarSkill_End.0"
-                    }
-                },
-                {
-                    "Key": "EPalGeneralMontageType::SleepStart",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_SleepStart'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_SleepStart.0"
-                    }
-                },
-                {
-                    "Key": "EPalGeneralMontageType::SleepLoop",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_SleepLoop'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_SleepLoop.0"
-                    }
-                },
-                {
-                    "Key": "EPalGeneralMontageType::SleepEnd",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_SleepEnd'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_SleepEnd.0"
-                    }
-                },
-                {
-                    "Key": "EPalGeneralMontageType::DamageAdditive",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_Hit'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Hit.0"
-                    }
-                },
-                {
-                    "Key": "EPalGeneralMontageType::BeLiftupStart",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_Carrying_Start'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Carrying_Start.0"
-                    }
-                },
-                {
-                    "Key": "EPalGeneralMontageType::BeLiftupLoop",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_Carrying'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Carrying.0"
-                    }
-                }
-            ],
-            "GeneralBlendSpaceMap": [
-                {
-                    "Key": "EPalGeneralBlendSpaceType::GeneralMove",
-                    "Value": {
-                        "ObjectName": "BlendSpace1D'BS_Move_QueenBee'",
-                        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BS_Move_QueenBee.0"
-                    }
-                }
-            ],
-            "ActionMontageMap": [
-                {
-                    "Key": "EPalActionType::Menace",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_Encount'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Encount.0"
-                    }
-                },
-                {
-                    "Key": "EPalActionType::Eat",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_Eat'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Eat.0"
-                    }
-                },
-                {
-                    "Key": "EPalActionType::KnockBack",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_Damage'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Damage.0"
-                    }
-                },
-                {
-                    "Key": "EPalActionType::ForwardWalk",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_Walk'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Walk.0"
-                    }
-                },
-                {
-                    "Key": "EPalActionType::Architecture",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_Architecture'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Architecture.0"
-                    }
-                },
-                {
-                    "Key": "EPalActionType::GetupUtubuse_orRight",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_GetUp_FrontDown'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_GetUp_FrontDown.0"
-                    }
-                },
-                {
-                    "Key": "EPalActionType::IdleInSpa",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_Spa'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Spa.0"
-                    }
-                },
-                {
-                    "Key": "EPalActionType::PalPetting",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_Petting'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Petting.0"
-                    }
-                },
-                {
-                    "Key": "EPalActionType::CommonWork",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_CommonWork'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_CommonWork.0"
-                    }
-                },
-                {
-                    "Key": "EPalActionType::Deforest",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_Deforest'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Deforest.0"
-                    }
-                },
-                {
-                    "Key": "EPalActionType::ElectricShock",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_ElectricShock'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_ElectricShock.0"
-                    }
-                },
-                {
-                    "Key": "EPalActionType::FishPond",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_FishPond'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_FishPond.0"
-                    }
-                },
-                {
-                    "Key": "EPalActionType::DefenseGunner",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_Gunner'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Gunner.0"
-                    }
-                },
-                {
-                    "Key": "EPalActionType::Feeding",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_QueenBee_Planting'",
-                        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Planting.0"
-                    }
-                }
-            ],
-            "SleepOnSideInfoMapForMapObject": [
-                {
-                    "Key": {
-                        "Key": "MedicalPalBed_02"
-                    },
-                    "Value": {
-                        "LocationOffset": {
-                            "X": -10.0,
-                            "Y": 0.0,
-                            "Z": 0.0
-                        },
-                        "RotatorOffset": {
-                            "Pitch": 0.0,
-                            "Yaw": 0.0,
-                            "Roll": 0.0
-                        },
-                        "bShouldApply": true
-                    }
-                },
-                {
-                    "Key": {
-                        "Key": "MedicalPalBed_03"
-                    },
-                    "Value": {
-                        "LocationOffset": {
-                            "X": -10.0,
-                            "Y": 0.0,
-                            "Z": 0.0
-                        },
-                        "RotatorOffset": {
-                            "Pitch": 0.0,
-                            "Yaw": 0.0,
-                            "Roll": 0.0
-                        },
-                        "bShouldApply": true
-                    }
-                },
-                {
-                    "Key": {
-                        "Key": "MedicalPalBed_04"
-                    },
-                    "Value": {
-                        "LocationOffset": {
-                            "X": 0.0,
-                            "Y": 70.0,
-                            "Z": 0.0
-                        },
-                        "RotatorOffset": {
-                            "Pitch": 0.0,
-                            "Yaw": 0.0,
-                            "Roll": 0.0
-                        },
-                        "bShouldApply": true
-                    }
-                }
-            ],
-            "SleepOnSideAnimMontage": {
-                "ObjectName": "AnimMontage'AM_QueenBee_SleepLoopTogether'",
-                "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_SleepLoopTogether.0"
-            },
-            "WazaActionDeclarationMap": [
-                {
-                    "Key": "EPalWazaID::Unique_QueenBee_SpinLance",
-                    "Value": {
-                        "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/QueenBee/BP_Action_Unique_QueenBee_SpinLance.BP_Action_Unique_QueenBee_SpinLance_C",
-                        "SubPathString": ""
-                    }
-                }
-            ],
-            "HPGaugeUIOffset": {
-                "X": 15.0,
-                "Y": -20.0
-            },
-            "IsBackWalkForwardAnime": true,
-            "GetupMotion_UtubuseOrRight_0FramePelvisLocation": {
-                "X": 0.0,
-                "Y": 135.29463,
-                "Z": 28.967442
-            },
-            "PettingSize": "EPalPettingSizeType::Large",
-            "PettingDistance": 117.0,
-            "PettingStartAddDistance": 50.0,
-            "PettingEndLeaveDistance": 100.0,
-            "PettingCameraCenterDistance_Override": 100.0,
-            "PettingCameraHeight_Override": 100.0,
-            "PettingCameraArmLength_Override": 300.0,
-            "DefenseBuildObjectAssignDistance": 30.0
-        }
-    },
-    {
-        "Type": "PalStatusComponent",
-        "Name": "StatusComponent",
-        "Outer": "Default__BP_QueenBee_C",
-        "Class": "UScriptClass'PalStatusComponent'",
-        "Template": {
-            "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalVisualEffectComponent",
-        "Name": "VisualEffectComponent",
-        "Outer": "Default__BP_QueenBee_C",
-        "Class": "UScriptClass'PalVisualEffectComponent'",
-        "Template": {
-            "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "SceneComponent",
-        "Name": "DefaultSceneRoot_GEN_VARIABLE",
-        "Outer": "BP_QueenBee_C",
-        "Class": "UScriptClass'SceneComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_0",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'SceneComponent'",
-                "ObjectPath": "/Script/Engine"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "SceneComponent'BP_QueenBee_C:DefaultSceneRoot_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.32"
-            },
-            "VariableGuid": "3E16B709-439CC30C-AB42239A-FAD08E24",
-            "InternalVariableName": "DefaultSceneRoot"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_1",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'SkeletalMeshComponent'",
-                "ObjectPath": "/Script/Engine"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "SkeletalMeshComponent'BP_QueenBee_C:Weapon_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.45"
-            },
-            "AttachToName": "Socket_Weapon_R",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "74C07361-4AB08296-26A117B0-49139E9F",
-            "InternalVariableName": "Weapon"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_10",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsCapsuleComponent'BP_QueenBee_C:PalBodyPartsCapsule5_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.12"
-            },
-            "AttachToName": "wingA_02_r",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "57D39A94-4ABF6F79-10789689-F51FF651",
-            "InternalVariableName": "PalBodyPartsCapsule5"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_11",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsCapsuleComponent'BP_QueenBee_C:PalBodyPartsCapsule6_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.13"
-            },
-            "AttachToName": "wingB_02_l",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "0976EDB3-4D822E8F-7DD6699E-13B767F2",
-            "InternalVariableName": "PalBodyPartsCapsule6"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_12",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsCapsuleComponent'BP_QueenBee_C:PalBodyPartsCapsule7_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.14"
-            },
-            "AttachToName": "wingB_02_r",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "7AAF0F93-4FF22557-88CCABBD-CA774194",
-            "InternalVariableName": "PalBodyPartsCapsule7"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_2",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsCapsuleComponent'BP_QueenBee_C:PalBodyPartsCapsule_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.15"
-            },
-            "AttachToName": "head",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "D0DEA833-4D112ABE-3F1199B0-5D3BE09B",
-            "InternalVariableName": "PalBodyPartsCapsule"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_3",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsCapsuleComponent'BP_QueenBee_C:PalBodyPartsCapsule1_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.8"
-            },
-            "AttachToName": "pelvis",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "184ED2B2-409449BB-4A9CD9AC-3BEB137A",
-            "InternalVariableName": "PalBodyPartsCapsule1"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_4",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsCapsuleComponent'BP_QueenBee_C:PalBodyPartsCapsule2_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.9"
-            },
-            "AttachToName": "lowerarm_l",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "746F1FD1-4CB6CBD7-0246F49E-F3C45FC5",
-            "InternalVariableName": "PalBodyPartsCapsule2"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_5",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsCapsuleComponent'BP_QueenBee_C:PalBodyPartsCapsule3_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.10"
-            },
-            "AttachToName": "lowerarm_r",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "83F74442-41ABBEED-F3C556B3-EFC51C3F",
-            "InternalVariableName": "PalBodyPartsCapsule3"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_6",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsCapsuleComponent'BP_QueenBee_C:PalBodyPartsCapsule4_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.11"
-            },
-            "AttachToName": "wingA_02_l",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "3A5B8117-40A1AA70-19129FA9-9DCF5F86",
-            "InternalVariableName": "PalBodyPartsCapsule4"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_7",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalFlyMeshHeightCtrlComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalFlyMeshHeightCtrlComponent'BP_QueenBee_C:PalFlyMeshHeightCtrl_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.22"
-            },
-            "VariableGuid": "894BA044-4BC6ABFF-5AAEDAB3-3FA8787B",
-            "InternalVariableName": "PalFlyMeshHeightCtrl"
-        }
-    },
-    {
-        "Type": "SimpleConstructionScript",
-        "Name": "SimpleConstructionScript_0",
-        "Outer": "BP_QueenBee_C",
-        "Class": "UScriptClass'SimpleConstructionScript'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "RootNodes": [
-                {
-                    "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_1'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.34"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_2'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.38"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_3'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.39"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_4'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.40"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_5'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.41"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_6'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.42"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_10'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.35"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_11'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.36"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_12'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.37"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_7'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.43"
-                }
-            ],
-            "AllNodes": [
-                {
-                    "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_1'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.34"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_2'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.38"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_3'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.39"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_4'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.40"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_5'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.41"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_6'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.42"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_10'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.35"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_11'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.36"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_12'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.37"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_7'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.43"
-                }
-            ],
-            "DefaultSceneRootNode": {
-                "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_0'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.33"
-            }
-        }
-    },
-    {
-        "Type": "SkeletalMeshComponent",
-        "Name": "Weapon_GEN_VARIABLE",
-        "Outer": "BP_QueenBee_C",
-        "Class": "UScriptClass'SkeletalMeshComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "SkeletalMesh": {
-                "ObjectName": "SkeletalMesh'SK_QueenBee_spear'",
-                "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/QueenBee/SK_QueenBee_spear.0"
-            },
-            "SkinnedAsset": {
-                "ObjectName": "SkeletalMesh'SK_QueenBee_spear'",
-                "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/QueenBee/SK_QueenBee_spear.0"
-            },
-            "ComponentTags": ["QueenBeeLance"]
-        }
-    },
-    {
-        "Type": "SphereComponent",
-        "Name": "RagdollInteractiveSphere",
-        "Outer": "Default__BP_QueenBee_C",
-        "Class": "UScriptClass'SphereComponent'",
-        "Template": {
-            "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AttachParent": {
-                "ObjectName": "CapsuleComponent'Default__BP_QueenBee_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.3"
-            }
-        }
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
     }
+  },
+  {
+    "Type": "BP_PalCryComponent_C",
+    "Name": "BP_PalCryComponent_GEN_VARIABLE",
+    "Outer": "BP_QueenBee_C",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.BP_PalCryComponent_C'",
+    "Template": {
+      "ObjectName": "BP_PalCryComponent_C'BP_MonsterBase_C:BP_PalCryComponent_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.2"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Properties": {
+      "CryPalID": "EPalTribeID::QueenBee"
+    }
+  },
+  {
+    "Type": "BP_QueenBee_C",
+    "Name": "Default__BP_QueenBee_C",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.BP_QueenBee_C'",
+    "Template": {
+      "ObjectName": "BP_MonsterBase_C'Default__BP_MonsterBase_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LiftupObjectComponent": {
+        "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_QueenBee_C:Liftup'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.18"
+      },
+      "ActionComponent": {
+        "ObjectName": "PalActionComponent'Default__BP_QueenBee_C:ActionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.6"
+      },
+      "CharacterParameterComponent": {
+        "ObjectName": "PalCharacterParameterComponent'Default__BP_QueenBee_C:CharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.20"
+      },
+      "StaticCharacterParameterComponent": {
+        "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_QueenBee_C:StaticCharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.29"
+      },
+      "DamageReactionComponent": {
+        "ObjectName": "PalDamageReactionComponent'Default__BP_QueenBee_C:DamageReactionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.21"
+      },
+      "StatusComponent": {
+        "ObjectName": "PalStatusComponent'Default__BP_QueenBee_C:StatusComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.30"
+      },
+      "CameraBoom": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_QueenBee_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.27"
+      },
+      "FollowCamera": {
+        "ObjectName": "PalCharacterCameraComponent'Default__BP_QueenBee_C:FollowCamera'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.17"
+      },
+      "LookAtComponent": {
+        "ObjectName": "PalLookAtComponent'Default__BP_QueenBee_C:LookAtComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.24"
+      },
+      "FootIKComponent": {
+        "ObjectName": "PalFootIKComponent'Default__BP_QueenBee_C:FootIKComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.23"
+      },
+      "VisualEffectComponent": {
+        "ObjectName": "PalVisualEffectComponent'Default__BP_QueenBee_C:VisualEffectComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.31"
+      },
+      "PassiveSkillComponent": {
+        "ObjectName": "PalPassiveSkillComponent'Default__BP_QueenBee_C:PassiveSkillComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.26"
+      },
+      "AnimNotifyComponent": {
+        "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_QueenBee_C:AnimNotifyComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.7"
+      },
+      "AroundInfoCollectorComponent": {
+        "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_QueenBee_C:AroundInfoCollectorComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.16"
+      },
+      "RagdollInteractiveSphere": {
+        "ObjectName": "SphereComponent'Default__BP_QueenBee_C:RagdollInteractiveSphere'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.46"
+      },
+      "Mesh": {
+        "ObjectName": "PalSkeletalMeshComponent'Default__BP_QueenBee_C:CharacterMesh0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.28"
+      },
+      "CharacterMovement": {
+        "ObjectName": "PalCharacterMovementComponent'Default__BP_QueenBee_C:CharMoveComp'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.19"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_QueenBee_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.3"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_QueenBee_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.3"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": "Default__BP_QueenBee_C",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_MonsterBase_C:CollisionCylinder'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.3"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CapsuleHalfHeight": 30.0,
+      "CapsuleRadius": 30.0,
+      "BodyInstance": {
+        "CollisionProfileName": "Pawn_NoDamageFlyPal",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Water",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Attack",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PlayerPawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "ReticleRayCast",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "DropItemPhysicsBody",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "GetHandAttachMesh",
+    "Outer": "BP_QueenBee_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'PalCharacter:GetHandAttachMesh'",
+      "ObjectPath": "/Script/Pal"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "Parm | OutParm | ReturnParm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": "BP_QueenBee_C",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
+            "ObjectPath": "/Script/Pal"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "PalPartnerSkillParameterComponent'BP_QueenBee_C:PalPartnerSkillParameter_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.25"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+            },
+            "SCSVariableName": "PalPartnerSkillParameter",
+            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
+            "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BP_PalCryComponent_C'BP_QueenBee_C:BP_PalCryComponent_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.1"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+            },
+            "SCSVariableName": "BP_PalCryComponent",
+            "AssociatedGuid": "A971BE27-4B3C10FC-863FA284-ECDC3286"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PalActionComponent",
+    "Name": "ActionComponent",
+    "Outer": "Default__BP_QueenBee_C",
+    "Class": "UScriptClass'PalActionComponent'",
+    "Template": {
+      "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalAnimNotifyParameterComponent",
+    "Name": "AnimNotifyComponent",
+    "Outer": "Default__BP_QueenBee_C",
+    "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+    "Template": {
+      "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule1_GEN_VARIABLE",
+    "Outer": "BP_QueenBee_C",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "RelativeLocation": {
+        "X": -58.314827,
+        "Y": 2.5004032E-10,
+        "Z": 7.122029E-08
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 359.9774,
+        "Roll": 359.9774
+      },
+      "RelativeScale3D": {
+        "X": -2.5895422,
+        "Y": -2.5895422,
+        "Z": -2.5895422
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule2_GEN_VARIABLE",
+    "Outer": "BP_QueenBee_C",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "RelativeLocation": {
+        "X": 18.553566,
+        "Y": 10.345786,
+        "Z": -0.2644275
+      },
+      "RelativeRotation": {
+        "Pitch": -80.41472,
+        "Yaw": -159.63272,
+        "Roll": 145.24448
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.2440464
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule3_GEN_VARIABLE",
+    "Outer": "BP_QueenBee_C",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "RelativeLocation": {
+        "X": -18.040148,
+        "Y": -8.005947,
+        "Z": -0.32065913
+      },
+      "RelativeRotation": {
+        "Pitch": -80.41472,
+        "Yaw": -159.63272,
+        "Roll": 145.24448
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.2440464
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule4_GEN_VARIABLE",
+    "Outer": "BP_QueenBee_C",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "RelativeLocation": {
+        "X": 42.955494,
+        "Y": -2.652317E-08,
+        "Z": 1.8358867E-07
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -182.8071,
+        "Roll": 182.8071
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.646479
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule5_GEN_VARIABLE",
+    "Outer": "BP_QueenBee_C",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "RelativeLocation": {
+        "X": -28.39914,
+        "Y": -5.046283E-08,
+        "Z": 2.1955886E-06
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -360.0,
+        "Roll": 360.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.646479
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule6_GEN_VARIABLE",
+    "Outer": "BP_QueenBee_C",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "RelativeLocation": {
+        "X": 17.967747,
+        "Y": -3.4906012E-08,
+        "Z": 3.1483255E-06
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -360.0,
+        "Roll": 360.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0803185,
+        "Y": 1.0803185,
+        "Z": 2.704205
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule7_GEN_VARIABLE",
+    "Outer": "BP_QueenBee_C",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "RelativeLocation": {
+        "X": -24.92138,
+        "Y": -4.9296307E-08,
+        "Z": 3.1606592E-06
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -360.0,
+        "Roll": 360.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0803185,
+        "Y": 1.0803185,
+        "Z": 2.704205
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule_GEN_VARIABLE",
+    "Outer": "BP_QueenBee_C",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Weak",
+      "CapsuleHalfHeight": 33.0,
+      "CapsuleRadius": 20.0,
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "RelativeLocation": {
+        "X": 10.0,
+        "Y": 32.0,
+        "Z": 1.6600382E-07
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterAroundInfoCollectorComponent",
+    "Name": "AroundInfoCollectorComponent",
+    "Outer": "Default__BP_QueenBee_C",
+    "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+    "Template": {
+      "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_QueenBee_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.3"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterCameraComponent",
+    "Name": "FollowCamera",
+    "Outer": "Default__BP_QueenBee_C",
+    "Class": "UScriptClass'PalCharacterCameraComponent'",
+    "Template": {
+      "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_QueenBee_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.27"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterLiftupObjectComponent",
+    "Name": "Liftup",
+    "Outer": "Default__BP_QueenBee_C",
+    "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+    "Template": {
+      "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalCharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Outer": "Default__BP_QueenBee_C",
+    "Class": "UScriptClass'PalCharacterMovementComponent'",
+    "Template": {
+      "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HoveringWaterEffectParameter": {
+        "EnableIdleHoveringWaterEffect": false
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterParameterComponent",
+    "Name": "CharacterParameterComponent",
+    "Outer": "Default__BP_QueenBee_C",
+    "Class": "UScriptClass'PalCharacterParameterComponent'",
+    "Template": {
+      "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalDamageReactionComponent",
+    "Name": "DamageReactionComponent",
+    "Outer": "Default__BP_QueenBee_C",
+    "Class": "UScriptClass'PalDamageReactionComponent'",
+    "Template": {
+      "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalFlyMeshHeightCtrlComponent",
+    "Name": "PalFlyMeshHeightCtrl_GEN_VARIABLE",
+    "Outer": "BP_QueenBee_C",
+    "Class": "UScriptClass'PalFlyMeshHeightCtrlComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalFootIKComponent",
+    "Name": "FootIKComponent",
+    "Outer": "Default__BP_QueenBee_C",
+    "Class": "UScriptClass'PalFootIKComponent'",
+    "Template": {
+      "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalLookAtComponent",
+    "Name": "LookAtComponent",
+    "Outer": "Default__BP_QueenBee_C",
+    "Class": "UScriptClass'PalLookAtComponent'",
+    "Template": {
+      "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalPartnerSkillParameterComponent",
+    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
+    "Outer": "BP_QueenBee_C",
+    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
+    "Template": {
+      "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Properties": {
+      "PassiveSkills": [
+        {
+          "SkillAndParameters": []
+        },
+        {
+          "SkillAndParameters": [
+            {
+              "Key": {
+                "Key": "ATK_up_PartnerSkill_1"
+              },
+              "Value": {
+                "DelayTime": 0.0,
+                "TriggerTypeFlags": 0,
+                "WorkType": "EPalWorkType::None",
+                "MapObjectId": [],
+                "ItemId": [],
+                "AssignOthers": false,
+                "TargetElementType": "EPalElementType::None",
+                "PalIds": [],
+                "PalTribeIds": [],
+                "bNotAssignSelf": false,
+                "ItemParam": {
+                  "ItemTypeA": "EPalItemTypeA::None",
+                  "ItemTypeB": "EPalItemTypeB::None",
+                  "ItemIds": [],
+                  "ExcludedItemIds": []
+                },
+                "RegeneParam": {
+                  "Interval": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "SkillAndParameters": [
+            {
+              "Key": {
+                "Key": "ATK_up_PartnerSkill_2"
+              },
+              "Value": {
+                "DelayTime": 0.0,
+                "TriggerTypeFlags": 0,
+                "WorkType": "EPalWorkType::None",
+                "MapObjectId": [],
+                "ItemId": [],
+                "AssignOthers": false,
+                "TargetElementType": "EPalElementType::None",
+                "PalIds": [],
+                "PalTribeIds": [],
+                "bNotAssignSelf": false,
+                "ItemParam": {
+                  "ItemTypeA": "EPalItemTypeA::None",
+                  "ItemTypeB": "EPalItemTypeB::None",
+                  "ItemIds": [],
+                  "ExcludedItemIds": []
+                },
+                "RegeneParam": {
+                  "Interval": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "SkillAndParameters": [
+            {
+              "Key": {
+                "Key": "ATK_up_PartnerSkill_3"
+              },
+              "Value": {
+                "DelayTime": 0.0,
+                "TriggerTypeFlags": 0,
+                "WorkType": "EPalWorkType::None",
+                "MapObjectId": [],
+                "ItemId": [],
+                "AssignOthers": false,
+                "TargetElementType": "EPalElementType::None",
+                "PalIds": [],
+                "PalTribeIds": [],
+                "bNotAssignSelf": false,
+                "ItemParam": {
+                  "ItemTypeA": "EPalItemTypeA::None",
+                  "ItemTypeB": "EPalItemTypeB::None",
+                  "ItemIds": [],
+                  "ExcludedItemIds": []
+                },
+                "RegeneParam": {
+                  "Interval": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "SkillAndParameters": [
+            {
+              "Key": {
+                "Key": "ATK_up_PartnerSkill_4"
+              },
+              "Value": {
+                "DelayTime": 0.0,
+                "TriggerTypeFlags": 0,
+                "WorkType": "EPalWorkType::None",
+                "MapObjectId": [],
+                "ItemId": [],
+                "AssignOthers": false,
+                "TargetElementType": "EPalElementType::None",
+                "PalIds": [],
+                "PalTribeIds": [],
+                "bNotAssignSelf": false,
+                "ItemParam": {
+                  "ItemTypeA": "EPalItemTypeA::None",
+                  "ItemTypeB": "EPalItemTypeB::None",
+                  "ItemIds": [],
+                  "ExcludedItemIds": []
+                },
+                "RegeneParam": {
+                  "Interval": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PalPassiveSkillComponent",
+    "Name": "PassiveSkillComponent",
+    "Outer": "Default__BP_QueenBee_C",
+    "Class": "UScriptClass'PalPassiveSkillComponent'",
+    "Template": {
+      "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalShooterSpringArmComponent",
+    "Name": "CameraBoom",
+    "Outer": "Default__BP_QueenBee_C",
+    "Class": "UScriptClass'PalShooterSpringArmComponent'",
+    "Template": {
+      "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_QueenBee_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 140.0
+      }
+    }
+  },
+  {
+    "Type": "PalSkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Outer": "Default__BP_QueenBee_C",
+    "Class": "UScriptClass'PalSkeletalMeshComponent'",
+    "Template": {
+      "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_QueenBee_C'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/ABP_QueenBee.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_QueenBee'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/QueenBee/SK_QueenBee.0"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_QueenBee'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/QueenBee/SK_QueenBee.0"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_QueenBee_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -30.0
+      }
+    }
+  },
+  {
+    "Type": "PalStaticCharacterParameterComponent",
+    "Name": "StaticCharacterParameterComponent",
+    "Outer": "Default__BP_QueenBee_C",
+    "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+    "Template": {
+      "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MeshCapsuleHalfHeight": 170.0,
+      "MeshCapsuleRadius": 100.0,
+      "MeshRelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -170.0
+      },
+      "RandomRestMontageInfos": [
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_QueenBee_Rest01'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Rest01.0"
+          },
+          "Weight": 1.0,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 2.0
+        },
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_QueenBee_Rest02'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Rest02.0"
+          },
+          "Weight": 0.5,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 2.0
+        },
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_QueenBee_Rest03'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Rest03.0"
+          },
+          "Weight": 1.0,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 2.0
+        },
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_QueenBee_Encount'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Encount.0"
+          },
+          "Weight": 1.0,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 2.0
+        },
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_QueenBee_Eat'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Eat.0"
+          },
+          "Weight": 1.0,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 2,
+          "AfterIdleTime": 2.0
+        }
+      ],
+      "GeneralMontageMap": [
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackReady_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_QueenBee_FarSkill_Start'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_FarSkill_Start.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackReadyLoop_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_QueenBee_FarSkill_StartLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_FarSkill_StartLoop.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackProcess_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_QueenBee_FarSkill_Action'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_FarSkill_Action.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackProcessLoop_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_QueenBee_FarSkill_ActionLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_FarSkill_ActionLoop.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackAfter_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_QueenBee_FarSkill_End'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_FarSkill_End.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::SleepStart",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_QueenBee_SleepStart'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_SleepStart.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::SleepLoop",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_QueenBee_SleepLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_SleepLoop.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::SleepEnd",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_QueenBee_SleepEnd'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_SleepEnd.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::DamageAdditive",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_QueenBee_Hit'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Hit.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::BeLiftupStart",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_QueenBee_Carrying_Start'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Carrying_Start.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::BeLiftupLoop",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_QueenBee_Carrying'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Carrying.0"
+          }
+        }
+      ],
+      "GeneralBlendSpaceMap": [
+        {
+          "Key": "EPalGeneralBlendSpaceType::GeneralMove",
+          "Value": {
+            "ObjectName": "BlendSpace1D'BS_Move_QueenBee'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BS_Move_QueenBee.0"
+          }
+        }
+      ],
+      "ActionMontageMap": [
+        {
+          "Key": "EPalActionType::Menace",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_QueenBee_Encount'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Encount.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::Eat",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_QueenBee_Eat'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Eat.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::KnockBack",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_QueenBee_Damage'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Damage.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::ForwardWalk",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_QueenBee_Walk'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Walk.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::Architecture",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_QueenBee_Architecture'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Architecture.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::GetupUtubuse_orRight",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_QueenBee_GetUp_FrontDown'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_GetUp_FrontDown.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::IdleInSpa",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_QueenBee_Spa'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Spa.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::PalPetting",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_QueenBee_Petting'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Petting.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::CommonWork",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_QueenBee_CommonWork'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_CommonWork.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::Deforest",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_QueenBee_Deforest'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Deforest.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::ElectricShock",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_QueenBee_ElectricShock'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_ElectricShock.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::FishPond",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_QueenBee_FishPond'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_FishPond.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::DefenseGunner",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_QueenBee_Gunner'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Gunner.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::Feeding",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_QueenBee_Planting'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_Planting.0"
+          }
+        }
+      ],
+      "SleepOnSideInfoMapForMapObject": [
+        {
+          "Key": {
+            "Key": "MedicalPalBed_02"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -10.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_03"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -10.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_04"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": 0.0,
+              "Y": 70.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        }
+      ],
+      "SleepOnSideAnimMontage": {
+        "ObjectName": "AnimMontage'AM_QueenBee_SleepLoopTogether'",
+        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/QueenBee/AM_QueenBee_SleepLoopTogether.0"
+      },
+      "WazaActionDeclarationMap": [
+        {
+          "Key": "EPalWazaID::Unique_QueenBee_SpinLance",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/QueenBee/BP_Action_Unique_QueenBee_SpinLance.BP_Action_Unique_QueenBee_SpinLance_C",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "HPGaugeUIOffset": {
+        "X": 15.0,
+        "Y": -20.0
+      },
+      "IsBackWalkForwardAnime": true,
+      "GetupMotion_UtubuseOrRight_0FramePelvisLocation": {
+        "X": 0.0,
+        "Y": 135.29463,
+        "Z": 28.967442
+      },
+      "PettingSize": "EPalPettingSizeType::Large",
+      "PettingDistance": 117.0,
+      "PettingStartAddDistance": 50.0,
+      "PettingEndLeaveDistance": 100.0,
+      "PettingCameraCenterDistance_Override": 100.0,
+      "PettingCameraHeight_Override": 100.0,
+      "PettingCameraArmLength_Override": 300.0,
+      "DefenseBuildObjectAssignDistance": 30.0
+    }
+  },
+  {
+    "Type": "PalStatusComponent",
+    "Name": "StatusComponent",
+    "Outer": "Default__BP_QueenBee_C",
+    "Class": "UScriptClass'PalStatusComponent'",
+    "Template": {
+      "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalVisualEffectComponent",
+    "Name": "VisualEffectComponent",
+    "Outer": "Default__BP_QueenBee_C",
+    "Class": "UScriptClass'PalVisualEffectComponent'",
+    "Template": {
+      "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_QueenBee_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_QueenBee_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.32"
+      },
+      "VariableGuid": "3E16B709-439CC30C-AB42239A-FAD08E24",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshComponent'BP_QueenBee_C:Weapon_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.45"
+      },
+      "AttachToName": "Socket_Weapon_R",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "74C07361-4AB08296-26A117B0-49139E9F",
+      "InternalVariableName": "Weapon"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_QueenBee_C:PalBodyPartsCapsule5_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.12"
+      },
+      "AttachToName": "wingA_02_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "57D39A94-4ABF6F79-10789689-F51FF651",
+      "InternalVariableName": "PalBodyPartsCapsule5"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_QueenBee_C:PalBodyPartsCapsule6_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.13"
+      },
+      "AttachToName": "wingB_02_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "0976EDB3-4D822E8F-7DD6699E-13B767F2",
+      "InternalVariableName": "PalBodyPartsCapsule6"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_QueenBee_C:PalBodyPartsCapsule7_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.14"
+      },
+      "AttachToName": "wingB_02_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "7AAF0F93-4FF22557-88CCABBD-CA774194",
+      "InternalVariableName": "PalBodyPartsCapsule7"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_QueenBee_C:PalBodyPartsCapsule_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.15"
+      },
+      "AttachToName": "head",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "D0DEA833-4D112ABE-3F1199B0-5D3BE09B",
+      "InternalVariableName": "PalBodyPartsCapsule"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_QueenBee_C:PalBodyPartsCapsule1_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.8"
+      },
+      "AttachToName": "pelvis",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "184ED2B2-409449BB-4A9CD9AC-3BEB137A",
+      "InternalVariableName": "PalBodyPartsCapsule1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_QueenBee_C:PalBodyPartsCapsule2_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.9"
+      },
+      "AttachToName": "lowerarm_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "746F1FD1-4CB6CBD7-0246F49E-F3C45FC5",
+      "InternalVariableName": "PalBodyPartsCapsule2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_QueenBee_C:PalBodyPartsCapsule3_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.10"
+      },
+      "AttachToName": "lowerarm_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "83F74442-41ABBEED-F3C556B3-EFC51C3F",
+      "InternalVariableName": "PalBodyPartsCapsule3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_QueenBee_C:PalBodyPartsCapsule4_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.11"
+      },
+      "AttachToName": "wingA_02_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "3A5B8117-40A1AA70-19129FA9-9DCF5F86",
+      "InternalVariableName": "PalBodyPartsCapsule4"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalFlyMeshHeightCtrlComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalFlyMeshHeightCtrlComponent'BP_QueenBee_C:PalFlyMeshHeightCtrl_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.22"
+      },
+      "VariableGuid": "894BA044-4BC6ABFF-5AAEDAB3-3FA8787B",
+      "InternalVariableName": "PalFlyMeshHeightCtrl"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_QueenBee_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.43"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.43"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_QueenBee_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.33"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "Weapon_GEN_VARIABLE",
+    "Outer": "BP_QueenBee_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_QueenBee_spear'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/QueenBee/SK_QueenBee_spear.0"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_QueenBee_spear'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/QueenBee/SK_QueenBee_spear.0"
+      },
+      "ComponentTags": [
+        "QueenBeeLance"
+      ]
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "RagdollInteractiveSphere",
+    "Outer": "Default__BP_QueenBee_C",
+    "Class": "UScriptClass'SphereComponent'",
+    "Template": {
+      "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_QueenBee_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/QueenBee/BP_QueenBee.3"
+      }
+    }
+  }
 ]

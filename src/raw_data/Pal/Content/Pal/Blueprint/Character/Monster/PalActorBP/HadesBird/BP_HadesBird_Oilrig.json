@@ -1,1151 +1,1151 @@
 [
-    {
-        "Type": "BlueprintGeneratedClass",
-        "Name": "BP_HadesBird_Oilrig_C",
-        "Class": "UScriptClass'BlueprintGeneratedClass'",
-        "Super": {
-            "ObjectName": "BlueprintGeneratedClass'BP_HadesBird_C'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.0"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "SimpleConstructionScript": {
-                "ObjectName": "SimpleConstructionScript'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.39"
-            },
-            "InheritableComponentHandler": {
-                "ObjectName": "InheritableComponentHandler'BP_HadesBird_Oilrig_C:InheritableComponentHandler'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.6"
-            }
-        },
-        "SuperStruct": {
-            "ObjectName": "BlueprintGeneratedClass'BP_HadesBird_C'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.0"
-        },
-        "Children": [
-            {
-                "ObjectName": "Function'BP_HadesBird_Oilrig_C:GetVisual_ExceptMainMesh_SyncAnyway'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.5"
-            }
-        ],
-        "ChildProperties": [
-            {
-                "Type": "ObjectProperty",
-                "Name": "BP_PalTimerPointLightComponent1",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "BlueprintGeneratedClass'BP_PalTimerPointLightComponent_C'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.0"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalSpeedCollision1_0",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalSpeedCollisionComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsSphere_0",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsSphereComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsCapsule_0",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsCapsule3_0",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsCapsule2_0",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsCapsule1_0",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "BP_PalRideMarkerBiggerHorse1",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "BlueprintGeneratedClass'BP_PalRideMarkerBiggerHorse_C'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerBiggerHorse.0"
-                }
-            }
-        ],
-        "FuncMap": {
-            "GetVisual_ExceptMainMesh_SyncAnyway": {
-                "ObjectName": "Function'BP_HadesBird_Oilrig_C:GetVisual_ExceptMainMesh_SyncAnyway'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.5"
-            }
-        },
-        "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
-        "ClassWithin": {
-            "ObjectName": "Class'Object'",
-            "ObjectPath": "/Script/CoreUObject"
-        },
-        "ClassConfigName": "Game",
-        "bCooked": true,
-        "ClassDefaultObject": {
-            "ObjectName": "BP_HadesBird_Oilrig_C'Default__BP_HadesBird_Oilrig_C'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.1"
-        },
-        "EditorTags": {
-            "BlueprintType": "BPTYPE_Normal"
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_HadesBird_Oilrig_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_HadesBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.0"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.39"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_HadesBird_Oilrig_C:InheritableComponentHandler'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_HadesBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.0"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_HadesBird_Oilrig_C:GetVisual_ExceptMainMesh_SyncAnyway'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.5"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_PalTimerPointLightComponent1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PalTimerPointLightComponent_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.0"
         }
-    },
-    {
-        "Type": "BP_HadesBird_Oilrig_C",
-        "Name": "Default__BP_HadesBird_Oilrig_C",
-        "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.BP_HadesBird_Oilrig_C'",
-        "Template": {
-            "ObjectName": "BP_HadesBird_C'Default__BP_HadesBird_C'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.1"
-        },
-        "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "LiftupObjectComponent": {
-                "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_HadesBird_Oilrig_C:Liftup'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.16"
-            },
-            "ActionComponent": {
-                "ObjectName": "PalActionComponent'Default__BP_HadesBird_Oilrig_C:ActionComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.7"
-            },
-            "CharacterParameterComponent": {
-                "ObjectName": "PalCharacterParameterComponent'Default__BP_HadesBird_Oilrig_C:CharacterParameterComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.18"
-            },
-            "StaticCharacterParameterComponent": {
-                "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_HadesBird_Oilrig_C:StaticCharacterParameterComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.26"
-            },
-            "DamageReactionComponent": {
-                "ObjectName": "PalDamageReactionComponent'Default__BP_HadesBird_Oilrig_C:DamageReactionComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.19"
-            },
-            "StatusComponent": {
-                "ObjectName": "PalStatusComponent'Default__BP_HadesBird_Oilrig_C:StatusComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.27"
-            },
-            "CameraBoom": {
-                "ObjectName": "PalShooterSpringArmComponent'Default__BP_HadesBird_Oilrig_C:CameraBoom'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.23"
-            },
-            "FollowCamera": {
-                "ObjectName": "PalCharacterCameraComponent'Default__BP_HadesBird_Oilrig_C:FollowCamera'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.15"
-            },
-            "LookAtComponent": {
-                "ObjectName": "PalLookAtComponent'Default__BP_HadesBird_Oilrig_C:LookAtComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.21"
-            },
-            "FootIKComponent": {
-                "ObjectName": "PalFootIKComponent'Default__BP_HadesBird_Oilrig_C:FootIKComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.20"
-            },
-            "VisualEffectComponent": {
-                "ObjectName": "PalVisualEffectComponent'Default__BP_HadesBird_Oilrig_C:VisualEffectComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.28"
-            },
-            "PassiveSkillComponent": {
-                "ObjectName": "PalPassiveSkillComponent'Default__BP_HadesBird_Oilrig_C:PassiveSkillComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.22"
-            },
-            "AnimNotifyComponent": {
-                "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_HadesBird_Oilrig_C:AnimNotifyComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.8"
-            },
-            "AroundInfoCollectorComponent": {
-                "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_HadesBird_Oilrig_C:AroundInfoCollectorComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.14"
-            },
-            "RagdollInteractiveSphere": {
-                "ObjectName": "SphereComponent'Default__BP_HadesBird_Oilrig_C:RagdollInteractiveSphere'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.40"
-            },
-            "Mesh": {
-                "ObjectName": "PalSkeletalMeshComponent'Default__BP_HadesBird_Oilrig_C:CharacterMesh0'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.24"
-            },
-            "CharacterMovement": {
-                "ObjectName": "PalCharacterMovementComponent'Default__BP_HadesBird_Oilrig_C:CharMoveComp'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.17"
-            },
-            "CapsuleComponent": {
-                "ObjectName": "CapsuleComponent'Default__BP_HadesBird_Oilrig_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.4"
-            },
-            "RootComponent": {
-                "ObjectName": "CapsuleComponent'Default__BP_HadesBird_Oilrig_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.4"
-            }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalSpeedCollision1_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalSpeedCollisionComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "BP_PalRideMarkerBiggerHorse_C",
-        "Name": "BP_PalRideMarkerBiggerHorse1_GEN_VARIABLE",
-        "Outer": "BP_HadesBird_Oilrig_C",
-        "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerBiggerHorse.BP_PalRideMarkerBiggerHorse_C'",
-        "Template": {
-            "ObjectName": "BP_PalRideMarkerBiggerHorse_C'Default__BP_PalRideMarkerBiggerHorse_C'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerBiggerHorse.1"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "RelativeLocation": {
-                "X": 0.0,
-                "Y": -25.0,
-                "Z": 0.0
-            },
-            "RelativeRotation": {
-                "Pitch": -90.0,
-                "Yaw": 0.0,
-                "Roll": 0.0
-            }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsSphere_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsSphereComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "BP_PalTimerPointLightComponent_C",
-        "Name": "BP_PalTimerPointLightComponent1_GEN_VARIABLE",
-        "Outer": "BP_HadesBird_Oilrig_C",
-        "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.BP_PalTimerPointLightComponent_C'",
-        "Template": {
-            "ObjectName": "BP_PalTimerPointLightComponent_C'Default__BP_PalTimerPointLightComponent_C'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.1"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "bUseInverseSquaredFalloff": false,
-            "SourceRadius": 750.0,
-            "SoftSourceRadius": 750.0,
-            "InverseExposureBlend": 1.0,
-            "Intensity": 20.0,
-            "LightColor": {
-                "B": 129,
-                "G": 68,
-                "R": 129,
-                "A": 255,
-                "Hex": "814481"
-            },
-            "RelativeLocation": {
-                "X": -3e-6,
-                "Y": -4.2351647e-22,
-                "Z": 570.0
-            },
-            "RelativeRotation": {
-                "Pitch": 0.0,
-                "Yaw": 90.0,
-                "Roll": -0.0
-            }
-        },
-        "RelativeRotation": {
-            "Pitch": 0.0,
-            "Yaw": 90.0,
-            "Roll": -0.0
-        },
-        "RelativeLocation": {
-            "X": -3e-6,
-            "Y": -4.2351647e-22,
-            "Z": 570.0
-        },
-        "IntensityNits": 20.0,
-        "bUseInverseSquaredFalloff": false
-    },
-    {
-        "Type": "CapsuleComponent",
-        "Name": "CollisionCylinder",
-        "Outer": "Default__BP_HadesBird_Oilrig_C",
-        "Class": "UScriptClass'CapsuleComponent'",
-        "Template": {
-            "ObjectName": "CapsuleComponent'Default__BP_HadesBird_C:CollisionCylinder'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.5"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "Function",
-        "Name": "GetVisual_ExceptMainMesh_SyncAnyway",
-        "Outer": "BP_HadesBird_Oilrig_C",
-        "Class": "UScriptClass'Function'",
-        "Super": {
-            "ObjectName": "Function'BP_HadesBird_C:GetVisual_ExceptMainMesh_SyncAnyway'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.6"
-        },
-        "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
-        "SuperStruct": {
-            "ObjectName": "Function'BP_HadesBird_C:GetVisual_ExceptMainMesh_SyncAnyway'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.6"
-        },
-        "ChildProperties": [
-            {
-                "Type": "ArrayProperty",
-                "Name": "OutComponent",
-                "Flags": "RF_Public",
-                "ElementSize": 16,
-                "PropertyFlags": "Parm | OutParm | ContainsInstancedReference",
-                "Inner": {
-                    "Type": "ObjectProperty",
-                    "Name": "OutComponent",
-                    "Flags": "RF_Public",
-                    "ElementSize": 8,
-                    "PropertyFlags": "InstancedReference",
-                    "PropertyClass": {
-                        "ObjectName": "Class'SceneComponent'",
-                        "ObjectPath": "/Script/Engine"
-                    }
-                }
-            },
-            {
-                "Type": "ArrayProperty",
-                "Name": "NewLocalVar",
-                "Flags": "RF_Public",
-                "ElementSize": 16,
-                "PropertyFlags": "Edit | BlueprintVisible | ContainsInstancedReference",
-                "Inner": {
-                    "Type": "ObjectProperty",
-                    "Name": "NewLocalVar",
-                    "Flags": "RF_Public",
-                    "ElementSize": 8,
-                    "PropertyFlags": "InstancedReference",
-                    "PropertyClass": {
-                        "ObjectName": "Class'SceneComponent'",
-                        "ObjectPath": "/Script/Engine"
-                    }
-                }
-            },
-            {
-                "Type": "IntProperty",
-                "Name": "CallFunc_Array_Add_ReturnValue",
-                "Flags": "RF_Public",
-                "ElementSize": 4
-            }
-        ],
-        "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
-    },
-    {
-        "Type": "InheritableComponentHandler",
-        "Name": "InheritableComponentHandler",
-        "Outer": "BP_HadesBird_Oilrig_C",
-        "Class": "UScriptClass'InheritableComponentHandler'",
-        "Flags": "RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalActionComponent",
-        "Name": "ActionComponent",
-        "Outer": "Default__BP_HadesBird_Oilrig_C",
-        "Class": "UScriptClass'PalActionComponent'",
-        "Template": {
-            "ObjectName": "PalActionComponent'Default__BP_HadesBird_C:ActionComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.8"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalAnimNotifyParameterComponent",
-        "Name": "AnimNotifyComponent",
-        "Outer": "Default__BP_HadesBird_Oilrig_C",
-        "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
-        "Template": {
-            "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_HadesBird_C:AnimNotifyComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.9"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalBodyPartsCapsuleComponent",
-        "Name": "PalBodyPartsCapsule1_0_GEN_VARIABLE",
-        "Outer": "BP_HadesBird_Oilrig_C",
-        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AreaClassOverride": {
-                "ObjectName": "Class'NavArea_Obstacle'",
-                "ObjectPath": "/Script/NavigationSystem"
-            },
-            "bUseSystemDefaultObstacleAreaClass": false,
-            "BodyInstance": {
-                "CollisionProfileName": "PawnParts_NonBlock",
-                "CollisionResponses": {
-                    "ResponseArray": [
-                        {
-                            "Channel": "WorldStatic",
-                            "Response": "ECollisionResponse::ECR_Ignore"
-                        },
-                        {
-                            "Channel": "WorldDynamic",
-                            "Response": "ECollisionResponse::ECR_Ignore"
-                        },
-                        {
-                            "Channel": "Pawn",
-                            "Response": "ECollisionResponse::ECR_Ignore"
-                        },
-                        {
-                            "Channel": "Visibility",
-                            "Response": "ECollisionResponse::ECR_Ignore"
-                        },
-                        {
-                            "Channel": "Camera",
-                            "Response": "ECollisionResponse::ECR_Ignore"
-                        },
-                        {
-                            "Channel": "PhysicsBody",
-                            "Response": "ECollisionResponse::ECR_Ignore"
-                        },
-                        {
-                            "Channel": "Vehicle",
-                            "Response": "ECollisionResponse::ECR_Ignore"
-                        },
-                        {
-                            "Channel": "Destructible",
-                            "Response": "ECollisionResponse::ECR_Ignore"
-                        },
-                        {
-                            "Channel": "PlayerPawn",
-                            "Response": "ECollisionResponse::ECR_Ignore"
-                        },
-                        {
-                            "Channel": "SystemVolume",
-                            "Response": "ECollisionResponse::ECR_Ignore"
-                        }
-                    ]
-                }
-            },
-            "RelativeLocation": {
-                "X": 61.044357,
-                "Y": -3.354886e-8,
-                "Z": 22.218328
-            },
-            "RelativeRotation": {
-                "Pitch": 70.0,
-                "Yaw": 180.0,
-                "Roll": 180.0
-            },
-            "RelativeScale3D": {
-                "X": 3.994725,
-                "Y": 4.355549,
-                "Z": 4.661381
-            }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "PalBodyPartsCapsuleComponent",
-        "Name": "PalBodyPartsCapsule2_0_GEN_VARIABLE",
-        "Outer": "BP_HadesBird_Oilrig_C",
-        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AreaClassOverride": {
-                "ObjectName": "Class'NavArea_Obstacle'",
-                "ObjectPath": "/Script/NavigationSystem"
-            },
-            "bUseSystemDefaultObstacleAreaClass": false,
-            "BodyInstance": {
-                "CollisionProfileName": "PawnParts_NonBlock",
-                "CollisionResponses": {
-                    "ResponseArray": [
-                        {
-                            "Channel": "WorldStatic",
-                            "Response": "ECollisionResponse::ECR_Ignore"
-                        },
-                        {
-                            "Channel": "WorldDynamic",
-                            "Response": "ECollisionResponse::ECR_Ignore"
-                        },
-                        {
-                            "Channel": "Pawn",
-                            "Response": "ECollisionResponse::ECR_Ignore"
-                        },
-                        {
-                            "Channel": "Visibility",
-                            "Response": "ECollisionResponse::ECR_Ignore"
-                        },
-                        {
-                            "Channel": "Camera",
-                            "Response": "ECollisionResponse::ECR_Ignore"
-                        },
-                        {
-                            "Channel": "PhysicsBody",
-                            "Response": "ECollisionResponse::ECR_Ignore"
-                        },
-                        {
-                            "Channel": "Vehicle",
-                            "Response": "ECollisionResponse::ECR_Ignore"
-                        },
-                        {
-                            "Channel": "Destructible",
-                            "Response": "ECollisionResponse::ECR_Ignore"
-                        },
-                        {
-                            "Channel": "PlayerPawn",
-                            "Response": "ECollisionResponse::ECR_Ignore"
-                        },
-                        {
-                            "Channel": "SystemVolume",
-                            "Response": "ECollisionResponse::ECR_Ignore"
-                        }
-                    ]
-                }
-            },
-            "RelativeLocation": {
-                "X": -2.6873461e-9,
-                "Y": 16.47012,
-                "Z": -3.376672e-9
-            },
-            "RelativeRotation": {
-                "Pitch": -80.0,
-                "Yaw": -6.3538096e-8,
-                "Roll": -10.0
-            },
-            "RelativeScale3D": {
-                "X": 3.994725,
-                "Y": 4.355549,
-                "Z": 4.661381
-            }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule3_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "PalBodyPartsCapsuleComponent",
-        "Name": "PalBodyPartsCapsule3_0_GEN_VARIABLE",
-        "Outer": "BP_HadesBird_Oilrig_C",
-        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "CapsuleHalfHeight": 28.287504,
-            "CapsuleRadius": 20.20998,
-            "AreaClassOverride": {
-                "ObjectName": "Class'NavArea_Obstacle'",
-                "ObjectPath": "/Script/NavigationSystem"
-            },
-            "bUseSystemDefaultObstacleAreaClass": false,
-            "RelativeLocation": {
-                "X": -52.888046,
-                "Y": 4.2466876e-8,
-                "Z": -3.54744e-13
-            },
-            "RelativeRotation": {
-                "Pitch": 90.0,
-                "Yaw": 0.00015454803,
-                "Roll": 0.00015455166
-            },
-            "RelativeScale3D": {
-                "X": 3.994725,
-                "Y": 4.355549,
-                "Z": 4.661381
-            }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule2_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "PalBodyPartsCapsuleComponent",
-        "Name": "PalBodyPartsCapsule_0_GEN_VARIABLE",
-        "Outer": "BP_HadesBird_Oilrig_C",
-        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "BodyPartsType": "EPalBodyPartsType::Weak",
-            "CapsuleRadius": 10.591478,
-            "AreaClassOverride": {
-                "ObjectName": "Class'NavArea_Obstacle'",
-                "ObjectPath": "/Script/NavigationSystem"
-            },
-            "bUseSystemDefaultObstacleAreaClass": false,
-            "RelativeLocation": {
-                "X": -24.505672,
-                "Y": -8.919335,
-                "Z": 1.0806501e-7
-            },
-            "RelativeRotation": {
-                "Pitch": -6.54035e-7,
-                "Yaw": 110.0,
-                "Roll": -90.0
-            },
-            "RelativeScale3D": {
-                "X": -3.031939,
-                "Y": -2.9662578,
-                "Z": -1.5885563
-            }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule1_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "PalBodyPartsSphereComponent",
-        "Name": "PalBodyPartsSphere_0_GEN_VARIABLE",
-        "Outer": "BP_HadesBird_Oilrig_C",
-        "Class": "UScriptClass'PalBodyPartsSphereComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "BodyPartsType": "EPalBodyPartsType::Weak",
-            "AreaClassOverride": {
-                "ObjectName": "Class'NavArea_Obstacle'",
-                "ObjectPath": "/Script/NavigationSystem"
-            },
-            "bUseSystemDefaultObstacleAreaClass": false,
-            "RelativeLocation": {
-                "X": -3.9588664e-15,
-                "Y": 17.82915,
-                "Z": 280.0
-            },
-            "RelativeRotation": {
-                "Pitch": 0.0,
-                "Yaw": 90.0,
-                "Roll": -0.0
-            },
-            "RelativeScale3D": {
-                "X": -2.432411,
-                "Y": -2.432411,
-                "Z": -2.432411
-            }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_PalRideMarkerBiggerHorse1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PalRideMarkerBiggerHorse_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerBiggerHorse.0"
         }
+      }
+    ],
+    "FuncMap": {
+      "GetVisual_ExceptMainMesh_SyncAnyway": {
+        "ObjectName": "Function'BP_HadesBird_Oilrig_C:GetVisual_ExceptMainMesh_SyncAnyway'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.5"
+      }
     },
-    {
-        "Type": "PalCharacterAroundInfoCollectorComponent",
-        "Name": "AroundInfoCollectorComponent",
-        "Outer": "Default__BP_HadesBird_Oilrig_C",
-        "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
-        "Template": {
-            "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_HadesBird_C:AroundInfoCollectorComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.15"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AttachParent": {
-                "ObjectName": "CapsuleComponent'Default__BP_HadesBird_Oilrig_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.4"
-            }
-        }
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
     },
-    {
-        "Type": "PalCharacterCameraComponent",
-        "Name": "FollowCamera",
-        "Outer": "Default__BP_HadesBird_Oilrig_C",
-        "Class": "UScriptClass'PalCharacterCameraComponent'",
-        "Template": {
-            "ObjectName": "PalCharacterCameraComponent'Default__BP_HadesBird_C:FollowCamera'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.16"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AttachParent": {
-                "ObjectName": "PalShooterSpringArmComponent'Default__BP_HadesBird_Oilrig_C:CameraBoom'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.23"
-            }
-        }
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_HadesBird_Oilrig_C'Default__BP_HadesBird_Oilrig_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.1"
     },
-    {
-        "Type": "PalCharacterLiftupObjectComponent",
-        "Name": "Liftup",
-        "Outer": "Default__BP_HadesBird_Oilrig_C",
-        "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
-        "Template": {
-            "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_HadesBird_C:Liftup'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.17"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalCharacterMovementComponent",
-        "Name": "CharMoveComp",
-        "Outer": "Default__BP_HadesBird_Oilrig_C",
-        "Class": "UScriptClass'PalCharacterMovementComponent'",
-        "Template": {
-            "ObjectName": "PalCharacterMovementComponent'Default__BP_HadesBird_C:CharMoveComp'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.18"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalCharacterParameterComponent",
-        "Name": "CharacterParameterComponent",
-        "Outer": "Default__BP_HadesBird_Oilrig_C",
-        "Class": "UScriptClass'PalCharacterParameterComponent'",
-        "Template": {
-            "ObjectName": "PalCharacterParameterComponent'Default__BP_HadesBird_C:CharacterParameterComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.19"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalDamageReactionComponent",
-        "Name": "DamageReactionComponent",
-        "Outer": "Default__BP_HadesBird_Oilrig_C",
-        "Class": "UScriptClass'PalDamageReactionComponent'",
-        "Template": {
-            "ObjectName": "PalDamageReactionComponent'Default__BP_HadesBird_C:DamageReactionComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.20"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalFootIKComponent",
-        "Name": "FootIKComponent",
-        "Outer": "Default__BP_HadesBird_Oilrig_C",
-        "Class": "UScriptClass'PalFootIKComponent'",
-        "Template": {
-            "ObjectName": "PalFootIKComponent'Default__BP_HadesBird_C:FootIKComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.22"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalLookAtComponent",
-        "Name": "LookAtComponent",
-        "Outer": "Default__BP_HadesBird_Oilrig_C",
-        "Class": "UScriptClass'PalLookAtComponent'",
-        "Template": {
-            "ObjectName": "PalLookAtComponent'Default__BP_HadesBird_C:LookAtComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.24"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalPassiveSkillComponent",
-        "Name": "PassiveSkillComponent",
-        "Outer": "Default__BP_HadesBird_Oilrig_C",
-        "Class": "UScriptClass'PalPassiveSkillComponent'",
-        "Template": {
-            "ObjectName": "PalPassiveSkillComponent'Default__BP_HadesBird_C:PassiveSkillComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.26"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalShooterSpringArmComponent",
-        "Name": "CameraBoom",
-        "Outer": "Default__BP_HadesBird_Oilrig_C",
-        "Class": "UScriptClass'PalShooterSpringArmComponent'",
-        "Template": {
-            "ObjectName": "PalShooterSpringArmComponent'Default__BP_HadesBird_C:CameraBoom'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.27"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AttachParent": {
-                "ObjectName": "CapsuleComponent'Default__BP_HadesBird_Oilrig_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.4"
-            }
-        }
-    },
-    {
-        "Type": "PalSkeletalMeshComponent",
-        "Name": "CharacterMesh0",
-        "Outer": "Default__BP_HadesBird_Oilrig_C",
-        "Class": "UScriptClass'PalSkeletalMeshComponent'",
-        "Template": {
-            "ObjectName": "PalSkeletalMeshComponent'Default__BP_HadesBird_C:CharacterMesh0'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.28"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AttachParent": {
-                "ObjectName": "CapsuleComponent'Default__BP_HadesBird_Oilrig_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.4"
-            }
-        }
-    },
-    {
-        "Type": "PalSpeedCollisionComponent",
-        "Name": "PalSpeedCollision1_0_GEN_VARIABLE",
-        "Outer": "BP_HadesBird_Oilrig_C",
-        "Class": "UScriptClass'PalSpeedCollisionComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AreaClassOverride": {
-                "ObjectName": "Class'NavArea_Obstacle'",
-                "ObjectPath": "/Script/NavigationSystem"
-            },
-            "bUseSystemDefaultObstacleAreaClass": false,
-            "RelativeLocation": {
-                "X": -56.22874,
-                "Y": 54.502148,
-                "Z": 293.35486
-            },
-            "RelativeRotation": {
-                "Pitch": 0.0,
-                "Yaw": -90.0,
-                "Roll": 0.0
-            },
-            "RelativeScale3D": {
-                "X": 3.385395,
-                "Y": 3.385395,
-                "Z": 3.385395
-            }
-        }
-    },
-    {
-        "Type": "PalStaticCharacterParameterComponent",
-        "Name": "StaticCharacterParameterComponent",
-        "Outer": "Default__BP_HadesBird_Oilrig_C",
-        "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
-        "Template": {
-            "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_HadesBird_C:StaticCharacterParameterComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.30"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "IsUncapturable": true
-        }
-    },
-    {
-        "Type": "PalStatusComponent",
-        "Name": "StatusComponent",
-        "Outer": "Default__BP_HadesBird_Oilrig_C",
-        "Class": "UScriptClass'PalStatusComponent'",
-        "Template": {
-            "ObjectName": "PalStatusComponent'Default__BP_HadesBird_C:StatusComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.31"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalVisualEffectComponent",
-        "Name": "VisualEffectComponent",
-        "Outer": "Default__BP_HadesBird_Oilrig_C",
-        "Class": "UScriptClass'PalVisualEffectComponent'",
-        "Template": {
-            "ObjectName": "PalVisualEffectComponent'Default__BP_HadesBird_C:VisualEffectComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.32"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "SceneComponent",
-        "Name": "DefaultSceneRoot_GEN_VARIABLE",
-        "Outer": "BP_HadesBird_Oilrig_C",
-        "Class": "UScriptClass'SceneComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_0",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'SceneComponent'",
-                "ObjectPath": "/Script/Engine"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "SceneComponent'BP_HadesBird_Oilrig_C:DefaultSceneRoot_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.29"
-            },
-            "VariableGuid": "D4899FD3-431266D6-78FF4B98-F987BDCD",
-            "InternalVariableName": "DefaultSceneRoot"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_1",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsSphereComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsSphereComponent'BP_HadesBird_Oilrig_C:PalBodyPartsSphere_0_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.13"
-            },
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "8B89A303-4445D0A7-1D546880-E50168D8",
-            "InternalVariableName": "PalBodyPartsSphere_0"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_2",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "BlueprintGeneratedClass'BP_PalRideMarkerBiggerHorse_C'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerBiggerHorse.0"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "BP_PalRideMarkerBiggerHorse_C'BP_HadesBird_Oilrig_C:BP_PalRideMarkerBiggerHorse1_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.2"
-            },
-            "AttachToName": "spine_01",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "0EDDAE25-43AACC83-B2574590-FD3ED3A9",
-            "InternalVariableName": "BP_PalRideMarkerBiggerHorse1"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_3",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsCapsuleComponent'BP_HadesBird_Oilrig_C:PalBodyPartsCapsule1_0_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.9"
-            },
-            "AttachToName": "wing_03_l",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "ABC8CCB1-4330B729-ECC0478A-6C1C545B",
-            "InternalVariableName": "PalBodyPartsCapsule1_0"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_4",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsCapsuleComponent'BP_HadesBird_Oilrig_C:PalBodyPartsCapsule2_0_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.10"
-            },
-            "AttachToName": "wing_03_r",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "E2FE3600-4BEBEB78-35B71696-C43237E0",
-            "InternalVariableName": "PalBodyPartsCapsule2_0"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_5",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsCapsuleComponent'BP_HadesBird_Oilrig_C:PalBodyPartsCapsule3_0_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.11"
-            },
-            "AttachToName": "pelvis",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "587BBFDA-4384444C-C33DBEB5-58491A3A",
-            "InternalVariableName": "PalBodyPartsCapsule3_0"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_6",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsCapsuleComponent'BP_HadesBird_Oilrig_C:PalBodyPartsCapsule_0_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.12"
-            },
-            "AttachToName": "head",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "EB3364EB-48F65882-EC426886-6BF3CA08",
-            "InternalVariableName": "PalBodyPartsCapsule_0"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_7",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalSpeedCollisionComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalSpeedCollisionComponent'BP_HadesBird_Oilrig_C:PalSpeedCollision1_0_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.25"
-            },
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "1AF62896-437FA261-3785D5B6-3401A2B2",
-            "InternalVariableName": "PalSpeedCollision1_0"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_8",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "BlueprintGeneratedClass'BP_PalTimerPointLightComponent_C'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.0"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "BP_PalTimerPointLightComponent_C'BP_HadesBird_Oilrig_C:BP_PalTimerPointLightComponent1_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.3"
-            },
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "05BF9E91-481AB1A9-AA1A31AF-8283CD54",
-            "InternalVariableName": "BP_PalTimerPointLightComponent1"
-        }
-    },
-    {
-        "Type": "SimpleConstructionScript",
-        "Name": "SimpleConstructionScript_0",
-        "Outer": "BP_HadesBird_Oilrig_C",
-        "Class": "UScriptClass'SimpleConstructionScript'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "RootNodes": [
-                {
-                    "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_2'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.32"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_3'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.33"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_4'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.34"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_5'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.35"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_6'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.36"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_1'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.31"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_7'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.37"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_8'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.38"
-                }
-            ],
-            "AllNodes": [
-                {
-                    "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_2'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.32"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_3'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.33"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_4'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.34"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_5'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.35"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_6'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.36"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_1'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.31"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_7'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.37"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_8'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.38"
-                }
-            ],
-            "DefaultSceneRootNode": {
-                "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_0'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.30"
-            }
-        }
-    },
-    {
-        "Type": "SphereComponent",
-        "Name": "RagdollInteractiveSphere",
-        "Outer": "Default__BP_HadesBird_Oilrig_C",
-        "Class": "UScriptClass'SphereComponent'",
-        "Template": {
-            "ObjectName": "SphereComponent'Default__BP_HadesBird_C:RagdollInteractiveSphere'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.47"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AttachParent": {
-                "ObjectName": "CapsuleComponent'Default__BP_HadesBird_Oilrig_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.4"
-            }
-        }
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
     }
+  },
+  {
+    "Type": "BP_HadesBird_Oilrig_C",
+    "Name": "Default__BP_HadesBird_Oilrig_C",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.BP_HadesBird_Oilrig_C'",
+    "Template": {
+      "ObjectName": "BP_HadesBird_C'Default__BP_HadesBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.1"
+    },
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LiftupObjectComponent": {
+        "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_HadesBird_Oilrig_C:Liftup'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.16"
+      },
+      "ActionComponent": {
+        "ObjectName": "PalActionComponent'Default__BP_HadesBird_Oilrig_C:ActionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.7"
+      },
+      "CharacterParameterComponent": {
+        "ObjectName": "PalCharacterParameterComponent'Default__BP_HadesBird_Oilrig_C:CharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.18"
+      },
+      "StaticCharacterParameterComponent": {
+        "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_HadesBird_Oilrig_C:StaticCharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.26"
+      },
+      "DamageReactionComponent": {
+        "ObjectName": "PalDamageReactionComponent'Default__BP_HadesBird_Oilrig_C:DamageReactionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.19"
+      },
+      "StatusComponent": {
+        "ObjectName": "PalStatusComponent'Default__BP_HadesBird_Oilrig_C:StatusComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.27"
+      },
+      "CameraBoom": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_HadesBird_Oilrig_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.23"
+      },
+      "FollowCamera": {
+        "ObjectName": "PalCharacterCameraComponent'Default__BP_HadesBird_Oilrig_C:FollowCamera'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.15"
+      },
+      "LookAtComponent": {
+        "ObjectName": "PalLookAtComponent'Default__BP_HadesBird_Oilrig_C:LookAtComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.21"
+      },
+      "FootIKComponent": {
+        "ObjectName": "PalFootIKComponent'Default__BP_HadesBird_Oilrig_C:FootIKComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.20"
+      },
+      "VisualEffectComponent": {
+        "ObjectName": "PalVisualEffectComponent'Default__BP_HadesBird_Oilrig_C:VisualEffectComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.28"
+      },
+      "PassiveSkillComponent": {
+        "ObjectName": "PalPassiveSkillComponent'Default__BP_HadesBird_Oilrig_C:PassiveSkillComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.22"
+      },
+      "AnimNotifyComponent": {
+        "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_HadesBird_Oilrig_C:AnimNotifyComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.8"
+      },
+      "AroundInfoCollectorComponent": {
+        "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_HadesBird_Oilrig_C:AroundInfoCollectorComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.14"
+      },
+      "RagdollInteractiveSphere": {
+        "ObjectName": "SphereComponent'Default__BP_HadesBird_Oilrig_C:RagdollInteractiveSphere'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.40"
+      },
+      "Mesh": {
+        "ObjectName": "PalSkeletalMeshComponent'Default__BP_HadesBird_Oilrig_C:CharacterMesh0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.24"
+      },
+      "CharacterMovement": {
+        "ObjectName": "PalCharacterMovementComponent'Default__BP_HadesBird_Oilrig_C:CharMoveComp'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.17"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_HadesBird_Oilrig_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.4"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_HadesBird_Oilrig_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.4"
+      }
+    }
+  },
+  {
+    "Type": "BP_PalRideMarkerBiggerHorse_C",
+    "Name": "BP_PalRideMarkerBiggerHorse1_GEN_VARIABLE",
+    "Outer": "BP_HadesBird_Oilrig_C",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerBiggerHorse.BP_PalRideMarkerBiggerHorse_C'",
+    "Template": {
+      "ObjectName": "BP_PalRideMarkerBiggerHorse_C'Default__BP_PalRideMarkerBiggerHorse_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerBiggerHorse.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -25.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BP_PalTimerPointLightComponent_C",
+    "Name": "BP_PalTimerPointLightComponent1_GEN_VARIABLE",
+    "Outer": "BP_HadesBird_Oilrig_C",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.BP_PalTimerPointLightComponent_C'",
+    "Template": {
+      "ObjectName": "BP_PalTimerPointLightComponent_C'Default__BP_PalTimerPointLightComponent_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bUseInverseSquaredFalloff": false,
+      "SourceRadius": 750.0,
+      "SoftSourceRadius": 750.0,
+      "InverseExposureBlend": 1.0,
+      "Intensity": 20.0,
+      "LightColor": {
+        "B": 129,
+        "G": 68,
+        "R": 129,
+        "A": 255,
+        "Hex": "814481"
+      },
+      "RelativeLocation": {
+        "X": -3E-06,
+        "Y": -4.2351647E-22,
+        "Z": 570.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": -0.0
+      }
+    },
+    "RelativeRotation": {
+      "Pitch": 0.0,
+      "Yaw": 90.0,
+      "Roll": -0.0
+    },
+    "RelativeLocation": {
+      "X": -3E-06,
+      "Y": -4.2351647E-22,
+      "Z": 570.0
+    },
+    "IntensityNits": 20.0,
+    "bUseInverseSquaredFalloff": false
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": "Default__BP_HadesBird_Oilrig_C",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_HadesBird_C:CollisionCylinder'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.5"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "Function",
+    "Name": "GetVisual_ExceptMainMesh_SyncAnyway",
+    "Outer": "BP_HadesBird_Oilrig_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'BP_HadesBird_C:GetVisual_ExceptMainMesh_SyncAnyway'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.6"
+    },
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'BP_HadesBird_C:GetVisual_ExceptMainMesh_SyncAnyway'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.6"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ArrayProperty",
+        "Name": "OutComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "Parm | OutParm | ContainsInstancedReference",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "OutComponent",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "InstancedReference",
+          "PropertyClass": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "NewLocalVar",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | ContainsInstancedReference",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "NewLocalVar",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "InstancedReference",
+          "PropertyClass": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Add_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": "BP_HadesBird_Oilrig_C",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalActionComponent",
+    "Name": "ActionComponent",
+    "Outer": "Default__BP_HadesBird_Oilrig_C",
+    "Class": "UScriptClass'PalActionComponent'",
+    "Template": {
+      "ObjectName": "PalActionComponent'Default__BP_HadesBird_C:ActionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.8"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalAnimNotifyParameterComponent",
+    "Name": "AnimNotifyComponent",
+    "Outer": "Default__BP_HadesBird_Oilrig_C",
+    "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+    "Template": {
+      "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_HadesBird_C:AnimNotifyComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.9"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule1_0_GEN_VARIABLE",
+    "Outer": "BP_HadesBird_Oilrig_C",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "BodyInstance": {
+        "CollisionProfileName": "PawnParts_NonBlock",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PlayerPawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "SystemVolume",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 61.044357,
+        "Y": -3.354886E-08,
+        "Z": 22.218328
+      },
+      "RelativeRotation": {
+        "Pitch": 70.0,
+        "Yaw": 180.0,
+        "Roll": 180.0
+      },
+      "RelativeScale3D": {
+        "X": 3.994725,
+        "Y": 4.355549,
+        "Z": 4.661381
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule2_0_GEN_VARIABLE",
+    "Outer": "BP_HadesBird_Oilrig_C",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "BodyInstance": {
+        "CollisionProfileName": "PawnParts_NonBlock",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PlayerPawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "SystemVolume",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -2.6873461E-09,
+        "Y": 16.47012,
+        "Z": -3.376672E-09
+      },
+      "RelativeRotation": {
+        "Pitch": -80.0,
+        "Yaw": -6.3538096E-08,
+        "Roll": -10.0
+      },
+      "RelativeScale3D": {
+        "X": 3.994725,
+        "Y": 4.355549,
+        "Z": 4.661381
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule3_0_GEN_VARIABLE",
+    "Outer": "BP_HadesBird_Oilrig_C",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CapsuleHalfHeight": 28.287504,
+      "CapsuleRadius": 20.20998,
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "RelativeLocation": {
+        "X": -52.888046,
+        "Y": 4.2466876E-08,
+        "Z": -3.54744E-13
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.00015454803,
+        "Roll": 0.00015455166
+      },
+      "RelativeScale3D": {
+        "X": 3.994725,
+        "Y": 4.355549,
+        "Z": 4.661381
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule_0_GEN_VARIABLE",
+    "Outer": "BP_HadesBird_Oilrig_C",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Weak",
+      "CapsuleRadius": 10.591478,
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "RelativeLocation": {
+        "X": -24.505672,
+        "Y": -8.919335,
+        "Z": 1.0806501E-07
+      },
+      "RelativeRotation": {
+        "Pitch": -6.54035E-07,
+        "Yaw": 110.0,
+        "Roll": -90.0
+      },
+      "RelativeScale3D": {
+        "X": -3.031939,
+        "Y": -2.9662578,
+        "Z": -1.5885563
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsSphereComponent",
+    "Name": "PalBodyPartsSphere_0_GEN_VARIABLE",
+    "Outer": "BP_HadesBird_Oilrig_C",
+    "Class": "UScriptClass'PalBodyPartsSphereComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Weak",
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "RelativeLocation": {
+        "X": -3.9588664E-15,
+        "Y": 17.82915,
+        "Z": 280.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": -0.0
+      },
+      "RelativeScale3D": {
+        "X": -2.432411,
+        "Y": -2.432411,
+        "Z": -2.432411
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterAroundInfoCollectorComponent",
+    "Name": "AroundInfoCollectorComponent",
+    "Outer": "Default__BP_HadesBird_Oilrig_C",
+    "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+    "Template": {
+      "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_HadesBird_C:AroundInfoCollectorComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.15"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_HadesBird_Oilrig_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.4"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterCameraComponent",
+    "Name": "FollowCamera",
+    "Outer": "Default__BP_HadesBird_Oilrig_C",
+    "Class": "UScriptClass'PalCharacterCameraComponent'",
+    "Template": {
+      "ObjectName": "PalCharacterCameraComponent'Default__BP_HadesBird_C:FollowCamera'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.16"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_HadesBird_Oilrig_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.23"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterLiftupObjectComponent",
+    "Name": "Liftup",
+    "Outer": "Default__BP_HadesBird_Oilrig_C",
+    "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+    "Template": {
+      "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_HadesBird_C:Liftup'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.17"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalCharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Outer": "Default__BP_HadesBird_Oilrig_C",
+    "Class": "UScriptClass'PalCharacterMovementComponent'",
+    "Template": {
+      "ObjectName": "PalCharacterMovementComponent'Default__BP_HadesBird_C:CharMoveComp'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.18"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalCharacterParameterComponent",
+    "Name": "CharacterParameterComponent",
+    "Outer": "Default__BP_HadesBird_Oilrig_C",
+    "Class": "UScriptClass'PalCharacterParameterComponent'",
+    "Template": {
+      "ObjectName": "PalCharacterParameterComponent'Default__BP_HadesBird_C:CharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.19"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalDamageReactionComponent",
+    "Name": "DamageReactionComponent",
+    "Outer": "Default__BP_HadesBird_Oilrig_C",
+    "Class": "UScriptClass'PalDamageReactionComponent'",
+    "Template": {
+      "ObjectName": "PalDamageReactionComponent'Default__BP_HadesBird_C:DamageReactionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.20"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalFootIKComponent",
+    "Name": "FootIKComponent",
+    "Outer": "Default__BP_HadesBird_Oilrig_C",
+    "Class": "UScriptClass'PalFootIKComponent'",
+    "Template": {
+      "ObjectName": "PalFootIKComponent'Default__BP_HadesBird_C:FootIKComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.22"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalLookAtComponent",
+    "Name": "LookAtComponent",
+    "Outer": "Default__BP_HadesBird_Oilrig_C",
+    "Class": "UScriptClass'PalLookAtComponent'",
+    "Template": {
+      "ObjectName": "PalLookAtComponent'Default__BP_HadesBird_C:LookAtComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.24"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalPassiveSkillComponent",
+    "Name": "PassiveSkillComponent",
+    "Outer": "Default__BP_HadesBird_Oilrig_C",
+    "Class": "UScriptClass'PalPassiveSkillComponent'",
+    "Template": {
+      "ObjectName": "PalPassiveSkillComponent'Default__BP_HadesBird_C:PassiveSkillComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.26"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalShooterSpringArmComponent",
+    "Name": "CameraBoom",
+    "Outer": "Default__BP_HadesBird_Oilrig_C",
+    "Class": "UScriptClass'PalShooterSpringArmComponent'",
+    "Template": {
+      "ObjectName": "PalShooterSpringArmComponent'Default__BP_HadesBird_C:CameraBoom'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.27"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_HadesBird_Oilrig_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.4"
+      }
+    }
+  },
+  {
+    "Type": "PalSkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Outer": "Default__BP_HadesBird_Oilrig_C",
+    "Class": "UScriptClass'PalSkeletalMeshComponent'",
+    "Template": {
+      "ObjectName": "PalSkeletalMeshComponent'Default__BP_HadesBird_C:CharacterMesh0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.28"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_HadesBird_Oilrig_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.4"
+      }
+    }
+  },
+  {
+    "Type": "PalSpeedCollisionComponent",
+    "Name": "PalSpeedCollision1_0_GEN_VARIABLE",
+    "Outer": "BP_HadesBird_Oilrig_C",
+    "Class": "UScriptClass'PalSpeedCollisionComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "RelativeLocation": {
+        "X": -56.22874,
+        "Y": 54.502148,
+        "Z": 293.35486
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 3.385395,
+        "Y": 3.385395,
+        "Z": 3.385395
+      }
+    }
+  },
+  {
+    "Type": "PalStaticCharacterParameterComponent",
+    "Name": "StaticCharacterParameterComponent",
+    "Outer": "Default__BP_HadesBird_Oilrig_C",
+    "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+    "Template": {
+      "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_HadesBird_C:StaticCharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.30"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "IsUncapturable": true
+    }
+  },
+  {
+    "Type": "PalStatusComponent",
+    "Name": "StatusComponent",
+    "Outer": "Default__BP_HadesBird_Oilrig_C",
+    "Class": "UScriptClass'PalStatusComponent'",
+    "Template": {
+      "ObjectName": "PalStatusComponent'Default__BP_HadesBird_C:StatusComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.31"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalVisualEffectComponent",
+    "Name": "VisualEffectComponent",
+    "Outer": "Default__BP_HadesBird_Oilrig_C",
+    "Class": "UScriptClass'PalVisualEffectComponent'",
+    "Template": {
+      "ObjectName": "PalVisualEffectComponent'Default__BP_HadesBird_C:VisualEffectComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.32"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_HadesBird_Oilrig_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_HadesBird_Oilrig_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.29"
+      },
+      "VariableGuid": "D4899FD3-431266D6-78FF4B98-F987BDCD",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsSphereComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsSphereComponent'BP_HadesBird_Oilrig_C:PalBodyPartsSphere_0_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.13"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8B89A303-4445D0A7-1D546880-E50168D8",
+      "InternalVariableName": "PalBodyPartsSphere_0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PalRideMarkerBiggerHorse_C'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerBiggerHorse.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_PalRideMarkerBiggerHorse_C'BP_HadesBird_Oilrig_C:BP_PalRideMarkerBiggerHorse1_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.2"
+      },
+      "AttachToName": "spine_01",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "0EDDAE25-43AACC83-B2574590-FD3ED3A9",
+      "InternalVariableName": "BP_PalRideMarkerBiggerHorse1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_HadesBird_Oilrig_C:PalBodyPartsCapsule1_0_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.9"
+      },
+      "AttachToName": "wing_03_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "ABC8CCB1-4330B729-ECC0478A-6C1C545B",
+      "InternalVariableName": "PalBodyPartsCapsule1_0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_HadesBird_Oilrig_C:PalBodyPartsCapsule2_0_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.10"
+      },
+      "AttachToName": "wing_03_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "E2FE3600-4BEBEB78-35B71696-C43237E0",
+      "InternalVariableName": "PalBodyPartsCapsule2_0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_HadesBird_Oilrig_C:PalBodyPartsCapsule3_0_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.11"
+      },
+      "AttachToName": "pelvis",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "587BBFDA-4384444C-C33DBEB5-58491A3A",
+      "InternalVariableName": "PalBodyPartsCapsule3_0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_HadesBird_Oilrig_C:PalBodyPartsCapsule_0_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.12"
+      },
+      "AttachToName": "head",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "EB3364EB-48F65882-EC426886-6BF3CA08",
+      "InternalVariableName": "PalBodyPartsCapsule_0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalSpeedCollisionComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalSpeedCollisionComponent'BP_HadesBird_Oilrig_C:PalSpeedCollision1_0_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.25"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "1AF62896-437FA261-3785D5B6-3401A2B2",
+      "InternalVariableName": "PalSpeedCollision1_0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PalTimerPointLightComponent_C'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_PalTimerPointLightComponent_C'BP_HadesBird_Oilrig_C:BP_PalTimerPointLightComponent1_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.3"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "05BF9E91-481AB1A9-AA1A31AF-8283CD54",
+      "InternalVariableName": "BP_PalTimerPointLightComponent1"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_HadesBird_Oilrig_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.38"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.38"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_HadesBird_Oilrig_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.30"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "RagdollInteractiveSphere",
+    "Outer": "Default__BP_HadesBird_Oilrig_C",
+    "Class": "UScriptClass'SphereComponent'",
+    "Template": {
+      "ObjectName": "SphereComponent'Default__BP_HadesBird_C:RagdollInteractiveSphere'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.47"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_HadesBird_Oilrig_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Oilrig.4"
+      }
+    }
+  }
 ]

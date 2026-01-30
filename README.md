@@ -14,6 +14,6 @@ A primary goal of this site is that it should be trivial to update the data. To 
 
 - Install [FModel](https://fmodel.app/) and configure it for Palworld by following [this guide](https://pwmodding.wiki/docs/developers/useful-tools/fmodel).
 - Check out the list of raw data files that are needed for this site [here](./scripts/copy-raw-data-files.ts). Using FModel, export these files as JSON and the images. You can select a higher level folder and right click "Save Folder's Package Properties (.json)" to save in bulk and "Save Folder's Packages Textures" for the images.
-- Run the copy script: `node ./scripts/copy-raw-data-files.ts "path/to/fModel/output/folder"`
+- Run the copy script: `node ./scripts/copy-raw-data-files.ts "path/to/fModel/output/exports"`
 - Be sure to manually review the diff and the dev server of the site to make sure nothing was significantly changed in the format which might break the site.
 - Create a PR for the changes and as soon as it is merged it'll be automatically deployed.

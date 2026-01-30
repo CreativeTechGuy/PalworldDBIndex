@@ -1,1294 +1,1294 @@
 [
-    {
-        "Type": "BlueprintGeneratedClass",
-        "Name": "BP_KingWhale_C",
-        "Class": "UScriptClass'BlueprintGeneratedClass'",
-        "Super": {
-            "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "SimpleConstructionScript": {
-                "ObjectName": "SimpleConstructionScript'BP_KingWhale_C:SimpleConstructionScript_0'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.45"
-            },
-            "InheritableComponentHandler": {
-                "ObjectName": "InheritableComponentHandler'BP_KingWhale_C:InheritableComponentHandler'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.3"
-            }
-        },
-        "SuperStruct": {
-            "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-        },
-        "ChildProperties": [
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsCapsule10",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsCapsule9",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsCapsule8",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsCapsule7",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsCapsule6",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsCapsule5",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsCapsule4",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsCapsule3",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsCapsule2",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsCapsule1",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "PalBodyPartsCapsule",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                    "ObjectPath": "/Script/Pal"
-                }
-            },
-            {
-                "Type": "ObjectProperty",
-                "Name": "Sphere",
-                "Flags": "RF_Public | RF_LoadCompleted",
-                "ElementSize": 8,
-                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-                "PropertyClass": {
-                    "ObjectName": "Class'SphereComponent'",
-                    "ObjectPath": "/Script/Engine"
-                }
-            }
-        ],
-        "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
-        "ClassWithin": {
-            "ObjectName": "Class'Object'",
-            "ObjectPath": "/Script/CoreUObject"
-        },
-        "ClassConfigName": "Game",
-        "bCooked": true,
-        "ClassDefaultObject": {
-            "ObjectName": "BP_KingWhale_C'Default__BP_KingWhale_C'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.1"
-        },
-        "EditorTags": {
-            "BlueprintType": "BPTYPE_Normal"
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_KingWhale_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_KingWhale_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.45"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_KingWhale_C:InheritableComponentHandler'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.3"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule10",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "BP_KingWhale_C",
-        "Name": "Default__BP_KingWhale_C",
-        "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.BP_KingWhale_C'",
-        "Template": {
-            "ObjectName": "BP_MonsterBase_C'Default__BP_MonsterBase_C'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.1"
-        },
-        "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "LiftupObjectComponent": {
-                "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_KingWhale_C:Liftup'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.19"
-            },
-            "ActionComponent": {
-                "ObjectName": "PalActionComponent'Default__BP_KingWhale_C:ActionComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.4"
-            },
-            "CharacterParameterComponent": {
-                "ObjectName": "PalCharacterParameterComponent'Default__BP_KingWhale_C:CharacterParameterComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.21"
-            },
-            "StaticCharacterParameterComponent": {
-                "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_KingWhale_C:StaticCharacterParameterComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.28"
-            },
-            "DamageReactionComponent": {
-                "ObjectName": "PalDamageReactionComponent'Default__BP_KingWhale_C:DamageReactionComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.22"
-            },
-            "StatusComponent": {
-                "ObjectName": "PalStatusComponent'Default__BP_KingWhale_C:StatusComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.29"
-            },
-            "CameraBoom": {
-                "ObjectName": "PalShooterSpringArmComponent'Default__BP_KingWhale_C:CameraBoom'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.26"
-            },
-            "FollowCamera": {
-                "ObjectName": "PalCharacterCameraComponent'Default__BP_KingWhale_C:FollowCamera'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.18"
-            },
-            "LookAtComponent": {
-                "ObjectName": "PalLookAtComponent'Default__BP_KingWhale_C:LookAtComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.24"
-            },
-            "FootIKComponent": {
-                "ObjectName": "PalFootIKComponent'Default__BP_KingWhale_C:FootIKComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.23"
-            },
-            "VisualEffectComponent": {
-                "ObjectName": "PalVisualEffectComponent'Default__BP_KingWhale_C:VisualEffectComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.30"
-            },
-            "PassiveSkillComponent": {
-                "ObjectName": "PalPassiveSkillComponent'Default__BP_KingWhale_C:PassiveSkillComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.25"
-            },
-            "AnimNotifyComponent": {
-                "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_KingWhale_C:AnimNotifyComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.5"
-            },
-            "AroundInfoCollectorComponent": {
-                "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_KingWhale_C:AroundInfoCollectorComponent'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.17"
-            },
-            "RagdollInteractiveSphere": {
-                "ObjectName": "SphereComponent'Default__BP_KingWhale_C:RagdollInteractiveSphere'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.47"
-            },
-            "Mesh": {
-                "ObjectName": "PalSkeletalMeshComponent'Default__BP_KingWhale_C:CharacterMesh0'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.27"
-            },
-            "CharacterMovement": {
-                "ObjectName": "PalCharacterMovementComponent'Default__BP_KingWhale_C:CharMoveComp'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.20"
-            },
-            "CapsuleComponent": {
-                "ObjectName": "CapsuleComponent'Default__BP_KingWhale_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.2"
-            },
-            "RootComponent": {
-                "ObjectName": "CapsuleComponent'Default__BP_KingWhale_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.2"
-            }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule9",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "CapsuleComponent",
-        "Name": "CollisionCylinder",
-        "Outer": "Default__BP_KingWhale_C",
-        "Class": "UScriptClass'CapsuleComponent'",
-        "Template": {
-            "ObjectName": "CapsuleComponent'Default__BP_MonsterBase_C:CollisionCylinder'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.3"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "CapsuleHalfHeight": 30.0,
-            "CapsuleRadius": 30.0
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule8",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "InheritableComponentHandler",
-        "Name": "InheritableComponentHandler",
-        "Outer": "BP_KingWhale_C",
-        "Class": "UScriptClass'InheritableComponentHandler'",
-        "Flags": "RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalActionComponent",
-        "Name": "ActionComponent",
-        "Outer": "Default__BP_KingWhale_C",
-        "Class": "UScriptClass'PalActionComponent'",
-        "Template": {
-            "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalAnimNotifyParameterComponent",
-        "Name": "AnimNotifyComponent",
-        "Outer": "Default__BP_KingWhale_C",
-        "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
-        "Template": {
-            "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalBodyPartsCapsuleComponent",
-        "Name": "PalBodyPartsCapsule10_GEN_VARIABLE",
-        "Outer": "BP_KingWhale_C",
-        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "CapsuleHalfHeight": 400.0,
-            "CapsuleRadius": 100.0,
-            "RelativeLocation": {
-                "X": -650.0,
-                "Y": 0.0,
-                "Z": 20.0
-            },
-            "RelativeRotation": {
-                "Pitch": 70.0,
-                "Yaw": 1.5902774e-15,
-                "Roll": 5.0837347e-31
-            }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule7",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "PalBodyPartsCapsuleComponent",
-        "Name": "PalBodyPartsCapsule1_GEN_VARIABLE",
-        "Outer": "BP_KingWhale_C",
-        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "BodyPartsType": "EPalBodyPartsType::Weak",
-            "CapsuleHalfHeight": 120.0,
-            "CapsuleRadius": 120.0,
-            "RelativeLocation": {
-                "X": 480.0,
-                "Y": -330.0,
-                "Z": -2.120526e-14
-            },
-            "RelativeRotation": {
-                "Pitch": 0.0,
-                "Yaw": 3.0264965e-14,
-                "Roll": 2.245202e-16
-            }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule6",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "PalBodyPartsCapsuleComponent",
-        "Name": "PalBodyPartsCapsule2_GEN_VARIABLE",
-        "Outer": "BP_KingWhale_C",
-        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "CapsuleHalfHeight": 700.0,
-            "CapsuleRadius": 200.0,
-            "RelativeLocation": {
-                "X": 500.0,
-                "Y": -8.281015e-13,
-                "Z": 0.0
-            },
-            "RelativeRotation": {
-                "Pitch": 90.0,
-                "Yaw": 5.0,
-                "Roll": 3.4618705e-15
-            }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule5",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "PalBodyPartsCapsuleComponent",
-        "Name": "PalBodyPartsCapsule3_GEN_VARIABLE",
-        "Outer": "BP_KingWhale_C",
-        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "CapsuleHalfHeight": 900.0,
-            "CapsuleRadius": 150.0,
-            "RelativeLocation": {
-                "X": 838.07404,
-                "Y": 1.0,
-                "Z": -190.58667
-            },
-            "RelativeRotation": {
-                "Pitch": 75.0,
-                "Yaw": 0.0,
-                "Roll": 0.0
-            }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "PalBodyPartsCapsuleComponent",
-        "Name": "PalBodyPartsCapsule4_GEN_VARIABLE",
-        "Outer": "BP_KingWhale_C",
-        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "CapsuleHalfHeight": 900.0,
-            "CapsuleRadius": 150.0,
-            "RelativeLocation": {
-                "X": -812.0664,
-                "Y": 20.0,
-                "Z": 162.17667
-            },
-            "RelativeRotation": {
-                "Pitch": 75.0,
-                "Yaw": 0.0,
-                "Roll": 0.0
-            }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "PalBodyPartsCapsuleComponent",
-        "Name": "PalBodyPartsCapsule5_GEN_VARIABLE",
-        "Outer": "BP_KingWhale_C",
-        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "CapsuleHalfHeight": 500.0,
-            "CapsuleRadius": 150.0,
-            "RelativeLocation": {
-                "X": 450.0,
-                "Y": -1.4743762e-13,
-                "Z": -8.348877e-14
-            },
-            "RelativeRotation": {
-                "Pitch": 90.0,
-                "Yaw": 0.0,
-                "Roll": 0.0
-            }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "PalBodyPartsCapsuleComponent",
-        "Name": "PalBodyPartsCapsule6_GEN_VARIABLE",
-        "Outer": "BP_KingWhale_C",
-        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "CapsuleHalfHeight": 500.0,
-            "CapsuleRadius": 150.0,
-            "RelativeLocation": {
-                "X": -450.0,
-                "Y": -1.4743762e-13,
-                "Z": -8.348877e-14
-            },
-            "RelativeRotation": {
-                "Pitch": 90.0,
-                "Yaw": 0.0,
-                "Roll": 0.0
-            }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "PalBodyPartsCapsuleComponent",
-        "Name": "PalBodyPartsCapsule7_GEN_VARIABLE",
-        "Outer": "BP_KingWhale_C",
-        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "CapsuleHalfHeight": 700.0,
-            "CapsuleRadius": 150.0,
-            "RelativeLocation": {
-                "X": 450.0,
-                "Y": -1.4743762e-13,
-                "Z": -8.348877e-14
-            },
-            "RelativeRotation": {
-                "Pitch": 80.0,
-                "Yaw": 0.0,
-                "Roll": 0.0
-            }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
-    },
-    {
-        "Type": "PalBodyPartsCapsuleComponent",
-        "Name": "PalBodyPartsCapsule8_GEN_VARIABLE",
-        "Outer": "BP_KingWhale_C",
-        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "CapsuleHalfHeight": 700.0,
-            "CapsuleRadius": 150.0,
-            "RelativeLocation": {
-                "X": -450.0,
-                "Y": -1.4743762e-13,
-                "Z": -8.348877e-14
-            },
-            "RelativeRotation": {
-                "Pitch": 80.0,
-                "Yaw": 0.0,
-                "Roll": 0.0
-            }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Sphere",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SphereComponent'",
+          "ObjectPath": "/Script/Engine"
         }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
     },
-    {
-        "Type": "PalBodyPartsCapsuleComponent",
-        "Name": "PalBodyPartsCapsule9_GEN_VARIABLE",
-        "Outer": "BP_KingWhale_C",
-        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "CapsuleHalfHeight": 400.0,
-            "CapsuleRadius": 100.0,
-            "RelativeLocation": {
-                "X": 650.0,
-                "Y": 0.0,
-                "Z": -20.0
-            },
-            "RelativeRotation": {
-                "Pitch": 70.0,
-                "Yaw": 1.5902774e-15,
-                "Roll": 5.0837347e-31
-            }
-        }
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_KingWhale_C'Default__BP_KingWhale_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.1"
     },
-    {
-        "Type": "PalBodyPartsCapsuleComponent",
-        "Name": "PalBodyPartsCapsule_GEN_VARIABLE",
-        "Outer": "BP_KingWhale_C",
-        "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "CapsuleHalfHeight": 1000.0,
-            "CapsuleRadius": 450.0,
-            "RelativeLocation": {
-                "X": 0.0,
-                "Y": -5.774131e-13,
-                "Z": 0.0
-            },
-            "RelativeRotation": {
-                "Pitch": 90.0,
-                "Yaw": 4.9696167e-17,
-                "Roll": 2.245202e-16
-            }
-        }
-    },
-    {
-        "Type": "PalCharacterAroundInfoCollectorComponent",
-        "Name": "AroundInfoCollectorComponent",
-        "Outer": "Default__BP_KingWhale_C",
-        "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
-        "Template": {
-            "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AttachParent": {
-                "ObjectName": "CapsuleComponent'Default__BP_KingWhale_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.2"
-            }
-        }
-    },
-    {
-        "Type": "PalCharacterCameraComponent",
-        "Name": "FollowCamera",
-        "Outer": "Default__BP_KingWhale_C",
-        "Class": "UScriptClass'PalCharacterCameraComponent'",
-        "Template": {
-            "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AttachParent": {
-                "ObjectName": "PalShooterSpringArmComponent'Default__BP_KingWhale_C:CameraBoom'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.26"
-            }
-        }
-    },
-    {
-        "Type": "PalCharacterLiftupObjectComponent",
-        "Name": "Liftup",
-        "Outer": "Default__BP_KingWhale_C",
-        "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
-        "Template": {
-            "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalCharacterMovementComponent",
-        "Name": "CharMoveComp",
-        "Outer": "Default__BP_KingWhale_C",
-        "Class": "UScriptClass'PalCharacterMovementComponent'",
-        "Template": {
-            "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalCharacterParameterComponent",
-        "Name": "CharacterParameterComponent",
-        "Outer": "Default__BP_KingWhale_C",
-        "Class": "UScriptClass'PalCharacterParameterComponent'",
-        "Template": {
-            "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalDamageReactionComponent",
-        "Name": "DamageReactionComponent",
-        "Outer": "Default__BP_KingWhale_C",
-        "Class": "UScriptClass'PalDamageReactionComponent'",
-        "Template": {
-            "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalFootIKComponent",
-        "Name": "FootIKComponent",
-        "Outer": "Default__BP_KingWhale_C",
-        "Class": "UScriptClass'PalFootIKComponent'",
-        "Template": {
-            "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalLookAtComponent",
-        "Name": "LookAtComponent",
-        "Outer": "Default__BP_KingWhale_C",
-        "Class": "UScriptClass'PalLookAtComponent'",
-        "Template": {
-            "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalPassiveSkillComponent",
-        "Name": "PassiveSkillComponent",
-        "Outer": "Default__BP_KingWhale_C",
-        "Class": "UScriptClass'PalPassiveSkillComponent'",
-        "Template": {
-            "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalShooterSpringArmComponent",
-        "Name": "CameraBoom",
-        "Outer": "Default__BP_KingWhale_C",
-        "Class": "UScriptClass'PalShooterSpringArmComponent'",
-        "Template": {
-            "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AttachParent": {
-                "ObjectName": "CapsuleComponent'Default__BP_KingWhale_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.2"
-            },
-            "RelativeLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 470.0
-            }
-        }
-    },
-    {
-        "Type": "PalSkeletalMeshComponent",
-        "Name": "CharacterMesh0",
-        "Outer": "Default__BP_KingWhale_C",
-        "Class": "UScriptClass'PalSkeletalMeshComponent'",
-        "Template": {
-            "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AnimClass": {
-                "ObjectName": "AnimBlueprintGeneratedClass'ABP_KingWhale_C'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/ABP_KingWhale.1"
-            },
-            "SkeletalMesh": {
-                "ObjectName": "SkeletalMesh'SK_KingWhale'",
-                "ObjectPath": "/Game/Pal/Model/Character/Monster/KingWhale/SK_KingWhale"
-            },
-            "SkinnedAsset": {
-                "ObjectName": "SkeletalMesh'SK_KingWhale'",
-                "ObjectPath": "/Game/Pal/Model/Character/Monster/KingWhale/SK_KingWhale"
-            },
-            "AttachParent": {
-                "ObjectName": "CapsuleComponent'Default__BP_KingWhale_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.2"
-            },
-            "RelativeLocation": {
-                "X": -1000.0,
-                "Y": 0.0,
-                "Z": -230.0
-            }
-        }
-    },
-    {
-        "Type": "PalStaticCharacterParameterComponent",
-        "Name": "StaticCharacterParameterComponent",
-        "Outer": "Default__BP_KingWhale_C",
-        "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
-        "Template": {
-            "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "MeshCapsuleHalfHeight": 500.0,
-            "MeshCapsuleRadius": 500.0,
-            "MeshRelativeLocation": {
-                "X": -1000.0,
-                "Y": 0.0,
-                "Z": -700.0
-            },
-            "GeneralMontageMap": [
-                {
-                    "Key": "EPalGeneralMontageType::GeneralAttackReady_Far",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_KingWhale_FarSkill_Start'",
-                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_FarSkill_Start"
-                    }
-                },
-                {
-                    "Key": "EPalGeneralMontageType::GeneralAttackReadyLoop_Far",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_KingWhale_FarSkill_StartLoop'",
-                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_FarSkill_StartLoop"
-                    }
-                },
-                {
-                    "Key": "EPalGeneralMontageType::GeneralAttackProcess_Far",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_KingWhale_FarSkill_Action'",
-                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_FarSkill_Action"
-                    }
-                },
-                {
-                    "Key": "EPalGeneralMontageType::GeneralAttackProcessLoop_Far",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_KingWhale_FarSkill_ActionLoop'",
-                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_FarSkill_ActionLoop"
-                    }
-                },
-                {
-                    "Key": "EPalGeneralMontageType::GeneralAttackAfter_Far",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_KingWhale_FarSkill_End'",
-                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_FarSkill_End"
-                    }
-                },
-                {
-                    "Key": "EPalGeneralMontageType::SleepStart",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_KingWhale_SleepStart'",
-                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_SleepStart"
-                    }
-                },
-                {
-                    "Key": "EPalGeneralMontageType::SleepLoop",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_KingWhale_SleepLoop'",
-                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_SleepLoop"
-                    }
-                },
-                {
-                    "Key": "EPalGeneralMontageType::SleepEnd",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_KingWhale_SleepEnd'",
-                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_SleepEnd"
-                    }
-                }
-            ],
-            "GeneralBlendSpaceMap": [
-                {
-                    "Key": "EPalGeneralBlendSpaceType::GeneralMove",
-                    "Value": {
-                        "ObjectName": "BlendSpace1D'BS_Move_KingWhale'",
-                        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BS_Move_KingWhale.0"
-                    }
-                }
-            ],
-            "ActionMontageMap": [
-                {
-                    "Key": "EPalActionType::Menace",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_KingWhale_Encount'",
-                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_Encount"
-                    }
-                },
-                {
-                    "Key": "EPalActionType::Eat",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_KingWhale_Eat'",
-                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_Eat"
-                    }
-                },
-                {
-                    "Key": "EPalActionType::KnockBack",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_KingWhale_Damage'",
-                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_Damage"
-                    }
-                },
-                {
-                    "Key": "EPalActionType::ForwardWalk",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_KingWhale_Walk'",
-                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_Walk"
-                    }
-                },
-                {
-                    "Key": "EPalActionType::GetupUtubuse_orRight",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_KingWhale_GetUp_FrontDown'",
-                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_GetUp_FrontDown"
-                    }
-                },
-                {
-                    "Key": "EPalActionType::PalPetting",
-                    "Value": {
-                        "ObjectName": "AnimMontage'AM_KingWhale_Petting'",
-                        "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_Petting"
-                    }
-                }
-            ],
-            "HPGaugeUIOffset": {
-                "X": 0.0,
-                "Y": 470.0
-            },
-            "PettingSize": "EPalPettingSizeType::Large",
-            "PettingDistance": 800.0
-        }
-    },
-    {
-        "Type": "PalStatusComponent",
-        "Name": "StatusComponent",
-        "Outer": "Default__BP_KingWhale_C",
-        "Class": "UScriptClass'PalStatusComponent'",
-        "Template": {
-            "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "PalVisualEffectComponent",
-        "Name": "VisualEffectComponent",
-        "Outer": "Default__BP_KingWhale_C",
-        "Class": "UScriptClass'PalVisualEffectComponent'",
-        "Template": {
-            "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "SceneComponent",
-        "Name": "DefaultSceneRoot_GEN_VARIABLE",
-        "Outer": "BP_KingWhale_C",
-        "Class": "UScriptClass'SceneComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_0",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'SceneComponent'",
-                "ObjectPath": "/Script/Engine"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "SceneComponent'BP_KingWhale_C:DefaultSceneRoot_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.31"
-            },
-            "VariableGuid": "6CCAFD5F-4A5FE62A-6CA37687-6955F235",
-            "InternalVariableName": "DefaultSceneRoot"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_1",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'SphereComponent'",
-                "ObjectPath": "/Script/Engine"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "SphereComponent'BP_KingWhale_C:Sphere_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.46"
-            },
-            "AttachToName": "head",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "AB208CE4-4878B6C7-A46EA088-B5BDA70C",
-            "InternalVariableName": "Sphere"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_10",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule8_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.14"
-            },
-            "AttachToName": "fin_tail_01_r",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "94308122-4EDA9225-08609DBD-B5CECA7E",
-            "InternalVariableName": "PalBodyPartsCapsule8"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_11",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule9_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.15"
-            },
-            "AttachToName": "fin_tail_03_l",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "7D66F800-45D55904-48765F9F-3A512526",
-            "InternalVariableName": "PalBodyPartsCapsule9"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_12",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule10_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.6"
-            },
-            "AttachToName": "fin_tail_03_r",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "7231C9B7-40F14E86-EDB7058D-236E01B9",
-            "InternalVariableName": "PalBodyPartsCapsule10"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_2",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.16"
-            },
-            "AttachToName": "pelvis",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "8E6ABB73-45ABC780-5E5C5291-C1380BFA",
-            "InternalVariableName": "PalBodyPartsCapsule"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_3",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule1_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.7"
-            },
-            "AttachToName": "head",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "26A1B75A-4522A21E-12330EB5-DE5F7754",
-            "InternalVariableName": "PalBodyPartsCapsule1"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_4",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule2_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.8"
-            },
-            "AttachToName": "tail_03",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "F0EBD0E5-4AA17576-C69A52AF-7A70EDD6",
-            "InternalVariableName": "PalBodyPartsCapsule2"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_5",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule3_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.9"
-            },
-            "AttachToName": "fin_front_01_l",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "6A5F4C11-43BB216C-231DFDAA-6FF6325E",
-            "InternalVariableName": "PalBodyPartsCapsule3"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_6",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule4_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.10"
-            },
-            "AttachToName": "fin_front_01_r",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "F079F741-4820E750-A57C2787-F4CF561C",
-            "InternalVariableName": "PalBodyPartsCapsule4"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_7",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule5_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.11"
-            },
-            "AttachToName": "fin_back_01_l",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "CF445B71-413DC8F0-778A75A0-31E32203",
-            "InternalVariableName": "PalBodyPartsCapsule5"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_8",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule6_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.12"
-            },
-            "AttachToName": "fin_back_01_r",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "349CF2EF-495767C1-D8269181-2A481EBC",
-            "InternalVariableName": "PalBodyPartsCapsule6"
-        }
-    },
-    {
-        "Type": "SCS_Node",
-        "Name": "SCS_Node_9",
-        "Outer": "SimpleConstructionScript_0",
-        "Class": "UScriptClass'SCS_Node'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "ComponentClass": {
-                "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
-                "ObjectPath": "/Script/Pal"
-            },
-            "ComponentTemplate": {
-                "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule7_GEN_VARIABLE'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.13"
-            },
-            "AttachToName": "fin_tail_01_l",
-            "ParentComponentOrVariableName": "CharacterMesh0",
-            "bIsParentComponentNative": true,
-            "VariableGuid": "27A59B07-42F6903F-5A8CB1B1-3A50F924",
-            "InternalVariableName": "PalBodyPartsCapsule7"
-        }
-    },
-    {
-        "Type": "SimpleConstructionScript",
-        "Name": "SimpleConstructionScript_0",
-        "Outer": "BP_KingWhale_C",
-        "Class": "UScriptClass'SimpleConstructionScript'",
-        "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "RootNodes": [
-                {
-                    "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_1'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.33"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_2'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.37"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_3'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.38"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_4'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.39"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_5'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.40"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_6'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.41"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_7'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.42"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_8'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.43"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_9'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.44"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_10'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.34"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_11'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.35"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_12'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.36"
-                }
-            ],
-            "AllNodes": [
-                {
-                    "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_1'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.33"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_2'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.37"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_3'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.38"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_4'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.39"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_5'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.40"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_6'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.41"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_7'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.42"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_8'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.43"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_9'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.44"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_10'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.34"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_11'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.35"
-                },
-                {
-                    "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_12'",
-                    "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.36"
-                }
-            ],
-            "DefaultSceneRootNode": {
-                "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_0'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.32"
-            }
-        }
-    },
-    {
-        "Type": "SphereComponent",
-        "Name": "Sphere_GEN_VARIABLE",
-        "Outer": "BP_KingWhale_C",
-        "Class": "UScriptClass'SphereComponent'",
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "SphereRadius": 400.0
-        }
-    },
-    {
-        "Type": "SphereComponent",
-        "Name": "RagdollInteractiveSphere",
-        "Outer": "Default__BP_KingWhale_C",
-        "Class": "UScriptClass'SphereComponent'",
-        "Template": {
-            "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
-        },
-        "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-        "Properties": {
-            "AttachParent": {
-                "ObjectName": "CapsuleComponent'Default__BP_KingWhale_C:CollisionCylinder'",
-                "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.2"
-            }
-        }
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
     }
+  },
+  {
+    "Type": "BP_KingWhale_C",
+    "Name": "Default__BP_KingWhale_C",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.BP_KingWhale_C'",
+    "Template": {
+      "ObjectName": "BP_MonsterBase_C'Default__BP_MonsterBase_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.1"
+    },
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LiftupObjectComponent": {
+        "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_KingWhale_C:Liftup'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.19"
+      },
+      "ActionComponent": {
+        "ObjectName": "PalActionComponent'Default__BP_KingWhale_C:ActionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.4"
+      },
+      "CharacterParameterComponent": {
+        "ObjectName": "PalCharacterParameterComponent'Default__BP_KingWhale_C:CharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.21"
+      },
+      "StaticCharacterParameterComponent": {
+        "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_KingWhale_C:StaticCharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.28"
+      },
+      "DamageReactionComponent": {
+        "ObjectName": "PalDamageReactionComponent'Default__BP_KingWhale_C:DamageReactionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.22"
+      },
+      "StatusComponent": {
+        "ObjectName": "PalStatusComponent'Default__BP_KingWhale_C:StatusComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.29"
+      },
+      "CameraBoom": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_KingWhale_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.26"
+      },
+      "FollowCamera": {
+        "ObjectName": "PalCharacterCameraComponent'Default__BP_KingWhale_C:FollowCamera'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.18"
+      },
+      "LookAtComponent": {
+        "ObjectName": "PalLookAtComponent'Default__BP_KingWhale_C:LookAtComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.24"
+      },
+      "FootIKComponent": {
+        "ObjectName": "PalFootIKComponent'Default__BP_KingWhale_C:FootIKComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.23"
+      },
+      "VisualEffectComponent": {
+        "ObjectName": "PalVisualEffectComponent'Default__BP_KingWhale_C:VisualEffectComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.30"
+      },
+      "PassiveSkillComponent": {
+        "ObjectName": "PalPassiveSkillComponent'Default__BP_KingWhale_C:PassiveSkillComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.25"
+      },
+      "AnimNotifyComponent": {
+        "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_KingWhale_C:AnimNotifyComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.5"
+      },
+      "AroundInfoCollectorComponent": {
+        "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_KingWhale_C:AroundInfoCollectorComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.17"
+      },
+      "RagdollInteractiveSphere": {
+        "ObjectName": "SphereComponent'Default__BP_KingWhale_C:RagdollInteractiveSphere'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.47"
+      },
+      "Mesh": {
+        "ObjectName": "PalSkeletalMeshComponent'Default__BP_KingWhale_C:CharacterMesh0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.27"
+      },
+      "CharacterMovement": {
+        "ObjectName": "PalCharacterMovementComponent'Default__BP_KingWhale_C:CharMoveComp'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.20"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_KingWhale_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.2"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_KingWhale_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.2"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": "Default__BP_KingWhale_C",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_MonsterBase_C:CollisionCylinder'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.3"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CapsuleHalfHeight": 30.0,
+      "CapsuleRadius": 30.0
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": "BP_KingWhale_C",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalActionComponent",
+    "Name": "ActionComponent",
+    "Outer": "Default__BP_KingWhale_C",
+    "Class": "UScriptClass'PalActionComponent'",
+    "Template": {
+      "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalAnimNotifyParameterComponent",
+    "Name": "AnimNotifyComponent",
+    "Outer": "Default__BP_KingWhale_C",
+    "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+    "Template": {
+      "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule10_GEN_VARIABLE",
+    "Outer": "BP_KingWhale_C",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CapsuleHalfHeight": 400.0,
+      "CapsuleRadius": 100.0,
+      "RelativeLocation": {
+        "X": -650.0,
+        "Y": 0.0,
+        "Z": 20.0
+      },
+      "RelativeRotation": {
+        "Pitch": 70.0,
+        "Yaw": 1.5902774E-15,
+        "Roll": 5.0837347E-31
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule1_GEN_VARIABLE",
+    "Outer": "BP_KingWhale_C",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Weak",
+      "CapsuleHalfHeight": 120.0,
+      "CapsuleRadius": 120.0,
+      "RelativeLocation": {
+        "X": 480.0,
+        "Y": -330.0,
+        "Z": -2.120526E-14
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 3.0264965E-14,
+        "Roll": 2.245202E-16
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule2_GEN_VARIABLE",
+    "Outer": "BP_KingWhale_C",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CapsuleHalfHeight": 700.0,
+      "CapsuleRadius": 200.0,
+      "RelativeLocation": {
+        "X": 500.0,
+        "Y": -8.281015E-13,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 5.0,
+        "Roll": 3.4618705E-15
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule3_GEN_VARIABLE",
+    "Outer": "BP_KingWhale_C",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CapsuleHalfHeight": 900.0,
+      "CapsuleRadius": 150.0,
+      "RelativeLocation": {
+        "X": 838.07404,
+        "Y": 1.0,
+        "Z": -190.58667
+      },
+      "RelativeRotation": {
+        "Pitch": 75.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule4_GEN_VARIABLE",
+    "Outer": "BP_KingWhale_C",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CapsuleHalfHeight": 900.0,
+      "CapsuleRadius": 150.0,
+      "RelativeLocation": {
+        "X": -812.0664,
+        "Y": 20.0,
+        "Z": 162.17667
+      },
+      "RelativeRotation": {
+        "Pitch": 75.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule5_GEN_VARIABLE",
+    "Outer": "BP_KingWhale_C",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CapsuleHalfHeight": 500.0,
+      "CapsuleRadius": 150.0,
+      "RelativeLocation": {
+        "X": 450.0,
+        "Y": -1.4743762E-13,
+        "Z": -8.348877E-14
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule6_GEN_VARIABLE",
+    "Outer": "BP_KingWhale_C",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CapsuleHalfHeight": 500.0,
+      "CapsuleRadius": 150.0,
+      "RelativeLocation": {
+        "X": -450.0,
+        "Y": -1.4743762E-13,
+        "Z": -8.348877E-14
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule7_GEN_VARIABLE",
+    "Outer": "BP_KingWhale_C",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CapsuleHalfHeight": 700.0,
+      "CapsuleRadius": 150.0,
+      "RelativeLocation": {
+        "X": 450.0,
+        "Y": -1.4743762E-13,
+        "Z": -8.348877E-14
+      },
+      "RelativeRotation": {
+        "Pitch": 80.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule8_GEN_VARIABLE",
+    "Outer": "BP_KingWhale_C",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CapsuleHalfHeight": 700.0,
+      "CapsuleRadius": 150.0,
+      "RelativeLocation": {
+        "X": -450.0,
+        "Y": -1.4743762E-13,
+        "Z": -8.348877E-14
+      },
+      "RelativeRotation": {
+        "Pitch": 80.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule9_GEN_VARIABLE",
+    "Outer": "BP_KingWhale_C",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CapsuleHalfHeight": 400.0,
+      "CapsuleRadius": 100.0,
+      "RelativeLocation": {
+        "X": 650.0,
+        "Y": 0.0,
+        "Z": -20.0
+      },
+      "RelativeRotation": {
+        "Pitch": 70.0,
+        "Yaw": 1.5902774E-15,
+        "Roll": 5.0837347E-31
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule_GEN_VARIABLE",
+    "Outer": "BP_KingWhale_C",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CapsuleHalfHeight": 1000.0,
+      "CapsuleRadius": 450.0,
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -5.774131E-13,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 4.9696167E-17,
+        "Roll": 2.245202E-16
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterAroundInfoCollectorComponent",
+    "Name": "AroundInfoCollectorComponent",
+    "Outer": "Default__BP_KingWhale_C",
+    "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+    "Template": {
+      "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_KingWhale_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.2"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterCameraComponent",
+    "Name": "FollowCamera",
+    "Outer": "Default__BP_KingWhale_C",
+    "Class": "UScriptClass'PalCharacterCameraComponent'",
+    "Template": {
+      "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_KingWhale_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.26"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterLiftupObjectComponent",
+    "Name": "Liftup",
+    "Outer": "Default__BP_KingWhale_C",
+    "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+    "Template": {
+      "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalCharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Outer": "Default__BP_KingWhale_C",
+    "Class": "UScriptClass'PalCharacterMovementComponent'",
+    "Template": {
+      "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalCharacterParameterComponent",
+    "Name": "CharacterParameterComponent",
+    "Outer": "Default__BP_KingWhale_C",
+    "Class": "UScriptClass'PalCharacterParameterComponent'",
+    "Template": {
+      "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalDamageReactionComponent",
+    "Name": "DamageReactionComponent",
+    "Outer": "Default__BP_KingWhale_C",
+    "Class": "UScriptClass'PalDamageReactionComponent'",
+    "Template": {
+      "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalFootIKComponent",
+    "Name": "FootIKComponent",
+    "Outer": "Default__BP_KingWhale_C",
+    "Class": "UScriptClass'PalFootIKComponent'",
+    "Template": {
+      "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalLookAtComponent",
+    "Name": "LookAtComponent",
+    "Outer": "Default__BP_KingWhale_C",
+    "Class": "UScriptClass'PalLookAtComponent'",
+    "Template": {
+      "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalPassiveSkillComponent",
+    "Name": "PassiveSkillComponent",
+    "Outer": "Default__BP_KingWhale_C",
+    "Class": "UScriptClass'PalPassiveSkillComponent'",
+    "Template": {
+      "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalShooterSpringArmComponent",
+    "Name": "CameraBoom",
+    "Outer": "Default__BP_KingWhale_C",
+    "Class": "UScriptClass'PalShooterSpringArmComponent'",
+    "Template": {
+      "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_KingWhale_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.2"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 470.0
+      }
+    }
+  },
+  {
+    "Type": "PalSkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Outer": "Default__BP_KingWhale_C",
+    "Class": "UScriptClass'PalSkeletalMeshComponent'",
+    "Template": {
+      "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_KingWhale_C'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/ABP_KingWhale.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_KingWhale'",
+        "ObjectPath": "/Game/Pal/Model/Character/Monster/KingWhale/SK_KingWhale"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_KingWhale'",
+        "ObjectPath": "/Game/Pal/Model/Character/Monster/KingWhale/SK_KingWhale"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_KingWhale_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.2"
+      },
+      "RelativeLocation": {
+        "X": -1000.0,
+        "Y": 0.0,
+        "Z": -230.0
+      }
+    }
+  },
+  {
+    "Type": "PalStaticCharacterParameterComponent",
+    "Name": "StaticCharacterParameterComponent",
+    "Outer": "Default__BP_KingWhale_C",
+    "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+    "Template": {
+      "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MeshCapsuleHalfHeight": 500.0,
+      "MeshCapsuleRadius": 500.0,
+      "MeshRelativeLocation": {
+        "X": -1000.0,
+        "Y": 0.0,
+        "Z": -700.0
+      },
+      "GeneralMontageMap": [
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackReady_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_KingWhale_FarSkill_Start'",
+            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_FarSkill_Start"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackReadyLoop_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_KingWhale_FarSkill_StartLoop'",
+            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_FarSkill_StartLoop"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackProcess_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_KingWhale_FarSkill_Action'",
+            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_FarSkill_Action"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackProcessLoop_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_KingWhale_FarSkill_ActionLoop'",
+            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_FarSkill_ActionLoop"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackAfter_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_KingWhale_FarSkill_End'",
+            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_FarSkill_End"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::SleepStart",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_KingWhale_SleepStart'",
+            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_SleepStart"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::SleepLoop",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_KingWhale_SleepLoop'",
+            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_SleepLoop"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::SleepEnd",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_KingWhale_SleepEnd'",
+            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_SleepEnd"
+          }
+        }
+      ],
+      "GeneralBlendSpaceMap": [
+        {
+          "Key": "EPalGeneralBlendSpaceType::GeneralMove",
+          "Value": {
+            "ObjectName": "BlendSpace1D'BS_Move_KingWhale'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BS_Move_KingWhale.0"
+          }
+        }
+      ],
+      "ActionMontageMap": [
+        {
+          "Key": "EPalActionType::Menace",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_KingWhale_Encount'",
+            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_Encount"
+          }
+        },
+        {
+          "Key": "EPalActionType::Eat",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_KingWhale_Eat'",
+            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_Eat"
+          }
+        },
+        {
+          "Key": "EPalActionType::KnockBack",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_KingWhale_Damage'",
+            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_Damage"
+          }
+        },
+        {
+          "Key": "EPalActionType::ForwardWalk",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_KingWhale_Walk'",
+            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_Walk"
+          }
+        },
+        {
+          "Key": "EPalActionType::GetupUtubuse_orRight",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_KingWhale_GetUp_FrontDown'",
+            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_GetUp_FrontDown"
+          }
+        },
+        {
+          "Key": "EPalActionType::PalPetting",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_KingWhale_Petting'",
+            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_Petting"
+          }
+        }
+      ],
+      "HPGaugeUIOffset": {
+        "X": 0.0,
+        "Y": 470.0
+      },
+      "PettingSize": "EPalPettingSizeType::Large",
+      "PettingDistance": 800.0
+    }
+  },
+  {
+    "Type": "PalStatusComponent",
+    "Name": "StatusComponent",
+    "Outer": "Default__BP_KingWhale_C",
+    "Class": "UScriptClass'PalStatusComponent'",
+    "Template": {
+      "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PalVisualEffectComponent",
+    "Name": "VisualEffectComponent",
+    "Outer": "Default__BP_KingWhale_C",
+    "Class": "UScriptClass'PalVisualEffectComponent'",
+    "Template": {
+      "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_KingWhale_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_KingWhale_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.31"
+      },
+      "VariableGuid": "6CCAFD5F-4A5FE62A-6CA37687-6955F235",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SphereComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SphereComponent'BP_KingWhale_C:Sphere_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.46"
+      },
+      "AttachToName": "head",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "AB208CE4-4878B6C7-A46EA088-B5BDA70C",
+      "InternalVariableName": "Sphere"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule8_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.14"
+      },
+      "AttachToName": "fin_tail_01_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "94308122-4EDA9225-08609DBD-B5CECA7E",
+      "InternalVariableName": "PalBodyPartsCapsule8"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule9_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.15"
+      },
+      "AttachToName": "fin_tail_03_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "7D66F800-45D55904-48765F9F-3A512526",
+      "InternalVariableName": "PalBodyPartsCapsule9"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule10_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.6"
+      },
+      "AttachToName": "fin_tail_03_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "7231C9B7-40F14E86-EDB7058D-236E01B9",
+      "InternalVariableName": "PalBodyPartsCapsule10"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.16"
+      },
+      "AttachToName": "pelvis",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8E6ABB73-45ABC780-5E5C5291-C1380BFA",
+      "InternalVariableName": "PalBodyPartsCapsule"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule1_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.7"
+      },
+      "AttachToName": "head",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "26A1B75A-4522A21E-12330EB5-DE5F7754",
+      "InternalVariableName": "PalBodyPartsCapsule1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule2_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.8"
+      },
+      "AttachToName": "tail_03",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "F0EBD0E5-4AA17576-C69A52AF-7A70EDD6",
+      "InternalVariableName": "PalBodyPartsCapsule2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule3_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.9"
+      },
+      "AttachToName": "fin_front_01_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "6A5F4C11-43BB216C-231DFDAA-6FF6325E",
+      "InternalVariableName": "PalBodyPartsCapsule3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule4_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.10"
+      },
+      "AttachToName": "fin_front_01_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "F079F741-4820E750-A57C2787-F4CF561C",
+      "InternalVariableName": "PalBodyPartsCapsule4"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule5_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.11"
+      },
+      "AttachToName": "fin_back_01_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "CF445B71-413DC8F0-778A75A0-31E32203",
+      "InternalVariableName": "PalBodyPartsCapsule5"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule6_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.12"
+      },
+      "AttachToName": "fin_back_01_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "349CF2EF-495767C1-D8269181-2A481EBC",
+      "InternalVariableName": "PalBodyPartsCapsule6"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule7_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.13"
+      },
+      "AttachToName": "fin_tail_01_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "27A59B07-42F6903F-5A8CB1B1-3A50F924",
+      "InternalVariableName": "PalBodyPartsCapsule7"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_KingWhale_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.36"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.36"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.32"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere_GEN_VARIABLE",
+    "Outer": "BP_KingWhale_C",
+    "Class": "UScriptClass'SphereComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SphereRadius": 400.0
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "RagdollInteractiveSphere",
+    "Outer": "Default__BP_KingWhale_C",
+    "Class": "UScriptClass'SphereComponent'",
+    "Template": {
+      "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_KingWhale_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.2"
+      }
+    }
+  }
 ]
