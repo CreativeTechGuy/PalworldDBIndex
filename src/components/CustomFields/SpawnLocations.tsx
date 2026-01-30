@@ -146,10 +146,14 @@ export function SpawnLocations(props: CustomFieldProps<string>): JSXElement {
                                         </button>
                                     </div>
                                 )}
-                                <div>
-                                    Level Range: {palLevelRanges[props.palData.Id].min} -{" "}
-                                    {palLevelRanges[props.palData.Id].max}
-                                </div>
+                                {palLevelRanges[props.palData.Id].min === palLevelRanges[props.palData.Id].max ? (
+                                    <div>Level: {palLevelRanges[props.palData.Id].min}</div>
+                                ) : (
+                                    <div>
+                                        Level Range: {palLevelRanges[props.palData.Id].min} -{" "}
+                                        {palLevelRanges[props.palData.Id].max}
+                                    </div>
+                                )}
                                 <div style={{ position: "relative", margin: "auto", width: "fit-content" }}>
                                     <img
                                         src={mapImg}

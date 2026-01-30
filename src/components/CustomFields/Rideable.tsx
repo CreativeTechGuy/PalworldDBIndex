@@ -9,9 +9,10 @@ import type { CustomFieldProps } from "./customFields";
 type MovementComponentProperties = Record<string, number | Record<string, number> | { Key: string; Value: number }[]>;
 
 const map: Record<string, string> = {
-    InWaterRate: "Water Depth Factor for Swimming",
+    InWaterRate: "Height Ratio Submerged to Swim",
     HoveringWaterEffectParameterEnableIdleHoveringWaterEffect: "Enable Idle Hovering In Water",
     JumpZVelocity: "Horizontal Jump Velocity",
+    RotationRateYaw: "Turning Speed Slowdown",
 };
 
 export function Rideable(props: CustomFieldProps<string>): JSXElement {
@@ -26,6 +27,9 @@ export function Rideable(props: CustomFieldProps<string>): JSXElement {
                     continue;
                 }
                 if (["MaxAcceleration", "SprintMaxSpeed"].includes(key) && value === props.palData.RideSprintSpeed) {
+                    continue;
+                }
+                if (["bUseCurrentSpeedIfOverSlidingStartSpeed"].includes(key)) {
                     continue;
                 }
                 if (key === "OverrideFlySprintSpeed") {
