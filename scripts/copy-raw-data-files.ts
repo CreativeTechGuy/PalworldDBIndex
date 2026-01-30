@@ -31,8 +31,6 @@ const patterns = [
     "Pal/Content/Pal/DataTable/Spawner/DT_PalSpawnerPlacement.json",
     "Pal/Content/Pal/DataTable/Spawner/DT_PalWildSpawner.json",
     "Pal/Content/Pal/DataTable/Technology/DT_TechnologyRecipeUnlock.json",
-    "Pal/Content/Pal/DataTable/UI/DT_BossSpawnerLoactionData.json",
-    "Pal/Content/Pal/DataTable/UI/DT_PaldexDistributionData.json",
     "Pal/Content/Pal/DataTable/Waza/DT_WazaDataTable.json",
     "Pal/Content/Pal/DataTable/WorldMapUIData/DT_WorldMapUIData.json",
     "Pal/Content/Pal/Texture/PalIcon/Normal/**",

@@ -1,4 +1,4 @@
-import { maxWildPalLevel } from "~/data/palLevelRanges";
+import { maxWildPalLevel } from "~/data/palSpawners";
 import gameSettings from "~/raw_data/Pal/Content/Pal/Blueprint/System/BP_PalGameSetting.json";
 
 type CaptureRate = {

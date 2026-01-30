@@ -11,22 +11,12 @@ function l10nTrim(key: string, value: unknown): unknown {
 }
 
 const jsonFieldsToTransform: Record<string, (key: string, value: unknown) => unknown> = {
-    "DT_PaldexDistributionData.json": (key, value) => {
-        if (key === "Z") {
-            return undefined;
-        }
-        if (key === "X" || key === "Y") {
-            return Math.round(value as number);
-        }
-        return value;
-    },
     "DT_PalSpawnerPlacement.json": (key, value) => {
         if (
             [
                 "Z",
                 "SpawnerClass",
                 "SpawnerType",
-                "PlacementType",
                 "LayerNames",
                 "InstanceName",
                 "WorldName",
@@ -34,15 +24,6 @@ const jsonFieldsToTransform: Record<string, (key: string, value: unknown) => unk
                 "RespawnCoolTime",
             ].includes(key)
         ) {
-            return undefined;
-        }
-        if (key === "X" || key === "Y") {
-            return Math.round(value as number);
-        }
-        return value;
-    },
-    "DT_BossSpawnerLoactionData.json": (key, value) => {
-        if (key === "Z") {
             return undefined;
         }
         if (key === "X" || key === "Y") {
@@ -73,7 +54,7 @@ const jsonFieldsToTransform: Record<string, (key: string, value: unknown) => unk
     },
     "DT_PalWildSpawner.json": (key, value) => {
         if (
-            ["OnlyTime", "Weight", "OnlyWeather", "bIsAllowRandomizer"].includes(key) ||
+            ["Weight", "OnlyWeather", "bIsAllowRandomizer"].includes(key) ||
             key.startsWith("NumMin_") ||
             key.startsWith("NumMax_") ||
             key.startsWith("NPC_")
