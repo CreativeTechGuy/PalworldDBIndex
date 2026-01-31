@@ -1,4 +1,3 @@
-// cspell:ignore Loaction
 import { readFileSync } from "node:fs";
 import { basename } from "node:path";
 import type { PluginOption } from "vite";
@@ -11,6 +10,15 @@ function l10nTrim(key: string, value: unknown): unknown {
 }
 
 const jsonFieldsToTransform: Record<string, (key: string, value: unknown) => unknown> = {
+    "DT_PaldexDistributionData.json": (key, value) => {
+        if (key === "Z") {
+            return undefined;
+        }
+        if (key === "X" || key === "Y") {
+            return Math.round(value as number);
+        }
+        return value;
+    },
     "DT_PalSpawnerPlacement.json": (key, value) => {
         if (
             [
@@ -58,6 +66,32 @@ const jsonFieldsToTransform: Record<string, (key: string, value: unknown) => unk
             key.startsWith("NumMin_") ||
             key.startsWith("NumMax_") ||
             key.startsWith("NPC_")
+        ) {
+            return undefined;
+        }
+        return value;
+    },
+    "DT_PalFishingSpotLotteryDataTable.json": (key, value) => {
+        if (
+            ["Weight", "GainItemLotteryName", "Difficulty", "DecreaseDurability", "FishingSpotDifficulty"].includes(key)
+        ) {
+            return undefined;
+        }
+        return value;
+    },
+    "DT_PalFishShadowDataTable.json.json": (key, value) => {
+        if (
+            [
+                "FishShadowSize",
+                "BlueprintClassName",
+                "FishShadowBlueprintClassSoft",
+                "MoveSpeedPerSec",
+                "SearchRadius",
+                "SearchProbability",
+                "KingPassiveRate",
+                "RarePassiveRate",
+                "BehaviorType",
+            ].includes(key)
         ) {
             return undefined;
         }

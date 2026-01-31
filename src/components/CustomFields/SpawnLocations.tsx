@@ -1,6 +1,7 @@
 import { createMemo, createSignal, For, onMount, type JSXElement } from "solid-js";
 import { Dialog } from "~/components/Dialog";
 import { palSpawners } from "~/data/palSpawners";
+import { randomEventPal } from "~/data/randomEventPal";
 import raidBossData from "~/raw_data/Pal/Content/Pal/Blueprint/RaidBoss/DT_PalRaidBoss.json";
 import worldMapScaleData from "~/raw_data/Pal/Content/Pal/DataTable/WorldMapUIData/DT_WorldMapUIData.json";
 import mapImg from "~/raw_data/Pal/Content/Pal/Texture/UI/Map/T_WorldMap.png";
@@ -9,38 +10,50 @@ import type { CustomFieldProps } from "./customFields";
 
 const worldMapScale = worldMapScaleData[0].Rows;
 const raidBossMap = convertDataTableType(raidBossData);
-const radius = 15000;
 
 export function SpawnLocations(props: CustomFieldProps<string>): JSXElement {
     const [open, setOpen] = createSignal(false);
-    const [displayMode, setDisplayMode] = createSignal<"day" | "night" | "dungeon">("day");
+    const [displayMode, setDisplayMode] = createSignal<"day" | "night" | "dungeon" | "fishing" | "nightFishing">("day");
     const [touchHover, setTouchHover] = createSignal(false);
-    const daySpawnLocations = createMemo(() =>
-        removeDuplicatePoints(
-            palSpawners[props.palData.Id]?.spawnPoints.filter((spawn) => !spawn.NightOnly && !spawn.Dungeon) ?? [],
-            radius
-        )
+    const daySpawnLocations = createMemo(
+        () =>
+            palSpawners[props.palData.Id]?.spawnPoints.filter(
+                (spawn) => !spawn.NightOnly && !spawn.Dungeon && !spawn.Fishing
+            ) ?? []
     );
-    const nightSpawnLocations = createMemo(() =>
-        removeDuplicatePoints(
-            palSpawners[props.palData.Id]?.spawnPoints.filter((spawn) => spawn.NightOnly && !spawn.Dungeon) ?? [],
-            radius
-        )
+    const nightSpawnLocations = createMemo(
+        () =>
+            palSpawners[props.palData.Id]?.spawnPoints.filter(
+                (spawn) => spawn.NightOnly && !spawn.Dungeon && !spawn.Fishing
+            ) ?? []
     );
     const hasDaySpawns = createMemo(() => daySpawnLocations().length > 0);
     const hasNightSpawns = createMemo(() => nightSpawnLocations().length > 0);
     const hasNoOverworldSpawns = createMemo(() => !hasDaySpawns() && !hasNightSpawns());
     const canSwitchTime = createMemo(() => hasDaySpawns() && hasNightSpawns());
     const isRaidBoss = createMemo(() => `PalSummon_${props.palData.Id}` in raidBossMap);
-    const dungeonSpawnLocations = createMemo(() =>
-        removeDuplicatePoints(palSpawners[props.palData.Id]?.spawnPoints.filter((spawn) => spawn.Dungeon) ?? [], radius)
+    const isRandomEventPal = createMemo(() => randomEventPal.includes(props.palData.Id));
+    const dungeonSpawnLocations = createMemo(
+        () => palSpawners[props.palData.Id]?.spawnPoints.filter((spawn) => spawn.Dungeon && !spawn.Fishing) ?? []
     );
-    const canSwitchDungeon = createMemo(
-        () => (hasDaySpawns() || hasNightSpawns()) && dungeonSpawnLocations().length > 0
+    const canSwitchDungeon = createMemo(() => dungeonSpawnLocations().length > 0);
+    const fishingSpawnLocations = createMemo(
+        () => palSpawners[props.palData.Id]?.spawnPoints.filter((spawn) => spawn.Fishing && !spawn.NightOnly) ?? []
     );
+    const canSwitchFishing = createMemo(() => fishingSpawnLocations().length > 0);
+    const nightFishingSpawnLocations = createMemo(
+        () => palSpawners[props.palData.Id]?.spawnPoints.filter((spawn) => spawn.Fishing && spawn.NightOnly) ?? []
+    );
+    const canSwitchNightFishing = createMemo(() => nightFishingSpawnLocations().length > 0);
     const title = createMemo(() => {
         if (displayMode() === "dungeon") {
             return `Dungeons for ${props.palData.Name} (${dungeonSpawnLocations().length})`;
+        }
+        if (displayMode() === "fishing") {
+            return `Fishing Areas for ${props.palData.Name} (${fishingSpawnLocations().length})`;
+        }
+        if (displayMode() === "nightFishing") {
+            return `Night Fishing Areas for ${props.palData.Name} (${nightFishingSpawnLocations().length})`;
         }
         if (daySpawnLocations().length > 0 && nightSpawnLocations().length === 0) {
             return `Spawn Areas for ${props.palData.Name} (${daySpawnLocations().length})`;
@@ -49,11 +62,17 @@ export function SpawnLocations(props: CustomFieldProps<string>): JSXElement {
     });
     const displayText = createMemo(() => {
         if (hasNoOverworldSpawns()) {
+            if (fishingSpawnLocations().length > 0) {
+                return "Fishing";
+            }
             if (dungeonSpawnLocations().length === 0) {
                 if (isRaidBoss()) {
                     return "Raid only";
                 }
-                return "N/A";
+                if (isRandomEventPal()) {
+                    return "Event only";
+                }
+                return "Breeding only";
             }
             return "Dungeon";
         }
@@ -63,8 +82,11 @@ export function SpawnLocations(props: CustomFieldProps<string>): JSXElement {
     onMount(() => {
         if (dungeonSpawnLocations().length > 0 && hasNoOverworldSpawns()) {
             setDisplayMode("dungeon");
-        }
-        if (!hasDaySpawns() && hasNightSpawns()) {
+        } else if (fishingSpawnLocations().length > 0 && hasNoOverworldSpawns()) {
+            setDisplayMode("fishing");
+        } else if (nightFishingSpawnLocations().length > 0 && hasNoOverworldSpawns()) {
+            setDisplayMode("nightFishing");
+        } else if (!hasDaySpawns() && hasNightSpawns()) {
             setDisplayMode("night");
         }
         if (props.palData.SpawnLocations !== displayText()) {
@@ -75,9 +97,29 @@ export function SpawnLocations(props: CustomFieldProps<string>): JSXElement {
         }
     });
 
+    const modeOptions = createMemo(() => {
+        const options: { value: string; label: string }[] = [];
+        if (canSwitchTime()) {
+            options.push({ value: "day", label: "Day" });
+            options.push({ value: "night", label: "Night" });
+        } else if (daySpawnLocations().length > 0) {
+            options.push({ value: "day", label: "Anytime" });
+        }
+        if (canSwitchDungeon()) {
+            options.push({ value: "dungeon", label: "Dungeon" });
+        }
+        if (canSwitchFishing()) {
+            options.push({ value: "fishing", label: "Fishing" });
+        }
+        if (canSwitchNightFishing()) {
+            options.push({ value: "nightFishing", label: "Night Fishing" });
+        }
+        return options;
+    });
+
     return (
         <>
-            {!hasNoOverworldSpawns() || dungeonSpawnLocations().length > 0 ? (
+            {!hasNoOverworldSpawns() || dungeonSpawnLocations().length > 0 || fishingSpawnLocations().length > 0 ? (
                 <>
                     <button onClick={() => setOpen(true)} class="link-button">
                         {props.value}
@@ -90,7 +132,7 @@ export function SpawnLocations(props: CustomFieldProps<string>): JSXElement {
                             }}
                         >
                             <div class="center">
-                                {(canSwitchDungeon() || canSwitchTime()) && (
+                                {modeOptions().length > 1 && (
                                     <label>
                                         Switch Spawn Map{" "}
                                         <select
@@ -99,15 +141,9 @@ export function SpawnLocations(props: CustomFieldProps<string>): JSXElement {
                                                 setDisplayMode(evt.target.value as ReturnType<typeof displayMode>);
                                             }}
                                         >
-                                            {canSwitchTime() ? (
-                                                <>
-                                                    <option value="day">Day</option>
-                                                    <option value="night">Night</option>
-                                                </>
-                                            ) : (
-                                                <option value="day">Anytime</option>
-                                            )}
-                                            {canSwitchDungeon() && <option value="dungeon">Dungeon</option>}
+                                            <For each={modeOptions()}>
+                                                {(option) => <option value={option.value}>{option.label}</option>}
+                                            </For>
                                         </select>
                                     </label>
                                 )}
@@ -124,7 +160,10 @@ export function SpawnLocations(props: CustomFieldProps<string>): JSXElement {
                                         src={mapImg}
                                         class="map-image"
                                         style={{
-                                            filter: displayMode() === "night" ? "brightness(0.5)" : "none",
+                                            filter:
+                                                displayMode() === "night" || displayMode() === "nightFishing"
+                                                    ? "brightness(0.5)"
+                                                    : "none",
                                         }}
                                         alt="World map"
                                     />
@@ -144,9 +183,13 @@ export function SpawnLocations(props: CustomFieldProps<string>): JSXElement {
                                             each={
                                                 displayMode() === "dungeon"
                                                     ? dungeonSpawnLocations()
-                                                    : displayMode() === "day"
-                                                      ? daySpawnLocations()
-                                                      : nightSpawnLocations()
+                                                    : displayMode() === "fishing"
+                                                      ? fishingSpawnLocations()
+                                                      : displayMode() === "nightFishing"
+                                                        ? nightFishingSpawnLocations()
+                                                        : displayMode() === "day"
+                                                          ? daySpawnLocations()
+                                                          : nightSpawnLocations()
                                             }
                                         >
                                             {(point) => (
@@ -160,9 +203,11 @@ export function SpawnLocations(props: CustomFieldProps<string>): JSXElement {
                                                     cy={point.Y}
                                                 >
                                                     <title>
-                                                        {point.MinLevel === point.MaxLevel
-                                                            ? `Level: ${point.MinLevel}`
-                                                            : `Levels: ${point.MinLevel} - ${point.MaxLevel}`}
+                                                        {point.MaxLevel > 0
+                                                            ? point.MinLevel === point.MaxLevel
+                                                                ? `Level: ${point.MinLevel}`
+                                                                : `Levels: ${point.MinLevel} - ${point.MaxLevel}`
+                                                            : ""}
                                                     </title>
                                                 </circle>
                                             )}
@@ -178,17 +223,4 @@ export function SpawnLocations(props: CustomFieldProps<string>): JSXElement {
             )}
         </>
     );
-}
-
-function removeDuplicatePoints<Item extends { X: number; Y: number }>(arr: Item[], r: number): Item[] {
-    const seenPoints = new Set<string>();
-    const roundFactor = Math.round(r * 0.5);
-    return arr.filter((item) => {
-        const point = `${Math.round(item.X / roundFactor)},${Math.round(item.Y / roundFactor)}`;
-        if (seenPoints.has(point)) {
-            return false;
-        }
-        seenPoints.add(point);
-        return true;
-    });
 }

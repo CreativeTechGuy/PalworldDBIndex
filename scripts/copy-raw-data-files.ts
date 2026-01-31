@@ -1,6 +1,4 @@
-// cspell:ignore Loaction
-
-import { globSync, cpSync, writeFileSync, readFileSync } from "node:fs";
+import { globSync, cpSync, writeFileSync, readFileSync, rmSync } from "node:fs";
 import { join } from "node:path";
 
 type SteamAPIResponse = {
@@ -26,11 +24,15 @@ const patterns = [
     "Pal/Content/Pal/DataTable/Character/DT_PalCombiUnique.json",
     "Pal/Content/Pal/DataTable/Character/DT_PalDropItem.json",
     "Pal/Content/Pal/DataTable/Character/DT_PalMonsterParameter.json",
+    "Pal/Content/Pal/DataTable/Fishing/DT_PalFishingSpotLotteryDataTable.json",
+    "Pal/Content/Pal/DataTable/Fishing/DT_PalFishShadowDataTable.json",
+    "Pal/Content/Pal/DataTable/Incident/SupplyIncident/**",
     "Pal/Content/Pal/DataTable/PartnerSkill/DT_PartnerSkill.json",
     "Pal/Content/Pal/DataTable/PassiveSkill/DT_PassiveSkill_Main.json",
     "Pal/Content/Pal/DataTable/Spawner/DT_PalSpawnerPlacement.json",
     "Pal/Content/Pal/DataTable/Spawner/DT_PalWildSpawner.json",
     "Pal/Content/Pal/DataTable/Technology/DT_TechnologyRecipeUnlock.json",
+    "Pal/Content/Pal/DataTable/UI/DT_PaldexDistributionData.json",
     "Pal/Content/Pal/DataTable/Waza/DT_WazaDataTable.json",
     "Pal/Content/Pal/DataTable/WorldMapUIData/DT_WorldMapUIData.json",
     "Pal/Content/Pal/Texture/PalIcon/Normal/**",
@@ -40,6 +42,8 @@ const destinationDir = "src/raw_data";
 
 const exportedFilesPath = process.argv[2];
 console.log("Copying from:", exportedFilesPath);
+
+rmSync(destinationDir, { recursive: true, force: true });
 
 for (const pattern of patterns) {
     const matchedFiles = globSync(pattern, {
