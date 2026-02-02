@@ -22,7 +22,7 @@ const strengths = {
     Grass: ["Ground"],
     Ground: ["Electric"],
     Ice: ["Dragon"],
-    Dragon: ["Ice"],
+    Dragon: ["Dark"],
     Dark: ["Neutral"],
     Neutral: [],
 };
