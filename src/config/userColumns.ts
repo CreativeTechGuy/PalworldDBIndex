@@ -34,6 +34,14 @@ export const [userColumnSettings, setUserColumnSettings] = createSignal(
     loadOrDefault("column-settings", defaultSettings)
 );
 
+// Remove columns which no longer exist
+setUserColumnSettings((current) => {
+    return {
+        hidden: current.hidden.filter((column) => defaultSettings.columnOrder.includes(column)),
+        columnOrder: current.columnOrder.filter((column) => defaultSettings.columnOrder.includes(column)),
+    };
+});
+
 runWithOwner(fakeSolidOwner, () => {
     createEffect(() => {
         const settings = userColumnSettings();

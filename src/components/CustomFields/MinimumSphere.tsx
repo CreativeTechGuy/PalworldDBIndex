@@ -10,6 +10,7 @@ import type { CustomFieldProps } from "./customFields";
 
 const textRows = convertDataTableType(itemNames);
 
+/** @deprecated - Currently unused since the formula isn't correct. */
 export function MinimumSphere(props: CustomFieldProps<string>): JSXElement {
     const maxLevels = createMemo(() =>
         getMaxPalLevelForSpheres({
@@ -30,7 +31,7 @@ export function MinimumSphere(props: CustomFieldProps<string>): JSXElement {
     });
     return (
         <>
-            {props.palData.SpawnLocations !== "Raid only" ? (
+            {!["Raid only", "Breeding only"].includes(props.palData.SpawnLocations) ? (
                 <Hover label={props.value} title="Minimum Spheres">
                     <table>
                         <tbody>

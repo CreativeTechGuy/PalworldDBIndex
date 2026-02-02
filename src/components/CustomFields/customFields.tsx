@@ -3,7 +3,6 @@ import type { CombinedData } from "~/data/palCombinedData";
 import { Breeding } from "./Breeding";
 import { Element } from "./Element";
 import { ItemDrops } from "./ItemDrops";
-import { MinimumSphere } from "./MinimumSphere";
 import { Name } from "./Name";
 import { NoMapCellValue } from "./NoMapCellValue";
 import { PalDescription } from "./PalDescription";
@@ -21,7 +20,6 @@ export type CustomFieldProps<Value, PalData = CombinedData> = {
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const customFields: Record<string, (props: CustomFieldProps<any>) => JSXElement> = {
     Name,
-    MinimumSphere,
     PalDescription,
     PassiveSkill1: PassiveSkill,
     PassiveSkill2: PassiveSkill,

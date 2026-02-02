@@ -45,6 +45,7 @@ export function getMaxPalLevelForSpheres(options: {
     return maxLevelForSpheres;
 }
 
+/** This currently doesn't work and I don't know how to find the correct formula */
 function getCaptureRate(options: {
     palLevel: number;
     healthRemaining: number;

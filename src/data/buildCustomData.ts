@@ -14,7 +14,6 @@ import { getPalBlueprint } from "./palBlueprints";
 export const customColumns = [
     "Id",
     "Name",
-    "MinimumSphere",
     "PalDescription",
     "PartnerSkillUnlockLevel",
     "PartnerSkill",
@@ -80,7 +79,6 @@ export function buildCustomData(key: string, palData: PalMonsterParameter): Deri
 
     return {
         Name: palName,
-        MinimumSphere: "Spheres",
         HpWithFriendship: Math.round(palData.Hp + palData.Friendship_HP * maxFriendship).toString(),
         AttackWithFriendship: Math.round(palData.ShotAttack + palData.Friendship_ShotAttack * maxFriendship).toString(),
         DefenseWithFriendship: Math.round(palData.Defense + palData.Friendship_Defense * maxFriendship).toString(),
