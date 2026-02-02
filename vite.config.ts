@@ -3,6 +3,7 @@ import { resolve } from "node:path";
 import browserslistToEsbuild from "browserslist-to-esbuild";
 import { defineConfig } from "vite";
 import solidPlugin from "vite-plugin-solid";
+import { viteNoReloadOnError } from "./scripts/viteNoReloadOnError";
 import { pruneJsonPlugin } from "./scripts/vitePruneJson";
 
 export default defineConfig({
@@ -21,6 +22,7 @@ export default defineConfig({
             },
         },
         pruneJsonPlugin(),
+        viteNoReloadOnError(),
     ],
     resolve: {
         alias: {
