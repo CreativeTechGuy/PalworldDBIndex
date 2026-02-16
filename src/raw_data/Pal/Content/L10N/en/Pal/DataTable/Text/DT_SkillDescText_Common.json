@@ -1967,8 +1967,8 @@
         "TextData": {
           "Namespace": "DT_SkillDescText_Common",
           "Key": "ACTION_SKILL_BeamSlicer_TextData",
-          "SourceString": "Mows down the frontal area with a beam imbued with dragon power.\r\nThe area strucked by the beam will also explode after short delay.",
-          "LocalizedString": "Mows down the frontal area with a beam imbued with dragon power.\r\nThe area strucked by the beam will also explode after short delay."
+          "SourceString": "Mows down the area in front with a beam imbued with dragon power.\r\nThe area struck by the beam will also explode after a short delay.",
+          "LocalizedString": "Mows down the area in front with a beam imbued with dragon power.\r\nThe area struck by the beam will also explode after a short delay."
         }
       },
       "ACTION_SKILL_Commet": {
@@ -2569,6 +2569,14 @@
           "Key": "ACTION_SKILL_Unique_Ronin_Iai_PartnerSkill_TextData",
           "SourceString": "<characterName id=|Ronin|/>'s exclusive skill.\r\nTaking hold of the sword, it appears in front of an enemy \r\nin an instant and unleashes an ultra-fast sword draw attack.",
           "LocalizedString": "<characterName id=|Ronin|/>'s exclusive skill.\r\nTaking hold of the sword, it appears in front of an enemy \r\nin an instant and unleashes an ultra-fast sword draw attack."
+        }
+      },
+      "PASSIVE_Deffence_up2_2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Deffence_up2_2_TextData",
+          "SourceString": "en Text",
+          "LocalizedString": "en Text"
         }
       }
     }

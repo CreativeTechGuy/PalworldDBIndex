@@ -1391,8 +1391,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_MakeshiftHandgun_TextData",
-          "SourceString": "A handgun created from spare parts.\r\nRelatively well suited for close quarters combat, but can only fire one shot before needing to reload.",
-          "LocalizedString": "A handgun created from spare parts.\r\nRelatively well suited for close quarters combat, but can only fire one shot before needing to reload."
+          "SourceString": "A handgun created from spare parts.\r\nRelatively well suited for close-quarters combat, but fires only one shot at a time.",
+          "LocalizedString": "A handgun created from spare parts.\r\nRelatively well suited for close-quarters combat, but fires only one shot at a time."
         }
       },
       "ITEM_DESC_CopperHelmet": {
@@ -8967,8 +8967,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_StainlessSteel_TextData",
-          "SourceString": "An alloy of <itemName id=|Chromium|/>, <itemName id=|CopperIngot|/>, and <itemName id=|RainbowCrystal|/>. \r\nUsed as materials for advanced equipment and structures.",
-          "LocalizedString": "An alloy of <itemName id=|Chromium|/>, <itemName id=|CopperIngot|/>, and <itemName id=|RainbowCrystal|/>. \r\nUsed as materials for advanced equipment and structures."
+          "SourceString": "An alloy of <itemName id=|Chromium|/>, <itemName id=|CopperOre|/>, and <itemName id=|RainbowCrystal|/>. \r\nUsed as materials for advanced equipment and structures.",
+          "LocalizedString": "An alloy of <itemName id=|Chromium|/>, <itemName id=|CopperOre|/>, and <itemName id=|RainbowCrystal|/>. \r\nUsed as materials for advanced equipment and structures."
         }
       },
       "ITEM_DESC_Potion_Extreme": {
@@ -11407,8 +11407,8 @@
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
           "Key": "ITEM_DESC_ManganeseIngot_TextData",
-          "SourceString": "An alloy of <itemName id=|ManganeseOre|/>, <itemName id=|CopperIngot|/>, and <itemName id=|Coal|/>. \r\nHighly resistant to energy, making it ideal for crafting weapons.",
-          "LocalizedString": "An alloy of <itemName id=|ManganeseOre|/>, <itemName id=|CopperIngot|/>, and <itemName id=|Coal|/>. \r\nHighly resistant to energy, making it ideal for crafting weapons."
+          "SourceString": "An alloy of <itemName id=|ManganeseOre|/>, <itemName id=|CopperOre|/>, and <itemName id=|Coal|/>. \r\nHighly resistant to energy, making it ideal for crafting weapons.",
+          "LocalizedString": "An alloy of <itemName id=|ManganeseOre|/>, <itemName id=|CopperOre|/>, and <itemName id=|Coal|/>. \r\nHighly resistant to energy, making it ideal for crafting weapons."
         }
       },
       "ITEM_DESC_BossDefeatReward_IceNarwhal": {
@@ -12019,14 +12019,6 @@
           "LocalizedString": "[Tides of Terraria] \r\nHelmet forged from <itemName id=|YakushimaIngot001|/>. \r\nEnveloped in divine power, it increases damage dealt by <itemName id=|YakushimaBlade003|/>."
         }
       },
-      "ITEM_DESC_HandgunShield": {
-        "TextData": {
-          "Namespace": "DT_ItemDescriptionText_Common",
-          "Key": "ITEM_DESC_HandgunShield_TextData",
-          "SourceString": "Ballistic Shield",
-          "LocalizedString": "Ballistic Shield"
-        }
-      },
       "ITEM_DESC_Blueprint_YakushimaBoss002_Relic": {
         "TextData": {
           "Namespace": "DT_ItemDescriptionText_Common",
@@ -12249,6 +12241,110 @@
           "Key": "ITEM_DESC_Blueprint_Octavia002_Armor_5_TextData",
           "SourceString": "[ULTRAKILL Collab] \r\nWhen in inventory, unlocks recipe for <itemName id=|Octavia002_Armor_5|/> (<uiCommon id=|RARITY_LEGENDARY|/>). \r\nCan be crafted at <mapObjectName id=|Factory_Hard_03|/>.",
           "LocalizedString": "[ULTRAKILL Collab] \r\nWhen in inventory, unlocks recipe for <itemName id=|Octavia002_Armor_5|/> (<uiCommon id=|RARITY_LEGENDARY|/>). \r\nCan be crafted at <mapObjectName id=|Factory_Hard_03|/>."
+        }
+      },
+      "ITEM_DESC_Blueprint_Sword_2": {
+        "TextData": {
+          "Namespace": "DT_ItemDescriptionText_Common",
+          "Key": "ITEM_DESC_Blueprint_Sword_2_TextData",
+          "SourceString": "When in inventory, unlocks recipe for <itemName id=|Sword|/> (<uiCommon id=|RARITY_UNCOMMON|/>).\r\nCan be crafted at <mapObjectName id=|WeaponFactory_Dirty_01|/>.",
+          "LocalizedString": "When in inventory, unlocks recipe for <itemName id=|Sword|/> (<uiCommon id=|RARITY_UNCOMMON|/>).\r\nCan be crafted at <mapObjectName id=|WeaponFactory_Dirty_01|/>."
+        }
+      },
+      "ITEM_DESC_Blueprint_Sword_3": {
+        "TextData": {
+          "Namespace": "DT_ItemDescriptionText_Common",
+          "Key": "ITEM_DESC_Blueprint_Sword_3_TextData",
+          "SourceString": "When in inventory, unlocks recipe for <itemName id=|Sword|/> (<uiCommon id=|RARITY_RARE|/>).\r\nCan be crafted at <mapObjectName id=|WeaponFactory_Dirty_01|/>.",
+          "LocalizedString": "When in inventory, unlocks recipe for <itemName id=|Sword|/> (<uiCommon id=|RARITY_RARE|/>).\r\nCan be crafted at <mapObjectName id=|WeaponFactory_Dirty_01|/>."
+        }
+      },
+      "ITEM_DESC_Blueprint_Sword_4": {
+        "TextData": {
+          "Namespace": "DT_ItemDescriptionText_Common",
+          "Key": "ITEM_DESC_Blueprint_Sword_4_TextData",
+          "SourceString": "When in inventory, unlocks recipe for <itemName id=|Sword|/> (<uiCommon id=|RARITY_EPIC|/>).\r\nCan be crafted at <mapObjectName id=|WeaponFactory_Dirty_01|/>.",
+          "LocalizedString": "When in inventory, unlocks recipe for <itemName id=|Sword|/> (<uiCommon id=|RARITY_EPIC|/>).\r\nCan be crafted at <mapObjectName id=|WeaponFactory_Dirty_01|/>."
+        }
+      },
+      "ITEM_DESC_Blueprint_Sword_5": {
+        "TextData": {
+          "Namespace": "DT_ItemDescriptionText_Common",
+          "Key": "ITEM_DESC_Blueprint_Sword_5_TextData",
+          "SourceString": "When in inventory, unlocks recipe for <itemName id=|Sword|/> (<uiCommon id=|RARITY_LEGENDARY|/>).\r\nCan be crafted at <mapObjectName id=|WeaponFactory_Dirty_01|/>.",
+          "LocalizedString": "When in inventory, unlocks recipe for <itemName id=|Sword|/> (<uiCommon id=|RARITY_LEGENDARY|/>).\r\nCan be crafted at <mapObjectName id=|WeaponFactory_Dirty_01|/>."
+        }
+      },
+      "ITEM_DESC_Blueprint_Katana_2": {
+        "TextData": {
+          "Namespace": "DT_ItemDescriptionText_Common",
+          "Key": "ITEM_DESC_Blueprint_Katana_2_TextData",
+          "SourceString": "When in inventory, unlocks recipe for <itemName id=|Katana|/> (<uiCommon id=|RARITY_UNCOMMON|/>).\r\nCan be crafted at <mapObjectName id=|WeaponFactory_Dirty_03|/>.",
+          "LocalizedString": "When in inventory, unlocks recipe for <itemName id=|Katana|/> (<uiCommon id=|RARITY_UNCOMMON|/>).\r\nCan be crafted at <mapObjectName id=|WeaponFactory_Dirty_03|/>."
+        }
+      },
+      "ITEM_DESC_Blueprint_Katana_3": {
+        "TextData": {
+          "Namespace": "DT_ItemDescriptionText_Common",
+          "Key": "ITEM_DESC_Blueprint_Katana_3_TextData",
+          "SourceString": "When in inventory, unlocks recipe for <itemName id=|Katana|/> (<uiCommon id=|RARITY_RARE|/>).\r\nCan be crafted at <mapObjectName id=|WeaponFactory_Dirty_03|/>.",
+          "LocalizedString": "When in inventory, unlocks recipe for <itemName id=|Katana|/> (<uiCommon id=|RARITY_RARE|/>).\r\nCan be crafted at <mapObjectName id=|WeaponFactory_Dirty_03|/>."
+        }
+      },
+      "ITEM_DESC_Blueprint_Katana_4": {
+        "TextData": {
+          "Namespace": "DT_ItemDescriptionText_Common",
+          "Key": "ITEM_DESC_Blueprint_Katana_4_TextData",
+          "SourceString": "When in inventory, unlocks recipe for <itemName id=|Katana|/> (<uiCommon id=|RARITY_EPIC|/>).\r\nCan be crafted at <mapObjectName id=|WeaponFactory_Dirty_03|/>.",
+          "LocalizedString": "When in inventory, unlocks recipe for <itemName id=|Katana|/> (<uiCommon id=|RARITY_EPIC|/>).\r\nCan be crafted at <mapObjectName id=|WeaponFactory_Dirty_03|/>."
+        }
+      },
+      "ITEM_DESC_Blueprint_Katana_5": {
+        "TextData": {
+          "Namespace": "DT_ItemDescriptionText_Common",
+          "Key": "ITEM_DESC_Blueprint_Katana_5_TextData",
+          "SourceString": "When in inventory, unlocks recipe for <itemName id=|Katana|/> (<uiCommon id=|RARITY_LEGENDARY|/>).\r\nCan be crafted at <mapObjectName id=|WeaponFactory_Dirty_03|/>.",
+          "LocalizedString": "When in inventory, unlocks recipe for <itemName id=|Katana|/> (<uiCommon id=|RARITY_LEGENDARY|/>).\r\nCan be crafted at <mapObjectName id=|WeaponFactory_Dirty_03|/>."
+        }
+      },
+      "ITEM_DESC_Blueprint_BeamSword_2": {
+        "TextData": {
+          "Namespace": "DT_ItemDescriptionText_Common",
+          "Key": "ITEM_DESC_Blueprint_BeamSword_2_TextData",
+          "SourceString": "When in inventory, unlocks recipe for <itemName id=|BeamSword|/> (<uiCommon id=|RARITY_UNCOMMON|/>).\r\nCan be crafted at <mapObjectName id=|WeaponFactory_Dirty_03|/>.",
+          "LocalizedString": "When in inventory, unlocks recipe for <itemName id=|BeamSword|/> (<uiCommon id=|RARITY_UNCOMMON|/>).\r\nCan be crafted at <mapObjectName id=|WeaponFactory_Dirty_03|/>."
+        }
+      },
+      "ITEM_DESC_Blueprint_BeamSword_3": {
+        "TextData": {
+          "Namespace": "DT_ItemDescriptionText_Common",
+          "Key": "ITEM_DESC_Blueprint_BeamSword_3_TextData",
+          "SourceString": "When in inventory, unlocks recipe for <itemName id=|BeamSword|/> (<uiCommon id=|RARITY_RARE|/>).\r\nCan be crafted at <mapObjectName id=|WeaponFactory_Dirty_03|/>.",
+          "LocalizedString": "When in inventory, unlocks recipe for <itemName id=|BeamSword|/> (<uiCommon id=|RARITY_RARE|/>).\r\nCan be crafted at <mapObjectName id=|WeaponFactory_Dirty_03|/>."
+        }
+      },
+      "ITEM_DESC_Blueprint_BeamSword_4": {
+        "TextData": {
+          "Namespace": "DT_ItemDescriptionText_Common",
+          "Key": "ITEM_DESC_Blueprint_BeamSword_4_TextData",
+          "SourceString": "When in inventory, unlocks recipe for <itemName id=|BeamSword|/> (<uiCommon id=|RARITY_EPIC|/>).\r\nCan be crafted at <mapObjectName id=|WeaponFactory_Dirty_03|/>.",
+          "LocalizedString": "When in inventory, unlocks recipe for <itemName id=|BeamSword|/> (<uiCommon id=|RARITY_EPIC|/>).\r\nCan be crafted at <mapObjectName id=|WeaponFactory_Dirty_03|/>."
+        }
+      },
+      "ITEM_DESC_Blueprint_BeamSword_5": {
+        "TextData": {
+          "Namespace": "DT_ItemDescriptionText_Common",
+          "Key": "ITEM_DESC_Blueprint_BeamSword_5_TextData",
+          "SourceString": "When in inventory, unlocks recipe for <itemName id=|BeamSword|/> (<uiCommon id=|RARITY_LEGENDARY|/>).\r\nCan be crafted at <mapObjectName id=|WeaponFactory_Dirty_03|/>.",
+          "LocalizedString": "When in inventory, unlocks recipe for <itemName id=|BeamSword|/> (<uiCommon id=|RARITY_LEGENDARY|/>).\r\nCan be crafted at <mapObjectName id=|WeaponFactory_Dirty_03|/>."
+        }
+      },
+      "ITEM_DESC_Blueprint_Spear_ForestBoss_5": {
+        "TextData": {
+          "Namespace": "DT_ItemDescriptionText_Common",
+          "Key": "ITEM_DESC_Blueprint_Spear_ForestBoss_5_TextData",
+          "SourceString": "When in inventory, unlocks recipe for <itemName id=|Spear_ForestBoss|/> (<uiCommon id=|RARITY_LEGENDARY|/>).\r\nCan be crafted at <mapObjectName id=|WeaponFactory_Dirty_02|/>.",
+          "LocalizedString": "When in inventory, unlocks recipe for <itemName id=|Spear_ForestBoss|/> (<uiCommon id=|RARITY_LEGENDARY|/>).\r\nCan be crafted at <mapObjectName id=|WeaponFactory_Dirty_02|/>."
         }
       }
     }
