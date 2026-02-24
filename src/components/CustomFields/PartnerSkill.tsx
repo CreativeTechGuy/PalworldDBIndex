@@ -42,6 +42,8 @@ const namePrefix = {
     base: "",
 };
 
+const nonMultiplierStats = ["MaxInventoryWeight"];
+
 const partnerSkillMap = convertDataTableType(partnerSkills, { partialData: true });
 const passiveSkillMap = convertDataTableType(passiveSkills, { partialData: true });
 const attackDataList = Object.values(convertDataTableType(attackDataTable));
@@ -104,26 +106,23 @@ export function PartnerSkill(props: CustomFieldProps<string>): JSXElement {
                         for (let i = 1; i <= 3; i++) {
                             const targetType = passiveSkillData[`TargetType${i as 1 | 2 | 3}`];
                             const target = targetMapping[targetType] ?? "none";
-                            const effectType = passiveSkillData[`EffectType${i as 1 | 2 | 3}`];
-                            if (target === "none" || effectType === "EPalPassiveSkillEffectType::no") {
+                            const effectType = passiveSkillData[`EffectType${i as 1 | 2 | 3}`].replace(
+                                "EPalPassiveSkillEffectType::",
+                                ""
+                            );
+                            if (target === "none" || effectType === "no") {
                                 continue;
                             }
                             skills[`${effectType}-${i}`] ??= {};
                             const effectValue = passiveSkillData[`EffectValue${i as 1 | 2 | 3}`];
 
                             if (target === "trainer") {
-                                if (effectType.startsWith("EPalPassiveSkillEffectType::ElementResist")) {
+                                if (effectType.startsWith("ElementResist")) {
                                     skills[`${effectType}-${i}`].name = "Trainer Resistance Type";
-                                    skills[`${effectType}-${i}`].element = effectType.replace(
-                                        "EPalPassiveSkillEffectType::ElementResist",
-                                        ""
-                                    );
-                                } else if (effectType.startsWith("EPalPassiveSkillEffectType::Element")) {
+                                    skills[`${effectType}-${i}`].element = effectType.replace("ElementResist", "");
+                                } else if (effectType.startsWith("Element")) {
                                     skills[`${effectType}-${i}`].name = "Trainer Attack Type";
-                                    skills[`${effectType}-${i}`].element = effectType.replace(
-                                        "EPalPassiveSkillEffectType::Element",
-                                        ""
-                                    );
+                                    skills[`${effectType}-${i}`].element = effectType.replace("Element", "");
                                     continue;
                                 }
                             }
@@ -131,15 +130,17 @@ export function PartnerSkill(props: CustomFieldProps<string>): JSXElement {
                                 skill.Value.TargetElementType !== "EPalElementType::None"
                                     ? skill.Value.TargetElementType
                                     : undefined;
-                            skills[`${effectType}-${i}`].name ??=
-                                `${namePrefix[target]}${mapCellValue(effectType.replace("EPalPassiveSkillEffectType::", ""))}`;
+                            skills[`${effectType}-${i}`].name ??= `${namePrefix[target]}${mapCellValue(effectType)}`;
+                            const property = nonMultiplierStats.includes(effectType) ? "power" : "powerMultiplier";
                             if (effectValue !== 0) {
-                                if (skills[`${effectType}-${i}`].powerMultiplier === undefined) {
-                                    skills[`${effectType}-${i}`].powerMultiplier = Array.from<number>({
+                                if (skills[`${effectType}-${i}`][property] === undefined) {
+                                    skills[`${effectType}-${i}`][property] = Array.from<number>({
                                         length: level,
                                     }).fill(1);
                                 }
-                                skills[`${effectType}-${i}`].powerMultiplier!.push(effectValue / 100 + 1);
+                                skills[`${effectType}-${i}`][property]!.push(
+                                    property === "power" ? effectValue : effectValue / 100 + 1
+                                );
                             }
                         }
                     }
