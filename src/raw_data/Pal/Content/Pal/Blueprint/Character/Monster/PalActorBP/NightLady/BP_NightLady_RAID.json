@@ -2,12 +2,13 @@
   {
     "Type": "BlueprintGeneratedClass",
     "Name": "BP_NightLady_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady_RAID",
     "Super": {
       "ObjectName": "BlueprintGeneratedClass'BP_NightLady_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady.0"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_NightLady_RAID_C:SimpleConstructionScript_0'",
@@ -65,12 +66,13 @@
   {
     "Type": "BP_NightLady_RAID_C",
     "Name": "Default__BP_NightLady_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady_RAID.BP_NightLady_RAID_C'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady_RAID",
     "Template": {
       "ObjectName": "BP_NightLady_C'Default__BP_NightLady_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady.1"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "LiftupObjectComponent": {
         "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_NightLady_RAID_C:Liftup'",
@@ -154,13 +156,16 @@
   {
     "Type": "BP_PalTimerPointLightComponent_C",
     "Name": "BP_PalTimerPointLightComponent_GEN_VARIABLE",
-    "Outer": "BP_NightLady_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.BP_PalTimerPointLightComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_NightLady_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady_RAID.0"
+    },
     "Template": {
       "ObjectName": "BP_PalTimerPointLightComponent_C'Default__BP_PalTimerPointLightComponent_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.1"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "bUseInverseSquaredFalloff": false,
       "SourceRadius": 1000.0,
@@ -186,29 +191,21 @@
         "Z": 1.0
       }
     },
-    "RelativeRotation": {
-      "Pitch": -90.0,
-      "Yaw": 0.0,
-      "Roll": 0.0
-    },
-    "RelativeLocation": {
-      "X": -1.0864873E-06,
-      "Y": -1.4344514E-16,
-      "Z": 200.0
-    },
-    "IntensityNits": 300.0,
-    "bUseInverseSquaredFalloff": false
+    "IntensityNits": 300.0
   },
   {
     "Type": "CapsuleComponent",
     "Name": "CollisionCylinder",
-    "Outer": "Default__BP_NightLady_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_NightLady_RAID_C'Default__BP_NightLady_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady_RAID.1"
+    },
     "Template": {
       "ObjectName": "CapsuleComponent'Default__BP_NightLady_C:CollisionCylinder'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady.3"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RelativeScale3D": {
         "X": 1.0,
@@ -220,13 +217,16 @@
   {
     "Type": "Function",
     "Name": "GetVisual_ExceptMainMesh_SyncAnyway",
-    "Outer": "BP_NightLady_RAID_C",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_NightLady_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady_RAID.0"
+    },
     "Super": {
       "ObjectName": "Function'BP_MonsterBase_C:GetVisual_ExceptMainMesh_SyncAnyway'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.15"
     },
-    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Function'BP_MonsterBase_C:GetVisual_ExceptMainMesh_SyncAnyway'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.15"
@@ -280,42 +280,54 @@
   {
     "Type": "InheritableComponentHandler",
     "Name": "InheritableComponentHandler",
-    "Outer": "BP_NightLady_RAID_C",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'InheritableComponentHandler'",
-    "Flags": "RF_WasLoaded | RF_LoadCompleted"
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_NightLady_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady_RAID.0"
+    }
   },
   {
     "Type": "PalActionComponent",
     "Name": "ActionComponent",
-    "Outer": "Default__BP_NightLady_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalActionComponent'",
+    "Outer": {
+      "ObjectName": "BP_NightLady_RAID_C'Default__BP_NightLady_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_NightLady_C:ActionComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady.5"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalAnimNotifyParameterComponent",
     "Name": "AnimNotifyComponent",
-    "Outer": "Default__BP_NightLady_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_NightLady_RAID_C'Default__BP_NightLady_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_NightLady_C:AnimNotifyComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady.6"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalCharacterAroundInfoCollectorComponent",
     "Name": "AroundInfoCollectorComponent",
-    "Outer": "Default__BP_NightLady_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+    "Outer": {
+      "ObjectName": "BP_NightLady_RAID_C'Default__BP_NightLady_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_NightLady_C:AroundInfoCollectorComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady.22"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_NightLady_RAID_C:CollisionCylinder'",
@@ -326,13 +338,16 @@
   {
     "Type": "PalCharacterCameraComponent",
     "Name": "FollowCamera",
-    "Outer": "Default__BP_NightLady_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterCameraComponent'",
+    "Outer": {
+      "ObjectName": "BP_NightLady_RAID_C'Default__BP_NightLady_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_NightLady_C:FollowCamera'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady.23"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_NightLady_RAID_C:CameraBoom'",
@@ -343,90 +358,114 @@
   {
     "Type": "PalCharacterLiftupObjectComponent",
     "Name": "Liftup",
-    "Outer": "Default__BP_NightLady_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+    "Outer": {
+      "ObjectName": "BP_NightLady_RAID_C'Default__BP_NightLady_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_NightLady_C:Liftup'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady.24"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalCharacterMovementComponent",
     "Name": "CharMoveComp",
-    "Outer": "Default__BP_NightLady_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_NightLady_RAID_C'Default__BP_NightLady_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_NightLady_C:CharMoveComp'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady.25"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalCharacterParameterComponent",
     "Name": "CharacterParameterComponent",
-    "Outer": "Default__BP_NightLady_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_NightLady_RAID_C'Default__BP_NightLady_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_NightLady_C:CharacterParameterComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady.26"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalDamageReactionComponent",
     "Name": "DamageReactionComponent",
-    "Outer": "Default__BP_NightLady_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalDamageReactionComponent'",
+    "Outer": {
+      "ObjectName": "BP_NightLady_RAID_C'Default__BP_NightLady_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_NightLady_C:DamageReactionComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady.27"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalFootIKComponent",
     "Name": "FootIKComponent",
-    "Outer": "Default__BP_NightLady_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalFootIKComponent'",
+    "Outer": {
+      "ObjectName": "BP_NightLady_RAID_C'Default__BP_NightLady_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_NightLady_C:FootIKComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady.29"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalLookAtComponent",
     "Name": "LookAtComponent",
-    "Outer": "Default__BP_NightLady_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalLookAtComponent'",
+    "Outer": {
+      "ObjectName": "BP_NightLady_RAID_C'Default__BP_NightLady_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_NightLady_C:LookAtComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady.30"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalPassiveSkillComponent",
     "Name": "PassiveSkillComponent",
-    "Outer": "Default__BP_NightLady_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalPassiveSkillComponent'",
+    "Outer": {
+      "ObjectName": "BP_NightLady_RAID_C'Default__BP_NightLady_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_NightLady_C:PassiveSkillComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady.32"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalShooterSpringArmComponent",
     "Name": "CameraBoom",
-    "Outer": "Default__BP_NightLady_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalShooterSpringArmComponent'",
+    "Outer": {
+      "ObjectName": "BP_NightLady_RAID_C'Default__BP_NightLady_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_NightLady_C:CameraBoom'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady.33"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_NightLady_RAID_C:CollisionCylinder'",
@@ -442,13 +481,16 @@
   {
     "Type": "PalSkeletalMeshComponent",
     "Name": "CharacterMesh0",
-    "Outer": "Default__BP_NightLady_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_NightLady_RAID_C'Default__BP_NightLady_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_NightLady_C:CharacterMesh0'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady.34"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_NightLady_RAID_C:CollisionCylinder'",
@@ -464,13 +506,16 @@
   {
     "Type": "PalStaticCharacterParameterComponent",
     "Name": "StaticCharacterParameterComponent",
-    "Outer": "Default__BP_NightLady_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_NightLady_RAID_C'Default__BP_NightLady_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_NightLady_C:StaticCharacterParameterComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady.35"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "MeshCapsuleHalfHeight": 400.0,
       "MeshCapsuleRadius": 120.0,
@@ -490,38 +535,50 @@
   {
     "Type": "PalStatusComponent",
     "Name": "StatusComponent",
-    "Outer": "Default__BP_NightLady_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalStatusComponent'",
+    "Outer": {
+      "ObjectName": "BP_NightLady_RAID_C'Default__BP_NightLady_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_NightLady_C:StatusComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady.36"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalVisualEffectComponent",
     "Name": "VisualEffectComponent",
-    "Outer": "Default__BP_NightLady_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalVisualEffectComponent'",
+    "Outer": {
+      "ObjectName": "BP_NightLady_RAID_C'Default__BP_NightLady_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_NightLady_C:VisualEffectComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady.37"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "SceneComponent",
     "Name": "DefaultSceneRoot_GEN_VARIABLE",
-    "Outer": "BP_NightLady_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'SceneComponent'",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_NightLady_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady_RAID.0"
+    }
   },
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_0",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_NightLady_RAID_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady_RAID.25"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'SceneComponent'",
@@ -538,9 +595,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_1",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_NightLady_RAID_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady_RAID.25"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "BlueprintGeneratedClass'BP_PalTimerPointLightComponent_C'",
@@ -559,9 +619,12 @@
   {
     "Type": "SimpleConstructionScript",
     "Name": "SimpleConstructionScript_0",
-    "Outer": "BP_NightLady_RAID_C",
-    "Class": "UScriptClass'SimpleConstructionScript'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_NightLady_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady_RAID.0"
+    },
     "Properties": {
       "RootNodes": [
         {
@@ -584,13 +647,16 @@
   {
     "Type": "SphereComponent",
     "Name": "RagdollInteractiveSphere",
-    "Outer": "Default__BP_NightLady_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BP_NightLady_RAID_C'Default__BP_NightLady_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady_RAID.1"
+    },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_NightLady_C:RagdollInteractiveSphere'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/NightLady/BP_NightLady.57"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_NightLady_RAID_C:CollisionCylinder'",

@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_PalWildSpawner",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Spawner/DT_PalWildSpawner",
     "Properties": {
       "RowStruct": {
         "ObjectName": "ScriptStruct'PalWildSpawnerDatabaseRow'",

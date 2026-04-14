@@ -2,12 +2,13 @@
   {
     "Type": "BlueprintGeneratedClass",
     "Name": "BP_ElecPanda_Normal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal",
     "Super": {
       "ObjectName": "BlueprintGeneratedClass'BP_ElecPanda_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.0"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_ElecPanda_Normal_C:SimpleConstructionScript_0'",
@@ -130,13 +131,16 @@
   {
     "Type": "BP_CoopParam_Cover_C",
     "Name": "BP_CoopParam_Cover1_GEN_VARIABLE",
-    "Outer": "BP_ElecPanda_Normal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/CoopParam/BP_CoopParam_Cover.BP_CoopParam_Cover_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ElecPanda_Normal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.0"
+    },
     "Template": {
       "ObjectName": "BP_CoopParam_Cover_C'Default__BP_CoopParam_Cover_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/CoopParam/BP_CoopParam_Cover.1"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "ApproachSpeedRate": 3.0
     }
@@ -144,12 +148,13 @@
   {
     "Type": "BP_ElecPanda_Normal_C",
     "Name": "Default__BP_ElecPanda_Normal_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.BP_ElecPanda_Normal_C'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal",
     "Template": {
       "ObjectName": "BP_ElecPanda_C'Default__BP_ElecPanda_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.2"
     },
-    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "LiftupObjectComponent": {
         "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_ElecPanda_Normal_C:Liftup'",
@@ -232,49 +237,64 @@
   {
     "Type": "CapsuleComponent",
     "Name": "CollisionCylinder",
-    "Outer": "Default__BP_ElecPanda_Normal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_ElecPanda_Normal_C'Default__BP_ElecPanda_Normal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.2"
+    },
     "Template": {
       "ObjectName": "CapsuleComponent'Default__BP_ElecPanda_C:CollisionCylinder'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.4"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "InheritableComponentHandler",
     "Name": "InheritableComponentHandler",
-    "Outer": "BP_ElecPanda_Normal_C",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'InheritableComponentHandler'",
-    "Flags": "RF_WasLoaded | RF_LoadCompleted"
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ElecPanda_Normal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.0"
+    }
   },
   {
     "Type": "PalActionComponent",
     "Name": "ActionComponent",
-    "Outer": "Default__BP_ElecPanda_Normal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalActionComponent'",
+    "Outer": {
+      "ObjectName": "BP_ElecPanda_Normal_C'Default__BP_ElecPanda_Normal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.2"
+    },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_ElecPanda_C:ActionComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.6"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalAnimNotifyParameterComponent",
     "Name": "AnimNotifyComponent",
-    "Outer": "Default__BP_ElecPanda_Normal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_ElecPanda_Normal_C'Default__BP_ElecPanda_Normal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.2"
+    },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_ElecPanda_C:AnimNotifyComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.7"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule1_0_GEN_VARIABLE",
-    "Outer": "BP_ElecPanda_Normal_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ElecPanda_Normal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.0"
+    },
     "Properties": {
       "AreaClassOverride": {
         "ObjectName": "Class'NavArea_Obstacle'",
@@ -301,9 +321,12 @@
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule2_0_GEN_VARIABLE",
-    "Outer": "BP_ElecPanda_Normal_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ElecPanda_Normal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.0"
+    },
     "Properties": {
       "AreaClassOverride": {
         "ObjectName": "Class'NavArea_Obstacle'",
@@ -330,9 +353,12 @@
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule_0_GEN_VARIABLE",
-    "Outer": "BP_ElecPanda_Normal_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ElecPanda_Normal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.0"
+    },
     "Properties": {
       "AreaClassOverride": {
         "ObjectName": "Class'NavArea_Obstacle'",
@@ -359,9 +385,12 @@
   {
     "Type": "PalBodyPartsSphereComponent",
     "Name": "PalBodyPartsSphere_0_GEN_VARIABLE",
-    "Outer": "BP_ElecPanda_Normal_C",
-    "Class": "UScriptClass'PalBodyPartsSphereComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsSphereComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ElecPanda_Normal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.0"
+    },
     "Properties": {
       "BodyPartsType": "EPalBodyPartsType::Weak",
       "SphereRadius": 70.0,
@@ -436,13 +465,16 @@
   {
     "Type": "PalCharacterAroundInfoCollectorComponent",
     "Name": "AroundInfoCollectorComponent",
-    "Outer": "Default__BP_ElecPanda_Normal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+    "Outer": {
+      "ObjectName": "BP_ElecPanda_Normal_C'Default__BP_ElecPanda_Normal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.2"
+    },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_ElecPanda_C:AroundInfoCollectorComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.12"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_ElecPanda_Normal_C:CollisionCylinder'",
@@ -453,13 +485,16 @@
   {
     "Type": "PalCharacterCameraComponent",
     "Name": "FollowCamera",
-    "Outer": "Default__BP_ElecPanda_Normal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterCameraComponent'",
+    "Outer": {
+      "ObjectName": "BP_ElecPanda_Normal_C'Default__BP_ElecPanda_Normal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.2"
+    },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_ElecPanda_C:FollowCamera'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.13"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_ElecPanda_Normal_C:CameraBoom'",
@@ -470,86 +505,110 @@
   {
     "Type": "PalCharacterLiftupObjectComponent",
     "Name": "Liftup",
-    "Outer": "Default__BP_ElecPanda_Normal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+    "Outer": {
+      "ObjectName": "BP_ElecPanda_Normal_C'Default__BP_ElecPanda_Normal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.2"
+    },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_ElecPanda_C:Liftup'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.14"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalCharacterMovementComponent",
     "Name": "CharMoveComp",
-    "Outer": "Default__BP_ElecPanda_Normal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_ElecPanda_Normal_C'Default__BP_ElecPanda_Normal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.2"
+    },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_ElecPanda_C:CharMoveComp'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.15"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalCharacterParameterComponent",
     "Name": "CharacterParameterComponent",
-    "Outer": "Default__BP_ElecPanda_Normal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_ElecPanda_Normal_C'Default__BP_ElecPanda_Normal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.2"
+    },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_ElecPanda_C:CharacterParameterComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.16"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalDamageReactionComponent",
     "Name": "DamageReactionComponent",
-    "Outer": "Default__BP_ElecPanda_Normal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalDamageReactionComponent'",
+    "Outer": {
+      "ObjectName": "BP_ElecPanda_Normal_C'Default__BP_ElecPanda_Normal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.2"
+    },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_ElecPanda_C:DamageReactionComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.17"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalFootIKComponent",
     "Name": "FootIKComponent",
-    "Outer": "Default__BP_ElecPanda_Normal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalFootIKComponent'",
+    "Outer": {
+      "ObjectName": "BP_ElecPanda_Normal_C'Default__BP_ElecPanda_Normal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.2"
+    },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_ElecPanda_C:FootIKComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.18"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalLookAtComponent",
     "Name": "LookAtComponent",
-    "Outer": "Default__BP_ElecPanda_Normal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalLookAtComponent'",
+    "Outer": {
+      "ObjectName": "BP_ElecPanda_Normal_C'Default__BP_ElecPanda_Normal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.2"
+    },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_ElecPanda_C:LookAtComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.20"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalPassiveSkillComponent",
     "Name": "PassiveSkillComponent",
-    "Outer": "Default__BP_ElecPanda_Normal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalPassiveSkillComponent'",
+    "Outer": {
+      "ObjectName": "BP_ElecPanda_Normal_C'Default__BP_ElecPanda_Normal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.2"
+    },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_ElecPanda_C:PassiveSkillComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.22"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalRideMarkerComponent",
     "Name": "PalRideMarker_0_GEN_VARIABLE",
-    "Outer": "BP_ElecPanda_Normal_C",
-    "Class": "UScriptClass'PalRideMarkerComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalRideMarkerComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ElecPanda_Normal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.0"
+    },
     "Properties": {
       "RidePositionType": "EPalRidePositionType::BackRide",
       "UniqueRidePalWeaponClass": {
@@ -574,9 +633,12 @@
   {
     "Type": "PalShooterComponent",
     "Name": "PalShooter_0_GEN_VARIABLE",
-    "Outer": "BP_ElecPanda_Normal_C",
-    "Class": "UScriptClass'PalShooterComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalShooterComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ElecPanda_Normal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.0"
+    },
     "Properties": {
       "OtherWeaponAnimeAssetBPSoftClassMap": [
         {
@@ -592,13 +654,16 @@
   {
     "Type": "PalShooterSpringArmComponent",
     "Name": "CameraBoom",
-    "Outer": "Default__BP_ElecPanda_Normal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalShooterSpringArmComponent'",
+    "Outer": {
+      "ObjectName": "BP_ElecPanda_Normal_C'Default__BP_ElecPanda_Normal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.2"
+    },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_ElecPanda_C:CameraBoom'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.24"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_ElecPanda_Normal_C:CollisionCylinder'",
@@ -609,13 +674,16 @@
   {
     "Type": "PalSkeletalMeshComponent",
     "Name": "CharacterMesh0",
-    "Outer": "Default__BP_ElecPanda_Normal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_ElecPanda_Normal_C'Default__BP_ElecPanda_Normal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.2"
+    },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_ElecPanda_C:CharacterMesh0'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.25"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_ElecPanda_Normal_C:CollisionCylinder'",
@@ -626,9 +694,12 @@
   {
     "Type": "PalSpeedCollisionComponent",
     "Name": "PalSpeedCollision_0_GEN_VARIABLE",
-    "Outer": "BP_ElecPanda_Normal_C",
-    "Class": "UScriptClass'PalSpeedCollisionComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalSpeedCollisionComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ElecPanda_Normal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.0"
+    },
     "Properties": {
       "AreaClassOverride": {
         "ObjectName": "Class'NavArea_Obstacle'",
@@ -650,49 +721,64 @@
   {
     "Type": "PalStaticCharacterParameterComponent",
     "Name": "StaticCharacterParameterComponent",
-    "Outer": "Default__BP_ElecPanda_Normal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_ElecPanda_Normal_C'Default__BP_ElecPanda_Normal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.2"
+    },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_ElecPanda_C:StaticCharacterParameterComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.27"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalStatusComponent",
     "Name": "StatusComponent",
-    "Outer": "Default__BP_ElecPanda_Normal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalStatusComponent'",
+    "Outer": {
+      "ObjectName": "BP_ElecPanda_Normal_C'Default__BP_ElecPanda_Normal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.2"
+    },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_ElecPanda_C:StatusComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.28"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalVisualEffectComponent",
     "Name": "VisualEffectComponent",
-    "Outer": "Default__BP_ElecPanda_Normal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalVisualEffectComponent'",
+    "Outer": {
+      "ObjectName": "BP_ElecPanda_Normal_C'Default__BP_ElecPanda_Normal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.2"
+    },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_ElecPanda_C:VisualEffectComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.29"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "SceneComponent",
     "Name": "DefaultSceneRoot_GEN_VARIABLE",
-    "Outer": "BP_ElecPanda_Normal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'SceneComponent'",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ElecPanda_Normal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.0"
+    }
   },
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_0",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ElecPanda_Normal_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.38"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'SceneComponent'",
@@ -709,9 +795,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_1",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ElecPanda_Normal_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.38"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "BlueprintGeneratedClass'BP_CoopParam_Cover_C'",
@@ -728,9 +817,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_2",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ElecPanda_Normal_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.38"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsSphereComponent'",
@@ -750,9 +842,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_3",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ElecPanda_Normal_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.38"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalRideMarkerComponent'",
@@ -772,9 +867,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_4",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ElecPanda_Normal_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.38"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalShooterComponent'",
@@ -791,9 +889,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_5",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ElecPanda_Normal_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.38"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -813,9 +914,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_6",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ElecPanda_Normal_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.38"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalSpeedCollisionComponent'",
@@ -835,9 +939,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_7",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ElecPanda_Normal_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.38"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -857,9 +964,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_8",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ElecPanda_Normal_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.38"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -879,9 +989,12 @@
   {
     "Type": "SimpleConstructionScript",
     "Name": "SimpleConstructionScript_0",
-    "Outer": "BP_ElecPanda_Normal_C",
-    "Class": "UScriptClass'SimpleConstructionScript'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ElecPanda_Normal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.0"
+    },
     "Properties": {
       "RootNodes": [
         {
@@ -960,13 +1073,16 @@
   {
     "Type": "SphereComponent",
     "Name": "RagdollInteractiveSphere",
-    "Outer": "Default__BP_ElecPanda_Normal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BP_ElecPanda_Normal_C'Default__BP_ElecPanda_Normal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.2"
+    },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_ElecPanda_C:RagdollInteractiveSphere'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.40"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_ElecPanda_Normal_C:CollisionCylinder'",

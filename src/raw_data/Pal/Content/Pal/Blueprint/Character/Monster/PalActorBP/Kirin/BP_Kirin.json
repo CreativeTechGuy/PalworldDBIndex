@@ -2,12 +2,13 @@
   {
     "Type": "BlueprintGeneratedClass",
     "Name": "BP_Kirin_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin",
     "Super": {
       "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_Kirin_C:SimpleConstructionScript_0'",
@@ -257,12 +258,13 @@
   {
     "Type": "BP_Kirin_C",
     "Name": "Default__BP_Kirin_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.BP_Kirin_C'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin",
     "Template": {
       "ObjectName": "BP_MonsterBase_C'Default__BP_MonsterBase_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.1"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "UberGraphFrame": {},
       "ThuderEffectInterval": 2.5,
@@ -348,13 +350,16 @@
   {
     "Type": "BP_PalCryComponent_C",
     "Name": "BP_PalCryComponent_GEN_VARIABLE",
-    "Outer": "BP_Kirin_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.BP_PalCryComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.0"
+    },
     "Template": {
       "ObjectName": "BP_PalCryComponent_C'BP_MonsterBase_C:BP_PalCryComponent_GEN_VARIABLE'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.2"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
     "Properties": {
       "CryPalID": "EPalTribeID::Kirin"
     }
@@ -362,13 +367,16 @@
   {
     "Type": "BP_PalTimerPointLightComponent_C",
     "Name": "BP_PalTimerPointLightComponent_GEN_VARIABLE",
-    "Outer": "BP_Kirin_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.BP_PalTimerPointLightComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.0"
+    },
     "Template": {
       "ObjectName": "BP_PalTimerPointLightComponent_C'Default__BP_PalTimerPointLightComponent_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.1"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "bUseInverseSquaredFalloff": false,
       "SourceRadius": 750.0,
@@ -394,29 +402,21 @@
         "Roll": -0.0
       }
     },
-    "RelativeRotation": {
-      "Pitch": 0.0,
-      "Yaw": 180.0,
-      "Roll": -0.0
-    },
-    "RelativeLocation": {
-      "X": 3.711306,
-      "Y": 0.8396721,
-      "Z": 240.0
-    },
-    "IntensityNits": 20.0,
-    "bUseInverseSquaredFalloff": false
+    "IntensityNits": 20.0
   },
   {
     "Type": "CapsuleComponent",
     "Name": "CollisionCylinder",
-    "Outer": "Default__BP_Kirin_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_Kirin_C'Default__BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.1"
+    },
     "Template": {
       "ObjectName": "CapsuleComponent'Default__BP_MonsterBase_C:CollisionCylinder'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.3"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CapsuleHalfHeight": 30.0,
       "CapsuleRadius": 30.0
@@ -425,9 +425,12 @@
   {
     "Type": "Function",
     "Name": "ExecuteUbergraph_BP_Kirin",
-    "Outer": "BP_Kirin_C",
-    "Class": "UScriptClass'Function'",
     "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.0"
+    },
     "ChildProperties": [
       {
         "Type": "IntProperty",
@@ -590,13 +593,16 @@
   {
     "Type": "Function",
     "Name": "GetVisual_ExceptMainMesh_SyncAnyway",
-    "Outer": "BP_Kirin_C",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.0"
+    },
     "Super": {
       "ObjectName": "Function'BP_MonsterBase_C:GetVisual_ExceptMainMesh_SyncAnyway'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.15"
     },
-    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Function'BP_MonsterBase_C:GetVisual_ExceptMainMesh_SyncAnyway'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.15"
@@ -650,13 +656,16 @@
   {
     "Type": "Function",
     "Name": "ReceiveBeginPlay",
-    "Outer": "BP_Kirin_C",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.0"
+    },
     "Super": {
       "ObjectName": "Function'BP_MonsterBase_C:ReceiveBeginPlay'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.32"
     },
-    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Function'BP_MonsterBase_C:ReceiveBeginPlay'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.32"
@@ -666,57 +675,78 @@
   {
     "Type": "Function",
     "Name": "RegistThunderEffect",
-    "Outer": "BP_Kirin_C",
-    "Class": "UScriptClass'Function'",
     "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.0"
+    },
     "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
   },
   {
     "Type": "Function",
     "Name": "ThundeHoen2",
-    "Outer": "BP_Kirin_C",
-    "Class": "UScriptClass'Function'",
     "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.0"
+    },
     "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
   },
   {
     "Type": "Function",
     "Name": "ThunderBody",
-    "Outer": "BP_Kirin_C",
-    "Class": "UScriptClass'Function'",
     "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.0"
+    },
     "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
   },
   {
     "Type": "Function",
     "Name": "ThunderHorn1",
-    "Outer": "BP_Kirin_C",
-    "Class": "UScriptClass'Function'",
     "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.0"
+    },
     "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
   },
   {
     "Type": "Function",
     "Name": "ThunderTail1",
-    "Outer": "BP_Kirin_C",
-    "Class": "UScriptClass'Function'",
     "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.0"
+    },
     "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
   },
   {
     "Type": "Function",
     "Name": "ThunderTail2",
-    "Outer": "BP_Kirin_C",
-    "Class": "UScriptClass'Function'",
     "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.0"
+    },
     "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
   },
   {
     "Type": "InheritableComponentHandler",
     "Name": "InheritableComponentHandler",
-    "Outer": "BP_Kirin_C",
-    "Class": "UScriptClass'InheritableComponentHandler'",
     "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.0"
+    },
     "Properties": {
       "Records": [
         {
@@ -791,9 +821,12 @@
   {
     "Type": "NiagaraComponent",
     "Name": "ThunderNiagaraBody_GEN_VARIABLE",
-    "Outer": "BP_Kirin_C",
-    "Class": "UScriptClass'NiagaraComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.0"
+    },
     "Properties": {
       "Asset": {
         "ObjectName": "NiagaraSystem'NS_KirinBodyLightning'",
@@ -993,9 +1026,12 @@
   {
     "Type": "NiagaraComponent",
     "Name": "ThunderNiagaraHorn1_GEN_VARIABLE",
-    "Outer": "BP_Kirin_C",
-    "Class": "UScriptClass'NiagaraComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.0"
+    },
     "Properties": {
       "Asset": {
         "ObjectName": "NiagaraSystem'NS_KirinBodyLightning'",
@@ -1205,9 +1241,12 @@
   {
     "Type": "NiagaraComponent",
     "Name": "ThunderNiagaraHorn2_GEN_VARIABLE",
-    "Outer": "BP_Kirin_C",
-    "Class": "UScriptClass'NiagaraComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.0"
+    },
     "Properties": {
       "Asset": {
         "ObjectName": "NiagaraSystem'NS_KirinBodyLightning'",
@@ -1417,9 +1456,12 @@
   {
     "Type": "NiagaraComponent",
     "Name": "ThunderNiagaraTail1_GEN_VARIABLE",
-    "Outer": "BP_Kirin_C",
-    "Class": "UScriptClass'NiagaraComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.0"
+    },
     "Properties": {
       "Asset": {
         "ObjectName": "NiagaraSystem'NS_KirinBodyLightning'",
@@ -1624,9 +1666,12 @@
   {
     "Type": "NiagaraComponent",
     "Name": "ThunderNiagaraTail2_GEN_VARIABLE",
-    "Outer": "BP_Kirin_C",
-    "Class": "UScriptClass'NiagaraComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.0"
+    },
     "Properties": {
       "Asset": {
         "ObjectName": "NiagaraSystem'NS_KirinBodyLightning'",
@@ -1836,31 +1881,40 @@
   {
     "Type": "PalActionComponent",
     "Name": "ActionComponent",
-    "Outer": "Default__BP_Kirin_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalActionComponent'",
+    "Outer": {
+      "ObjectName": "BP_Kirin_C'Default__BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.1"
+    },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalAnimNotifyParameterComponent",
     "Name": "AnimNotifyComponent",
-    "Outer": "Default__BP_Kirin_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_Kirin_C'Default__BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.1"
+    },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule1_GEN_VARIABLE",
-    "Outer": "BP_Kirin_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.0"
+    },
     "Properties": {
       "AreaClassOverride": {
         "ObjectName": "Class'NavArea_Obstacle'",
@@ -1887,9 +1941,12 @@
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule2_GEN_VARIABLE",
-    "Outer": "BP_Kirin_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.0"
+    },
     "Properties": {
       "AreaClassOverride": {
         "ObjectName": "Class'NavArea_Obstacle'",
@@ -1916,9 +1973,12 @@
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule_GEN_VARIABLE",
-    "Outer": "BP_Kirin_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.0"
+    },
     "Properties": {
       "BodyPartsType": "EPalBodyPartsType::Weak",
       "CapsuleHalfHeight": 60.0,
@@ -1947,13 +2007,16 @@
   {
     "Type": "PalCharacterAroundInfoCollectorComponent",
     "Name": "AroundInfoCollectorComponent",
-    "Outer": "Default__BP_Kirin_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+    "Outer": {
+      "ObjectName": "BP_Kirin_C'Default__BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.1"
+    },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_Kirin_C:CollisionCylinder'",
@@ -1964,13 +2027,16 @@
   {
     "Type": "PalCharacterCameraComponent",
     "Name": "FollowCamera",
-    "Outer": "Default__BP_Kirin_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterCameraComponent'",
+    "Outer": {
+      "ObjectName": "BP_Kirin_C'Default__BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.1"
+    },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_Kirin_C:CameraBoom'",
@@ -1981,24 +2047,30 @@
   {
     "Type": "PalCharacterLiftupObjectComponent",
     "Name": "Liftup",
-    "Outer": "Default__BP_Kirin_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+    "Outer": {
+      "ObjectName": "BP_Kirin_C'Default__BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.1"
+    },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalCharacterMovementComponent",
     "Name": "CharMoveComp",
-    "Outer": "Default__BP_Kirin_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_Kirin_C'Default__BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.1"
+    },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "InWaterRate": 0.52,
       "GravityScale": 2.0,
@@ -2010,35 +2082,44 @@
   {
     "Type": "PalCharacterParameterComponent",
     "Name": "CharacterParameterComponent",
-    "Outer": "Default__BP_Kirin_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_Kirin_C'Default__BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.1"
+    },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalDamageReactionComponent",
     "Name": "DamageReactionComponent",
-    "Outer": "Default__BP_Kirin_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalDamageReactionComponent'",
+    "Outer": {
+      "ObjectName": "BP_Kirin_C'Default__BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.1"
+    },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalFootIKComponent",
     "Name": "FootIKComponent",
-    "Outer": "Default__BP_Kirin_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalFootIKComponent'",
+    "Outer": {
+      "ObjectName": "BP_Kirin_C'Default__BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.1"
+    },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "FootIKSettings": [
         {
@@ -2083,13 +2164,16 @@
   {
     "Type": "PalInteractableSphereComponentNative",
     "Name": "BP_InteractableSphere_GEN_VARIABLE",
-    "Outer": "BP_Kirin_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
     "Class": "UScriptClass'PalInteractableSphereComponentNative'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.0"
+    },
     "Template": {
       "ObjectName": "PalInteractableSphereComponentNative'BP_MonsterBase_C:BP_InteractableSphere_GEN_VARIABLE'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
     "Properties": {
       "RelativeLocation": {
         "X": 39.160324,
@@ -2101,24 +2185,30 @@
   {
     "Type": "PalLookAtComponent",
     "Name": "LookAtComponent",
-    "Outer": "Default__BP_Kirin_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalLookAtComponent'",
+    "Outer": {
+      "ObjectName": "BP_Kirin_C'Default__BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.1"
+    },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalPartnerSkillParameterComponent",
     "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Outer": "BP_Kirin_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
     "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.0"
+    },
     "Template": {
       "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
     "Properties": {
       "RestrictionItems": [
         {
@@ -2412,24 +2502,30 @@
   {
     "Type": "PalPassiveSkillComponent",
     "Name": "PassiveSkillComponent",
-    "Outer": "Default__BP_Kirin_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalPassiveSkillComponent'",
+    "Outer": {
+      "ObjectName": "BP_Kirin_C'Default__BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.1"
+    },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalShooterSpringArmComponent",
     "Name": "CameraBoom",
-    "Outer": "Default__BP_Kirin_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalShooterSpringArmComponent'",
+    "Outer": {
+      "ObjectName": "BP_Kirin_C'Default__BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.1"
+    },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "WalkCameraArmLength": 490.0,
       "WalkCameraOffset": {
@@ -2467,13 +2563,16 @@
   {
     "Type": "PalSkeletalMeshComponent",
     "Name": "CharacterMesh0",
-    "Outer": "Default__BP_Kirin_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_Kirin_C'Default__BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.1"
+    },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "bIsEnableGroundTilt": true,
       "PitchAngle": 20.0,
@@ -2504,9 +2603,12 @@
   {
     "Type": "PalSpeedCollisionComponent",
     "Name": "PalSpeedCollision_GEN_VARIABLE",
-    "Outer": "BP_Kirin_C",
-    "Class": "UScriptClass'PalSpeedCollisionComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalSpeedCollisionComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.0"
+    },
     "Properties": {
       "AreaClassOverride": {
         "ObjectName": "Class'NavArea_Obstacle'",
@@ -2528,13 +2630,16 @@
   {
     "Type": "PalStaticCharacterParameterComponent",
     "Name": "StaticCharacterParameterComponent",
-    "Outer": "Default__BP_Kirin_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_Kirin_C'Default__BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.1"
+    },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "MeshCapsuleHalfHeight": 130.0,
       "MeshCapsuleRadius": 40.0,
@@ -2952,38 +3057,50 @@
   {
     "Type": "PalStatusComponent",
     "Name": "StatusComponent",
-    "Outer": "Default__BP_Kirin_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalStatusComponent'",
+    "Outer": {
+      "ObjectName": "BP_Kirin_C'Default__BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.1"
+    },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalVisualEffectComponent",
     "Name": "VisualEffectComponent",
-    "Outer": "Default__BP_Kirin_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalVisualEffectComponent'",
+    "Outer": {
+      "ObjectName": "BP_Kirin_C'Default__BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.1"
+    },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "SceneComponent",
     "Name": "DefaultSceneRoot_GEN_VARIABLE",
-    "Outer": "BP_Kirin_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'SceneComponent'",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.0"
+    }
   },
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_0",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Kirin_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.54"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'SceneComponent'",
@@ -3000,9 +3117,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_10",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Kirin_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.54"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalSpeedCollisionComponent'",
@@ -3022,9 +3142,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_11",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Kirin_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.54"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "BlueprintGeneratedClass'BP_PalTimerPointLightComponent_C'",
@@ -3043,9 +3166,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_2",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Kirin_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.54"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'NiagaraComponent'",
@@ -3065,9 +3191,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_3",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Kirin_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.54"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -3087,9 +3216,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_4",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Kirin_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.54"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'NiagaraComponent'",
@@ -3109,9 +3241,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_5",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Kirin_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.54"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -3131,9 +3266,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_6",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Kirin_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.54"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -3153,9 +3291,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_7",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Kirin_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.54"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'NiagaraComponent'",
@@ -3175,9 +3316,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_8",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Kirin_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.54"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'NiagaraComponent'",
@@ -3197,9 +3341,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_9",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Kirin_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.54"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'NiagaraComponent'",
@@ -3219,9 +3366,12 @@
   {
     "Type": "SimpleConstructionScript",
     "Name": "SimpleConstructionScript_0",
-    "Outer": "BP_Kirin_C",
-    "Class": "UScriptClass'SimpleConstructionScript'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.0"
+    },
     "Properties": {
       "RootNodes": [
         {
@@ -3316,13 +3466,16 @@
   {
     "Type": "SphereComponent",
     "Name": "RagdollInteractiveSphere",
-    "Outer": "Default__BP_Kirin_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BP_Kirin_C'Default__BP_Kirin_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.1"
+    },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_Kirin_C:CollisionCylinder'",

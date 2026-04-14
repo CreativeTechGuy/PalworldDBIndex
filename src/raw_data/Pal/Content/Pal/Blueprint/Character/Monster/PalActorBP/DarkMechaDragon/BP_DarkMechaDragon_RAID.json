@@ -2,12 +2,13 @@
   {
     "Type": "BlueprintGeneratedClass",
     "Name": "BP_DarkMechaDragon_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID",
     "Super": {
       "ObjectName": "BlueprintGeneratedClass'BP_DarkMechaDragon_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.0"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_DarkMechaDragon_RAID_C:SimpleConstructionScript_0'",
@@ -175,12 +176,13 @@
   {
     "Type": "BP_DarkMechaDragon_RAID_C",
     "Name": "Default__BP_DarkMechaDragon_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.BP_DarkMechaDragon_RAID_C'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID",
     "Template": {
       "ObjectName": "BP_DarkMechaDragon_C'Default__BP_DarkMechaDragon_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.1"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "LiftupObjectComponent": {
         "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_DarkMechaDragon_RAID_C:Liftup'",
@@ -264,13 +266,16 @@
   {
     "Type": "BP_PalRideMarkerBiggerHorse_C",
     "Name": "BP_PalRideMarkerBiggerHorse1_GEN_VARIABLE",
-    "Outer": "BP_DarkMechaDragon_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerBiggerHorse.BP_PalRideMarkerBiggerHorse_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.0"
+    },
     "Template": {
       "ObjectName": "BP_PalRideMarkerBiggerHorse_C'Default__BP_PalRideMarkerBiggerHorse_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerBiggerHorse.1"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RelativeLocation": {
         "X": 28.111595,
@@ -287,13 +292,16 @@
   {
     "Type": "BP_PalTimerPointLightComponent_C",
     "Name": "BP_PalTimerPointLightComponent_GEN_VARIABLE",
-    "Outer": "BP_DarkMechaDragon_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.BP_PalTimerPointLightComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.0"
+    },
     "Template": {
       "ObjectName": "BP_PalTimerPointLightComponent_C'Default__BP_PalTimerPointLightComponent_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.1"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "bUseInverseSquaredFalloff": false,
       "SourceRadius": 1000.0,
@@ -324,40 +332,35 @@
         "Z": 0.28571427
       }
     },
-    "RelativeRotation": {
-      "Pitch": 0.0,
-      "Yaw": 90.0,
-      "Roll": -0.0
-    },
-    "RelativeLocation": {
-      "X": -5.5320826E-14,
-      "Y": -61.972233,
-      "Z": 185.71428
-    },
-    "IntensityNits": 200.0,
-    "bUseInverseSquaredFalloff": false
+    "IntensityNits": 200.0
   },
   {
     "Type": "CapsuleComponent",
     "Name": "CollisionCylinder",
-    "Outer": "Default__BP_DarkMechaDragon_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_DarkMechaDragon_RAID_C'Default__BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.1"
+    },
     "Template": {
       "ObjectName": "CapsuleComponent'Default__BP_DarkMechaDragon_C:CollisionCylinder'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.4"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "Function",
     "Name": "GetVisual_ExceptMainMesh_SyncAnyway",
-    "Outer": "BP_DarkMechaDragon_RAID_C",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.0"
+    },
     "Super": {
       "ObjectName": "Function'BP_DarkMechaDragon_C:GetVisual_ExceptMainMesh_SyncAnyway'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.5"
     },
-    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Function'BP_DarkMechaDragon_C:GetVisual_ExceptMainMesh_SyncAnyway'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.5"
@@ -411,9 +414,12 @@
   {
     "Type": "InheritableComponentHandler",
     "Name": "InheritableComponentHandler",
-    "Outer": "BP_DarkMechaDragon_RAID_C",
-    "Class": "UScriptClass'InheritableComponentHandler'",
     "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.0"
+    },
     "Properties": {
       "Records": [
         {
@@ -444,13 +450,16 @@
   {
     "Type": "NiagaraComponent",
     "Name": "WingEffect_GEN_VARIABLE",
-    "Outer": "BP_DarkMechaDragon_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
     "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.0"
+    },
     "Template": {
       "ObjectName": "NiagaraComponent'BP_DarkMechaDragon_C:WingEffect_GEN_VARIABLE'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.7"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
     "Properties": {
       "OverrideParameters": {
         "SortedParameterOffsets": [
@@ -575,31 +584,40 @@
   {
     "Type": "PalActionComponent",
     "Name": "ActionComponent",
-    "Outer": "Default__BP_DarkMechaDragon_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalActionComponent'",
+    "Outer": {
+      "ObjectName": "BP_DarkMechaDragon_RAID_C'Default__BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_DarkMechaDragon_C:ActionComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.8"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalAnimNotifyParameterComponent",
     "Name": "AnimNotifyComponent",
-    "Outer": "Default__BP_DarkMechaDragon_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_DarkMechaDragon_RAID_C'Default__BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_DarkMechaDragon_C:AnimNotifyComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.9"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule1_0_GEN_VARIABLE",
-    "Outer": "BP_DarkMechaDragon_RAID_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.0"
+    },
     "Properties": {
       "CapsuleHalfHeight": 48.34059,
       "CapsuleRadius": 26.849487,
@@ -613,9 +631,12 @@
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule2_0_GEN_VARIABLE",
-    "Outer": "BP_DarkMechaDragon_RAID_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.0"
+    },
     "Properties": {
       "CapsuleHalfHeight": 81.73897,
       "CapsuleRadius": 62.981487,
@@ -634,9 +655,12 @@
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule3_0_GEN_VARIABLE",
-    "Outer": "BP_DarkMechaDragon_RAID_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.0"
+    },
     "Properties": {
       "CapsuleHalfHeight": 55.250336,
       "CapsuleRadius": 20.763927,
@@ -655,9 +679,12 @@
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule4_0_GEN_VARIABLE",
-    "Outer": "BP_DarkMechaDragon_RAID_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.0"
+    },
     "Properties": {
       "CapsuleHalfHeight": 53.0754,
       "CapsuleRadius": 16.715704,
@@ -676,9 +703,12 @@
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule5_0_GEN_VARIABLE",
-    "Outer": "BP_DarkMechaDragon_RAID_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.0"
+    },
     "Properties": {
       "CapsuleHalfHeight": 43.769684,
       "CapsuleRadius": 20.763927,
@@ -697,9 +727,12 @@
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule6_0_GEN_VARIABLE",
-    "Outer": "BP_DarkMechaDragon_RAID_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.0"
+    },
     "Properties": {
       "CapsuleHalfHeight": 43.769684,
       "CapsuleRadius": 20.763927,
@@ -718,9 +751,12 @@
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule7_0_GEN_VARIABLE",
-    "Outer": "BP_DarkMechaDragon_RAID_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.0"
+    },
     "Properties": {
       "CapsuleHalfHeight": 51.742165,
       "CapsuleRadius": 27.660582,
@@ -739,9 +775,12 @@
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule8_0_GEN_VARIABLE",
-    "Outer": "BP_DarkMechaDragon_RAID_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.0"
+    },
     "Properties": {
       "CapsuleHalfHeight": 51.742165,
       "CapsuleRadius": 27.660582,
@@ -760,9 +799,12 @@
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule_0_GEN_VARIABLE",
-    "Outer": "BP_DarkMechaDragon_RAID_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.0"
+    },
     "Properties": {
       "BodyPartsType": "EPalBodyPartsType::Weak",
       "CapsuleHalfHeight": 48.34059,
@@ -777,13 +819,16 @@
   {
     "Type": "PalCharacterAroundInfoCollectorComponent",
     "Name": "AroundInfoCollectorComponent",
-    "Outer": "Default__BP_DarkMechaDragon_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+    "Outer": {
+      "ObjectName": "BP_DarkMechaDragon_RAID_C'Default__BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_DarkMechaDragon_C:AroundInfoCollectorComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.19"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_DarkMechaDragon_RAID_C:CollisionCylinder'",
@@ -794,13 +839,16 @@
   {
     "Type": "PalCharacterCameraComponent",
     "Name": "FollowCamera",
-    "Outer": "Default__BP_DarkMechaDragon_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterCameraComponent'",
+    "Outer": {
+      "ObjectName": "BP_DarkMechaDragon_RAID_C'Default__BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_DarkMechaDragon_C:FollowCamera'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.20"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_DarkMechaDragon_RAID_C:CameraBoom'",
@@ -811,90 +859,114 @@
   {
     "Type": "PalCharacterLiftupObjectComponent",
     "Name": "Liftup",
-    "Outer": "Default__BP_DarkMechaDragon_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+    "Outer": {
+      "ObjectName": "BP_DarkMechaDragon_RAID_C'Default__BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_DarkMechaDragon_C:Liftup'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.21"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalCharacterMovementComponent",
     "Name": "CharMoveComp",
-    "Outer": "Default__BP_DarkMechaDragon_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_DarkMechaDragon_RAID_C'Default__BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_DarkMechaDragon_C:CharMoveComp'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.22"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalCharacterParameterComponent",
     "Name": "CharacterParameterComponent",
-    "Outer": "Default__BP_DarkMechaDragon_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_DarkMechaDragon_RAID_C'Default__BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_DarkMechaDragon_C:CharacterParameterComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.23"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalDamageReactionComponent",
     "Name": "DamageReactionComponent",
-    "Outer": "Default__BP_DarkMechaDragon_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalDamageReactionComponent'",
+    "Outer": {
+      "ObjectName": "BP_DarkMechaDragon_RAID_C'Default__BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_DarkMechaDragon_C:DamageReactionComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.24"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalFootIKComponent",
     "Name": "FootIKComponent",
-    "Outer": "Default__BP_DarkMechaDragon_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalFootIKComponent'",
+    "Outer": {
+      "ObjectName": "BP_DarkMechaDragon_RAID_C'Default__BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_DarkMechaDragon_C:FootIKComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.25"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalLookAtComponent",
     "Name": "LookAtComponent",
-    "Outer": "Default__BP_DarkMechaDragon_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalLookAtComponent'",
+    "Outer": {
+      "ObjectName": "BP_DarkMechaDragon_RAID_C'Default__BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_DarkMechaDragon_C:LookAtComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.26"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalPassiveSkillComponent",
     "Name": "PassiveSkillComponent",
-    "Outer": "Default__BP_DarkMechaDragon_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalPassiveSkillComponent'",
+    "Outer": {
+      "ObjectName": "BP_DarkMechaDragon_RAID_C'Default__BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_DarkMechaDragon_C:PassiveSkillComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.28"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalShooterSpringArmComponent",
     "Name": "CameraBoom",
-    "Outer": "Default__BP_DarkMechaDragon_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalShooterSpringArmComponent'",
+    "Outer": {
+      "ObjectName": "BP_DarkMechaDragon_RAID_C'Default__BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_DarkMechaDragon_C:CameraBoom'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.29"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_DarkMechaDragon_RAID_C:CollisionCylinder'",
@@ -910,13 +982,16 @@
   {
     "Type": "PalSkeletalMeshComponent",
     "Name": "CharacterMesh0",
-    "Outer": "Default__BP_DarkMechaDragon_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_DarkMechaDragon_RAID_C'Default__BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_DarkMechaDragon_C:CharacterMesh0'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.30"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_DarkMechaDragon_RAID_C:CollisionCylinder'",
@@ -937,13 +1012,16 @@
   {
     "Type": "PalStaticCharacterParameterComponent",
     "Name": "StaticCharacterParameterComponent",
-    "Outer": "Default__BP_DarkMechaDragon_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_DarkMechaDragon_RAID_C'Default__BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_DarkMechaDragon_C:StaticCharacterParameterComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.32"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "MeshCapsuleHalfHeight": 420.0,
       "MeshCapsuleRadius": 140.0,
@@ -986,38 +1064,50 @@
   {
     "Type": "PalStatusComponent",
     "Name": "StatusComponent",
-    "Outer": "Default__BP_DarkMechaDragon_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalStatusComponent'",
+    "Outer": {
+      "ObjectName": "BP_DarkMechaDragon_RAID_C'Default__BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_DarkMechaDragon_C:StatusComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.33"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalVisualEffectComponent",
     "Name": "VisualEffectComponent",
-    "Outer": "Default__BP_DarkMechaDragon_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalVisualEffectComponent'",
+    "Outer": {
+      "ObjectName": "BP_DarkMechaDragon_RAID_C'Default__BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.1"
+    },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_DarkMechaDragon_C:VisualEffectComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.34"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "SceneComponent",
     "Name": "DefaultSceneRoot_GEN_VARIABLE",
-    "Outer": "BP_DarkMechaDragon_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'SceneComponent'",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.0"
+    }
   },
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_0",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_DarkMechaDragon_RAID_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.46"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'SceneComponent'",
@@ -1034,9 +1124,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_1",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_DarkMechaDragon_RAID_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.46"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "BlueprintGeneratedClass'BP_PalRideMarkerBiggerHorse_C'",
@@ -1056,9 +1149,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_10",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_DarkMechaDragon_RAID_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.46"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -1078,9 +1174,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_11",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_DarkMechaDragon_RAID_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.46"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -1100,9 +1199,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_12",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_DarkMechaDragon_RAID_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.46"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -1122,9 +1224,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_2",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_DarkMechaDragon_RAID_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.46"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "BlueprintGeneratedClass'BP_PalTimerPointLightComponent_C'",
@@ -1143,9 +1248,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_4",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_DarkMechaDragon_RAID_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.46"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -1165,9 +1273,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_5",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_DarkMechaDragon_RAID_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.46"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -1187,9 +1298,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_6",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_DarkMechaDragon_RAID_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.46"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -1209,9 +1323,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_7",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_DarkMechaDragon_RAID_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.46"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -1231,9 +1348,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_8",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_DarkMechaDragon_RAID_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.46"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -1253,9 +1373,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_9",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_DarkMechaDragon_RAID_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.46"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -1275,9 +1398,12 @@
   {
     "Type": "SimpleConstructionScript",
     "Name": "SimpleConstructionScript_0",
-    "Outer": "BP_DarkMechaDragon_RAID_C",
-    "Class": "UScriptClass'SimpleConstructionScript'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.0"
+    },
     "Properties": {
       "RootNodes": [
         {
@@ -1380,13 +1506,16 @@
   {
     "Type": "SphereComponent",
     "Name": "RagdollInteractiveSphere",
-    "Outer": "Default__BP_DarkMechaDragon_RAID_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BP_DarkMechaDragon_RAID_C'Default__BP_DarkMechaDragon_RAID_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon_RAID.1"
+    },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_DarkMechaDragon_C:RagdollInteractiveSphere'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.50"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_DarkMechaDragon_RAID_C:CollisionCylinder'",

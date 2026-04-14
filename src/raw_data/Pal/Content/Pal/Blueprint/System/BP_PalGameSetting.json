@@ -2,8 +2,9 @@
   {
     "Type": "BlueprintGeneratedClass",
     "Name": "BP_PalGameSetting_C",
-    "Class": "UScriptClass'BlueprintGeneratedClass'",
     "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Pal/Content/Pal/Blueprint/System/BP_PalGameSetting",
     "SuperStruct": {
       "ObjectName": "Class'PalGameSetting'",
       "ObjectPath": "/Script/Pal"
@@ -54,8 +55,9 @@
   {
     "Type": "BP_PalGameSetting_C",
     "Name": "Default__BP_PalGameSetting_C",
-    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/System/BP_PalGameSetting.BP_PalGameSetting_C'",
     "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/System/BP_PalGameSetting.BP_PalGameSetting_C'",
+    "Package": "Pal/Content/Pal/Blueprint/System/BP_PalGameSetting",
     "Properties": {
       "CharacterMaxLevel": 65,
       "GuildCharacterMaxLevel": 65,
@@ -2420,9 +2422,12 @@
   {
     "Type": "Function",
     "Name": "CalcCaptureRate",
-    "Outer": "BP_PalGameSetting_C",
-    "Class": "UScriptClass'Function'",
     "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PalGameSetting_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/System/BP_PalGameSetting.0"
+    },
     "SuperStruct": {
       "ObjectName": "Function'PalGameSetting:CalcCaptureRate'",
       "ObjectPath": "/Script/Pal"
@@ -3015,9 +3020,12 @@
   {
     "Type": "Function",
     "Name": "GetEnemyMarkScale",
-    "Outer": "BP_PalGameSetting_C",
-    "Class": "UScriptClass'Function'",
     "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PalGameSetting_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/System/BP_PalGameSetting.0"
+    },
     "SuperStruct": {
       "ObjectName": "Function'PalGameSetting:GetEnemyMarkScale'",
       "ObjectPath": "/Script/Pal"
@@ -3122,9 +3130,12 @@
   {
     "Type": "Function",
     "Name": "GetWeakScale",
-    "Outer": "BP_PalGameSetting_C",
-    "Class": "UScriptClass'Function'",
     "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PalGameSetting_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/System/BP_PalGameSetting.0"
+    },
     "SuperStruct": {
       "ObjectName": "Function'PalGameSetting:GetWeakScale'",
       "ObjectPath": "/Script/Pal"

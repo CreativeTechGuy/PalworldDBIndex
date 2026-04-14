@@ -2,12 +2,13 @@
   {
     "Type": "BlueprintGeneratedClass",
     "Name": "BP_Ganesha_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha",
     "Super": {
       "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "DynamicBindingObjects": [
         {
@@ -126,12 +127,13 @@
   {
     "Type": "BP_Ganesha_C",
     "Name": "Default__BP_Ganesha_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.BP_Ganesha_C'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha",
     "Template": {
       "ObjectName": "BP_MonsterBase_C'Default__BP_MonsterBase_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.1"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "UberGraphFrame": {},
       "HealValues": [
@@ -223,13 +225,16 @@
   {
     "Type": "BP_PalCryComponent_C",
     "Name": "BP_PalCryComponent_GEN_VARIABLE",
-    "Outer": "BP_Ganesha_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.BP_PalCryComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.0"
+    },
     "Template": {
       "ObjectName": "BP_PalCryComponent_C'BP_MonsterBase_C:BP_PalCryComponent_GEN_VARIABLE'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.2"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
     "Properties": {
       "CryPalID": "EPalTribeID::Ganesha"
     }
@@ -237,13 +242,16 @@
   {
     "Type": "CapsuleComponent",
     "Name": "CollisionCylinder",
-    "Outer": "Default__BP_Ganesha_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_Ganesha_C'Default__BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.1"
+    },
     "Template": {
       "ObjectName": "CapsuleComponent'Default__BP_MonsterBase_C:CollisionCylinder'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.3"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CapsuleHalfHeight": 30.0,
       "CapsuleRadius": 30.0
@@ -252,9 +260,12 @@
   {
     "Type": "ComponentDelegateBinding",
     "Name": "ComponentDelegateBinding_0",
-    "Outer": "BP_Ganesha_C",
-    "Class": "UScriptClass'ComponentDelegateBinding'",
     "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.0"
+    },
     "Properties": {
       "ComponentDelegateBindings": [
         {
@@ -268,17 +279,23 @@
   {
     "Type": "Function",
     "Name": "BndEvt__BP_Ganesha_PalPartnerSkillParameter_K2Node_ComponentBoundEvent_0_OnStart__DelegateSignature",
-    "Outer": "BP_Ganesha_C",
-    "Class": "UScriptClass'Function'",
     "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.0"
+    },
     "FunctionFlags": "FUNC_BlueprintEvent"
   },
   {
     "Type": "Function",
     "Name": "ExecuteUbergraph_BP_Ganesha",
-    "Outer": "BP_Ganesha_C",
-    "Class": "UScriptClass'Function'",
     "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.0"
+    },
     "ChildProperties": [
       {
         "Type": "IntProperty",
@@ -408,9 +425,12 @@
   {
     "Type": "Function",
     "Name": "GetHealValue",
-    "Outer": "BP_Ganesha_C",
-    "Class": "UScriptClass'Function'",
     "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.0"
+    },
     "ChildProperties": [
       {
         "Type": "IntProperty",
@@ -449,9 +469,12 @@
   {
     "Type": "InheritableComponentHandler",
     "Name": "InheritableComponentHandler",
-    "Outer": "BP_Ganesha_C",
-    "Class": "UScriptClass'InheritableComponentHandler'",
     "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.0"
+    },
     "Properties": {
       "Records": [
         {
@@ -526,13 +549,16 @@
   {
     "Type": "PalActionComponent",
     "Name": "ActionComponent",
-    "Outer": "Default__BP_Ganesha_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalActionComponent'",
+    "Outer": {
+      "ObjectName": "BP_Ganesha_C'Default__BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.1"
+    },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "ActionMap": [
         {
@@ -555,20 +581,26 @@
   {
     "Type": "PalAnimNotifyParameterComponent",
     "Name": "AnimNotifyComponent",
-    "Outer": "Default__BP_Ganesha_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_Ganesha_C'Default__BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.1"
+    },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalBodyPartsSphereComponent",
     "Name": "PalBodyPartsSphere1_GEN_VARIABLE",
-    "Outer": "BP_Ganesha_C",
-    "Class": "UScriptClass'PalBodyPartsSphereComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsSphereComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.0"
+    },
     "Properties": {
       "AreaClassOverride": {
         "ObjectName": "Class'NavArea_Obstacle'",
@@ -590,9 +622,12 @@
   {
     "Type": "PalBodyPartsSphereComponent",
     "Name": "PalBodyPartsSphere_GEN_VARIABLE",
-    "Outer": "BP_Ganesha_C",
-    "Class": "UScriptClass'PalBodyPartsSphereComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsSphereComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.0"
+    },
     "Properties": {
       "BodyPartsType": "EPalBodyPartsType::Weak",
       "AreaClassOverride": {
@@ -615,13 +650,16 @@
   {
     "Type": "PalCharacterAroundInfoCollectorComponent",
     "Name": "AroundInfoCollectorComponent",
-    "Outer": "Default__BP_Ganesha_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+    "Outer": {
+      "ObjectName": "BP_Ganesha_C'Default__BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.1"
+    },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_Ganesha_C:CollisionCylinder'",
@@ -632,13 +670,16 @@
   {
     "Type": "PalCharacterCameraComponent",
     "Name": "FollowCamera",
-    "Outer": "Default__BP_Ganesha_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterCameraComponent'",
+    "Outer": {
+      "ObjectName": "BP_Ganesha_C'Default__BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.1"
+    },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_Ganesha_C:CameraBoom'",
@@ -649,24 +690,30 @@
   {
     "Type": "PalCharacterLiftupObjectComponent",
     "Name": "Liftup",
-    "Outer": "Default__BP_Ganesha_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+    "Outer": {
+      "ObjectName": "BP_Ganesha_C'Default__BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.1"
+    },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalCharacterMovementComponent",
     "Name": "CharMoveComp",
-    "Outer": "Default__BP_Ganesha_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_Ganesha_C'Default__BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.1"
+    },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "InWaterRate": 0.5,
       "Buoyancy": 1.9
@@ -675,46 +722,58 @@
   {
     "Type": "PalCharacterParameterComponent",
     "Name": "CharacterParameterComponent",
-    "Outer": "Default__BP_Ganesha_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_Ganesha_C'Default__BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.1"
+    },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalDamageReactionComponent",
     "Name": "DamageReactionComponent",
-    "Outer": "Default__BP_Ganesha_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalDamageReactionComponent'",
+    "Outer": {
+      "ObjectName": "BP_Ganesha_C'Default__BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.1"
+    },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalFootIKComponent",
     "Name": "FootIKComponent",
-    "Outer": "Default__BP_Ganesha_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalFootIKComponent'",
+    "Outer": {
+      "ObjectName": "BP_Ganesha_C'Default__BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.1"
+    },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalInteractableSphereComponentNative",
     "Name": "BP_InteractableSphere_GEN_VARIABLE",
-    "Outer": "BP_Ganesha_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
     "Class": "UScriptClass'PalInteractableSphereComponentNative'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.0"
+    },
     "Template": {
       "ObjectName": "PalInteractableSphereComponentNative'BP_MonsterBase_C:BP_InteractableSphere_GEN_VARIABLE'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
     "Properties": {
       "RelativeLocation": {
         "X": 0.0,
@@ -726,24 +785,30 @@
   {
     "Type": "PalLookAtComponent",
     "Name": "LookAtComponent",
-    "Outer": "Default__BP_Ganesha_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalLookAtComponent'",
+    "Outer": {
+      "ObjectName": "BP_Ganesha_C'Default__BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.1"
+    },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalPartnerSkillParameterComponent",
     "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Outer": "BP_Ganesha_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
     "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.0"
+    },
     "Template": {
       "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
     "Properties": {
       "SkillName": "Heal",
       "ActiveSkill_MainValue_Overview_EditorOnly": "回復量実数値",
@@ -759,24 +824,30 @@
   {
     "Type": "PalPassiveSkillComponent",
     "Name": "PassiveSkillComponent",
-    "Outer": "Default__BP_Ganesha_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalPassiveSkillComponent'",
+    "Outer": {
+      "ObjectName": "BP_Ganesha_C'Default__BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.1"
+    },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalShooterSpringArmComponent",
     "Name": "CameraBoom",
-    "Outer": "Default__BP_Ganesha_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalShooterSpringArmComponent'",
+    "Outer": {
+      "ObjectName": "BP_Ganesha_C'Default__BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.1"
+    },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_Ganesha_C:CollisionCylinder'",
@@ -792,13 +863,16 @@
   {
     "Type": "PalSkeletalMeshComponent",
     "Name": "CharacterMesh0",
-    "Outer": "Default__BP_Ganesha_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_Ganesha_C'Default__BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.1"
+    },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "AnimClass": {
         "ObjectName": "AnimBlueprintGeneratedClass'ABP_Ganesha_C'",
@@ -840,13 +914,16 @@
   {
     "Type": "PalStaticCharacterParameterComponent",
     "Name": "StaticCharacterParameterComponent",
-    "Outer": "Default__BP_Ganesha_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_Ganesha_C'Default__BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.1"
+    },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "MeshCapsuleHalfHeight": 55.0,
       "MeshCapsuleRadius": 55.0,
@@ -1175,38 +1252,50 @@
   {
     "Type": "PalStatusComponent",
     "Name": "StatusComponent",
-    "Outer": "Default__BP_Ganesha_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalStatusComponent'",
+    "Outer": {
+      "ObjectName": "BP_Ganesha_C'Default__BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.1"
+    },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalVisualEffectComponent",
     "Name": "VisualEffectComponent",
-    "Outer": "Default__BP_Ganesha_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalVisualEffectComponent'",
+    "Outer": {
+      "ObjectName": "BP_Ganesha_C'Default__BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.1"
+    },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "SceneComponent",
     "Name": "DefaultSceneRoot_GEN_VARIABLE",
-    "Outer": "BP_Ganesha_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'SceneComponent'",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.0"
+    }
   },
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_0",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Ganesha_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.33"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'SceneComponent'",
@@ -1223,9 +1312,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_1",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Ganesha_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.33"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsSphereComponent'",
@@ -1245,9 +1337,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_2",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Ganesha_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.33"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsSphereComponent'",
@@ -1267,9 +1362,12 @@
   {
     "Type": "SimpleConstructionScript",
     "Name": "SimpleConstructionScript_0",
-    "Outer": "BP_Ganesha_C",
-    "Class": "UScriptClass'SimpleConstructionScript'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.0"
+    },
     "Properties": {
       "RootNodes": [
         {
@@ -1300,13 +1398,16 @@
   {
     "Type": "SphereComponent",
     "Name": "RagdollInteractiveSphere",
-    "Outer": "Default__BP_Ganesha_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BP_Ganesha_C'Default__BP_Ganesha_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ganesha/BP_Ganesha.1"
+    },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_Ganesha_C:CollisionCylinder'",

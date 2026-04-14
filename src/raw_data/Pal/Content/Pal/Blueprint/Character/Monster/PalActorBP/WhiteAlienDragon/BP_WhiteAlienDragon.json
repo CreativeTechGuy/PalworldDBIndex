@@ -2,12 +2,13 @@
   {
     "Type": "BlueprintGeneratedClass",
     "Name": "BP_WhiteAlienDragon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon",
     "Super": {
       "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_WhiteAlienDragon_C:SimpleConstructionScript_0'",
@@ -251,13 +252,16 @@
   {
     "Type": "BP_PalCryComponent_C",
     "Name": "BP_PalCryComponent_GEN_VARIABLE",
-    "Outer": "BP_WhiteAlienDragon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.BP_PalCryComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.0"
+    },
     "Template": {
       "ObjectName": "BP_PalCryComponent_C'BP_MonsterBase_C:BP_PalCryComponent_GEN_VARIABLE'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.2"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
     "Properties": {
       "CryPalID": "EPalTribeID::WhiteAlienDragon"
     }
@@ -265,13 +269,16 @@
   {
     "Type": "BP_PalRideMarkerBiggerHorse_C",
     "Name": "BP_PalRideMarkerBiggerHorse_GEN_VARIABLE",
-    "Outer": "BP_WhiteAlienDragon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerBiggerHorse.BP_PalRideMarkerBiggerHorse_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.0"
+    },
     "Template": {
       "ObjectName": "BP_PalRideMarkerBiggerHorse_C'Default__BP_PalRideMarkerBiggerHorse_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerBiggerHorse.1"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RelativeLocation": {
         "X": 1.7101007,
@@ -288,12 +295,13 @@
   {
     "Type": "BP_WhiteAlienDragon_C",
     "Name": "Default__BP_WhiteAlienDragon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.BP_WhiteAlienDragon_C'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon",
     "Template": {
       "ObjectName": "BP_MonsterBase_C'Default__BP_MonsterBase_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.1"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "LiftupObjectComponent": {
         "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_WhiteAlienDragon_C:Liftup'",
@@ -376,13 +384,16 @@
   {
     "Type": "CapsuleComponent",
     "Name": "CollisionCylinder",
-    "Outer": "Default__BP_WhiteAlienDragon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_WhiteAlienDragon_C'Default__BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.3"
+    },
     "Template": {
       "ObjectName": "CapsuleComponent'Default__BP_MonsterBase_C:CollisionCylinder'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.3"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CapsuleHalfHeight": 30.0,
       "CapsuleRadius": 30.0
@@ -391,9 +402,12 @@
   {
     "Type": "InheritableComponentHandler",
     "Name": "InheritableComponentHandler",
-    "Outer": "BP_WhiteAlienDragon_C",
-    "Class": "UScriptClass'InheritableComponentHandler'",
     "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.0"
+    },
     "Properties": {
       "Records": [
         {
@@ -446,31 +460,40 @@
   {
     "Type": "PalActionComponent",
     "Name": "ActionComponent",
-    "Outer": "Default__BP_WhiteAlienDragon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalActionComponent'",
+    "Outer": {
+      "ObjectName": "BP_WhiteAlienDragon_C'Default__BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.3"
+    },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalAnimNotifyParameterComponent",
     "Name": "AnimNotifyComponent",
-    "Outer": "Default__BP_WhiteAlienDragon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_WhiteAlienDragon_C'Default__BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.3"
+    },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule10_GEN_VARIABLE",
-    "Outer": "BP_WhiteAlienDragon_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.0"
+    },
     "Properties": {
       "BodyPartsType": "EPalBodyPartsType::Strong",
       "CapsuleHalfHeight": 139.3736,
@@ -490,9 +513,12 @@
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule11_GEN_VARIABLE",
-    "Outer": "BP_WhiteAlienDragon_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.0"
+    },
     "Properties": {
       "BodyPartsType": "EPalBodyPartsType::Strong",
       "CapsuleHalfHeight": 139.3736,
@@ -512,9 +538,12 @@
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule12_GEN_VARIABLE",
-    "Outer": "BP_WhiteAlienDragon_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.0"
+    },
     "Properties": {
       "BodyPartsType": "EPalBodyPartsType::Strong",
       "CapsuleHalfHeight": 139.3736,
@@ -534,9 +563,12 @@
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule13_GEN_VARIABLE",
-    "Outer": "BP_WhiteAlienDragon_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.0"
+    },
     "Properties": {
       "BodyPartsType": "EPalBodyPartsType::Strong",
       "CapsuleHalfHeight": 139.3736,
@@ -556,9 +588,12 @@
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule14_GEN_VARIABLE",
-    "Outer": "BP_WhiteAlienDragon_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.0"
+    },
     "Properties": {
       "BodyPartsType": "EPalBodyPartsType::Strong",
       "CapsuleHalfHeight": 139.3736,
@@ -578,9 +613,12 @@
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule15_GEN_VARIABLE",
-    "Outer": "BP_WhiteAlienDragon_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.0"
+    },
     "Properties": {
       "BodyPartsType": "EPalBodyPartsType::Weak",
       "CapsuleHalfHeight": 98.84828,
@@ -600,9 +638,12 @@
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule16_GEN_VARIABLE",
-    "Outer": "BP_WhiteAlienDragon_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.0"
+    },
     "Properties": {
       "BodyPartsType": "EPalBodyPartsType::Weak",
       "CapsuleHalfHeight": 98.84828,
@@ -622,9 +663,12 @@
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule1_GEN_VARIABLE",
-    "Outer": "BP_WhiteAlienDragon_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.0"
+    },
     "Properties": {
       "CapsuleHalfHeight": 180.94969,
       "CapsuleRadius": 55.459225,
@@ -643,9 +687,12 @@
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule2_GEN_VARIABLE",
-    "Outer": "BP_WhiteAlienDragon_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.0"
+    },
     "Properties": {
       "CapsuleHalfHeight": 123.987404,
       "CapsuleRadius": 30.883764,
@@ -664,9 +711,12 @@
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule3_GEN_VARIABLE",
-    "Outer": "BP_WhiteAlienDragon_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.0"
+    },
     "Properties": {
       "CapsuleHalfHeight": 76.121605,
       "CapsuleRadius": 15.100388,
@@ -685,9 +735,12 @@
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule4_GEN_VARIABLE",
-    "Outer": "BP_WhiteAlienDragon_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.0"
+    },
     "Properties": {
       "CapsuleHalfHeight": 76.121605,
       "CapsuleRadius": 15.100388,
@@ -706,9 +759,12 @@
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule5_GEN_VARIABLE",
-    "Outer": "BP_WhiteAlienDragon_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.0"
+    },
     "Properties": {
       "CapsuleHalfHeight": 93.85447,
       "CapsuleRadius": 45.87822,
@@ -727,9 +783,12 @@
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule6_GEN_VARIABLE",
-    "Outer": "BP_WhiteAlienDragon_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.0"
+    },
     "Properties": {
       "CapsuleHalfHeight": 93.85447,
       "CapsuleRadius": 45.87822,
@@ -748,9 +807,12 @@
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule7_GEN_VARIABLE",
-    "Outer": "BP_WhiteAlienDragon_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.0"
+    },
     "Properties": {
       "CapsuleHalfHeight": 82.98993,
       "CapsuleRadius": 44.496536,
@@ -769,9 +831,12 @@
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule8_GEN_VARIABLE",
-    "Outer": "BP_WhiteAlienDragon_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.0"
+    },
     "Properties": {
       "CapsuleHalfHeight": 82.98993,
       "CapsuleRadius": 44.496536,
@@ -790,9 +855,12 @@
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule9_GEN_VARIABLE",
-    "Outer": "BP_WhiteAlienDragon_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.0"
+    },
     "Properties": {
       "CapsuleHalfHeight": 165.95056,
       "CapsuleRadius": 44.496536,
@@ -811,9 +879,12 @@
   {
     "Type": "PalBodyPartsCapsuleComponent",
     "Name": "PalBodyPartsCapsule_GEN_VARIABLE",
-    "Outer": "BP_WhiteAlienDragon_C",
-    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.0"
+    },
     "Properties": {
       "BodyPartsType": "EPalBodyPartsType::Weak",
       "CapsuleHalfHeight": 54.8732,
@@ -833,13 +904,16 @@
   {
     "Type": "PalCharacterAroundInfoCollectorComponent",
     "Name": "AroundInfoCollectorComponent",
-    "Outer": "Default__BP_WhiteAlienDragon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+    "Outer": {
+      "ObjectName": "BP_WhiteAlienDragon_C'Default__BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.3"
+    },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_WhiteAlienDragon_C:CollisionCylinder'",
@@ -850,13 +924,16 @@
   {
     "Type": "PalCharacterCameraComponent",
     "Name": "FollowCamera",
-    "Outer": "Default__BP_WhiteAlienDragon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterCameraComponent'",
+    "Outer": {
+      "ObjectName": "BP_WhiteAlienDragon_C'Default__BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.3"
+    },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_WhiteAlienDragon_C:CameraBoom'",
@@ -872,24 +949,30 @@
   {
     "Type": "PalCharacterLiftupObjectComponent",
     "Name": "Liftup",
-    "Outer": "Default__BP_WhiteAlienDragon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+    "Outer": {
+      "ObjectName": "BP_WhiteAlienDragon_C'Default__BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.3"
+    },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalCharacterMovementComponent",
     "Name": "CharMoveComp",
-    "Outer": "Default__BP_WhiteAlienDragon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_WhiteAlienDragon_C'Default__BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.3"
+    },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "InWaterRate": 0.64,
       "Buoyancy": 1.5
@@ -898,35 +981,44 @@
   {
     "Type": "PalCharacterParameterComponent",
     "Name": "CharacterParameterComponent",
-    "Outer": "Default__BP_WhiteAlienDragon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_WhiteAlienDragon_C'Default__BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.3"
+    },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalDamageReactionComponent",
     "Name": "DamageReactionComponent",
-    "Outer": "Default__BP_WhiteAlienDragon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalDamageReactionComponent'",
+    "Outer": {
+      "ObjectName": "BP_WhiteAlienDragon_C'Default__BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.3"
+    },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalFootIKComponent",
     "Name": "FootIKComponent",
-    "Outer": "Default__BP_WhiteAlienDragon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalFootIKComponent'",
+    "Outer": {
+      "ObjectName": "BP_WhiteAlienDragon_C'Default__BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.3"
+    },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "FootIKSettings": [
         {
@@ -971,24 +1063,30 @@
   {
     "Type": "PalLookAtComponent",
     "Name": "LookAtComponent",
-    "Outer": "Default__BP_WhiteAlienDragon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalLookAtComponent'",
+    "Outer": {
+      "ObjectName": "BP_WhiteAlienDragon_C'Default__BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.3"
+    },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalPartnerSkillParameterComponent",
     "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Outer": "BP_WhiteAlienDragon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
     "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.0"
+    },
     "Template": {
       "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
     "Properties": {
       "RestrictionItems": [
         {
@@ -1187,24 +1285,30 @@
   {
     "Type": "PalPassiveSkillComponent",
     "Name": "PassiveSkillComponent",
-    "Outer": "Default__BP_WhiteAlienDragon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalPassiveSkillComponent'",
+    "Outer": {
+      "ObjectName": "BP_WhiteAlienDragon_C'Default__BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.3"
+    },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalShooterSpringArmComponent",
     "Name": "CameraBoom",
-    "Outer": "Default__BP_WhiteAlienDragon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalShooterSpringArmComponent'",
+    "Outer": {
+      "ObjectName": "BP_WhiteAlienDragon_C'Default__BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.3"
+    },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "WalkCameraArmLength": 800.0,
       "WalkCameraOffset": {
@@ -1244,13 +1348,16 @@
   {
     "Type": "PalSkeletalMeshComponent",
     "Name": "CharacterMesh0",
-    "Outer": "Default__BP_WhiteAlienDragon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_WhiteAlienDragon_C'Default__BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.3"
+    },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "bIsEnableGroundTilt": true,
       "PitchAngle": 15.0,
@@ -1281,9 +1388,12 @@
   {
     "Type": "PalSpeedCollisionComponent",
     "Name": "PalSpeedCollision_GEN_VARIABLE",
-    "Outer": "BP_WhiteAlienDragon_C",
-    "Class": "UScriptClass'PalSpeedCollisionComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalSpeedCollisionComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.0"
+    },
     "Properties": {
       "RelativeLocation": {
         "X": -5.3290705E-14,
@@ -1305,13 +1415,16 @@
   {
     "Type": "PalStaticCharacterParameterComponent",
     "Name": "StaticCharacterParameterComponent",
-    "Outer": "Default__BP_WhiteAlienDragon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_WhiteAlienDragon_C'Default__BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.3"
+    },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "MeshCapsuleHalfHeight": 150.0,
       "MeshCapsuleRadius": 120.0,
@@ -1629,38 +1742,50 @@
   {
     "Type": "PalStatusComponent",
     "Name": "StatusComponent",
-    "Outer": "Default__BP_WhiteAlienDragon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalStatusComponent'",
+    "Outer": {
+      "ObjectName": "BP_WhiteAlienDragon_C'Default__BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.3"
+    },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "PalVisualEffectComponent",
     "Name": "VisualEffectComponent",
-    "Outer": "Default__BP_WhiteAlienDragon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalVisualEffectComponent'",
+    "Outer": {
+      "ObjectName": "BP_WhiteAlienDragon_C'Default__BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.3"
+    },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
-    },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    }
   },
   {
     "Type": "SceneComponent",
     "Name": "DefaultSceneRoot_GEN_VARIABLE",
-    "Outer": "BP_WhiteAlienDragon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'SceneComponent'",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.0"
+    }
   },
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_0",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WhiteAlienDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.62"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'SceneComponent'",
@@ -1677,9 +1802,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_1",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WhiteAlienDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.62"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "BlueprintGeneratedClass'BP_PalRideMarkerBiggerHorse_C'",
@@ -1699,9 +1827,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_10",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WhiteAlienDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.62"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -1721,9 +1852,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_11",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WhiteAlienDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.62"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -1743,9 +1877,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_12",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WhiteAlienDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.62"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -1765,9 +1902,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_13",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WhiteAlienDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.62"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -1787,9 +1927,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_14",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WhiteAlienDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.62"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -1809,9 +1952,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_15",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WhiteAlienDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.62"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -1831,9 +1977,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_16",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WhiteAlienDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.62"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -1853,9 +2002,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_17",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WhiteAlienDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.62"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -1875,9 +2027,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_18",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WhiteAlienDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.62"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -1897,9 +2052,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_19",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WhiteAlienDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.62"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -1919,9 +2077,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_2",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WhiteAlienDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.62"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalSpeedCollisionComponent'",
@@ -1940,9 +2101,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_20",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WhiteAlienDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.62"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -1962,9 +2126,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_4",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WhiteAlienDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.62"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -1984,9 +2151,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_5",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WhiteAlienDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.62"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -2006,9 +2176,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_6",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WhiteAlienDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.62"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -2028,9 +2201,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_7",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WhiteAlienDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.62"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -2050,9 +2226,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_8",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WhiteAlienDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.62"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -2072,9 +2251,12 @@
   {
     "Type": "SCS_Node",
     "Name": "SCS_Node_9",
-    "Outer": "SimpleConstructionScript_0",
-    "Class": "UScriptClass'SCS_Node'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WhiteAlienDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.62"
+    },
     "Properties": {
       "ComponentClass": {
         "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
@@ -2094,9 +2276,12 @@
   {
     "Type": "SimpleConstructionScript",
     "Name": "SimpleConstructionScript_0",
-    "Outer": "BP_WhiteAlienDragon_C",
-    "Class": "UScriptClass'SimpleConstructionScript'",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.0"
+    },
     "Properties": {
       "RootNodes": [
         {
@@ -2263,13 +2448,16 @@
   {
     "Type": "SphereComponent",
     "Name": "RagdollInteractiveSphere",
-    "Outer": "Default__BP_WhiteAlienDragon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BP_WhiteAlienDragon_C'Default__BP_WhiteAlienDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteAlienDragon/BP_WhiteAlienDragon.3"
+    },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_WhiteAlienDragon_C:CollisionCylinder'",
