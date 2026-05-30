@@ -7,6 +7,7 @@ import passiveSkills from "~/raw_data/Pal/Content/Pal/DataTable/PassiveSkill/DT_
 import attackDataTable from "~/raw_data/Pal/Content/Pal/DataTable/Waza/DT_WazaDataTable.json";
 import { convertDataTableType } from "~/utils/convertDataTableType";
 import { mapCellValue } from "~/utils/mapCellValue";
+import { mapWorkSkills } from "~/utils/mapWorkSkills";
 import type { CustomFieldProps } from "./customFields";
 
 /* eslint-disable @typescript-eslint/naming-convention */
@@ -103,15 +104,22 @@ export function PartnerSkill(props: CustomFieldProps<string>): JSXElement {
                         if (passiveSkillData === undefined) {
                             continue;
                         }
+                        const affectedSkill =
+                            skill.Value.WorkType !== "EPalWorkType::None"
+                                ? skill.Value.WorkType.replace("EPalWorkType::", "")
+                                : undefined;
                         for (let i = 1; i <= 3; i++) {
                             const targetType = passiveSkillData[`TargetType${i as 1 | 2 | 3}`];
                             const target = targetMapping[targetType] ?? "none";
-                            const effectType = passiveSkillData[`EffectType${i as 1 | 2 | 3}`].replace(
+                            let effectType = passiveSkillData[`EffectType${i as 1 | 2 | 3}`].replace(
                                 "EPalPassiveSkillEffectType::",
                                 ""
                             );
                             if (target === "none" || effectType === "no") {
                                 continue;
+                            }
+                            if (effectType === "CraftSpeed" && affectedSkill !== undefined) {
+                                effectType = `Work Speed ${mapWorkSkills(affectedSkill)}`;
                             }
                             skills[`${effectType}-${i}`] ??= {};
                             const effectValue = passiveSkillData[`EffectValue${i as 1 | 2 | 3}`];
@@ -138,9 +146,10 @@ export function PartnerSkill(props: CustomFieldProps<string>): JSXElement {
                                         length: level,
                                     }).fill(1);
                                 }
-                                skills[`${effectType}-${i}`][property]!.push(
-                                    property === "power" ? effectValue : effectValue / 100 + 1
-                                );
+                                const computedEffectValue = property === "power" ? effectValue : effectValue / 100 + 1;
+                                if (skills[`${effectType}-${i}`][property]!.at(-1) !== computedEffectValue) {
+                                    skills[`${effectType}-${i}`][property]!.push(computedEffectValue);
+                                }
                             }
                         }
                     }
