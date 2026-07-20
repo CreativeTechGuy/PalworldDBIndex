@@ -12,11 +12,11 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_BrownRabbit_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.35"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_BrownRabbit_C:InheritableComponentHandler'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.3"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.4"
       }
     },
     "SuperStruct": {
@@ -26,13 +26,68 @@
     "ChildProperties": [
       {
         "Type": "ObjectProperty",
-        "Name": "Sphere",
+        "Name": "PalBodyPartsCapsule5",
         "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
         "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class'SphereComponent'",
-          "ObjectPath": "/Script/Engine"
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
         }
       }
     ],
@@ -64,80 +119,97 @@
     "Properties": {
       "LiftupObjectComponent": {
         "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_BrownRabbit_C:Liftup'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.8"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.15"
       },
       "ActionComponent": {
         "ObjectName": "PalActionComponent'Default__BP_BrownRabbit_C:ActionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.4"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.5"
       },
       "CharacterParameterComponent": {
         "ObjectName": "PalCharacterParameterComponent'Default__BP_BrownRabbit_C:CharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.10"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.17"
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_BrownRabbit_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.17"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.24"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_BrownRabbit_C:DamageReactionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.11"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.18"
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_BrownRabbit_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.18"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.25"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_BrownRabbit_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.15"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.22"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_BrownRabbit_C:FollowCamera'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.7"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.14"
       },
       "LookAtComponent": {
         "ObjectName": "PalLookAtComponent'Default__BP_BrownRabbit_C:LookAtComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.13"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.20"
       },
       "FootIKComponent": {
         "ObjectName": "PalFootIKComponent'Default__BP_BrownRabbit_C:FootIKComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.12"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.19"
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_BrownRabbit_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.19"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.26"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_BrownRabbit_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.14"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.21"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_BrownRabbit_C:AnimNotifyComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.5"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.6"
       },
       "AroundInfoCollectorComponent": {
         "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_BrownRabbit_C:AroundInfoCollectorComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.6"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.13"
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_BrownRabbit_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.25"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.36"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_BrownRabbit_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.16"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.23"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_BrownRabbit_C:CharMoveComp'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.9"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.16"
       },
       "CapsuleComponent": {
         "ObjectName": "CapsuleComponent'Default__BP_BrownRabbit_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.3"
       },
       "RootComponent": {
         "ObjectName": "CapsuleComponent'Default__BP_BrownRabbit_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.3"
       }
+    }
+  },
+  {
+    "Type": "BP_PalCryComponent_C",
+    "Name": "BP_PalCryComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.BP_PalCryComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BrownRabbit_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalCryComponent_C'BP_MonsterBase_C:BP_PalCryComponent_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.2"
+    },
+    "Properties": {
+      "CryPalID": "EPalTribeID::BrownRabbit"
     }
   },
   {
@@ -166,6 +238,32 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'BP_BrownRabbit_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
+            "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BP_PalCryComponent_C'BP_BrownRabbit_C:BP_PalCryComponent_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.2"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+            },
+            "SCSVariableName": "BP_PalCryComponent",
+            "AssociatedGuid": "A971BE27-4B3C10FC-863FA284-ECDC3286"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
     }
   },
   {
@@ -179,7 +277,7 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
     }
   },
   {
@@ -193,7 +291,152 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BrownRabbit_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 30.0,
+      "CapsuleRadius": 25.0,
+      "RelativeLocation": {
+        "X": 5.217691,
+        "Y": -5.8719215,
+        "Z": 0.7445175
+      },
+      "RelativeRotation": {
+        "Pitch": -77.43232,
+        "Yaw": -89.55441,
+        "Roll": 92.46617
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BrownRabbit_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 30.0,
+      "CapsuleRadius": 15.0,
+      "RelativeLocation": {
+        "X": 14.951802,
+        "Y": -0.5003951,
+        "Z": -0.43606755
+      },
+      "RelativeRotation": {
+        "Pitch": -77.43232,
+        "Yaw": -89.55441,
+        "Roll": 92.46617
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule3_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BrownRabbit_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 30.0,
+      "CapsuleRadius": 15.0,
+      "RelativeLocation": {
+        "X": -15.009707,
+        "Y": -1.993402,
+        "Z": -0.15518041
+      },
+      "RelativeRotation": {
+        "Pitch": -77.43232,
+        "Yaw": -89.55441,
+        "Roll": 92.46617
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule4_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BrownRabbit_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 30.0,
+      "CapsuleRadius": 15.0,
+      "RelativeLocation": {
+        "X": -15.154448,
+        "Y": -0.584906,
+        "Z": 1.3765069
+      },
+      "RelativeRotation": {
+        "Pitch": -47.13835,
+        "Yaw": -95.20316,
+        "Roll": 78.988045
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule5_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BrownRabbit_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 30.0,
+      "CapsuleRadius": 15.0,
+      "RelativeLocation": {
+        "X": 5.217691,
+        "Y": -5.8719215,
+        "Z": 0.7445175
+      },
+      "RelativeRotation": {
+        "Pitch": -77.43232,
+        "Yaw": -89.55441,
+        "Roll": 82.46617
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BrownRabbit_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.0"
+    },
+    "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Weak",
+      "CapsuleHalfHeight": 28.0,
+      "CapsuleRadius": 28.0,
+      "RelativeLocation": {
+        "X": 0.5449876,
+        "Y": 7.9497204,
+        "Z": 109.807976
+      },
+      "RelativeRotation": {
+        "Pitch": -0.53646344,
+        "Yaw": 2.8527362,
+        "Roll": 12.556412
+      }
     }
   },
   {
@@ -207,12 +450,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_BrownRabbit_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.3"
       }
     }
   },
@@ -227,12 +470,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_BrownRabbit_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.15"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.22"
       }
     }
   },
@@ -247,7 +490,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -261,7 +504,11 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+    },
+    "Properties": {
+      "InWaterRate": 0.64,
+      "Buoyancy": 1.5
     }
   },
   {
@@ -275,7 +522,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -289,7 +536,7 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
     }
   },
   {
@@ -303,7 +550,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     }
   },
   {
@@ -317,7 +564,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
     }
   },
   {
@@ -331,7 +578,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -345,12 +592,12 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_BrownRabbit_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.3"
       },
       "RelativeLocation": {
         "X": 0.0,
@@ -370,7 +617,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
       "AnimClass": {
@@ -379,15 +626,15 @@
       },
       "SkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_BrownRabbit'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/BrownRabbit/SK_BrownRabbit"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/BrownRabbit/SK_BrownRabbit.0"
       },
       "SkinnedAsset": {
         "ObjectName": "SkeletalMesh'SK_BrownRabbit'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/BrownRabbit/SK_BrownRabbit"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/BrownRabbit/SK_BrownRabbit.0"
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_BrownRabbit_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.3"
       },
       "RelativeLocation": {
         "X": 0.0,
@@ -407,7 +654,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 66.0,
@@ -421,7 +668,7 @@
         {
           "RandomRestMontage": {
             "ObjectName": "AnimMontage'AM_BrownRabbit_Rest01'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_Rest01"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_Rest01.0"
           },
           "Weight": 1.0,
           "LoopNum_Min": 1,
@@ -431,7 +678,7 @@
         {
           "RandomRestMontage": {
             "ObjectName": "AnimMontage'AM_BrownRabbit_Eat'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_Eat"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_Eat.0"
           },
           "Weight": 1.0,
           "LoopNum_Min": 2,
@@ -441,7 +688,7 @@
         {
           "RandomRestMontage": {
             "ObjectName": "AnimMontage'AM_BrownRabbit_Rest03'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_Rest03"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_Rest03.0"
           },
           "Weight": 1.0,
           "LoopNum_Min": 5,
@@ -454,14 +701,14 @@
           "Key": "EPalGeneralAnimSequenceType::JumpLoop",
           "Value": {
             "ObjectName": "AnimSequence'AS_BrownRabbit_JumpLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AS_BrownRabbit_JumpLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AS_BrownRabbit_JumpLoop.0"
           }
         },
         {
           "Key": "EPalGeneralAnimSequenceType::JumpEnd",
           "Value": {
             "ObjectName": "AnimSequence'AS_BrownRabbit_JumpEnd'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AS_BrownRabbit_JumpEnd"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AS_BrownRabbit_JumpEnd.0"
           }
         }
       ],
@@ -470,77 +717,77 @@
           "Key": "EPalGeneralMontageType::GeneralAttackReady_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_BrownRabbit_FarSkill_Start'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_FarSkill_Start"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_FarSkill_Start.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackReadyLoop_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_BrownRabbit_FarSkill_StartLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_FarSkill_StartLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_FarSkill_StartLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackProcess_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_BrownRabbit_FarSkill_Action'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_FarSkill_Action"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_FarSkill_Action.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackProcessLoop_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_BrownRabbit_FarSkill_ActionLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_FarSkill_ActionLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_FarSkill_ActionLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackAfter_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_BrownRabbit_FarSkill_End'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_FarSkill_End"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_FarSkill_End.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepStart",
           "Value": {
             "ObjectName": "AnimMontage'AM_BrownRabbit_SleepStart'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_SleepStart"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_SleepStart.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepLoop",
           "Value": {
             "ObjectName": "AnimMontage'AM_BrownRabbit_SleepLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_SleepLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_SleepLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepEnd",
           "Value": {
             "ObjectName": "AnimMontage'AM_BrownRabbit_SleepEnd'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_SleepEnd"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_SleepEnd.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::DamageAdditive",
           "Value": {
             "ObjectName": "AnimMontage'AM_BrownRabbit_Hit'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_Hit"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_Hit.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::BeLiftupStart",
           "Value": {
             "ObjectName": "AnimMontage'AM_BrownRabbit_Carrying_Start'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_Carrying_Start"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_Carrying_Start.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::BeLiftupLoop",
           "Value": {
             "ObjectName": "AnimMontage'AM_BrownRabbit_Carrying'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_Carrying"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_Carrying.0"
           }
         }
       ],
@@ -558,6 +805,13 @@
             "ObjectName": "BlendSpace1D'BS_Transport_BrownRabbit'",
             "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BS_Transport_BrownRabbit.0"
           }
+        },
+        {
+          "Key": "EPalGeneralBlendSpaceType::Swim",
+          "Value": {
+            "ObjectName": "BlendSpace1D'BS_Swim_BrownRabbit'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BS_Swim_BrownRabbit.0"
+          }
         }
       ],
       "ActionMontageMap": [
@@ -565,86 +819,166 @@
           "Key": "EPalActionType::Menace",
           "Value": {
             "ObjectName": "AnimMontage'AM_BrownRabbit_Encount'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_Encount"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_Encount.0"
           }
         },
         {
           "Key": "EPalActionType::Eat",
           "Value": {
             "ObjectName": "AnimMontage'AM_BrownRabbit_Eat'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_Eat"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_Eat.0"
           }
         },
         {
           "Key": "EPalActionType::KnockBack",
           "Value": {
             "ObjectName": "AnimMontage'AM_BrownRabbit_Damage'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_Damage"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_Damage.0"
           }
         },
         {
           "Key": "EPalActionType::ForwardWalk",
           "Value": {
             "ObjectName": "AnimMontage'AM_BrownRabbit_Walk'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_Walk"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_Walk.0"
           }
         },
         {
           "Key": "EPalActionType::Architecture",
           "Value": {
             "ObjectName": "AnimMontage'AM_BrownRabbit_Architecture'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_Architecture"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_Architecture.0"
           }
         },
         {
           "Key": "EPalActionType::Mining",
           "Value": {
             "ObjectName": "AnimMontage'AM_BrownRabbit_Mining'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_Mining"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_Mining.0"
           }
         },
         {
           "Key": "EPalActionType::GetupUtubuse_orRight",
           "Value": {
             "ObjectName": "AnimMontage'AM_BrownRabbit_GetUp_FrontDown'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_GetUp_FrontDown"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_GetUp_FrontDown.0"
           }
         },
         {
           "Key": "EPalActionType::PalPetting",
           "Value": {
             "ObjectName": "AnimMontage'AM_BrownRabbit_Petting'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_Petting"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_Petting.0"
           }
         },
         {
           "Key": "EPalActionType::CommonWork",
           "Value": {
             "ObjectName": "AnimMontage'AM_BrownRabbit_CommonWork'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_CommonWork"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_CommonWork.0"
           }
         },
         {
           "Key": "EPalActionType::ElectricShock",
           "Value": {
             "ObjectName": "AnimMontage'AM_BrownRabbit_ElectricShock'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_ElectricShock"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_ElectricShock.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::DefenseGunner",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_BrownRabbit_Gunner'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_Gunner.0"
           }
         },
         {
           "Key": "EPalActionType::IdleInSpa",
           "Value": {
             "ObjectName": "AnimMontage'AM_BrownRabbit_Spa'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_Spa"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_Spa.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::FishPond",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_BrownRabbit_FishPond'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_FishPond.0"
           }
         }
       ],
+      "SleepOnSideInfoMapForMapObject": [
+        {
+          "Key": {
+            "Key": "MedicalPalBed_02"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -30.0,
+              "Y": 50.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_03"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -30.0,
+              "Y": 50.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_04"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -30.0,
+              "Y": 150.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        }
+      ],
+      "SleepOnSideAnimMontage": {
+        "ObjectName": "AnimMontage'AM_BrownRabbit_SleepLoopTogether'",
+        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BrownRabbit/AM_BrownRabbit_SleepLoopTogether.0"
+      },
       "HPGaugeUIOffset": {
         "X": 0.0,
         "Y": 36.0
       },
+      "GetupMotion_UtubuseOrRight_0FramePelvisLocation": {
+        "X": 0.0,
+        "Y": 91.46087,
+        "Z": 11.049159
+      },
       "PettingSize": "EPalPettingSizeType::SmallMiddle",
-      "PettingDistance": 90.0
+      "PettingDistance": 90.0,
+      "DefenseBuildObjectAssignDistance": 20.0
     }
   },
   {
@@ -658,7 +992,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     }
   },
   {
@@ -672,7 +1006,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -692,7 +1026,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_BrownRabbit_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -701,7 +1035,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_BrownRabbit_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.20"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.27"
       },
       "VariableGuid": "36BFF3F7-4ECCEA54-D35D5297-3E0462E3",
       "InternalVariableName": "DefaultSceneRoot"
@@ -709,27 +1043,151 @@
   },
   {
     "Type": "SCS_Node",
-    "Name": "SCS_Node_1",
+    "Name": "SCS_Node_2",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_BrownRabbit_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.35"
     },
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class'SphereComponent'",
-        "ObjectPath": "/Script/Engine"
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
       },
       "ComponentTemplate": {
-        "ObjectName": "SphereComponent'BP_BrownRabbit_C:Sphere_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.24"
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_BrownRabbit_C:PalBodyPartsCapsule_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.12"
       },
-      "AttachToName": "head",
       "ParentComponentOrVariableName": "CharacterMesh0",
       "bIsParentComponentNative": true,
-      "VariableGuid": "679B1FB1-4F9DDF4B-6EC1518E-3E8C2F3F",
-      "InternalVariableName": "Sphere"
+      "VariableGuid": "37BB1C41-4CD35A4E-78663B93-9A4A030D",
+      "InternalVariableName": "PalBodyPartsCapsule"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BrownRabbit_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_BrownRabbit_C:PalBodyPartsCapsule1_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.7"
+      },
+      "AttachToName": "pelvis",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "0D030FF9-4D01A5E9-E8C464B0-0ACF5150",
+      "InternalVariableName": "PalBodyPartsCapsule1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BrownRabbit_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_BrownRabbit_C:PalBodyPartsCapsule2_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.8"
+      },
+      "AttachToName": "lowerarm_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "1F5CCF95-47115783-0FF92E8B-E4963B49",
+      "InternalVariableName": "PalBodyPartsCapsule2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BrownRabbit_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_BrownRabbit_C:PalBodyPartsCapsule3_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.9"
+      },
+      "AttachToName": "lowerarm_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "BD7F2DA9-45E4B22B-5908E6AE-53EFD66E",
+      "InternalVariableName": "PalBodyPartsCapsule3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BrownRabbit_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_BrownRabbit_C:PalBodyPartsCapsule4_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.10"
+      },
+      "AttachToName": "thigh_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "A09F6927-46128E9C-00974290-875BC3CB",
+      "InternalVariableName": "PalBodyPartsCapsule4"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BrownRabbit_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_BrownRabbit_C:PalBodyPartsCapsule5_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.11"
+      },
+      "AttachToName": "thigh_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "17ADD399-4A15E4E8-667D688E-113C70B0",
+      "InternalVariableName": "PalBodyPartsCapsule5"
     }
   },
   {
@@ -744,30 +1202,60 @@
     "Properties": {
       "RootNodes": [
         {
-          "ObjectName": "SCS_Node'BP_BrownRabbit_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.22"
+          "ObjectName": "SCS_Node'BP_BrownRabbit_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BrownRabbit_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BrownRabbit_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BrownRabbit_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BrownRabbit_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BrownRabbit_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.34"
         }
       ],
       "AllNodes": [
         {
-          "ObjectName": "SCS_Node'BP_BrownRabbit_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.22"
+          "ObjectName": "SCS_Node'BP_BrownRabbit_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BrownRabbit_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BrownRabbit_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BrownRabbit_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BrownRabbit_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BrownRabbit_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.34"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_BrownRabbit_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.21"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.28"
       }
-    }
-  },
-  {
-    "Type": "SphereComponent",
-    "Name": "Sphere_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-    "Class": "UScriptClass'SphereComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_BrownRabbit_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.0"
     }
   },
   {
@@ -781,12 +1269,12 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_BrownRabbit_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BrownRabbit/BP_BrownRabbit.3"
       }
     }
   }

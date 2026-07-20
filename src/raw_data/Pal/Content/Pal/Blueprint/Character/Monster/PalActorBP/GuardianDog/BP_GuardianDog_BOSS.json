@@ -41,7 +41,7 @@
   {
     "Type": "BP_GuardianDog_BOSS_C",
     "Name": "Default__BP_GuardianDog_BOSS_C",
-    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GuardianDog/BP_GuardianDog_BOSS.BP_GuardianDog_BOSS_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GuardianDog/BP_GuardianDog_BOSS",
     "Template": {
@@ -314,7 +314,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_GuardianDog_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GuardianDog/BP_GuardianDog.20"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GuardianDog/BP_GuardianDog.19"
     }
   },
   {
@@ -328,32 +328,32 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_GuardianDog_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GuardianDog/BP_GuardianDog.21"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GuardianDog/BP_GuardianDog.20"
     },
     "Properties": {
-      "WalkCameraArmLength": 550.0,
+      "WalkCameraArmLength": 270.0,
       "WalkCameraOffset": {
         "X": 0.0,
-        "Y": 110.0,
+        "Y": 80.0,
         "Z": 100.0
       },
-      "AimCameraArmLength": 170.0,
-      "AimCameraOffset": {
+      "HipShootCameraArmLength": 270.0,
+      "HipShootCameraOffset": {
         "X": 0.0,
-        "Y": 50.0,
-        "Z": 95.0
+        "Y": 80.0,
+        "Z": 100.0
       },
-      "AirCameraArmLength": 550.0,
+      "AirCameraArmLength": 270.0,
       "AirCameraOffset": {
         "X": 0.0,
-        "Y": 110.0,
+        "Y": 80.0,
         "Z": 100.0
       },
-      "AirAimCameraArmLength": 170.0,
-      "AirAimCameraOffset": {
+      "AirHipShootCameraArmLength": 270.0,
+      "AirHipShootCameraOffset": {
         "X": 0.0,
-        "Y": 50.0,
-        "Z": 95.0
+        "Y": 80.0,
+        "Z": 100.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_GuardianDog_BOSS_C:CollisionCylinder'",
@@ -377,7 +377,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_GuardianDog_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GuardianDog/BP_GuardianDog.22"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GuardianDog/BP_GuardianDog.21"
     },
     "Properties": {
       "AttachParent": {
@@ -407,7 +407,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_GuardianDog_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GuardianDog/BP_GuardianDog.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GuardianDog/BP_GuardianDog.22"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 72.78927,
@@ -474,7 +474,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_GuardianDog_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GuardianDog/BP_GuardianDog.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GuardianDog/BP_GuardianDog.23"
     }
   },
   {
@@ -488,7 +488,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_GuardianDog_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GuardianDog/BP_GuardianDog.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GuardianDog/BP_GuardianDog.24"
     }
   },
   {
@@ -550,7 +550,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_GuardianDog_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GuardianDog/BP_GuardianDog.33"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GuardianDog/BP_GuardianDog.32"
     },
     "Properties": {
       "AttachParent": {

@@ -12,7 +12,7 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_Kitsunebi_Ice_BOSS_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi_Ice_BOSS.25"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi_Ice_BOSS.24"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_Kitsunebi_Ice_BOSS_C:InheritableComponentHandler'",
@@ -83,7 +83,7 @@
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_Kitsunebi_Ice_BOSS_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi_Ice_BOSS.20"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi_Ice_BOSS.19"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_Kitsunebi_Ice_BOSS_C:DamageReactionComponent'",
@@ -91,11 +91,11 @@
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_Kitsunebi_Ice_BOSS_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi_Ice_BOSS.21"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi_Ice_BOSS.20"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_Kitsunebi_Ice_BOSS_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi_Ice_BOSS.18"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi_Ice_BOSS.17"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_Kitsunebi_Ice_BOSS_C:FollowCamera'",
@@ -111,11 +111,11 @@
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_Kitsunebi_Ice_BOSS_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi_Ice_BOSS.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi_Ice_BOSS.21"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_Kitsunebi_Ice_BOSS_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi_Ice_BOSS.17"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi_Ice_BOSS.16"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_Kitsunebi_Ice_BOSS_C:AnimNotifyComponent'",
@@ -127,11 +127,11 @@
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_Kitsunebi_Ice_BOSS_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi_Ice_BOSS.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi_Ice_BOSS.25"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_Kitsunebi_Ice_BOSS_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi_Ice_BOSS.19"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi_Ice_BOSS.18"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_Kitsunebi_Ice_BOSS_C:CharMoveComp'",
@@ -198,20 +198,20 @@
       "Records": [
         {
           "ComponentClass": {
-            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-            "ObjectPath": "/Script/Pal"
+            "ObjectName": "BlueprintGeneratedClass'BP_CoopParam_Weapon_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/CoopParam/BP_CoopParam_Weapon.0"
           },
           "ComponentTemplate": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_Kitsunebi_Ice_BOSS_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi_Ice_BOSS.16"
+            "ObjectName": "BP_CoopParam_Weapon_C'BP_Kitsunebi_Ice_BOSS_C:BP_CoopParam_Weapon_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi_Ice_BOSS.1"
           },
           "ComponentKey": {
             "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+              "ObjectName": "BlueprintGeneratedClass'BP_Kitsunebi_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi.0"
             },
-            "SCSVariableName": "PalPartnerSkillParameter",
-            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
+            "SCSVariableName": "BP_CoopParam_Weapon",
+            "AssociatedGuid": "23157E65-48C41A59-6AB48BB6-B3D7D6EA"
           },
           "CookedComponentInstancingData": {
             "ChangedPropertyList": [],
@@ -234,28 +234,6 @@
             },
             "SCSVariableName": "BP_PalTimerPointLightComponent",
             "AssociatedGuid": "9971F471-4D17A9F3-C81F2D85-7CA3594F"
-          },
-          "CookedComponentInstancingData": {
-            "ChangedPropertyList": [],
-            "bHasValidCookedData": false
-          }
-        },
-        {
-          "ComponentClass": {
-            "ObjectName": "BlueprintGeneratedClass'BP_CoopParam_Weapon_C'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/CoopParam/BP_CoopParam_Weapon.0"
-          },
-          "ComponentTemplate": {
-            "ObjectName": "BP_CoopParam_Weapon_C'BP_Kitsunebi_Ice_BOSS_C:BP_CoopParam_Weapon_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi_Ice_BOSS.1"
-          },
-          "ComponentKey": {
-            "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass'BP_Kitsunebi_C'",
-              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi.0"
-            },
-            "SCSVariableName": "BP_CoopParam_Weapon",
-            "AssociatedGuid": "23157E65-48C41A59-6AB48BB6-B3D7D6EA"
           },
           "CookedComponentInstancingData": {
             "ChangedPropertyList": [],
@@ -329,7 +307,7 @@
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_Kitsunebi_Ice_BOSS_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi_Ice_BOSS.18"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi_Ice_BOSS.17"
       }
     }
   },
@@ -415,28 +393,6 @@
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_Kitsunebi_BOSS_C:LookAtComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi_BOSS.13"
-    }
-  },
-  {
-    "Type": "PalPartnerSkillParameterComponent",
-    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_Kitsunebi_Ice_BOSS_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi_Ice_BOSS.0"
-    },
-    "Template": {
-      "ObjectName": "PalPartnerSkillParameterComponent'BP_Kitsunebi_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi.26"
-    },
-    "Properties": {
-      "RestrictionItems": [
-        {
-          "Key": "SkillUnlock_Kitsunebi_Ice"
-        }
-      ],
-      "SkillName": "Flamethrower_Ice"
     }
   },
   {
@@ -560,7 +516,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_Kitsunebi_Ice_BOSS_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi_Ice_BOSS.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi_Ice_BOSS.24"
     },
     "Properties": {
       "ComponentClass": {
@@ -569,7 +525,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_Kitsunebi_Ice_BOSS_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi_Ice_BOSS.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi_Ice_BOSS.22"
       },
       "VariableGuid": "D6CA2ABD-498D4D5A-287CABA2-45A01EFD",
       "InternalVariableName": "DefaultSceneRoot"
@@ -587,7 +543,7 @@
     "Properties": {
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_Kitsunebi_Ice_BOSS_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi_Ice_BOSS.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kitsunebi/BP_Kitsunebi_Ice_BOSS.23"
       }
     }
   },

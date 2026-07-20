@@ -1,0 +1,1757 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_BlueSkyDragon_GYM_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BlueSkyDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon.0"
+    },
+    "Properties": {
+      "NumReplicatedProperties": 1,
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.55"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_BlueSkyDragon_GYM_C:InheritableComponentHandler'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.8"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_BlueSkyDragon_GYM_C:ExecuteUbergraph_BP_BlueSkyDragon_GYM'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BlueSkyDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon.0"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_BlueSkyDragon_GYM_C:GetCurrentInstanceRoot'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.6"
+      },
+      {
+        "ObjectName": "Function'BP_BlueSkyDragon_GYM_C:SetBossCurrentInstanceRoot'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.7"
+      },
+      {
+        "ObjectName": "Function'BP_BlueSkyDragon_GYM_C:ExecuteUbergraph_BP_BlueSkyDragon_GYM'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.5"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalFlyMeshHeightCtrl_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalFlyMeshHeightCtrlComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule10",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_PalBossNPCMarker",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PalBossNPCMarker_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/NPC/Boss/BP_PalBossNPCMarker.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_PalRideMarkerBiggerHorse1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PalRideMarkerBiggerHorse_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerBiggerHorse.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule9_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule8_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule7_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule6_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule5_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule4_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule3_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule2_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule1_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CurrentBossBattleInstanceRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | Net | DisableEditOnTemplate | Transient | DisableEditOnInstance",
+        "RepIndex": 31,
+        "PropertyClass": {
+          "ObjectName": "Class'PalBossBattleInstanceRoot'",
+          "ObjectPath": "/Script/Pal"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_BlueSkyDragon_GYM": {
+        "ObjectName": "Function'BP_BlueSkyDragon_GYM_C:ExecuteUbergraph_BP_BlueSkyDragon_GYM'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.5"
+      },
+      "SetBossCurrentInstanceRoot": {
+        "ObjectName": "Function'BP_BlueSkyDragon_GYM_C:SetBossCurrentInstanceRoot'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.7"
+      },
+      "GetCurrentInstanceRoot": {
+        "ObjectName": "Function'BP_BlueSkyDragon_GYM_C:GetCurrentInstanceRoot'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.6"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "Interfaces": [
+      {
+        "Class": {
+          "ObjectName": "BlueprintGeneratedClass'BI_PalTowerBossLevelInstanceInterface_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Interface/BI_PalTowerBossLevelInstanceInterface.1"
+        },
+        "PointerOffset": 0,
+        "bImplementedByK2": true
+      }
+    ],
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_BlueSkyDragon_GYM_C'Default__BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal",
+      "ImplementedInterfaces": "((Interface=/Script/Engine.BlueprintGeneratedClass'\"/Game/Pal/Blueprint/Interface/BI_PalTowerBossLevelInstanceInterface.BI_PalTowerBossLevelInstanceInterface_C\"'))"
+    }
+  },
+  {
+    "Type": "BP_BlueSkyDragon_GYM_C",
+    "Name": "Default__BP_BlueSkyDragon_GYM_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.BP_BlueSkyDragon_GYM_C'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM",
+    "Template": {
+      "ObjectName": "BP_BlueSkyDragon_C'Default__BP_BlueSkyDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon.1"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "LiftupObjectComponent": {
+        "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_BlueSkyDragon_GYM_C:Liftup'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.25"
+      },
+      "DefaultVoiceID": 19,
+      "ActionComponent": {
+        "ObjectName": "PalActionComponent'Default__BP_BlueSkyDragon_GYM_C:ActionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.9"
+      },
+      "CharacterParameterComponent": {
+        "ObjectName": "PalCharacterParameterComponent'Default__BP_BlueSkyDragon_GYM_C:CharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.27"
+      },
+      "StaticCharacterParameterComponent": {
+        "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_BlueSkyDragon_GYM_C:StaticCharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.36"
+      },
+      "DamageReactionComponent": {
+        "ObjectName": "PalDamageReactionComponent'Default__BP_BlueSkyDragon_GYM_C:DamageReactionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.28"
+      },
+      "StatusComponent": {
+        "ObjectName": "PalStatusComponent'Default__BP_BlueSkyDragon_GYM_C:StatusComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.37"
+      },
+      "CameraBoom": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_BlueSkyDragon_GYM_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.34"
+      },
+      "FollowCamera": {
+        "ObjectName": "PalCharacterCameraComponent'Default__BP_BlueSkyDragon_GYM_C:FollowCamera'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.24"
+      },
+      "LookAtComponent": {
+        "ObjectName": "PalLookAtComponent'Default__BP_BlueSkyDragon_GYM_C:LookAtComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.31"
+      },
+      "FootIKComponent": {
+        "ObjectName": "PalFootIKComponent'Default__BP_BlueSkyDragon_GYM_C:FootIKComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.30"
+      },
+      "VisualEffectComponent": {
+        "ObjectName": "PalVisualEffectComponent'Default__BP_BlueSkyDragon_GYM_C:VisualEffectComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.38"
+      },
+      "PassiveSkillComponent": {
+        "ObjectName": "PalPassiveSkillComponent'Default__BP_BlueSkyDragon_GYM_C:PassiveSkillComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.33"
+      },
+      "AnimNotifyComponent": {
+        "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_BlueSkyDragon_GYM_C:AnimNotifyComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.10"
+      },
+      "AroundInfoCollectorComponent": {
+        "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_BlueSkyDragon_GYM_C:AroundInfoCollectorComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.23"
+      },
+      "RagdollInteractiveSphere": {
+        "ObjectName": "SphereComponent'Default__BP_BlueSkyDragon_GYM_C:RagdollInteractiveSphere'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.56"
+      },
+      "Mesh": {
+        "ObjectName": "PalSkeletalMeshComponent'Default__BP_BlueSkyDragon_GYM_C:CharacterMesh0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.35"
+      },
+      "CharacterMovement": {
+        "ObjectName": "PalCharacterMovementComponent'Default__BP_BlueSkyDragon_GYM_C:CharMoveComp'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.26"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_BlueSkyDragon_GYM_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.4"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_BlueSkyDragon_GYM_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.4"
+      }
+    }
+  },
+  {
+    "Type": "BP_PalBossNPCMarker_C",
+    "Name": "BP_PalBossNPCMarker_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/NPC/Boss/BP_PalBossNPCMarker.BP_PalBossNPCMarker_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalBossNPCMarker_C'Default__BP_PalBossNPCMarker_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/NPC/Boss/BP_PalBossNPCMarker.1"
+    },
+    "Properties": {
+      "Anim List": {
+        "Idle_2_1EBBA0384D935467F36F6CB60245AB11": {
+          "ObjectName": "AnimSequence'AS_SorajimaBoss_Ride_Idle'",
+          "ObjectPath": "Pal/Content/Pal/Animation/Character/NPC/Boss/SorajimaBoss/AS_SorajimaBoss_Ride_Idle.0"
+        },
+        "Encount_4_CAEBC8464E94BDC737DE3B986D4A3E01": {
+          "ObjectName": "AnimSequence'AS_SorajimaBoss_Encount'",
+          "ObjectPath": "Pal/Content/Pal/Animation/Character/NPC/Boss/SorajimaBoss/AS_SorajimaBoss_Encount.1"
+        },
+        "CommonWazaIn_18_DEFB1A724BF20D08613712AFAF536C51": {
+          "ObjectName": "AnimSequence'AS_SorajimaBoss_Ride_Idle'",
+          "ObjectPath": "Pal/Content/Pal/Animation/Character/NPC/Boss/SorajimaBoss/AS_SorajimaBoss_Ride_Idle.0"
+        },
+        "Commonwaza_6_17ED6C604B6AD2942DB495ADBF01265C": {
+          "ObjectName": "AnimSequence'AS_SorajimaBoss_CommonWaza'",
+          "ObjectPath": "Pal/Content/Pal/Animation/Character/NPC/Boss/SorajimaBoss/AS_SorajimaBoss_CommonWaza.1"
+        },
+        "CommonWazaOut_20_C830640E4A8C292A9A90DAAF448B5BCD": {
+          "ObjectName": "AnimSequence'AS_SorajimaBoss_Ride_Idle'",
+          "ObjectPath": "Pal/Content/Pal/Animation/Character/NPC/Boss/SorajimaBoss/AS_SorajimaBoss_Ride_Idle.0"
+        },
+        "UniqueWazaIn_8_CBE584EA46E3D7C383A579A852555702": null,
+        "UniqueWaza_10_B46A727E400A2EB055FF7EA1BB989F16": {
+          "ObjectName": "AnimSequence'AS_SorajimaBoss_Ride_Idle'",
+          "ObjectPath": "Pal/Content/Pal/Animation/Character/NPC/Boss/SorajimaBoss/AS_SorajimaBoss_Ride_Idle.0"
+        },
+        "UniqueWazaOut_12_F2286E794F07E21A4D6DFBB8EBF34026": null
+      },
+      "WazaMontage": [
+        {
+          "Key": "EPalWazaID::Unique_BlueSkyDragon_Tossin",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_SorajimaBoss_Tossin'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/NPC/Boss/SorajimaBoss/AM_SorajimaBoss_Tossin.0"
+          }
+        },
+        {
+          "Key": "EPalWazaID::Unique_BlueSkyDragon_SweepBreath",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_SorajimaBoss_SweepBreath'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/NPC/Boss/SorajimaBoss/AM_SorajimaBoss_SweepBreath.0"
+          }
+        },
+        {
+          "Key": "EPalWazaID::Unique_BlueSkyDragon_DrainStorm",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_SorajimaBoss_VortexRage'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/NPC/Boss/SorajimaBoss/AM_SorajimaBoss_VortexRage.0"
+          }
+        },
+        {
+          "Key": "EPalWazaID::Unique_BlueSkyDragon_GYM_Act",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_SorajimaBoss_RisingWaterLevel'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/NPC/Boss/SorajimaBoss/AM_SorajimaBoss_RisingWaterLevel.0"
+          }
+        }
+      ],
+      "ActionMontageMap": [
+        {
+          "Key": "EPalActionType::GenerateEnergyElectric",
+          "Value": {
+            "Start_6_C7B30EDC41E967F89A3806B66CD8B02F": null,
+            "Loop_7_D7226C18460A4DF614177A8A27BA584C": null,
+            "End_8_4804F93B4C862C9A6D46E181F86598D2": null
+          }
+        },
+        {
+          "Key": "EPalActionType::None",
+          "Value": {
+            "Start_6_C7B30EDC41E967F89A3806B66CD8B02F": null,
+            "Loop_7_D7226C18460A4DF614177A8A27BA584C": null,
+            "End_8_4804F93B4C862C9A6D46E181F86598D2": null
+          }
+        },
+        {
+          "Key": "EPalActionType::Liftup",
+          "Value": {
+            "Start_6_C7B30EDC41E967F89A3806B66CD8B02F": null,
+            "Loop_7_D7226C18460A4DF614177A8A27BA584C": null,
+            "End_8_4804F93B4C862C9A6D46E181F86598D2": null
+          }
+        },
+        {
+          "Key": "EPalActionType::BeLiftup",
+          "Value": {
+            "Start_6_C7B30EDC41E967F89A3806B66CD8B02F": null,
+            "Loop_7_D7226C18460A4DF614177A8A27BA584C": null,
+            "End_8_4804F93B4C862C9A6D46E181F86598D2": null
+          }
+        },
+        {
+          "Key": "EPalActionType::DefenseWait",
+          "Value": {
+            "Start_6_C7B30EDC41E967F89A3806B66CD8B02F": null,
+            "Loop_7_D7226C18460A4DF614177A8A27BA584C": null,
+            "End_8_4804F93B4C862C9A6D46E181F86598D2": null
+          }
+        }
+      ],
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_RidingBoss_C'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/NPC/Boss/ABP_RidingBoss.1"
+      },
+      "AnimationData": {
+        "AnimToPlay": {
+          "ObjectName": "AnimSequence'AS_ForestBoss_Ride_Idle'",
+          "ObjectPath": "Pal/Content/Pal/Animation/Character/NPC/Boss/ForestBoss/AS_ForestBoss_Ride_Idle.0"
+        }
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_NPC_SorajimaBoss001'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/NPC/Boss/Sorajimaboss/SK_NPC_SorajimaBoss001.4"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_NPC_SorajimaBoss001'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/NPC/Boss/Sorajimaboss/SK_NPC_SorajimaBoss001.4"
+      },
+      "RelativeRotation": {
+        "Pitch": -1.2229552E-07,
+        "Yaw": 5.0,
+        "Roll": -90.0
+      },
+      "bAbsoluteScale": true
+    }
+  },
+  {
+    "Type": "BP_PalRideMarkerBiggerHorse_C",
+    "Name": "BP_PalRideMarkerBiggerHorse1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerBiggerHorse.BP_PalRideMarkerBiggerHorse_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalRideMarkerBiggerHorse_C'Default__BP_PalRideMarkerBiggerHorse_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerBiggerHorse.1"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 80.0,
+        "Y": 13.216372,
+        "Z": -1.5987212E-14
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": 180.0
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_BlueSkyDragon_GYM_C'Default__BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.1"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_BlueSkyDragon_C:CollisionCylinder'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon.4"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_BlueSkyDragon_GYM",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_InstanceRoot",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'PalBossBattleInstanceRoot'",
+          "ObjectPath": "/Script/Pal"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "GetCurrentInstanceRoot",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InstanceRoot",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "Parm | OutParm",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBossBattleInstanceRoot'",
+          "ObjectPath": "/Script/Pal"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetBossCurrentInstanceRoot",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InstanceRoot",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBossBattleInstanceRoot'",
+          "ObjectPath": "/Script/Pal"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'PalNavigationInvokerComponent'",
+            "ObjectPath": "/Script/Pal"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "PalNavigationInvokerComponent'BP_BlueSkyDragon_GYM_C:PalNavigationInvoker_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.32"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+            },
+            "SCSVariableName": "PalNavigationInvoker",
+            "AssociatedGuid": "007B6646-4DCD038A-C950C5BE-2763B585"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+            "ObjectPath": "/Script/Pal"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "PalBodyPartsCapsuleComponent'BP_BlueSkyDragon_GYM_C:PalBodyPartsCapsule_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.22"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_BlueSkyDragon_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon.0"
+            },
+            "SCSVariableName": "PalBodyPartsCapsule",
+            "AssociatedGuid": "1A79094F-4567CB5D-05F73ABE-F2C30927"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PalActionComponent",
+    "Name": "ActionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalActionComponent'",
+    "Outer": {
+      "ObjectName": "BP_BlueSkyDragon_GYM_C'Default__BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.1"
+    },
+    "Template": {
+      "ObjectName": "PalActionComponent'Default__BP_BlueSkyDragon_C:ActionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon.6"
+    }
+  },
+  {
+    "Type": "PalAnimNotifyParameterComponent",
+    "Name": "AnimNotifyComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_BlueSkyDragon_GYM_C'Default__BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.1"
+    },
+    "Template": {
+      "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_BlueSkyDragon_C:AnimNotifyComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon.7"
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule10_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.0"
+    },
+    "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Weak",
+      "CapsuleHalfHeight": 20.0,
+      "CapsuleRadius": 7.0,
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "RelativeLocation": {
+        "X": 72.233116,
+        "Y": 19.432104,
+        "Z": -49.190212
+      },
+      "RelativeRotation": {
+        "Pitch": -61.933945,
+        "Yaw": 205.19347,
+        "Roll": -28.26241
+      },
+      "RelativeScale3D": {
+        "X": 5.0,
+        "Y": 1.0,
+        "Z": 5.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule1_0_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 160.0,
+      "CapsuleRadius": 40.0,
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule2_0_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 160.0,
+      "CapsuleRadius": 40.0,
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule3_0_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 130.0,
+      "CapsuleRadius": 40.0,
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule4_0_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 130.0,
+      "CapsuleRadius": 40.0,
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule5_0_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 130.0,
+      "CapsuleRadius": 30.0,
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule6_0_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 50.0,
+      "CapsuleRadius": 20.0,
+      "RelativeLocation": {
+        "X": -40.0,
+        "Y": 9.103829E-15,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule7_0_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 50.0,
+      "CapsuleRadius": 20.0,
+      "RelativeLocation": {
+        "X": -40.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule8_0_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 50.0,
+      "CapsuleRadius": 20.0,
+      "RelativeLocation": {
+        "X": 40.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule9_0_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 50.0,
+      "CapsuleRadius": 20.0,
+      "RelativeLocation": {
+        "X": 40.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule_0_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 160.0,
+      "CapsuleRadius": 50.0,
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.0"
+    },
+    "Template": {
+      "ObjectName": "PalBodyPartsCapsuleComponent'BP_BlueSkyDragon_C:PalBodyPartsCapsule_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon.17"
+    },
+    "Properties": {
+      "CapsuleRadius": 50.0
+    }
+  },
+  {
+    "Type": "PalCharacterAroundInfoCollectorComponent",
+    "Name": "AroundInfoCollectorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+    "Outer": {
+      "ObjectName": "BP_BlueSkyDragon_GYM_C'Default__BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_BlueSkyDragon_C:AroundInfoCollectorComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon.18"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_BlueSkyDragon_GYM_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.4"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterCameraComponent",
+    "Name": "FollowCamera",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterCameraComponent'",
+    "Outer": {
+      "ObjectName": "BP_BlueSkyDragon_GYM_C'Default__BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterCameraComponent'Default__BP_BlueSkyDragon_C:FollowCamera'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon.19"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_BlueSkyDragon_GYM_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.34"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterLiftupObjectComponent",
+    "Name": "Liftup",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+    "Outer": {
+      "ObjectName": "BP_BlueSkyDragon_GYM_C'Default__BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_BlueSkyDragon_C:Liftup'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon.20"
+    }
+  },
+  {
+    "Type": "PalCharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_BlueSkyDragon_GYM_C'Default__BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterMovementComponent'Default__BP_BlueSkyDragon_C:CharMoveComp'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon.21"
+    }
+  },
+  {
+    "Type": "PalCharacterParameterComponent",
+    "Name": "CharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_BlueSkyDragon_GYM_C'Default__BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterParameterComponent'Default__BP_BlueSkyDragon_C:CharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon.22"
+    }
+  },
+  {
+    "Type": "PalDamageReactionComponent",
+    "Name": "DamageReactionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalDamageReactionComponent'",
+    "Outer": {
+      "ObjectName": "BP_BlueSkyDragon_GYM_C'Default__BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.1"
+    },
+    "Template": {
+      "ObjectName": "PalDamageReactionComponent'Default__BP_BlueSkyDragon_C:DamageReactionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon.23"
+    }
+  },
+  {
+    "Type": "PalFlyMeshHeightCtrlComponent",
+    "Name": "PalFlyMeshHeightCtrl_0_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalFlyMeshHeightCtrlComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.0"
+    },
+    "Properties": {
+      "HighFlingAddtionalHeight": 600.0,
+      "bDisabledBattleModeFlyingChange": true
+    }
+  },
+  {
+    "Type": "PalFootIKComponent",
+    "Name": "FootIKComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalFootIKComponent'",
+    "Outer": {
+      "ObjectName": "BP_BlueSkyDragon_GYM_C'Default__BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.1"
+    },
+    "Template": {
+      "ObjectName": "PalFootIKComponent'Default__BP_BlueSkyDragon_C:FootIKComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon.25"
+    }
+  },
+  {
+    "Type": "PalLookAtComponent",
+    "Name": "LookAtComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalLookAtComponent'",
+    "Outer": {
+      "ObjectName": "BP_BlueSkyDragon_GYM_C'Default__BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.1"
+    },
+    "Template": {
+      "ObjectName": "PalLookAtComponent'Default__BP_BlueSkyDragon_C:LookAtComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon.26"
+    }
+  },
+  {
+    "Type": "PalNavigationInvokerComponent",
+    "Name": "PalNavigationInvoker_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'PalNavigationInvokerComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.0"
+    },
+    "Template": {
+      "ObjectName": "PalNavigationInvokerComponent'BP_MonsterBase_C:PalNavigationInvoker_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
+    },
+    "Properties": {
+      "bIsAutoActivateInvoker": true
+    }
+  },
+  {
+    "Type": "PalPassiveSkillComponent",
+    "Name": "PassiveSkillComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalPassiveSkillComponent'",
+    "Outer": {
+      "ObjectName": "BP_BlueSkyDragon_GYM_C'Default__BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.1"
+    },
+    "Template": {
+      "ObjectName": "PalPassiveSkillComponent'Default__BP_BlueSkyDragon_C:PassiveSkillComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon.27"
+    }
+  },
+  {
+    "Type": "PalShooterSpringArmComponent",
+    "Name": "CameraBoom",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalShooterSpringArmComponent'",
+    "Outer": {
+      "ObjectName": "BP_BlueSkyDragon_GYM_C'Default__BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.1"
+    },
+    "Template": {
+      "ObjectName": "PalShooterSpringArmComponent'Default__BP_BlueSkyDragon_C:CameraBoom'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon.28"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_BlueSkyDragon_GYM_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.4"
+      }
+    }
+  },
+  {
+    "Type": "PalSkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_BlueSkyDragon_GYM_C'Default__BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.1"
+    },
+    "Template": {
+      "ObjectName": "PalSkeletalMeshComponent'Default__BP_BlueSkyDragon_C:CharacterMesh0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon.29"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_BlueSkyDragon_GYM_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.4"
+      },
+      "RelativeScale3D": {
+        "X": 1.3,
+        "Y": 1.3,
+        "Z": 1.3
+      }
+    }
+  },
+  {
+    "Type": "PalStaticCharacterParameterComponent",
+    "Name": "StaticCharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_BlueSkyDragon_GYM_C'Default__BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.1"
+    },
+    "Template": {
+      "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_BlueSkyDragon_C:StaticCharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon.31"
+    },
+    "Properties": {
+      "MeshCapsuleHalfHeight": 156.0,
+      "MeshCapsuleRadius": 78.0,
+      "MeshRelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -156.0
+      },
+      "IsUncapturable": true
+    }
+  },
+  {
+    "Type": "PalStatusComponent",
+    "Name": "StatusComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStatusComponent'",
+    "Outer": {
+      "ObjectName": "BP_BlueSkyDragon_GYM_C'Default__BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.1"
+    },
+    "Template": {
+      "ObjectName": "PalStatusComponent'Default__BP_BlueSkyDragon_C:StatusComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon.32"
+    }
+  },
+  {
+    "Type": "PalVisualEffectComponent",
+    "Name": "VisualEffectComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalVisualEffectComponent'",
+    "Outer": {
+      "ObjectName": "BP_BlueSkyDragon_GYM_C'Default__BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.1"
+    },
+    "Template": {
+      "ObjectName": "PalVisualEffectComponent'Default__BP_BlueSkyDragon_C:VisualEffectComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon.33"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_BlueSkyDragon_GYM_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.39"
+      },
+      "VariableGuid": "5E969EE2-474B80A1-F969E690-DB621CFC",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_BlueSkyDragon_GYM_C:PalBodyPartsCapsule_0_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.21"
+      },
+      "AttachToName": "neck_01",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "1A79094F-4567CB5D-05F73ABE-F2C30927",
+      "InternalVariableName": "PalBodyPartsCapsule_0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_BlueSkyDragon_GYM_C:PalBodyPartsCapsule9_0_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.20"
+      },
+      "AttachToName": "lowerarm_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "D8F53FA3-4F6139C8-EA8D98B8-C5F97A6D",
+      "InternalVariableName": "PalBodyPartsCapsule9_0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PalRideMarkerBiggerHorse_C'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerBiggerHorse.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_PalRideMarkerBiggerHorse_C'BP_BlueSkyDragon_GYM_C:BP_PalRideMarkerBiggerHorse1_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.3"
+      },
+      "AttachToName": "hairA_01",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "1A69C956-4DA35446-185DCD92-00E87B48",
+      "InternalVariableName": "BP_PalRideMarkerBiggerHorse1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PalBossNPCMarker_C'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/NPC/Boss/BP_PalBossNPCMarker.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_PalBossNPCMarker_C'BP_BlueSkyDragon_GYM_C:BP_PalBossNPCMarker_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.2"
+      },
+      "AttachToName": "head",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.45"
+        }
+      ],
+      "VariableGuid": "373BF86B-43EAF35B-7F6D1FAE-F55D58D1",
+      "InternalVariableName": "BP_PalBossNPCMarker"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_BlueSkyDragon_GYM_C:PalBodyPartsCapsule10_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.11"
+      },
+      "VariableGuid": "12934B93-4F989D9D-2593BE81-449536E6",
+      "InternalVariableName": "PalBodyPartsCapsule10"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalFlyMeshHeightCtrlComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalFlyMeshHeightCtrlComponent'BP_BlueSkyDragon_GYM_C:PalFlyMeshHeightCtrl_0_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.29"
+      },
+      "VariableGuid": "A92BF40E-40F97539-E9CAD18B-F6918079",
+      "InternalVariableName": "PalFlyMeshHeightCtrl_0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_BlueSkyDragon_GYM_C:PalBodyPartsCapsule1_0_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.12"
+      },
+      "AttachToName": "tail_04",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "6EDFF56E-4B260EF0-E0DC43B1-775863EC",
+      "InternalVariableName": "PalBodyPartsCapsule1_0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_BlueSkyDragon_GYM_C:PalBodyPartsCapsule2_0_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.13"
+      },
+      "AttachToName": "tail_08",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "AC6D6C3A-4A9F60DF-815B0CAD-A78C3A38",
+      "InternalVariableName": "PalBodyPartsCapsule2_0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_BlueSkyDragon_GYM_C:PalBodyPartsCapsule3_0_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.14"
+      },
+      "AttachToName": "tail_11",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "66E44297-4D75280C-282347BB-950CA553",
+      "InternalVariableName": "PalBodyPartsCapsule3_0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_BlueSkyDragon_GYM_C:PalBodyPartsCapsule4_0_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.15"
+      },
+      "AttachToName": "tail_14",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "C21C3244-4C04ACF7-55B76189-F16CEAB4",
+      "InternalVariableName": "PalBodyPartsCapsule4_0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_BlueSkyDragon_GYM_C:PalBodyPartsCapsule5_0_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.16"
+      },
+      "AttachToName": "tail_17",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "466AA350-4332DF96-8926E7A3-E78114CF",
+      "InternalVariableName": "PalBodyPartsCapsule5_0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_BlueSkyDragon_GYM_C:PalBodyPartsCapsule6_0_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.17"
+      },
+      "AttachToName": "upperarm_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "257FB602-4DE20516-64D1DEAA-F6C47494",
+      "InternalVariableName": "PalBodyPartsCapsule6_0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_BlueSkyDragon_GYM_C:PalBodyPartsCapsule7_0_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.18"
+      },
+      "AttachToName": "lowerarm_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "DDECE6CB-44AC59C4-7F171FB2-DB6AEF36",
+      "InternalVariableName": "PalBodyPartsCapsule7_0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_BlueSkyDragon_GYM_C:PalBodyPartsCapsule8_0_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.19"
+      },
+      "AttachToName": "upperarm_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "11A4152F-41843C93-AFD07FB9-660877F4",
+      "InternalVariableName": "PalBodyPartsCapsule8_0"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.48"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.49"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.50"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.51"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.52"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.53"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.54"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.46"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.48"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.49"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.50"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.51"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.52"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.53"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.54"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.45"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.46"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_BlueSkyDragon_GYM_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.40"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "RagdollInteractiveSphere",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BP_BlueSkyDragon_GYM_C'Default__BP_BlueSkyDragon_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.1"
+    },
+    "Template": {
+      "ObjectName": "SphereComponent'Default__BP_BlueSkyDragon_C:RagdollInteractiveSphere'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon.50"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_BlueSkyDragon_GYM_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueSkyDragon/BP_BlueSkyDragon_GYM.4"
+      }
+    }
+  }
+]

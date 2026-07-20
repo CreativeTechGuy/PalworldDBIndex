@@ -1,0 +1,524 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_DandelionGirl_BOSS_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DandelionGirl_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_DandelionGirl_BOSS_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.22"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_DandelionGirl_BOSS_C:InheritableComponentHandler'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.3"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DandelionGirl_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl.0"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_DandelionGirl_BOSS_C'Default__BP_DandelionGirl_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_DandelionGirl_BOSS_C",
+    "Name": "Default__BP_DandelionGirl_BOSS_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.BP_DandelionGirl_BOSS_C'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS",
+    "Template": {
+      "ObjectName": "BP_DandelionGirl_C'Default__BP_DandelionGirl_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl.1"
+    },
+    "Properties": {
+      "LiftupObjectComponent": {
+        "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_DandelionGirl_BOSS_C:Liftup'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.8"
+      },
+      "ActionComponent": {
+        "ObjectName": "PalActionComponent'Default__BP_DandelionGirl_BOSS_C:ActionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.4"
+      },
+      "CharacterParameterComponent": {
+        "ObjectName": "PalCharacterParameterComponent'Default__BP_DandelionGirl_BOSS_C:CharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.10"
+      },
+      "StaticCharacterParameterComponent": {
+        "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_DandelionGirl_BOSS_C:StaticCharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.17"
+      },
+      "DamageReactionComponent": {
+        "ObjectName": "PalDamageReactionComponent'Default__BP_DandelionGirl_BOSS_C:DamageReactionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.11"
+      },
+      "StatusComponent": {
+        "ObjectName": "PalStatusComponent'Default__BP_DandelionGirl_BOSS_C:StatusComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.18"
+      },
+      "CameraBoom": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_DandelionGirl_BOSS_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.15"
+      },
+      "FollowCamera": {
+        "ObjectName": "PalCharacterCameraComponent'Default__BP_DandelionGirl_BOSS_C:FollowCamera'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.7"
+      },
+      "LookAtComponent": {
+        "ObjectName": "PalLookAtComponent'Default__BP_DandelionGirl_BOSS_C:LookAtComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.13"
+      },
+      "FootIKComponent": {
+        "ObjectName": "PalFootIKComponent'Default__BP_DandelionGirl_BOSS_C:FootIKComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.12"
+      },
+      "VisualEffectComponent": {
+        "ObjectName": "PalVisualEffectComponent'Default__BP_DandelionGirl_BOSS_C:VisualEffectComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.19"
+      },
+      "PassiveSkillComponent": {
+        "ObjectName": "PalPassiveSkillComponent'Default__BP_DandelionGirl_BOSS_C:PassiveSkillComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.14"
+      },
+      "AnimNotifyComponent": {
+        "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_DandelionGirl_BOSS_C:AnimNotifyComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.5"
+      },
+      "AroundInfoCollectorComponent": {
+        "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_DandelionGirl_BOSS_C:AroundInfoCollectorComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.6"
+      },
+      "RagdollInteractiveSphere": {
+        "ObjectName": "SphereComponent'Default__BP_DandelionGirl_BOSS_C:RagdollInteractiveSphere'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.23"
+      },
+      "Mesh": {
+        "ObjectName": "PalSkeletalMeshComponent'Default__BP_DandelionGirl_BOSS_C:CharacterMesh0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.16"
+      },
+      "CharacterMovement": {
+        "ObjectName": "PalCharacterMovementComponent'Default__BP_DandelionGirl_BOSS_C:CharMoveComp'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.9"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_DandelionGirl_BOSS_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.2"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_DandelionGirl_BOSS_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.2"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_DandelionGirl_BOSS_C'Default__BP_DandelionGirl_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_DandelionGirl_C:CollisionCylinder'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl.3"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DandelionGirl_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.0"
+    }
+  },
+  {
+    "Type": "PalActionComponent",
+    "Name": "ActionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalActionComponent'",
+    "Outer": {
+      "ObjectName": "BP_DandelionGirl_BOSS_C'Default__BP_DandelionGirl_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalActionComponent'Default__BP_DandelionGirl_C:ActionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl.5"
+    }
+  },
+  {
+    "Type": "PalAnimNotifyParameterComponent",
+    "Name": "AnimNotifyComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_DandelionGirl_BOSS_C'Default__BP_DandelionGirl_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_DandelionGirl_C:AnimNotifyComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl.6"
+    }
+  },
+  {
+    "Type": "PalCharacterAroundInfoCollectorComponent",
+    "Name": "AroundInfoCollectorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+    "Outer": {
+      "ObjectName": "BP_DandelionGirl_BOSS_C'Default__BP_DandelionGirl_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_DandelionGirl_C:AroundInfoCollectorComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl.11"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_DandelionGirl_BOSS_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.2"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterCameraComponent",
+    "Name": "FollowCamera",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterCameraComponent'",
+    "Outer": {
+      "ObjectName": "BP_DandelionGirl_BOSS_C'Default__BP_DandelionGirl_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterCameraComponent'Default__BP_DandelionGirl_C:FollowCamera'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl.12"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_DandelionGirl_BOSS_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.15"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterLiftupObjectComponent",
+    "Name": "Liftup",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+    "Outer": {
+      "ObjectName": "BP_DandelionGirl_BOSS_C'Default__BP_DandelionGirl_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_DandelionGirl_C:Liftup'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl.13"
+    }
+  },
+  {
+    "Type": "PalCharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_DandelionGirl_BOSS_C'Default__BP_DandelionGirl_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterMovementComponent'Default__BP_DandelionGirl_C:CharMoveComp'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl.14"
+    }
+  },
+  {
+    "Type": "PalCharacterParameterComponent",
+    "Name": "CharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_DandelionGirl_BOSS_C'Default__BP_DandelionGirl_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterParameterComponent'Default__BP_DandelionGirl_C:CharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl.15"
+    }
+  },
+  {
+    "Type": "PalDamageReactionComponent",
+    "Name": "DamageReactionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalDamageReactionComponent'",
+    "Outer": {
+      "ObjectName": "BP_DandelionGirl_BOSS_C'Default__BP_DandelionGirl_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalDamageReactionComponent'Default__BP_DandelionGirl_C:DamageReactionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl.16"
+    }
+  },
+  {
+    "Type": "PalFootIKComponent",
+    "Name": "FootIKComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalFootIKComponent'",
+    "Outer": {
+      "ObjectName": "BP_DandelionGirl_BOSS_C'Default__BP_DandelionGirl_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalFootIKComponent'Default__BP_DandelionGirl_C:FootIKComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl.18"
+    }
+  },
+  {
+    "Type": "PalLookAtComponent",
+    "Name": "LookAtComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalLookAtComponent'",
+    "Outer": {
+      "ObjectName": "BP_DandelionGirl_BOSS_C'Default__BP_DandelionGirl_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalLookAtComponent'Default__BP_DandelionGirl_C:LookAtComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl.19"
+    }
+  },
+  {
+    "Type": "PalPassiveSkillComponent",
+    "Name": "PassiveSkillComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalPassiveSkillComponent'",
+    "Outer": {
+      "ObjectName": "BP_DandelionGirl_BOSS_C'Default__BP_DandelionGirl_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalPassiveSkillComponent'Default__BP_DandelionGirl_C:PassiveSkillComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl.20"
+    }
+  },
+  {
+    "Type": "PalShooterSpringArmComponent",
+    "Name": "CameraBoom",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalShooterSpringArmComponent'",
+    "Outer": {
+      "ObjectName": "BP_DandelionGirl_BOSS_C'Default__BP_DandelionGirl_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalShooterSpringArmComponent'Default__BP_DandelionGirl_C:CameraBoom'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl.21"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_DandelionGirl_BOSS_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.2"
+      }
+    }
+  },
+  {
+    "Type": "PalSkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_DandelionGirl_BOSS_C'Default__BP_DandelionGirl_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalSkeletalMeshComponent'Default__BP_DandelionGirl_C:CharacterMesh0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl.22"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_DandelionGirl_BOSS_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.2"
+      },
+      "RelativeScale3D": {
+        "X": 1.6,
+        "Y": 1.6,
+        "Z": 1.6
+      }
+    }
+  },
+  {
+    "Type": "PalStaticCharacterParameterComponent",
+    "Name": "StaticCharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_DandelionGirl_BOSS_C'Default__BP_DandelionGirl_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_DandelionGirl_C:StaticCharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl.23"
+    },
+    "Properties": {
+      "MeshCapsuleHalfHeight": 104.0,
+      "MeshCapsuleRadius": 32.0,
+      "MeshRelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -104.0
+      },
+      "SleepOnSideInfoMapForMapObject": [
+        {
+          "Key": {
+            "Key": "MedicalPalBed_02"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -40.0,
+              "Y": 40.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_03"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -40.0,
+              "Y": 40.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        }
+      ],
+      "PettingSize": "EPalPettingSizeType::Medium",
+      "PettingDistance": 100.0
+    }
+  },
+  {
+    "Type": "PalStatusComponent",
+    "Name": "StatusComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStatusComponent'",
+    "Outer": {
+      "ObjectName": "BP_DandelionGirl_BOSS_C'Default__BP_DandelionGirl_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalStatusComponent'Default__BP_DandelionGirl_C:StatusComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl.24"
+    }
+  },
+  {
+    "Type": "PalVisualEffectComponent",
+    "Name": "VisualEffectComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalVisualEffectComponent'",
+    "Outer": {
+      "ObjectName": "BP_DandelionGirl_BOSS_C'Default__BP_DandelionGirl_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalVisualEffectComponent'Default__BP_DandelionGirl_C:VisualEffectComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl.25"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DandelionGirl_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_DandelionGirl_BOSS_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.22"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_DandelionGirl_BOSS_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.20"
+      },
+      "VariableGuid": "C3649550-435FFE39-18BB5E9F-D5EDBAFA",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DandelionGirl_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_DandelionGirl_BOSS_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.21"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "RagdollInteractiveSphere",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BP_DandelionGirl_BOSS_C'Default__BP_DandelionGirl_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "SphereComponent'Default__BP_DandelionGirl_C:RagdollInteractiveSphere'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl.34"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_DandelionGirl_BOSS_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DandelionGirl/BP_DandelionGirl_BOSS.2"
+      }
+    }
+  }
+]

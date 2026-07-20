@@ -41,7 +41,7 @@
   {
     "Type": "BP_VioletFairy_BOSS_C",
     "Name": "Default__BP_VioletFairy_BOSS_C",
-    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VioletFairy/BP_VioletFairy_BOSS.BP_VioletFairy_BOSS_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VioletFairy/BP_VioletFairy_BOSS",
     "Template": {
@@ -314,7 +314,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_VioletFairy_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VioletFairy/BP_VioletFairy.21"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VioletFairy/BP_VioletFairy.20"
     }
   },
   {
@@ -328,7 +328,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_VioletFairy_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VioletFairy/BP_VioletFairy.22"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VioletFairy/BP_VioletFairy.21"
     },
     "Properties": {
       "AttachParent": {
@@ -353,7 +353,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_VioletFairy_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VioletFairy/BP_VioletFairy.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VioletFairy/BP_VioletFairy.22"
     },
     "Properties": {
       "AttachParent": {
@@ -378,7 +378,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_VioletFairy_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VioletFairy/BP_VioletFairy.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VioletFairy/BP_VioletFairy.23"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 180.0,
@@ -395,8 +395,8 @@
           },
           "Value": {
             "LocationOffset": {
-              "X": -70.0,
-              "Y": 60.0,
+              "X": -50.0,
+              "Y": -10.0,
               "Z": 0.0
             },
             "RotatorOffset": {
@@ -413,8 +413,26 @@
           },
           "Value": {
             "LocationOffset": {
-              "X": -70.0,
-              "Y": 60.0,
+              "X": -50.0,
+              "Y": -10.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_04"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -20.0,
+              "Y": 80.0,
               "Z": 0.0
             },
             "RotatorOffset": {
@@ -435,7 +453,8 @@
       "PettingStartAddDistance": 100.0,
       "PettingCameraCenterDistance_Override": 100.0,
       "PettingCameraArmLength_Override": 400.0,
-      "DefenseBuildObjectAssignDistance": 50.0
+      "DefenseBuildObjectAssignDistance": 40.0,
+      "DefenseBuildObjectAssignHeight": -50.0
     }
   },
   {
@@ -449,7 +468,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_VioletFairy_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VioletFairy/BP_VioletFairy.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VioletFairy/BP_VioletFairy.24"
     }
   },
   {
@@ -463,7 +482,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_VioletFairy_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VioletFairy/BP_VioletFairy.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VioletFairy/BP_VioletFairy.25"
     }
   },
   {
@@ -525,7 +544,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_VioletFairy_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VioletFairy/BP_VioletFairy.35"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VioletFairy/BP_VioletFairy.34"
     },
     "Properties": {
       "AttachParent": {

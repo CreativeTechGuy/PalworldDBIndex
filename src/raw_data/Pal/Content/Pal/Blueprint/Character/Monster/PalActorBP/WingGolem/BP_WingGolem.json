@@ -12,7 +12,7 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_WingGolem_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.32"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.31"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_WingGolem_C:InheritableComponentHandler'",
@@ -126,7 +126,7 @@
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_WingGolem_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.22"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_WingGolem_C:DamageReactionComponent'",
@@ -134,11 +134,11 @@
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_WingGolem_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.23"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_WingGolem_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.21"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.20"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_WingGolem_C:FollowCamera'",
@@ -154,11 +154,11 @@
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_WingGolem_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.25"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.24"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_WingGolem_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.20"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.19"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_WingGolem_C:AnimNotifyComponent'",
@@ -170,11 +170,11 @@
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_WingGolem_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.33"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.32"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_WingGolem_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.21"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_WingGolem_C:CharMoveComp'",
@@ -221,28 +221,6 @@
       "Records": [
         {
           "ComponentClass": {
-            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-            "ObjectPath": "/Script/Pal"
-          },
-          "ComponentTemplate": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_WingGolem_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.19"
-          },
-          "ComponentKey": {
-            "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-            },
-            "SCSVariableName": "PalPartnerSkillParameter",
-            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
-          },
-          "CookedComponentInstancingData": {
-            "ChangedPropertyList": [],
-            "bHasValidCookedData": false
-          }
-        },
-        {
-          "ComponentClass": {
             "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
             "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
           },
@@ -277,7 +255,7 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
     },
     "Properties": {
       "ActionMap": [
@@ -309,7 +287,7 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
     }
   },
   {
@@ -416,7 +394,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
@@ -436,12 +414,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_WingGolem_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.21"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.20"
       }
     }
   },
@@ -456,7 +434,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -470,7 +448,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
     },
     "Properties": {
       "InWaterRate": 1.0,
@@ -488,7 +466,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -502,7 +480,7 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
     }
   },
   {
@@ -516,7 +494,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     },
     "Properties": {
       "FootIKSettings": [
@@ -552,25 +530,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
-    }
-  },
-  {
-    "Type": "PalPartnerSkillParameterComponent",
-    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_WingGolem_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.0"
-    },
-    "Template": {
-      "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
-    },
-    "Properties": {
-      "SkillName": "StatusUp",
-      "bIdlelCostDecreaseEveryFrame": true
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
     }
   },
   {
@@ -584,7 +544,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -598,7 +558,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
       "AttachParent": {
@@ -623,7 +583,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
       "AnimClass": {
@@ -660,7 +620,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 180.0,
@@ -670,6 +630,7 @@
         "Y": 0.0,
         "Z": -180.0
       },
+      "ApproachArrivalRadius": 400.0,
       "AIActionMap": [
         {
           "Key": "EPalAIActionType::Cooperation",
@@ -863,6 +824,13 @@
           }
         },
         {
+          "Key": "EPalActionType::Cooking",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_WingGolem_Cooking'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/WingGolem/AM_WingGolem_Cooking.0"
+          }
+        },
+        {
           "Key": "EPalActionType::PalPetting",
           "Value": {
             "ObjectName": "AnimMontage'AM_WingGolem_Petting'",
@@ -963,6 +931,13 @@
           }
         },
         {
+          "Key": "EPalWazaID::Unique_WingGolem_Fire_FlameCutter",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/WingGolem/BP_Action_Unique_WingGolem_FlameCutter.BP_Action_Unique_WingGolem_FlameCutter_C",
+            "SubPathString": ""
+          }
+        },
+        {
           "Key": "EPalWazaID::MAX",
           "Value": {
             "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/BP_Action_HolyBlast.BP_Action_HolyBlast_C",
@@ -995,7 +970,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     }
   },
   {
@@ -1009,7 +984,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -1029,7 +1004,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_WingGolem_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.32"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.31"
     },
     "Properties": {
       "ComponentClass": {
@@ -1038,7 +1013,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_WingGolem_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.25"
       },
       "VariableGuid": "AC1EF841-42718AFC-441EEB81-E6FA548D",
       "InternalVariableName": "DefaultSceneRoot"
@@ -1051,7 +1026,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_WingGolem_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.32"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.31"
     },
     "Properties": {
       "ComponentClass": {
@@ -1076,7 +1051,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_WingGolem_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.32"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.31"
     },
     "Properties": {
       "ComponentClass": {
@@ -1100,7 +1075,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_WingGolem_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.32"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.31"
     },
     "Properties": {
       "ComponentClass": {
@@ -1125,7 +1100,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_WingGolem_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.32"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.31"
     },
     "Properties": {
       "ComponentClass": {
@@ -1156,42 +1131,42 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'BP_WingGolem_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.28"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.27"
         },
         {
           "ObjectName": "SCS_Node'BP_WingGolem_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.29"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.28"
         },
         {
           "ObjectName": "SCS_Node'BP_WingGolem_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.30"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.29"
         },
         {
           "ObjectName": "SCS_Node'BP_WingGolem_C:SimpleConstructionScript_0.SCS_Node_5'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.31"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.30"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'BP_WingGolem_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.28"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.27"
         },
         {
           "ObjectName": "SCS_Node'BP_WingGolem_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.29"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.28"
         },
         {
           "ObjectName": "SCS_Node'BP_WingGolem_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.30"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.29"
         },
         {
           "ObjectName": "SCS_Node'BP_WingGolem_C:SimpleConstructionScript_0.SCS_Node_5'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.31"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.30"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_WingGolem_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.27"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WingGolem/BP_WingGolem.26"
       }
     }
   },
@@ -1206,7 +1181,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {

@@ -12,7 +12,7 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_WhiteTiger_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.49"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.48"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_WhiteTiger_C:InheritableComponentHandler'",
@@ -214,7 +214,7 @@
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_WhiteTiger_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.32"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.31"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_WhiteTiger_C:DamageReactionComponent'",
@@ -222,11 +222,11 @@
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_WhiteTiger_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.33"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.32"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_WhiteTiger_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.29"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.28"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_WhiteTiger_C:FollowCamera'",
@@ -242,11 +242,11 @@
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_WhiteTiger_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.34"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.33"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_WhiteTiger_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.28"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.27"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_WhiteTiger_C:AnimNotifyComponent'",
@@ -258,11 +258,11 @@
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_WhiteTiger_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.50"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.49"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_WhiteTiger_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.30"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.29"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_WhiteTiger_C:CharMoveComp'",
@@ -331,28 +331,6 @@
         },
         {
           "ComponentClass": {
-            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-            "ObjectPath": "/Script/Pal"
-          },
-          "ComponentTemplate": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_WhiteTiger_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.27"
-          },
-          "ComponentKey": {
-            "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-            },
-            "SCSVariableName": "PalPartnerSkillParameter",
-            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
-          },
-          "CookedComponentInstancingData": {
-            "ChangedPropertyList": [],
-            "bHasValidCookedData": false
-          }
-        },
-        {
-          "ComponentClass": {
             "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
             "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
           },
@@ -387,7 +365,7 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
     }
   },
   {
@@ -401,7 +379,7 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
     }
   },
   {
@@ -770,7 +748,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
@@ -790,12 +768,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_WhiteTiger_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.29"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.28"
       }
     }
   },
@@ -810,7 +788,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -824,7 +802,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
     },
     "Properties": {
       "InWaterRate": 0.87,
@@ -842,7 +820,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -856,7 +834,7 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
     }
   },
   {
@@ -870,7 +848,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     },
     "Properties": {
       "FootIKSettings": [
@@ -906,7 +884,7 @@
     },
     "Template": {
       "ObjectName": "PalInteractableSphereComponentNative'BP_MonsterBase_C:BP_InteractableSphere_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
     },
     "Properties": {
       "RelativeScale3D": {
@@ -927,176 +905,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
-    }
-  },
-  {
-    "Type": "PalPartnerSkillParameterComponent",
-    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_WhiteTiger_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.0"
-    },
-    "Template": {
-      "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
-    },
-    "Properties": {
-      "SkillName": "None",
-      "PassiveSkills": [
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "ElementAddDrop_Dragon_1_PAL"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "ElementAddDrop_Dragon_2_PAL"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "ElementAddDrop_Dragon_3_PAL"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "ElementAddDrop_Dragon_4_PAL"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "ElementAddDrop_Dragon_5_PAL"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        }
-      ]
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
     }
   },
   {
@@ -1110,7 +919,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -1124,7 +933,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
       "AttachParent": {
@@ -1149,7 +958,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
       "AnimClass": {
@@ -1213,7 +1022,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 180.0,
@@ -1424,10 +1233,10 @@
           }
         },
         {
-          "Key": "EPalActionType::IdleInSpa",
+          "Key": "EPalActionType::FishPond",
           "Value": {
-            "ObjectName": "AnimMontage'AM_WhiteTiger_Spa'",
-            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/WhiteTiger/AM_WhiteTiger_Spa.0"
+            "ObjectName": "AnimMontage'AM_WhiteTiger_FishPond'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/WhiteTiger/AM_WhiteTiger_FishPond.0"
           }
         },
         {
@@ -1470,10 +1279,10 @@
           "Value": null
         },
         {
-          "Key": "EPalActionType::FishPond",
+          "Key": "EPalActionType::IdleInSpa",
           "Value": {
-            "ObjectName": "AnimMontage'AM_WhiteTiger_FishPond'",
-            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/WhiteTiger/AM_WhiteTiger_FishPond.0"
+            "ObjectName": "AnimMontage'AM_WhiteTiger_Spa'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/WhiteTiger/AM_WhiteTiger_Spa.0"
           }
         }
       ],
@@ -1569,14 +1378,14 @@
           "Value": {
             "Effect": {
               "ObjectName": "NiagaraSystem'NS_DrownPal'",
-              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_DrownPal.107"
+              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_DrownPal.41"
             },
             "Offset": {
               "X": 0.0,
               "Y": 0.0,
               "Z": 0.0
             },
-            "Scale": 1.0
+            "Scale": 0.7
           }
         },
         {
@@ -1584,14 +1393,14 @@
           "Value": {
             "Effect": {
               "ObjectName": "NiagaraSystem'NS_DrownPal'",
-              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_DrownPal.107"
+              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_DrownPal.41"
             },
             "Offset": {
               "X": 0.0,
               "Y": 0.0,
               "Z": 0.0
             },
-            "Scale": 1.0
+            "Scale": 0.9
           }
         }
       ],
@@ -1609,7 +1418,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     }
   },
   {
@@ -1623,7 +1432,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -1643,7 +1452,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_WhiteTiger_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.49"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.48"
     },
     "Properties": {
       "ComponentClass": {
@@ -1652,7 +1461,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_WhiteTiger_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.35"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.34"
       },
       "VariableGuid": "C8C6C905-49C4CCF5-88467098-A2DF6ECF",
       "InternalVariableName": "DefaultSceneRoot"
@@ -1665,7 +1474,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_WhiteTiger_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.49"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.48"
     },
     "Properties": {
       "ComponentClass": {
@@ -1690,7 +1499,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_WhiteTiger_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.49"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.48"
     },
     "Properties": {
       "ComponentClass": {
@@ -1715,7 +1524,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_WhiteTiger_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.49"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.48"
     },
     "Properties": {
       "ComponentClass": {
@@ -1740,7 +1549,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_WhiteTiger_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.49"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.48"
     },
     "Properties": {
       "ComponentClass": {
@@ -1749,7 +1558,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalSpeedCollisionComponent'BP_WhiteTiger_C:PalSpeedCollision_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.31"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.30"
       },
       "ParentComponentOrVariableName": "CharacterMesh0",
       "bIsParentComponentNative": true,
@@ -1764,7 +1573,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_WhiteTiger_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.49"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.48"
     },
     "Properties": {
       "ComponentClass": {
@@ -1789,7 +1598,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_WhiteTiger_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.49"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.48"
     },
     "Properties": {
       "ComponentClass": {
@@ -1814,7 +1623,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_WhiteTiger_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.49"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.48"
     },
     "Properties": {
       "ComponentClass": {
@@ -1839,7 +1648,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_WhiteTiger_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.49"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.48"
     },
     "Properties": {
       "ComponentClass": {
@@ -1864,7 +1673,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_WhiteTiger_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.49"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.48"
     },
     "Properties": {
       "ComponentClass": {
@@ -1889,7 +1698,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_WhiteTiger_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.49"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.48"
     },
     "Properties": {
       "ComponentClass": {
@@ -1914,7 +1723,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_WhiteTiger_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.49"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.48"
     },
     "Properties": {
       "ComponentClass": {
@@ -1939,7 +1748,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_WhiteTiger_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.49"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.48"
     },
     "Properties": {
       "ComponentClass": {
@@ -1970,106 +1779,106 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'BP_WhiteTiger_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.41"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.40"
         },
         {
           "ObjectName": "SCS_Node'BP_WhiteTiger_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.42"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.41"
         },
         {
           "ObjectName": "SCS_Node'BP_WhiteTiger_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.43"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.42"
         },
         {
           "ObjectName": "SCS_Node'BP_WhiteTiger_C:SimpleConstructionScript_0.SCS_Node_5'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.44"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.43"
         },
         {
           "ObjectName": "SCS_Node'BP_WhiteTiger_C:SimpleConstructionScript_0.SCS_Node_6'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.45"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.44"
         },
         {
           "ObjectName": "SCS_Node'BP_WhiteTiger_C:SimpleConstructionScript_0.SCS_Node_7'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.46"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.45"
         },
         {
           "ObjectName": "SCS_Node'BP_WhiteTiger_C:SimpleConstructionScript_0.SCS_Node_8'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.47"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.46"
         },
         {
           "ObjectName": "SCS_Node'BP_WhiteTiger_C:SimpleConstructionScript_0.SCS_Node_9'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.48"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.47"
         },
         {
           "ObjectName": "SCS_Node'BP_WhiteTiger_C:SimpleConstructionScript_0.SCS_Node_10'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.37"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.36"
         },
         {
           "ObjectName": "SCS_Node'BP_WhiteTiger_C:SimpleConstructionScript_0.SCS_Node_11'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.38"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.37"
         },
         {
           "ObjectName": "SCS_Node'BP_WhiteTiger_C:SimpleConstructionScript_0.SCS_Node_12'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.39"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.38"
         },
         {
           "ObjectName": "SCS_Node'BP_WhiteTiger_C:SimpleConstructionScript_0.SCS_Node_13'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.40"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.39"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'BP_WhiteTiger_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.41"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.40"
         },
         {
           "ObjectName": "SCS_Node'BP_WhiteTiger_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.42"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.41"
         },
         {
           "ObjectName": "SCS_Node'BP_WhiteTiger_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.43"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.42"
         },
         {
           "ObjectName": "SCS_Node'BP_WhiteTiger_C:SimpleConstructionScript_0.SCS_Node_5'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.44"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.43"
         },
         {
           "ObjectName": "SCS_Node'BP_WhiteTiger_C:SimpleConstructionScript_0.SCS_Node_6'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.45"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.44"
         },
         {
           "ObjectName": "SCS_Node'BP_WhiteTiger_C:SimpleConstructionScript_0.SCS_Node_7'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.46"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.45"
         },
         {
           "ObjectName": "SCS_Node'BP_WhiteTiger_C:SimpleConstructionScript_0.SCS_Node_8'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.47"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.46"
         },
         {
           "ObjectName": "SCS_Node'BP_WhiteTiger_C:SimpleConstructionScript_0.SCS_Node_9'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.48"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.47"
         },
         {
           "ObjectName": "SCS_Node'BP_WhiteTiger_C:SimpleConstructionScript_0.SCS_Node_10'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.37"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.36"
         },
         {
           "ObjectName": "SCS_Node'BP_WhiteTiger_C:SimpleConstructionScript_0.SCS_Node_11'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.38"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.37"
         },
         {
           "ObjectName": "SCS_Node'BP_WhiteTiger_C:SimpleConstructionScript_0.SCS_Node_12'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.39"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.38"
         },
         {
           "ObjectName": "SCS_Node'BP_WhiteTiger_C:SimpleConstructionScript_0.SCS_Node_13'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.40"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.39"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_WhiteTiger_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.36"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WhiteTiger/BP_WhiteTiger.35"
       }
     }
   },
@@ -2084,7 +1893,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {

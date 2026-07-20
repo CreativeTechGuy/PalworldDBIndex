@@ -41,7 +41,7 @@
   {
     "Type": "BP_StuffedShark_BOSS_C",
     "Name": "Default__BP_StuffedShark_BOSS_C",
-    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/StuffedShark/BP_StuffedShark_BOSS.BP_StuffedShark_BOSS_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/StuffedShark/BP_StuffedShark_BOSS",
     "Template": {
@@ -314,7 +314,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_StuffedShark_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/StuffedShark/BP_StuffedShark.19"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/StuffedShark/BP_StuffedShark.18"
     }
   },
   {
@@ -328,7 +328,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_StuffedShark_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/StuffedShark/BP_StuffedShark.20"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/StuffedShark/BP_StuffedShark.19"
     },
     "Properties": {
       "AttachParent": {
@@ -353,7 +353,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_StuffedShark_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/StuffedShark/BP_StuffedShark.21"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/StuffedShark/BP_StuffedShark.20"
     },
     "Properties": {
       "AttachParent": {
@@ -383,7 +383,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_StuffedShark_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/StuffedShark/BP_StuffedShark.22"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/StuffedShark/BP_StuffedShark.21"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 67.55,
@@ -400,13 +400,13 @@
           },
           "Value": {
             "LocationOffset": {
-              "X": -30.0,
-              "Y": -10.0,
+              "X": -20.0,
+              "Y": 0.0,
               "Z": 0.0
             },
             "RotatorOffset": {
               "Pitch": 0.0,
-              "Yaw": 130.0,
+              "Yaw": 90.0,
               "Roll": 0.0
             },
             "bShouldApply": true
@@ -418,13 +418,13 @@
           },
           "Value": {
             "LocationOffset": {
-              "X": -30.0,
-              "Y": -10.0,
+              "X": -20.0,
+              "Y": 0.0,
               "Z": 0.0
             },
             "RotatorOffset": {
               "Pitch": 0.0,
-              "Yaw": 130.0,
+              "Yaw": 90.0,
               "Roll": 0.0
             },
             "bShouldApply": true
@@ -436,13 +436,13 @@
           },
           "Value": {
             "LocationOffset": {
-              "X": -30.0,
+              "X": -20.0,
               "Y": 90.0,
               "Z": 0.0
             },
             "RotatorOffset": {
               "Pitch": 0.0,
-              "Yaw": 130.0,
+              "Yaw": 90.0,
               "Roll": 0.0
             },
             "bShouldApply": true
@@ -468,7 +468,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_StuffedShark_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/StuffedShark/BP_StuffedShark.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/StuffedShark/BP_StuffedShark.22"
     }
   },
   {
@@ -482,7 +482,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_StuffedShark_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/StuffedShark/BP_StuffedShark.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/StuffedShark/BP_StuffedShark.23"
     }
   },
   {
@@ -544,7 +544,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_StuffedShark_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/StuffedShark/BP_StuffedShark.31"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/StuffedShark/BP_StuffedShark.30"
     },
     "Properties": {
       "AttachParent": {

@@ -351,14 +351,8 @@
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecSnail/BP_ElecSnail_BOSS.16"
     },
     "Properties": {
-      "SkeletalMesh": {
-        "ObjectName": "SkeletalMesh'SK_ElecSnail_Fire'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/ElecSnail_Fire/SK_ElecSnail_Fire"
-      },
-      "SkinnedAsset": {
-        "ObjectName": "SkeletalMesh'SK_ElecSnail_Fire'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/ElecSnail_Fire/SK_ElecSnail_Fire"
-      },
+      "SkeletalMesh": null,
+      "SkinnedAsset": null,
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_ElecSnail_Fire_BOSS_C:CollisionCylinder'",
         "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecSnail/BP_ElecSnail_Fire_BOSS.2"

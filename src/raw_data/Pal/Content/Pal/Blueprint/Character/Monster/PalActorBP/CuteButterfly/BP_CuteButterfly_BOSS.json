@@ -314,7 +314,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_CuteButterfly_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.22"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.21"
     }
   },
   {
@@ -328,7 +328,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_CuteButterfly_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.22"
     },
     "Properties": {
       "AttachParent": {
@@ -348,7 +348,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_CuteButterfly_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.23"
     },
     "Properties": {
       "AttachParent": {
@@ -373,11 +373,67 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_CuteButterfly_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.24"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 116.0,
       "MeshCapsuleRadius": 49.3,
+      "SleepOnSideInfoMapForMapObject": [
+        {
+          "Key": {
+            "Key": "MedicalPalBed_02"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -30.0,
+              "Y": 60.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_03"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -30.0,
+              "Y": 60.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_04"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        }
+      ],
       "PettingSize": "EPalPettingSizeType::Large",
       "PettingDistance": 60.0,
       "PettingStartAddDistance": 100.0,
@@ -395,7 +451,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_CuteButterfly_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.25"
     }
   },
   {
@@ -409,7 +465,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_CuteButterfly_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.26"
     }
   },
   {
@@ -471,7 +527,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_CuteButterfly_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.36"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.35"
     },
     "Properties": {
       "AttachParent": {

@@ -317,7 +317,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_SkyDragon_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.23"
     }
   },
   {
@@ -331,7 +331,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_SkyDragon_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.24"
     },
     "Properties": {
       "WalkCameraArmLength": 1650.0,
@@ -387,7 +387,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_SkyDragon_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.25"
     },
     "Properties": {
       "AttachParent": {
@@ -412,11 +412,12 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_SkyDragon_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.27"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 270.0,
       "MeshCapsuleRadius": 180.0,
+      "ApproachArrivalRadius": 200.0,
       "SleepOnSideInfoMapForMapObject": [
         {
           "Key": {
@@ -489,7 +490,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_SkyDragon_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.29"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.28"
     }
   },
   {
@@ -503,7 +504,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_SkyDragon_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.29"
     }
   },
   {
@@ -565,7 +566,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_SkyDragon_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.41"
     },
     "Properties": {
       "AttachParent": {

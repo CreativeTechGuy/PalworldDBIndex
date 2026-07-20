@@ -12,11 +12,11 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_CactusDoll_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.31"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_CactusDoll_C:InheritableComponentHandler'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.3"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.4"
       }
     },
     "SuperStruct": {
@@ -26,13 +26,46 @@
     "ChildProperties": [
       {
         "Type": "ObjectProperty",
-        "Name": "Sphere",
+        "Name": "PalBodyPartsSphere3",
         "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
         "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class'SphereComponent'",
-          "ObjectPath": "/Script/Engine"
+          "ObjectName": "Class'PalBodyPartsSphereComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsSphere2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsSphereComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsSphere1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsSphereComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsSphere",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsSphereComponent'",
+          "ObjectPath": "/Script/Pal"
         }
       }
     ],
@@ -54,7 +87,7 @@
   {
     "Type": "BP_CactusDoll_C",
     "Name": "Default__BP_CactusDoll_C",
-    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.BP_CactusDoll_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll",
     "Template": {
@@ -64,80 +97,97 @@
     "Properties": {
       "LiftupObjectComponent": {
         "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_CactusDoll_C:Liftup'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.8"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.13"
       },
       "ActionComponent": {
         "ObjectName": "PalActionComponent'Default__BP_CactusDoll_C:ActionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.4"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.5"
       },
       "CharacterParameterComponent": {
         "ObjectName": "PalCharacterParameterComponent'Default__BP_CactusDoll_C:CharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.10"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.15"
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_CactusDoll_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.17"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.22"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_CactusDoll_C:DamageReactionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.11"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.16"
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_CactusDoll_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.18"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.23"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_CactusDoll_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.15"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.20"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_CactusDoll_C:FollowCamera'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.7"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.12"
       },
       "LookAtComponent": {
         "ObjectName": "PalLookAtComponent'Default__BP_CactusDoll_C:LookAtComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.13"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.18"
       },
       "FootIKComponent": {
         "ObjectName": "PalFootIKComponent'Default__BP_CactusDoll_C:FootIKComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.12"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.17"
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_CactusDoll_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.19"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.24"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_CactusDoll_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.14"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.19"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_CactusDoll_C:AnimNotifyComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.5"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.6"
       },
       "AroundInfoCollectorComponent": {
         "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_CactusDoll_C:AroundInfoCollectorComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.6"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.11"
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_CactusDoll_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.25"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.32"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_CactusDoll_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.16"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.21"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_CactusDoll_C:CharMoveComp'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.9"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.14"
       },
       "CapsuleComponent": {
         "ObjectName": "CapsuleComponent'Default__BP_CactusDoll_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.3"
       },
       "RootComponent": {
         "ObjectName": "CapsuleComponent'Default__BP_CactusDoll_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.3"
       }
+    }
+  },
+  {
+    "Type": "BP_PalCryComponent_C",
+    "Name": "BP_PalCryComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.BP_PalCryComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CactusDoll_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalCryComponent_C'BP_MonsterBase_C:BP_PalCryComponent_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.2"
+    },
+    "Properties": {
+      "CryPalID": "EPalTribeID::CactusDoll"
     }
   },
   {
@@ -166,6 +216,32 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'BP_CactusDoll_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
+            "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BP_PalCryComponent_C'BP_CactusDoll_C:BP_PalCryComponent_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.2"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+            },
+            "SCSVariableName": "BP_PalCryComponent",
+            "AssociatedGuid": "A971BE27-4B3C10FC-863FA284-ECDC3286"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
     }
   },
   {
@@ -179,7 +255,7 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
     }
   },
   {
@@ -193,7 +269,71 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+    }
+  },
+  {
+    "Type": "PalBodyPartsSphereComponent",
+    "Name": "PalBodyPartsSphere1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsSphereComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CactusDoll_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.0"
+    },
+    "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Weak",
+      "RelativeLocation": {
+        "X": 10.0,
+        "Y": 10.0,
+        "Z": -9.769963E-15
+      },
+      "RelativeScale3D": {
+        "X": 0.75,
+        "Y": 0.75,
+        "Z": 0.75
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsSphereComponent",
+    "Name": "PalBodyPartsSphere2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsSphereComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CactusDoll_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.0"
+    },
+    "Properties": {
+      "SphereRadius": 20.0
+    }
+  },
+  {
+    "Type": "PalBodyPartsSphereComponent",
+    "Name": "PalBodyPartsSphere3_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsSphereComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CactusDoll_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.0"
+    },
+    "Properties": {
+      "SphereRadius": 20.0,
+      "RelativeLocation": {
+        "X": -5.0,
+        "Y": 0.0,
+        "Z": -8.881784E-16
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsSphereComponent",
+    "Name": "PalBodyPartsSphere_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsSphereComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CactusDoll_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.0"
     }
   },
   {
@@ -207,12 +347,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_CactusDoll_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.3"
       }
     }
   },
@@ -227,12 +367,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_CactusDoll_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.15"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.20"
       }
     }
   },
@@ -247,7 +387,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -261,7 +401,11 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+    },
+    "Properties": {
+      "InWaterRate": 0.26,
+      "Buoyancy": 3.5
     }
   },
   {
@@ -275,7 +419,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -289,7 +433,7 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
     }
   },
   {
@@ -303,7 +447,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     }
   },
   {
@@ -317,7 +461,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
     }
   },
   {
@@ -331,7 +475,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -345,12 +489,12 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_CactusDoll_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.3"
       }
     }
   },
@@ -365,7 +509,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
       "AnimClass": {
@@ -374,15 +518,15 @@
       },
       "SkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_CactusDoll'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/CactusDoll/SK_CactusDoll"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/CactusDoll/SK_CactusDoll.0"
       },
       "SkinnedAsset": {
         "ObjectName": "SkeletalMesh'SK_CactusDoll'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/CactusDoll/SK_CactusDoll"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/CactusDoll/SK_CactusDoll.0"
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_CactusDoll_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.3"
       },
       "RelativeLocation": {
         "X": 0.0,
@@ -402,7 +546,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 60.0,
@@ -412,19 +556,51 @@
         "Y": 0.0,
         "Z": -60.0
       },
+      "RandomRestMontageInfos": [
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_CactusDoll_Rest01'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_Rest01.0"
+          },
+          "Weight": 1.0,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 3,
+          "AfterIdleTime": 2.0
+        },
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_CactusDoll_Rest02'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_Rest02.0"
+          },
+          "Weight": 0.5,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 2,
+          "AfterIdleTime": 2.0
+        },
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_CactusDoll_Rest03'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_Rest03.0"
+          },
+          "Weight": 1.0,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 2.0
+        }
+      ],
       "GeneralAnimSequenceMap": [
         {
           "Key": "EPalGeneralAnimSequenceType::JumpLoop",
           "Value": {
             "ObjectName": "AnimSequence'AS_CactusDoll_JumpLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/CactusDoll/AS_CactusDoll_JumpLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CactusDoll/AS_CactusDoll_JumpLoop.0"
           }
         },
         {
           "Key": "EPalGeneralAnimSequenceType::JumpEnd",
           "Value": {
             "ObjectName": "AnimSequence'AS_CactusDoll_JumpEnd'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/CactusDoll/AS_CactusDoll_JumpEnd"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CactusDoll/AS_CactusDoll_JumpEnd.0"
           }
         }
       ],
@@ -433,63 +609,77 @@
           "Key": "EPalGeneralMontageType::GeneralAttackReady_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_CactusDoll_FarSkill_Start'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_FarSkill_Start"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_FarSkill_Start.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackReadyLoop_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_CactusDoll_FarSkill_StartLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_FarSkill_StartLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_FarSkill_StartLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackProcess_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_CactusDoll_FarSkill_Action'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_FarSkill_Action"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_FarSkill_Action.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackProcessLoop_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_CactusDoll_FarSkill_ActionLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_FarSkill_ActionLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_FarSkill_ActionLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackAfter_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_CactusDoll_FarSkill_End'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_FarSkill_End"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_FarSkill_End.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepStart",
           "Value": {
             "ObjectName": "AnimMontage'AM_CactusDoll_SleepStart'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_SleepStart"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_SleepStart.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepLoop",
           "Value": {
             "ObjectName": "AnimMontage'AM_CactusDoll_SleepLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_SleepLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_SleepLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepEnd",
           "Value": {
             "ObjectName": "AnimMontage'AM_CactusDoll_SleepEnd'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_SleepEnd"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_SleepEnd.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::DamageAdditive",
           "Value": {
             "ObjectName": "AnimMontage'AM_CactusDoll_Hit'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_Hit"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_Hit.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::BeLiftupStart",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CactusDoll_Carrying'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_Carrying.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::BeLiftupLoop",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CactusDoll_Carrying'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_Carrying.0"
           }
         }
       ],
@@ -507,6 +697,22 @@
             "ObjectName": "BlendSpace1D'BS_Transport_CactusDoll'",
             "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BS_Transport_CactusDoll.0"
           }
+        },
+        {
+          "Key": "EPalGeneralBlendSpaceType::Swim",
+          "Value": {
+            "ObjectName": "BlendSpace1D'BS_Swim_CactusDoll'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BS_Swim_CactusDoll.0"
+          }
+        }
+      ],
+      "RagdollPresetMap": [
+        {
+          "Key": "EPalRagdollPresetType::BeLiftup",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_RagdollPreset_Liftup_CactusDoll_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Ragdoll/BP_RagdollPreset_Liftup_CactusDoll.0"
+          }
         }
       ],
       "ActionMontageMap": [
@@ -514,80 +720,150 @@
           "Key": "EPalActionType::Menace",
           "Value": {
             "ObjectName": "AnimMontage'AM_CactusDoll_Encount'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_Encount"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_Encount.0"
           }
         },
         {
           "Key": "EPalActionType::Eat",
           "Value": {
             "ObjectName": "AnimMontage'AM_CactusDoll_Eat'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_Eat"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_Eat.0"
           }
         },
         {
           "Key": "EPalActionType::KnockBack",
           "Value": {
             "ObjectName": "AnimMontage'AM_CactusDoll_Damage'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_Damage"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_Damage.0"
           }
         },
         {
           "Key": "EPalActionType::ForwardWalk",
           "Value": {
             "ObjectName": "AnimMontage'AM_CactusDoll_Walk'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_Walk"
-          }
-        },
-        {
-          "Key": "EPalActionType::IdleInSpa",
-          "Value": {
-            "ObjectName": "AnimMontage'AM_CactusDoll_Spa'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_Spa"
-          }
-        },
-        {
-          "Key": "EPalActionType::GetupUtubuse_orRight",
-          "Value": {
-            "ObjectName": "AnimMontage'AM_CactusDoll_GetUp_FrontDown'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_GetUp_FrontDown"
-          }
-        },
-        {
-          "Key": "EPalActionType::GetupAomuke_orRight",
-          "Value": {
-            "ObjectName": "AnimMontage'AM_CactusDoll_GetUp_BackDown'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_GetUp_BackDown"
-          }
-        },
-        {
-          "Key": "EPalActionType::PalPetting",
-          "Value": {
-            "ObjectName": "AnimMontage'AM_CactusDoll_Petting'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_Petting"
-          }
-        },
-        {
-          "Key": "EPalActionType::CommonWork",
-          "Value": {
-            "ObjectName": "AnimMontage'AM_CactusDoll_Eat'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_Eat"
-          }
-        },
-        {
-          "Key": "EPalActionType::ElectricShock",
-          "Value": {
-            "ObjectName": "AnimMontage'AM_CactusDoll_ElectricShock'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_ElectricShock"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_Walk.0"
           }
         },
         {
           "Key": "EPalActionType::Feeding",
           "Value": {
             "ObjectName": "AnimMontage'AM_CactusDoll_Planting'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_Planting"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_Planting.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::GetupUtubuse_orRight",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CactusDoll_GetUp_FrontDown'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_GetUp_FrontDown.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::GetupAomuke_orRight",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CactusDoll_GetUp_BackDown'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_GetUp_BackDown.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::PalPetting",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CactusDoll_Petting'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_Petting.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::CommonWork",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CactusDoll_Commonwork'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_Commonwork.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::ElectricShock",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CactusDoll_ElectricShock'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_ElectricShock.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::IdleInSpa",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CactusDoll_Spa'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CactusDoll/AM_CactusDoll_Spa.0"
           }
         }
       ],
+      "SleepOnSideInfoMapForMapObject": [
+        {
+          "Key": {
+            "Key": "MedicalPalBed_02"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": 0.0,
+              "Y": 20.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": -20.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_03"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": 0.0,
+              "Y": 20.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": -20.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_04"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": 0.0,
+              "Y": 100.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": -20.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        }
+      ],
+      "HPGaugeUIOffset": {
+        "X": 20.0,
+        "Y": 0.0
+      },
+      "GetupMotion_UtubuseOrRight_0FramePelvisLocation": {
+        "X": 0.0,
+        "Y": 20.654852,
+        "Z": 12.903146
+      },
+      "GetupMotion_AomukeOrLeft_0FramePelvisLocation": {
+        "X": -0.362547,
+        "Y": -20.657013,
+        "Z": 12.917381
+      },
       "PettingDistance": 75.0
     }
   },
@@ -602,7 +878,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     }
   },
   {
@@ -616,7 +892,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -636,7 +912,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_CactusDoll_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.31"
     },
     "Properties": {
       "ComponentClass": {
@@ -645,7 +921,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_CactusDoll_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.20"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.25"
       },
       "VariableGuid": "9F348EB9-4C15FABF-FDE65897-F9BED34A",
       "InternalVariableName": "DefaultSceneRoot"
@@ -653,27 +929,102 @@
   },
   {
     "Type": "SCS_Node",
-    "Name": "SCS_Node_1",
+    "Name": "SCS_Node_2",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_CactusDoll_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.31"
     },
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class'SphereComponent'",
-        "ObjectPath": "/Script/Engine"
+        "ObjectName": "Class'PalBodyPartsSphereComponent'",
+        "ObjectPath": "/Script/Pal"
       },
       "ComponentTemplate": {
-        "ObjectName": "SphereComponent'BP_CactusDoll_C:Sphere_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.24"
+        "ObjectName": "PalBodyPartsSphereComponent'BP_CactusDoll_C:PalBodyPartsSphere_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.10"
       },
-      "AttachToName": "spine",
+      "AttachToName": "pelvis",
       "ParentComponentOrVariableName": "CharacterMesh0",
       "bIsParentComponentNative": true,
-      "VariableGuid": "CB4C0CE9-4D9DC924-92C8D5AF-94DCCA69",
-      "InternalVariableName": "Sphere"
+      "VariableGuid": "9D6DD6DD-41DD6441-AD8AA2A0-58AF128D",
+      "InternalVariableName": "PalBodyPartsSphere"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CactusDoll_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.31"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsSphereComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsSphereComponent'BP_CactusDoll_C:PalBodyPartsSphere1_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.7"
+      },
+      "AttachToName": "head",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "773B4112-4830FB40-69899CB6-3E21DC2D",
+      "InternalVariableName": "PalBodyPartsSphere1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CactusDoll_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.31"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsSphereComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsSphereComponent'BP_CactusDoll_C:PalBodyPartsSphere2_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.8"
+      },
+      "AttachToName": "hand_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "A245F19A-460DB113-7A2E49AD-92763227",
+      "InternalVariableName": "PalBodyPartsSphere2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CactusDoll_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.31"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsSphereComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsSphereComponent'BP_CactusDoll_C:PalBodyPartsSphere3_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.9"
+      },
+      "AttachToName": "hand_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8780EB48-4E7E9839-D6732E8E-4954F947",
+      "InternalVariableName": "PalBodyPartsSphere3"
     }
   },
   {
@@ -688,30 +1039,44 @@
     "Properties": {
       "RootNodes": [
         {
-          "ObjectName": "SCS_Node'BP_CactusDoll_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.22"
+          "ObjectName": "SCS_Node'BP_CactusDoll_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.27"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CactusDoll_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CactusDoll_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CactusDoll_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.30"
         }
       ],
       "AllNodes": [
         {
-          "ObjectName": "SCS_Node'BP_CactusDoll_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.22"
+          "ObjectName": "SCS_Node'BP_CactusDoll_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.27"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CactusDoll_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CactusDoll_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CactusDoll_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.30"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_CactusDoll_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.21"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.26"
       }
-    }
-  },
-  {
-    "Type": "SphereComponent",
-    "Name": "Sphere_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-    "Class": "UScriptClass'SphereComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_CactusDoll_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.0"
     }
   },
   {
@@ -725,12 +1090,12 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_CactusDoll_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CactusDoll/BP_CactusDoll.3"
       }
     }
   }

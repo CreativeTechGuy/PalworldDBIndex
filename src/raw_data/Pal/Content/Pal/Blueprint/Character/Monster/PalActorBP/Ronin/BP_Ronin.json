@@ -271,11 +271,11 @@
     },
     "Super": {
       "ObjectName": "Function'BP_MonsterBase_C:GetVisual_ExceptMainMesh_SyncAnyway'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.15"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.16"
     },
     "SuperStruct": {
       "ObjectName": "Function'BP_MonsterBase_C:GetVisual_ExceptMainMesh_SyncAnyway'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.15"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.16"
     },
     "ChildProperties": [
       {
@@ -336,28 +336,6 @@
       "Records": [
         {
           "ComponentClass": {
-            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-            "ObjectPath": "/Script/Pal"
-          },
-          "ComponentTemplate": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_Ronin_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ronin/BP_Ronin.20"
-          },
-          "ComponentKey": {
-            "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-            },
-            "SCSVariableName": "PalPartnerSkillParameter",
-            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
-          },
-          "CookedComponentInstancingData": {
-            "ChangedPropertyList": [],
-            "bHasValidCookedData": false
-          }
-        },
-        {
-          "ComponentClass": {
             "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
             "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
           },
@@ -372,6 +350,28 @@
             },
             "SCSVariableName": "BP_PalCryComponent",
             "AssociatedGuid": "A971BE27-4B3C10FC-863FA284-ECDC3286"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
+            "ObjectPath": "/Script/Pal"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "PalPartnerSkillParameterComponent'BP_Ronin_C:PalPartnerSkillParameter_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Ronin/BP_Ronin.20"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+            },
+            "SCSVariableName": "PalPartnerSkillParameter",
+            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
           },
           "CookedComponentInstancingData": {
             "ChangedPropertyList": [],
@@ -392,7 +392,7 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
     }
   },
   {
@@ -406,7 +406,7 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
     }
   },
   {
@@ -510,7 +510,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
@@ -530,7 +530,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
       "AttachParent": {
@@ -550,7 +550,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -564,7 +564,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
     },
     "Properties": {
       "InWaterRate": 0.79999995,
@@ -582,7 +582,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -596,7 +596,7 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
     }
   },
   {
@@ -610,7 +610,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     },
     "Properties": {
       "FootIKSettings": [
@@ -646,7 +646,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
     }
   },
   {
@@ -660,18 +660,11 @@
     },
     "Template": {
       "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
     },
     "Properties": {
-      "SkillName": "Waza",
-      "WazaID": "EPalWazaID::Unique_Ronin_Iai",
-      "ActiveSkill_MainValue_Overview_EditorOnly": "威力倍率",
-      "ActiveSkill_MainValueByRank": [
-        1.1,
-        1.3,
-        1.6,
-        2.0,
-        2.5
+      "ExtraWazaPowerRateTargetWazaIDs": [
+        "EPalWazaID::Unique_Ronin_Iai"
       ]
     }
   },
@@ -686,7 +679,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -700,7 +693,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
       "AttachParent": {
@@ -725,7 +718,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
       "bIsEnableGroundTilt": true,
@@ -765,7 +758,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 110.0,
@@ -781,6 +774,13 @@
           "Value": {
             "ObjectName": "BlueprintGeneratedClass'BP_AIAction_UseWaza_C'",
             "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Coop/BP_AIAction_UseWaza.0"
+          }
+        },
+        {
+          "Key": "EPalAIActionType::SideMove",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AIAction_AnimationSideStep_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Combat/BP_AIAction_AnimationSideStep.0"
           }
         }
       ],
@@ -971,6 +971,13 @@
           }
         },
         {
+          "Key": "EPalActionType::SideStep_Right",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_Ronin_SideStep_Right'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Ronin/AM_Ronin_SideStep_Right.0"
+          }
+        },
+        {
           "Key": "EPalActionType::GetupUtubuse_orRight",
           "Value": {
             "ObjectName": "AnimMontage'AM_Ronin_GetUp_FrontDown'",
@@ -982,6 +989,13 @@
           "Value": {
             "ObjectName": "AnimMontage'AM_Ronin_Cooking'",
             "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Ronin/AM_Ronin_Cooking.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::SideStep_Left",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_Ronin_SideStep_Left'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Ronin/AM_Ronin_SideStep_Left.0"
           }
         },
         {
@@ -1097,6 +1111,13 @@
             "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/Ronin/BP_Action_UniqueSkill_Ronin_Iai.BP_Action_UniqueSkill_Ronin_Iai_C",
             "SubPathString": ""
           }
+        },
+        {
+          "Key": "EPalWazaID::Unique_Ronin_Iai_PartnerSkill",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/Ronin/BP_Action_PartnerSkill_Ronin_Iai.BP_Action_PartnerSkill_Ronin_Iai_C",
+            "SubPathString": ""
+          }
         }
       ],
       "ToolAttachBoneName": "None",
@@ -1118,7 +1139,7 @@
           "Value": {
             "Effect": {
               "ObjectName": "NiagaraSystem'NS_SplashFeetPal'",
-              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_SplashFeetPal.71"
+              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_SplashFeetPal.55"
             },
             "Offset": {
               "X": 0.0,
@@ -1133,7 +1154,7 @@
           "Value": {
             "Effect": {
               "ObjectName": "NiagaraSystem'NS_DrownPal'",
-              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_DrownPal.107"
+              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_DrownPal.41"
             },
             "Offset": {
               "X": 0.0,
@@ -1148,7 +1169,7 @@
           "Value": {
             "Effect": {
               "ObjectName": "NiagaraSystem'NS_DrownPal'",
-              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_DrownPal.107"
+              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_DrownPal.41"
             },
             "Offset": {
               "X": 0.0,
@@ -1174,7 +1195,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     }
   },
   {
@@ -1188,7 +1209,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -1385,7 +1406,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {

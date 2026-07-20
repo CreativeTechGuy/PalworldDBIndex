@@ -1,0 +1,1539 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_CubeTurtle_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_CubeTurtle_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.41"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_CubeTurtle_C:InheritableComponentHandler'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsBox",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsBoxComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_PalRideMarkerSit",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PalRideMarkerSit_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerSit.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalSpeedCollision",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalSpeedCollisionComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsSphere6",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsSphereComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsSphere5",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsSphereComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsSphere4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsSphereComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsSphere3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsSphereComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsSphere2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsSphereComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsSphere",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsSphereComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_CubeTurtle_C'Default__BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_CubeTurtle_C",
+    "Name": "Default__BP_CubeTurtle_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.BP_CubeTurtle_C'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle",
+    "Template": {
+      "ObjectName": "BP_MonsterBase_C'Default__BP_MonsterBase_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.1"
+    },
+    "Properties": {
+      "LiftupObjectComponent": {
+        "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_CubeTurtle_C:Liftup'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.17"
+      },
+      "ActionComponent": {
+        "ObjectName": "PalActionComponent'Default__BP_CubeTurtle_C:ActionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.6"
+      },
+      "CharacterParameterComponent": {
+        "ObjectName": "PalCharacterParameterComponent'Default__BP_CubeTurtle_C:CharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.19"
+      },
+      "StaticCharacterParameterComponent": {
+        "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_CubeTurtle_C:StaticCharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.27"
+      },
+      "DamageReactionComponent": {
+        "ObjectName": "PalDamageReactionComponent'Default__BP_CubeTurtle_C:DamageReactionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.20"
+      },
+      "StatusComponent": {
+        "ObjectName": "PalStatusComponent'Default__BP_CubeTurtle_C:StatusComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.28"
+      },
+      "CameraBoom": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_CubeTurtle_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.24"
+      },
+      "FollowCamera": {
+        "ObjectName": "PalCharacterCameraComponent'Default__BP_CubeTurtle_C:FollowCamera'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.16"
+      },
+      "LookAtComponent": {
+        "ObjectName": "PalLookAtComponent'Default__BP_CubeTurtle_C:LookAtComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.22"
+      },
+      "FootIKComponent": {
+        "ObjectName": "PalFootIKComponent'Default__BP_CubeTurtle_C:FootIKComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.21"
+      },
+      "VisualEffectComponent": {
+        "ObjectName": "PalVisualEffectComponent'Default__BP_CubeTurtle_C:VisualEffectComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.29"
+      },
+      "PassiveSkillComponent": {
+        "ObjectName": "PalPassiveSkillComponent'Default__BP_CubeTurtle_C:PassiveSkillComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.23"
+      },
+      "AnimNotifyComponent": {
+        "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_CubeTurtle_C:AnimNotifyComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.7"
+      },
+      "AroundInfoCollectorComponent": {
+        "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_CubeTurtle_C:AroundInfoCollectorComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.15"
+      },
+      "RagdollInteractiveSphere": {
+        "ObjectName": "SphereComponent'Default__BP_CubeTurtle_C:RagdollInteractiveSphere'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.42"
+      },
+      "Mesh": {
+        "ObjectName": "PalSkeletalMeshComponent'Default__BP_CubeTurtle_C:CharacterMesh0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.25"
+      },
+      "CharacterMovement": {
+        "ObjectName": "PalCharacterMovementComponent'Default__BP_CubeTurtle_C:CharMoveComp'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.18"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_CubeTurtle_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.4"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_CubeTurtle_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.4"
+      }
+    }
+  },
+  {
+    "Type": "BP_PalCryComponent_C",
+    "Name": "BP_PalCryComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.BP_PalCryComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalCryComponent_C'BP_MonsterBase_C:BP_PalCryComponent_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.2"
+    },
+    "Properties": {
+      "CryPalID": "EPalTribeID::CubeTurtle"
+    }
+  },
+  {
+    "Type": "BP_PalRideMarkerSit_C",
+    "Name": "BP_PalRideMarkerSit_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerSit.BP_PalRideMarkerSit_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalRideMarkerSit_C'Default__BP_PalRideMarkerSit_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerSit.1"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 50.0,
+        "Y": 15.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 1.8174597E-15,
+        "Roll": 1.8628963E-14
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_CubeTurtle_C'Default__BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.1"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_MonsterBase_C:CollisionCylinder'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.3"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 30.0,
+      "CapsuleRadius": 30.0,
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
+            "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BP_PalCryComponent_C'BP_CubeTurtle_C:BP_PalCryComponent_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.2"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+            },
+            "SCSVariableName": "BP_PalCryComponent",
+            "AssociatedGuid": "A971BE27-4B3C10FC-863FA284-ECDC3286"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PalActionComponent",
+    "Name": "ActionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalActionComponent'",
+    "Outer": {
+      "ObjectName": "BP_CubeTurtle_C'Default__BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.1"
+    },
+    "Template": {
+      "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+    }
+  },
+  {
+    "Type": "PalAnimNotifyParameterComponent",
+    "Name": "AnimNotifyComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_CubeTurtle_C'Default__BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.1"
+    },
+    "Template": {
+      "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+    }
+  },
+  {
+    "Type": "PalBodyPartsBoxComponent",
+    "Name": "PalBodyPartsBox_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsBoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.0"
+    },
+    "Properties": {
+      "BoxExtent": {
+        "X": 151.22348,
+        "Y": 158.89455,
+        "Z": 157.71773
+      },
+      "RelativeLocation": {
+        "X": -59.225266,
+        "Y": -8.14766,
+        "Z": -7.0822015
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 1.7811107E-13,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsSphereComponent",
+    "Name": "PalBodyPartsSphere2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsSphereComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.0"
+    },
+    "Properties": {
+      "SphereRadius": 70.0,
+      "RelativeLocation": {
+        "X": 6.0,
+        "Y": -9.0,
+        "Z": 2.8310687E-15
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsSphereComponent",
+    "Name": "PalBodyPartsSphere3_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsSphereComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.0"
+    },
+    "Properties": {
+      "SphereRadius": 70.0,
+      "RelativeLocation": {
+        "X": 6.0,
+        "Y": -9.0,
+        "Z": 2.8310687E-15
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsSphereComponent",
+    "Name": "PalBodyPartsSphere4_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsSphereComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.0"
+    },
+    "Properties": {
+      "SphereRadius": 70.0,
+      "RelativeLocation": {
+        "X": 6.0,
+        "Y": -9.0,
+        "Z": 2.8310687E-15
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsSphereComponent",
+    "Name": "PalBodyPartsSphere5_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsSphereComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.0"
+    },
+    "Properties": {
+      "SphereRadius": 70.0,
+      "RelativeLocation": {
+        "X": 6.0,
+        "Y": -9.0,
+        "Z": 2.8310687E-15
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsSphereComponent",
+    "Name": "PalBodyPartsSphere6_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsSphereComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.0"
+    },
+    "Properties": {
+      "SphereRadius": 50.0,
+      "RelativeLocation": {
+        "X": -6.0,
+        "Y": -9.0,
+        "Z": 2.8310687E-15
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsSphereComponent",
+    "Name": "PalBodyPartsSphere_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsSphereComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.0"
+    },
+    "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Weak",
+      "SphereRadius": 60.0,
+      "RelativeLocation": {
+        "X": -2.6201263E-14,
+        "Y": 55.0,
+        "Z": -2.4424907E-14
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterAroundInfoCollectorComponent",
+    "Name": "AroundInfoCollectorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+    "Outer": {
+      "ObjectName": "BP_CubeTurtle_C'Default__BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_CubeTurtle_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.4"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterCameraComponent",
+    "Name": "FollowCamera",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterCameraComponent'",
+    "Outer": {
+      "ObjectName": "BP_CubeTurtle_C'Default__BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_CubeTurtle_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.24"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterLiftupObjectComponent",
+    "Name": "Liftup",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+    "Outer": {
+      "ObjectName": "BP_CubeTurtle_C'Default__BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+    }
+  },
+  {
+    "Type": "PalCharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_CubeTurtle_C'Default__BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+    },
+    "Properties": {
+      "InWaterRate": 0.59,
+      "GravityScale": 1.2,
+      "JumpZVelocity": 450.0,
+      "Buoyancy": 1.6
+    }
+  },
+  {
+    "Type": "PalCharacterParameterComponent",
+    "Name": "CharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_CubeTurtle_C'Default__BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+    }
+  },
+  {
+    "Type": "PalDamageReactionComponent",
+    "Name": "DamageReactionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalDamageReactionComponent'",
+    "Outer": {
+      "ObjectName": "BP_CubeTurtle_C'Default__BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.1"
+    },
+    "Template": {
+      "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
+    }
+  },
+  {
+    "Type": "PalFootIKComponent",
+    "Name": "FootIKComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalFootIKComponent'",
+    "Outer": {
+      "ObjectName": "BP_CubeTurtle_C'Default__BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.1"
+    },
+    "Template": {
+      "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
+    }
+  },
+  {
+    "Type": "PalLookAtComponent",
+    "Name": "LookAtComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalLookAtComponent'",
+    "Outer": {
+      "ObjectName": "BP_CubeTurtle_C'Default__BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.1"
+    },
+    "Template": {
+      "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
+    }
+  },
+  {
+    "Type": "PalPassiveSkillComponent",
+    "Name": "PassiveSkillComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalPassiveSkillComponent'",
+    "Outer": {
+      "ObjectName": "BP_CubeTurtle_C'Default__BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.1"
+    },
+    "Template": {
+      "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
+    }
+  },
+  {
+    "Type": "PalShooterSpringArmComponent",
+    "Name": "CameraBoom",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalShooterSpringArmComponent'",
+    "Outer": {
+      "ObjectName": "BP_CubeTurtle_C'Default__BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.1"
+    },
+    "Template": {
+      "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+    },
+    "Properties": {
+      "WalkCameraArmLength": 1700.0,
+      "WalkCameraOffset": {
+        "X": 0.0,
+        "Y": 550.0,
+        "Z": 100.0
+      },
+      "HipShootCameraArmLength": 1700.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 550.0,
+        "Z": 100.0
+      },
+      "AimCameraArmLength": 1000.0,
+      "AimCameraOffset": {
+        "X": 0.0,
+        "Y": 400.0,
+        "Z": 300.0
+      },
+      "AirCameraArmLength": 1700.0,
+      "AirCameraOffset": {
+        "X": 0.0,
+        "Y": 550.0,
+        "Z": 100.0
+      },
+      "AirHipShootCameraArmLength": 1700.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 550.0,
+        "Z": 100.0
+      },
+      "AirAimCameraArmLength": 1000.0,
+      "AirAimCameraOffset": {
+        "X": 0.0,
+        "Y": 400.0,
+        "Z": 300.0
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_CubeTurtle_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.4"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 500.0
+      }
+    }
+  },
+  {
+    "Type": "PalSkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_CubeTurtle_C'Default__BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.1"
+    },
+    "Template": {
+      "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_CubeTurtle_C'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/ABP_CubeTurtle.1"
+      },
+      "AnimationData": {
+        "AnimToPlay": {
+          "ObjectName": "AnimMontage'AM_CubeTurtle_Damage'",
+          "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AM_CubeTurtle_Damage.0"
+        }
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_CubeTurtle'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/CubeTurtle/SK_CubeTurtle.0"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_CubeTurtle'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/CubeTurtle/SK_CubeTurtle.0"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_CubeTurtle_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.4"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -30.0
+      },
+      "RelativeScale3D": {
+        "X": 1.6,
+        "Y": 1.6000003,
+        "Z": 1.6000003
+      }
+    }
+  },
+  {
+    "Type": "PalSpeedCollisionComponent",
+    "Name": "PalSpeedCollision_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalSpeedCollisionComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.0"
+    },
+    "Properties": {
+      "SphereRadius": 200.0,
+      "RelativeLocation": {
+        "X": 150.58708,
+        "Y": -9.826305E-07,
+        "Z": 91.13461
+      }
+    }
+  },
+  {
+    "Type": "PalStaticCharacterParameterComponent",
+    "Name": "StaticCharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_CubeTurtle_C'Default__BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.1"
+    },
+    "Template": {
+      "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+    },
+    "Properties": {
+      "MeshCapsuleHalfHeight": 270.0,
+      "MeshCapsuleRadius": 270.0,
+      "MeshRelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -270.0
+      },
+      "ApproachArrivalRadius": 500.0,
+      "AIActionMap": [
+        {
+          "Key": "EPalAIActionType::Cooperation",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AIActionRideCall_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Coop/BP_AIActionRideCall.0"
+          }
+        },
+        {
+          "Key": "EPalAIActionType::Leave",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AIAction_Leave_TurnRun_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Combat/BP_AIAction_Leave_TurnRun.0"
+          }
+        }
+      ],
+      "RandomRestMontageInfos": [
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_CubeTurtle_Rest01'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AM_CubeTurtle_Rest01.0"
+          },
+          "Weight": 1.0,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 2.0
+        },
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_CubeTurtle_Rest02'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AM_CubeTurtle_Rest02.0"
+          },
+          "Weight": 1.0,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 2.0
+        },
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_CubeTurtle_Rest03'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AM_CubeTurtle_Rest03.0"
+          },
+          "Weight": 1.0,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 2.0
+        },
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_CubeTurtle_Eat'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AM_CubeTurtle_Eat.0"
+          },
+          "Weight": 1.0,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 3,
+          "AfterIdleTime": 2.0
+        }
+      ],
+      "GeneralAnimSequenceMap": [
+        {
+          "Key": "EPalGeneralAnimSequenceType::JumpLoop",
+          "Value": {
+            "ObjectName": "AnimSequence'AS_CubeTurtle_JumpLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AS_CubeTurtle_JumpLoop.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralAnimSequenceType::JumpEnd",
+          "Value": {
+            "ObjectName": "AnimSequence'AS_CubeTurtle_JumpEnd'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AS_CubeTurtle_JumpEnd.0"
+          }
+        }
+      ],
+      "GeneralMontageMap": [
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackReady_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CubeTurtle_FarSkill_Start'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AM_CubeTurtle_FarSkill_Start.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackReadyLoop_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CubeTurtle_FarSkill_StartLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AM_CubeTurtle_FarSkill_StartLoop.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackProcess_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CubeTurtle_FarSkill_Action'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AM_CubeTurtle_FarSkill_Action.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackProcessLoop_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CubeTurtle_FarSkill_ActionLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AM_CubeTurtle_FarSkill_ActionLoop.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackAfter_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CubeTurtle_FarSkill_End'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AM_CubeTurtle_FarSkill_End.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::SleepStart",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CubeTurtle_SleepStart'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AM_CubeTurtle_SleepStart.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::SleepLoop",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CubeTurtle_SleepLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AM_CubeTurtle_SleepLoop.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::SleepEnd",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CubeTurtle_SleepEnd'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AM_CubeTurtle_SleepEnd.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::DamageAdditive",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CubeTurtle_Hit'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AM_CubeTurtle_Hit.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::BeLiftupStart",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CubeTurtle_Idle'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AM_CubeTurtle_Idle.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::BeLiftupLoop",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CubeTurtle_Idle'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AM_CubeTurtle_Idle.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::Ragdoll",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CubeTurtle_Idle'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AM_CubeTurtle_Idle.0"
+          }
+        }
+      ],
+      "GeneralBlendSpaceMap": [
+        {
+          "Key": "EPalGeneralBlendSpaceType::GeneralMove",
+          "Value": {
+            "ObjectName": "BlendSpace1D'BS_Move_CubeTurtle'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BS_Move_CubeTurtle.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralBlendSpaceType::Swim",
+          "Value": {
+            "ObjectName": "BlendSpace1D'BS_Swim_CubeTurtle'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BS_Swim_CubeTurtle.0"
+          }
+        }
+      ],
+      "RagdollPresetMap": [
+        {
+          "Key": "EPalRagdollPresetType::BeLiftup",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_RagdollPreset_Liftup_CubeTurtle_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Ragdoll/BP_RagdollPreset_Liftup_CubeTurtle.0"
+          }
+        }
+      ],
+      "ActionMontageMap": [
+        {
+          "Key": "EPalActionType::Menace",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CubeTurtle_Encount'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AM_CubeTurtle_Encount.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::Eat",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CubeTurtle_Eat'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AM_CubeTurtle_Eat.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::KnockBack",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CubeTurtle_Damage'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AM_CubeTurtle_Damage.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::ForwardWalk",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CubeTurtle_Walk'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AM_CubeTurtle_Walk.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::Mining",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CubeTurtle_Mining'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AM_CubeTurtle_Mining.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::GetupUtubuse_orRight",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CubeTurtle_GetUp_FrontDown'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AM_CubeTurtle_GetUp_FrontDown.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::PalPetting",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CubeTurtle_Petting'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AM_CubeTurtle_Petting.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::ElectricShock",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CubeTurtle_ElectricShock'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AM_CubeTurtle_ElectricShock.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::IdleInSpa",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CubeTurtle_Spa'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AM_CubeTurtle_Spa.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::Mimicry",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CubeTurtle_MimicLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AM_CubeTurtle_MimicLoop.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::MimicryEncount",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CubeTurtle_SleepEnd'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CubeTurtle/AM_CubeTurtle_SleepEnd.0"
+          }
+        }
+      ],
+      "SleepOnSideInfoMapForMapObject": [
+        {
+          "Key": {
+            "Key": "MedicalPalBed_02"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -70.0,
+              "Y": -200.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 80.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_03"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -70.0,
+              "Y": -200.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 80.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_04"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -100.0,
+              "Y": -70.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 80.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        }
+      ],
+      "WazaActionDeclarationMap": [
+        {
+          "Key": "EPalWazaID::Unique_CubeTurtle_CubePress",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/CubeTurtle/BP_UniqueAction_CubeTurtle_CubePress.BP_UniqueAction_CubeTurtle_CubePress_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EPalWazaID::Unique_CubeTurtle_Neutral_HolyPress",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/CubeTurtle/BP_UniqueAction_CubeTurtle_HolyPress.BP_UniqueAction_CubeTurtle_HolyPress_C",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "bIsMimicablePal": true,
+      "MimicEncountType": "EPalMimicEncountType::Battle",
+      "ToolAttachBoneName": "None",
+      "HPGaugeUIOffset": {
+        "X": 0.0,
+        "Y": -30.0
+      },
+      "GetupMotion_UtubuseOrRight_0FramePelvisLocation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 48.38495
+      },
+      "PettingSize": "EPalPettingSizeType::Medium",
+      "PettingDistance": 610.0,
+      "PettingStartAddDistance": 40.0
+    }
+  },
+  {
+    "Type": "PalStatusComponent",
+    "Name": "StatusComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStatusComponent'",
+    "Outer": {
+      "ObjectName": "BP_CubeTurtle_C'Default__BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.1"
+    },
+    "Template": {
+      "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+    }
+  },
+  {
+    "Type": "PalVisualEffectComponent",
+    "Name": "VisualEffectComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalVisualEffectComponent'",
+    "Outer": {
+      "ObjectName": "BP_CubeTurtle_C'Default__BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.1"
+    },
+    "Template": {
+      "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CubeTurtle_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_CubeTurtle_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.30"
+      },
+      "VariableGuid": "F7307765-432EC49B-11C7259F-B2641ABD",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CubeTurtle_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsSphereComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsSphereComponent'BP_CubeTurtle_C:PalBodyPartsSphere_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.14"
+      },
+      "AttachToName": "head",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "BD6974EA-43A70600-76FD729A-82E79F96",
+      "InternalVariableName": "PalBodyPartsSphere"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CubeTurtle_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PalRideMarkerSit_C'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerSit.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_PalRideMarkerSit_C'BP_CubeTurtle_C:BP_PalRideMarkerSit_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.3"
+      },
+      "AttachToName": "cube_03",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "43EF603B-431FEF45-7CD07E88-D273BB64",
+      "InternalVariableName": "BP_PalRideMarkerSit"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CubeTurtle_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsBoxComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsBoxComponent'BP_CubeTurtle_C:PalBodyPartsBox_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.8"
+      },
+      "AttachToName": "cube_03",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "B6EE2DDD-4F8E06FC-088F41BD-2C52116F",
+      "InternalVariableName": "PalBodyPartsBox"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CubeTurtle_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsSphereComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsSphereComponent'BP_CubeTurtle_C:PalBodyPartsSphere2_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.9"
+      },
+      "AttachToName": "leg_front_04_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "26DEE659-4B091942-1DEC6D9E-47EF8A2A",
+      "InternalVariableName": "PalBodyPartsSphere2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CubeTurtle_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsSphereComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsSphereComponent'BP_CubeTurtle_C:PalBodyPartsSphere3_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.10"
+      },
+      "AttachToName": "leg_front_04_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "A737D5B1-4EADD325-8FA99786-1EAD909D",
+      "InternalVariableName": "PalBodyPartsSphere3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CubeTurtle_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsSphereComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsSphereComponent'BP_CubeTurtle_C:PalBodyPartsSphere4_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.11"
+      },
+      "AttachToName": "leg_back_04_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "5AB997B5-48626CE4-894CE6B2-21DA60E9",
+      "InternalVariableName": "PalBodyPartsSphere4"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CubeTurtle_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsSphereComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsSphereComponent'BP_CubeTurtle_C:PalBodyPartsSphere5_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.12"
+      },
+      "AttachToName": "leg_back_04_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "6FC1728D-4B085BCD-615FC383-95178014",
+      "InternalVariableName": "PalBodyPartsSphere5"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CubeTurtle_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsSphereComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsSphereComponent'BP_CubeTurtle_C:PalBodyPartsSphere6_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.13"
+      },
+      "AttachToName": "tail_03",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "FBE1B13A-4CEE4EE4-C75EB583-D6EC8C91",
+      "InternalVariableName": "PalBodyPartsSphere6"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CubeTurtle_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.41"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalSpeedCollisionComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalSpeedCollisionComponent'BP_CubeTurtle_C:PalSpeedCollision_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.26"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "3E6EB127-452179C0-56D0B49F-C4A815F7",
+      "InternalVariableName": "PalSpeedCollision"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_CubeTurtle_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CubeTurtle_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CubeTurtle_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CubeTurtle_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CubeTurtle_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CubeTurtle_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CubeTurtle_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CubeTurtle_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CubeTurtle_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.34"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_CubeTurtle_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CubeTurtle_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CubeTurtle_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CubeTurtle_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CubeTurtle_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CubeTurtle_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CubeTurtle_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CubeTurtle_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CubeTurtle_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.34"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_CubeTurtle_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.31"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "RagdollInteractiveSphere",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BP_CubeTurtle_C'Default__BP_CubeTurtle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.1"
+    },
+    "Template": {
+      "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_CubeTurtle_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CubeTurtle/BP_CubeTurtle.4"
+      }
+    }
+  }
+]

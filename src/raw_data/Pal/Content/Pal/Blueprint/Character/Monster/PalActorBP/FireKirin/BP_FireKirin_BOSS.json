@@ -348,7 +348,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_FireKirin_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FireKirin/BP_FireKirin.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FireKirin/BP_FireKirin.22"
     }
   },
   {
@@ -362,31 +362,43 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_FireKirin_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FireKirin/BP_FireKirin.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FireKirin/BP_FireKirin.23"
     },
     "Properties": {
-      "WalkCameraArmLength": 800.0,
+      "WalkCameraArmLength": 350.0,
       "WalkCameraOffset": {
         "X": 0.0,
-        "Y": 125.0,
-        "Z": 165.0
+        "Y": 120.0,
+        "Z": 120.0
       },
-      "AimCameraArmLength": 350.0,
+      "HipShootCameraArmLength": 350.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 120.0,
+        "Z": 120.0
+      },
+      "AimCameraArmLength": 250.0,
       "AimCameraOffset": {
         "X": 0.0,
-        "Y": 78.0,
+        "Y": 120.0,
         "Z": 140.0
       },
-      "AirCameraArmLength": 800.0,
+      "AirCameraArmLength": 350.0,
       "AirCameraOffset": {
         "X": 0.0,
-        "Y": 125.0,
-        "Z": 165.0
+        "Y": 120.0,
+        "Z": 120.0
       },
-      "AirAimCameraArmLength": 350.0,
+      "AirHipShootCameraArmLength": 350.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 120.0,
+        "Z": 120.0
+      },
+      "AirAimCameraArmLength": 250.0,
       "AirAimCameraOffset": {
         "X": 0.0,
-        "Y": 78.0,
+        "Y": 120.0,
         "Z": 140.0
       },
       "AttachParent": {
@@ -411,7 +423,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_FireKirin_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FireKirin/BP_FireKirin.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FireKirin/BP_FireKirin.24"
     },
     "Properties": {
       "AttachParent": {
@@ -436,7 +448,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_FireKirin_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FireKirin/BP_FireKirin.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FireKirin/BP_FireKirin.27"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 224.0,
@@ -523,7 +535,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_FireKirin_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FireKirin/BP_FireKirin.29"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FireKirin/BP_FireKirin.28"
     }
   },
   {
@@ -537,7 +549,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_FireKirin_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FireKirin/BP_FireKirin.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FireKirin/BP_FireKirin.29"
     }
   },
   {
@@ -636,7 +648,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_FireKirin_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FireKirin/BP_FireKirin.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FireKirin/BP_FireKirin.40"
     },
     "Properties": {
       "AttachParent": {

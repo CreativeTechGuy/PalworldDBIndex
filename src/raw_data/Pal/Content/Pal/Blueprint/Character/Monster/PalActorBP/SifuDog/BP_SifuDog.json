@@ -12,7 +12,7 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_SifuDog_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.32"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.31"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_SifuDog_C:InheritableComponentHandler'",
@@ -126,7 +126,7 @@
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_SifuDog_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.22"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_SifuDog_C:DamageReactionComponent'",
@@ -134,11 +134,11 @@
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_SifuDog_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.23"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_SifuDog_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.21"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.20"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_SifuDog_C:FollowCamera'",
@@ -154,11 +154,11 @@
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_SifuDog_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.25"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.24"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_SifuDog_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.20"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.19"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_SifuDog_C:AnimNotifyComponent'",
@@ -170,11 +170,11 @@
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_SifuDog_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.33"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.32"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_SifuDog_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.21"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_SifuDog_C:CharMoveComp'",
@@ -240,28 +240,6 @@
             "ChangedPropertyList": [],
             "bHasValidCookedData": false
           }
-        },
-        {
-          "ComponentClass": {
-            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-            "ObjectPath": "/Script/Pal"
-          },
-          "ComponentTemplate": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_SifuDog_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.19"
-          },
-          "ComponentKey": {
-            "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-            },
-            "SCSVariableName": "PalPartnerSkillParameter",
-            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
-          },
-          "CookedComponentInstancingData": {
-            "ChangedPropertyList": [],
-            "bHasValidCookedData": false
-          }
         }
       ]
     }
@@ -277,7 +255,7 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
     },
     "Properties": {
       "ActionMap": [
@@ -309,7 +287,7 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
     }
   },
   {
@@ -420,7 +398,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
@@ -440,12 +418,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_SifuDog_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.21"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.20"
       }
     }
   },
@@ -460,7 +438,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -474,7 +452,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
     },
     "Properties": {
       "InWaterRate": 0.089999996,
@@ -492,7 +470,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -506,7 +484,7 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
     }
   },
   {
@@ -520,7 +498,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     }
   },
   {
@@ -534,31 +512,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
-    }
-  },
-  {
-    "Type": "PalPartnerSkillParameterComponent",
-    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_SifuDog_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.0"
-    },
-    "Template": {
-      "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
-    },
-    "Properties": {
-      "SkillName": "ReturnToBaseCamp",
-      "ActiveSkill_OverWriteCoolTimeByRank": [
-        1000.0,
-        875.0,
-        750.0,
-        625.0,
-        500.0
-      ]
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
     }
   },
   {
@@ -572,7 +526,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -586,7 +540,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
       "AttachParent": {
@@ -611,7 +565,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
       "AnimClass": {
@@ -648,7 +602,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 100.0,
@@ -889,24 +843,24 @@
           }
         },
         {
-          "Key": "EPalActionType::IdleInSpa",
+          "Key": "EPalActionType::FishPond",
           "Value": {
-            "ObjectName": "AnimMontage'AM_SifuDog_Spa'",
-            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SifuDog/AM_SifuDog_Spa.0"
+            "ObjectName": "AnimMontage'AM_SifuDog_Rest01'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SifuDog/AM_SifuDog_Rest01.0"
           }
         },
         {
           "Key": "EPalActionType::DefenseGunner",
           "Value": {
-            "ObjectName": "AnimMontage'AM_SifuDog_CommonWork'",
-            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SifuDog/AM_SifuDog_CommonWork.0"
+            "ObjectName": "AnimMontage'AM_SifuDog_Gunner'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SifuDog/AM_SifuDog_Gunner.0"
           }
         },
         {
-          "Key": "EPalActionType::FishPond",
+          "Key": "EPalActionType::IdleInSpa",
           "Value": {
-            "ObjectName": "AnimMontage'AM_SifuDog_Rest01'",
-            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SifuDog/AM_SifuDog_Rest01.0"
+            "ObjectName": "AnimMontage'AM_SifuDog_Spa'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SifuDog/AM_SifuDog_Spa.0"
           }
         }
       ],
@@ -993,7 +947,7 @@
         "Z": 13.716189
       },
       "PettingSize": "EPalPettingSizeType::Medium",
-      "DefenseBuildObjectAssignDistance": 20.0
+      "DefenseBuildObjectAssignDistance": 40.0
     }
   },
   {
@@ -1007,7 +961,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     }
   },
   {
@@ -1021,7 +975,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -1041,7 +995,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_SifuDog_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.32"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.31"
     },
     "Properties": {
       "ComponentClass": {
@@ -1050,7 +1004,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_SifuDog_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.25"
       },
       "VariableGuid": "BDE854F9-4A802504-8CC5D693-4D76AB0E",
       "InternalVariableName": "DefaultSceneRoot"
@@ -1063,7 +1017,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_SifuDog_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.32"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.31"
     },
     "Properties": {
       "ComponentClass": {
@@ -1088,7 +1042,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_SifuDog_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.32"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.31"
     },
     "Properties": {
       "ComponentClass": {
@@ -1113,7 +1067,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_SifuDog_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.32"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.31"
     },
     "Properties": {
       "ComponentClass": {
@@ -1138,7 +1092,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_SifuDog_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.32"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.31"
     },
     "Properties": {
       "ComponentClass": {
@@ -1169,42 +1123,42 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'BP_SifuDog_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.29"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_SifuDog_C:SimpleConstructionScript_0.SCS_Node_1'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.28"
         },
         {
+          "ObjectName": "SCS_Node'BP_SifuDog_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.27"
+        },
+        {
           "ObjectName": "SCS_Node'BP_SifuDog_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.30"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.29"
         },
         {
           "ObjectName": "SCS_Node'BP_SifuDog_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.31"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.30"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'BP_SifuDog_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.29"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_SifuDog_C:SimpleConstructionScript_0.SCS_Node_1'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.28"
         },
         {
+          "ObjectName": "SCS_Node'BP_SifuDog_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.27"
+        },
+        {
           "ObjectName": "SCS_Node'BP_SifuDog_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.30"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.29"
         },
         {
           "ObjectName": "SCS_Node'BP_SifuDog_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.31"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.30"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_SifuDog_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.27"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SifuDog/BP_SifuDog.26"
       }
     }
   },
@@ -1219,7 +1173,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {

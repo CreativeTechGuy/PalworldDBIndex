@@ -348,7 +348,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_FlameBuffalo_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlameBuffalo/BP_FlameBuffalo.21"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlameBuffalo/BP_FlameBuffalo.20"
     }
   },
   {
@@ -362,32 +362,44 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_FlameBuffalo_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlameBuffalo/BP_FlameBuffalo.22"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlameBuffalo/BP_FlameBuffalo.21"
     },
     "Properties": {
-      "WalkCameraArmLength": 800.0,
+      "WalkCameraArmLength": 400.0,
       "WalkCameraOffset": {
         "X": 0.0,
-        "Y": 115.0,
-        "Z": 165.0
+        "Y": 140.0,
+        "Z": 140.0
       },
-      "AimCameraArmLength": 200.0,
+      "HipShootCameraArmLength": 400.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 140.0,
+        "Z": 140.0
+      },
+      "AimCameraArmLength": 250.0,
       "AimCameraOffset": {
         "X": 0.0,
-        "Y": 50.0,
-        "Z": 156.0
+        "Y": 100.0,
+        "Z": 160.0
       },
-      "AirCameraArmLength": 800.0,
+      "AirCameraArmLength": 400.0,
       "AirCameraOffset": {
         "X": 0.0,
-        "Y": 115.0,
-        "Z": 165.0
+        "Y": 140.0,
+        "Z": 140.0
       },
-      "AirAimCameraArmLength": 200.0,
+      "AirHipShootCameraArmLength": 400.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 140.0,
+        "Z": 140.0
+      },
+      "AirAimCameraArmLength": 250.0,
       "AirAimCameraOffset": {
         "X": 0.0,
-        "Y": 50.0,
-        "Z": 156.0
+        "Y": 100.0,
+        "Z": 160.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_FlameBuffalo_BOSS_C:CollisionCylinder'",
@@ -411,7 +423,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_FlameBuffalo_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlameBuffalo/BP_FlameBuffalo.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlameBuffalo/BP_FlameBuffalo.22"
     },
     "Properties": {
       "AttachParent": {
@@ -436,7 +448,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_FlameBuffalo_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlameBuffalo/BP_FlameBuffalo.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlameBuffalo/BP_FlameBuffalo.24"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 135.0,
@@ -522,7 +534,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_FlameBuffalo_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlameBuffalo/BP_FlameBuffalo.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlameBuffalo/BP_FlameBuffalo.25"
     }
   },
   {
@@ -536,7 +548,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_FlameBuffalo_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlameBuffalo/BP_FlameBuffalo.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlameBuffalo/BP_FlameBuffalo.26"
     }
   },
   {
@@ -635,7 +647,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_FlameBuffalo_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlameBuffalo/BP_FlameBuffalo.36"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlameBuffalo/BP_FlameBuffalo.35"
     },
     "Properties": {
       "AttachParent": {

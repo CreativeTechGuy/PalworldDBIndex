@@ -12,7 +12,7 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_SoldierBee_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.36"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.35"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_SoldierBee_C:InheritableComponentHandler'",
@@ -160,7 +160,7 @@
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_SoldierBee_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.25"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.24"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_SoldierBee_C:DamageReactionComponent'",
@@ -168,11 +168,11 @@
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_SoldierBee_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.25"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_SoldierBee_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.22"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_SoldierBee_C:FollowCamera'",
@@ -188,11 +188,11 @@
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_SoldierBee_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.27"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.26"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_SoldierBee_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.21"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_SoldierBee_C:AnimNotifyComponent'",
@@ -204,11 +204,11 @@
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_SoldierBee_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.38"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.37"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_SoldierBee_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.23"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_SoldierBee_C:CharMoveComp'",
@@ -322,28 +322,6 @@
       "Records": [
         {
           "ComponentClass": {
-            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-            "ObjectPath": "/Script/Pal"
-          },
-          "ComponentTemplate": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_SoldierBee_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.21"
-          },
-          "ComponentKey": {
-            "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-            },
-            "SCSVariableName": "PalPartnerSkillParameter",
-            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
-          },
-          "CookedComponentInstancingData": {
-            "ChangedPropertyList": [],
-            "bHasValidCookedData": false
-          }
-        },
-        {
-          "ComponentClass": {
             "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
             "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
           },
@@ -378,7 +356,7 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
     },
     "Properties": {
       "ActionMap": [
@@ -410,7 +388,7 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
     }
   },
   {
@@ -529,7 +507,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
@@ -549,12 +527,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_SoldierBee_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.22"
       }
     }
   },
@@ -569,7 +547,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -583,7 +561,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
     },
     "Properties": {
       "HoveringWaterEffectParameter": {
@@ -602,7 +580,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -616,7 +594,7 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
     }
   },
   {
@@ -640,7 +618,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     }
   },
   {
@@ -654,210 +632,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
-    }
-  },
-  {
-    "Type": "PalPartnerSkillParameterComponent",
-    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_SoldierBee_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.0"
-    },
-    "Template": {
-      "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
-    },
-    "Properties": {
-      "PassiveSkills": [
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "PAL_TribePassive_Test"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": true,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [
-                  {
-                    "Key": "QueenBee"
-                  },
-                  {
-                    "Key": "BOSS_QueenBee"
-                  }
-                ],
-                "PalTribeIds": [],
-                "bNotAssignSelf": true,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "PAL_TribePassive_1"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": true,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [
-                  {
-                    "Key": "QueenBee"
-                  },
-                  {
-                    "Key": "BOSS_QueenBee"
-                  }
-                ],
-                "PalTribeIds": [],
-                "bNotAssignSelf": true,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "PAL_TribePassive_2"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": true,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [
-                  {
-                    "Key": "QueenBee"
-                  },
-                  {
-                    "Key": "BOSS_QueenBee"
-                  }
-                ],
-                "PalTribeIds": [],
-                "bNotAssignSelf": true,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "PAL_TribePassive_3"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": true,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [
-                  {
-                    "Key": "QueenBee"
-                  },
-                  {
-                    "Key": "BOSS_QueenBee"
-                  }
-                ],
-                "PalTribeIds": [],
-                "bNotAssignSelf": true,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "PAL_TribePassive_4"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": true,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [
-                  {
-                    "Key": "QueenBee"
-                  },
-                  {
-                    "Key": "BOSS_QueenBee"
-                  }
-                ],
-                "PalTribeIds": [],
-                "bNotAssignSelf": true,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        }
-      ]
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
     }
   },
   {
@@ -871,7 +646,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -885,7 +660,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
       "AttachParent": {
@@ -910,7 +685,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
       "AnimClass": {
@@ -947,7 +722,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 120.0,
@@ -1312,6 +1087,36 @@
             "Value": {
               "Key": "CharacterSpawnItem_SoldierBee_5"
             }
+          },
+          {
+            "Key": "6",
+            "Value": {
+              "Key": "CharacterSpawnItem_SoldierBee_6"
+            }
+          },
+          {
+            "Key": "7",
+            "Value": {
+              "Key": "CharacterSpawnItem_SoldierBee_7"
+            }
+          },
+          {
+            "Key": "8",
+            "Value": {
+              "Key": "CharacterSpawnItem_SoldierBee_8"
+            }
+          },
+          {
+            "Key": "9",
+            "Value": {
+              "Key": "CharacterSpawnItem_SoldierBee_9"
+            }
+          },
+          {
+            "Key": "10",
+            "Value": {
+              "Key": "CharacterSpawnItem_SoldierBee_10"
+            }
           }
         ]
       },
@@ -1329,7 +1134,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     },
     "Properties": {
       "StatusMap": []
@@ -1346,7 +1151,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -1366,7 +1171,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_SoldierBee_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.36"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -1375,7 +1180,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_SoldierBee_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.28"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.27"
       },
       "VariableGuid": "812DA831-462EC1D1-D1268E9E-366AEB2B",
       "InternalVariableName": "DefaultSceneRoot"
@@ -1388,7 +1193,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_SoldierBee_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.36"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -1397,7 +1202,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SkeletalMeshComponent'BP_SoldierBee_C:Weapon_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.37"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.36"
       },
       "AttachToName": "Socket_Weapon_R",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1413,7 +1218,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_SoldierBee_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.36"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -1438,7 +1243,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_SoldierBee_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.36"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -1463,7 +1268,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_SoldierBee_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.36"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -1488,7 +1293,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_SoldierBee_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.36"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -1513,7 +1318,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_SoldierBee_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.36"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -1541,58 +1346,58 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'BP_SoldierBee_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.30"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.29"
         },
         {
           "ObjectName": "SCS_Node'BP_SoldierBee_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.31"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.30"
         },
         {
           "ObjectName": "SCS_Node'BP_SoldierBee_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.32"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.31"
         },
         {
           "ObjectName": "SCS_Node'BP_SoldierBee_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.33"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.32"
         },
         {
           "ObjectName": "SCS_Node'BP_SoldierBee_C:SimpleConstructionScript_0.SCS_Node_5'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.34"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.33"
         },
         {
           "ObjectName": "SCS_Node'BP_SoldierBee_C:SimpleConstructionScript_0.SCS_Node_6'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.35"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.34"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'BP_SoldierBee_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.30"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.29"
         },
         {
           "ObjectName": "SCS_Node'BP_SoldierBee_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.31"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.30"
         },
         {
           "ObjectName": "SCS_Node'BP_SoldierBee_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.32"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.31"
         },
         {
           "ObjectName": "SCS_Node'BP_SoldierBee_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.33"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.32"
         },
         {
           "ObjectName": "SCS_Node'BP_SoldierBee_C:SimpleConstructionScript_0.SCS_Node_5'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.34"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.33"
         },
         {
           "ObjectName": "SCS_Node'BP_SoldierBee_C:SimpleConstructionScript_0.SCS_Node_6'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.35"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.34"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_SoldierBee_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.29"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.28"
       }
     }
   },
@@ -1606,6 +1411,10 @@
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SoldierBee/BP_SoldierBee.0"
     },
     "Properties": {
+      "AnimationMode": "EAnimationMode::AnimationCustomMode",
+      "bDisablePostProcessBlueprint": true,
+      "bNoSkeletonUpdate": true,
+      "bPauseAnims": true,
       "SkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_SoldierBee_spear'",
         "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/SoldierBee/SK_SoldierBee_spear.0"
@@ -1613,6 +1422,10 @@
       "SkinnedAsset": {
         "ObjectName": "SkeletalMesh'SK_SoldierBee_spear'",
         "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/SoldierBee/SK_SoldierBee_spear.0"
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false,
+        "bAllowTickOnDedicatedServer": false
       }
     }
   },
@@ -1627,7 +1440,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {

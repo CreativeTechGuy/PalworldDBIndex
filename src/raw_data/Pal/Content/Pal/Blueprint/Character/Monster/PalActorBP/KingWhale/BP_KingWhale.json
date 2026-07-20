@@ -12,11 +12,11 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_KingWhale_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.45"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.49"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_KingWhale_C:InheritableComponentHandler'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.3"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.4"
       }
     },
     "SuperStruct": {
@@ -24,6 +24,17 @@
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
     },
     "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalFlyMeshHeightCtrl",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalFlyMeshHeightCtrlComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
       {
         "Type": "ObjectProperty",
         "Name": "PalBodyPartsCapsule10",
@@ -175,7 +186,7 @@
   {
     "Type": "BP_KingWhale_C",
     "Name": "Default__BP_KingWhale_C",
-    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.BP_KingWhale_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale",
     "Template": {
@@ -185,80 +196,97 @@
     "Properties": {
       "LiftupObjectComponent": {
         "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_KingWhale_C:Liftup'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.19"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.20"
       },
       "ActionComponent": {
         "ObjectName": "PalActionComponent'Default__BP_KingWhale_C:ActionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.4"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.5"
       },
       "CharacterParameterComponent": {
         "ObjectName": "PalCharacterParameterComponent'Default__BP_KingWhale_C:CharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.21"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.22"
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_KingWhale_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.28"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.31"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_KingWhale_C:DamageReactionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.23"
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_KingWhale_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.29"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.32"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_KingWhale_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.29"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_KingWhale_C:FollowCamera'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.18"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.19"
       },
       "LookAtComponent": {
         "ObjectName": "PalLookAtComponent'Default__BP_KingWhale_C:LookAtComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.26"
       },
       "FootIKComponent": {
         "ObjectName": "PalFootIKComponent'Default__BP_KingWhale_C:FootIKComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.25"
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_KingWhale_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.30"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.33"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_KingWhale_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.25"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.28"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_KingWhale_C:AnimNotifyComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.5"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.6"
       },
       "AroundInfoCollectorComponent": {
         "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_KingWhale_C:AroundInfoCollectorComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.17"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.18"
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_KingWhale_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.47"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.51"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_KingWhale_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.27"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.30"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_KingWhale_C:CharMoveComp'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.20"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.21"
       },
       "CapsuleComponent": {
         "ObjectName": "CapsuleComponent'Default__BP_KingWhale_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.3"
       },
       "RootComponent": {
         "ObjectName": "CapsuleComponent'Default__BP_KingWhale_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.3"
       }
+    }
+  },
+  {
+    "Type": "BP_PalCryComponent_C",
+    "Name": "BP_PalCryComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.BP_PalCryComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalCryComponent_C'BP_MonsterBase_C:BP_PalCryComponent_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.2"
+    },
+    "Properties": {
+      "CryPalID": "EPalTribeID::KingWhale"
     }
   },
   {
@@ -276,7 +304,46 @@
     },
     "Properties": {
       "CapsuleHalfHeight": 30.0,
-      "CapsuleRadius": 30.0
+      "CapsuleRadius": 30.0,
+      "BodyInstance": {
+        "CollisionProfileName": "Pawn_NoDamageFlyPal",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Water",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Attack",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PlayerPawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "ReticleRayCast",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "DropItemPhysicsBody",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      }
     }
   },
   {
@@ -287,6 +354,54 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'PalNavigationInvokerComponent'",
+            "ObjectPath": "/Script/Pal"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "PalNavigationInvokerComponent'BP_KingWhale_C:PalNavigationInvoker_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.27"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+            },
+            "SCSVariableName": "PalNavigationInvoker",
+            "AssociatedGuid": "007B6646-4DCD038A-C950C5BE-2763B585"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
+            "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BP_PalCryComponent_C'BP_KingWhale_C:BP_PalCryComponent_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.2"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+            },
+            "SCSVariableName": "BP_PalCryComponent",
+            "AssociatedGuid": "A971BE27-4B3C10FC-863FA284-ECDC3286"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
     }
   },
   {
@@ -300,7 +415,7 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
     }
   },
   {
@@ -314,7 +429,7 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
     }
   },
   {
@@ -426,6 +541,53 @@
     "Properties": {
       "CapsuleHalfHeight": 900.0,
       "CapsuleRadius": 150.0,
+      "BodyInstance": {
+        "CollisionProfileName": "PawnParts_NonBlock",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PlayerPawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "SystemVolume",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
       "RelativeLocation": {
         "X": -812.0664,
         "Y": 20.0,
@@ -593,12 +755,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_KingWhale_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.3"
       }
     }
   },
@@ -613,12 +775,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_KingWhale_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.29"
       }
     }
   },
@@ -633,7 +795,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -647,7 +809,10 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+    },
+    "Properties": {
+      "MaxSwimSpeed": 2048.0
     }
   },
   {
@@ -661,7 +826,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -675,7 +840,17 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
+    }
+  },
+  {
+    "Type": "PalFlyMeshHeightCtrlComponent",
+    "Name": "PalFlyMeshHeightCtrl_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalFlyMeshHeightCtrlComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.0"
     }
   },
   {
@@ -689,7 +864,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     }
   },
   {
@@ -703,7 +878,24 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
+    }
+  },
+  {
+    "Type": "PalNavigationInvokerComponent",
+    "Name": "PalNavigationInvoker_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'PalNavigationInvokerComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.0"
+    },
+    "Template": {
+      "ObjectName": "PalNavigationInvokerComponent'BP_MonsterBase_C:PalNavigationInvoker_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
+    },
+    "Properties": {
+      "bIsAutoActivateInvoker": true
     }
   },
   {
@@ -717,7 +909,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -731,12 +923,12 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_KingWhale_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.3"
       },
       "RelativeLocation": {
         "X": 0.0,
@@ -756,7 +948,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
       "AnimClass": {
@@ -765,15 +957,15 @@
       },
       "SkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_KingWhale'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/KingWhale/SK_KingWhale"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/KingWhale/SK_KingWhale.0"
       },
       "SkinnedAsset": {
         "ObjectName": "SkeletalMesh'SK_KingWhale'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/KingWhale/SK_KingWhale"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/KingWhale/SK_KingWhale.0"
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_KingWhale_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.3"
       },
       "RelativeLocation": {
         "X": -1000.0,
@@ -793,7 +985,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 500.0,
@@ -803,61 +995,98 @@
         "Y": 0.0,
         "Z": -700.0
       },
+      "AIActionMap": [
+        {
+          "Key": "EPalAIActionType::Leave",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AIAction_Leave_TurnRun_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Combat/BP_AIAction_Leave_TurnRun.0"
+          }
+        }
+      ],
       "GeneralMontageMap": [
         {
           "Key": "EPalGeneralMontageType::GeneralAttackReady_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingWhale_FarSkill_Start'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_FarSkill_Start"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_FarSkill_Start.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackReadyLoop_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingWhale_FarSkill_StartLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_FarSkill_StartLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_FarSkill_StartLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackProcess_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingWhale_FarSkill_Action'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_FarSkill_Action"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_FarSkill_Action.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackProcessLoop_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingWhale_FarSkill_ActionLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_FarSkill_ActionLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_FarSkill_ActionLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackAfter_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingWhale_FarSkill_End'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_FarSkill_End"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_FarSkill_End.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepStart",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingWhale_SleepStart'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_SleepStart"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_SleepStart.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepLoop",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingWhale_SleepLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_SleepLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_SleepLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepEnd",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingWhale_SleepEnd'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_SleepEnd"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_SleepEnd.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::DamageAdditive",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_KingWhale_Hit'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_Hit.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::LargeDown_Start",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_KingWhale_LargeDownStart'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_LargeDownStart.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::LargeDown_Loop",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_KingWhale_LargeDownLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_LargeDownLoop.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::LargeDown_End",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_KingWhale_LargeDownEnd'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_LargeDownEnd.0"
           }
         }
       ],
@@ -875,49 +1104,151 @@
           "Key": "EPalActionType::Menace",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingWhale_Encount'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_Encount"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_Encount.0"
           }
         },
         {
           "Key": "EPalActionType::Eat",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingWhale_Eat'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_Eat"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_Eat.0"
           }
         },
         {
           "Key": "EPalActionType::KnockBack",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingWhale_Damage'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_Damage"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_Damage.0"
           }
         },
         {
           "Key": "EPalActionType::ForwardWalk",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingWhale_Walk'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_Walk"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_Walk.0"
           }
         },
         {
           "Key": "EPalActionType::GetupUtubuse_orRight",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingWhale_GetUp_FrontDown'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_GetUp_FrontDown"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_GetUp_FrontDown.0"
           }
         },
         {
           "Key": "EPalActionType::PalPetting",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingWhale_Petting'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_Petting"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_Petting.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::ElectricShock",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_KingWhale_ElectricShock'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_ElectricShock.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::IdleInSpa",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_KingWhale_Spa'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_Spa.0"
+          }
+        }
+      ],
+      "WazaActionDeclarationMap": [
+        {
+          "Key": "EPalWazaID::RipTide",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/BP_ActionRipTide_KingWhale.BP_ActionRipTide_KingWhale_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EPalWazaID::WallSplash",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/BP_Action_WallSplash_KingWhale.BP_Action_WallSplash_KingWhale_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EPalWazaID::RadiantBarrage",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/BP_Action_RadiantBarrage_KingWhale.BP_Action_RadiantBarrage_KingWhale_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EPalWazaID::Unique_KingWhale_Maelstrom",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/KingWhale/BP_UniqueAction_KingWhale_MaelStorm.BP_UniqueAction_KingWhale_MaelStorm_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EPalWazaID::Unique_KingWhale_HomingBubble",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/KingWhale/BP_UniqueAction_KingWhale_HomingBubble.BP_UniqueAction_KingWhale_HomingBubble_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EPalWazaID::Unique_KingWhale_AquaTornado",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/KingWhale/BP_UniqueAction_KingWhale_AquaTornado2_Otomo.BP_UniqueAction_KingWhale_AquaTornado2_Otomo_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EPalWazaID::Unique_KingWhale_TidalBore",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/KingWhale/BP_UniqueAction_KingWhale_TidalBore2.BP_UniqueAction_KingWhale_TidalBore2_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EPalWazaID::Unique_KingWhale_WaveTackle",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/KingWhale/BP_UniqueAction_KingWhale_WaveTackle.BP_UniqueAction_KingWhale_WaveTackle_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EPalWazaID::Unique_KingWhale_Breaching",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/KingWhale/BP_UniqueAction_KingWhale_Breaching.BP_UniqueAction_KingWhale_Breaching_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EPalWazaID::Unique_KingWhale_AquaBlade",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/KingWhale/BP_UniqueAction_KingWhale_AquaBlade.BP_UniqueAction_KingWhale_AquaBlade_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EPalWazaID::CreepingBubble",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/BP_Action_CreepingBubble_KingWhale.BP_Action_CreepingBubble_KingWhale_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EPalWazaID::Unique_KingWhale_Breaching_P3",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/KingWhale/BP_UniqueAction_KingWhale_Breaching_Phase3.BP_UniqueAction_KingWhale_Breaching_Phase3_C",
+            "SubPathString": ""
           }
         }
       ],
       "HPGaugeUIOffset": {
         "X": 0.0,
-        "Y": 470.0
+        "Y": -5000.0
       },
+      "IsDisableSpawnInStage": true,
+      "IsBackWalkForwardAnime": true,
       "PettingSize": "EPalPettingSizeType::Large",
       "PettingDistance": 800.0
     }
@@ -933,7 +1264,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     }
   },
   {
@@ -947,7 +1278,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -967,7 +1298,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_KingWhale_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -976,7 +1307,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_KingWhale_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.31"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.34"
       },
       "VariableGuid": "6CCAFD5F-4A5FE62A-6CA37687-6955F235",
       "InternalVariableName": "DefaultSceneRoot"
@@ -989,7 +1320,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_KingWhale_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -998,7 +1329,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SphereComponent'BP_KingWhale_C:Sphere_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.46"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.50"
       },
       "AttachToName": "head",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1014,7 +1345,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_KingWhale_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -1023,7 +1354,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule8_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.14"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.15"
       },
       "AttachToName": "fin_tail_01_r",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1039,7 +1370,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_KingWhale_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -1048,7 +1379,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule9_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.15"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.16"
       },
       "AttachToName": "fin_tail_03_l",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1064,7 +1395,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_KingWhale_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -1073,7 +1404,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule10_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.6"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.7"
       },
       "AttachToName": "fin_tail_03_r",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1084,12 +1415,34 @@
   },
   {
     "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_KingWhale_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.49"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalFlyMeshHeightCtrlComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalFlyMeshHeightCtrlComponent'BP_KingWhale_C:PalFlyMeshHeightCtrl_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.24"
+      },
+      "VariableGuid": "04B25060-42320E98-B1217EB3-56CEAA9C",
+      "InternalVariableName": "PalFlyMeshHeightCtrl"
+    }
+  },
+  {
+    "Type": "SCS_Node",
     "Name": "SCS_Node_2",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_KingWhale_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -1098,7 +1451,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.16"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.17"
       },
       "AttachToName": "pelvis",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1114,7 +1467,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_KingWhale_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -1123,7 +1476,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule1_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.7"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.8"
       },
       "AttachToName": "head",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1139,7 +1492,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_KingWhale_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -1148,7 +1501,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule2_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.8"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.9"
       },
       "AttachToName": "tail_03",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1164,7 +1517,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_KingWhale_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -1173,7 +1526,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule3_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.9"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.10"
       },
       "AttachToName": "fin_front_01_l",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1189,7 +1542,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_KingWhale_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -1198,7 +1551,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule4_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.10"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.11"
       },
       "AttachToName": "fin_front_01_r",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1214,7 +1567,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_KingWhale_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -1223,7 +1576,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule5_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.11"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.12"
       },
       "AttachToName": "fin_back_01_l",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1239,7 +1592,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_KingWhale_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -1248,7 +1601,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule6_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.12"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.13"
       },
       "AttachToName": "fin_back_01_r",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1264,7 +1617,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_KingWhale_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -1273,7 +1626,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule7_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.13"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.14"
       },
       "AttachToName": "fin_tail_01_l",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1295,106 +1648,114 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.33"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.36"
         },
         {
           "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.37"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.38"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.39"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_5'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.40"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_6'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.41"
         },
         {
-          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_3'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.42"
         },
         {
-          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_4'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.43"
         },
         {
-          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_5'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.44"
         },
         {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.45"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.48"
+        },
+        {
           "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_10'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.34"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.37"
         },
         {
           "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_11'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.35"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.38"
         },
         {
           "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_12'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.36"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.40"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.33"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.36"
         },
         {
           "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.37"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.38"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.39"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_5'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.40"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_6'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.41"
         },
         {
-          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_3'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.42"
         },
         {
-          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_4'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.43"
         },
         {
-          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_5'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.44"
         },
         {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.45"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.48"
+        },
+        {
           "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_10'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.34"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.37"
         },
         {
           "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_11'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.35"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.38"
         },
         {
           "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_12'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.36"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.40"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_KingWhale_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.32"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.35"
       }
     }
   },
@@ -1422,12 +1783,12 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_KingWhale_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.3"
       }
     }
   }

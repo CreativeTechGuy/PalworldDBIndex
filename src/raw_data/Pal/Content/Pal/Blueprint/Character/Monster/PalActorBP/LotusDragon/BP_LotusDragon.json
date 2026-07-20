@@ -1,0 +1,2104 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_LotusDragon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_LotusDragon_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.59"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_LotusDragon_C:InheritableComponentHandler'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalSpeedCollision",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalSpeedCollisionComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule14",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule13",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule12",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule11",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule10",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule9",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule8",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule7",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule6",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule5",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_PalRideMarkerBiggerHorse",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PalRideMarkerBiggerHorse_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerBiggerHorse.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsSphere",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsSphereComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_LotusDragon_C'Default__BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_LotusDragon_C",
+    "Name": "Default__BP_LotusDragon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.BP_LotusDragon_C'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon",
+    "Template": {
+      "ObjectName": "BP_MonsterBase_C'Default__BP_MonsterBase_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.1"
+    },
+    "Properties": {
+      "LiftupObjectComponent": {
+        "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_LotusDragon_C:Liftup'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.26"
+      },
+      "ActionComponent": {
+        "ObjectName": "PalActionComponent'Default__BP_LotusDragon_C:ActionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.6"
+      },
+      "CharacterParameterComponent": {
+        "ObjectName": "PalCharacterParameterComponent'Default__BP_LotusDragon_C:CharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.28"
+      },
+      "StaticCharacterParameterComponent": {
+        "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_LotusDragon_C:StaticCharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.36"
+      },
+      "DamageReactionComponent": {
+        "ObjectName": "PalDamageReactionComponent'Default__BP_LotusDragon_C:DamageReactionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.29"
+      },
+      "StatusComponent": {
+        "ObjectName": "PalStatusComponent'Default__BP_LotusDragon_C:StatusComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.37"
+      },
+      "CameraBoom": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_LotusDragon_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.33"
+      },
+      "FollowCamera": {
+        "ObjectName": "PalCharacterCameraComponent'Default__BP_LotusDragon_C:FollowCamera'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.25"
+      },
+      "LookAtComponent": {
+        "ObjectName": "PalLookAtComponent'Default__BP_LotusDragon_C:LookAtComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.31"
+      },
+      "FootIKComponent": {
+        "ObjectName": "PalFootIKComponent'Default__BP_LotusDragon_C:FootIKComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.30"
+      },
+      "VisualEffectComponent": {
+        "ObjectName": "PalVisualEffectComponent'Default__BP_LotusDragon_C:VisualEffectComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.38"
+      },
+      "PassiveSkillComponent": {
+        "ObjectName": "PalPassiveSkillComponent'Default__BP_LotusDragon_C:PassiveSkillComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.32"
+      },
+      "AnimNotifyComponent": {
+        "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_LotusDragon_C:AnimNotifyComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.7"
+      },
+      "AroundInfoCollectorComponent": {
+        "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_LotusDragon_C:AroundInfoCollectorComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.24"
+      },
+      "RagdollInteractiveSphere": {
+        "ObjectName": "SphereComponent'Default__BP_LotusDragon_C:RagdollInteractiveSphere'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.60"
+      },
+      "Mesh": {
+        "ObjectName": "PalSkeletalMeshComponent'Default__BP_LotusDragon_C:CharacterMesh0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.34"
+      },
+      "CharacterMovement": {
+        "ObjectName": "PalCharacterMovementComponent'Default__BP_LotusDragon_C:CharMoveComp'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.27"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_LotusDragon_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.4"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_LotusDragon_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.4"
+      }
+    }
+  },
+  {
+    "Type": "BP_PalCryComponent_C",
+    "Name": "BP_PalCryComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.BP_PalCryComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalCryComponent_C'BP_MonsterBase_C:BP_PalCryComponent_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.2"
+    },
+    "Properties": {
+      "CryPalID": "EPalTribeID::VolcanicMonster_Ice"
+    }
+  },
+  {
+    "Type": "BP_PalRideMarkerBiggerHorse_C",
+    "Name": "BP_PalRideMarkerBiggerHorse_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerBiggerHorse.BP_PalRideMarkerBiggerHorse_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalRideMarkerBiggerHorse_C'Default__BP_PalRideMarkerBiggerHorse_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerBiggerHorse.1"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": -18.614313,
+        "Y": -36.0,
+        "Z": -1.4224546
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -1.19090876E-14,
+        "Roll": 4.6305185E-13
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_LotusDragon_C'Default__BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.1"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_MonsterBase_C:CollisionCylinder'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.3"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 30.0,
+      "CapsuleRadius": 30.0
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
+            "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BP_PalCryComponent_C'BP_LotusDragon_C:BP_PalCryComponent_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.2"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+            },
+            "SCSVariableName": "BP_PalCryComponent",
+            "AssociatedGuid": "A971BE27-4B3C10FC-863FA284-ECDC3286"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PalActionComponent",
+    "Name": "ActionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalActionComponent'",
+    "Outer": {
+      "ObjectName": "BP_LotusDragon_C'Default__BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.1"
+    },
+    "Template": {
+      "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+    }
+  },
+  {
+    "Type": "PalAnimNotifyParameterComponent",
+    "Name": "AnimNotifyComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_LotusDragon_C'Default__BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.1"
+    },
+    "Template": {
+      "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule10_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.0"
+    },
+    "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Strong",
+      "CapsuleHalfHeight": 145.33887,
+      "CapsuleRadius": 45.000084,
+      "RelativeLocation": {
+        "X": 47.0,
+        "Y": 0.0,
+        "Z": 18.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 180.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule11_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.0"
+    },
+    "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Strong",
+      "CapsuleHalfHeight": 145.33887,
+      "CapsuleRadius": 45.000084,
+      "RelativeLocation": {
+        "X": 47.0,
+        "Y": 0.0,
+        "Z": 18.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 180.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule12_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.0"
+    },
+    "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Strong",
+      "CapsuleHalfHeight": 145.33887,
+      "CapsuleRadius": 45.000084,
+      "RelativeLocation": {
+        "X": -47.0,
+        "Y": 0.0,
+        "Z": -18.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 180.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule13_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.0"
+    },
+    "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Strong",
+      "CapsuleHalfHeight": 145.33887,
+      "CapsuleRadius": 45.000084,
+      "RelativeLocation": {
+        "X": -47.0,
+        "Y": 0.0,
+        "Z": -18.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 180.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule14_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.0"
+    },
+    "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Strong",
+      "CapsuleHalfHeight": 145.33887,
+      "CapsuleRadius": 45.000084,
+      "RelativeLocation": {
+        "X": -47.0,
+        "Y": 0.0,
+        "Z": -18.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 180.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 94.18288,
+      "CapsuleRadius": 37.63597,
+      "RelativeLocation": {
+        "X": 50.0,
+        "Y": -6.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 180.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 153.64252,
+      "CapsuleRadius": 59.179554,
+      "RelativeLocation": {
+        "X": -37.0,
+        "Y": -21.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 10.79997,
+        "Roll": 180.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule3_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 153.64252,
+      "CapsuleRadius": 42.490307,
+      "RelativeLocation": {
+        "X": -37.0,
+        "Y": 4.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 180.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule4_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 92.62895,
+      "CapsuleRadius": 42.490307,
+      "RelativeLocation": {
+        "X": -37.0,
+        "Y": 4.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 180.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule5_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 83.44465,
+      "CapsuleRadius": 35.607925,
+      "RelativeLocation": {
+        "X": -37.0,
+        "Y": 4.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 180.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule6_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 62.458668,
+      "CapsuleRadius": 35.607925,
+      "RelativeLocation": {
+        "X": -37.0,
+        "Y": 4.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 180.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule7_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 62.458668,
+      "CapsuleRadius": 35.607925,
+      "RelativeLocation": {
+        "X": -37.0,
+        "Y": 4.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 180.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule8_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 118.15042,
+      "CapsuleRadius": 35.607925,
+      "RelativeLocation": {
+        "X": -37.0,
+        "Y": 4.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 180.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule9_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.0"
+    },
+    "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Strong",
+      "CapsuleHalfHeight": 145.33887,
+      "CapsuleRadius": 45.000084,
+      "RelativeLocation": {
+        "X": 16.0,
+        "Y": 0.0,
+        "Z": 18.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 180.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 112.76843,
+      "CapsuleRadius": 61.015594,
+      "RelativeLocation": {
+        "X": 50.0,
+        "Y": -33.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 180.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsSphereComponent",
+    "Name": "PalBodyPartsSphere_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsSphereComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.0"
+    },
+    "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Weak",
+      "SphereRadius": 50.0,
+      "RelativeLocation": {
+        "X": 28.0,
+        "Y": 20.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterAroundInfoCollectorComponent",
+    "Name": "AroundInfoCollectorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+    "Outer": {
+      "ObjectName": "BP_LotusDragon_C'Default__BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_LotusDragon_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.4"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterCameraComponent",
+    "Name": "FollowCamera",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterCameraComponent'",
+    "Outer": {
+      "ObjectName": "BP_LotusDragon_C'Default__BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_LotusDragon_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.33"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterLiftupObjectComponent",
+    "Name": "Liftup",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+    "Outer": {
+      "ObjectName": "BP_LotusDragon_C'Default__BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+    }
+  },
+  {
+    "Type": "PalCharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_LotusDragon_C'Default__BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+    },
+    "Properties": {
+      "InWaterRate": 0.07,
+      "bIsHoverWaterPal": true,
+      "JumpZVelocity": 550.0,
+      "Buoyancy": 10.0
+    }
+  },
+  {
+    "Type": "PalCharacterParameterComponent",
+    "Name": "CharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_LotusDragon_C'Default__BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+    }
+  },
+  {
+    "Type": "PalDamageReactionComponent",
+    "Name": "DamageReactionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalDamageReactionComponent'",
+    "Outer": {
+      "ObjectName": "BP_LotusDragon_C'Default__BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.1"
+    },
+    "Template": {
+      "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
+    }
+  },
+  {
+    "Type": "PalFootIKComponent",
+    "Name": "FootIKComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalFootIKComponent'",
+    "Outer": {
+      "ObjectName": "BP_LotusDragon_C'Default__BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.1"
+    },
+    "Template": {
+      "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
+    }
+  },
+  {
+    "Type": "PalLookAtComponent",
+    "Name": "LookAtComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalLookAtComponent'",
+    "Outer": {
+      "ObjectName": "BP_LotusDragon_C'Default__BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.1"
+    },
+    "Template": {
+      "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
+    }
+  },
+  {
+    "Type": "PalPassiveSkillComponent",
+    "Name": "PassiveSkillComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalPassiveSkillComponent'",
+    "Outer": {
+      "ObjectName": "BP_LotusDragon_C'Default__BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.1"
+    },
+    "Template": {
+      "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
+    }
+  },
+  {
+    "Type": "PalShooterSpringArmComponent",
+    "Name": "CameraBoom",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalShooterSpringArmComponent'",
+    "Outer": {
+      "ObjectName": "BP_LotusDragon_C'Default__BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.1"
+    },
+    "Template": {
+      "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+    },
+    "Properties": {
+      "WalkCameraArmLength": 500.0,
+      "WalkCameraOffset": {
+        "X": 0.0,
+        "Y": 175.0,
+        "Z": 175.0
+      },
+      "HipShootCameraArmLength": 500.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 175.0,
+        "Z": 175.0
+      },
+      "AimCameraArmLength": 400.0,
+      "AimCameraOffset": {
+        "X": 0.0,
+        "Y": 175.0,
+        "Z": 200.0
+      },
+      "AirCameraArmLength": 500.0,
+      "AirCameraOffset": {
+        "X": 0.0,
+        "Y": 175.0,
+        "Z": 175.0
+      },
+      "AirHipShootCameraArmLength": 500.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 175.0,
+        "Z": 175.0
+      },
+      "AirAimCameraArmLength": 400.0,
+      "AirAimCameraOffset": {
+        "X": 0.0,
+        "Y": 175.0,
+        "Z": 200.0
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_LotusDragon_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.4"
+      }
+    }
+  },
+  {
+    "Type": "PalSkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_LotusDragon_C'Default__BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.1"
+    },
+    "Template": {
+      "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_LotusDragon_C'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/ABP_LotusDragon.1"
+      },
+      "AnimationData": {
+        "AnimToPlay": {
+          "ObjectName": "AnimSequence'AS_LotusDragon_Run'",
+          "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LotusDragon/AS_LotusDragon_Run.0"
+        }
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_LotusDragon'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/LotusDragon/SK_LotusDragon.0"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_LotusDragon'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/LotusDragon/SK_LotusDragon.0"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_LotusDragon_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.4"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -30.0
+      }
+    }
+  },
+  {
+    "Type": "PalSpeedCollisionComponent",
+    "Name": "PalSpeedCollision_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalSpeedCollisionComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.0"
+    },
+    "Properties": {
+      "SphereRadius": 110.0,
+      "RelativeLocation": {
+        "X": 54.669613,
+        "Y": 5.759884E-08,
+        "Z": 35.170956
+      }
+    }
+  },
+  {
+    "Type": "PalStaticCharacterParameterComponent",
+    "Name": "StaticCharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_LotusDragon_C'Default__BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.1"
+    },
+    "Template": {
+      "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+    },
+    "Properties": {
+      "MeshCapsuleHalfHeight": 180.0,
+      "MeshCapsuleRadius": 100.0,
+      "MeshRelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -180.0
+      },
+      "AIActionMap": [
+        {
+          "Key": "EPalAIActionType::Cooperation",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AIActionRideCall_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Coop/BP_AIActionRideCall.0"
+          }
+        },
+        {
+          "Key": "EPalAIActionType::Leave",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AIAction_Leave_TurnRun_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Combat/BP_AIAction_Leave_TurnRun.0"
+          }
+        }
+      ],
+      "RandomRestMontageInfos": [
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_LotusDragon_Rest01'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LotusDragon/AM_LotusDragon_Rest01.0"
+          },
+          "Weight": 0.5,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 5.0
+        },
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_LotusDragon_Rest02'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LotusDragon/AM_LotusDragon_Rest02.0"
+          },
+          "Weight": 0.5,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 3.0
+        }
+      ],
+      "GeneralAnimSequenceMap": [
+        {
+          "Key": "EPalGeneralAnimSequenceType::JumpLoop",
+          "Value": {
+            "ObjectName": "AnimSequence'AS_LotusDragon_JumpLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LotusDragon/AS_LotusDragon_JumpLoop.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralAnimSequenceType::JumpEnd",
+          "Value": {
+            "ObjectName": "AnimSequence'AS_LotusDragon_JumpEnd'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LotusDragon/AS_LotusDragon_JumpEnd.0"
+          }
+        }
+      ],
+      "GeneralMontageMap": [
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackReady_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_LotusDragon_FarSkill_Start'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LotusDragon/AM_LotusDragon_FarSkill_Start.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackReadyLoop_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_LotusDragon_FarSkill_StartLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LotusDragon/AM_LotusDragon_FarSkill_StartLoop.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackProcess_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_LotusDragon_FarSkill_Action'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LotusDragon/AM_LotusDragon_FarSkill_Action.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackProcessLoop_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_LotusDragon_FarSkill_ActionLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LotusDragon/AM_LotusDragon_FarSkill_ActionLoop.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackAfter_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_LotusDragon_FarSkill_End'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LotusDragon/AM_LotusDragon_FarSkill_End.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::SleepStart",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_LotusDragon_SleepStart'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LotusDragon/AM_LotusDragon_SleepStart.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::SleepLoop",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_LotusDragon_SleepLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LotusDragon/AM_LotusDragon_SleepLoop.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::SleepEnd",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_LotusDragon_SleepEnd'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LotusDragon/AM_LotusDragon_SleepEnd.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::DamageAdditive",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_LotusDragon_Hit'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LotusDragon/AM_LotusDragon_Hit.0"
+          }
+        }
+      ],
+      "GeneralBlendSpaceMap": [
+        {
+          "Key": "EPalGeneralBlendSpaceType::GeneralMove",
+          "Value": {
+            "ObjectName": "BlendSpace1D'BS_Move_LotusDragon'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BS_Move_LotusDragon.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralBlendSpaceType::RidingMove",
+          "Value": {
+            "ObjectName": "BlendSpace1D'BS_Move_LotusDragon_Riding'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BS_Move_LotusDragon_Riding.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralBlendSpaceType::Swim",
+          "Value": {
+            "ObjectName": "BlendSpace1D'BS_Swim_LotusDragon'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BS_Swim_LotusDragon.0"
+          }
+        }
+      ],
+      "ActionMontageMap": [
+        {
+          "Key": "EPalActionType::Menace",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_LotusDragon_Encount'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LotusDragon/AM_LotusDragon_Encount.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::Eat",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_LotusDragon_Eat'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LotusDragon/AM_LotusDragon_Eat.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::KnockBack",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_LotusDragon_Damage'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LotusDragon/AM_LotusDragon_Damage.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::ForwardWalk",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_LotusDragon_Walk'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LotusDragon/AM_LotusDragon_Walk.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::GetupUtubuse_orRight",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_LotusDragon_GetUp_FrontDown'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LotusDragon/AM_LotusDragon_GetUp_FrontDown.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::PalPetting",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_LotusDragon_Petting'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LotusDragon/AM_LotusDragon_Petting.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::ElectricShock",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_LotusDragon_ElectricShock'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LotusDragon/AM_LotusDragon_ElectricShock.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::Feeding",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_LotusDragon_Planting'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LotusDragon/AM_LotusDragon_Planting.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::Watering",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_LotusDragon_Watering'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LotusDragon/AM_LotusDragon_Watering.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::IdleInSpa",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_LotusDragon_Spa'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LotusDragon/AM_LotusDragon_Spa.0"
+          }
+        }
+      ],
+      "SleepOnSideInfoMapForMapObject": [
+        {
+          "Key": {
+            "Key": "MedicalPalBed_02"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_03"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_04"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -30.0,
+              "Y": 50.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        }
+      ],
+      "WazaActionDeclarationMap": [
+        {
+          "Key": "EPalWazaID::Unique_LotusDragon_LotusBloom",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/LotusDragon/BP_UniqueAction_LotusDragon_LotusBloom.BP_UniqueAction_LotusDragon_LotusBloom_C",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "HPGaugeUIOffset": {
+        "X": 100.0,
+        "Y": -320.0
+      },
+      "IsBackWalkForwardAnime": true,
+      "PettingSize": "EPalPettingSizeType::Medium",
+      "PettingDistance": 180.0,
+      "PettingCameraArmLength_Override": 500.0
+    }
+  },
+  {
+    "Type": "PalStatusComponent",
+    "Name": "StatusComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStatusComponent'",
+    "Outer": {
+      "ObjectName": "BP_LotusDragon_C'Default__BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.1"
+    },
+    "Template": {
+      "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+    }
+  },
+  {
+    "Type": "PalVisualEffectComponent",
+    "Name": "VisualEffectComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalVisualEffectComponent'",
+    "Outer": {
+      "ObjectName": "BP_LotusDragon_C'Default__BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.1"
+    },
+    "Template": {
+      "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_LotusDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.59"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_LotusDragon_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.39"
+      },
+      "VariableGuid": "2BF01435-470A3A8A-4F8243AB-47C816FF",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_LotusDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.59"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsSphereComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsSphereComponent'BP_LotusDragon_C:PalBodyPartsSphere_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.23"
+      },
+      "AttachToName": "head",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "E9D2FF1A-43AF5316-A2FDAB83-586B3315",
+      "InternalVariableName": "PalBodyPartsSphere"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_LotusDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.59"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_LotusDragon_C:PalBodyPartsCapsule5_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.17"
+      },
+      "AttachToName": "tail12",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "258E9E1D-41EE9DAE-2ECB0F97-BC1C8E95",
+      "InternalVariableName": "PalBodyPartsCapsule5"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_LotusDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.59"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_LotusDragon_C:PalBodyPartsCapsule6_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.18"
+      },
+      "AttachToName": "tail10",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "7844AF25-4D90D9C0-9723A19D-B2B1262D",
+      "InternalVariableName": "PalBodyPartsCapsule6"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_LotusDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.59"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_LotusDragon_C:PalBodyPartsCapsule7_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.19"
+      },
+      "AttachToName": "tail15",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "4EF7AB1D-4DD37B37-A8845E86-50D14F4D",
+      "InternalVariableName": "PalBodyPartsCapsule7"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_LotusDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.59"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_LotusDragon_C:PalBodyPartsCapsule8_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.20"
+      },
+      "AttachToName": "tail18",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "FB9D32C6-4B379B88-86B7DD8B-68A65BD8",
+      "InternalVariableName": "PalBodyPartsCapsule8"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_LotusDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.59"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_LotusDragon_C:PalBodyPartsCapsule9_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.21"
+      },
+      "AttachToName": "flowerA_04_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "136C8333-4F6A7920-FCD8AC95-AB4FE0AB",
+      "InternalVariableName": "PalBodyPartsCapsule9"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_LotusDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.59"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_LotusDragon_C:PalBodyPartsCapsule10_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.8"
+      },
+      "AttachToName": "flowerB_03_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "6955E025-42FA1EB0-2457F5BE-9BB55485",
+      "InternalVariableName": "PalBodyPartsCapsule10"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_LotusDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.59"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_LotusDragon_C:PalBodyPartsCapsule11_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.9"
+      },
+      "AttachToName": "flowerC_03_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "D435CF1D-41A2864D-ADD13CA1-CB22269F",
+      "InternalVariableName": "PalBodyPartsCapsule11"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_LotusDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.59"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_LotusDragon_C:PalBodyPartsCapsule12_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.10"
+      },
+      "AttachToName": "flowerA_03_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "40ED4E86-46DF7B23-6C12499A-23DA89FF",
+      "InternalVariableName": "PalBodyPartsCapsule12"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_LotusDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.59"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_LotusDragon_C:PalBodyPartsCapsule13_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.11"
+      },
+      "AttachToName": "flowerB_03_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "814D1A64-4E4010C1-44E171A9-8C547798",
+      "InternalVariableName": "PalBodyPartsCapsule13"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_19",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_LotusDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.59"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_LotusDragon_C:PalBodyPartsCapsule14_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.12"
+      },
+      "AttachToName": "flowerC_03_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "F6FADA1A-4D4016D1-8F751DA1-E727711A",
+      "InternalVariableName": "PalBodyPartsCapsule14"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_LotusDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.59"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalSpeedCollisionComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalSpeedCollisionComponent'BP_LotusDragon_C:PalSpeedCollision_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.35"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "89E8925A-41B598F9-5B7F32A6-A4D097A3",
+      "InternalVariableName": "PalSpeedCollision"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_LotusDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.59"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PalRideMarkerBiggerHorse_C'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerBiggerHorse.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_PalRideMarkerBiggerHorse_C'BP_LotusDragon_C:BP_PalRideMarkerBiggerHorse_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.3"
+      },
+      "AttachToName": "spine_02",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "7B4B50E6-4B51DB47-91E0C4A8-FE03C513",
+      "InternalVariableName": "BP_PalRideMarkerBiggerHorse"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_LotusDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.59"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_LotusDragon_C:PalBodyPartsCapsule_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.22"
+      },
+      "AttachToName": "head",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "B114D55F-49AD6DE0-BAAD22A0-9125756C",
+      "InternalVariableName": "PalBodyPartsCapsule"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_LotusDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.59"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_LotusDragon_C:PalBodyPartsCapsule1_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.13"
+      },
+      "AttachToName": "neck_01",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "6B0278BC-424435AC-D7851C81-E7C94985",
+      "InternalVariableName": "PalBodyPartsCapsule1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_LotusDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.59"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_LotusDragon_C:PalBodyPartsCapsule2_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.14"
+      },
+      "AttachToName": "pelvis",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "2A4C81BF-425DDB54-D6F87E88-A4D136F6",
+      "InternalVariableName": "PalBodyPartsCapsule2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_LotusDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.59"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_LotusDragon_C:PalBodyPartsCapsule3_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.15"
+      },
+      "AttachToName": "tail05",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "9D391781-4E3684BB-3A90E48C-B52C3057",
+      "InternalVariableName": "PalBodyPartsCapsule3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_LotusDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.59"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_LotusDragon_C:PalBodyPartsCapsule4_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.16"
+      },
+      "AttachToName": "tail08",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "91DB3A56-4203C9CB-57E6B4AC-76739A29",
+      "InternalVariableName": "PalBodyPartsCapsule4"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.53"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.54"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.55"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.56"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.57"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.58"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.45"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.48"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.49"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.50"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.51"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.52"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.53"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.54"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.55"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.56"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.57"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.58"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.45"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.48"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.49"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.50"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.51"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.52"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_LotusDragon_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.40"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "RagdollInteractiveSphere",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BP_LotusDragon_C'Default__BP_LotusDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.1"
+    },
+    "Template": {
+      "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_LotusDragon_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LotusDragon/BP_LotusDragon.4"
+      }
+    }
+  }
+]

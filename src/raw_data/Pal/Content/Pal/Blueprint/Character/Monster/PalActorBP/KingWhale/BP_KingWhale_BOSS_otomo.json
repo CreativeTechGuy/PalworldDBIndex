@@ -1,0 +1,2014 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_KingWhale_BOSS_otomo_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_KingWhale_BOSS_otomo_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.46"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_KingWhale_BOSS_otomo_C:InheritableComponentHandler'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.8"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_KingWhale_BOSS_otomo_C:ExecuteUbergraph_BP_KingWhale_BOSS_otomo'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.0"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_KingWhale_BOSS_otomo_C:ReceiveBeginPlay'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.7"
+      },
+      {
+        "ObjectName": "Function'BP_KingWhale_BOSS_otomo_C:OnChangeActiveActorDelegate_Event'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.6"
+      },
+      {
+        "ObjectName": "Function'BP_KingWhale_BOSS_otomo_C:ExecuteUbergraph_BP_KingWhale_BOSS_otomo'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.4"
+      },
+      {
+        "ObjectName": "Function'BP_KingWhale_BOSS_otomo_C:OnAirLargeDown__DelegateSignature'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.5"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBaseCampOrbit",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBaseCampOrbitComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_PalRideMarkerSaddle",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PalRideMarkerSaddle_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerSaddle.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule12",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule11",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MarkEffect",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraComponent'",
+          "ObjectPath": "/Script/Niagara"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnAirLargeDown",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'BP_KingWhale_BOSS_otomo_C:OnAirLargeDown__DelegateSignature'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.5"
+        }
+      }
+    ],
+    "FuncMap": {
+      "OnAirLargeDown__DelegateSignature": {
+        "ObjectName": "Function'BP_KingWhale_BOSS_otomo_C:OnAirLargeDown__DelegateSignature'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.5"
+      },
+      "ExecuteUbergraph_BP_KingWhale_BOSS_otomo": {
+        "ObjectName": "Function'BP_KingWhale_BOSS_otomo_C:ExecuteUbergraph_BP_KingWhale_BOSS_otomo'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.4"
+      },
+      "OnChangeActiveActorDelegate_Event": {
+        "ObjectName": "Function'BP_KingWhale_BOSS_otomo_C:OnChangeActiveActorDelegate_Event'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.6"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_KingWhale_BOSS_otomo_C:ReceiveBeginPlay'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.7"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_KingWhale_BOSS_otomo_C'Default__BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_KingWhale_BOSS_otomo_C",
+    "Name": "Default__BP_KingWhale_BOSS_otomo_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.BP_KingWhale_BOSS_otomo_C'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo",
+    "Template": {
+      "ObjectName": "BP_KingWhale_C'Default__BP_KingWhale_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.1"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "LiftupObjectComponent": {
+        "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_KingWhale_BOSS_otomo_C:Liftup'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.26"
+      },
+      "ActionComponent": {
+        "ObjectName": "PalActionComponent'Default__BP_KingWhale_BOSS_otomo_C:ActionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.9"
+      },
+      "CharacterParameterComponent": {
+        "ObjectName": "PalCharacterParameterComponent'Default__BP_KingWhale_BOSS_otomo_C:CharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.28"
+      },
+      "StaticCharacterParameterComponent": {
+        "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_KingWhale_BOSS_otomo_C:StaticCharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.37"
+      },
+      "DamageReactionComponent": {
+        "ObjectName": "PalDamageReactionComponent'Default__BP_KingWhale_BOSS_otomo_C:DamageReactionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.29"
+      },
+      "StatusComponent": {
+        "ObjectName": "PalStatusComponent'Default__BP_KingWhale_BOSS_otomo_C:StatusComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.38"
+      },
+      "CameraBoom": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_KingWhale_BOSS_otomo_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.35"
+      },
+      "FollowCamera": {
+        "ObjectName": "PalCharacterCameraComponent'Default__BP_KingWhale_BOSS_otomo_C:FollowCamera'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.25"
+      },
+      "LookAtComponent": {
+        "ObjectName": "PalLookAtComponent'Default__BP_KingWhale_BOSS_otomo_C:LookAtComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.33"
+      },
+      "FootIKComponent": {
+        "ObjectName": "PalFootIKComponent'Default__BP_KingWhale_BOSS_otomo_C:FootIKComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.31"
+      },
+      "VisualEffectComponent": {
+        "ObjectName": "PalVisualEffectComponent'Default__BP_KingWhale_BOSS_otomo_C:VisualEffectComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.39"
+      },
+      "PassiveSkillComponent": {
+        "ObjectName": "PalPassiveSkillComponent'Default__BP_KingWhale_BOSS_otomo_C:PassiveSkillComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.34"
+      },
+      "AnimNotifyComponent": {
+        "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_KingWhale_BOSS_otomo_C:AnimNotifyComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.10"
+      },
+      "AroundInfoCollectorComponent": {
+        "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_KingWhale_BOSS_otomo_C:AroundInfoCollectorComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.24"
+      },
+      "RagdollInteractiveSphere": {
+        "ObjectName": "SphereComponent'Default__BP_KingWhale_BOSS_otomo_C:RagdollInteractiveSphere'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.47"
+      },
+      "bUseActorNetCullDistance": true,
+      "bIsDisable_ChangeTickInterval_ByImportance": true,
+      "Mesh": {
+        "ObjectName": "PalSkeletalMeshComponent'Default__BP_KingWhale_BOSS_otomo_C:CharacterMesh0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.36"
+      },
+      "CharacterMovement": {
+        "ObjectName": "PalCharacterMovementComponent'Default__BP_KingWhale_BOSS_otomo_C:CharMoveComp'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.27"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_KingWhale_BOSS_otomo_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.3"
+      },
+      "NetCullDistanceSquared": 4.9E+09,
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_KingWhale_BOSS_otomo_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.3"
+      }
+    }
+  },
+  {
+    "Type": "BP_PalRideMarkerSaddle_C",
+    "Name": "BP_PalRideMarkerSaddle_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerSaddle.BP_PalRideMarkerSaddle_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalRideMarkerSaddle_C'Default__BP_PalRideMarkerSaddle_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerSaddle.1"
+    },
+    "Properties": {
+      "RidePositionType": "EPalRidePositionType::SitRide",
+      "RideNetUpdateFrequency": 20.0,
+      "RelativeLocation": {
+        "X": 15.0,
+        "Y": -554.99994,
+        "Z": -1.6503464E-13
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -360.0,
+        "Roll": 360.0
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_KingWhale_BOSS_otomo_C'Default__BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.1"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_KingWhale_C:CollisionCylinder'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.3"
+    },
+    "Properties": {
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_Yes"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_KingWhale_BOSS_otomo",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'PalCharacter:OnChangeActiveActor__DelegateSignature'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_bIsActive",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnAirLargeDown__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.0"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnChangeActiveActorDelegate_Event",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsActive",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.0"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_MonsterBase_C:ReceiveBeginPlay'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.33"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'BP_MonsterBase_C:ReceiveBeginPlay'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.33"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+            "ObjectPath": "/Script/Pal"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_BOSS_otomo_C:PalBodyPartsCapsule6_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.19"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.0"
+            },
+            "SCSVariableName": "PalBodyPartsCapsule6",
+            "AssociatedGuid": "349CF2EF-495767C1-D8269181-2A481EBC"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+            "ObjectPath": "/Script/Pal"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_BOSS_otomo_C:PalBodyPartsCapsule5_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.18"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.0"
+            },
+            "SCSVariableName": "PalBodyPartsCapsule5",
+            "AssociatedGuid": "CF445B71-413DC8F0-778A75A0-31E32203"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+            "ObjectPath": "/Script/Pal"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_BOSS_otomo_C:PalBodyPartsCapsule_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.23"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.0"
+            },
+            "SCSVariableName": "PalBodyPartsCapsule",
+            "AssociatedGuid": "8E6ABB73-45ABC780-5E5C5291-C1380BFA"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+            "ObjectPath": "/Script/Pal"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_BOSS_otomo_C:PalBodyPartsCapsule3_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.17"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.0"
+            },
+            "SCSVariableName": "PalBodyPartsCapsule3",
+            "AssociatedGuid": "6A5F4C11-43BB216C-231DFDAA-6FF6325E"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+            "ObjectPath": "/Script/Pal"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_BOSS_otomo_C:PalBodyPartsCapsule1_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.15"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.0"
+            },
+            "SCSVariableName": "PalBodyPartsCapsule1",
+            "AssociatedGuid": "26A1B75A-4522A21E-12330EB5-DE5F7754"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'PalInteractableSphereComponentNative'",
+            "ObjectPath": "/Script/Pal"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "PalInteractableSphereComponentNative'BP_KingWhale_BOSS_otomo_C:BP_InteractableSphere_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.32"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+            },
+            "SCSVariableName": "BP_InteractableSphere",
+            "AssociatedGuid": "E1723F2E-426F1652-C58C1AA3-7D95233B"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'PalFlyMeshHeightCtrlComponent'",
+            "ObjectPath": "/Script/Pal"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "PalFlyMeshHeightCtrlComponent'BP_KingWhale_BOSS_otomo_C:PalFlyMeshHeightCtrl_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.30"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.0"
+            },
+            "SCSVariableName": "PalFlyMeshHeightCtrl",
+            "AssociatedGuid": "04B25060-42320E98-B1217EB3-56CEAA9C"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+            "ObjectPath": "/Script/Pal"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_BOSS_otomo_C:PalBodyPartsCapsule10_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.12"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.0"
+            },
+            "SCSVariableName": "PalBodyPartsCapsule10",
+            "AssociatedGuid": "7231C9B7-40F14E86-EDB7058D-236E01B9"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+            "ObjectPath": "/Script/Pal"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_BOSS_otomo_C:PalBodyPartsCapsule9_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.22"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.0"
+            },
+            "SCSVariableName": "PalBodyPartsCapsule9",
+            "AssociatedGuid": "7D66F800-45D55904-48765F9F-3A512526"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+            "ObjectPath": "/Script/Pal"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_BOSS_otomo_C:PalBodyPartsCapsule8_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.21"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.0"
+            },
+            "SCSVariableName": "PalBodyPartsCapsule8",
+            "AssociatedGuid": "94308122-4EDA9225-08609DBD-B5CECA7E"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+            "ObjectPath": "/Script/Pal"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_BOSS_otomo_C:PalBodyPartsCapsule7_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.20"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.0"
+            },
+            "SCSVariableName": "PalBodyPartsCapsule7",
+            "AssociatedGuid": "27A59B07-42F6903F-5A8CB1B1-3A50F924"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+            "ObjectPath": "/Script/Pal"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_BOSS_otomo_C:PalBodyPartsCapsule2_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.16"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.0"
+            },
+            "SCSVariableName": "PalBodyPartsCapsule2",
+            "AssociatedGuid": "F0EBD0E5-4AA17576-C69A52AF-7A70EDD6"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PalActionComponent",
+    "Name": "ActionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalActionComponent'",
+    "Outer": {
+      "ObjectName": "BP_KingWhale_BOSS_otomo_C'Default__BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.1"
+    },
+    "Template": {
+      "ObjectName": "PalActionComponent'Default__BP_KingWhale_C:ActionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.5"
+    },
+    "Properties": {
+      "ActionMap": [
+        {
+          "Key": "EPalActionType::EPalActionType_MAX",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_ActionEatOneshot_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Action/Common/BP_ActionEatOneshot.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::LargeDown",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_Action_LargeDown_KingWhale_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Action/Reaction/BP_Action_LargeDown_KingWhale.0"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PalAnimNotifyParameterComponent",
+    "Name": "AnimNotifyComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_KingWhale_BOSS_otomo_C'Default__BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.1"
+    },
+    "Template": {
+      "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_KingWhale_C:AnimNotifyComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.6"
+    }
+  },
+  {
+    "Type": "PalBaseCampOrbitComponent",
+    "Name": "PalBaseCampOrbit_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBaseCampOrbitComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.0"
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule10_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.0"
+    },
+    "Template": {
+      "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule10_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.7"
+    },
+    "Properties": {
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_Yes",
+      "BodyInstance": {
+        "CollisionProfileName": "RideableSurface",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Attack",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "SystemVolume",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "ReticleRayCast",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule11_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.0"
+    },
+    "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Weak",
+      "CapsuleHalfHeight": 100.0,
+      "CapsuleRadius": 100.0,
+      "BodyInstance": {
+        "CollisionProfileName": "PawnParts_NonBlock",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PlayerPawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "SystemVolume",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -6.605827E-15,
+        "Y": 4.2743582E-15,
+        "Z": -34.999996
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 3.0264965E-14,
+        "Roll": 2.245202E-16
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule12_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.0"
+    },
+    "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Strong",
+      "CapsuleHalfHeight": 250.0,
+      "CapsuleRadius": 250.0,
+      "RelativeLocation": {
+        "X": 515.0,
+        "Y": -235.0,
+        "Z": 7.216447E-15
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 3.0264965E-14,
+        "Roll": 2.245202E-16
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.0"
+    },
+    "Template": {
+      "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule1_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.8"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "CollisionProfileName": "PawnParts_NonBlock",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PlayerPawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "SystemVolume",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 690.0,
+        "Y": -340.0,
+        "Z": -2.6534329E-14
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.0"
+    },
+    "Template": {
+      "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule2_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.9"
+    },
+    "Properties": {
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_Yes",
+      "BodyInstance": {
+        "CollisionProfileName": "RideableSurface",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Attack",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "SystemVolume",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "ReticleRayCast",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule3_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.0"
+    },
+    "Template": {
+      "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule3_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.10"
+    },
+    "Properties": {
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_Yes",
+      "BodyInstance": {
+        "CollisionProfileName": "RideableSurface",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Attack",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "SystemVolume",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "ReticleRayCast",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule5_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.0"
+    },
+    "Template": {
+      "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule5_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.12"
+    },
+    "Properties": {
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_Yes",
+      "BodyInstance": {
+        "CollisionProfileName": "RideableSurface",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Attack",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "SystemVolume",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "ReticleRayCast",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule6_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.0"
+    },
+    "Template": {
+      "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule6_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.13"
+    },
+    "Properties": {
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_Yes",
+      "BodyInstance": {
+        "CollisionProfileName": "RideableSurface",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Attack",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "SystemVolume",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "ReticleRayCast",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule7_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.0"
+    },
+    "Template": {
+      "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule7_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.14"
+    },
+    "Properties": {
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_Yes",
+      "BodyInstance": {
+        "CollisionProfileName": "RideableSurface",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Attack",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "SystemVolume",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "ReticleRayCast",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule8_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.0"
+    },
+    "Template": {
+      "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule8_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.15"
+    },
+    "Properties": {
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_Yes",
+      "BodyInstance": {
+        "CollisionProfileName": "RideableSurface",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Attack",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "SystemVolume",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "ReticleRayCast",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule9_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.0"
+    },
+    "Template": {
+      "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule9_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.16"
+    },
+    "Properties": {
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_Yes",
+      "BodyInstance": {
+        "CollisionProfileName": "RideableSurface",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Attack",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "SystemVolume",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "ReticleRayCast",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.0"
+    },
+    "Template": {
+      "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_C:PalBodyPartsCapsule_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.17"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 1100.0,
+      "CapsuleRadius": 600.0,
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_Yes",
+      "BodyInstance": {
+        "CollisionProfileName": "RideableSurface",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Attack",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "SystemVolume",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "ReticleRayCast",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterAroundInfoCollectorComponent",
+    "Name": "AroundInfoCollectorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+    "Outer": {
+      "ObjectName": "BP_KingWhale_BOSS_otomo_C'Default__BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_KingWhale_C:AroundInfoCollectorComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.18"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_KingWhale_BOSS_otomo_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.3"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterCameraComponent",
+    "Name": "FollowCamera",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterCameraComponent'",
+    "Outer": {
+      "ObjectName": "BP_KingWhale_BOSS_otomo_C'Default__BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterCameraComponent'Default__BP_KingWhale_C:FollowCamera'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.19"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_KingWhale_BOSS_otomo_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.35"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterLiftupObjectComponent",
+    "Name": "Liftup",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+    "Outer": {
+      "ObjectName": "BP_KingWhale_BOSS_otomo_C'Default__BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_KingWhale_C:Liftup'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.20"
+    }
+  },
+  {
+    "Type": "PalCharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_KingWhale_BOSS_otomo_C'Default__BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterMovementComponent'Default__BP_KingWhale_C:CharMoveComp'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.21"
+    },
+    "Properties": {
+      "InWaterRate": 0.1,
+      "NetworkSmoothingMode": "ENetworkSmoothingMode::Linear",
+      "RotationRate": {
+        "Pitch": 0.0,
+        "Yaw": 30.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterParameterComponent",
+    "Name": "CharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_KingWhale_BOSS_otomo_C'Default__BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterParameterComponent'Default__BP_KingWhale_C:CharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.22"
+    },
+    "Properties": {
+      "bIsInfinitySP": true
+    }
+  },
+  {
+    "Type": "PalDamageReactionComponent",
+    "Name": "DamageReactionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalDamageReactionComponent'",
+    "Outer": {
+      "ObjectName": "BP_KingWhale_BOSS_otomo_C'Default__BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.1"
+    },
+    "Template": {
+      "ObjectName": "PalDamageReactionComponent'Default__BP_KingWhale_C:DamageReactionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.23"
+    }
+  },
+  {
+    "Type": "PalFlyMeshHeightCtrlComponent",
+    "Name": "PalFlyMeshHeightCtrl_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'PalFlyMeshHeightCtrlComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.0"
+    },
+    "Template": {
+      "ObjectName": "PalFlyMeshHeightCtrlComponent'BP_KingWhale_C:PalFlyMeshHeightCtrl_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.24"
+    },
+    "Properties": {
+      "FlingAdditionalHeight": 2500.0,
+      "bEnableHoverCapsule": true,
+      "bDisableRideLanding": true,
+      "FlyingCapsuleHalfHeight": 500.0,
+      "FlyingCapsuleRadius": 500.0,
+      "HoverExtendInterpTime": 1.0,
+      "bDebugHoverCapsuleLog": true
+    }
+  },
+  {
+    "Type": "PalFootIKComponent",
+    "Name": "FootIKComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalFootIKComponent'",
+    "Outer": {
+      "ObjectName": "BP_KingWhale_BOSS_otomo_C'Default__BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.1"
+    },
+    "Template": {
+      "ObjectName": "PalFootIKComponent'Default__BP_KingWhale_C:FootIKComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.25"
+    }
+  },
+  {
+    "Type": "PalInteractableSphereComponentNative",
+    "Name": "BP_InteractableSphere_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'PalInteractableSphereComponentNative'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.0"
+    },
+    "Template": {
+      "ObjectName": "PalInteractableSphereComponentNative'BP_MonsterBase_C:BP_InteractableSphere_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
+    },
+    "Properties": {
+      "SphereRadius": 3000.0
+    }
+  },
+  {
+    "Type": "PalLookAtComponent",
+    "Name": "LookAtComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalLookAtComponent'",
+    "Outer": {
+      "ObjectName": "BP_KingWhale_BOSS_otomo_C'Default__BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.1"
+    },
+    "Template": {
+      "ObjectName": "PalLookAtComponent'Default__BP_KingWhale_C:LookAtComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.26"
+    }
+  },
+  {
+    "Type": "PalPassiveSkillComponent",
+    "Name": "PassiveSkillComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalPassiveSkillComponent'",
+    "Outer": {
+      "ObjectName": "BP_KingWhale_BOSS_otomo_C'Default__BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.1"
+    },
+    "Template": {
+      "ObjectName": "PalPassiveSkillComponent'Default__BP_KingWhale_C:PassiveSkillComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.28"
+    }
+  },
+  {
+    "Type": "PalShooterSpringArmComponent",
+    "Name": "CameraBoom",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalShooterSpringArmComponent'",
+    "Outer": {
+      "ObjectName": "BP_KingWhale_BOSS_otomo_C'Default__BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.1"
+    },
+    "Template": {
+      "ObjectName": "PalShooterSpringArmComponent'Default__BP_KingWhale_C:CameraBoom'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.29"
+    },
+    "Properties": {
+      "WalkCameraOffset": {
+        "X": 0.0,
+        "Y": 150.0,
+        "Z": 0.0
+      },
+      "AimCameraOffset": {
+        "X": 0.0,
+        "Y": 150.0,
+        "Z": 0.0
+      },
+      "AirCameraOffset": {
+        "X": 0.0,
+        "Y": 150.0,
+        "Z": 0.0
+      },
+      "AirAimCameraOffset": {
+        "X": 0.0,
+        "Y": 150.0,
+        "Z": 0.0
+      },
+      "FlyCameraArmLength": 10000.0,
+      "FlyAimCameraArmLength": 4000.0,
+      "FlyAimCameraOffset": {
+        "X": 2000.0,
+        "Y": 2000.0,
+        "Z": 1000.0
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_KingWhale_BOSS_otomo_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.3"
+      }
+    }
+  },
+  {
+    "Type": "PalSkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_KingWhale_BOSS_otomo_C'Default__BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.1"
+    },
+    "Template": {
+      "ObjectName": "PalSkeletalMeshComponent'Default__BP_KingWhale_C:CharacterMesh0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.30"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_KingWhale_BOSS_otomo_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.3"
+      },
+      "RelativeLocation": {
+        "X": -1000.0,
+        "Y": 0.0,
+        "Z": -1230.0
+      },
+      "RelativeScale3D": {
+        "X": 2.0,
+        "Y": 2.0000002,
+        "Z": 2.0000002
+      }
+    }
+  },
+  {
+    "Type": "PalStaticCharacterParameterComponent",
+    "Name": "StaticCharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_KingWhale_BOSS_otomo_C'Default__BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.1"
+    },
+    "Template": {
+      "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_KingWhale_C:StaticCharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.31"
+    },
+    "Properties": {
+      "AIActionMap": [
+        {
+          "Key": "EPalAIActionType::Cooperation",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AIActionRideCall_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Coop/BP_AIActionRideCall.0"
+          }
+        }
+      ],
+      "ActionMontageMap": [
+        {
+          "Key": "EPalActionType::Menace",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_KingWhale_Encount2'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingWhale/AM_KingWhale_Encount2.0"
+          }
+        }
+      ],
+      "WazaActionDeclarationMap": [
+        {
+          "Key": "EPalWazaID::Unique_KingWhale_Breaching",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/KingWhale/BP_UniqueAction_KingWhale_Breaching_Otomo.BP_UniqueAction_KingWhale_Breaching_Otomo_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EPalWazaID::Unique_KingWhale_SuperTidalBore",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/KingWhale/BP_UniqueAction_KingWhale_SuperTidalBore.BP_UniqueAction_KingWhale_SuperTidalBore_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EPalWazaID::Unique_KingWhale_BaseCampAttack",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/KingWhale/BP_UniqueAction_KingWhale_HomingBubble_BaseCamp.BP_UniqueAction_KingWhale_HomingBubble_BaseCamp_C",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "bEnableRideAimWazaMode": true,
+      "MovementType": "EPalMonsterMovementType::Fly"
+    }
+  },
+  {
+    "Type": "PalStatusComponent",
+    "Name": "StatusComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStatusComponent'",
+    "Outer": {
+      "ObjectName": "BP_KingWhale_BOSS_otomo_C'Default__BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.1"
+    },
+    "Template": {
+      "ObjectName": "PalStatusComponent'Default__BP_KingWhale_C:StatusComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.32"
+    },
+    "Properties": {
+      "StatusMap": [
+        {
+          "Key": "EPalStatusID::PalEnhancement",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_Status_PalEnhancement_KingWhale_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Status/KingWhale/BP_Status_PalEnhancement_KingWhale.0"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PalVisualEffectComponent",
+    "Name": "VisualEffectComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalVisualEffectComponent'",
+    "Outer": {
+      "ObjectName": "BP_KingWhale_BOSS_otomo_C'Default__BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.1"
+    },
+    "Template": {
+      "ObjectName": "PalVisualEffectComponent'Default__BP_KingWhale_C:VisualEffectComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.33"
+    },
+    "Properties": {
+      "VisualEffectClass_OverrideMap": [
+        {
+          "Key": "EPalVisualEffectID::PalEnhancement",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Effect/VisualEffect/KingWhale/BP_VisualEffect_PalEnhancement_KingWhale.BP_VisualEffect_PalEnhancement_KingWhale_C",
+            "SubPathString": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_KingWhale_BOSS_otomo_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.46"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_KingWhale_BOSS_otomo_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.40"
+      },
+      "VariableGuid": "02720344-4FF56DA3-EF0288B3-6EA782F9",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_KingWhale_BOSS_otomo_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.46"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_BOSS_otomo_C:PalBodyPartsCapsule11_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.13"
+      },
+      "AttachToName": "Socket_Mark",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "A22096BC-437F87C3-36FDFF8A-C2DBB0F8",
+      "InternalVariableName": "PalBodyPartsCapsule11"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_KingWhale_BOSS_otomo_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.46"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingWhale_BOSS_otomo_C:PalBodyPartsCapsule12_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.14"
+      },
+      "AttachToName": "head",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "1E4F8801-46971CF2-82F8A199-B0F33071",
+      "InternalVariableName": "PalBodyPartsCapsule12"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_KingWhale_BOSS_otomo_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.46"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PalRideMarkerSaddle_C'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerSaddle.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_PalRideMarkerSaddle_C'BP_KingWhale_BOSS_otomo_C:BP_PalRideMarkerSaddle_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.2"
+      },
+      "AttachToName": "head",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "C3B88DB0-442487ED-272FD483-94E25AC9",
+      "InternalVariableName": "BP_PalRideMarkerSaddle"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_KingWhale_BOSS_otomo_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.46"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBaseCampOrbitComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBaseCampOrbitComponent'BP_KingWhale_BOSS_otomo_C:PalBaseCampOrbit_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.11"
+      },
+      "VariableGuid": "F5E44CA7-483F1303-E2F92488-1C689964",
+      "InternalVariableName": "PalBaseCampOrbit"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_BOSS_otomo_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_BOSS_otomo_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_BOSS_otomo_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_BOSS_otomo_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.45"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_BOSS_otomo_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_BOSS_otomo_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_BOSS_otomo_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingWhale_BOSS_otomo_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.45"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_KingWhale_BOSS_otomo_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.41"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "RagdollInteractiveSphere",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BP_KingWhale_BOSS_otomo_C'Default__BP_KingWhale_BOSS_otomo_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.1"
+    },
+    "Template": {
+      "ObjectName": "SphereComponent'Default__BP_KingWhale_C:RagdollInteractiveSphere'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale.51"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_KingWhale_BOSS_otomo_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingWhale/BP_KingWhale_BOSS_otomo.3"
+      }
+    }
+  }
+]

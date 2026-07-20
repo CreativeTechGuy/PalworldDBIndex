@@ -12,7 +12,7 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_RobinHood_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.36"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.35"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_RobinHood_C:InheritableComponentHandler'",
@@ -148,7 +148,7 @@
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_RobinHood_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.25"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.24"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_RobinHood_C:DamageReactionComponent'",
@@ -156,11 +156,11 @@
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_RobinHood_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.25"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_RobinHood_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.22"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_RobinHood_C:FollowCamera'",
@@ -176,11 +176,11 @@
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_RobinHood_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.27"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.26"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_RobinHood_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.21"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_RobinHood_C:AnimNotifyComponent'",
@@ -192,11 +192,11 @@
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_RobinHood_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.37"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.36"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_RobinHood_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.23"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_RobinHood_C:CharMoveComp'",
@@ -243,28 +243,6 @@
       "Records": [
         {
           "ComponentClass": {
-            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-            "ObjectPath": "/Script/Pal"
-          },
-          "ComponentTemplate": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_RobinHood_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.21"
-          },
-          "ComponentKey": {
-            "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-            },
-            "SCSVariableName": "PalPartnerSkillParameter",
-            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
-          },
-          "CookedComponentInstancingData": {
-            "ChangedPropertyList": [],
-            "bHasValidCookedData": false
-          }
-        },
-        {
-          "ComponentClass": {
             "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
             "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
           },
@@ -299,7 +277,7 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
     }
   },
   {
@@ -313,7 +291,7 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
     }
   },
   {
@@ -510,7 +488,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
@@ -530,12 +508,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_RobinHood_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.22"
       }
     }
   },
@@ -550,7 +528,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -564,7 +542,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
     },
     "Properties": {
       "InWaterRate": 0.59,
@@ -582,7 +560,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -596,7 +574,7 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
     }
   },
   {
@@ -610,7 +588,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     },
     "Properties": {
       "FootIKSettings": [
@@ -646,175 +624,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
-    }
-  },
-  {
-    "Type": "PalPartnerSkillParameterComponent",
-    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_RobinHood_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.0"
-    },
-    "Template": {
-      "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
-    },
-    "Properties": {
-      "PassiveSkills": [
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "WeakDamage_ActiveOtomo"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "WeakDamage_ActiveOtomo_1"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "WeakDamage_ActiveOtomo_2"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "WeakDamage_ActiveOtomo_3"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "WeakDamage_ActiveOtomo_4"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        }
-      ]
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
     }
   },
   {
@@ -828,7 +638,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -842,7 +652,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
       "AttachParent": {
@@ -867,7 +677,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
       "AnimClass": {
@@ -904,7 +714,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 110.0,
@@ -914,6 +724,15 @@
         "Y": 0.0,
         "Z": -110.0
       },
+      "AIActionMap": [
+        {
+          "Key": "EPalAIActionType::SideMove",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AIAction_AnimationSideStep_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Combat/BP_AIAction_AnimationSideStep.0"
+          }
+        }
+      ],
       "RandomRestMontageInfos": [
         {
           "RandomRestMontage": {
@@ -1029,8 +848,8 @@
         {
           "Key": "EPalGeneralMontageType::BeLiftupStart",
           "Value": {
-            "ObjectName": "AnimMontage'AM_RobinHood_Carrying_Start'",
-            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RobinHood/AM_RobinHood_Carrying_Start.0"
+            "ObjectName": "AnimMontage'AM_RobinHood_Carrying'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RobinHood/AM_RobinHood_Carrying.0"
           }
         },
         {
@@ -1108,10 +927,10 @@
           }
         },
         {
-          "Key": "EPalActionType::IdleInSpa",
+          "Key": "EPalActionType::Feeding",
           "Value": {
-            "ObjectName": "AnimMontage'AM_RobinHood_Spa'",
-            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RobinHood/AM_RobinHood_Spa.0"
+            "ObjectName": "AnimMontage'AM_RobinHood_Planting'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RobinHood/AM_RobinHood_Planting.0"
           }
         },
         {
@@ -1150,10 +969,10 @@
           }
         },
         {
-          "Key": "EPalActionType::Feeding",
+          "Key": "EPalActionType::IdleInSpa",
           "Value": {
-            "ObjectName": "AnimMontage'AM_RobinHood_Planting'",
-            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RobinHood/AM_RobinHood_Planting.0"
+            "ObjectName": "AnimMontage'AM_RobinHood_Spa'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RobinHood/AM_RobinHood_Spa.0"
           }
         },
         {
@@ -1161,6 +980,20 @@
           "Value": {
             "ObjectName": "AnimMontage'AM_RobinHood_Gunner'",
             "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RobinHood/AM_RobinHood_Gunner.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::SideStep_Left",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_RobinHood_SideStep_Left'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RobinHood/AM_RobinHood_SideStep_Left.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::SideStep_Right",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_RobinHood_SideStep_Right'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RobinHood/AM_RobinHood_SideStep_Right.0"
           }
         }
       ],
@@ -1218,6 +1051,24 @@
             },
             "bShouldApply": true
           }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_05"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": 70.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
         }
       ],
       "SleepOnSideAnimMontage": {
@@ -1261,7 +1112,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     }
   },
   {
@@ -1275,7 +1126,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -1295,7 +1146,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_RobinHood_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.36"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -1304,7 +1155,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_RobinHood_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.28"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.27"
       },
       "VariableGuid": "FC472BA0-4248CD96-99B0CEA3-655997BB",
       "InternalVariableName": "DefaultSceneRoot"
@@ -1317,7 +1168,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_RobinHood_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.36"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -1342,7 +1193,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_RobinHood_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.36"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -1367,7 +1218,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_RobinHood_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.36"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -1392,7 +1243,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_RobinHood_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.36"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -1417,7 +1268,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_RobinHood_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.36"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -1442,7 +1293,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_RobinHood_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.36"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -1473,58 +1324,58 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'BP_RobinHood_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.30"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.29"
         },
         {
           "ObjectName": "SCS_Node'BP_RobinHood_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.31"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.30"
         },
         {
           "ObjectName": "SCS_Node'BP_RobinHood_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.32"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.31"
         },
         {
           "ObjectName": "SCS_Node'BP_RobinHood_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.33"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.32"
         },
         {
           "ObjectName": "SCS_Node'BP_RobinHood_C:SimpleConstructionScript_0.SCS_Node_5'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.34"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.33"
         },
         {
           "ObjectName": "SCS_Node'BP_RobinHood_C:SimpleConstructionScript_0.SCS_Node_6'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.35"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.34"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'BP_RobinHood_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.30"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.29"
         },
         {
           "ObjectName": "SCS_Node'BP_RobinHood_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.31"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.30"
         },
         {
           "ObjectName": "SCS_Node'BP_RobinHood_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.32"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.31"
         },
         {
           "ObjectName": "SCS_Node'BP_RobinHood_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.33"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.32"
         },
         {
           "ObjectName": "SCS_Node'BP_RobinHood_C:SimpleConstructionScript_0.SCS_Node_5'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.34"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.33"
         },
         {
           "ObjectName": "SCS_Node'BP_RobinHood_C:SimpleConstructionScript_0.SCS_Node_6'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.35"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.34"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_RobinHood_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.29"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RobinHood/BP_RobinHood.28"
       }
     }
   },
@@ -1539,7 +1390,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {

@@ -1,0 +1,456 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Umihebi_Fire_BOSS_Predator_Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Umihebi_Fire_BOSS_Predator_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Umihebi_Fire_BOSS_Predator_Quest_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.21"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Umihebi_Fire_BOSS_Predator_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator.0"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Umihebi_Fire_BOSS_Predator_Quest_C'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Umihebi_Fire_BOSS_Predator_Quest_C",
+    "Name": "Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.BP_Umihebi_Fire_BOSS_Predator_Quest_C'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest",
+    "Template": {
+      "ObjectName": "BP_Umihebi_Fire_BOSS_Predator_C'Default__BP_Umihebi_Fire_BOSS_Predator_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator.1"
+    },
+    "Properties": {
+      "LiftupObjectComponent": {
+        "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C:Liftup'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.7"
+      },
+      "ActionComponent": {
+        "ObjectName": "PalActionComponent'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C:ActionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.3"
+      },
+      "CharacterParameterComponent": {
+        "ObjectName": "PalCharacterParameterComponent'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C:CharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.9"
+      },
+      "StaticCharacterParameterComponent": {
+        "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C:StaticCharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.16"
+      },
+      "DamageReactionComponent": {
+        "ObjectName": "PalDamageReactionComponent'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C:DamageReactionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.10"
+      },
+      "StatusComponent": {
+        "ObjectName": "PalStatusComponent'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C:StatusComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.17"
+      },
+      "CameraBoom": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.14"
+      },
+      "FollowCamera": {
+        "ObjectName": "PalCharacterCameraComponent'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C:FollowCamera'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.6"
+      },
+      "LookAtComponent": {
+        "ObjectName": "PalLookAtComponent'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C:LookAtComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.12"
+      },
+      "FootIKComponent": {
+        "ObjectName": "PalFootIKComponent'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C:FootIKComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.11"
+      },
+      "VisualEffectComponent": {
+        "ObjectName": "PalVisualEffectComponent'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C:VisualEffectComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.18"
+      },
+      "PassiveSkillComponent": {
+        "ObjectName": "PalPassiveSkillComponent'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C:PassiveSkillComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.13"
+      },
+      "AnimNotifyComponent": {
+        "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C:AnimNotifyComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.4"
+      },
+      "AroundInfoCollectorComponent": {
+        "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C:AroundInfoCollectorComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.5"
+      },
+      "RagdollInteractiveSphere": {
+        "ObjectName": "SphereComponent'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C:RagdollInteractiveSphere'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.22"
+      },
+      "Mesh": {
+        "ObjectName": "PalSkeletalMeshComponent'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C:CharacterMesh0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.15"
+      },
+      "CharacterMovement": {
+        "ObjectName": "PalCharacterMovementComponent'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C:CharMoveComp'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.8"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.2"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.2"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_Umihebi_Fire_BOSS_Predator_Quest_C'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_Umihebi_Fire_BOSS_Predator_C:CollisionCylinder'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator.2"
+    }
+  },
+  {
+    "Type": "PalActionComponent",
+    "Name": "ActionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalActionComponent'",
+    "Outer": {
+      "ObjectName": "BP_Umihebi_Fire_BOSS_Predator_Quest_C'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalActionComponent'Default__BP_Umihebi_Fire_BOSS_Predator_C:ActionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator.6"
+    }
+  },
+  {
+    "Type": "PalAnimNotifyParameterComponent",
+    "Name": "AnimNotifyComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_Umihebi_Fire_BOSS_Predator_Quest_C'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_Umihebi_Fire_BOSS_Predator_C:AnimNotifyComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator.7"
+    }
+  },
+  {
+    "Type": "PalCharacterAroundInfoCollectorComponent",
+    "Name": "AroundInfoCollectorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+    "Outer": {
+      "ObjectName": "BP_Umihebi_Fire_BOSS_Predator_Quest_C'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_Umihebi_Fire_BOSS_Predator_C:AroundInfoCollectorComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator.8"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.2"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterCameraComponent",
+    "Name": "FollowCamera",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterCameraComponent'",
+    "Outer": {
+      "ObjectName": "BP_Umihebi_Fire_BOSS_Predator_Quest_C'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterCameraComponent'Default__BP_Umihebi_Fire_BOSS_Predator_C:FollowCamera'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator.9"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.14"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterLiftupObjectComponent",
+    "Name": "Liftup",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+    "Outer": {
+      "ObjectName": "BP_Umihebi_Fire_BOSS_Predator_Quest_C'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_Umihebi_Fire_BOSS_Predator_C:Liftup'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator.10"
+    }
+  },
+  {
+    "Type": "PalCharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_Umihebi_Fire_BOSS_Predator_Quest_C'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterMovementComponent'Default__BP_Umihebi_Fire_BOSS_Predator_C:CharMoveComp'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator.11"
+    }
+  },
+  {
+    "Type": "PalCharacterParameterComponent",
+    "Name": "CharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_Umihebi_Fire_BOSS_Predator_Quest_C'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterParameterComponent'Default__BP_Umihebi_Fire_BOSS_Predator_C:CharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator.12"
+    }
+  },
+  {
+    "Type": "PalDamageReactionComponent",
+    "Name": "DamageReactionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalDamageReactionComponent'",
+    "Outer": {
+      "ObjectName": "BP_Umihebi_Fire_BOSS_Predator_Quest_C'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalDamageReactionComponent'Default__BP_Umihebi_Fire_BOSS_Predator_C:DamageReactionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator.13"
+    }
+  },
+  {
+    "Type": "PalFootIKComponent",
+    "Name": "FootIKComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalFootIKComponent'",
+    "Outer": {
+      "ObjectName": "BP_Umihebi_Fire_BOSS_Predator_Quest_C'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalFootIKComponent'Default__BP_Umihebi_Fire_BOSS_Predator_C:FootIKComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator.14"
+    }
+  },
+  {
+    "Type": "PalLookAtComponent",
+    "Name": "LookAtComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalLookAtComponent'",
+    "Outer": {
+      "ObjectName": "BP_Umihebi_Fire_BOSS_Predator_Quest_C'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalLookAtComponent'Default__BP_Umihebi_Fire_BOSS_Predator_C:LookAtComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator.15"
+    }
+  },
+  {
+    "Type": "PalPassiveSkillComponent",
+    "Name": "PassiveSkillComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalPassiveSkillComponent'",
+    "Outer": {
+      "ObjectName": "BP_Umihebi_Fire_BOSS_Predator_Quest_C'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalPassiveSkillComponent'Default__BP_Umihebi_Fire_BOSS_Predator_C:PassiveSkillComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator.16"
+    }
+  },
+  {
+    "Type": "PalShooterSpringArmComponent",
+    "Name": "CameraBoom",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalShooterSpringArmComponent'",
+    "Outer": {
+      "ObjectName": "BP_Umihebi_Fire_BOSS_Predator_Quest_C'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalShooterSpringArmComponent'Default__BP_Umihebi_Fire_BOSS_Predator_C:CameraBoom'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator.17"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.2"
+      }
+    }
+  },
+  {
+    "Type": "PalSkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_Umihebi_Fire_BOSS_Predator_Quest_C'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalSkeletalMeshComponent'Default__BP_Umihebi_Fire_BOSS_Predator_C:CharacterMesh0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator.18"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.2"
+      }
+    }
+  },
+  {
+    "Type": "PalStaticCharacterParameterComponent",
+    "Name": "StaticCharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_Umihebi_Fire_BOSS_Predator_Quest_C'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_Umihebi_Fire_BOSS_Predator_C:StaticCharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator.19"
+    }
+  },
+  {
+    "Type": "PalStatusComponent",
+    "Name": "StatusComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStatusComponent'",
+    "Outer": {
+      "ObjectName": "BP_Umihebi_Fire_BOSS_Predator_Quest_C'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalStatusComponent'Default__BP_Umihebi_Fire_BOSS_Predator_C:StatusComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator.20"
+    }
+  },
+  {
+    "Type": "PalVisualEffectComponent",
+    "Name": "VisualEffectComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalVisualEffectComponent'",
+    "Outer": {
+      "ObjectName": "BP_Umihebi_Fire_BOSS_Predator_Quest_C'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalVisualEffectComponent'Default__BP_Umihebi_Fire_BOSS_Predator_C:VisualEffectComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator.21"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Umihebi_Fire_BOSS_Predator_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Umihebi_Fire_BOSS_Predator_Quest_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.21"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Umihebi_Fire_BOSS_Predator_Quest_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.19"
+      },
+      "VariableGuid": "42BBE14F-4A463CD0-788870A6-725644E8",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Umihebi_Fire_BOSS_Predator_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Umihebi_Fire_BOSS_Predator_Quest_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.20"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "RagdollInteractiveSphere",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BP_Umihebi_Fire_BOSS_Predator_Quest_C'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "SphereComponent'Default__BP_Umihebi_Fire_BOSS_Predator_C:RagdollInteractiveSphere'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator.27"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Umihebi_Fire_BOSS_Predator_Quest_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Umihebi/BP_Umihebi_Fire_BOSS_Predator_Quest.2"
+      }
+    }
+  }
+]

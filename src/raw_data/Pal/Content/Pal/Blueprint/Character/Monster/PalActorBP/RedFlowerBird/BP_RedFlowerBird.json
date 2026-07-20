@@ -1,0 +1,1822 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_RedFlowerBird_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_RedFlowerBird_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.51"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_RedFlowerBird_C:InheritableComponentHandler'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule13",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule12",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule11",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule10",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule9",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule8",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule7",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule6",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule5",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_RedFlowerBird_C'Default__BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_PalCryComponent_C",
+    "Name": "BP_PalCryComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.BP_PalCryComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalCryComponent_C'BP_MonsterBase_C:BP_PalCryComponent_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.2"
+    },
+    "Properties": {
+      "CryPalID": "EPalTribeID::None"
+    }
+  },
+  {
+    "Type": "BP_RedFlowerBird_C",
+    "Name": "Default__BP_RedFlowerBird_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.BP_RedFlowerBird_C'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird",
+    "Template": {
+      "ObjectName": "BP_MonsterBase_C'Default__BP_MonsterBase_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.1"
+    },
+    "Properties": {
+      "LiftupObjectComponent": {
+        "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_RedFlowerBird_C:Liftup'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.23"
+      },
+      "ActionComponent": {
+        "ObjectName": "PalActionComponent'Default__BP_RedFlowerBird_C:ActionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.5"
+      },
+      "CharacterParameterComponent": {
+        "ObjectName": "PalCharacterParameterComponent'Default__BP_RedFlowerBird_C:CharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.25"
+      },
+      "StaticCharacterParameterComponent": {
+        "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_RedFlowerBird_C:StaticCharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.32"
+      },
+      "DamageReactionComponent": {
+        "ObjectName": "PalDamageReactionComponent'Default__BP_RedFlowerBird_C:DamageReactionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.26"
+      },
+      "StatusComponent": {
+        "ObjectName": "PalStatusComponent'Default__BP_RedFlowerBird_C:StatusComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.33"
+      },
+      "CameraBoom": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_RedFlowerBird_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.30"
+      },
+      "FollowCamera": {
+        "ObjectName": "PalCharacterCameraComponent'Default__BP_RedFlowerBird_C:FollowCamera'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.22"
+      },
+      "LookAtComponent": {
+        "ObjectName": "PalLookAtComponent'Default__BP_RedFlowerBird_C:LookAtComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.28"
+      },
+      "FootIKComponent": {
+        "ObjectName": "PalFootIKComponent'Default__BP_RedFlowerBird_C:FootIKComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.27"
+      },
+      "VisualEffectComponent": {
+        "ObjectName": "PalVisualEffectComponent'Default__BP_RedFlowerBird_C:VisualEffectComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.34"
+      },
+      "PassiveSkillComponent": {
+        "ObjectName": "PalPassiveSkillComponent'Default__BP_RedFlowerBird_C:PassiveSkillComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.29"
+      },
+      "AnimNotifyComponent": {
+        "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_RedFlowerBird_C:AnimNotifyComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.6"
+      },
+      "AroundInfoCollectorComponent": {
+        "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_RedFlowerBird_C:AroundInfoCollectorComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.21"
+      },
+      "RagdollInteractiveSphere": {
+        "ObjectName": "SphereComponent'Default__BP_RedFlowerBird_C:RagdollInteractiveSphere'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.52"
+      },
+      "Mesh": {
+        "ObjectName": "PalSkeletalMeshComponent'Default__BP_RedFlowerBird_C:CharacterMesh0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.31"
+      },
+      "CharacterMovement": {
+        "ObjectName": "PalCharacterMovementComponent'Default__BP_RedFlowerBird_C:CharMoveComp'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.24"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_RedFlowerBird_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.3"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_RedFlowerBird_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.3"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_RedFlowerBird_C'Default__BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.2"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_MonsterBase_C:CollisionCylinder'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.3"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 30.0,
+      "CapsuleRadius": 30.0
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
+            "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BP_PalCryComponent_C'BP_RedFlowerBird_C:BP_PalCryComponent_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.1"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+            },
+            "SCSVariableName": "BP_PalCryComponent",
+            "AssociatedGuid": "A971BE27-4B3C10FC-863FA284-ECDC3286"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PalActionComponent",
+    "Name": "ActionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalActionComponent'",
+    "Outer": {
+      "ObjectName": "BP_RedFlowerBird_C'Default__BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.2"
+    },
+    "Template": {
+      "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+    }
+  },
+  {
+    "Type": "PalAnimNotifyParameterComponent",
+    "Name": "AnimNotifyComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_RedFlowerBird_C'Default__BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.2"
+    },
+    "Template": {
+      "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule10_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 35.0,
+      "CapsuleRadius": 16.0,
+      "RelativeLocation": {
+        "X": -32.578842,
+        "Y": 9.32157,
+        "Z": 1.1342481E-07
+      },
+      "RelativeRotation": {
+        "Pitch": -6.8658125E-07,
+        "Yaw": -100.0,
+        "Roll": 90.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule11_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 50.0,
+      "CapsuleRadius": 30.0,
+      "RelativeLocation": {
+        "X": 13.434503,
+        "Y": -6.816042,
+        "Z": -8.2937426E-08
+      },
+      "RelativeRotation": {
+        "Pitch": -6.9717294E-07,
+        "Yaw": -90.0,
+        "Roll": 90.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule12_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 50.0,
+      "CapsuleRadius": 30.0,
+      "RelativeLocation": {
+        "X": -15.604246,
+        "Y": 9.283738,
+        "Z": 1.1296423E-07
+      },
+      "RelativeRotation": {
+        "Pitch": -6.945198E-07,
+        "Yaw": -85.0,
+        "Roll": 90.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule13_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 50.0,
+      "CapsuleRadius": 30.0,
+      "RelativeLocation": {
+        "X": 13.434503,
+        "Y": 5.183958,
+        "Z": 6.307814E-08
+      },
+      "RelativeRotation": {
+        "Pitch": -6.9717294E-07,
+        "Yaw": -90.0,
+        "Roll": 90.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.0"
+    },
+    "Properties": {
+      "CapsuleRadius": 25.0,
+      "RelativeLocation": {
+        "X": 6.8134665,
+        "Y": 2.3756442,
+        "Z": 2.890682E-08
+      },
+      "RelativeRotation": {
+        "Pitch": -6.318532E-07,
+        "Yaw": -65.0,
+        "Roll": 90.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 30.0,
+      "CapsuleRadius": 18.0,
+      "RelativeLocation": {
+        "X": 13.720194,
+        "Y": 1.3001422,
+        "Z": 1.5820115E-08
+      },
+      "RelativeRotation": {
+        "Pitch": 6.7341745E-07,
+        "Yaw": 75.0,
+        "Roll": 90.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule3_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 30.0,
+      "CapsuleRadius": 20.0,
+      "RelativeLocation": {
+        "X": 16.80744,
+        "Y": -2.6329114,
+        "Z": -4.0
+      },
+      "RelativeRotation": {
+        "Pitch": 6.7341745E-07,
+        "Yaw": 75.0,
+        "Roll": 90.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule4_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 30.0,
+      "CapsuleRadius": 20.0,
+      "RelativeLocation": {
+        "X": -16.362207,
+        "Y": 1.0784881,
+        "Z": 2.0
+      },
+      "RelativeRotation": {
+        "Pitch": 6.7341745E-07,
+        "Yaw": 75.0,
+        "Roll": 90.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule5_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 20.0,
+      "CapsuleRadius": 10.0,
+      "RelativeLocation": {
+        "X": 9.5976715,
+        "Y": 1.3694925,
+        "Z": 2.0
+      },
+      "RelativeRotation": {
+        "Pitch": 6.7341745E-07,
+        "Yaw": 75.0,
+        "Roll": 90.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule6_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 20.0,
+      "CapsuleRadius": 10.0,
+      "RelativeLocation": {
+        "X": -10.825471,
+        "Y": -1.4403521,
+        "Z": 2.0
+      },
+      "RelativeRotation": {
+        "Pitch": 6.7341745E-07,
+        "Yaw": 75.0,
+        "Roll": 90.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule7_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 30.0,
+      "CapsuleRadius": 12.0,
+      "RelativeLocation": {
+        "X": -0.86136955,
+        "Y": -10.698683,
+        "Z": 1.9999999
+      },
+      "RelativeRotation": {
+        "Pitch": 3.325023E-07,
+        "Yaw": 30.0,
+        "Roll": 90.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule8_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 30.0,
+      "CapsuleRadius": 12.0,
+      "RelativeLocation": {
+        "X": 0.8969608,
+        "Y": 12.2558,
+        "Z": 2.0000002
+      },
+      "RelativeRotation": {
+        "Pitch": 3.325023E-07,
+        "Yaw": 30.0,
+        "Roll": 90.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule9_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 35.0,
+      "CapsuleRadius": 16.0,
+      "RelativeLocation": {
+        "X": 30.448853,
+        "Y": -1.7919117,
+        "Z": -2.1804043E-08
+      },
+      "RelativeRotation": {
+        "Pitch": -6.8658125E-07,
+        "Yaw": -100.0,
+        "Roll": 90.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.0"
+    },
+    "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Weak",
+      "RelativeLocation": {
+        "X": 18.0,
+        "Y": 25.0,
+        "Z": 3.0419915E-07
+      },
+      "RelativeRotation": {
+        "Pitch": 7.206643E-14,
+        "Yaw": 8.9851444E-13,
+        "Roll": 90.0
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterAroundInfoCollectorComponent",
+    "Name": "AroundInfoCollectorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+    "Outer": {
+      "ObjectName": "BP_RedFlowerBird_C'Default__BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.2"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_RedFlowerBird_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.3"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterCameraComponent",
+    "Name": "FollowCamera",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterCameraComponent'",
+    "Outer": {
+      "ObjectName": "BP_RedFlowerBird_C'Default__BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.2"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_RedFlowerBird_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.30"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterLiftupObjectComponent",
+    "Name": "Liftup",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+    "Outer": {
+      "ObjectName": "BP_RedFlowerBird_C'Default__BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.2"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+    }
+  },
+  {
+    "Type": "PalCharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_RedFlowerBird_C'Default__BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.2"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+    },
+    "Properties": {
+      "InWaterRate": 0.68,
+      "Buoyancy": 1.4
+    }
+  },
+  {
+    "Type": "PalCharacterParameterComponent",
+    "Name": "CharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_RedFlowerBird_C'Default__BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.2"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+    }
+  },
+  {
+    "Type": "PalDamageReactionComponent",
+    "Name": "DamageReactionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalDamageReactionComponent'",
+    "Outer": {
+      "ObjectName": "BP_RedFlowerBird_C'Default__BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.2"
+    },
+    "Template": {
+      "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
+    }
+  },
+  {
+    "Type": "PalFootIKComponent",
+    "Name": "FootIKComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalFootIKComponent'",
+    "Outer": {
+      "ObjectName": "BP_RedFlowerBird_C'Default__BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.2"
+    },
+    "Template": {
+      "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
+    }
+  },
+  {
+    "Type": "PalLookAtComponent",
+    "Name": "LookAtComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalLookAtComponent'",
+    "Outer": {
+      "ObjectName": "BP_RedFlowerBird_C'Default__BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.2"
+    },
+    "Template": {
+      "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
+    }
+  },
+  {
+    "Type": "PalPassiveSkillComponent",
+    "Name": "PassiveSkillComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalPassiveSkillComponent'",
+    "Outer": {
+      "ObjectName": "BP_RedFlowerBird_C'Default__BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.2"
+    },
+    "Template": {
+      "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
+    }
+  },
+  {
+    "Type": "PalShooterSpringArmComponent",
+    "Name": "CameraBoom",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalShooterSpringArmComponent'",
+    "Outer": {
+      "ObjectName": "BP_RedFlowerBird_C'Default__BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.2"
+    },
+    "Template": {
+      "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_RedFlowerBird_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.3"
+      }
+    }
+  },
+  {
+    "Type": "PalSkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_RedFlowerBird_C'Default__BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.2"
+    },
+    "Template": {
+      "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_RedFlowerBird_C'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/ABP_RedFlowerBird.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_RedFlowerBird'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/RedFlowerBird/SK_RedFlowerBird.0"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_RedFlowerBird'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/RedFlowerBird/SK_RedFlowerBird.0"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_RedFlowerBird_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -30.0
+      }
+    }
+  },
+  {
+    "Type": "PalStaticCharacterParameterComponent",
+    "Name": "StaticCharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_RedFlowerBird_C'Default__BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.2"
+    },
+    "Template": {
+      "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+    },
+    "Properties": {
+      "MeshCapsuleHalfHeight": 110.0,
+      "MeshCapsuleRadius": 45.0,
+      "MeshRelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -110.0
+      },
+      "RandomRestMontageInfos": [
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_RedFlowerBird_Rest01'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RedFlowerBird/AM_RedFlowerBird_Rest01.0"
+          },
+          "Weight": 0.5,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 5.0
+        },
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_RedFlowerBird_Rest02'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RedFlowerBird/AM_RedFlowerBird_Rest02.0"
+          },
+          "Weight": 0.1,
+          "LoopNum_Min": 6,
+          "LoopNum_Max": 12,
+          "AfterIdleTime": 5.0
+        }
+      ],
+      "GeneralAnimSequenceMap": [
+        {
+          "Key": "EPalGeneralAnimSequenceType::JumpLoop",
+          "Value": {
+            "ObjectName": "AnimSequence'AS_RedFlowerBird_JumpLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RedFlowerBird/AS_RedFlowerBird_JumpLoop.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralAnimSequenceType::JumpEnd",
+          "Value": {
+            "ObjectName": "AnimSequence'AS_RedFlowerBird_JumpEnd'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RedFlowerBird/AS_RedFlowerBird_JumpEnd.0"
+          }
+        }
+      ],
+      "GeneralMontageMap": [
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackReady_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_RedFlowerBird_FarSkill_Start'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RedFlowerBird/AM_RedFlowerBird_FarSkill_Start.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackReadyLoop_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_RedFlowerBird_FarSkill_StartLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RedFlowerBird/AM_RedFlowerBird_FarSkill_StartLoop.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackProcess_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_RedFlowerBird_FarSkill_Action'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RedFlowerBird/AM_RedFlowerBird_FarSkill_Action.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackProcessLoop_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_RedFlowerBird_FarSkill_ActionLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RedFlowerBird/AM_RedFlowerBird_FarSkill_ActionLoop.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackAfter_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_RedFlowerBird_FarSkill_End'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RedFlowerBird/AM_RedFlowerBird_FarSkill_End.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::SleepStart",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_RedFlowerBird_SleepStart'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RedFlowerBird/AM_RedFlowerBird_SleepStart.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::SleepLoop",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_RedFlowerBird_SleepLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RedFlowerBird/AM_RedFlowerBird_SleepLoop.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::SleepEnd",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_RedFlowerBird_SleepEnd'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RedFlowerBird/AM_RedFlowerBird_SleepEnd.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::DamageAdditive",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_RedFlowerBird_Hit'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RedFlowerBird/AM_RedFlowerBird_Hit.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::BeLiftupStart",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_RedFlowerBird_Carrying'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RedFlowerBird/AM_RedFlowerBird_Carrying.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::BeLiftupLoop",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_RedFlowerBird_Carrying'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RedFlowerBird/AM_RedFlowerBird_Carrying.0"
+          }
+        }
+      ],
+      "GeneralBlendSpaceMap": [
+        {
+          "Key": "EPalGeneralBlendSpaceType::GeneralMove",
+          "Value": {
+            "ObjectName": "BlendSpace1D'BS_Move_RedFlowerBird'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BS_Move_RedFlowerBird.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralBlendSpaceType::Swim",
+          "Value": {
+            "ObjectName": "BlendSpace1D'BS_Swim_RedFlowerBird'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BS_Swim_RedFlowerBird.0"
+          }
+        }
+      ],
+      "ActionMontageMap": [
+        {
+          "Key": "EPalActionType::Menace",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_RedFlowerBird_Encount'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RedFlowerBird/AM_RedFlowerBird_Encount.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::Eat",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_RedFlowerBird_Eat'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RedFlowerBird/AM_RedFlowerBird_Eat.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::KnockBack",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_RedFlowerBird_Damage'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RedFlowerBird/AM_RedFlowerBird_Damage.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::ForwardWalk",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_RedFlowerBird_Walk'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RedFlowerBird/AM_RedFlowerBird_Walk.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::GetupUtubuse_orRight",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_RedFlowerBird_GetUp_FrontDown'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RedFlowerBird/AM_RedFlowerBird_GetUp_FrontDown.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::PalPetting",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_RedFlowerBird_Petting'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RedFlowerBird/AM_RedFlowerBird_Petting.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::CommonWork",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_RedFlowerBird_Eat'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RedFlowerBird/AM_RedFlowerBird_Eat.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::ElectricShock",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_RedFlowerBird_ElectricShock'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RedFlowerBird/AM_RedFlowerBird_ElectricShock.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::Feeding",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_RedFlowerBird_Planting'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RedFlowerBird/AM_RedFlowerBird_Planting.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::IdleInSpa",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_RedFlowerBird_Spa'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RedFlowerBird/AM_RedFlowerBird_Spa.0"
+          }
+        }
+      ],
+      "SleepOnSideInfoMapForMapObject": [
+        {
+          "Key": {
+            "Key": "MedicalPalBed_02"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": 0.0,
+              "Y": 10.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 180.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_03"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": 0.0,
+              "Y": 10.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 180.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_04"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -10.0,
+              "Y": 60.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 160.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        }
+      ],
+      "SleepOnSideAnimMontage": {
+        "ObjectName": "AnimMontage'AM_RedFlowerBird_SleepLoopTogether'",
+        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/RedFlowerBird/AM_RedFlowerBird_SleepLoopTogether.0"
+      },
+      "WazaActionDeclarationMap": [
+        {
+          "Key": "EPalWazaID::Unique_RedFlowerBird_JumpKick",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/RedFlowerBird/BP_UniqueAction_RedFlowerBird_JumpKick.BP_UniqueAction_RedFlowerBird_JumpKick_C",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "HPGaugeUIOffset": {
+        "X": 40.0,
+        "Y": -50.0
+      },
+      "GetupMotion_UtubuseOrRight_0FramePelvisLocation": {
+        "X": 1.278604,
+        "Y": -13.722797,
+        "Z": 19.152086
+      },
+      "PettingSize": "EPalPettingSizeType::Medium",
+      "PettingDistance": 110.0,
+      "PettingEndLeaveDistance": 20.0,
+      "WaterEffectMap": [
+        {
+          "Key": "EPalWaterEffectType::SwimMove",
+          "Value": {
+            "Effect": {
+              "ObjectName": "NiagaraSystem'NS_DrownPal'",
+              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_DrownPal.41"
+            },
+            "Offset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": 1.5
+          }
+        },
+        {
+          "Key": "EPalWaterEffectType::SwimIdle",
+          "Value": {
+            "Effect": {
+              "ObjectName": "NiagaraSystem'NS_DrownPal'",
+              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_DrownPal.41"
+            },
+            "Offset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": 2.0
+          }
+        }
+      ],
+      "InWaterFacialEyeType": "EPalFacialEyeType::Trouble"
+    }
+  },
+  {
+    "Type": "PalStatusComponent",
+    "Name": "StatusComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStatusComponent'",
+    "Outer": {
+      "ObjectName": "BP_RedFlowerBird_C'Default__BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.2"
+    },
+    "Template": {
+      "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+    }
+  },
+  {
+    "Type": "PalVisualEffectComponent",
+    "Name": "VisualEffectComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalVisualEffectComponent'",
+    "Outer": {
+      "ObjectName": "BP_RedFlowerBird_C'Default__BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.2"
+    },
+    "Template": {
+      "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_RedFlowerBird_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_RedFlowerBird_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.35"
+      },
+      "VariableGuid": "BE63E717-4B496B24-4B917B9B-4BC03F3A",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_RedFlowerBird_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_RedFlowerBird_C:PalBodyPartsCapsule8_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.18"
+      },
+      "AttachToName": "foot_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "A9672159-463E6220-027659BE-7F5331ED",
+      "InternalVariableName": "PalBodyPartsCapsule8"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_RedFlowerBird_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_RedFlowerBird_C:PalBodyPartsCapsule9_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.19"
+      },
+      "AttachToName": "arm01_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "C23957B1-4400F600-6903D1AA-6FC9459D",
+      "InternalVariableName": "PalBodyPartsCapsule9"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_RedFlowerBird_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_RedFlowerBird_C:PalBodyPartsCapsule10_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.7"
+      },
+      "AttachToName": "arm01_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "F0858237-473B012E-00AA3594-42370A4D",
+      "InternalVariableName": "PalBodyPartsCapsule10"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_RedFlowerBird_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_RedFlowerBird_C:PalBodyPartsCapsule11_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.8"
+      },
+      "AttachToName": "arm04_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "473B2099-4B473F1D-74C576BF-33CD0D13",
+      "InternalVariableName": "PalBodyPartsCapsule11"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_RedFlowerBird_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_RedFlowerBird_C:PalBodyPartsCapsule12_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.9"
+      },
+      "AttachToName": "arm04_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "5D122519-4817EEBF-60A002AC-7BA6842E",
+      "InternalVariableName": "PalBodyPartsCapsule12"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_RedFlowerBird_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_RedFlowerBird_C:PalBodyPartsCapsule13_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.10"
+      },
+      "AttachToName": "tail_05",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "EB382EC5-4EC2C405-2BF7E485-35148F73",
+      "InternalVariableName": "PalBodyPartsCapsule13"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_RedFlowerBird_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_RedFlowerBird_C:PalBodyPartsCapsule_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.20"
+      },
+      "AttachToName": "head",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8194B1FF-45BD7647-866C8599-35004A80",
+      "InternalVariableName": "PalBodyPartsCapsule"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_RedFlowerBird_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_RedFlowerBird_C:PalBodyPartsCapsule1_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.11"
+      },
+      "AttachToName": "pelvis",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "50C67837-49C70152-4D2518A9-B745EAA5",
+      "InternalVariableName": "PalBodyPartsCapsule1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_RedFlowerBird_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_RedFlowerBird_C:PalBodyPartsCapsule2_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.12"
+      },
+      "AttachToName": "neck_01",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "5410D286-47FF2992-FC6BCBB7-0335D0C1",
+      "InternalVariableName": "PalBodyPartsCapsule2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_RedFlowerBird_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_RedFlowerBird_C:PalBodyPartsCapsule3_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.13"
+      },
+      "AttachToName": "thigh_01_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "C9793DC5-4BE655D7-B02466A8-8696A6C7",
+      "InternalVariableName": "PalBodyPartsCapsule3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_RedFlowerBird_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_RedFlowerBird_C:PalBodyPartsCapsule4_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.14"
+      },
+      "AttachToName": "thigh_01_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "5BF4AD26-419C1596-193A11AE-DF2E1A71",
+      "InternalVariableName": "PalBodyPartsCapsule4"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_RedFlowerBird_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_RedFlowerBird_C:PalBodyPartsCapsule5_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.15"
+      },
+      "AttachToName": "calf_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "5D88DAF8-4C961FD8-A8FDC498-4D14558B",
+      "InternalVariableName": "PalBodyPartsCapsule5"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_RedFlowerBird_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_RedFlowerBird_C:PalBodyPartsCapsule6_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.16"
+      },
+      "AttachToName": "calf_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "72359568-4C864FA9-CF0880B6-B0A1B0B1",
+      "InternalVariableName": "PalBodyPartsCapsule6"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_RedFlowerBird_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_RedFlowerBird_C:PalBodyPartsCapsule7_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.17"
+      },
+      "AttachToName": "foot_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "5E43396A-48A0AAF2-D6371E83-E94C64DA",
+      "InternalVariableName": "PalBodyPartsCapsule7"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_RedFlowerBird_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RedFlowerBird_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RedFlowerBird_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.45"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RedFlowerBird_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RedFlowerBird_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RedFlowerBird_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.48"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RedFlowerBird_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.49"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RedFlowerBird_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.50"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RedFlowerBird_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RedFlowerBird_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RedFlowerBird_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RedFlowerBird_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RedFlowerBird_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RedFlowerBird_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.42"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_RedFlowerBird_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RedFlowerBird_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RedFlowerBird_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.45"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RedFlowerBird_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RedFlowerBird_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.47"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RedFlowerBird_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.48"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RedFlowerBird_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.49"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RedFlowerBird_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.50"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RedFlowerBird_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RedFlowerBird_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RedFlowerBird_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RedFlowerBird_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RedFlowerBird_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_RedFlowerBird_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.42"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_RedFlowerBird_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.36"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "RagdollInteractiveSphere",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BP_RedFlowerBird_C'Default__BP_RedFlowerBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.2"
+    },
+    "Template": {
+      "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_RedFlowerBird_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/RedFlowerBird/BP_RedFlowerBird.3"
+      }
+    }
+  }
+]

@@ -12,11 +12,11 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_ThunderFluffyBird_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.29"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_ThunderFluffyBird_C:InheritableComponentHandler'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.4"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.5"
       }
     },
     "SuperStruct": {
@@ -24,6 +24,17 @@
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
     },
     "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
       {
         "Type": "ObjectProperty",
         "Name": "PalBodyPartsSphere",
@@ -56,10 +67,27 @@
     "bCooked": true,
     "ClassDefaultObject": {
       "ObjectName": "BP_ThunderFluffyBird_C'Default__BP_ThunderFluffyBird_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.3"
     },
     "EditorTags": {
       "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_PalCryComponent_C",
+    "Name": "BP_PalCryComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.BP_PalCryComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ThunderFluffyBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalCryComponent_C'BP_MonsterBase_C:BP_PalCryComponent_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.2"
+    },
+    "Properties": {
+      "CryPalID": "EPalTribeID::ThunderFluffyBird"
     }
   },
   {
@@ -101,79 +129,79 @@
     "Properties": {
       "LiftupObjectComponent": {
         "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_ThunderFluffyBird_C:Liftup'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.10"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.12"
       },
       "ActionComponent": {
         "ObjectName": "PalActionComponent'Default__BP_ThunderFluffyBird_C:ActionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.5"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.6"
       },
       "CharacterParameterComponent": {
         "ObjectName": "PalCharacterParameterComponent'Default__BP_ThunderFluffyBird_C:CharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.12"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.14"
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_ThunderFluffyBird_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.19"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.21"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_ThunderFluffyBird_C:DamageReactionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.13"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.15"
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_ThunderFluffyBird_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.20"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.22"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_ThunderFluffyBird_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.17"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.19"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_ThunderFluffyBird_C:FollowCamera'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.9"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.11"
       },
       "LookAtComponent": {
         "ObjectName": "PalLookAtComponent'Default__BP_ThunderFluffyBird_C:LookAtComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.15"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.17"
       },
       "FootIKComponent": {
         "ObjectName": "PalFootIKComponent'Default__BP_ThunderFluffyBird_C:FootIKComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.14"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.16"
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_ThunderFluffyBird_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.21"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.23"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_ThunderFluffyBird_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.16"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.18"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_ThunderFluffyBird_C:AnimNotifyComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.6"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.7"
       },
       "AroundInfoCollectorComponent": {
         "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_ThunderFluffyBird_C:AroundInfoCollectorComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.8"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.10"
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_ThunderFluffyBird_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.27"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.30"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_ThunderFluffyBird_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.18"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.20"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_ThunderFluffyBird_C:CharMoveComp'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.11"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.13"
       },
       "CapsuleComponent": {
         "ObjectName": "CapsuleComponent'Default__BP_ThunderFluffyBird_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.3"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.4"
       },
       "RootComponent": {
         "ObjectName": "CapsuleComponent'Default__BP_ThunderFluffyBird_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.3"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.4"
       }
     }
   },
@@ -184,15 +212,15 @@
     "Class": "UScriptClass'CapsuleComponent'",
     "Outer": {
       "ObjectName": "BP_ThunderFluffyBird_C'Default__BP_ThunderFluffyBird_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.3"
     },
     "Template": {
       "ObjectName": "CapsuleComponent'Default__BP_MonsterBase_C:CollisionCylinder'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.3"
     },
     "Properties": {
-      "CapsuleHalfHeight": 70.0,
-      "CapsuleRadius": 40.0
+      "CapsuleHalfHeight": 30.0,
+      "CapsuleRadius": 30.0
     }
   },
   {
@@ -203,6 +231,32 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'BP_ThunderFluffyBird_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
+            "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BP_PalCryComponent_C'BP_ThunderFluffyBird_C:BP_PalCryComponent_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.1"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+            },
+            "SCSVariableName": "BP_PalCryComponent",
+            "AssociatedGuid": "A971BE27-4B3C10FC-863FA284-ECDC3286"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
     }
   },
   {
@@ -212,11 +266,11 @@
     "Class": "UScriptClass'PalActionComponent'",
     "Outer": {
       "ObjectName": "BP_ThunderFluffyBird_C'Default__BP_ThunderFluffyBird_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.3"
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
     }
   },
   {
@@ -226,11 +280,35 @@
     "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
     "Outer": {
       "ObjectName": "BP_ThunderFluffyBird_C'Default__BP_ThunderFluffyBird_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.3"
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ThunderFluffyBird_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 71.37081,
+      "CapsuleRadius": 60.501278,
+      "RelativeLocation": {
+        "X": -3.5527137E-15,
+        "Y": -10.0,
+        "Z": -6.083999E-08
+      },
+      "RelativeRotation": {
+        "Pitch": 6.187624E-14,
+        "Yaw": 1.4894397E-14,
+        "Roll": -90.0
+      }
     }
   },
   {
@@ -241,6 +319,9 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'BP_ThunderFluffyBird_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.0"
+    },
+    "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Weak"
     }
   },
   {
@@ -250,16 +331,16 @@
     "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
     "Outer": {
       "ObjectName": "BP_ThunderFluffyBird_C'Default__BP_ThunderFluffyBird_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.3"
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_ThunderFluffyBird_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.3"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.4"
       }
     }
   },
@@ -270,16 +351,16 @@
     "Class": "UScriptClass'PalCharacterCameraComponent'",
     "Outer": {
       "ObjectName": "BP_ThunderFluffyBird_C'Default__BP_ThunderFluffyBird_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.3"
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_ThunderFluffyBird_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.17"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.19"
       }
     }
   },
@@ -290,11 +371,11 @@
     "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
     "Outer": {
       "ObjectName": "BP_ThunderFluffyBird_C'Default__BP_ThunderFluffyBird_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.3"
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -304,11 +385,11 @@
     "Class": "UScriptClass'PalCharacterMovementComponent'",
     "Outer": {
       "ObjectName": "BP_ThunderFluffyBird_C'Default__BP_ThunderFluffyBird_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.3"
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
     }
   },
   {
@@ -318,11 +399,11 @@
     "Class": "UScriptClass'PalCharacterParameterComponent'",
     "Outer": {
       "ObjectName": "BP_ThunderFluffyBird_C'Default__BP_ThunderFluffyBird_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.3"
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -332,11 +413,11 @@
     "Class": "UScriptClass'PalDamageReactionComponent'",
     "Outer": {
       "ObjectName": "BP_ThunderFluffyBird_C'Default__BP_ThunderFluffyBird_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.3"
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
     }
   },
   {
@@ -346,11 +427,11 @@
     "Class": "UScriptClass'PalFootIKComponent'",
     "Outer": {
       "ObjectName": "BP_ThunderFluffyBird_C'Default__BP_ThunderFluffyBird_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.3"
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     }
   },
   {
@@ -360,11 +441,11 @@
     "Class": "UScriptClass'PalLookAtComponent'",
     "Outer": {
       "ObjectName": "BP_ThunderFluffyBird_C'Default__BP_ThunderFluffyBird_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.3"
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
     }
   },
   {
@@ -374,11 +455,11 @@
     "Class": "UScriptClass'PalPassiveSkillComponent'",
     "Outer": {
       "ObjectName": "BP_ThunderFluffyBird_C'Default__BP_ThunderFluffyBird_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.3"
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -388,16 +469,74 @@
     "Class": "UScriptClass'PalShooterSpringArmComponent'",
     "Outer": {
       "ObjectName": "BP_ThunderFluffyBird_C'Default__BP_ThunderFluffyBird_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.3"
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
+      "WalkCameraArmLength": 350.0,
+      "WalkCameraOffset": {
+        "X": 0.0,
+        "Y": 150.0,
+        "Z": 80.0
+      },
+      "HipShootCameraArmLength": 350.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 150.0,
+        "Z": 80.0
+      },
+      "AimCameraArmLength": 300.0,
+      "AimCameraOffset": {
+        "X": 0.0,
+        "Y": 140.0,
+        "Z": 140.0
+      },
+      "AirCameraArmLength": 350.0,
+      "AirCameraOffset": {
+        "X": 0.0,
+        "Y": 150.0,
+        "Z": 80.0
+      },
+      "AirHipShootCameraArmLength": 350.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 150.0,
+        "Z": 80.0
+      },
+      "AirAimCameraArmLength": 300.0,
+      "AirAimCameraOffset": {
+        "X": 0.0,
+        "Y": 140.0,
+        "Z": 140.0
+      },
+      "FlyCameraOffset": {
+        "X": 0.0,
+        "Y": 150.0,
+        "Z": 80.0
+      },
+      "FlyHipShootCameraArmLength": 400.0,
+      "FlyHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 150.0,
+        "Z": 80.0
+      },
+      "FlyAimCameraArmLength": 350.0,
+      "FlyAimCameraOffset": {
+        "X": 0.0,
+        "Y": 140.0,
+        "Z": 120.0
+      },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_ThunderFluffyBird_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.3"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.4"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 100.0
       }
     }
   },
@@ -408,11 +547,11 @@
     "Class": "UScriptClass'PalSkeletalMeshComponent'",
     "Outer": {
       "ObjectName": "BP_ThunderFluffyBird_C'Default__BP_ThunderFluffyBird_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.3"
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
       "AnimClass": {
@@ -421,20 +560,25 @@
       },
       "SkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_ThunderFluffyBird'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/ThunderFluffyBird/SK_ThunderFluffyBird"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/ThunderFluffyBird/SK_ThunderFluffyBird.0"
       },
       "SkinnedAsset": {
         "ObjectName": "SkeletalMesh'SK_ThunderFluffyBird'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/ThunderFluffyBird/SK_ThunderFluffyBird"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/ThunderFluffyBird/SK_ThunderFluffyBird.0"
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_ThunderFluffyBird_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.3"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.4"
       },
       "RelativeLocation": {
         "X": 0.0,
         "Y": 0.0,
-        "Z": -70.0
+        "Z": -30.0
+      },
+      "RelativeScale3D": {
+        "X": 1.2,
+        "Y": 1.2,
+        "Z": 1.2
       }
     }
   },
@@ -445,15 +589,15 @@
     "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
     "Outer": {
       "ObjectName": "BP_ThunderFluffyBird_C'Default__BP_ThunderFluffyBird_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.3"
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 70.0,
-      "MeshCapsuleRadius": -40.0,
+      "MeshCapsuleRadius": 40.0,
       "MeshRelativeLocation": {
         "X": 0.0,
         "Y": 0.0,
@@ -468,19 +612,51 @@
           }
         }
       ],
+      "RandomRestMontageInfos": [
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_ThunderFluffyBird_Rest01'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_Rest01.0"
+          },
+          "Weight": 1.0,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 2,
+          "AfterIdleTime": 2.0
+        },
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_ThunderFluffyBird_Rest02'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_Rest02.0"
+          },
+          "Weight": 1.0,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 2,
+          "AfterIdleTime": 2.0
+        },
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_ThunderFluffyBird_Rest03'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_Rest03.0"
+          },
+          "Weight": 1.0,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 2,
+          "AfterIdleTime": 2.0
+        }
+      ],
       "GeneralAnimSequenceMap": [
         {
           "Key": "EPalGeneralAnimSequenceType::JumpLoop",
           "Value": {
             "ObjectName": "AnimSequence'AS_ThunderFluffyBird_JumpLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ThunderFluffyBird/AS_ThunderFluffyBird_JumpLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderFluffyBird/AS_ThunderFluffyBird_JumpLoop.0"
           }
         },
         {
           "Key": "EPalGeneralAnimSequenceType::JumpEnd",
           "Value": {
             "ObjectName": "AnimSequence'AS_ThunderFluffyBird_JumpEnd'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ThunderFluffyBird/AS_ThunderFluffyBird_JumpEnd"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderFluffyBird/AS_ThunderFluffyBird_JumpEnd.0"
           }
         }
       ],
@@ -489,63 +665,77 @@
           "Key": "EPalGeneralMontageType::GeneralAttackReady_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_ThunderFluffyBird_FarSkill_Start'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_FarSkill_Start"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_FarSkill_Start.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackReadyLoop_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_ThunderFluffyBird_FarSkill_StartLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_FarSkill_StartLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_FarSkill_StartLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackProcess_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_ThunderFluffyBird_FarSkill_Action'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_FarSkill_Action"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_FarSkill_Action.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackProcessLoop_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_ThunderFluffyBird_FarSkill_ActionLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_FarSkill_ActionLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_FarSkill_ActionLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackAfter_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_ThunderFluffyBird_FarSkill_End'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_FarSkill_End"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_FarSkill_End.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepStart",
           "Value": {
             "ObjectName": "AnimMontage'AM_ThunderFluffyBird_SleepStart'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_SleepStart"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_SleepStart.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepLoop",
           "Value": {
             "ObjectName": "AnimMontage'AM_ThunderFluffyBird_SleepLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_SleepLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_SleepLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepEnd",
           "Value": {
             "ObjectName": "AnimMontage'AM_ThunderFluffyBird_SleepEnd'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_SleepEnd"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_SleepEnd.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::DamageAdditive",
           "Value": {
             "ObjectName": "AnimMontage'AM_ThunderFluffyBird_Hit'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_Hit"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_Hit.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::BeLiftupStart",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_ThunderFluffyBird_SleepLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_SleepLoop.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::BeLiftupLoop",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_ThunderFluffyBird_SleepLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_SleepLoop.0"
           }
         }
       ],
@@ -570,6 +760,22 @@
             "ObjectName": "BlendSpace1D'BS_Transport_ThunderFluffyBird'",
             "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BS_Transport_ThunderFluffyBird.0"
           }
+        },
+        {
+          "Key": "EPalGeneralBlendSpaceType::Swim",
+          "Value": {
+            "ObjectName": "BlendSpace1D'BS_Swim_ThunderFluffyBird'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BS_Swim_ThunderFluffyBird.0"
+          }
+        }
+      ],
+      "RagdollPresetMap": [
+        {
+          "Key": "EPalRagdollPresetType::BeLiftup",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_RagdollPreset_Liftup_ThunderFluffyBird_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Ragdoll/BP_RagdollPreset_Liftup_ThunderFluffyBird.0"
+          }
         }
       ],
       "ActionMontageMap": [
@@ -577,69 +783,142 @@
           "Key": "EPalActionType::Menace",
           "Value": {
             "ObjectName": "AnimMontage'AM_ThunderFluffyBird_Encount'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_Encount"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_Encount.0"
           }
         },
         {
           "Key": "EPalActionType::Eat",
           "Value": {
             "ObjectName": "AnimMontage'AM_ThunderFluffyBird_Eat'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_Eat"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_Eat.0"
           }
         },
         {
           "Key": "EPalActionType::KnockBack",
           "Value": {
             "ObjectName": "AnimMontage'AM_ThunderFluffyBird_Damage'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_Damage"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_Damage.0"
           }
         },
         {
           "Key": "EPalActionType::ForwardWalk",
           "Value": {
             "ObjectName": "AnimMontage'AM_ThunderFluffyBird_Walk'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_Walk"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_Walk.0"
           }
         },
         {
           "Key": "EPalActionType::GetupUtubuse_orRight",
           "Value": {
             "ObjectName": "AnimMontage'AM_ThunderFluffyBird_GetUp_FrontDown'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_GetUp_FrontDown"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_GetUp_FrontDown.0"
           }
         },
         {
           "Key": "EPalActionType::PalPetting",
           "Value": {
             "ObjectName": "AnimMontage'AM_ThunderFluffyBird_Petting'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_Petting"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_Petting.0"
           }
         },
         {
           "Key": "EPalActionType::CommonWork",
           "Value": {
-            "ObjectName": "AnimMontage'AM_ThunderFluffyBird_Eat'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_Eat"
+            "ObjectName": "AnimMontage'AM_ThunderFluffyBird_Commonwork'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_Commonwork.0"
           }
         },
         {
           "Key": "EPalActionType::ElectricShock",
           "Value": {
             "ObjectName": "AnimMontage'AM_ThunderFluffyBird_ElectricShock'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_ElectricShock"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_ElectricShock.0"
           }
         },
         {
           "Key": "EPalActionType::IdleInSpa",
           "Value": {
             "ObjectName": "AnimMontage'AM_ThunderFluffyBird_Spa'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_Spa"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_Spa.0"
           }
         }
       ],
+      "ElectricActionInfo": {
+        "StartLoopOverwrite": {
+          "ObjectName": "AnimMontage'AM_ThunderFluffyBird_FarSkill_StartLoop'",
+          "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderFluffyBird/AM_ThunderFluffyBird_FarSkill_StartLoop.0"
+        },
+        "LoopContinueSeconds": 14.0
+      },
+      "SleepOnSideInfoMapForMapObject": [
+        {
+          "Key": {
+            "Key": "MedicalPalBed_02"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -50.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 130.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_03"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -50.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 130.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_04"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -50.0,
+              "Y": 50.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 130.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        }
+      ],
+      "HPGaugeUIOffset": {
+        "X": 50.0,
+        "Y": -100.0
+      },
       "MovementType": "EPalMonsterMovementType::Fly",
+      "IsBackWalkForwardAnime": true,
+      "GetupMotion_UtubuseOrRight_0FramePelvisLocation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 38.429943
+      },
       "PettingSize": "EPalPettingSizeType::Medium",
-      "PettingDistance": 80.0
+      "PettingDistance": 150.0
     }
   },
   {
@@ -649,11 +928,11 @@
     "Class": "UScriptClass'PalStatusComponent'",
     "Outer": {
       "ObjectName": "BP_ThunderFluffyBird_C'Default__BP_ThunderFluffyBird_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.3"
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     }
   },
   {
@@ -663,11 +942,11 @@
     "Class": "UScriptClass'PalVisualEffectComponent'",
     "Outer": {
       "ObjectName": "BP_ThunderFluffyBird_C'Default__BP_ThunderFluffyBird_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.3"
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -687,7 +966,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_ThunderFluffyBird_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.29"
     },
     "Properties": {
       "ComponentClass": {
@@ -696,7 +975,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_ThunderFluffyBird_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.24"
       },
       "VariableGuid": "7941466B-411C2B59-EF1E8299-CC9C75B5",
       "InternalVariableName": "DefaultSceneRoot"
@@ -709,7 +988,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_ThunderFluffyBird_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.29"
     },
     "Properties": {
       "ComponentClass": {
@@ -718,7 +997,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsSphereComponent'BP_ThunderFluffyBird_C:PalBodyPartsSphere_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.7"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.9"
       },
       "AttachToName": "head",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -729,12 +1008,37 @@
   },
   {
     "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ThunderFluffyBird_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_ThunderFluffyBird_C:PalBodyPartsCapsule_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.8"
+      },
+      "AttachToName": "pelvis",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "EB7CAE0B-4C4CF954-A6E2B198-F1DE4B69",
+      "InternalVariableName": "PalBodyPartsCapsule"
+    }
+  },
+  {
+    "Type": "SCS_Node",
     "Name": "SCS_Node_3",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_ThunderFluffyBird_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.29"
     },
     "Properties": {
       "ComponentClass": {
@@ -743,7 +1047,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "BP_PalRideMarkerBiggerHorse_C'BP_ThunderFluffyBird_C:BP_PalRideMarkerBiggerHorse_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.1"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.2"
       },
       "AttachToName": "spine_03",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -765,26 +1069,34 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'BP_ThunderFluffyBird_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.25"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.28"
         },
         {
           "ObjectName": "SCS_Node'BP_ThunderFluffyBird_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.24"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ThunderFluffyBird_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.27"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'BP_ThunderFluffyBird_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.25"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.28"
         },
         {
           "ObjectName": "SCS_Node'BP_ThunderFluffyBird_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.24"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ThunderFluffyBird_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.27"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_ThunderFluffyBird_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.25"
       }
     }
   },
@@ -795,16 +1107,16 @@
     "Class": "UScriptClass'SphereComponent'",
     "Outer": {
       "ObjectName": "BP_ThunderFluffyBird_C'Default__BP_ThunderFluffyBird_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.3"
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_ThunderFluffyBird_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.3"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderFluffyBird/BP_ThunderFluffyBird.4"
       }
     }
   }

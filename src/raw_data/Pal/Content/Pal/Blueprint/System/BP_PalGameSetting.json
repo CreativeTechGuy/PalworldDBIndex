@@ -11,8 +11,12 @@
     },
     "Children": [
       {
+        "ObjectName": "Function'BP_PalGameSetting_C:CalcExpeditionBonusExp'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/System/BP_PalGameSetting.3"
+      },
+      {
         "ObjectName": "Function'BP_PalGameSetting_C:GetWeakScale'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/System/BP_PalGameSetting.4"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/System/BP_PalGameSetting.5"
       },
       {
         "ObjectName": "Function'BP_PalGameSetting_C:CalcCaptureRate'",
@@ -20,13 +24,13 @@
       },
       {
         "ObjectName": "Function'BP_PalGameSetting_C:GetEnemyMarkScale'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/System/BP_PalGameSetting.3"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/System/BP_PalGameSetting.4"
       }
     ],
     "FuncMap": {
       "GetEnemyMarkScale": {
         "ObjectName": "Function'BP_PalGameSetting_C:GetEnemyMarkScale'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/System/BP_PalGameSetting.3"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/System/BP_PalGameSetting.4"
       },
       "CalcCaptureRate": {
         "ObjectName": "Function'BP_PalGameSetting_C:CalcCaptureRate'",
@@ -34,7 +38,11 @@
       },
       "GetWeakScale": {
         "ObjectName": "Function'BP_PalGameSetting_C:GetWeakScale'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/System/BP_PalGameSetting.4"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/System/BP_PalGameSetting.5"
+      },
+      "CalcExpeditionBonusExp": {
+        "ObjectName": "Function'BP_PalGameSetting_C:CalcExpeditionBonusExp'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/System/BP_PalGameSetting.3"
       }
     },
     "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
@@ -59,19 +67,107 @@
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/System/BP_PalGameSetting.BP_PalGameSetting_C'",
     "Package": "Pal/Content/Pal/Blueprint/System/BP_PalGameSetting",
     "Properties": {
-      "CharacterMaxLevel": 65,
-      "GuildCharacterMaxLevel": 65,
+      "CharacterMaxLevel": 80,
+      "GuildCharacterMaxLevel": 80,
       "OtomoLevelSyncAddMaxLevel": 0,
       "PlayerSprintStaminaType": "EPalPlayerSprintStaminaDecreaseType::Always",
       "CharacterMaxRank": 5,
       "ConsumStamina_PalThrow": 0,
       "ReturnOtomoPalCoolTime": 1.5,
+      "OtomoWazaCoolDownSpeedRate": 1.0,
+      "OtomoBattleMoveSpeedRate": 3.0,
+      "OtomoBattleMoveSpeedMax": 4000.0,
       "BerserkerOtomoSerchRadius_FromPlayer": 2000.0,
       "OtomoWarpFarDistance": 6500.0,
       "OtomoReturnFarDistance": 6500.0,
       "PlayerHPRateFromRespawn": 0.5,
       "PlayerStomachRateFromRespawn": 0.8,
       "RarePal_AppearanceProbability": 0.1,
+      "PredatorPal_AppearanceProbability": 4.0,
+      "RarePalCaptureBonusExpRate": 20.0,
+      "RarePalDefeatBonusExpRate": 20.0,
+      "RarePalBonusDropItems": [
+        {
+          "Key": "WorkSuitability_AddTicket_EmitFlame"
+        },
+        {
+          "Key": "WorkSuitability_AddTicket_Watering"
+        },
+        {
+          "Key": "WorkSuitability_AddTicket_Seeding"
+        },
+        {
+          "Key": "WorkSuitability_AddTicket_GenerateElectricity"
+        },
+        {
+          "Key": "WorkSuitability_AddTicket_Handcraft"
+        },
+        {
+          "Key": "WorkSuitability_AddTicket_Collection"
+        },
+        {
+          "Key": "WorkSuitability_AddTicket_Deforest"
+        },
+        {
+          "Key": "WorkSuitability_AddTicket_Mining"
+        },
+        {
+          "Key": "WorkSuitability_AddTicket_ProductMedicine"
+        },
+        {
+          "Key": "WorkSuitability_AddTicket_Cool"
+        },
+        {
+          "Key": "WorkSuitability_AddTicket_Transport"
+        },
+        {
+          "Key": "WorkSuitability_AddTicket_MonsterFarm"
+        }
+      ],
+      "RarePalSettings": [
+        {
+          "LevelRange": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 1
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 25
+            }
+          },
+          "Rank": 2,
+          "AwakeningProbability": 0.0
+        },
+        {
+          "LevelRange": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 26
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 50
+            }
+          },
+          "Rank": 2,
+          "AwakeningProbability": 5.0
+        },
+        {
+          "LevelRange": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 51
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0
+            }
+          },
+          "Rank": 4,
+          "AwakeningProbability": 10.0
+        }
+      ],
       "CharacterRankUpRequiredNumDefault": 8,
       "CharacterRankUpRequiredNumMap": [
         {
@@ -80,15 +176,15 @@
         },
         {
           "Key": "2",
-          "Value": 16
+          "Value": 8
         },
         {
           "Key": "3",
-          "Value": 32
+          "Value": 12
         },
         {
           "Key": "4",
-          "Value": 64
+          "Value": 24
         }
       ],
       "CharacterStayingSecondsInSpa": 15.0,
@@ -96,29 +192,29 @@
       "BodyTemperature_SlipDamage_Percent": [
         {
           "Key": "2",
-          "Value": 0.33
+          "Value": 0.2
         },
         {
           "Key": "3",
-          "Value": 1.0
+          "Value": 0.3
         },
         {
           "Key": "4",
-          "Value": 5.0
+          "Value": 0.5
         }
       ],
       "BodyTemperature_StomachDecreaceRate": [
         {
           "Key": "2",
-          "Value": 1.5
+          "Value": 0.2
         },
         {
           "Key": "3",
-          "Value": 2.0
+          "Value": 0.3
         },
         {
           "Key": "4",
-          "Value": 2.5
+          "Value": 0.5
         }
       ],
       "SleepFXDefault": {
@@ -144,8 +240,10 @@
         }
       ],
       "LiftupCharacterThrownVelocityScalar": 700.0,
+      "RollingBurnDurationRate": 0.4,
+      "RollingMuddyDurationRate": 0.4,
       "KnockBack_MaxHpPercent": 33,
-      "StepCooldownTime": 0.25,
+      "StepCooldownTime": 0.7,
       "OtomoDamageRate_Defense": 0.75,
       "DamageValueMin_MapObject": 1,
       "DamageRate_WealPoint": 1.5,
@@ -165,6 +263,7 @@
       "PlayerVsPlayer_NoWeapon_PlayerToGuildPalDamageRate": 0.0,
       "CoolTimeIgnoreLeanBackWildBoss_ByStunAndBlow": 25.0,
       "VsFlyingDamageRateForPvP": 5.0,
+      "PalToPlayerDamageRate": 0.5,
       "StatusCalculate_LevelMultiply_HP": 0.5,
       "StatusCalculate_ConstPlus_HP": 500,
       "StatusCalculate_LevelMultiply_Attack": 0.075,
@@ -172,14 +271,22 @@
       "StatusCalculate_LevelMultiply_Defense": 0.075,
       "StatusCalculate_TribeMultiply_CraftSpeed": 0.7,
       "StatusCalculate_GenkaiToppa_PerAdd": 0.05,
-      "ArmorDurabilityDamageDivide": 12.0,
       "PalEnhancement_AttackRate": 1.05,
       "PalEnhancement_AttackRate2": 1.1,
       "PalEnhancement_AttackRate3": 1.2,
       "PalEnhancement_DefenseRate": 1.05,
       "PalEnhancement_DefenseRate2": 1.1,
       "PalEnhancement_DefenseRate3": 1.2,
-      "RideWazaStaminaRate": 0.3,
+      "AwakeningStatusMultiply": 1.1,
+      "RideWazaStaminaRate": 0.05,
+      "RideStartAkEvent": {
+        "ObjectName": "AkAudioEvent'AKE_Ride_Pal'",
+        "ObjectPath": "Pal/Content/Pal/Sound/Events/SE/UI/Ride/AKE_Ride_Pal.0"
+      },
+      "RideEndAkEvent": {
+        "ObjectName": "AkAudioEvent'AKE_Ride_Pal_Stop'",
+        "ObjectPath": "Pal/Content/Pal/Sound/Events/SE/UI/Ride/AKE_Ride_Pal_Stop.0"
+      },
       "FlyMaxHeight": 100000.0,
       "FlyHorizon_SP": 2.5,
       "AimingSpeedRateInRide": 0.3,
@@ -227,65 +334,72 @@
       "ResuscitationTime": 7.5,
       "PlayerDyingDamagePerTime": 100.0,
       "CraftEXP": 2,
+      "PickupItemOnLevelExp": 2,
       "OtomoExp_LevelDifferenceMap": [
         {
           "Key": "1",
-          "Value": 130
+          "Value": 150
         },
         {
           "Key": "3",
-          "Value": 170
+          "Value": 250
         },
         {
           "Key": "6",
-          "Value": 210
+          "Value": 300
         },
         {
           "Key": "11",
-          "Value": 260
+          "Value": 400
         },
         {
           "Key": "16",
-          "Value": 310
+          "Value": 500
         },
         {
           "Key": "21",
-          "Value": 360
+          "Value": 600
         }
       ],
-      "CaptureExpBonusMaxCount": 12,
+      "CaptureExpBonusMaxCount": 5,
       "CaptureExpBonusTableSettingMap": [
         {
           "Key": "5",
           "Value": {
             "TableReferenceNum": 1,
-            "TableIndexCount": 2
+            "TableIndexCount": 0
           }
         },
         {
           "Key": "10",
           "Value": {
             "TableReferenceNum": 1,
-            "TableIndexCount": 3
+            "TableIndexCount": 0
           }
         }
       ],
+      "CaptureBonusExpTableAdvanceCountPerTowerBossFirstDefeat": 5,
+      "CaptureBonusExpTableAdvanceCountPerNormalBossFirstDefeat": 3,
       "FarmCropWaterItemIds": [
         {
           "Key": "WaterBucket"
+        }
+      ],
+      "FarmSkillFruitsLotteryExcludeItemIds": [
+        {
+          "Key": "SkillCard_Psychokinesis"
         }
       ],
       "MaxMoney": "999999999999",
       "AutoAimCameraMoveRate": 0.4,
       "AutoAimLockOnScreenSpaceRate": 0.2,
       "SellItemRate": 0.1,
-      "PalPriceConstantValueA": 1.5,
-      "PalPriceConstantValueB": 0.1,
-      "SellPalRate": 0.05,
+      "PalPriceConstantValueA": 0.038,
+      "PalPriceConstantValueB": 5.0,
       "ImportedPalSellPrice": 10,
       "WorkCompleteReactionRangeFromPlayer": 5000.0,
       "FacialTypeHardWork": "EPalFacialEyeType::Default",
-      "Timeout_WorkerApproachToTarget": 1.0,
+      "Timeout_WorkerApproachToTarget": 5.0,
       "WorkerWaitingNotifyInterval": 1.0,
       "AutoDecreaseHateValue_PercentMaxHP_PerSecond": 0.1,
       "HateDecreaseDamageRate": 5.0,
@@ -350,7 +464,7 @@
           "Value": 10
         }
       ],
-      "PalWorldTime_GameStartHour": 4,
+      "PalWorldTime_GameStartHour": 5,
       "PalWorldMinutes_RealOneMinute": 45,
       "NightStartHour": 23,
       "NightEndHour": 3,
@@ -358,6 +472,9 @@
         "X": 400.0,
         "Y": 400.0,
         "Z": 325.0
+      },
+      "WaterBuildingAllowItemId": {
+        "Key": "WaterBuildKit"
       },
       "BuildSimulationFoundationCheckCollisionScale": [
         {
@@ -446,6 +563,157 @@
             "AffectSanityRate": 0.08,
             "DecreaseFullStomachRate": 0.8
           }
+        }
+      ],
+      "ClinicHygieneStarLevelRanges": [
+        {
+          "Key": "1",
+          "Value": {
+            "LowerBoundPercent": 1,
+            "UpperBoundPercent": 19
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "LowerBoundPercent": 20,
+            "UpperBoundPercent": 38
+          }
+        },
+        {
+          "Key": "3",
+          "Value": {
+            "LowerBoundPercent": 39,
+            "UpperBoundPercent": 70
+          }
+        },
+        {
+          "Key": "4",
+          "Value": {
+            "LowerBoundPercent": 71,
+            "UpperBoundPercent": 89
+          }
+        },
+        {
+          "Key": "5",
+          "Value": {
+            "LowerBoundPercent": 90,
+            "UpperBoundPercent": 100
+          }
+        }
+      ],
+      "ClinicAdditionalSuppressRateByMedicineLv": [
+        {
+          "Key": "1",
+          "Value": 5.0
+        },
+        {
+          "Key": "2",
+          "Value": 10.0
+        },
+        {
+          "Key": "3",
+          "Value": 15.0
+        },
+        {
+          "Key": "4",
+          "Value": 20.0
+        },
+        {
+          "Key": "5",
+          "Value": 30.0
+        },
+        {
+          "Key": "6",
+          "Value": 33.0
+        },
+        {
+          "Key": "7",
+          "Value": 35.0
+        },
+        {
+          "Key": "8",
+          "Value": 38.0
+        },
+        {
+          "Key": "9",
+          "Value": 40.0
+        },
+        {
+          "Key": "10",
+          "Value": 50.0
+        }
+      ],
+      "ClinicAdditionalSanitySuppressRateByMedicineLv": [
+        {
+          "Key": "1",
+          "Value": 5.0
+        },
+        {
+          "Key": "2",
+          "Value": 5.0
+        },
+        {
+          "Key": "3",
+          "Value": 5.0
+        },
+        {
+          "Key": "4",
+          "Value": 10.0
+        },
+        {
+          "Key": "5",
+          "Value": 10.0
+        },
+        {
+          "Key": "6",
+          "Value": 10.0
+        },
+        {
+          "Key": "7",
+          "Value": 15.0
+        },
+        {
+          "Key": "8",
+          "Value": 15.0
+        },
+        {
+          "Key": "9",
+          "Value": 15.0
+        },
+        {
+          "Key": "10",
+          "Value": 15.0
+        }
+      ],
+      "ClinicRequiredMedicineLvForSickness": [
+        {
+          "Key": "EPalBaseCampWorkerSickType::Cold",
+          "Value": 1
+        },
+        {
+          "Key": "EPalBaseCampWorkerSickType::Sprain",
+          "Value": 2
+        },
+        {
+          "Key": "EPalBaseCampWorkerSickType::Bulimia",
+          "Value": 3
+        },
+        {
+          "Key": "EPalBaseCampWorkerSickType::GastricUlcer",
+          "Value": 4
+        },
+        {
+          "Key": "EPalBaseCampWorkerSickType::Fracture",
+          "Value": 5
+        },
+        {
+          "Key": "EPalBaseCampWorkerSickType::Weakness",
+          "Value": 6
+        },
+        {
+          "Key": "EPalBaseCampWorkerSickType::DepressionSprain",
+          "Value": 7
         }
       ],
       "WorkTypeAssignPriorityOrder": [
@@ -621,6 +889,16 @@
           "AffectSanityValue": -0.08
         }
       },
+      "WorkAssignDefineData_CoolOverHeat": {
+        "RowName": "CoolOverHeat_0",
+        "AssignDefineData": {
+          "WorkSuitability": "EPalWorkSuitability::Watering",
+          "WorkType": "EPalWorkType::ExtinguishBurn",
+          "ActionType": "EPalActionType::Watering",
+          "WorkerMaxNum": 0,
+          "AffectSanityValue": -0.08
+        }
+      },
       "WorkAssignDefineData_TreasureBoxUnlock": [
         {
           "RowName": "UnlockTreasureBoxElectric",
@@ -638,7 +916,9 @@
             "ActionType": "EPalActionType::GenerateEnergyElectric",
             "WorkerMaxNum": 1,
             "AffectSanityValue": 0.0,
-            "AffectFullStomachValue": 0.0
+            "AffectFullStomachValue": 0.0,
+            "bUseMultiWorkType": false,
+            "WorkEntries": []
           }
         },
         {
@@ -657,7 +937,9 @@
             "ActionType": "EPalActionType::GenerateEnergyFire",
             "WorkerMaxNum": -1,
             "AffectSanityValue": 0.0,
-            "AffectFullStomachValue": 0.0
+            "AffectFullStomachValue": 0.0,
+            "bUseMultiWorkType": false,
+            "WorkEntries": []
           }
         },
         {
@@ -676,9 +958,25 @@
             "ActionType": "EPalActionType::Watering",
             "WorkerMaxNum": -1,
             "AffectSanityValue": 0.0,
-            "AffectFullStomachValue": 0.0
+            "AffectFullStomachValue": 0.0,
+            "bUseMultiWorkType": false,
+            "WorkEntries": []
           }
         }
+      ],
+      "WorkSuitabilityMaxRank": 10,
+      "TransportItemAbsorbRangeByWorkSuitabilityRank": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        300.0,
+        400.0,
+        500.0,
+        600.0,
+        700.0,
+        800.0,
+        1000.0
       ],
       "WorkSuitabilityDefineDataMap": [
         {
@@ -687,10 +985,15 @@
             "bIsChangeWorkAnimPlayRate": true,
             "CraftSpeeds": [
               0,
-              70,
-              200,
-              600,
-              1800,
+              50,
+              80,
+              140,
+              240,
+              400,
+              680,
+              1100,
+              1900,
+              3200,
               5400
             ]
           }
@@ -701,10 +1004,15 @@
             "bIsChangeWorkAnimPlayRate": true,
             "CraftSpeeds": [
               0,
+              50,
               70,
-              150,
-              300,
-              500,
+              100,
+              140,
+              190,
+              260,
+              370,
+              510,
+              720,
               1000
             ]
           }
@@ -715,10 +1023,15 @@
             "bIsChangeWorkAnimPlayRate": true,
             "CraftSpeeds": [
               0,
+              50,
               70,
-              150,
-              300,
-              500,
+              100,
+              140,
+              190,
+              260,
+              370,
+              510,
+              720,
               1000
             ]
           }
@@ -730,9 +1043,14 @@
             "CraftSpeeds": [
               0,
               250,
+              325,
+              400,
               500,
+              750,
               1000,
+              1500,
               2000,
+              3000,
               4000
             ]
           }
@@ -743,10 +1061,15 @@
             "bIsChangeWorkAnimPlayRate": true,
             "CraftSpeeds": [
               0,
-              70,
-              200,
-              600,
-              1800,
+              50,
+              80,
+              140,
+              240,
+              400,
+              680,
+              1100,
+              1900,
+              3200,
               5400
             ]
           }
@@ -757,10 +1080,15 @@
             "bIsChangeWorkAnimPlayRate": true,
             "CraftSpeeds": [
               0,
+              50,
               70,
-              150,
-              300,
-              500,
+              100,
+              140,
+              190,
+              260,
+              370,
+              510,
+              720,
               1000
             ]
           }
@@ -771,10 +1099,15 @@
             "bIsChangeWorkAnimPlayRate": true,
             "CraftSpeeds": [
               0,
-              70,
-              200,
-              600,
-              1800,
+              50,
+              80,
+              140,
+              240,
+              400,
+              680,
+              1100,
+              1900,
+              3200,
               5400
             ]
           }
@@ -784,6 +1117,11 @@
           "Value": {
             "bIsChangeWorkAnimPlayRate": true,
             "CraftSpeeds": [
+              100,
+              100,
+              100,
+              100,
+              100,
               100,
               100,
               100,
@@ -803,7 +1141,12 @@
               5,
               10,
               20,
-              40
+              40,
+              70,
+              120,
+              200,
+              320,
+              500
             ]
           }
         },
@@ -813,11 +1156,16 @@
             "bIsChangeWorkAnimPlayRate": true,
             "CraftSpeeds": [
               0,
-              7,
-              15,
-              30,
               50,
-              100
+              80,
+              140,
+              240,
+              400,
+              680,
+              1100,
+              1900,
+              3200,
+              5400
             ]
           }
         },
@@ -827,11 +1175,16 @@
             "bIsChangeWorkAnimPlayRate": true,
             "CraftSpeeds": [
               10,
-              10,
-              10,
-              10,
-              10,
-              10
+              12,
+              14,
+              16,
+              18,
+              20,
+              22,
+              24,
+              26,
+              28,
+              30
             ]
           }
         }
@@ -840,10 +1193,15 @@
         "CommonDefineData": {
           "CraftSpeeds": [
             0,
+            50,
             70,
-            150,
-            300,
-            500,
+            100,
+            140,
+            190,
+            260,
+            370,
+            510,
+            720,
             1000
           ]
         },
@@ -865,6 +1223,21 @@
           },
           {
             "DropNumRate": 3.0
+          },
+          {
+            "DropNumRate": 3.5
+          },
+          {
+            "DropNumRate": 4.0
+          },
+          {
+            "DropNumRate": 4.5
+          },
+          {
+            "DropNumRate": 5.0
+          },
+          {
+            "DropNumRate": 5.5
           }
         ]
       },
@@ -872,10 +1245,15 @@
         "CommonDefineData": {
           "CraftSpeeds": [
             0,
+            50,
             70,
-            150,
-            300,
-            500,
+            100,
+            140,
+            190,
+            260,
+            370,
+            510,
+            720,
             1000
           ]
         },
@@ -885,15 +1263,23 @@
             "MaterialSubType": "EPalMapObjectMaterialSubType::None"
           },
           {
-            "DamageRate": 0.15,
+            "DamageRate": 0.05,
             "MaterialSubType": "EPalMapObjectMaterialSubType::Wood"
           },
           {
-            "DamageRate": 0.25,
+            "DamageRate": 0.1,
             "MaterialSubType": "EPalMapObjectMaterialSubType::Wood"
           },
           {
-            "DamageRate": 0.35,
+            "DamageRate": 0.18,
+            "MaterialSubType": "EPalMapObjectMaterialSubType::Wood"
+          },
+          {
+            "DamageRate": 0.26,
+            "MaterialSubType": "EPalMapObjectMaterialSubType::Wood"
+          },
+          {
+            "DamageRate": 0.38,
             "MaterialSubType": "EPalMapObjectMaterialSubType::Wood"
           },
           {
@@ -901,7 +1287,19 @@
             "MaterialSubType": "EPalMapObjectMaterialSubType::Wood"
           },
           {
-            "DamageRate": 0.75,
+            "DamageRate": 0.6,
+            "MaterialSubType": "EPalMapObjectMaterialSubType::Wood"
+          },
+          {
+            "DamageRate": 0.7,
+            "MaterialSubType": "EPalMapObjectMaterialSubType::Wood"
+          },
+          {
+            "DamageRate": 0.85,
+            "MaterialSubType": "EPalMapObjectMaterialSubType::Wood"
+          },
+          {
+            "DamageRate": 1.0,
             "MaterialSubType": "EPalMapObjectMaterialSubType::Wood"
           }
         ]
@@ -910,36 +1308,61 @@
         "CommonDefineData": {
           "CraftSpeeds": [
             0,
+            50,
             70,
-            150,
-            300,
-            500,
+            100,
+            140,
+            190,
+            260,
+            370,
+            510,
+            720,
             1000
           ]
         },
         "MiningDefineData": [
           {
-            "DamageRate": 0.05,
+            "DamageRate": 0.07,
             "MaterialSubType": "EPalMapObjectMaterialSubType::None"
           },
           {
-            "DamageRate": 0.15,
+            "DamageRate": 0.07,
             "MaterialSubType": "EPalMapObjectMaterialSubType::Stone"
           },
           {
-            "DamageRate": 0.25,
+            "DamageRate": 0.12,
             "MaterialSubType": "EPalMapObjectMaterialSubType::Copper"
           },
           {
-            "DamageRate": 0.35,
+            "DamageRate": 0.23,
             "MaterialSubType": "EPalMapObjectMaterialSubType::Iron"
           },
           {
-            "DamageRate": 0.5,
+            "DamageRate": 0.31,
+            "MaterialSubType": "EPalMapObjectMaterialSubType::Platinum"
+          },
+          {
+            "DamageRate": 0.43,
+            "MaterialSubType": "EPalMapObjectMaterialSubType::Platinum"
+          },
+          {
+            "DamageRate": 0.55,
+            "MaterialSubType": "EPalMapObjectMaterialSubType::Platinum"
+          },
+          {
+            "DamageRate": 0.65,
             "MaterialSubType": "EPalMapObjectMaterialSubType::Platinum"
           },
           {
             "DamageRate": 0.75,
+            "MaterialSubType": "EPalMapObjectMaterialSubType::Platinum"
+          },
+          {
+            "DamageRate": 0.9,
+            "MaterialSubType": "EPalMapObjectMaterialSubType::Platinum"
+          },
+          {
+            "DamageRate": 1.1,
             "MaterialSubType": "EPalMapObjectMaterialSubType::Platinum"
           }
         ]
@@ -1311,7 +1734,8 @@
                 "EPalItemTypeB::ConsumePalLevelUp",
                 "EPalItemTypeB::ConsumePalTalentUp",
                 "EPalItemTypeB::ConsumePalWorkSuitabilityUp",
-                "EPalItemTypeB::ConsumeAncientTechnologyBook"
+                "EPalItemTypeB::ConsumeAncientTechnologyBook",
+                "EPalItemTypeB::ConsumePalAwakening"
               ],
               "TypeB_Except": []
             }
@@ -1339,7 +1763,8 @@
                 "EPalItemTypeB::ConsumePalLevelUp",
                 "EPalItemTypeB::ConsumePalTalentUp",
                 "EPalItemTypeB::ConsumePalWorkSuitabilityUp",
-                "EPalItemTypeB::ConsumeAncientTechnologyBook"
+                "EPalItemTypeB::ConsumeAncientTechnologyBook",
+                "EPalItemTypeB::ConsumePalAwakening"
               ]
             }
           },
@@ -1435,19 +1860,25 @@
       "AimInterpInterval": 0.15,
       "SprintWalkFOVRange": {
         "LowerBound": {
-          "Value": 80.0
+          "Value": 70.0
         },
         "UpperBound": {
           "Value": 90.0
         }
       },
+      "bUseNewCameraOnRolling": true,
       "InvadeProbability": 0.8,
       "InvadeOccurablePlayerLevel": 6,
       "InvadeJudgmentInterval_Minutes": 2,
       "InvadeCollTime_Min_Minutes": 60,
+      "InvadeReturnTime_Minutes": 5,
       "InvadeStartPoint_BaseCampRadius_Min_cm": 5000,
       "InvadeStartPoint_BaseCampRadius_Max_cm": 15000,
+      "InvaderPathWaterContinuousDistanceThreshold": 1000.0,
+      "InvaderPathWaterTotalDistanceThreshold": 2000.0,
       "VisitorNPCReturnTime_Minutes": 10,
+      "InvaderDeclarationIntarvalMinutes": 5.0,
+      "InvadeGradeOffset": -3,
       "RecruitCarreerTextNum": 20,
       "RecruitAppealDefaultTextNum": 1,
       "firstCapturedUIDisplayTime": 15.0,
@@ -1554,6 +1985,12 @@
         },
         {
           "Key": "PalSphere_Exotic"
+        },
+        {
+          "Key": "PalSphere_Ancient_1"
+        },
+        {
+          "Key": "PalSphere_Ancient_2"
         },
         {
           "Key": "PalSphere_Debug"
@@ -1674,6 +2111,7 @@
         }
       ],
       "bIsEggLauncherExplosion": true,
+      "DirectOrderTargetSearchRadius": 6000.0,
       "DefaultMaxInventoryWeight": 300.0,
       "CaptureJudgeRateArray": [
         0.444444,
@@ -1682,6 +2120,53 @@
       ],
       "ExceptCapturedItemList": [
         "Meat"
+      ],
+      "ExceptMeatCutItemList": [
+        {
+          "Key": "DogCoin"
+        },
+        {
+          "Key": "PalAwakening_Material_Water"
+        },
+        {
+          "Key": "PalAwakening_Material_Electric"
+        },
+        {
+          "Key": "PalAwakening_Material_Ground"
+        },
+        {
+          "Key": "PalAwakening_Material_Grass"
+        },
+        {
+          "Key": "PalAwakening_Material_Fire"
+        },
+        {
+          "Key": "PalAwakening_Material_Ice"
+        },
+        {
+          "Key": "PalAwakening_Material_Dragon"
+        },
+        {
+          "Key": "PalAwakening_Material_Dark"
+        },
+        {
+          "Key": "PalAwakening_Material_Neutral"
+        },
+        {
+          "Key": "WorldTreeRelic_01"
+        },
+        {
+          "Key": "WorldTreeRelic_02"
+        },
+        {
+          "Key": "WorldTreeRelic_03"
+        },
+        {
+          "Key": "WorldTreeRelic_04"
+        },
+        {
+          "Key": "WorldTreeRelic_05"
+        }
       ],
       "CaptureSphereLevelMap": [
         {
@@ -1698,23 +2183,31 @@
         },
         {
           "Key": "EPalCaptureSphereLevelType::Tera",
-          "Value": 26
+          "Value": 27
         },
         {
           "Key": "EPalCaptureSphereLevelType::Master",
-          "Value": 32
+          "Value": 33
         },
         {
           "Key": "EPalCaptureSphereLevelType::Legend",
-          "Value": 37
+          "Value": 38
         },
         {
           "Key": "EPalCaptureSphereLevelType::Ultimate",
-          "Value": 43
+          "Value": 44
         },
         {
           "Key": "EPalCaptureSphereLevelType::Exotic",
-          "Value": 48
+          "Value": 50
+        },
+        {
+          "Key": "EPalCaptureSphereLevelType::Ancient_1",
+          "Value": 58
+        },
+        {
+          "Key": "EPalCaptureSphereLevelType::Ancient_2",
+          "Value": 64
         }
       ],
       "CaptureRateAddByStatusMap": [
@@ -1759,8 +2252,10 @@
           "Value": 0.35
         }
       ],
+      "IgnoreFirstCaptureFailedHPRate": 0.5,
       "CaptureRateAdd_ByLegHold": 0.5,
       "LongPressInterval": 0.5,
+      "LongPressInterval_ChangeBullet": 0.2,
       "RaidBossArea_PhaseTimeLimit_Result": 30.0,
       "LongPressInterval_GetHatchedPal": 2.0,
       "LongPressInterval_TreasureMapPoint": 6.3,
@@ -1781,12 +2276,6 @@
         },
         {
           "Key": "Battle_MeleeWeapon_Bat"
-        },
-        {
-          "Key": "SkinChange"
-        },
-        {
-          "Key": "GlobalPalStorage"
         }
       ],
       "TechnologyPoint_UnlockFastTravel": 1,
@@ -1797,6 +2286,7 @@
       "DecreaseSanity_Starvation": 0.3,
       "Spawner_IsCheckLoadedWorldPartition": true,
       "SpawnerDisableDistanceCM_FromBaseCamp": 5000.0,
+      "EnemyCampSpawnerDisableDistanceCM_FromBaseCamp": 15000.0,
       "Spawner_DefaultSpawnRadius_S": 8000.0,
       "Spawner_DefaultSpawnRadius_M": 10000.0,
       "Spawner_DefaultSpawnRadius_L": 15000.0,
@@ -1841,9 +2331,11 @@
       "OilrigCannonHPDisplayDistance": 5000.0,
       "MapObjectHPDisplayTime": 2.0,
       "bDirectObtainFromTreasureBox": true,
+      "NoDropItemDamageRateFromFoliageMaxHp": 100.0,
       "WeaponTypesForceDropItemFromFoliage": [
         "EPalWeaponType::MeleeWeapon",
-        "EPalWeaponType::Katana"
+        "EPalWeaponType::Katana",
+        "EPalWeaponType::LaserMiningTool"
       ],
       "MapObjectEffect_Burn_DamageHpRate": 0.0,
       "MapObjectEffect_Burn_DamageAroundRange": {
@@ -1853,109 +2345,187 @@
       },
       "MapObjectEffect_Burn_DamageAroundDamageValue": 0.0,
       "MapObjectEffect_Burn_DamageAroundAccumulateValue": 0.0,
+      "MapObjectItemChestCorruptionRateFromWorkSpeed": 0.1,
       "DetectorMaxRange": 2500.0,
+      "WorldSecurityBountyByWantedLevelMap": [
+        3000,
+        7000,
+        11000,
+        15000,
+        20000
+      ],
       "WorldSecurityWantedPoliceSettingDataMap": [
         {
-          "Key": "500",
-          "Value": {
-            "PoliceType": {
-              "Key": "Police_Rifle"
-            },
-            "PoliceNum": 2,
-            "PoliceLevel": 38
-          }
+          "PoliceType": {
+            "Key": "Police_Rifle"
+          },
+          "PoliceNum": 4,
+          "PoliceLevel": 40,
+          "PalPoliceType": {
+            "Key": "None"
+          },
+          "PalPoliceNum": 4,
+          "PalPoliceLevel": 1,
+          "CombatHeliType": {
+            "Key": "None"
+          },
+          "CombatHeliNum": 0,
+          "CombatHeliLevel": 1
         },
         {
-          "Key": "1000",
-          "Value": {
-            "PoliceType": {
-              "Key": "Police_Rifle"
-            },
-            "PoliceNum": 3,
-            "PoliceLevel": 40
-          }
+          "PoliceType": {
+            "Key": "None"
+          },
+          "PoliceNum": 4,
+          "PoliceLevel": 50,
+          "PalPoliceType": {
+            "Key": "POLICE_ThunderDog"
+          },
+          "PalPoliceNum": 6,
+          "PalPoliceLevel": 50,
+          "CombatHeliType": {
+            "Key": "None"
+          },
+          "CombatHeliNum": 0,
+          "CombatHeliLevel": 1
         },
         {
-          "Key": "2500",
-          "Value": {
-            "PoliceType": {
-              "Key": "Police_Rifle"
-            },
-            "PoliceNum": 5,
-            "PoliceLevel": 43
-          }
+          "PoliceType": {
+            "Key": "None"
+          },
+          "PoliceNum": 4,
+          "PoliceLevel": 60,
+          "PalPoliceType": {
+            "Key": "POLICE_HawkBird"
+          },
+          "PalPoliceNum": 8,
+          "PalPoliceLevel": 60,
+          "CombatHeliType": {
+            "Key": "None"
+          },
+          "CombatHeliNum": 0,
+          "CombatHeliLevel": 1
         },
         {
-          "Key": "5000",
-          "Value": {
-            "PoliceType": {
-              "Key": "Police_Rifle"
-            },
-            "PoliceNum": 7,
-            "PoliceLevel": 47
-          }
+          "PoliceType": {
+            "Key": "Police_Rifle_Crime_Lv4"
+          },
+          "PoliceNum": 4,
+          "PoliceLevel": 70,
+          "PalPoliceType": {
+            "Key": "None"
+          },
+          "PalPoliceNum": 1,
+          "PalPoliceLevel": 1,
+          "CombatHeliType": {
+            "Key": "SecurityDrone_Field"
+          },
+          "CombatHeliNum": 1,
+          "CombatHeliLevel": 70
         },
         {
-          "Key": "10000",
-          "Value": {
-            "PoliceType": {
-              "Key": "Police_Rifle"
-            },
-            "PoliceNum": 10,
-            "PoliceLevel": 50
-          }
+          "PoliceType": {
+            "Key": "Police_Rifle_Crime_Lv5"
+          },
+          "PoliceNum": 4,
+          "PoliceLevel": 80,
+          "PalPoliceType": {
+            "Key": "None"
+          },
+          "PalPoliceNum": 1,
+          "PalPoliceLevel": 1,
+          "CombatHeliType": {
+            "Key": "SecurityDrone_Field"
+          },
+          "CombatHeliNum": 1,
+          "CombatHeliLevel": 80
         }
       ],
       "WorldSecurityWantedPoliceSettingDataMapForDS": [
         {
-          "Key": "500",
-          "Value": {
-            "PoliceType": {
-              "Key": "Police_Rifle"
-            },
-            "PoliceNum": 1,
-            "PoliceLevel": 38
-          }
+          "PoliceType": {
+            "Key": "Police_Rifle"
+          },
+          "PoliceNum": 4,
+          "PoliceLevel": 40,
+          "PalPoliceType": {
+            "Key": "None"
+          },
+          "PalPoliceNum": 1,
+          "PalPoliceLevel": 1,
+          "CombatHeliType": {
+            "Key": "None"
+          },
+          "CombatHeliNum": 0,
+          "CombatHeliLevel": 1
         },
         {
-          "Key": "1000",
-          "Value": {
-            "PoliceType": {
-              "Key": "Police_Rifle"
-            },
-            "PoliceNum": 1,
-            "PoliceLevel": 40
-          }
+          "PoliceType": {
+            "Key": "None"
+          },
+          "PoliceNum": 4,
+          "PoliceLevel": 50,
+          "PalPoliceType": {
+            "Key": "POLICE_ThunderDog"
+          },
+          "PalPoliceNum": 6,
+          "PalPoliceLevel": 50,
+          "CombatHeliType": {
+            "Key": "None"
+          },
+          "CombatHeliNum": 0,
+          "CombatHeliLevel": 1
         },
         {
-          "Key": "2500",
-          "Value": {
-            "PoliceType": {
-              "Key": "Police_Rifle"
-            },
-            "PoliceNum": 1,
-            "PoliceLevel": 43
-          }
+          "PoliceType": {
+            "Key": "None"
+          },
+          "PoliceNum": 4,
+          "PoliceLevel": 60,
+          "PalPoliceType": {
+            "Key": "POLICE_HawkBird"
+          },
+          "PalPoliceNum": 4,
+          "PalPoliceLevel": 60,
+          "CombatHeliType": {
+            "Key": "None"
+          },
+          "CombatHeliNum": 0,
+          "CombatHeliLevel": 1
         },
         {
-          "Key": "5000",
-          "Value": {
-            "PoliceType": {
-              "Key": "Police_Rifle"
-            },
-            "PoliceNum": 1,
-            "PoliceLevel": 47
-          }
+          "PoliceType": {
+            "Key": "Police_Rifle_Crime_Lv4"
+          },
+          "PoliceNum": 4,
+          "PoliceLevel": 70,
+          "PalPoliceType": {
+            "Key": "None"
+          },
+          "PalPoliceNum": 1,
+          "PalPoliceLevel": 1,
+          "CombatHeliType": {
+            "Key": "SecurityDrone_Field"
+          },
+          "CombatHeliNum": 1,
+          "CombatHeliLevel": 70
         },
         {
-          "Key": "10000",
-          "Value": {
-            "PoliceType": {
-              "Key": "Police_Shotgun"
-            },
-            "PoliceNum": 1,
-            "PoliceLevel": 50
-          }
+          "PoliceType": {
+            "Key": "Police_Rifle_Crime_Lv5"
+          },
+          "PoliceNum": 4,
+          "PoliceLevel": 80,
+          "PalPoliceType": {
+            "Key": "None"
+          },
+          "PalPoliceNum": 1,
+          "PalPoliceLevel": 1,
+          "CombatHeliType": {
+            "Key": "SecurityDrone_Field"
+          },
+          "CombatHeliNum": 1,
+          "CombatHeliLevel": 80
         }
       ],
       "AddMaxHPPerStatusPoint": 100.0,
@@ -2064,6 +2634,16 @@
           }
         }
       ],
+      "PalEggMapObjectId_WorldTree": {
+        "Key": "PalEgg_WorldTree"
+      },
+      "PalEggMapObjectId_Mutation": {
+        "Key": "PalEgg_MutationPal"
+      },
+      "BreedingItemEffectDataAsset": {
+        "ObjectName": "PalBreedingItemEffectDataAsset'DA_BreedingItemEffectData'",
+        "ObjectPath": "Pal/Content/Pal/DataAsset/MapObject/Breeding/DA_BreedingItemEffectData.0"
+      },
       "PalEggHatchingSpeedRateByTemperature": [
         {
           "Key": "8",
@@ -2143,6 +2723,7 @@
       "MinSprintThreshold": 800.0,
       "MaxSprintThreshold": 1000.0,
       "CombatHeliHPGaugeDisplayDistance": 14000.0,
+      "KingWhaleHPGaugeDisplayDistance": 60000.0,
       "Arena_PlayerToPlayerDamageRate": 0.3,
       "Arena_PlayerToPalDamageRate": 0.1,
       "Arena_PlayerToPlayerStatusRate": 0.1,
@@ -2176,6 +2757,10 @@
         {
           "Key": "EPalArenaRank::Bronze",
           "Value": 0
+        },
+        {
+          "Key": "EPalArenaRank::Legend",
+          "Value": 6000
         }
       ],
       "Arena_RankPointDiffRate": [
@@ -2218,11 +2803,20 @@
         {
           "Key": "5",
           "Value": 0.1
+        },
+        {
+          "Key": "6",
+          "Value": 0.05
+        },
+        {
+          "Key": "-6",
+          "Value": 5.0
         }
       ],
       "PalReverseGenderItemID": {
         "Key": "PalGenderReverse"
       },
+      "TeleportInvincibleTime": 5.0,
       "DoctorMaxSurgiCountInDay": 1,
       "MapIconSize": 48,
       "DefaultMapObjectPaintColors": [
@@ -2332,6 +2926,113 @@
           "Hex": "000000"
         }
       ],
+      "DefaultMapObjectLampColors": [
+        {
+          "B": 94,
+          "G": 94,
+          "R": 235,
+          "A": 255,
+          "Hex": "EB5E5E"
+        },
+        {
+          "B": 94,
+          "G": 141,
+          "R": 235,
+          "A": 255,
+          "Hex": "EB8D5E"
+        },
+        {
+          "B": 94,
+          "G": 188,
+          "R": 235,
+          "A": 255,
+          "Hex": "EBBC5E"
+        },
+        {
+          "B": 94,
+          "G": 235,
+          "R": 235,
+          "A": 255,
+          "Hex": "EBEB5E"
+        },
+        {
+          "B": 94,
+          "G": 235,
+          "R": 188,
+          "A": 255,
+          "Hex": "BCEB5E"
+        },
+        {
+          "B": 94,
+          "G": 235,
+          "R": 141,
+          "A": 255,
+          "Hex": "8DEB5E"
+        },
+        {
+          "B": 94,
+          "G": 235,
+          "R": 94,
+          "A": 255,
+          "Hex": "5EEB5E"
+        },
+        {
+          "B": 164,
+          "G": 235,
+          "R": 94,
+          "A": 255,
+          "Hex": "5EEBA4"
+        },
+        {
+          "B": 211,
+          "G": 235,
+          "R": 94,
+          "A": 255,
+          "Hex": "5EEBD3"
+        },
+        {
+          "B": 235,
+          "G": 211,
+          "R": 94,
+          "A": 255,
+          "Hex": "5ED3EB"
+        },
+        {
+          "B": 235,
+          "G": 164,
+          "R": 94,
+          "A": 255,
+          "Hex": "5EA4EB"
+        },
+        {
+          "B": 235,
+          "G": 117,
+          "R": 94,
+          "A": 255,
+          "Hex": "5E75EB"
+        },
+        {
+          "B": 235,
+          "G": 94,
+          "R": 117,
+          "A": 255,
+          "Hex": "755EEB"
+        },
+        {
+          "B": 235,
+          "G": 94,
+          "R": 164,
+          "A": 255,
+          "Hex": "A45EEB"
+        },
+        {
+          "B": 235,
+          "G": 94,
+          "R": 211,
+          "A": 255,
+          "Hex": "D35EEB"
+        }
+      ],
       "FriendshipPoint_Min": 0,
       "FriendshipPoint_AutoIncrementRequireSanity": 50,
       "FriendshipPoint_AutoIncrementInteravalMinutes": 5,
@@ -2361,6 +3062,30 @@
           "Key": "EPalBaseCampPassiveEffectWorkHardType::Easy",
           "Value": 1.2
         }
+      ],
+      "GlobalMaterialParameterCollection": {
+        "ObjectName": "MaterialParameterCollection'MPC_Effect'",
+        "ObjectPath": "Pal/Content/Pal/Effect/MaterialParamCollection/MPC_Effect.0"
+      },
+      "EndingExcludeCharacterIDs": [
+        {
+          "Key": "BOSS_KingWhale_otomo"
+        }
+      ],
+      "SkippedAchievementIdsOnPS5": [
+        "Pal_Achievement_58",
+        "Pal_Achievement_59",
+        "Pal_Achievement_60",
+        "Pal_Achievement_61",
+        "Pal_Achievement_62",
+        "Pal_Achievement_63",
+        "Pal_Achievement_64",
+        "Pal_Achievement_65",
+        "Pal_Achievement_66",
+        "Pal_Achievement_67",
+        "Pal_Achievement_68",
+        "Pal_Achievement_69",
+        "Pal_Achievement_70"
       ],
       "SoundSourceDataTable": {
         "ObjectName": "DataTable'DT_SoundSourceRadius'",
@@ -2416,7 +3141,11 @@
             "ObjectPath": "Pal/Content/Pal/Blueprint/System/Optimize/BP_OptimizeParameter_CoopHost.0"
           }
         }
-      ]
+      ],
+      "ExpeditionStrengthSortFunctionsClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_CharacterTeamMissionFunctions_C'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/MapObject/ConcreteModel/CharacterTeamMission/BP_CharacterTeamMissionFunctions.0"
+      }
     }
   },
   {
@@ -2461,6 +3190,19 @@
           "ObjectName": "Class'PalIndividualCharacterHandle'",
           "ObjectPath": "/Script/Pal"
         }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsSneakBonus",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
       },
       {
         "Type": "FloatProperty",
@@ -2557,6 +3299,16 @@
       },
       {
         "Type": "ObjectProperty",
+        "Name": "CallFunc_GetGameSetting_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'PalGameSetting'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
         "Name": "CallFunc_TryGetIndividualActor_ReturnValue",
         "Flags": "RF_Public",
         "ElementSize": 8,
@@ -2566,8 +3318,54 @@
         }
       },
       {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetIndividualCharacterParameterByActor_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'PalIndividualCharacterParameter'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
         "Type": "BoolProperty",
         "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsForceCapturable_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsUncapturable_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_2",
         "Flags": "RF_Public",
         "ElementSize": 1,
         "FieldSize": 1,
@@ -2589,7 +3387,7 @@
       },
       {
         "Type": "BoolProperty",
-        "Name": "CallFunc_IsValid_ReturnValue_2",
+        "Name": "CallFunc_IsValid_ReturnValue_3",
         "Flags": "RF_Public",
         "ElementSize": 1,
         "FieldSize": 1,
@@ -2612,7 +3410,7 @@
       },
       {
         "Type": "FloatProperty",
-        "Name": "CallFunc_GetParameterWithPassiveSkillEffect_ReturnValue",
+        "Name": "CallFunc_GetCaptureLevelUp_ReturnValue",
         "Flags": "RF_Public",
         "ElementSize": 4
       },
@@ -2653,7 +3451,7 @@
       },
       {
         "Type": "BoolProperty",
-        "Name": "CallFunc_IsValid_ReturnValue_3",
+        "Name": "CallFunc_IsValid_ReturnValue_4",
         "Flags": "RF_Public",
         "ElementSize": 1,
         "FieldSize": 1,
@@ -2662,6 +3460,29 @@
         "FieldMask": 255,
         "BoolSize": 1,
         "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsRarePal_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetOptionWorldSettings_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 528,
+        "PropertyFlags": "ConstParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PalOptionWorldSettings'",
+          "ObjectPath": "/Script/Pal"
+        }
       },
       {
         "Type": "StructProperty",
@@ -2700,25 +3521,32 @@
         }
       },
       {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Subtract_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
         "Type": "FloatProperty",
         "Name": "CallFunc_Convert_FixedPoint64ToFloat_ReturnValue",
         "Flags": "RF_Public",
         "ElementSize": 4
       },
       {
-        "Type": "StructProperty",
-        "Name": "CallFunc_GetOptionWorldSettings_ReturnValue",
+        "Type": "IntProperty",
+        "Name": "CallFunc_Max_ReturnValue",
         "Flags": "RF_Public",
-        "ElementSize": 480,
-        "PropertyFlags": "ConstParm",
-        "Struct": {
-          "ObjectName": "ScriptStruct'PalOptionWorldSettings'",
-          "ObjectPath": "/Script/Pal"
-        }
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_SelectInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
       },
       {
         "Type": "BoolProperty",
-        "Name": "CallFunc_IsValid_ReturnValue_4",
+        "Name": "CallFunc_IsValid_ReturnValue_5",
         "Flags": "RF_Public",
         "ElementSize": 1,
         "FieldSize": 1,
@@ -2736,7 +3564,7 @@
       },
       {
         "Type": "BoolProperty",
-        "Name": "CallFunc_IsValid_ReturnValue_5",
+        "Name": "CallFunc_IsValid_ReturnValue_6",
         "Flags": "RF_Public",
         "ElementSize": 1,
         "FieldSize": 1,
@@ -2758,7 +3586,7 @@
       },
       {
         "Type": "BoolProperty",
-        "Name": "CallFunc_IsValid_ReturnValue_6",
+        "Name": "CallFunc_IsValid_ReturnValue_7",
         "Flags": "RF_Public",
         "ElementSize": 1,
         "FieldSize": 1,
@@ -3016,6 +3844,140 @@
       }
     ],
     "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+  },
+  {
+    "Type": "Function",
+    "Name": "CalcExpeditionBonusExp",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PalGameSetting_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/System/BP_PalGameSetting.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'PalGameSetting:CalcExpeditionBonusExp'",
+      "ObjectPath": "/Script/Pal"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "BonusExpRate",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Player",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'PalPlayerCharacter'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "Parm | OutParm | ReturnParm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetIndividualCharacterParameterByActor_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'PalIndividualCharacterParameter'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_GetLevel_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Min_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetExpDatabase_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'PalExpDatabase'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "Int64Property",
+        "Name": "CallFunc_GetDropExpBase_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Conv_Int64ToDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Multiply_DoubleDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_FTrunc_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Max_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Multiply_DoubleDouble_B_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
   },
   {
     "Type": "Function",

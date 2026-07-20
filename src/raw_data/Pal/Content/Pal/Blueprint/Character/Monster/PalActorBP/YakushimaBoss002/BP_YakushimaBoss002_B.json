@@ -189,7 +189,7 @@
         "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
         "PropertyFlags": "Edit | BlueprintVisible | Net | DisableEditOnInstance",
-        "RepIndex": 28,
+        "RepIndex": 31,
         "PropertyClass": {
           "ObjectName": "Class'PalIndividualCharacterHandle'",
           "ObjectPath": "/Script/Pal"
@@ -201,7 +201,7 @@
         "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
         "PropertyFlags": "Edit | BlueprintVisible | Net | DisableEditOnInstance",
-        "RepIndex": 29,
+        "RepIndex": 32,
         "PropertyClass": {
           "ObjectName": "Class'PalIndividualCharacterHandle'",
           "ObjectPath": "/Script/Pal"
@@ -213,7 +213,7 @@
         "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
         "PropertyFlags": "Edit | BlueprintVisible | Net | DisableEditOnInstance",
-        "RepIndex": 30,
+        "RepIndex": 33,
         "PropertyClass": {
           "ObjectName": "Class'PalIndividualCharacterHandle'",
           "ObjectPath": "/Script/Pal"
@@ -225,7 +225,7 @@
         "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 1,
         "PropertyFlags": "Edit | BlueprintVisible | Net | DisableEditOnInstance | RepNotify",
-        "RepIndex": 31,
+        "RepIndex": 34,
         "RepNotifyFunc": "OnRep_Break_Left",
         "FieldSize": 1,
         "ByteOffset": 0,
@@ -240,7 +240,7 @@
         "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 1,
         "PropertyFlags": "Edit | BlueprintVisible | Net | DisableEditOnInstance | RepNotify",
-        "RepIndex": 32,
+        "RepIndex": 35,
         "RepNotifyFunc": "OnRep_Break_Right",
         "FieldSize": 1,
         "ByteOffset": 0,
@@ -255,7 +255,7 @@
         "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 1,
         "PropertyFlags": "Edit | BlueprintVisible | Net | DisableEditOnInstance | RepNotify",
-        "RepIndex": 33,
+        "RepIndex": 36,
         "RepNotifyFunc": "OnRep_Break_Head",
         "FieldSize": 1,
         "ByteOffset": 0,
@@ -270,7 +270,7 @@
         "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
         "PropertyFlags": "Edit | BlueprintVisible | Net | DisableEditOnInstance",
-        "RepIndex": 34,
+        "RepIndex": 37,
         "PropertyClass": {
           "ObjectName": "Class'PalIndividualCharacterHandle'",
           "ObjectPath": "/Script/Pal"
@@ -2211,11 +2211,11 @@
     },
     "Super": {
       "ObjectName": "Function'BP_MonsterBase_C:OnInitialized'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.24"
     },
     "SuperStruct": {
       "ObjectName": "Function'BP_MonsterBase_C:OnInitialized'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.24"
     },
     "ChildProperties": [
       {
@@ -2369,11 +2369,11 @@
     },
     "Super": {
       "ObjectName": "Function'BP_MonsterBase_C:ReceiveBeginPlay'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.32"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.33"
     },
     "SuperStruct": {
       "ObjectName": "Function'BP_MonsterBase_C:ReceiveBeginPlay'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.32"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.33"
     },
     "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
   },
@@ -2388,11 +2388,11 @@
     },
     "Super": {
       "ObjectName": "Function'BP_MonsterBase_C:ReceiveEndPlay'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.33"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.34"
     },
     "SuperStruct": {
       "ObjectName": "Function'BP_MonsterBase_C:ReceiveEndPlay'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.33"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.34"
     },
     "ChildProperties": [
       {
@@ -2605,7 +2605,7 @@
         "Type": "StructProperty",
         "Name": "CallFunc_GetInitializedCharacterSaveParemter_outParameter",
         "Flags": "RF_Public",
-        "ElementSize": 864,
+        "ElementSize": 928,
         "Struct": {
           "ObjectName": "ScriptStruct'PalIndividualCharacterSaveParameter'",
           "ObjectPath": "/Script/Pal"
@@ -2703,7 +2703,7 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
     }
   },
   {
@@ -2717,7 +2717,7 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
     }
   },
   {
@@ -2839,7 +2839,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
@@ -2859,7 +2859,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
       "AttachParent": {
@@ -2879,7 +2879,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -2893,7 +2893,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
     },
     "Properties": {
       "DefaultLandMovementMode": "EMovementMode::MOVE_None",
@@ -2911,7 +2911,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -2925,7 +2925,7 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
     }
   },
   {
@@ -2939,7 +2939,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     }
   },
   {
@@ -2953,7 +2953,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
     }
   },
   {
@@ -2967,7 +2967,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -2981,7 +2981,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
       "AttachParent": {
@@ -3006,7 +3006,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
       "AnimClass": {
@@ -3048,7 +3048,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 88.0,
@@ -3137,7 +3137,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     },
     "Properties": {
       "StatusMap": [
@@ -3187,7 +3187,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -3462,7 +3462,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {

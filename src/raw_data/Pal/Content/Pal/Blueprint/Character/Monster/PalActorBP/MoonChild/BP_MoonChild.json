@@ -12,11 +12,11 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_MoonChild_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.33"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.35"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_MoonChild_C:InheritableComponentHandler'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.3"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.4"
       }
     },
     "SuperStruct": {
@@ -24,6 +24,17 @@
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
     },
     "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalFlyMeshHeightCtrl",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalFlyMeshHeightCtrlComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
       {
         "Type": "ObjectProperty",
         "Name": "PalBodyPartsCapsule4",
@@ -98,7 +109,7 @@
   {
     "Type": "BP_MoonChild_C",
     "Name": "Default__BP_MoonChild_C",
-    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.BP_MoonChild_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild",
     "Template": {
@@ -108,80 +119,97 @@
     "Properties": {
       "LiftupObjectComponent": {
         "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MoonChild_C:Liftup'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.13"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.14"
       },
       "ActionComponent": {
         "ObjectName": "PalActionComponent'Default__BP_MoonChild_C:ActionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.4"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.5"
       },
       "CharacterParameterComponent": {
         "ObjectName": "PalCharacterParameterComponent'Default__BP_MoonChild_C:CharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.15"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.16"
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MoonChild_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.24"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_MoonChild_C:DamageReactionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.16"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.17"
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_MoonChild_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.25"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_MoonChild_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.21"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.22"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_MoonChild_C:FollowCamera'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.12"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.13"
       },
       "LookAtComponent": {
         "ObjectName": "PalLookAtComponent'Default__BP_MoonChild_C:LookAtComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.18"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.20"
       },
       "FootIKComponent": {
         "ObjectName": "PalFootIKComponent'Default__BP_MoonChild_C:FootIKComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.17"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.19"
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_MoonChild_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.25"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.26"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_MoonChild_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.20"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.21"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MoonChild_C:AnimNotifyComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.5"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.6"
       },
       "AroundInfoCollectorComponent": {
         "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MoonChild_C:AroundInfoCollectorComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.11"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.12"
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_MoonChild_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.34"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.36"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_MoonChild_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.23"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_MoonChild_C:CharMoveComp'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.14"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.15"
       },
       "CapsuleComponent": {
         "ObjectName": "CapsuleComponent'Default__BP_MoonChild_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.3"
       },
       "RootComponent": {
         "ObjectName": "CapsuleComponent'Default__BP_MoonChild_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.3"
       }
+    }
+  },
+  {
+    "Type": "BP_PalCryComponent_C",
+    "Name": "BP_PalCryComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.BP_PalCryComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MoonChild_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalCryComponent_C'BP_MonsterBase_C:BP_PalCryComponent_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.2"
+    },
+    "Properties": {
+      "CryPalID": "EPalTribeID::MoonChild"
     }
   },
   {
@@ -199,7 +227,46 @@
     },
     "Properties": {
       "CapsuleHalfHeight": 30.0,
-      "CapsuleRadius": 30.0
+      "CapsuleRadius": 30.0,
+      "BodyInstance": {
+        "CollisionProfileName": "Pawn_NoDamageFlyPal",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Water",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Attack",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PlayerPawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "ReticleRayCast",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "DropItemPhysicsBody",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      }
     }
   },
   {
@@ -215,20 +282,20 @@
       "Records": [
         {
           "ComponentClass": {
-            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-            "ObjectPath": "/Script/Pal"
+            "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
+            "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
           },
           "ComponentTemplate": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_MoonChild_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.19"
+            "ObjectName": "BP_PalCryComponent_C'BP_MoonChild_C:BP_PalCryComponent_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.2"
           },
           "ComponentKey": {
             "OwnerClass": {
               "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
               "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
             },
-            "SCSVariableName": "PalPartnerSkillParameter",
-            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
+            "SCSVariableName": "BP_PalCryComponent",
+            "AssociatedGuid": "A971BE27-4B3C10FC-863FA284-ECDC3286"
           },
           "CookedComponentInstancingData": {
             "ChangedPropertyList": [],
@@ -249,7 +316,22 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+    },
+    "Properties": {
+      "ActionMap": [
+        {
+          "Key": "EPalActionType::EPalActionType_MAX",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_ActionEatOneshot_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Action/Common/BP_ActionEatOneshot.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::None",
+          "Value": null
+        }
+      ]
     }
   },
   {
@@ -263,7 +345,7 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
     }
   },
   {
@@ -300,6 +382,7 @@
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.0"
     },
     "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Weak",
       "CapsuleHalfHeight": 15.0,
       "CapsuleRadius": 15.0,
       "RelativeLocation": {
@@ -392,12 +475,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_MoonChild_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.3"
       }
     }
   },
@@ -412,12 +495,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_MoonChild_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.21"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.22"
       }
     }
   },
@@ -432,7 +515,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -446,7 +529,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
     }
   },
   {
@@ -460,7 +543,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -474,7 +557,17 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
+    }
+  },
+  {
+    "Type": "PalFlyMeshHeightCtrlComponent",
+    "Name": "PalFlyMeshHeightCtrl_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalFlyMeshHeightCtrlComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MoonChild_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.0"
     }
   },
   {
@@ -488,7 +581,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     }
   },
   {
@@ -502,175 +595,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
-    }
-  },
-  {
-    "Type": "PalPartnerSkillParameterComponent",
-    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_MoonChild_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.0"
-    },
-    "Template": {
-      "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
-    },
-    "Properties": {
-      "PassiveSkills": [
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "RegeneHPRate_IfNonBattle_PartnerSkill_1"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": true,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "RegeneHPRate_IfNonBattle_PartnerSkill_2"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": true,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "RegeneHPRate_IfNonBattle_PartnerSkill_3"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": true,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "RegeneHPRate_IfNonBattle_PartnerSkill_4"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": true,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "RegeneHPRate_IfNonBattle_PartnerSkill_5"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": true,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 1
-                }
-              }
-            }
-          ]
-        }
-      ]
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
     }
   },
   {
@@ -684,7 +609,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -698,12 +623,12 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_MoonChild_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.3"
       }
     }
   },
@@ -718,7 +643,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
       "AnimClass": {
@@ -727,15 +652,15 @@
       },
       "SkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_MoonChild'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/MoonChild/SK_MoonChild"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/MoonChild/SK_MoonChild.0"
       },
       "SkinnedAsset": {
         "ObjectName": "SkeletalMesh'SK_MoonChild'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/MoonChild/SK_MoonChild"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/MoonChild/SK_MoonChild.0"
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_MoonChild_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.3"
       },
       "RelativeLocation": {
         "X": 0.0,
@@ -755,73 +680,114 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 60.0,
       "MeshCapsuleRadius": 50.0,
+      "MeshRelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -60.0
+      },
+      "RandomRestMontageInfos": [
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_MoonChild_Rest01'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_Rest01.0"
+          },
+          "Weight": 0.3,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 5.0
+        },
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_MoonChild_Rest02'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_Rest02.0"
+          },
+          "Weight": 0.5,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 3.0
+        }
+      ],
       "GeneralMontageMap": [
         {
           "Key": "EPalGeneralMontageType::GeneralAttackReady_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_MoonChild_FarSkill_Start'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_FarSkill_Start"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_FarSkill_Start.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackReadyLoop_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_MoonChild_FarSkill_StartLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_FarSkill_StartLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_FarSkill_StartLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackProcess_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_MoonChild_FarSkill_Action'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_FarSkill_Action"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_FarSkill_Action.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackProcessLoop_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_MoonChild_FarSkill_ActionLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_FarSkill_ActionLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_FarSkill_ActionLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackAfter_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_MoonChild_FarSkill_End'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_FarSkill_End"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_FarSkill_End.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepStart",
           "Value": {
             "ObjectName": "AnimMontage'AM_MoonChild_SleepStart'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_SleepStart"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_SleepStart.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepLoop",
           "Value": {
             "ObjectName": "AnimMontage'AM_MoonChild_SleepLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_SleepLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_SleepLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepEnd",
           "Value": {
             "ObjectName": "AnimMontage'AM_MoonChild_SleepEnd'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_SleepEnd"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_SleepEnd.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::DamageAdditive",
           "Value": {
             "ObjectName": "AnimMontage'AM_MoonChild_Hit'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_Hit"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_Hit.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::BeLiftupStart",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MoonChild_Carrying_Start'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_Carrying_Start.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::BeLiftupLoop",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MoonChild_Carrying'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_Carrying.0"
           }
         }
       ],
@@ -841,79 +807,161 @@
           }
         }
       ],
+      "RagdollPresetMap": [
+        {
+          "Key": "EPalRagdollPresetType::BeLiftup",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_RagdollPreset_Liftup_MoonChild_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Ragdoll/BP_RagdollPreset_Liftup_MoonChild.0"
+          }
+        }
+      ],
       "ActionMontageMap": [
         {
           "Key": "EPalActionType::Menace",
           "Value": {
             "ObjectName": "AnimMontage'AM_MoonChild_Encount'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_Encount"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_Encount.0"
           }
         },
         {
           "Key": "EPalActionType::Eat",
           "Value": {
             "ObjectName": "AnimMontage'AM_MoonChild_Eat'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_Eat"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_Eat.0"
           }
         },
         {
           "Key": "EPalActionType::KnockBack",
           "Value": {
             "ObjectName": "AnimMontage'AM_MoonChild_Damage'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_Damage"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_Damage.0"
           }
         },
         {
           "Key": "EPalActionType::ForwardWalk",
           "Value": {
             "ObjectName": "AnimMontage'AM_MoonChild_Walk'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_Walk"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_Walk.0"
           }
         },
         {
           "Key": "EPalActionType::Architecture",
           "Value": {
             "ObjectName": "AnimMontage'AM_MoonChild_Architecture'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_Architecture"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_Architecture.0"
           }
         },
         {
           "Key": "EPalActionType::GetupUtubuse_orRight",
           "Value": {
             "ObjectName": "AnimMontage'AM_MoonChild_GetUp_FrontDown'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_GetUp_FrontDown"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_GetUp_FrontDown.0"
           }
         },
         {
           "Key": "EPalActionType::PalPetting",
           "Value": {
             "ObjectName": "AnimMontage'AM_MoonChild_Petting'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_Petting"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_Petting.0"
           }
         },
         {
           "Key": "EPalActionType::CommonWork",
           "Value": {
             "ObjectName": "AnimMontage'AM_MoonChild_CommonWork'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_CommonWork"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_CommonWork.0"
           }
         },
         {
           "Key": "EPalActionType::ElectricShock",
           "Value": {
             "ObjectName": "AnimMontage'AM_MoonChild_ElectricShock'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_ElectricShock"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_ElectricShock.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::DefenseGunner",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MoonChild_Gunner'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_Gunner.0"
           }
         },
         {
           "Key": "EPalActionType::IdleInSpa",
           "Value": {
             "ObjectName": "AnimMontage'AM_MoonChild_Spa'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_Spa"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MoonChild/AM_MoonChild_Spa.0"
           }
         }
       ],
-      "PettingSize": "EPalPettingSizeType::SmallMiddle"
+      "SleepOnSideInfoMapForMapObject": [
+        {
+          "Key": {
+            "Key": "MedicalPalBed_02"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -50.0,
+              "Y": 40.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_03"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -50.0,
+              "Y": 40.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_04"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -50.0,
+              "Y": 120.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        }
+      ],
+      "HPGaugeUIOffset": {
+        "X": 30.0,
+        "Y": -15.0
+      },
+      "GetupMotion_UtubuseOrRight_0FramePelvisLocation": {
+        "X": 0.957911,
+        "Y": 9.255961,
+        "Z": 23.884794
+      },
+      "PettingSize": "EPalPettingSizeType::SmallMiddle",
+      "DefenseBuildObjectAssignDistance": 15.0
     }
   },
   {
@@ -927,7 +975,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     }
   },
   {
@@ -941,7 +989,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -961,7 +1009,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_MoonChild_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.33"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -970,7 +1018,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_MoonChild_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.27"
       },
       "VariableGuid": "1E5BB566-438DB5FB-C6F873A7-10DD3C3E",
       "InternalVariableName": "DefaultSceneRoot"
@@ -983,7 +1031,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_MoonChild_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.33"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -992,7 +1040,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_MoonChild_C:PalBodyPartsCapsule_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.10"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.11"
       },
       "AttachToName": "pelvis",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1008,7 +1056,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_MoonChild_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.33"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -1017,7 +1065,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_MoonChild_C:PalBodyPartsCapsule1_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.6"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.7"
       },
       "AttachToName": "head",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1033,7 +1081,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_MoonChild_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.33"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -1042,7 +1090,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_MoonChild_C:PalBodyPartsCapsule2_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.7"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.8"
       },
       "AttachToName": "star_pelvis",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1058,7 +1106,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_MoonChild_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.33"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -1067,7 +1115,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_MoonChild_C:PalBodyPartsCapsule3_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.8"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.9"
       },
       "AttachToName": "hairA_01_l",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1083,7 +1131,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_MoonChild_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.33"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -1092,13 +1140,35 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_MoonChild_C:PalBodyPartsCapsule4_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.9"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.10"
       },
       "AttachToName": "hairA_01_r",
       "ParentComponentOrVariableName": "CharacterMesh0",
       "bIsParentComponentNative": true,
       "VariableGuid": "D83B0E50-4EC6D608-1813F689-A049468A",
       "InternalVariableName": "PalBodyPartsCapsule4"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MoonChild_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalFlyMeshHeightCtrlComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalFlyMeshHeightCtrlComponent'BP_MoonChild_C:PalFlyMeshHeightCtrl_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.18"
+      },
+      "VariableGuid": "C07740D9-49B2CCD4-006837BD-A032A689",
+      "InternalVariableName": "PalFlyMeshHeightCtrl"
     }
   },
   {
@@ -1114,50 +1184,58 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'BP_MoonChild_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.28"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_MoonChild_C:SimpleConstructionScript_0.SCS_Node_2'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.29"
         },
         {
-          "ObjectName": "SCS_Node'BP_MoonChild_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectName": "SCS_Node'BP_MoonChild_C:SimpleConstructionScript_0.SCS_Node_2'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.30"
         },
         {
-          "ObjectName": "SCS_Node'BP_MoonChild_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectName": "SCS_Node'BP_MoonChild_C:SimpleConstructionScript_0.SCS_Node_3'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.31"
         },
         {
-          "ObjectName": "SCS_Node'BP_MoonChild_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectName": "SCS_Node'BP_MoonChild_C:SimpleConstructionScript_0.SCS_Node_4'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MoonChild_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MoonChild_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.34"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'BP_MoonChild_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.28"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_MoonChild_C:SimpleConstructionScript_0.SCS_Node_2'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.29"
         },
         {
-          "ObjectName": "SCS_Node'BP_MoonChild_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectName": "SCS_Node'BP_MoonChild_C:SimpleConstructionScript_0.SCS_Node_2'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.30"
         },
         {
-          "ObjectName": "SCS_Node'BP_MoonChild_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectName": "SCS_Node'BP_MoonChild_C:SimpleConstructionScript_0.SCS_Node_3'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.31"
         },
         {
-          "ObjectName": "SCS_Node'BP_MoonChild_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectName": "SCS_Node'BP_MoonChild_C:SimpleConstructionScript_0.SCS_Node_4'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MoonChild_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MoonChild_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.34"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_MoonChild_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.27"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.28"
       }
     }
   },
@@ -1172,12 +1250,12 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_MoonChild_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonChild/BP_MoonChild.3"
       }
     }
   }

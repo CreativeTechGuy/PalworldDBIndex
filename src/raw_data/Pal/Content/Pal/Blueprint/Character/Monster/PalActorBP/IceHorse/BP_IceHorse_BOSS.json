@@ -54,7 +54,7 @@
   {
     "Type": "BP_IceHorse_BOSS_C",
     "Name": "Default__BP_IceHorse_BOSS_C",
-    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceHorse/BP_IceHorse_BOSS.BP_IceHorse_BOSS_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceHorse/BP_IceHorse_BOSS",
     "Template": {
@@ -259,7 +259,7 @@
       "RelativeLocation": {
         "X": 0.0,
         "Y": 0.0,
-        "Z": 80.0
+        "Z": 0.0
       }
     }
   },
@@ -358,7 +358,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_IceHorse_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceHorse/BP_IceHorse.22"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceHorse/BP_IceHorse.21"
     }
   },
   {
@@ -372,53 +372,71 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_IceHorse_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceHorse/BP_IceHorse.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceHorse/BP_IceHorse.22"
     },
     "Properties": {
-      "WalkCameraArmLength": 1400.0,
+      "WalkCameraArmLength": 800.0,
       "WalkCameraOffset": {
         "X": 0.0,
-        "Y": 200.0,
-        "Z": 270.0
+        "Y": 150.0,
+        "Z": 175.0
       },
-      "AimCameraArmLength": 400.0,
+      "HipShootCameraArmLength": 800.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 150.0,
+        "Z": 175.0
+      },
+      "AimCameraArmLength": 650.0,
       "AimCameraOffset": {
         "X": 0.0,
-        "Y": 90.0,
-        "Z": 150.0
+        "Y": 150.0,
+        "Z": 200.0
       },
-      "AirCameraArmLength": 1400.0,
+      "AirCameraArmLength": 800.0,
       "AirCameraOffset": {
         "X": 0.0,
-        "Y": 200.0,
-        "Z": 270.0
+        "Y": 150.0,
+        "Z": 175.0
       },
-      "AirAimCameraArmLength": 400.0,
+      "AirHipShootCameraArmLength": 800.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 150.0,
+        "Z": 175.0
+      },
+      "AirAimCameraArmLength": 650.0,
       "AirAimCameraOffset": {
         "X": 0.0,
-        "Y": 90.0,
-        "Z": 150.0
+        "Y": 150.0,
+        "Z": 200.0
       },
-      "FlyCameraArmLength": 1400.0,
+      "FlyCameraArmLength": 800.0,
       "FlyCameraOffset": {
         "X": 0.0,
         "Y": 200.0,
-        "Z": 350.0
+        "Z": 225.0
       },
-      "FlyAimCameraArmLength": 400.0,
+      "FlyHipShootCameraArmLength": 800.0,
+      "FlyHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 200.0,
+        "Z": 225.0
+      },
+      "FlyAimCameraArmLength": 650.0,
       "FlyAimCameraOffset": {
         "X": 0.0,
-        "Y": 90.0,
-        "Z": 200.0
+        "Y": 150.0,
+        "Z": 250.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_IceHorse_BOSS_C:CollisionCylinder'",
         "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceHorse/BP_IceHorse_BOSS.3"
       },
       "RelativeLocation": {
-        "X": 9.732186E-08,
+        "X": 0.0,
         "Y": 0.0,
-        "Z": 129.84442
+        "Z": 279.84442
       }
     }
   },
@@ -433,7 +451,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_IceHorse_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceHorse/BP_IceHorse.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceHorse/BP_IceHorse.23"
     },
     "Properties": {
       "AttachParent": {
@@ -458,7 +476,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_IceHorse_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceHorse/BP_IceHorse.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceHorse/BP_IceHorse.25"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 240.0,
@@ -541,7 +559,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_IceHorse_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceHorse/BP_IceHorse.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceHorse/BP_IceHorse.26"
     }
   },
   {
@@ -555,7 +573,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_IceHorse_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceHorse/BP_IceHorse.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceHorse/BP_IceHorse.27"
     }
   },
   {
@@ -654,7 +672,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_IceHorse_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceHorse/BP_IceHorse.38"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceHorse/BP_IceHorse.37"
     },
     "Properties": {
       "AttachParent": {

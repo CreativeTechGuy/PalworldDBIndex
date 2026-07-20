@@ -54,7 +54,7 @@
   {
     "Type": "BP_Kirin_BOSS_C",
     "Name": "Default__BP_Kirin_BOSS_C",
-    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_BOSS.BP_Kirin_BOSS_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_BOSS",
     "Template": {
@@ -552,7 +552,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_Kirin_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.35"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.34"
     }
   },
   {
@@ -566,7 +566,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_Kirin_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.36"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.35"
     },
     "Properties": {
       "WalkCameraArmLength": 900.0,
@@ -615,7 +615,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_Kirin_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.37"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.36"
     },
     "Properties": {
       "AttachParent": {
@@ -640,7 +640,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_Kirin_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.39"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.38"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 220.0,
@@ -658,12 +658,12 @@
           "Value": {
             "LocationOffset": {
               "X": -30.0,
-              "Y": 20.0,
+              "Y": -120.0,
               "Z": 0.0
             },
             "RotatorOffset": {
               "Pitch": 0.0,
-              "Yaw": 0.0,
+              "Yaw": 180.0,
               "Roll": 0.0
             },
             "bShouldApply": true
@@ -676,12 +676,12 @@
           "Value": {
             "LocationOffset": {
               "X": -30.0,
-              "Y": 20.0,
+              "Y": -120.0,
               "Z": 0.0
             },
             "RotatorOffset": {
               "Pitch": 0.0,
-              "Yaw": 0.0,
+              "Yaw": 180.0,
               "Roll": 0.0
             },
             "bShouldApply": true
@@ -694,12 +694,12 @@
           "Value": {
             "LocationOffset": {
               "X": -30.0,
-              "Y": 100.0,
+              "Y": 0.0,
               "Z": 0.0
             },
             "RotatorOffset": {
               "Pitch": 0.0,
-              "Yaw": 0.0,
+              "Yaw": 180.0,
               "Roll": 0.0
             },
             "bShouldApply": true
@@ -727,7 +727,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_Kirin_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.40"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.39"
     }
   },
   {
@@ -741,7 +741,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_Kirin_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.40"
     }
   },
   {
@@ -840,7 +840,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_Kirin_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.54"
     },
     "Properties": {
       "AttachParent": {

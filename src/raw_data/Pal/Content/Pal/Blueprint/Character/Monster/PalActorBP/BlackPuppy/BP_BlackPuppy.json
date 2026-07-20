@@ -12,7 +12,7 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_BlackPuppy_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.36"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.35"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_BlackPuppy_C:InheritableComponentHandler'",
@@ -131,7 +131,7 @@
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_BlackPuppy_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.25"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.24"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_BlackPuppy_C:DamageReactionComponent'",
@@ -139,11 +139,11 @@
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_BlackPuppy_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.25"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_BlackPuppy_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.22"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_BlackPuppy_C:FollowCamera'",
@@ -159,11 +159,11 @@
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_BlackPuppy_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.27"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.26"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_BlackPuppy_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.21"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_BlackPuppy_C:AnimNotifyComponent'",
@@ -175,11 +175,11 @@
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_BlackPuppy_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.37"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.36"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_BlackPuppy_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.23"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_BlackPuppy_C:CharMoveComp'",
@@ -244,28 +244,6 @@
       "Records": [
         {
           "ComponentClass": {
-            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-            "ObjectPath": "/Script/Pal"
-          },
-          "ComponentTemplate": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_BlackPuppy_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.21"
-          },
-          "ComponentKey": {
-            "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-            },
-            "SCSVariableName": "PalPartnerSkillParameter",
-            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
-          },
-          "CookedComponentInstancingData": {
-            "ChangedPropertyList": [],
-            "bHasValidCookedData": false
-          }
-        },
-        {
-          "ComponentClass": {
             "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
             "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
           },
@@ -300,7 +278,7 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
     },
     "Properties": {
       "ActionMap": [
@@ -332,7 +310,7 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
     }
   },
   {
@@ -486,7 +464,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
@@ -506,12 +484,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_BlackPuppy_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.22"
       }
     }
   },
@@ -526,7 +504,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -540,7 +518,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
     },
     "Properties": {
       "InWaterRate": 0.56,
@@ -558,7 +536,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -572,7 +550,7 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
     }
   },
   {
@@ -586,7 +564,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     }
   },
   {
@@ -600,208 +578,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
-    }
-  },
-  {
-    "Type": "PalPartnerSkillParameterComponent",
-    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_BlackPuppy_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.0"
-    },
-    "Template": {
-      "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
-    },
-    "Properties": {
-      "RestrictionItems": [
-        {
-          "Key": "SkillUnlock_BlackPuppy"
-        }
-      ],
-      "SkillName": "SearchDungeon",
-      "PassiveSkills": [
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "CollectItemDrop_PartnerSkill_Otomo_1"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [
-                    {
-                      "Key": "Chromium"
-                    }
-                  ],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "CollectItemDrop_PartnerSkill_Otomo_2"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [
-                    {
-                      "Key": "Chromium"
-                    }
-                  ],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "CollectItemDrop_PartnerSkill_Otomo_3"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [
-                    {
-                      "Key": "Chromium"
-                    }
-                  ],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "CollectItemDrop_PartnerSkill_Otomo_4"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [
-                    {
-                      "Key": "Chromium"
-                    }
-                  ],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "CollectItemDrop_PartnerSkill_Otomo_5"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [
-                    {
-                      "Key": "Chromium"
-                    }
-                  ],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        }
-      ],
-      "ActiveSkill_OverWriteCoolTimeByRank": [
-        3.0,
-        2.8,
-        2.6,
-        2.4,
-        2.0
-      ]
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
     }
   },
   {
@@ -815,7 +592,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -829,7 +606,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
       "AttachParent": {
@@ -854,7 +631,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
       "bIsEnableGroundTilt": true,
@@ -894,7 +671,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 45.0,
@@ -910,6 +687,13 @@
           "Value": {
             "ObjectName": "BlueprintGeneratedClass'BP_AIActionMetalDetector_C'",
             "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Coop/BP_AIActionMetalDetector.0"
+          }
+        },
+        {
+          "Key": "EPalAIActionType::SideMove",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AIAction_DashTurn_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Combat/BP_AIAction_DashTurn.0"
           }
         }
       ],
@@ -1109,8 +893,8 @@
         {
           "Key": "EPalActionType::CommonWork",
           "Value": {
-            "ObjectName": "AnimMontage'AM_BlackPuppy_Eat'",
-            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlackPuppy/AM_BlackPuppy_Eat.0"
+            "ObjectName": "AnimMontage'AM_BlackPuppy_Commonwork'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/BlackPuppy/AM_BlackPuppy_Commonwork.0"
           }
         },
         {
@@ -1198,10 +982,45 @@
           }
         }
       ],
+      "WazaActionDeclarationMap": [
+        {
+          "Key": "EPalWazaID::Unique_BlackPuppy_Bite",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/BlackPuppy/BP_UniqueAction_BlackPuppy_Bite.BP_UniqueAction_BlackPuppy_Bite_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EPalWazaID::Unique_BlackPuppy_BiteV2",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/BlackPuppy/BP_UniqueAction_BlackPuppy_BiteV2.BP_UniqueAction_BlackPuppy_BiteV2_C",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "NameToWazaIDConvertMap": [
+        {
+          "Key": "BiteV2",
+          "Value": "EPalWazaID::Unique_BlackPuppy_BiteV2"
+        }
+      ],
       "HPGaugeUIOffset": {
         "X": 20.0,
         "Y": -25.0
       },
+      "IsRightLeft_WakeupFromRagdoll": true,
+      "GetupMotion_UtubuseOrRight_0FramePelvisLocation": {
+        "X": -16.51467,
+        "Y": 0.166493,
+        "Z": 13.158325
+      },
+      "GetupMotion_AomukeOrLeft_0FramePelvisLocation": {
+        "X": 16.514843,
+        "Y": 0.166493,
+        "Z": 13.158028
+      },
+      "Ragdoll_RightLeftGetup_ForwardTailName": "spine_03",
+      "Ragdoll_RightLeftGetup_RightLegName": "leg_back_01_r",
       "PettingDistance": 110.0,
       "WaterEffectMap": [
         {
@@ -1209,7 +1028,7 @@
           "Value": {
             "Effect": {
               "ObjectName": "NiagaraSystem'NS_InWaterPal'",
-              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_InWaterPal.14"
+              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_InWaterPal.24"
             },
             "Offset": {
               "X": 30.0,
@@ -1233,7 +1052,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     }
   },
   {
@@ -1247,7 +1066,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -1267,7 +1086,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_BlackPuppy_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.36"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -1276,7 +1095,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_BlackPuppy_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.28"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.27"
       },
       "VariableGuid": "22BFC2DC-422E0812-791537A1-74AE1D3F",
       "InternalVariableName": "DefaultSceneRoot"
@@ -1289,7 +1108,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_BlackPuppy_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.36"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -1314,7 +1133,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_BlackPuppy_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.36"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -1339,7 +1158,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_BlackPuppy_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.36"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -1364,7 +1183,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_BlackPuppy_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.36"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -1389,7 +1208,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_BlackPuppy_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.36"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -1414,7 +1233,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_BlackPuppy_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.36"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -1445,58 +1264,58 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'BP_BlackPuppy_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.30"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.29"
         },
         {
           "ObjectName": "SCS_Node'BP_BlackPuppy_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.31"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.30"
         },
         {
           "ObjectName": "SCS_Node'BP_BlackPuppy_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.32"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.31"
         },
         {
           "ObjectName": "SCS_Node'BP_BlackPuppy_C:SimpleConstructionScript_0.SCS_Node_5'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.33"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.32"
         },
         {
           "ObjectName": "SCS_Node'BP_BlackPuppy_C:SimpleConstructionScript_0.SCS_Node_6'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.34"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.33"
         },
         {
           "ObjectName": "SCS_Node'BP_BlackPuppy_C:SimpleConstructionScript_0.SCS_Node_7'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.35"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.34"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'BP_BlackPuppy_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.30"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.29"
         },
         {
           "ObjectName": "SCS_Node'BP_BlackPuppy_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.31"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.30"
         },
         {
           "ObjectName": "SCS_Node'BP_BlackPuppy_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.32"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.31"
         },
         {
           "ObjectName": "SCS_Node'BP_BlackPuppy_C:SimpleConstructionScript_0.SCS_Node_5'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.33"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.32"
         },
         {
           "ObjectName": "SCS_Node'BP_BlackPuppy_C:SimpleConstructionScript_0.SCS_Node_6'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.34"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.33"
         },
         {
           "ObjectName": "SCS_Node'BP_BlackPuppy_C:SimpleConstructionScript_0.SCS_Node_7'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.35"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.34"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_BlackPuppy_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.29"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackPuppy/BP_BlackPuppy.28"
       }
     }
   },
@@ -1511,7 +1330,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {

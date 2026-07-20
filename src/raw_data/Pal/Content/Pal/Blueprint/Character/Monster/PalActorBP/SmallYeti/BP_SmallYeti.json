@@ -12,11 +12,11 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_SmallYeti_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.27"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_SmallYeti_C:InheritableComponentHandler'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.3"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.4"
       }
     },
     "SuperStruct": {
@@ -24,6 +24,17 @@
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
     },
     "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsSphere1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsSphereComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
       {
         "Type": "ObjectProperty",
         "Name": "PalBodyPartsSphere",
@@ -45,16 +56,33 @@
     "bCooked": true,
     "ClassDefaultObject": {
       "ObjectName": "BP_SmallYeti_C'Default__BP_SmallYeti_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.2"
     },
     "EditorTags": {
       "BlueprintType": "BPTYPE_Normal"
     }
   },
   {
+    "Type": "BP_PalCryComponent_C",
+    "Name": "BP_PalCryComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.BP_PalCryComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SmallYeti_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalCryComponent_C'BP_MonsterBase_C:BP_PalCryComponent_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.2"
+    },
+    "Properties": {
+      "CryPalID": "EPalTribeID::SmallYeti"
+    }
+  },
+  {
     "Type": "BP_SmallYeti_C",
     "Name": "Default__BP_SmallYeti_C",
-    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.BP_SmallYeti_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti",
     "Template": {
@@ -64,79 +92,79 @@
     "Properties": {
       "LiftupObjectComponent": {
         "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_SmallYeti_C:Liftup'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.9"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.11"
       },
       "ActionComponent": {
         "ObjectName": "PalActionComponent'Default__BP_SmallYeti_C:ActionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.4"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.5"
       },
       "CharacterParameterComponent": {
         "ObjectName": "PalCharacterParameterComponent'Default__BP_SmallYeti_C:CharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.11"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.13"
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_SmallYeti_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.18"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.20"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_SmallYeti_C:DamageReactionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.12"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.14"
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_SmallYeti_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.19"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.21"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_SmallYeti_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.16"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.18"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_SmallYeti_C:FollowCamera'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.8"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.10"
       },
       "LookAtComponent": {
         "ObjectName": "PalLookAtComponent'Default__BP_SmallYeti_C:LookAtComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.14"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.16"
       },
       "FootIKComponent": {
         "ObjectName": "PalFootIKComponent'Default__BP_SmallYeti_C:FootIKComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.13"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.15"
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_SmallYeti_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.20"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.22"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_SmallYeti_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.15"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.17"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_SmallYeti_C:AnimNotifyComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.5"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.6"
       },
       "AroundInfoCollectorComponent": {
         "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_SmallYeti_C:AroundInfoCollectorComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.7"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.9"
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_SmallYeti_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.25"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.28"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_SmallYeti_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.17"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.19"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_SmallYeti_C:CharMoveComp'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.10"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.12"
       },
       "CapsuleComponent": {
         "ObjectName": "CapsuleComponent'Default__BP_SmallYeti_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.3"
       },
       "RootComponent": {
         "ObjectName": "CapsuleComponent'Default__BP_SmallYeti_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.3"
       }
     }
   },
@@ -147,7 +175,7 @@
     "Class": "UScriptClass'CapsuleComponent'",
     "Outer": {
       "ObjectName": "BP_SmallYeti_C'Default__BP_SmallYeti_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.2"
     },
     "Template": {
       "ObjectName": "CapsuleComponent'Default__BP_MonsterBase_C:CollisionCylinder'",
@@ -166,6 +194,32 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'BP_SmallYeti_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
+            "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BP_PalCryComponent_C'BP_SmallYeti_C:BP_PalCryComponent_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.1"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+            },
+            "SCSVariableName": "BP_PalCryComponent",
+            "AssociatedGuid": "A971BE27-4B3C10FC-863FA284-ECDC3286"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
     }
   },
   {
@@ -175,11 +229,11 @@
     "Class": "UScriptClass'PalActionComponent'",
     "Outer": {
       "ObjectName": "BP_SmallYeti_C'Default__BP_SmallYeti_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.2"
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
     }
   },
   {
@@ -189,11 +243,34 @@
     "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
     "Outer": {
       "ObjectName": "BP_SmallYeti_C'Default__BP_SmallYeti_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.2"
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+    }
+  },
+  {
+    "Type": "PalBodyPartsSphereComponent",
+    "Name": "PalBodyPartsSphere1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsSphereComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SmallYeti_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.0"
+    },
+    "Properties": {
+      "SphereRadius": 45.0,
+      "RelativeLocation": {
+        "X": 10.0,
+        "Y": 5.0,
+        "Z": -0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
     }
   },
   {
@@ -206,11 +283,17 @@
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.0"
     },
     "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Weak",
       "SphereRadius": 45.0,
+      "RelativeLocation": {
+        "X": 10.0,
+        "Y": 5.0,
+        "Z": -1.1990409E-14
+      },
       "RelativeRotation": {
         "Pitch": 0.0,
         "Yaw": 90.0,
-        "Roll": -0.0
+        "Roll": 0.0
       }
     }
   },
@@ -221,16 +304,16 @@
     "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
     "Outer": {
       "ObjectName": "BP_SmallYeti_C'Default__BP_SmallYeti_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.2"
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_SmallYeti_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.3"
       }
     }
   },
@@ -241,16 +324,16 @@
     "Class": "UScriptClass'PalCharacterCameraComponent'",
     "Outer": {
       "ObjectName": "BP_SmallYeti_C'Default__BP_SmallYeti_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.2"
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_SmallYeti_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.16"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.18"
       }
     }
   },
@@ -261,11 +344,11 @@
     "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
     "Outer": {
       "ObjectName": "BP_SmallYeti_C'Default__BP_SmallYeti_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.2"
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -275,11 +358,15 @@
     "Class": "UScriptClass'PalCharacterMovementComponent'",
     "Outer": {
       "ObjectName": "BP_SmallYeti_C'Default__BP_SmallYeti_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.2"
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+    },
+    "Properties": {
+      "InWaterRate": 0.59,
+      "Buoyancy": 1.6
     }
   },
   {
@@ -289,11 +376,11 @@
     "Class": "UScriptClass'PalCharacterParameterComponent'",
     "Outer": {
       "ObjectName": "BP_SmallYeti_C'Default__BP_SmallYeti_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.2"
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -303,11 +390,11 @@
     "Class": "UScriptClass'PalDamageReactionComponent'",
     "Outer": {
       "ObjectName": "BP_SmallYeti_C'Default__BP_SmallYeti_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.2"
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
     }
   },
   {
@@ -317,11 +404,11 @@
     "Class": "UScriptClass'PalFootIKComponent'",
     "Outer": {
       "ObjectName": "BP_SmallYeti_C'Default__BP_SmallYeti_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.2"
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     }
   },
   {
@@ -331,11 +418,11 @@
     "Class": "UScriptClass'PalLookAtComponent'",
     "Outer": {
       "ObjectName": "BP_SmallYeti_C'Default__BP_SmallYeti_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.2"
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
     }
   },
   {
@@ -345,11 +432,11 @@
     "Class": "UScriptClass'PalPassiveSkillComponent'",
     "Outer": {
       "ObjectName": "BP_SmallYeti_C'Default__BP_SmallYeti_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.2"
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -359,16 +446,16 @@
     "Class": "UScriptClass'PalShooterSpringArmComponent'",
     "Outer": {
       "ObjectName": "BP_SmallYeti_C'Default__BP_SmallYeti_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.2"
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_SmallYeti_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.3"
       }
     }
   },
@@ -379,11 +466,11 @@
     "Class": "UScriptClass'PalSkeletalMeshComponent'",
     "Outer": {
       "ObjectName": "BP_SmallYeti_C'Default__BP_SmallYeti_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.2"
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
       "AnimClass": {
@@ -392,15 +479,15 @@
       },
       "SkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_SmallYeti'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/SmallYeti/SK_SmallYeti"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/SmallYeti/SK_SmallYeti.0"
       },
       "SkinnedAsset": {
         "ObjectName": "SkeletalMesh'SK_SmallYeti'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/SmallYeti/SK_SmallYeti"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/SmallYeti/SK_SmallYeti.0"
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_SmallYeti_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.3"
       },
       "RelativeLocation": {
         "X": 0.0,
@@ -416,28 +503,65 @@
     "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
     "Outer": {
       "ObjectName": "BP_SmallYeti_C'Default__BP_SmallYeti_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.2"
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 60.0,
       "MeshCapsuleRadius": 60.0,
+      "MeshRelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -60.0
+      },
+      "RandomRestMontageInfos": [
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_SmallYeti_Rest01'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_Rest01.0"
+          },
+          "Weight": 0.5,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 3.0
+        },
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_SmallYeti_Rest02'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_Rest02.0"
+          },
+          "Weight": 0.5,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 3,
+          "AfterIdleTime": 3.0
+        },
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_SmallYeti_Eat'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_Eat.0"
+          },
+          "Weight": 0.4,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 4.0
+        }
+      ],
       "GeneralAnimSequenceMap": [
         {
           "Key": "EPalGeneralAnimSequenceType::JumpLoop",
           "Value": {
             "ObjectName": "AnimSequence'AS_SmallYeti_JumpLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/SmallYeti/AS_SmallYeti_JumpLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SmallYeti/AS_SmallYeti_JumpLoop.0"
           }
         },
         {
           "Key": "EPalGeneralAnimSequenceType::JumpEnd",
           "Value": {
             "ObjectName": "AnimSequence'AS_SmallYeti_JumpEnd'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/SmallYeti/AS_SmallYeti_JumpEnd"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SmallYeti/AS_SmallYeti_JumpEnd.0"
           }
         }
       ],
@@ -446,63 +570,63 @@
           "Key": "EPalGeneralMontageType::GeneralAttackReady_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_SmallYeti_FarSkill_Start'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_FarSkill_Start"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_FarSkill_Start.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackReadyLoop_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_SmallYeti_FarSkill_StartLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_FarSkill_StartLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_FarSkill_StartLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackProcess_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_SmallYeti_FarSkill_Action'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_FarSkill_Action"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_FarSkill_Action.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackProcessLoop_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_SmallYeti_FarSkill_ActionLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_FarSkill_ActionLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_FarSkill_ActionLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackAfter_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_SmallYeti_FarSkill_End'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_FarSkill_End"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_FarSkill_End.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepStart",
           "Value": {
             "ObjectName": "AnimMontage'AM_SmallYeti_SleepStart'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_SleepStart"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_SleepStart.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepLoop",
           "Value": {
             "ObjectName": "AnimMontage'AM_SmallYeti_SleepLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_SleepLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_SleepLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepEnd",
           "Value": {
             "ObjectName": "AnimMontage'AM_SmallYeti_SleepEnd'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_SleepEnd"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_SleepEnd.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::DamageAdditive",
           "Value": {
             "ObjectName": "AnimMontage'AM_SmallYeti_Hit'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_Hit"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_Hit.0"
           }
         }
       ],
@@ -512,6 +636,13 @@
           "Value": {
             "ObjectName": "BlendSpace1D'BS_Move_SmallYeti'",
             "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BS_Move_SmallYeti.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralBlendSpaceType::Swim",
+          "Value": {
+            "ObjectName": "BlendSpace1D'BS_Swim_SmallYeti'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BS_Swim_SmallYeti.0"
           }
         },
         {
@@ -527,89 +658,196 @@
           "Key": "EPalActionType::Menace",
           "Value": {
             "ObjectName": "AnimMontage'AM_SmallYeti_Encount'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_Encount"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_Encount.0"
           }
         },
         {
           "Key": "EPalActionType::Eat",
           "Value": {
             "ObjectName": "AnimMontage'AM_SmallYeti_Eat'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_Eat"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_Eat.0"
           }
         },
         {
           "Key": "EPalActionType::KnockBack",
           "Value": {
             "ObjectName": "AnimMontage'AM_SmallYeti_Damage'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_Damage"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_Damage.0"
           }
         },
         {
           "Key": "EPalActionType::ForwardWalk",
           "Value": {
             "ObjectName": "AnimMontage'AM_SmallYeti_Walk'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_Walk"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_Walk.0"
           }
         },
         {
           "Key": "EPalActionType::Architecture",
           "Value": {
             "ObjectName": "AnimMontage'AM_SmallYeti_Architecture'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_Architecture"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_Architecture.0"
           }
         },
         {
           "Key": "EPalActionType::Mining",
           "Value": {
             "ObjectName": "AnimMontage'AM_SmallYeti_Mining'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_Mining"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_Mining.0"
           }
         },
         {
           "Key": "EPalActionType::GetupUtubuse_orRight",
           "Value": {
             "ObjectName": "AnimMontage'AM_SmallYeti_GetUp_FrontDown'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_GetUp_FrontDown"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_GetUp_FrontDown.0"
           }
         },
         {
           "Key": "EPalActionType::PalPetting",
           "Value": {
             "ObjectName": "AnimMontage'AM_SmallYeti_Petting'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_Petting"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_Petting.0"
           }
         },
         {
           "Key": "EPalActionType::CommonWork",
           "Value": {
             "ObjectName": "AnimMontage'AM_SmallYeti_CommonWork'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_CommonWork"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_CommonWork.0"
           }
         },
         {
           "Key": "EPalActionType::ElectricShock",
           "Value": {
             "ObjectName": "AnimMontage'AM_SmallYeti_ElectricShock'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_ElectricShock"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_ElectricShock.0"
           }
         },
         {
           "Key": "EPalActionType::Cool",
           "Value": {
             "ObjectName": "AnimMontage'AM_SmallYeti_Cooling'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_Cooling"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_Cooling.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::DefenseGunner",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_SmallYeti_Gunner'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_Gunner.0"
           }
         },
         {
           "Key": "EPalActionType::IdleInSpa",
           "Value": {
             "ObjectName": "AnimMontage'AM_SmallYeti_Spa'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_Spa"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/SmallYeti/AM_SmallYeti_Spa.0"
           }
         }
       ],
+      "SleepOnSideInfoMapForMapObject": [
+        {
+          "Key": {
+            "Key": "MedicalPalBed_02"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -20.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 180.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_03"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -20.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 180.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_04"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -20.0,
+              "Y": 80.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 180.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        }
+      ],
+      "HPGaugeUIOffset": {
+        "X": 25.0,
+        "Y": 0.0
+      },
+      "GetupMotion_UtubuseOrRight_0FramePelvisLocation": {
+        "X": -0.0,
+        "Y": -11.775958,
+        "Z": 21.17312
+      },
       "PettingSize": "EPalPettingSizeType::SmallMiddle",
-      "PettingDistance": 110.0
+      "PettingDistance": 110.0,
+      "DefenseBuildObjectAssignDistance": 20.0,
+      "WaterEffectMap": [
+        {
+          "Key": "EPalWaterEffectType::SwimMove",
+          "Value": {
+            "Effect": {
+              "ObjectName": "NiagaraSystem'NS_DrownPal'",
+              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_DrownPal.41"
+            },
+            "Offset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": 1.0
+          }
+        },
+        {
+          "Key": "EPalWaterEffectType::SwimIdle",
+          "Value": {
+            "Effect": {
+              "ObjectName": "NiagaraSystem'NS_DrownPal'",
+              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_DrownPal.41"
+            },
+            "Offset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale": 1.0
+          }
+        }
+      ],
+      "InWaterFacialEyeType": "EPalFacialEyeType::Pain",
+      "InWaterFacialMouthType": "EPalFacialMouthType::Pain"
     }
   },
   {
@@ -619,11 +857,11 @@
     "Class": "UScriptClass'PalStatusComponent'",
     "Outer": {
       "ObjectName": "BP_SmallYeti_C'Default__BP_SmallYeti_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.2"
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     }
   },
   {
@@ -633,11 +871,11 @@
     "Class": "UScriptClass'PalVisualEffectComponent'",
     "Outer": {
       "ObjectName": "BP_SmallYeti_C'Default__BP_SmallYeti_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.2"
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -657,7 +895,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_SmallYeti_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.27"
     },
     "Properties": {
       "ComponentClass": {
@@ -666,10 +904,35 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_SmallYeti_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.21"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.23"
       },
       "VariableGuid": "6145A490-43072E9E-053DABBE-D237BDAB",
       "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SmallYeti_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.27"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsSphereComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsSphereComponent'BP_SmallYeti_C:PalBodyPartsSphere1_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.7"
+      },
+      "AttachToName": "pelvis",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "2B862BC9-46AFA9A7-2C24B8A7-E3144C68",
+      "InternalVariableName": "PalBodyPartsSphere1"
     }
   },
   {
@@ -679,7 +942,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_SmallYeti_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.27"
     },
     "Properties": {
       "ComponentClass": {
@@ -688,7 +951,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsSphereComponent'BP_SmallYeti_C:PalBodyPartsSphere_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.6"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.8"
       },
       "AttachToName": "head",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -710,18 +973,26 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'BP_SmallYeti_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.23"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SmallYeti_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.25"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'BP_SmallYeti_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.23"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SmallYeti_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.25"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_SmallYeti_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.24"
       }
     }
   },
@@ -732,16 +1003,16 @@
     "Class": "UScriptClass'SphereComponent'",
     "Outer": {
       "ObjectName": "BP_SmallYeti_C'Default__BP_SmallYeti_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.2"
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_SmallYeti_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SmallYeti/BP_SmallYeti.3"
       }
     }
   }

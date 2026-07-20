@@ -348,7 +348,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_GhostBeast_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostBeast/BP_GhostBeast.20"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostBeast/BP_GhostBeast.19"
     }
   },
   {
@@ -362,32 +362,62 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_GhostBeast_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostBeast/BP_GhostBeast.21"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostBeast/BP_GhostBeast.20"
     },
     "Properties": {
-      "WalkCameraArmLength": 750.0,
+      "WalkCameraArmLength": 500.0,
       "WalkCameraOffset": {
         "X": 0.0,
-        "Y": 120.0,
+        "Y": 100.0,
         "Z": 120.0
       },
-      "AimCameraArmLength": 235.0,
-      "AimCameraOffset": {
-        "X": 60.0,
-        "Y": 53.0,
-        "Z": 80.0
+      "HipShootCameraArmLength": 500.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 100.0,
+        "Z": 120.0
       },
-      "AirCameraArmLength": 750.0,
+      "AimCameraArmLength": 250.0,
+      "AimCameraOffset": {
+        "X": 0.0,
+        "Y": 100.0,
+        "Z": 120.0
+      },
+      "AirCameraArmLength": 500.0,
       "AirCameraOffset": {
         "X": 0.0,
-        "Y": 120.0,
+        "Y": 100.0,
         "Z": 120.0
       },
-      "AirAimCameraArmLength": 235.0,
+      "AirHipShootCameraArmLength": 500.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 100.0,
+        "Z": 120.0
+      },
+      "AirAimCameraArmLength": 250.0,
       "AirAimCameraOffset": {
-        "X": 60.0,
-        "Y": 53.0,
-        "Z": 80.0
+        "X": 0.0,
+        "Y": 100.0,
+        "Z": 120.0
+      },
+      "FlyCameraArmLength": 500.0,
+      "FlyCameraOffset": {
+        "X": 0.0,
+        "Y": 100.0,
+        "Z": 120.0
+      },
+      "FlyHipShootCameraArmLength": 500.0,
+      "FlyHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 100.0,
+        "Z": 120.0
+      },
+      "FlyAimCameraArmLength": 250.0,
+      "FlyAimCameraOffset": {
+        "X": 0.0,
+        "Y": 100.0,
+        "Z": 120.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_GhostBeast_BOSS_C:CollisionCylinder'",
@@ -411,7 +441,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_GhostBeast_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostBeast/BP_GhostBeast.22"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostBeast/BP_GhostBeast.21"
     },
     "Properties": {
       "AttachParent": {
@@ -436,7 +466,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_GhostBeast_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostBeast/BP_GhostBeast.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostBeast/BP_GhostBeast.22"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 180.0,
@@ -522,7 +552,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_GhostBeast_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostBeast/BP_GhostBeast.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostBeast/BP_GhostBeast.23"
     }
   },
   {
@@ -536,7 +566,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_GhostBeast_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostBeast/BP_GhostBeast.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostBeast/BP_GhostBeast.24"
     }
   },
   {
@@ -635,7 +665,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_GhostBeast_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostBeast/BP_GhostBeast.32"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostBeast/BP_GhostBeast.31"
     },
     "Properties": {
       "AttachParent": {

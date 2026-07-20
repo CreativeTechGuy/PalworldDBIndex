@@ -79,11 +79,11 @@ for (const [fishShadowId, fishShadow] of Object.entries(fishShadowData)) {
     let nightOnly = true;
     // 8000 is the radius for pals obtained from fishing
     if (spawnPoints?.dayTimeLocations.Radius === 8000) {
-        locations.push(...spawnPoints.dayTimeLocations.locations);
+        locations.push(...spawnPoints.dayTimeLocations.Locations);
         nightOnly = false;
     }
     if (spawnPoints?.nightTimeLocations.Radius === 8000) {
-        locations.push(...spawnPoints.nightTimeLocations.locations);
+        locations.push(...spawnPoints.nightTimeLocations.Locations);
     }
     if (locations.length === 0) {
         continue;

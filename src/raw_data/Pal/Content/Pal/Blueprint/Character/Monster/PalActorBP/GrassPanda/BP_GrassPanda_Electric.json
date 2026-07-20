@@ -12,7 +12,7 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_GrassPanda_Electric_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.25"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_GrassPanda_Electric_C:InheritableComponentHandler'",
@@ -88,7 +88,7 @@
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_GrassPanda_Electric_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.20"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.19"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_GrassPanda_Electric_C:DamageReactionComponent'",
@@ -96,11 +96,11 @@
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_GrassPanda_Electric_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.21"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.20"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_GrassPanda_Electric_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.18"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.17"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_GrassPanda_Electric_C:FollowCamera'",
@@ -116,11 +116,11 @@
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_GrassPanda_Electric_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.21"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_GrassPanda_Electric_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.17"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.16"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_GrassPanda_Electric_C:AnimNotifyComponent'",
@@ -132,11 +132,11 @@
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_GrassPanda_Electric_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.27"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.26"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_GrassPanda_Electric_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.19"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.18"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_GrassPanda_Electric_C:CharMoveComp'",
@@ -217,11 +217,11 @@
     },
     "Super": {
       "ObjectName": "Function'BP_MonsterBase_C:GetVisual_ExceptMainMesh_SyncAnyway'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.15"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.16"
     },
     "SuperStruct": {
       "ObjectName": "Function'BP_MonsterBase_C:GetVisual_ExceptMainMesh_SyncAnyway'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.15"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.16"
     },
     "ChildProperties": [
       {
@@ -277,32 +277,6 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'BP_GrassPanda_Electric_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.0"
-    },
-    "Properties": {
-      "Records": [
-        {
-          "ComponentClass": {
-            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-            "ObjectPath": "/Script/Pal"
-          },
-          "ComponentTemplate": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_GrassPanda_Electric_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.16"
-          },
-          "ComponentKey": {
-            "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-            },
-            "SCSVariableName": "PalPartnerSkillParameter",
-            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
-          },
-          "CookedComponentInstancingData": {
-            "ChangedPropertyList": [],
-            "bHasValidCookedData": false
-          }
-        }
-      ]
     }
   },
   {
@@ -369,7 +343,7 @@
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_GrassPanda_Electric_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.18"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.17"
       }
     }
   },
@@ -458,27 +432,6 @@
     }
   },
   {
-    "Type": "PalPartnerSkillParameterComponent",
-    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_GrassPanda_Electric_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.0"
-    },
-    "Template": {
-      "ObjectName": "PalPartnerSkillParameterComponent'BP_GrassPanda_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.20"
-    },
-    "Properties": {
-      "RestrictionItems": [
-        {
-          "Key": "SkillUnlock_GrassPanda_Electric"
-        }
-      ]
-    }
-  },
-  {
     "Type": "PalPassiveSkillComponent",
     "Name": "PassiveSkillComponent",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
@@ -489,7 +442,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_GrassPanda_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.21"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.20"
     }
   },
   {
@@ -503,7 +456,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_GrassPanda_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.23"
     },
     "Properties": {
       "AttachParent": {
@@ -523,7 +476,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_GrassPanda_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.24"
     },
     "Properties": {
       "SkeletalMesh": {
@@ -551,7 +504,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_GrassPanda_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.26"
     },
     "Properties": {
       "ElectricActionInfo": {
@@ -582,7 +535,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_GrassPanda_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.27"
     }
   },
   {
@@ -596,7 +549,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_GrassPanda_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.29"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.28"
     }
   },
   {
@@ -616,7 +569,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_GrassPanda_Electric_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.25"
     },
     "Properties": {
       "ComponentClass": {
@@ -625,7 +578,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_GrassPanda_Electric_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.22"
       },
       "VariableGuid": "4155D413-43465CB1-6A6D0985-2C17512E",
       "InternalVariableName": "DefaultSceneRoot"
@@ -638,7 +591,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_GrassPanda_Electric_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.25"
     },
     "Properties": {
       "ComponentClass": {
@@ -668,18 +621,18 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'BP_GrassPanda_Electric_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.25"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.24"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'BP_GrassPanda_Electric_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.25"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.24"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_GrassPanda_Electric_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.23"
       }
     }
   },
@@ -694,7 +647,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_GrassPanda_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.40"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.39"
     },
     "Properties": {
       "AttachParent": {

@@ -12,7 +12,7 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_GrassMammoth_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.37"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.36"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_GrassMammoth_C:InheritableComponentHandler'",
@@ -109,7 +109,7 @@
   {
     "Type": "BP_GrassMammoth_C",
     "Name": "Default__BP_GrassMammoth_C",
-    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.BP_GrassMammoth_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth",
     "Template": {
@@ -131,7 +131,7 @@
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_GrassMammoth_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.25"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_GrassMammoth_C:DamageReactionComponent'",
@@ -139,11 +139,11 @@
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_GrassMammoth_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.27"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.26"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_GrassMammoth_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.22"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_GrassMammoth_C:FollowCamera'",
@@ -159,11 +159,11 @@
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_GrassMammoth_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.28"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.27"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_GrassMammoth_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.21"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_GrassMammoth_C:AnimNotifyComponent'",
@@ -175,11 +175,11 @@
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_GrassMammoth_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.38"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.37"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_GrassMammoth_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.23"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_GrassMammoth_C:CharMoveComp'",
@@ -291,28 +291,6 @@
         },
         {
           "ComponentClass": {
-            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-            "ObjectPath": "/Script/Pal"
-          },
-          "ComponentTemplate": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_GrassMammoth_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.21"
-          },
-          "ComponentKey": {
-            "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-            },
-            "SCSVariableName": "PalPartnerSkillParameter",
-            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
-          },
-          "CookedComponentInstancingData": {
-            "ChangedPropertyList": [],
-            "bHasValidCookedData": false
-          }
-        },
-        {
-          "ComponentClass": {
             "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
             "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
           },
@@ -347,7 +325,7 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
     }
   },
   {
@@ -361,7 +339,7 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
     }
   },
   {
@@ -646,7 +624,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
@@ -666,12 +644,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_GrassMammoth_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.22"
       }
     }
   },
@@ -686,7 +664,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -700,12 +678,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
     },
     "Properties": {
       "InWaterRate": 0.84,
       "GravityScale": 3.0,
-      "JumpZVelocity": 700.0,
+      "JumpZVelocity": 1000.0,
       "Buoyancy": 1.15
     }
   },
@@ -720,7 +698,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -734,7 +712,7 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
     }
   },
   {
@@ -748,7 +726,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     },
     "Properties": {
       "FootIKSettings": [
@@ -802,7 +780,7 @@
     },
     "Template": {
       "ObjectName": "PalInteractableSphereComponentNative'BP_MonsterBase_C:BP_InteractableSphere_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
     },
     "Properties": {
       "RelativeScale3D": {
@@ -823,310 +801,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
-    }
-  },
-  {
-    "Type": "PalPartnerSkillParameterComponent",
-    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_GrassMammoth_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.0"
-    },
-    "Template": {
-      "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
-    },
-    "Properties": {
-      "RestrictionItems": [
-        {
-          "Key": "SkillUnlock_GrassMammoth"
-        }
-      ],
-      "PassiveSkills": [
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "Logging_up2_Otomo_only"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 4,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            },
-            {
-              "Key": {
-                "Key": "Mining_up2_Otomo_only"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 4,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "Logging_up3_Otomo_only"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 4,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            },
-            {
-              "Key": {
-                "Key": "Mining_up3_Otomo_only"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 4,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "Logging_up4_Otomo_only"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 4,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            },
-            {
-              "Key": {
-                "Key": "Mining_up4_Otomo_only"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 4,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "Logging_up5_Otomo_only"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 4,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            },
-            {
-              "Key": {
-                "Key": "Mining_up5_Otomo_only"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 4,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "Logging_up6_Otomo_only"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 4,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            },
-            {
-              "Key": {
-                "Key": "Mining_up6_Otomo_only"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 4,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        }
-      ]
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
     }
   },
   {
@@ -1140,7 +815,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -1154,32 +829,32 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
-      "WalkCameraArmLength": 1400.0,
+      "WalkCameraArmLength": 700.0,
       "WalkCameraOffset": {
-        "X": 500.0,
-        "Y": 135.0,
-        "Z": 220.0
+        "X": 0.0,
+        "Y": 200.0,
+        "Z": 150.0
       },
       "HipShootCameraArmLength": 700.0,
       "HipShootCameraOffset": {
         "X": 0.0,
-        "Y": 150.0,
-        "Z": 100.0
+        "Y": 200.0,
+        "Z": 150.0
       },
-      "AimCameraArmLength": 620.0,
+      "AimCameraArmLength": 300.0,
       "AimCameraOffset": {
-        "X": 450.0,
-        "Y": 22.0,
-        "Z": 274.0
+        "X": 0.0,
+        "Y": 75.0,
+        "Z": 250.0
       },
-      "AirCameraArmLength": 1400.0,
+      "AirCameraArmLength": 700.0,
       "AirCameraOffset": {
-        "X": 500.0,
-        "Y": 135.0,
-        "Z": 220.0
+        "X": 0.0,
+        "Y": 200.0,
+        "Z": 150.0
       },
       "AirHipShootCameraArmLength": 700.0,
       "AirHipShootCameraOffset": {
@@ -1187,11 +862,11 @@
         "Y": 150.0,
         "Z": 100.0
       },
-      "AirAimCameraArmLength": 620.0,
+      "AirAimCameraArmLength": 450.0,
       "AirAimCameraOffset": {
-        "X": 450.0,
-        "Y": 22.0,
-        "Z": 274.0
+        "X": 0.0,
+        "Y": 75.0,
+        "Z": 250.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_GrassMammoth_C:CollisionCylinder'",
@@ -1215,10 +890,9 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
-      "bIsEnableGroundTilt": true,
       "PitchAngle": 5.0,
       "AnimClass": {
         "ObjectName": "AnimBlueprintGeneratedClass'ABP_GrassMammoth_C'",
@@ -1286,7 +960,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 210.0,
@@ -1648,7 +1322,7 @@
           "Value": {
             "Effect": {
               "ObjectName": "NiagaraSystem'NS_SplashFeetPal'",
-              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_SplashFeetPal.71"
+              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_SplashFeetPal.55"
             },
             "Offset": {
               "X": -100.0,
@@ -1672,7 +1346,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     }
   },
   {
@@ -1686,7 +1360,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -1706,7 +1380,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_GrassMammoth_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.37"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.36"
     },
     "Properties": {
       "ComponentClass": {
@@ -1715,7 +1389,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_GrassMammoth_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.29"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.28"
       },
       "VariableGuid": "54AA25B5-45A19F3D-893B95A1-3E5DD2E3",
       "InternalVariableName": "DefaultSceneRoot"
@@ -1728,7 +1402,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_GrassMammoth_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.37"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.36"
     },
     "Properties": {
       "ComponentClass": {
@@ -1753,7 +1427,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_GrassMammoth_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.37"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.36"
     },
     "Properties": {
       "ComponentClass": {
@@ -1778,7 +1452,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_GrassMammoth_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.37"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.36"
     },
     "Properties": {
       "ComponentClass": {
@@ -1803,7 +1477,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_GrassMammoth_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.37"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.36"
     },
     "Properties": {
       "ComponentClass": {
@@ -1828,7 +1502,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_GrassMammoth_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.37"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.36"
     },
     "Properties": {
       "ComponentClass": {
@@ -1837,7 +1511,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalSpeedCollisionComponent'BP_GrassMammoth_C:PalSpeedCollision_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.25"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.24"
       },
       "AttachToName": "root",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1853,7 +1527,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_GrassMammoth_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.37"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.36"
     },
     "Properties": {
       "ComponentClass": {
@@ -1884,58 +1558,58 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'BP_GrassMammoth_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.31"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.30"
         },
         {
           "ObjectName": "SCS_Node'BP_GrassMammoth_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.32"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.31"
         },
         {
           "ObjectName": "SCS_Node'BP_GrassMammoth_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.33"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.32"
         },
         {
           "ObjectName": "SCS_Node'BP_GrassMammoth_C:SimpleConstructionScript_0.SCS_Node_5'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.34"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.33"
         },
         {
           "ObjectName": "SCS_Node'BP_GrassMammoth_C:SimpleConstructionScript_0.SCS_Node_6'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.35"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.34"
         },
         {
           "ObjectName": "SCS_Node'BP_GrassMammoth_C:SimpleConstructionScript_0.SCS_Node_9'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.36"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.35"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'BP_GrassMammoth_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.31"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.30"
         },
         {
           "ObjectName": "SCS_Node'BP_GrassMammoth_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.32"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.31"
         },
         {
           "ObjectName": "SCS_Node'BP_GrassMammoth_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.33"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.32"
         },
         {
           "ObjectName": "SCS_Node'BP_GrassMammoth_C:SimpleConstructionScript_0.SCS_Node_5'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.34"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.33"
         },
         {
           "ObjectName": "SCS_Node'BP_GrassMammoth_C:SimpleConstructionScript_0.SCS_Node_6'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.35"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.34"
         },
         {
           "ObjectName": "SCS_Node'BP_GrassMammoth_C:SimpleConstructionScript_0.SCS_Node_9'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.36"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.35"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_GrassMammoth_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.30"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.29"
       }
     }
   },
@@ -1950,7 +1624,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {

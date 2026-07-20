@@ -16,7 +16,7 @@
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_Kirin_Ice_BOSS_C:InheritableComponentHandler'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.3"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.4"
       }
     },
     "SuperStruct": {
@@ -51,15 +51,15 @@
     "Properties": {
       "LiftupObjectComponent": {
         "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_Kirin_Ice_BOSS_C:Liftup'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.13"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.14"
       },
       "ActionComponent": {
         "ObjectName": "PalActionComponent'Default__BP_Kirin_Ice_BOSS_C:ActionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.9"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.10"
       },
       "CharacterParameterComponent": {
         "ObjectName": "PalCharacterParameterComponent'Default__BP_Kirin_Ice_BOSS_C:CharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.15"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.16"
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_Kirin_Ice_BOSS_C:StaticCharacterParameterComponent'",
@@ -67,7 +67,7 @@
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_Kirin_Ice_BOSS_C:DamageReactionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.16"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.17"
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_Kirin_Ice_BOSS_C:StatusComponent'",
@@ -79,15 +79,15 @@
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_Kirin_Ice_BOSS_C:FollowCamera'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.12"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.13"
       },
       "LookAtComponent": {
         "ObjectName": "PalLookAtComponent'Default__BP_Kirin_Ice_BOSS_C:LookAtComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.18"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.19"
       },
       "FootIKComponent": {
         "ObjectName": "PalFootIKComponent'Default__BP_Kirin_Ice_BOSS_C:FootIKComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.17"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.18"
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_Kirin_Ice_BOSS_C:VisualEffectComponent'",
@@ -99,11 +99,11 @@
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_Kirin_Ice_BOSS_C:AnimNotifyComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.10"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.11"
       },
       "AroundInfoCollectorComponent": {
         "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_Kirin_Ice_BOSS_C:AroundInfoCollectorComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.11"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.12"
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_Kirin_Ice_BOSS_C:RagdollInteractiveSphere'",
@@ -115,17 +115,41 @@
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_Kirin_Ice_BOSS_C:CharMoveComp'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.14"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.15"
       },
       "CapsuleComponent": {
         "ObjectName": "CapsuleComponent'Default__BP_Kirin_Ice_BOSS_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.3"
       },
       "RootComponent": {
         "ObjectName": "CapsuleComponent'Default__BP_Kirin_Ice_BOSS_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.3"
       }
     }
+  },
+  {
+    "Type": "BP_PalTimerPointLightComponent_C",
+    "Name": "BP_PalTimerPointLightComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.BP_PalTimerPointLightComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Kirin_Ice_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalTimerPointLightComponent_C'BP_Kirin_C:BP_PalTimerPointLightComponent_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.3"
+    },
+    "Properties": {
+      "LightColor": {
+        "B": 89,
+        "G": 85,
+        "R": 71,
+        "A": 255,
+        "Hex": "475559"
+      }
+    },
+    "IntensityNits": 0.0
   },
   {
     "Type": "CapsuleComponent",
@@ -159,7 +183,7 @@
           },
           "ComponentTemplate": {
             "ObjectName": "NiagaraComponent'BP_Kirin_Ice_BOSS_C:ThunderNiagaraTail2_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.8"
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.9"
           },
           "ComponentKey": {
             "OwnerClass": {
@@ -181,7 +205,7 @@
           },
           "ComponentTemplate": {
             "ObjectName": "NiagaraComponent'BP_Kirin_Ice_BOSS_C:ThunderNiagaraTail1_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.7"
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.8"
           },
           "ComponentKey": {
             "OwnerClass": {
@@ -203,7 +227,7 @@
           },
           "ComponentTemplate": {
             "ObjectName": "NiagaraComponent'BP_Kirin_Ice_BOSS_C:ThunderNiagaraBody_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.4"
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.5"
           },
           "ComponentKey": {
             "OwnerClass": {
@@ -225,7 +249,7 @@
           },
           "ComponentTemplate": {
             "ObjectName": "NiagaraComponent'BP_Kirin_Ice_BOSS_C:ThunderNiagaraHorn2_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.6"
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.7"
           },
           "ComponentKey": {
             "OwnerClass": {
@@ -247,7 +271,7 @@
           },
           "ComponentTemplate": {
             "ObjectName": "NiagaraComponent'BP_Kirin_Ice_BOSS_C:ThunderNiagaraHorn1_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.5"
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.6"
           },
           "ComponentKey": {
             "OwnerClass": {
@@ -264,20 +288,20 @@
         },
         {
           "ComponentClass": {
-            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-            "ObjectPath": "/Script/Pal"
+            "ObjectName": "BlueprintGeneratedClass'BP_PalTimerPointLightComponent_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.0"
           },
           "ComponentTemplate": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_Kirin_Ice_BOSS_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.19"
+            "ObjectName": "BP_PalTimerPointLightComponent_C'BP_Kirin_Ice_BOSS_C:BP_PalTimerPointLightComponent_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.2"
           },
           "ComponentKey": {
             "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+              "ObjectName": "BlueprintGeneratedClass'BP_Kirin_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.0"
             },
-            "SCSVariableName": "PalPartnerSkillParameter",
-            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
+            "SCSVariableName": "BP_PalTimerPointLightComponent",
+            "AssociatedGuid": "A85ADD4C-4AFB8E27-CCF5919A-32A2B542"
           },
           "CookedComponentInstancingData": {
             "ChangedPropertyList": [],
@@ -416,7 +440,7 @@
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_Kirin_Ice_BOSS_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.3"
       }
     }
   },
@@ -525,309 +549,6 @@
     }
   },
   {
-    "Type": "PalPartnerSkillParameterComponent",
-    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_Kirin_Ice_BOSS_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.0"
-    },
-    "Template": {
-      "ObjectName": "PalPartnerSkillParameterComponent'BP_Kirin_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.34"
-    },
-    "Properties": {
-      "RestrictionItems": [
-        {
-          "Key": "SkillUnlock_Kirin_Ice"
-        }
-      ],
-      "PassiveSkills": [
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "GiveAIce_Ride"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 4,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            },
-            {
-              "Key": {
-                "Key": "GiveElement_TrainerATK_UP_PartnerSkill_Ride_1"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "GiveAIce_Ride"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 4,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            },
-            {
-              "Key": {
-                "Key": "GiveElement_TrainerATK_UP_PartnerSkill_Ride_2"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "GiveAIce_Ride"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 4,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            },
-            {
-              "Key": {
-                "Key": "GiveElement_TrainerATK_UP_PartnerSkill_Ride_3"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "GiveAIce_Ride"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 4,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            },
-            {
-              "Key": {
-                "Key": "GiveElement_TrainerATK_UP_PartnerSkill_Ride_4"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "GiveAIce_Ride"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 4,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            },
-            {
-              "Key": {
-                "Key": "GiveElement_TrainerATK_UP_PartnerSkill_Ride_5"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
     "Type": "PalPassiveSkillComponent",
     "Name": "PassiveSkillComponent",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
@@ -857,7 +578,7 @@
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_Kirin_Ice_BOSS_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.3"
       }
     }
   },
@@ -877,15 +598,15 @@
     "Properties": {
       "SkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_Kirin_Ice'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/Kirin_Ice/SK_Kirin_Ice"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/Kirin_Ice/SK_Kirin_Ice.0"
       },
       "SkinnedAsset": {
         "ObjectName": "SkeletalMesh'SK_Kirin_Ice'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/Kirin_Ice/SK_Kirin_Ice"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/Kirin_Ice/SK_Kirin_Ice.0"
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_Kirin_Ice_BOSS_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.3"
       }
     }
   },
@@ -995,7 +716,7 @@
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_Kirin_Ice_BOSS_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Ice_BOSS.3"
       }
     }
   }

@@ -41,7 +41,7 @@
   {
     "Type": "BP_SnowTigerBeastman_BOSS_C",
     "Name": "Default__BP_SnowTigerBeastman_BOSS_C",
-    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman_BOSS.BP_SnowTigerBeastman_BOSS_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman_BOSS",
     "Template": {
@@ -314,7 +314,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_SnowTigerBeastman_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.22"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.21"
     }
   },
   {
@@ -328,7 +328,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_SnowTigerBeastman_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.24"
     },
     "Properties": {
       "WalkCameraArmLength": 700.0,
@@ -377,7 +377,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_SnowTigerBeastman_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.25"
     },
     "Properties": {
       "AttachParent": {
@@ -407,7 +407,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_SnowTigerBeastman_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.27"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 197.85,
@@ -417,6 +417,7 @@
         "Y": 0.0,
         "Z": -142.81494
       },
+      "ApproachArrivalRadius": 300.0,
       "SleepOnSideInfoMapForMapObject": [
         {
           "Key": {
@@ -493,7 +494,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_SnowTigerBeastman_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.29"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.28"
     }
   },
   {
@@ -507,7 +508,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_SnowTigerBeastman_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.29"
     }
   },
   {
@@ -569,7 +570,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_SnowTigerBeastman_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SnowTigerBeastman/BP_SnowTigerBeastman.42"
     },
     "Properties": {
       "AttachParent": {

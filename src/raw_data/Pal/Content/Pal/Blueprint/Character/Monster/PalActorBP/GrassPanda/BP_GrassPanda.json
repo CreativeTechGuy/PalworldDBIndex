@@ -12,7 +12,7 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_GrassPanda_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.39"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.38"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_GrassPanda_C:InheritableComponentHandler'",
@@ -142,7 +142,7 @@
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_GrassPanda_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.27"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.26"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_GrassPanda_C:DamageReactionComponent'",
@@ -150,11 +150,11 @@
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_GrassPanda_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.28"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.27"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_GrassPanda_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.23"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_GrassPanda_C:FollowCamera'",
@@ -170,11 +170,11 @@
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_GrassPanda_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.29"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.28"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_GrassPanda_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.21"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.20"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_GrassPanda_C:AnimNotifyComponent'",
@@ -186,11 +186,11 @@
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_GrassPanda_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.40"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.39"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_GrassPanda_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.25"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.24"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_GrassPanda_C:CharMoveComp'",
@@ -276,28 +276,6 @@
         },
         {
           "ComponentClass": {
-            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-            "ObjectPath": "/Script/Pal"
-          },
-          "ComponentTemplate": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_GrassPanda_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.20"
-          },
-          "ComponentKey": {
-            "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-            },
-            "SCSVariableName": "PalPartnerSkillParameter",
-            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
-          },
-          "CookedComponentInstancingData": {
-            "ChangedPropertyList": [],
-            "bHasValidCookedData": false
-          }
-        },
-        {
-          "ComponentClass": {
             "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
             "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
           },
@@ -332,7 +310,7 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
     }
   },
   {
@@ -346,7 +324,7 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
     }
   },
   {
@@ -469,7 +447,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
@@ -489,12 +467,13 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
+      "AimFOVInterpTime": 999.0,
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_GrassPanda_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.23"
       }
     }
   },
@@ -509,7 +488,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -523,7 +502,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
     },
     "Properties": {
       "GravityScale": 0.25
@@ -540,7 +519,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -554,7 +533,7 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
     }
   },
   {
@@ -568,7 +547,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     },
     "Properties": {
       "FootIKSettings": [
@@ -604,7 +583,7 @@
     },
     "Template": {
       "ObjectName": "PalInteractableSphereComponentNative'BP_MonsterBase_C:BP_InteractableSphere_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
     },
     "Properties": {
       "SphereRadius": 150.0,
@@ -631,36 +610,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
-    }
-  },
-  {
-    "Type": "PalPartnerSkillParameterComponent",
-    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_GrassPanda_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.0"
-    },
-    "Template": {
-      "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
-    },
-    "Properties": {
-      "RestrictionItems": [
-        {
-          "Key": "SkillUnlock_GrassPanda"
-        }
-      ],
-      "SkillName": "UniqueRideShooting_DualGrenadeLauncher",
-      "ActiveSkill_MainValueByRank": [
-        30.0,
-        33.0,
-        39.0,
-        48.0,
-        60.0
-      ]
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
     }
   },
   {
@@ -674,7 +624,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -739,44 +689,44 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
-      "WalkCameraArmLength": 800.0,
+      "WalkCameraArmLength": 450.0,
       "WalkCameraOffset": {
         "X": 0.0,
-        "Y": 160.0,
-        "Z": 150.0
+        "Y": 150.0,
+        "Z": 120.0
       },
-      "HipShootCameraArmLength": 400.0,
+      "HipShootCameraArmLength": 450.0,
       "HipShootCameraOffset": {
         "X": 0.0,
         "Y": 150.0,
-        "Z": 100.0
+        "Z": 120.0
       },
-      "AimCameraArmLength": 400.0,
+      "AimCameraArmLength": 350.0,
       "AimCameraOffset": {
         "X": 0.0,
-        "Y": 160.0,
-        "Z": 200.0
+        "Y": 180.0,
+        "Z": 180.0
       },
-      "AirCameraArmLength": 800.0,
+      "AirCameraArmLength": 450.0,
       "AirCameraOffset": {
         "X": 0.0,
-        "Y": 160.0,
-        "Z": 150.0
+        "Y": 150.0,
+        "Z": 120.0
       },
-      "AirHipShootCameraArmLength": 400.0,
+      "AirHipShootCameraArmLength": 450.0,
       "AirHipShootCameraOffset": {
         "X": 0.0,
         "Y": 150.0,
-        "Z": 100.0
+        "Z": 120.0
       },
-      "AirAimCameraArmLength": 400.0,
+      "AirAimCameraArmLength": 350.0,
       "AirAimCameraOffset": {
         "X": 0.0,
-        "Y": 160.0,
-        "Z": 200.0
+        "Y": 180.0,
+        "Z": 180.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_GrassPanda_C:CollisionCylinder'",
@@ -800,7 +750,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
       "bIsEnableGroundTilt": true,
@@ -867,7 +817,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 150.0,
@@ -1252,7 +1202,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     }
   },
   {
@@ -1266,7 +1216,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -1286,7 +1236,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_GrassPanda_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.39"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.38"
     },
     "Properties": {
       "ComponentClass": {
@@ -1295,7 +1245,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_GrassPanda_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.30"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.29"
       },
       "VariableGuid": "FB906AD2-49500522-A315528E-0E72BED1",
       "InternalVariableName": "DefaultSceneRoot"
@@ -1308,7 +1258,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_GrassPanda_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.39"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.38"
     },
     "Properties": {
       "ComponentClass": {
@@ -1317,7 +1267,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalRideMarkerComponent'BP_GrassPanda_C:PalRideMarker_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.21"
       },
       "AttachToName": "neck",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1333,7 +1283,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_GrassPanda_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.39"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.38"
     },
     "Properties": {
       "ComponentClass": {
@@ -1358,7 +1308,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_GrassPanda_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.39"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.38"
     },
     "Properties": {
       "ComponentClass": {
@@ -1367,7 +1317,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalShooterComponent'BP_GrassPanda_C:PalShooter_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.22"
       },
       "VariableGuid": "3AD45F8D-4642CA5A-E0BDED83-44A335D6",
       "InternalVariableName": "PalShooter"
@@ -1380,7 +1330,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_GrassPanda_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.39"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.38"
     },
     "Properties": {
       "ComponentClass": {
@@ -1405,7 +1355,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_GrassPanda_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.39"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.38"
     },
     "Properties": {
       "ComponentClass": {
@@ -1430,7 +1380,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_GrassPanda_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.39"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.38"
     },
     "Properties": {
       "ComponentClass": {
@@ -1455,7 +1405,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_GrassPanda_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.39"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.38"
     },
     "Properties": {
       "ComponentClass": {
@@ -1464,7 +1414,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalSpeedCollisionComponent'BP_GrassPanda_C:PalSpeedCollision_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.25"
       },
       "AttachToName": "root",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1486,66 +1436,66 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'BP_GrassPanda_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.33"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_GrassPanda_C:SimpleConstructionScript_0.SCS_Node_1'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.32"
         },
         {
+          "ObjectName": "SCS_Node'BP_GrassPanda_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.31"
+        },
+        {
           "ObjectName": "SCS_Node'BP_GrassPanda_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.34"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.33"
         },
         {
           "ObjectName": "SCS_Node'BP_GrassPanda_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.35"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.34"
         },
         {
           "ObjectName": "SCS_Node'BP_GrassPanda_C:SimpleConstructionScript_0.SCS_Node_5'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.36"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.35"
         },
         {
           "ObjectName": "SCS_Node'BP_GrassPanda_C:SimpleConstructionScript_0.SCS_Node_6'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.37"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.36"
         },
         {
           "ObjectName": "SCS_Node'BP_GrassPanda_C:SimpleConstructionScript_0.SCS_Node_7'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.38"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.37"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'BP_GrassPanda_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.33"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_GrassPanda_C:SimpleConstructionScript_0.SCS_Node_1'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.32"
         },
         {
+          "ObjectName": "SCS_Node'BP_GrassPanda_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.31"
+        },
+        {
           "ObjectName": "SCS_Node'BP_GrassPanda_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.34"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.33"
         },
         {
           "ObjectName": "SCS_Node'BP_GrassPanda_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.35"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.34"
         },
         {
           "ObjectName": "SCS_Node'BP_GrassPanda_C:SimpleConstructionScript_0.SCS_Node_5'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.36"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.35"
         },
         {
           "ObjectName": "SCS_Node'BP_GrassPanda_C:SimpleConstructionScript_0.SCS_Node_6'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.37"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.36"
         },
         {
           "ObjectName": "SCS_Node'BP_GrassPanda_C:SimpleConstructionScript_0.SCS_Node_7'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.38"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.37"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_GrassPanda_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.31"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.30"
       }
     }
   },
@@ -1560,7 +1510,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {

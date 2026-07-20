@@ -12,7 +12,7 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_CuteButterfly_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.35"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.34"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_CuteButterfly_C:InheritableComponentHandler'",
@@ -120,7 +120,7 @@
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_CuteButterfly_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.25"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.24"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_CuteButterfly_C:DamageReactionComponent'",
@@ -128,11 +128,11 @@
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_CuteButterfly_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.25"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_CuteButterfly_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.22"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_CuteButterfly_C:FollowCamera'",
@@ -148,11 +148,11 @@
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_CuteButterfly_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.27"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.26"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_CuteButterfly_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.21"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_CuteButterfly_C:AnimNotifyComponent'",
@@ -164,11 +164,12 @@
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_CuteButterfly_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.36"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.35"
       },
+      "bUseCustomAutoAimTarget": true,
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_CuteButterfly_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.23"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_CuteButterfly_C:CharMoveComp'",
@@ -271,20 +272,20 @@
       "Records": [
         {
           "ComponentClass": {
-            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-            "ObjectPath": "/Script/Pal"
+            "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
+            "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
           },
           "ComponentTemplate": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_CuteButterfly_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.21"
+            "ObjectName": "BP_PalCryComponent_C'BP_CuteButterfly_C:BP_PalCryComponent_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.2"
           },
           "ComponentKey": {
             "OwnerClass": {
               "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
               "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
             },
-            "SCSVariableName": "PalPartnerSkillParameter",
-            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
+            "SCSVariableName": "BP_PalCryComponent",
+            "AssociatedGuid": "A971BE27-4B3C10FC-863FA284-ECDC3286"
           },
           "CookedComponentInstancingData": {
             "ChangedPropertyList": [],
@@ -312,28 +313,6 @@
             "ChangedPropertyList": [],
             "bHasValidCookedData": false
           }
-        },
-        {
-          "ComponentClass": {
-            "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
-            "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
-          },
-          "ComponentTemplate": {
-            "ObjectName": "BP_PalCryComponent_C'BP_CuteButterfly_C:BP_PalCryComponent_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.2"
-          },
-          "ComponentKey": {
-            "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-            },
-            "SCSVariableName": "BP_PalCryComponent",
-            "AssociatedGuid": "A971BE27-4B3C10FC-863FA284-ECDC3286"
-          },
-          "CookedComponentInstancingData": {
-            "ChangedPropertyList": [],
-            "bHasValidCookedData": false
-          }
         }
       ]
     }
@@ -349,7 +328,7 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
     }
   },
   {
@@ -363,7 +342,7 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
     }
   },
   {
@@ -486,7 +465,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
@@ -506,12 +485,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_CuteButterfly_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.22"
       }
     }
   },
@@ -526,7 +505,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -540,7 +519,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
     }
   },
   {
@@ -554,7 +533,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -568,7 +547,7 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
     }
   },
   {
@@ -592,7 +571,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     }
   },
   {
@@ -606,7 +585,7 @@
     },
     "Template": {
       "ObjectName": "PalInteractableSphereComponentNative'BP_MonsterBase_C:BP_InteractableSphere_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
     },
     "Properties": {
       "RelativeLocation": {
@@ -627,33 +606,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
-    }
-  },
-  {
-    "Type": "PalPartnerSkillParameterComponent",
-    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_CuteButterfly_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.0"
-    },
-    "Template": {
-      "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
-    },
-    "Properties": {
-      "SkillName": "Waza",
-      "WazaID": "EPalWazaID::PoisonFog",
-      "ActiveSkill_MainValue_Overview_EditorOnly": "威力倍率",
-      "ActiveSkill_MainValueByRank": [
-        1.1,
-        1.3,
-        1.6,
-        2.0,
-        2.5
-      ]
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
     }
   },
   {
@@ -667,7 +620,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -681,7 +634,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
       "AttachParent": {
@@ -706,7 +659,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
       "AnimClass": {
@@ -749,7 +702,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 80.0,
@@ -765,6 +718,13 @@
           "Value": {
             "ObjectName": "BlueprintGeneratedClass'BP_AIAction_UseWaza_C'",
             "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Coop/BP_AIAction_UseWaza.0"
+          }
+        },
+        {
+          "Key": "EPalAIActionType::Leave",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AIAction_Leave_TurnRun_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Combat/BP_AIAction_Leave_TurnRun.0"
           }
         }
       ],
@@ -946,17 +906,17 @@
           }
         },
         {
-          "Key": "EPalActionType::Feeding",
-          "Value": {
-            "ObjectName": "AnimMontage'AM_CuteButterfly_Planting'",
-            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CuteButterfly/AM_CuteButterfly_Planting.0"
-          }
-        },
-        {
           "Key": "EPalActionType::IdleInSpa",
           "Value": {
             "ObjectName": "AnimMontage'AM_CuteButterfly_Spa'",
             "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CuteButterfly/AM_CuteButterfly_Spa.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::Feeding",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CuteButterfly_Planting'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CuteButterfly/AM_CuteButterfly_Planting.0"
           }
         }
       ],
@@ -967,8 +927,8 @@
           },
           "Value": {
             "LocationOffset": {
-              "X": -30.0,
-              "Y": 40.0,
+              "X": -50.0,
+              "Y": 60.0,
               "Z": 0.0
             },
             "RotatorOffset": {
@@ -985,8 +945,8 @@
           },
           "Value": {
             "LocationOffset": {
-              "X": -30.0,
-              "Y": 40.0,
+              "X": -50.0,
+              "Y": 60.0,
               "Z": 0.0
             },
             "RotatorOffset": {
@@ -1003,8 +963,26 @@
           },
           "Value": {
             "LocationOffset": {
-              "X": -50.0,
-              "Y": 130.0,
+              "X": -60.0,
+              "Y": 170.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_05"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": 50.0,
+              "Y": 0.0,
               "Z": 0.0
             },
             "RotatorOffset": {
@@ -1016,6 +994,10 @@
           }
         }
       ],
+      "SleepOnSideAnimMontage": {
+        "ObjectName": "AnimMontage'AM_CuteButterfly_SleepLoopTogether'",
+        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CuteButterfly/AM_CuteButterfly_SleepLoopTogether.0"
+      },
       "HPGaugeUIOffset": {
         "X": 0.0,
         "Y": 50.0
@@ -1041,7 +1023,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     }
   },
   {
@@ -1055,7 +1037,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -1075,7 +1057,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_CuteButterfly_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.35"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.34"
     },
     "Properties": {
       "ComponentClass": {
@@ -1084,7 +1066,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_CuteButterfly_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.28"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.27"
       },
       "VariableGuid": "667354B0-4F0B9DA0-A381728D-BD302C0A",
       "InternalVariableName": "DefaultSceneRoot"
@@ -1097,7 +1079,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_CuteButterfly_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.35"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.34"
     },
     "Properties": {
       "ComponentClass": {
@@ -1122,7 +1104,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_CuteButterfly_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.35"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.34"
     },
     "Properties": {
       "ComponentClass": {
@@ -1147,7 +1129,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_CuteButterfly_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.35"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.34"
     },
     "Properties": {
       "ComponentClass": {
@@ -1169,7 +1151,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_CuteButterfly_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.35"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.34"
     },
     "Properties": {
       "ComponentClass": {
@@ -1194,7 +1176,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_CuteButterfly_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.35"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.34"
     },
     "Properties": {
       "ComponentClass": {
@@ -1225,50 +1207,50 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'BP_CuteButterfly_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.31"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_CuteButterfly_C:SimpleConstructionScript_0.SCS_Node_1'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.30"
         },
         {
+          "ObjectName": "SCS_Node'BP_CuteButterfly_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.29"
+        },
+        {
           "ObjectName": "SCS_Node'BP_CuteButterfly_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.33"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.32"
         },
         {
           "ObjectName": "SCS_Node'BP_CuteButterfly_C:SimpleConstructionScript_0.SCS_Node_5'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.34"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.33"
         },
         {
           "ObjectName": "SCS_Node'BP_CuteButterfly_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.32"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.31"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'BP_CuteButterfly_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.31"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_CuteButterfly_C:SimpleConstructionScript_0.SCS_Node_1'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.30"
         },
         {
+          "ObjectName": "SCS_Node'BP_CuteButterfly_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.29"
+        },
+        {
           "ObjectName": "SCS_Node'BP_CuteButterfly_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.33"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.32"
         },
         {
           "ObjectName": "SCS_Node'BP_CuteButterfly_C:SimpleConstructionScript_0.SCS_Node_5'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.34"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.33"
         },
         {
           "ObjectName": "SCS_Node'BP_CuteButterfly_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.32"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.31"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_CuteButterfly_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.29"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CuteButterfly/BP_CuteButterfly.28"
       }
     }
   },
@@ -1283,7 +1265,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {

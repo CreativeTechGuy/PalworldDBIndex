@@ -1,0 +1,1141 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_MushroomLady_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_MushroomLady_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.31"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_MushroomLady_C:InheritableComponentHandler'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsSphere",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsSphereComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_MushroomLady_C'Default__BP_MushroomLady_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_MushroomLady_C",
+    "Name": "Default__BP_MushroomLady_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.BP_MushroomLady_C'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady",
+    "Template": {
+      "ObjectName": "BP_MonsterBase_C'Default__BP_MonsterBase_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.1"
+    },
+    "Properties": {
+      "LiftupObjectComponent": {
+        "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MushroomLady_C:Liftup'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.13"
+      },
+      "ActionComponent": {
+        "ObjectName": "PalActionComponent'Default__BP_MushroomLady_C:ActionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.5"
+      },
+      "CharacterParameterComponent": {
+        "ObjectName": "PalCharacterParameterComponent'Default__BP_MushroomLady_C:CharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.15"
+      },
+      "StaticCharacterParameterComponent": {
+        "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MushroomLady_C:StaticCharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.22"
+      },
+      "DamageReactionComponent": {
+        "ObjectName": "PalDamageReactionComponent'Default__BP_MushroomLady_C:DamageReactionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.16"
+      },
+      "StatusComponent": {
+        "ObjectName": "PalStatusComponent'Default__BP_MushroomLady_C:StatusComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.23"
+      },
+      "CameraBoom": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_MushroomLady_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.20"
+      },
+      "FollowCamera": {
+        "ObjectName": "PalCharacterCameraComponent'Default__BP_MushroomLady_C:FollowCamera'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.12"
+      },
+      "LookAtComponent": {
+        "ObjectName": "PalLookAtComponent'Default__BP_MushroomLady_C:LookAtComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.18"
+      },
+      "FootIKComponent": {
+        "ObjectName": "PalFootIKComponent'Default__BP_MushroomLady_C:FootIKComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.17"
+      },
+      "VisualEffectComponent": {
+        "ObjectName": "PalVisualEffectComponent'Default__BP_MushroomLady_C:VisualEffectComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.24"
+      },
+      "PassiveSkillComponent": {
+        "ObjectName": "PalPassiveSkillComponent'Default__BP_MushroomLady_C:PassiveSkillComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.19"
+      },
+      "AnimNotifyComponent": {
+        "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MushroomLady_C:AnimNotifyComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.6"
+      },
+      "AroundInfoCollectorComponent": {
+        "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MushroomLady_C:AroundInfoCollectorComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.11"
+      },
+      "RagdollInteractiveSphere": {
+        "ObjectName": "SphereComponent'Default__BP_MushroomLady_C:RagdollInteractiveSphere'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.32"
+      },
+      "Mesh": {
+        "ObjectName": "PalSkeletalMeshComponent'Default__BP_MushroomLady_C:CharacterMesh0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.21"
+      },
+      "CharacterMovement": {
+        "ObjectName": "PalCharacterMovementComponent'Default__BP_MushroomLady_C:CharMoveComp'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.14"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_MushroomLady_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.3"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_MushroomLady_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.3"
+      }
+    }
+  },
+  {
+    "Type": "BP_PalCryComponent_C",
+    "Name": "BP_PalCryComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.BP_PalCryComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MushroomLady_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalCryComponent_C'BP_MonsterBase_C:BP_PalCryComponent_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.2"
+    },
+    "Properties": {
+      "CryPalID": "EPalTribeID::MushroomLady"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_MushroomLady_C'Default__BP_MushroomLady_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.1"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_MonsterBase_C:CollisionCylinder'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.3"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 30.0,
+      "CapsuleRadius": 30.0
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MushroomLady_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
+            "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BP_PalCryComponent_C'BP_MushroomLady_C:BP_PalCryComponent_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.2"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+            },
+            "SCSVariableName": "BP_PalCryComponent",
+            "AssociatedGuid": "A971BE27-4B3C10FC-863FA284-ECDC3286"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PalActionComponent",
+    "Name": "ActionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalActionComponent'",
+    "Outer": {
+      "ObjectName": "BP_MushroomLady_C'Default__BP_MushroomLady_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.1"
+    },
+    "Template": {
+      "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+    }
+  },
+  {
+    "Type": "PalAnimNotifyParameterComponent",
+    "Name": "AnimNotifyComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_MushroomLady_C'Default__BP_MushroomLady_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.1"
+    },
+    "Template": {
+      "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MushroomLady_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 40.533947,
+      "CapsuleRadius": 23.138697,
+      "RelativeLocation": {
+        "X": -10.0,
+        "Y": -2.7644553E-11,
+        "Z": 1.7763568E-15
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 163.20741,
+        "Roll": 163.20741
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MushroomLady_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 40.533947,
+      "CapsuleRadius": 23.138697,
+      "RelativeLocation": {
+        "X": 15.0,
+        "Y": 2.220446E-15,
+        "Z": 1.3322676E-14
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 270.0,
+        "Roll": 280.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MushroomLady_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 53.69559,
+      "CapsuleRadius": 27.014124,
+      "RelativeLocation": {
+        "X": 40.0,
+        "Y": -1.8651747E-14,
+        "Z": -2.842171E-14
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 2.5444438E-14,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsSphereComponent",
+    "Name": "PalBodyPartsSphere_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsSphereComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MushroomLady_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.0"
+    },
+    "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Weak",
+      "SphereRadius": 40.0,
+      "RelativeLocation": {
+        "X": 10.0,
+        "Y": -8.881784E-16,
+        "Z": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.5,
+        "Z": 0.5
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterAroundInfoCollectorComponent",
+    "Name": "AroundInfoCollectorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+    "Outer": {
+      "ObjectName": "BP_MushroomLady_C'Default__BP_MushroomLady_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_MushroomLady_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.3"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterCameraComponent",
+    "Name": "FollowCamera",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterCameraComponent'",
+    "Outer": {
+      "ObjectName": "BP_MushroomLady_C'Default__BP_MushroomLady_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_MushroomLady_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.20"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterLiftupObjectComponent",
+    "Name": "Liftup",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+    "Outer": {
+      "ObjectName": "BP_MushroomLady_C'Default__BP_MushroomLady_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+    }
+  },
+  {
+    "Type": "PalCharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_MushroomLady_C'Default__BP_MushroomLady_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+    },
+    "Properties": {
+      "InWaterRate": 0.68,
+      "Buoyancy": 1.4
+    }
+  },
+  {
+    "Type": "PalCharacterParameterComponent",
+    "Name": "CharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_MushroomLady_C'Default__BP_MushroomLady_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+    }
+  },
+  {
+    "Type": "PalDamageReactionComponent",
+    "Name": "DamageReactionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalDamageReactionComponent'",
+    "Outer": {
+      "ObjectName": "BP_MushroomLady_C'Default__BP_MushroomLady_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.1"
+    },
+    "Template": {
+      "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
+    }
+  },
+  {
+    "Type": "PalFootIKComponent",
+    "Name": "FootIKComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalFootIKComponent'",
+    "Outer": {
+      "ObjectName": "BP_MushroomLady_C'Default__BP_MushroomLady_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.1"
+    },
+    "Template": {
+      "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
+    }
+  },
+  {
+    "Type": "PalLookAtComponent",
+    "Name": "LookAtComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalLookAtComponent'",
+    "Outer": {
+      "ObjectName": "BP_MushroomLady_C'Default__BP_MushroomLady_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.1"
+    },
+    "Template": {
+      "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
+    }
+  },
+  {
+    "Type": "PalPassiveSkillComponent",
+    "Name": "PassiveSkillComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalPassiveSkillComponent'",
+    "Outer": {
+      "ObjectName": "BP_MushroomLady_C'Default__BP_MushroomLady_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.1"
+    },
+    "Template": {
+      "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
+    }
+  },
+  {
+    "Type": "PalShooterSpringArmComponent",
+    "Name": "CameraBoom",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalShooterSpringArmComponent'",
+    "Outer": {
+      "ObjectName": "BP_MushroomLady_C'Default__BP_MushroomLady_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.1"
+    },
+    "Template": {
+      "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_MushroomLady_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.3"
+      }
+    }
+  },
+  {
+    "Type": "PalSkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_MushroomLady_C'Default__BP_MushroomLady_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.1"
+    },
+    "Template": {
+      "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+    },
+    "Properties": {
+      "bIsEnableGroundTilt": true,
+      "PitchAngle": 8.0,
+      "RollAngle": 3.0,
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_MushroomLady_C'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/ABP_MushroomLady.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_MushroomLady'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/MushroomLady/SK_MushroomLady.0"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_MushroomLady'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/MushroomLady/SK_MushroomLady.0"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_MushroomLady_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -30.0
+      }
+    }
+  },
+  {
+    "Type": "PalStaticCharacterParameterComponent",
+    "Name": "StaticCharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_MushroomLady_C'Default__BP_MushroomLady_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.1"
+    },
+    "Template": {
+      "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+    },
+    "Properties": {
+      "MeshCapsuleHalfHeight": 90.0,
+      "MeshCapsuleRadius": 34.0,
+      "MeshRelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -90.0
+      },
+      "RandomRestMontageInfos": [
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_MushroomLady_Rest01'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MushroomLady/AM_MushroomLady_Rest01.0"
+          },
+          "Weight": 1.0,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 2.0
+        },
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_MushroomLady_Rest02'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MushroomLady/AM_MushroomLady_Rest02.0"
+          },
+          "Weight": 1.0,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 2.0
+        },
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_MushroomLady_Rest03'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MushroomLady/AM_MushroomLady_Rest03.0"
+          },
+          "Weight": 0.3,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 2.0
+        }
+      ],
+      "GeneralAnimSequenceMap": [
+        {
+          "Key": "EPalGeneralAnimSequenceType::JumpLoop",
+          "Value": {
+            "ObjectName": "AnimSequence'AS_MushroomLady_JumpLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MushroomLady/AS_MushroomLady_JumpLoop.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralAnimSequenceType::JumpEnd",
+          "Value": {
+            "ObjectName": "AnimSequence'AS_MushroomLady_JumpEnd'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MushroomLady/AS_MushroomLady_JumpEnd.0"
+          }
+        }
+      ],
+      "GeneralMontageMap": [
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackReady_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MushroomLady_FarSkill_Start'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MushroomLady/AM_MushroomLady_FarSkill_Start.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackReadyLoop_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MushroomLady_FarSkill_StartLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MushroomLady/AM_MushroomLady_FarSkill_StartLoop.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackProcess_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MushroomLady_FarSkill_Action'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MushroomLady/AM_MushroomLady_FarSkill_Action.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackProcessLoop_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MushroomLady_FarSkill_ActionLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MushroomLady/AM_MushroomLady_FarSkill_ActionLoop.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackAfter_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MushroomLady_FarSkill_End'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MushroomLady/AM_MushroomLady_FarSkill_End.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::SleepStart",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MushroomLady_SleepStart'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MushroomLady/AM_MushroomLady_SleepStart.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::SleepLoop",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MushroomLady_SleepLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MushroomLady/AM_MushroomLady_SleepLoop.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::SleepEnd",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MushroomLady_SleepEnd'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MushroomLady/AM_MushroomLady_SleepEnd.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::DamageAdditive",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MushroomLady_Hit'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MushroomLady/AM_MushroomLady_Hit.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::BeLiftupStart",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MushroomLady_Carrying'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MushroomLady/AM_MushroomLady_Carrying.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::BeLiftupLoop",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MushroomLady_Carrying'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MushroomLady/AM_MushroomLady_Carrying.0"
+          }
+        }
+      ],
+      "GeneralBlendSpaceMap": [
+        {
+          "Key": "EPalGeneralBlendSpaceType::GeneralMove",
+          "Value": {
+            "ObjectName": "BlendSpace1D'BS_Move_MushroomLady'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BS_Move_MushroomLady.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralBlendSpaceType::Swim",
+          "Value": {
+            "ObjectName": "BlendSpace1D'BS_Swim_MushroomLady'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BS_Swim_MushroomLady.0"
+          }
+        }
+      ],
+      "RagdollPresetMap": [
+        {
+          "Key": "EPalRagdollPresetType::BeLiftup",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_RagdollPreset_Liftup_MushroomLady_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Ragdoll/BP_RagdollPreset_Liftup_MushroomLady.0"
+          }
+        }
+      ],
+      "ActionMontageMap": [
+        {
+          "Key": "EPalActionType::Menace",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MushroomLady_Encount'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MushroomLady/AM_MushroomLady_Encount.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::Eat",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MushroomLady_Eat'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MushroomLady/AM_MushroomLady_Eat.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::KnockBack",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MushroomLady_Damage'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MushroomLady/AM_MushroomLady_Damage.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::ForwardWalk",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MushroomLady_Walk'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MushroomLady/AM_MushroomLady_Walk.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::Architecture",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MushroomLady_Architecture'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MushroomLady/AM_MushroomLady_Architecture.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::GetupUtubuse_orRight",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MushroomLady_GetUp_FrontDown'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MushroomLady/AM_MushroomLady_GetUp_FrontDown.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::PalPetting",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MushroomLady_Petting'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MushroomLady/AM_MushroomLady_Petting.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::CommonWork",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MushroomLady_CommonWork'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MushroomLady/AM_MushroomLady_CommonWork.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::ElectricShock",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MushroomLady_ElectricShock'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MushroomLady/AM_MushroomLady_ElectricShock.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::IdleInSpa",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MushroomLady_Spa'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MushroomLady/AM_MushroomLady_Spa.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::DefenseGunner",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MushroomLady_Gunner'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MushroomLady/AM_MushroomLady_Gunner.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::Feeding",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MushroomLady_Planting'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MushroomLady/AM_MushroomLady_Planting.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::FishPond",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MushroomLady_Rest01'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MushroomLady/AM_MushroomLady_Rest01.0"
+          }
+        }
+      ],
+      "SleepOnSideInfoMapForMapObject": [
+        {
+          "Key": {
+            "Key": "MedicalPalBed_02"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -20.0,
+              "Y": 40.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 130.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_03"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -20.0,
+              "Y": 40.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 130.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_04"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -30.0,
+              "Y": 110.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 130.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        }
+      ],
+      "HPGaugeUIOffset": {
+        "X": 20.0,
+        "Y": 50.0
+      },
+      "GetupMotion_UtubuseOrRight_0FramePelvisLocation": {
+        "X": 3.232036,
+        "Y": 1.241548,
+        "Z": 1.648134
+      },
+      "PettingSize": "EPalPettingSizeType::Medium",
+      "PettingDistance": 120.0,
+      "DefenseBuildObjectAssignDistance": 10.0
+    }
+  },
+  {
+    "Type": "PalStatusComponent",
+    "Name": "StatusComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStatusComponent'",
+    "Outer": {
+      "ObjectName": "BP_MushroomLady_C'Default__BP_MushroomLady_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.1"
+    },
+    "Template": {
+      "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+    }
+  },
+  {
+    "Type": "PalVisualEffectComponent",
+    "Name": "VisualEffectComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalVisualEffectComponent'",
+    "Outer": {
+      "ObjectName": "BP_MushroomLady_C'Default__BP_MushroomLady_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.1"
+    },
+    "Template": {
+      "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MushroomLady_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MushroomLady_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.31"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_MushroomLady_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.25"
+      },
+      "VariableGuid": "940A565C-4184E7C5-C250E09F-9098CAB0",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MushroomLady_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.31"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsSphereComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsSphereComponent'BP_MushroomLady_C:PalBodyPartsSphere_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.10"
+      },
+      "AttachToName": "head",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "D3464BED-4B88D628-E6DA46B4-3247AAF6",
+      "InternalVariableName": "PalBodyPartsSphere"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MushroomLady_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.31"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_MushroomLady_C:PalBodyPartsCapsule_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.9"
+      },
+      "AttachToName": "head",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "99EFDFA7-4437294B-DBF1149D-313ABAAF",
+      "InternalVariableName": "PalBodyPartsCapsule"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MushroomLady_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.31"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_MushroomLady_C:PalBodyPartsCapsule1_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.7"
+      },
+      "AttachToName": "pelvis",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "B941ACB4-496EEF54-EAF447A5-63BD5AC6",
+      "InternalVariableName": "PalBodyPartsCapsule1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MushroomLady_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.31"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_MushroomLady_C:PalBodyPartsCapsule2_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.8"
+      },
+      "AttachToName": "calf",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "50A2D6E1-4907463D-E35E04B2-CD79B854",
+      "InternalVariableName": "PalBodyPartsCapsule2"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MushroomLady_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_MushroomLady_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.27"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MushroomLady_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MushroomLady_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MushroomLady_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.30"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_MushroomLady_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.27"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MushroomLady_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MushroomLady_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MushroomLady_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.30"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_MushroomLady_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.26"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "RagdollInteractiveSphere",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BP_MushroomLady_C'Default__BP_MushroomLady_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.1"
+    },
+    "Template": {
+      "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_MushroomLady_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MushroomLady/BP_MushroomLady.3"
+      }
+    }
+  }
+]

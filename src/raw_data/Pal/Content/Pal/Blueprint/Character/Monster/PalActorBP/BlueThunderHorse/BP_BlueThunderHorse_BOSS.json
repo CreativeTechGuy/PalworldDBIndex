@@ -41,7 +41,7 @@
   {
     "Type": "BP_BlueThunderHorse_BOSS_C",
     "Name": "Default__BP_BlueThunderHorse_BOSS_C",
-    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueThunderHorse/BP_BlueThunderHorse_BOSS.BP_BlueThunderHorse_BOSS_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueThunderHorse/BP_BlueThunderHorse_BOSS",
     "Template": {
@@ -362,7 +362,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_BlueThunderHorse_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueThunderHorse/BP_BlueThunderHorse.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueThunderHorse/BP_BlueThunderHorse.25"
     }
   },
   {
@@ -376,30 +376,44 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_BlueThunderHorse_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueThunderHorse/BP_BlueThunderHorse.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueThunderHorse/BP_BlueThunderHorse.26"
     },
     "Properties": {
-      "WalkCameraArmLength": 800.0,
+      "WalkCameraArmLength": 420.0,
       "WalkCameraOffset": {
         "X": 0.0,
         "Y": 130.0,
-        "Z": 150.0
+        "Z": 130.0
       },
+      "HipShootCameraArmLength": 420.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 130.0,
+        "Z": 130.0
+      },
+      "AimCameraArmLength": 250.0,
       "AimCameraOffset": {
         "X": 0.0,
-        "Y": 50.0,
-        "Z": 120.0
+        "Y": 100.0,
+        "Z": 130.0
       },
-      "AirCameraArmLength": 800.0,
+      "AirCameraArmLength": 420.0,
       "AirCameraOffset": {
         "X": 0.0,
         "Y": 130.0,
-        "Z": 150.0
+        "Z": 230.0
       },
+      "AirHipShootCameraArmLength": 420.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 130.0,
+        "Z": 230.0
+      },
+      "AirAimCameraArmLength": 250.0,
       "AirAimCameraOffset": {
         "X": 0.0,
-        "Y": 50.0,
-        "Z": 120.0
+        "Y": 100.0,
+        "Z": 180.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_BlueThunderHorse_BOSS_C:CollisionCylinder'",
@@ -423,7 +437,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_BlueThunderHorse_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueThunderHorse/BP_BlueThunderHorse.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueThunderHorse/BP_BlueThunderHorse.27"
     },
     "Properties": {
       "AttachParent": {
@@ -453,7 +467,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_BlueThunderHorse_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueThunderHorse/BP_BlueThunderHorse.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueThunderHorse/BP_BlueThunderHorse.29"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 196.05,
@@ -536,7 +550,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_BlueThunderHorse_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueThunderHorse/BP_BlueThunderHorse.31"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueThunderHorse/BP_BlueThunderHorse.30"
     }
   },
   {
@@ -550,7 +564,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_BlueThunderHorse_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueThunderHorse/BP_BlueThunderHorse.32"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueThunderHorse/BP_BlueThunderHorse.31"
     }
   },
   {
@@ -612,7 +626,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_BlueThunderHorse_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueThunderHorse/BP_BlueThunderHorse.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueThunderHorse/BP_BlueThunderHorse.45"
     },
     "Properties": {
       "AttachParent": {

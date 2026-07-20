@@ -314,7 +314,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_BirdDragon_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BirdDragon/BP_BirdDragon.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BirdDragon/BP_BirdDragon.22"
     }
   },
   {
@@ -328,43 +328,61 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_BirdDragon_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BirdDragon/BP_BirdDragon.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BirdDragon/BP_BirdDragon.23"
     },
     "Properties": {
-      "WalkCameraArmLength": 1250.0,
+      "WalkCameraArmLength": 720.0,
       "WalkCameraOffset": {
-        "X": 50.0,
-        "Y": 180.0,
-        "Z": 290.0
+        "X": 0.0,
+        "Y": 140.0,
+        "Z": 180.0
       },
-      "AimCameraArmLength": 350.0,
+      "HipShootCameraArmLength": 720.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 140.0,
+        "Z": 180.0
+      },
+      "AimCameraArmLength": 360.0,
       "AimCameraOffset": {
-        "X": 50.0,
-        "Y": 85.0,
+        "X": 0.0,
+        "Y": 120.0,
         "Z": 240.0
       },
-      "AirCameraArmLength": 1250.0,
+      "AirCameraArmLength": 720.0,
       "AirCameraOffset": {
-        "X": 50.0,
-        "Y": 180.0,
-        "Z": 290.0
+        "X": 0.0,
+        "Y": 140.0,
+        "Z": 180.0
       },
-      "AirAimCameraArmLength": 350.0,
+      "AirHipShootCameraArmLength": 720.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 140.0,
+        "Z": 180.0
+      },
+      "AirAimCameraArmLength": 360.0,
       "AirAimCameraOffset": {
-        "X": 50.0,
-        "Y": 85.0,
+        "X": 0.0,
+        "Y": 120.0,
         "Z": 240.0
       },
-      "FlyCameraArmLength": 1250.0,
+      "FlyCameraArmLength": 720.0,
       "FlyCameraOffset": {
-        "X": 50.0,
-        "Y": 180.0,
-        "Z": 290.0
+        "X": 0.0,
+        "Y": 140.0,
+        "Z": 180.0
       },
-      "FlyAimCameraArmLength": 350.0,
+      "FlyHipShootCameraArmLength": 720.0,
+      "FlyHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 140.0,
+        "Z": 180.0
+      },
+      "FlyAimCameraArmLength": 360.0,
       "FlyAimCameraOffset": {
-        "X": 50.0,
-        "Y": 85.0,
+        "X": 0.0,
+        "Y": 120.0,
         "Z": 240.0
       },
       "AttachParent": {
@@ -389,7 +407,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_BirdDragon_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BirdDragon/BP_BirdDragon.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BirdDragon/BP_BirdDragon.24"
     },
     "Properties": {
       "AttachParent": {
@@ -414,7 +432,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_BirdDragon_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BirdDragon/BP_BirdDragon.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BirdDragon/BP_BirdDragon.26"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 330.0,
@@ -467,7 +485,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_BirdDragon_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BirdDragon/BP_BirdDragon.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BirdDragon/BP_BirdDragon.27"
     }
   },
   {
@@ -481,7 +499,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_BirdDragon_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BirdDragon/BP_BirdDragon.29"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BirdDragon/BP_BirdDragon.28"
     }
   },
   {
@@ -543,7 +561,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_BirdDragon_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BirdDragon/BP_BirdDragon.40"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BirdDragon/BP_BirdDragon.39"
     },
     "Properties": {
       "AttachParent": {

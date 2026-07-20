@@ -12,7 +12,7 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_Penguin_Electric_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin_Electric.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin_Electric.22"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_Penguin_Electric_C:InheritableComponentHandler'",
@@ -63,7 +63,7 @@
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_Penguin_Electric_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin_Electric.18"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin_Electric.17"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_Penguin_Electric_C:DamageReactionComponent'",
@@ -71,11 +71,11 @@
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_Penguin_Electric_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin_Electric.19"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin_Electric.18"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_Penguin_Electric_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin_Electric.16"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin_Electric.15"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_Penguin_Electric_C:FollowCamera'",
@@ -91,11 +91,11 @@
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_Penguin_Electric_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin_Electric.20"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin_Electric.19"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_Penguin_Electric_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin_Electric.15"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin_Electric.14"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_Penguin_Electric_C:AnimNotifyComponent'",
@@ -107,11 +107,11 @@
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_Penguin_Electric_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin_Electric.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin_Electric.23"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_Penguin_Electric_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin_Electric.17"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin_Electric.16"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_Penguin_Electric_C:CharMoveComp'",
@@ -149,32 +149,6 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'BP_Penguin_Electric_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin_Electric.0"
-    },
-    "Properties": {
-      "Records": [
-        {
-          "ComponentClass": {
-            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-            "ObjectPath": "/Script/Pal"
-          },
-          "ComponentTemplate": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_Penguin_Electric_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin_Electric.14"
-          },
-          "ComponentKey": {
-            "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-            },
-            "SCSVariableName": "PalPartnerSkillParameter",
-            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
-          },
-          "CookedComponentInstancingData": {
-            "ChangedPropertyList": [],
-            "bHasValidCookedData": false
-          }
-        }
-      ]
     }
   },
   {
@@ -188,7 +162,7 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_Penguin_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.18"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.19"
     }
   },
   {
@@ -202,7 +176,7 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_Penguin_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.19"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.20"
     }
   },
   {
@@ -216,7 +190,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_Penguin_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.22"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.23"
     },
     "Properties": {
       "AttachParent": {
@@ -236,12 +210,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_Penguin_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.24"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_Penguin_Electric_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin_Electric.16"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin_Electric.15"
       }
     }
   },
@@ -256,7 +230,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_Penguin_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.25"
     }
   },
   {
@@ -270,7 +244,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_Penguin_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.26"
     }
   },
   {
@@ -284,7 +258,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_Penguin_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.27"
     }
   },
   {
@@ -298,7 +272,7 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_Penguin_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.28"
     }
   },
   {
@@ -312,7 +286,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_Penguin_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.29"
     }
   },
   {
@@ -326,36 +300,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_Penguin_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.30"
-    }
-  },
-  {
-    "Type": "PalPartnerSkillParameterComponent",
-    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_Penguin_Electric_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin_Electric.0"
-    },
-    "Template": {
-      "ObjectName": "PalPartnerSkillParameterComponent'BP_Penguin_C:PalPartnerSkillParameter_GEN_VARIABLE'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.31"
-    },
-    "Properties": {
-      "RestrictionItems": [
-        {
-          "Key": "SkillUnlock_Penguin_Electric"
-        }
-      ],
-      "SkillName": "RocketLauncher_Electric",
-      "ActiveSkill_MainValueByRank": [
-        300.0,
-        335.0,
-        375.0,
-        450.0,
-        550.0
-      ]
     }
   },
   {
@@ -488,7 +433,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_Penguin_Electric_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin_Electric.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin_Electric.22"
     },
     "Properties": {
       "ComponentClass": {
@@ -497,7 +442,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_Penguin_Electric_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin_Electric.21"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin_Electric.20"
       },
       "VariableGuid": "36A8C96A-4E055E5C-7048609D-814F1FCF",
       "InternalVariableName": "DefaultSceneRoot"
@@ -515,7 +460,7 @@
     "Properties": {
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_Penguin_Electric_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin_Electric.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin_Electric.21"
       }
     }
   },

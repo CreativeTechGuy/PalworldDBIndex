@@ -12,7 +12,7 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_WeaselDragon_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.38"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.37"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_WeaselDragon_C:InheritableComponentHandler'",
@@ -181,7 +181,7 @@
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_WeaselDragon_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.25"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_WeaselDragon_C:DamageReactionComponent'",
@@ -189,11 +189,11 @@
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_WeaselDragon_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.27"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.26"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_WeaselDragon_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.22"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_WeaselDragon_C:FollowCamera'",
@@ -209,11 +209,11 @@
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_WeaselDragon_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.28"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.27"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_WeaselDragon_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.21"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_WeaselDragon_C:AnimNotifyComponent'",
@@ -225,11 +225,11 @@
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_WeaselDragon_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.39"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.38"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_WeaselDragon_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.23"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_WeaselDragon_C:CharMoveComp'",
@@ -276,28 +276,6 @@
       "Records": [
         {
           "ComponentClass": {
-            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-            "ObjectPath": "/Script/Pal"
-          },
-          "ComponentTemplate": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_WeaselDragon_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.21"
-          },
-          "ComponentKey": {
-            "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-            },
-            "SCSVariableName": "PalPartnerSkillParameter",
-            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
-          },
-          "CookedComponentInstancingData": {
-            "ChangedPropertyList": [],
-            "bHasValidCookedData": false
-          }
-        },
-        {
-          "ComponentClass": {
             "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
             "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
           },
@@ -332,7 +310,7 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
     }
   },
   {
@@ -346,7 +324,7 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
     }
   },
   {
@@ -516,7 +494,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
@@ -536,12 +514,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_WeaselDragon_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.22"
       }
     }
   },
@@ -556,7 +534,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -570,7 +548,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
     },
     "Properties": {
       "InWaterRate": 0.39,
@@ -590,7 +568,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -604,7 +582,7 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
     }
   },
   {
@@ -618,7 +596,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     },
     "Properties": {
       "FootIKSettings": [
@@ -672,310 +650,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
-    }
-  },
-  {
-    "Type": "PalPartnerSkillParameterComponent",
-    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_WeaselDragon_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.0"
-    },
-    "Template": {
-      "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
-    },
-    "Properties": {
-      "RestrictionItems": [
-        {
-          "Key": "SkillUnlock_WeaselDragon"
-        }
-      ],
-      "PassiveSkills": [
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "GiveADragon_Ride"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 4,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            },
-            {
-              "Key": {
-                "Key": "GiveElement_TrainerATK_UP_PartnerSkill_Ride_1"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "GiveADragon_Ride"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 4,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            },
-            {
-              "Key": {
-                "Key": "GiveElement_TrainerATK_UP_PartnerSkill_Ride_2"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "GiveADragon_Ride"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 4,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            },
-            {
-              "Key": {
-                "Key": "GiveElement_TrainerATK_UP_PartnerSkill_Ride_3"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "GiveADragon_Ride"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 4,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            },
-            {
-              "Key": {
-                "Key": "GiveElement_TrainerATK_UP_PartnerSkill_Ride_4"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "GiveADragon_Ride"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 4,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            },
-            {
-              "Key": {
-                "Key": "GiveElement_TrainerATK_UP_PartnerSkill_Ride_5"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        }
-      ]
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
     }
   },
   {
@@ -989,7 +664,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -1003,32 +678,35 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
-      "WalkCameraArmLength": 570.0,
       "WalkCameraOffset": {
-        "X": 25.0,
-        "Y": 90.0,
+        "X": 0.0,
+        "Y": 100.0,
         "Z": 50.0
       },
-      "AimCameraArmLength": 370.0,
+      "AimCameraArmLength": 250.0,
       "AimCameraOffset": {
-        "X": 50.0,
-        "Y": 70.0,
-        "Z": 35.0
+        "X": 0.0,
+        "Y": 110.0,
+        "Z": 60.0
       },
-      "AirCameraArmLength": 570.0,
       "AirCameraOffset": {
-        "X": 25.0,
-        "Y": 90.0,
+        "X": 0.0,
+        "Y": 100.0,
         "Z": 50.0
       },
-      "AirAimCameraArmLength": 370.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 100.0,
+        "Z": 50.0
+      },
+      "AirAimCameraArmLength": 250.0,
       "AirAimCameraOffset": {
-        "X": 50.0,
-        "Y": 70.0,
-        "Z": 35.0
+        "X": 0.0,
+        "Y": 110.0,
+        "Z": 60.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_WeaselDragon_C:CollisionCylinder'",
@@ -1052,7 +730,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
       "bIsEnableGroundTilt": true,
@@ -1124,7 +802,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 110.0,
@@ -1353,8 +1031,8 @@
         {
           "Key": "EPalActionType::CommonWork",
           "Value": {
-            "ObjectName": "AnimMontage'AM_WeaselDragon_Eat'",
-            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/WeaselDragon/AM_WeaselDragon_Eat.0"
+            "ObjectName": "AnimMontage'AM_WeaselDragon_Commonwork'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/WeaselDragon/AM_WeaselDragon_Commonwork.0"
           }
         },
         {
@@ -1468,7 +1146,7 @@
           "Value": {
             "Effect": {
               "ObjectName": "NiagaraSystem'NS_InWaterPal'",
-              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_InWaterPal.14"
+              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_InWaterPal.24"
             },
             "Offset": {
               "X": 20.0,
@@ -1492,7 +1170,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     }
   },
   {
@@ -1506,7 +1184,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -1526,7 +1204,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_WeaselDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.38"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.37"
     },
     "Properties": {
       "ComponentClass": {
@@ -1535,7 +1213,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_WeaselDragon_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.29"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.28"
       },
       "VariableGuid": "A861A28E-4C9649C0-B5500FAF-6AA0FEEC",
       "InternalVariableName": "DefaultSceneRoot"
@@ -1548,7 +1226,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_WeaselDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.38"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.37"
     },
     "Properties": {
       "ComponentClass": {
@@ -1573,7 +1251,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_WeaselDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.38"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.37"
     },
     "Properties": {
       "ComponentClass": {
@@ -1598,7 +1276,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_WeaselDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.38"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.37"
     },
     "Properties": {
       "ComponentClass": {
@@ -1607,7 +1285,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalSpeedCollisionComponent'BP_WeaselDragon_C:PalSpeedCollision1_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.25"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.24"
       },
       "AttachToName": "root",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1623,7 +1301,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_WeaselDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.38"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.37"
     },
     "Properties": {
       "ComponentClass": {
@@ -1648,7 +1326,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_WeaselDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.38"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.37"
     },
     "Properties": {
       "ComponentClass": {
@@ -1673,7 +1351,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_WeaselDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.38"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.37"
     },
     "Properties": {
       "ComponentClass": {
@@ -1698,7 +1376,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_WeaselDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.38"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.37"
     },
     "Properties": {
       "ComponentClass": {
@@ -1729,66 +1407,66 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'BP_WeaselDragon_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.31"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.30"
         },
         {
           "ObjectName": "SCS_Node'BP_WeaselDragon_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.34"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.33"
         },
         {
           "ObjectName": "SCS_Node'BP_WeaselDragon_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.35"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.34"
         },
         {
           "ObjectName": "SCS_Node'BP_WeaselDragon_C:SimpleConstructionScript_0.SCS_Node_5'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.36"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.35"
         },
         {
           "ObjectName": "SCS_Node'BP_WeaselDragon_C:SimpleConstructionScript_0.SCS_Node_6'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.37"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.36"
         },
         {
           "ObjectName": "SCS_Node'BP_WeaselDragon_C:SimpleConstructionScript_0.SCS_Node_11'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.32"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.31"
         },
         {
           "ObjectName": "SCS_Node'BP_WeaselDragon_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.33"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.32"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'BP_WeaselDragon_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.31"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.30"
         },
         {
           "ObjectName": "SCS_Node'BP_WeaselDragon_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.34"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.33"
         },
         {
           "ObjectName": "SCS_Node'BP_WeaselDragon_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.35"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.34"
         },
         {
           "ObjectName": "SCS_Node'BP_WeaselDragon_C:SimpleConstructionScript_0.SCS_Node_5'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.36"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.35"
         },
         {
           "ObjectName": "SCS_Node'BP_WeaselDragon_C:SimpleConstructionScript_0.SCS_Node_6'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.37"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.36"
         },
         {
           "ObjectName": "SCS_Node'BP_WeaselDragon_C:SimpleConstructionScript_0.SCS_Node_11'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.32"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.31"
         },
         {
           "ObjectName": "SCS_Node'BP_WeaselDragon_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.33"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.32"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_WeaselDragon_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.30"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WeaselDragon/BP_WeaselDragon.29"
       }
     }
   },
@@ -1803,7 +1481,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {

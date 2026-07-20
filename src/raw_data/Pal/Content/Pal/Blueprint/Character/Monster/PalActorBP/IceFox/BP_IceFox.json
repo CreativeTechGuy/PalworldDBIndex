@@ -12,7 +12,7 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_IceFox_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.34"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.33"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_IceFox_C:InheritableComponentHandler'",
@@ -120,7 +120,7 @@
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_IceFox_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.23"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_IceFox_C:DamageReactionComponent'",
@@ -128,11 +128,11 @@
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_IceFox_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.25"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.24"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_IceFox_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.21"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_IceFox_C:FollowCamera'",
@@ -148,11 +148,11 @@
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_IceFox_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.25"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_IceFox_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.21"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.20"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_IceFox_C:AnimNotifyComponent'",
@@ -164,11 +164,11 @@
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_IceFox_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.35"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.34"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_IceFox_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.22"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_IceFox_C:CharMoveComp'",
@@ -232,28 +232,6 @@
       "Records": [
         {
           "ComponentClass": {
-            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-            "ObjectPath": "/Script/Pal"
-          },
-          "ComponentTemplate": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_IceFox_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.20"
-          },
-          "ComponentKey": {
-            "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-            },
-            "SCSVariableName": "PalPartnerSkillParameter",
-            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
-          },
-          "CookedComponentInstancingData": {
-            "ChangedPropertyList": [],
-            "bHasValidCookedData": false
-          }
-        },
-        {
-          "ComponentClass": {
             "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
             "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
           },
@@ -288,7 +266,25 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+    },
+    "Properties": {
+      "ActionMap": [
+        {
+          "Key": "EPalActionType::EPalActionType_MAX",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_ActionEatOneshot_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Action/Common/BP_ActionEatOneshot.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::SpawnItem",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_Action_SpawnItem_IceFox_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Action/Common/SpawnItem/BP_Action_SpawnItem_IceFox.0"
+          }
+        }
+      ]
     }
   },
   {
@@ -302,7 +298,7 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
     }
   },
   {
@@ -472,7 +468,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
@@ -492,12 +488,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_IceFox_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.21"
       }
     }
   },
@@ -512,7 +508,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -526,7 +522,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
     },
     "Properties": {
       "InWaterRate": 0.47,
@@ -544,7 +540,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -558,7 +554,7 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
     }
   },
   {
@@ -572,7 +568,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     },
     "Properties": {
       "FootIKSettings": [
@@ -626,175 +622,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
-    }
-  },
-  {
-    "Type": "PalPartnerSkillParameterComponent",
-    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_IceFox_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.0"
-    },
-    "Template": {
-      "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
-    },
-    "Properties": {
-      "PassiveSkills": [
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "PAL_ElementPassive_Test"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 16,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": true,
-                "TargetElementType": "EPalElementType::Ice",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "PAL_ElementPassive_1"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 16,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": true,
-                "TargetElementType": "EPalElementType::Ice",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "PAL_ElementPassive_2"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 16,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": true,
-                "TargetElementType": "EPalElementType::Ice",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "PAL_ElementPassive_3"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 16,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": true,
-                "TargetElementType": "EPalElementType::Ice",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "PAL_ElementPassive_4"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 16,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": true,
-                "TargetElementType": "EPalElementType::Ice",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        }
-      ]
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
     }
   },
   {
@@ -808,7 +636,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -822,7 +650,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
       "AttachParent": {
@@ -847,7 +675,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
       "bIsEnableGroundTilt": true,
@@ -887,7 +715,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 88.0,
@@ -1208,13 +1036,77 @@
       "PettingSize": "EPalPettingSizeType::SmallMiddle",
       "PettingDistance": 110.0,
       "PettingCameraArmLength_Override": 225.0,
+      "SpawnItem": {
+        "FieldLotteryNameByRank": [
+          {
+            "Key": "1",
+            "Value": {
+              "Key": "CharacterSpawnItem_IceOrgan_1"
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "Key": "CharacterSpawnItem_IceOrgan_2"
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "Key": "CharacterSpawnItem_IceOrgan_3"
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "Key": "CharacterSpawnItem_IceOrgan_4"
+            }
+          },
+          {
+            "Key": "5",
+            "Value": {
+              "Key": "CharacterSpawnItem_IceOrgan_5"
+            }
+          },
+          {
+            "Key": "6",
+            "Value": {
+              "Key": "CharacterSpawnItem_IceOrgan_6"
+            }
+          },
+          {
+            "Key": "7",
+            "Value": {
+              "Key": "CharacterSpawnItem_IceOrgan_7"
+            }
+          },
+          {
+            "Key": "8",
+            "Value": {
+              "Key": "CharacterSpawnItem_IceOrgan_8"
+            }
+          },
+          {
+            "Key": "9",
+            "Value": {
+              "Key": "CharacterSpawnItem_IceOrgan_9"
+            }
+          },
+          {
+            "Key": "10",
+            "Value": {
+              "Key": "CharacterSpawnItem_IceOrgan_10"
+            }
+          }
+        ]
+      },
       "WaterEffectMap": [
         {
           "Key": "EPalWaterEffectType::SplashFeet",
           "Value": {
             "Effect": {
               "ObjectName": "NiagaraSystem'NS_SplashFeetPal'",
-              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_SplashFeetPal.71"
+              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_SplashFeetPal.55"
             },
             "Offset": {
               "X": 0.0,
@@ -1229,7 +1121,7 @@
           "Value": {
             "Effect": {
               "ObjectName": "NiagaraSystem'NS_InWaterPal'",
-              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_InWaterPal.14"
+              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_InWaterPal.24"
             },
             "Offset": {
               "X": 50.0,
@@ -1253,7 +1145,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     }
   },
   {
@@ -1267,7 +1159,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -1287,7 +1179,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_IceFox_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.34"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.33"
     },
     "Properties": {
       "ComponentClass": {
@@ -1296,7 +1188,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_IceFox_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.27"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.26"
       },
       "VariableGuid": "860A01C3-45FCBE29-777B65B1-D8315EA4",
       "InternalVariableName": "DefaultSceneRoot"
@@ -1309,7 +1201,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_IceFox_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.34"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.33"
     },
     "Properties": {
       "ComponentClass": {
@@ -1334,7 +1226,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_IceFox_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.34"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.33"
     },
     "Properties": {
       "ComponentClass": {
@@ -1359,7 +1251,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_IceFox_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.34"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.33"
     },
     "Properties": {
       "ComponentClass": {
@@ -1384,7 +1276,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_IceFox_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.34"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.33"
     },
     "Properties": {
       "ComponentClass": {
@@ -1409,7 +1301,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_IceFox_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.34"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.33"
     },
     "Properties": {
       "ComponentClass": {
@@ -1440,50 +1332,50 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'BP_IceFox_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.30"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_IceFox_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.31"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_IceFox_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.32"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_IceFox_C:SimpleConstructionScript_0.SCS_Node_1'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.29"
         },
         {
+          "ObjectName": "SCS_Node'BP_IceFox_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_IceFox_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_IceFox_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.28"
+        },
+        {
           "ObjectName": "SCS_Node'BP_IceFox_C:SimpleConstructionScript_0.SCS_Node_5'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.33"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.32"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'BP_IceFox_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.30"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_IceFox_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.31"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_IceFox_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.32"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_IceFox_C:SimpleConstructionScript_0.SCS_Node_1'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.29"
         },
         {
+          "ObjectName": "SCS_Node'BP_IceFox_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_IceFox_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_IceFox_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.28"
+        },
+        {
           "ObjectName": "SCS_Node'BP_IceFox_C:SimpleConstructionScript_0.SCS_Node_5'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.33"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.32"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_IceFox_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.28"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceFox/BP_IceFox.27"
       }
     }
   },
@@ -1498,7 +1390,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {

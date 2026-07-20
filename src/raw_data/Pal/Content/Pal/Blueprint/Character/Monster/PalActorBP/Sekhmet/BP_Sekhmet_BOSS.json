@@ -46,7 +46,7 @@
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet_BOSS",
     "Template": {
       "ObjectName": "BP_Sekhmet_C'Default__BP_Sekhmet_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.2"
     },
     "Properties": {
       "LiftupObjectComponent": {
@@ -138,7 +138,7 @@
     },
     "Template": {
       "ObjectName": "CapsuleComponent'Default__BP_Sekhmet_C:CollisionCylinder'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.3"
     }
   },
   {
@@ -162,7 +162,7 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_Sekhmet_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.4"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.5"
     }
   },
   {
@@ -176,7 +176,7 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_Sekhmet_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.5"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.6"
     }
   },
   {
@@ -190,7 +190,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_Sekhmet_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.6"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.13"
     },
     "Properties": {
       "AttachParent": {
@@ -210,7 +210,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_Sekhmet_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.7"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.14"
     },
     "Properties": {
       "AttachParent": {
@@ -230,7 +230,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_Sekhmet_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.8"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.15"
     }
   },
   {
@@ -244,7 +244,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_Sekhmet_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.9"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.16"
     }
   },
   {
@@ -258,7 +258,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_Sekhmet_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.10"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.17"
     }
   },
   {
@@ -272,7 +272,7 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_Sekhmet_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.11"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.18"
     }
   },
   {
@@ -286,7 +286,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_Sekhmet_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.12"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.19"
     }
   },
   {
@@ -300,7 +300,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_Sekhmet_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.13"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.20"
     }
   },
   {
@@ -314,7 +314,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_Sekhmet_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.15"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.21"
     }
   },
   {
@@ -328,7 +328,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_Sekhmet_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.16"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.22"
     },
     "Properties": {
       "AttachParent": {
@@ -348,7 +348,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_Sekhmet_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.17"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.23"
     },
     "Properties": {
       "AttachParent": {
@@ -373,11 +373,12 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_Sekhmet_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.18"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.24"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 115.46,
-      "MeshCapsuleRadius": 44.61
+      "MeshCapsuleRadius": 44.61,
+      "PettingDistance": 100.0
     }
   },
   {
@@ -391,7 +392,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_Sekhmet_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.19"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.25"
     }
   },
   {
@@ -405,7 +406,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_Sekhmet_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.20"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.26"
     }
   },
   {
@@ -467,7 +468,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_Sekhmet_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.36"
     },
     "Properties": {
       "AttachParent": {

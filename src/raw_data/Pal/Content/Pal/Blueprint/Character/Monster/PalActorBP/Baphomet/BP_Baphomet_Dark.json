@@ -314,7 +314,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_Baphomet_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet.23"
     }
   },
   {
@@ -328,7 +328,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_Baphomet_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet.24"
     },
     "Properties": {
       "AttachParent": {
@@ -348,7 +348,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_Baphomet_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet.25"
     },
     "Properties": {
       "SkeletalMesh": {
@@ -376,7 +376,18 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_Baphomet_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet.27"
+    },
+    "Properties": {
+      "WazaActionDeclarationMap": [
+        {
+          "Key": "EPalWazaID::Unique_Baphomet_Dark_DarkKite",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/Baphomet/BP_Action_Unique_Baphomet_Dark_DarkKite.BP_Action_Unique_Baphomet_Dark_DarkKite_C",
+            "SubPathString": ""
+          }
+        }
+      ]
     }
   },
   {
@@ -390,7 +401,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_Baphomet_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet.29"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet.28"
     }
   },
   {
@@ -404,7 +415,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_Baphomet_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet.29"
     }
   },
   {
@@ -466,7 +477,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_Baphomet_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet.41"
     },
     "Properties": {
       "AttachParent": {

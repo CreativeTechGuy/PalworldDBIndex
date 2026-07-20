@@ -12,11 +12,11 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_ElecPanda_Gym_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.34"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.33"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_ElecPanda_Gym_C:InheritableComponentHandler'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.8"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.7"
       },
       "UberGraphFunction": {
         "ObjectName": "Function'BP_ElecPanda_Gym_C:ExecuteUbergraph_BP_ElecPanda_Gym'",
@@ -35,10 +35,6 @@
       {
         "ObjectName": "Function'BP_ElecPanda_Gym_C:ReceiveBeginPlay'",
         "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.6"
-      },
-      {
-        "ObjectName": "Function'BP_ElecPanda_Gym_C:ReceiveTick'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.7"
       },
       {
         "ObjectName": "Function'BP_ElecPanda_Gym_C:ExecuteUbergraph_BP_ElecPanda_Gym'",
@@ -96,10 +92,6 @@
         "ObjectName": "Function'BP_ElecPanda_Gym_C:ExecuteUbergraph_BP_ElecPanda_Gym'",
         "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.4"
       },
-      "ReceiveTick": {
-        "ObjectName": "Function'BP_ElecPanda_Gym_C:ReceiveTick'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.7"
-      },
       "ReceiveBeginPlay": {
         "ObjectName": "Function'BP_ElecPanda_Gym_C:ReceiveBeginPlay'",
         "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.6"
@@ -138,73 +130,73 @@
       "UberGraphFrame": {},
       "LiftupObjectComponent": {
         "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_ElecPanda_Gym_C:Liftup'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.15"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.14"
       },
       "DefaultVoiceID": 3,
       "ActionComponent": {
         "ObjectName": "PalActionComponent'Default__BP_ElecPanda_Gym_C:ActionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.9"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.8"
       },
       "CharacterParameterComponent": {
         "ObjectName": "PalCharacterParameterComponent'Default__BP_ElecPanda_Gym_C:CharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.17"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.16"
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_ElecPanda_Gym_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.25"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_ElecPanda_Gym_C:DamageReactionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.18"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.17"
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_ElecPanda_Gym_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.27"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.26"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_ElecPanda_Gym_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.23"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_ElecPanda_Gym_C:FollowCamera'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.14"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.13"
       },
       "LookAtComponent": {
         "ObjectName": "PalLookAtComponent'Default__BP_ElecPanda_Gym_C:LookAtComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.20"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.19"
       },
       "FootIKComponent": {
         "ObjectName": "PalFootIKComponent'Default__BP_ElecPanda_Gym_C:FootIKComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.19"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.18"
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_ElecPanda_Gym_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.28"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.27"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_ElecPanda_Gym_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.21"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_ElecPanda_Gym_C:AnimNotifyComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.10"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.9"
       },
       "AroundInfoCollectorComponent": {
         "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_ElecPanda_Gym_C:AroundInfoCollectorComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.13"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.12"
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_ElecPanda_Gym_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.35"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.34"
       },
       "bIsDisable_ChangeTickInterval_ByImportance": true,
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_ElecPanda_Gym_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.25"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.24"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_ElecPanda_Gym_C:CharMoveComp'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.16"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.15"
       },
       "CapsuleComponent": {
         "ObjectName": "CapsuleComponent'Default__BP_ElecPanda_Gym_C:CollisionCylinder'",
@@ -430,12 +422,6 @@
         "Flags": "RF_Public",
         "ElementSize": 4,
         "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
-      },
-      {
-        "Type": "FloatProperty",
-        "Name": "K2Node_Event_DeltaSeconds",
-        "Flags": "RF_Public",
-        "ElementSize": 4
       }
     ],
     "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
@@ -479,41 +465,13 @@
     },
     "Super": {
       "ObjectName": "Function'BP_MonsterBase_C:ReceiveBeginPlay'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.32"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.33"
     },
     "SuperStruct": {
       "ObjectName": "Function'BP_MonsterBase_C:ReceiveBeginPlay'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.32"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.33"
     },
     "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
-  },
-  {
-    "Type": "Function",
-    "Name": "ReceiveTick",
-    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
-    "Class": "UScriptClass'Function'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_ElecPanda_Gym_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.0"
-    },
-    "Super": {
-      "ObjectName": "Function'BP_MonsterBase_C:ReceiveTick'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.34"
-    },
-    "SuperStruct": {
-      "ObjectName": "Function'BP_MonsterBase_C:ReceiveTick'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.34"
-    },
-    "ChildProperties": [
-      {
-        "Type": "FloatProperty",
-        "Name": "DeltaSeconds",
-        "Flags": "RF_Public",
-        "ElementSize": 4,
-        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
-      }
-    ],
-    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
   },
   {
     "Type": "InheritableComponentHandler",
@@ -533,7 +491,7 @@
           },
           "ComponentTemplate": {
             "ObjectName": "PalNavigationInvokerComponent'BP_ElecPanda_Gym_C:PalNavigationInvoker_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.21"
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.20"
           },
           "ComponentKey": {
             "OwnerClass": {
@@ -555,7 +513,7 @@
           },
           "ComponentTemplate": {
             "ObjectName": "PalBodyPartsCapsuleComponent'BP_ElecPanda_Gym_C:PalBodyPartsCapsule_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.12"
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.11"
           },
           "ComponentKey": {
             "OwnerClass": {
@@ -699,7 +657,7 @@
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_ElecPanda_Gym_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.23"
       }
     }
   },
@@ -798,7 +756,7 @@
     },
     "Template": {
       "ObjectName": "PalNavigationInvokerComponent'BP_MonsterBase_C:PalNavigationInvoker_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
     },
     "Properties": {
       "bIsAutoActivateInvoker": true
@@ -815,7 +773,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_ElecPanda_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.22"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.21"
     }
   },
   {
@@ -860,7 +818,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_ElecPanda_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.23"
     },
     "Properties": {
       "AttachParent": {
@@ -885,7 +843,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_ElecPanda_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.24"
     },
     "Properties": {
       "AttachParent": {
@@ -915,7 +873,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_ElecPanda_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.26"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 220.0,
@@ -925,6 +883,7 @@
         "Y": 0.0,
         "Z": -220.0
       },
+      "ApproachArrivalRadius": 130.0,
       "RagdollPresetMap": [
         {
           "Key": "EPalRagdollPresetType::BeLiftup",
@@ -954,7 +913,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_ElecPanda_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.27"
     }
   },
   {
@@ -968,7 +927,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_ElecPanda_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.29"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.28"
     }
   },
   {
@@ -988,7 +947,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_ElecPanda_Gym_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.34"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.33"
     },
     "Properties": {
       "ComponentClass": {
@@ -997,7 +956,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_ElecPanda_Gym_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.29"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.28"
       },
       "VariableGuid": "8A6F901D-452BEA2F-C6896D8C-F917E0D4",
       "InternalVariableName": "DefaultSceneRoot"
@@ -1010,7 +969,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_ElecPanda_Gym_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.34"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.33"
     },
     "Properties": {
       "ComponentClass": {
@@ -1019,7 +978,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_ElecPanda_Gym_C:PalBodyPartsCapsule3_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.11"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.10"
       },
       "VariableGuid": "C178DFCA-480D5BD9-B2EFB3A6-7F26FE17",
       "InternalVariableName": "PalBodyPartsCapsule3"
@@ -1032,7 +991,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_ElecPanda_Gym_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.34"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.33"
     },
     "Properties": {
       "ComponentClass": {
@@ -1041,7 +1000,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalRideMarkerComponent'BP_ElecPanda_Gym_C:PalRideMarker_0_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.22"
       },
       "AttachToName": "BossRideMarker",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1057,7 +1016,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_ElecPanda_Gym_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.34"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.33"
     },
     "Properties": {
       "ComponentClass": {
@@ -1074,7 +1033,7 @@
       "ChildNodes": [
         {
           "ObjectName": "SCS_Node'BP_ElecPanda_Gym_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.31"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.30"
         }
       ],
       "VariableGuid": "25E6C57B-45F599F0-B4953F99-F112C9A2",
@@ -1094,30 +1053,30 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'BP_ElecPanda_Gym_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.33"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.32"
         },
         {
           "ObjectName": "SCS_Node'BP_ElecPanda_Gym_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.32"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.31"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'BP_ElecPanda_Gym_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.33"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.32"
         },
         {
           "ObjectName": "SCS_Node'BP_ElecPanda_Gym_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.31"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.30"
         },
         {
           "ObjectName": "SCS_Node'BP_ElecPanda_Gym_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.32"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.31"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_ElecPanda_Gym_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.30"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Gym.29"
       }
     }
   },
@@ -1132,7 +1091,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_ElecPanda_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.40"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.39"
     },
     "Properties": {
       "AttachParent": {

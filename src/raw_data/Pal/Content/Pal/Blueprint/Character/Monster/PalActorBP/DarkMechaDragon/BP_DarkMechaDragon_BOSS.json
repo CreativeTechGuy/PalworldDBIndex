@@ -192,6 +192,92 @@
     },
     "Properties": {
       "OverrideParameters": {
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.ConeAngle",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 4,
+            "Name": "User.InnerConeAngle",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 8,
+            "Name": "User.LifetimeMax",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 12,
+            "Name": "User.LifetimeMin",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 16,
+            "Name": "User.Rate",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 20,
+            "Name": "User.Scale",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 24,
+            "Name": "User.Speed",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          }
+        ],
         "ParameterData": [
           0,
           0,
@@ -388,7 +474,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_DarkMechaDragon_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.27"
     }
   },
   {
@@ -402,43 +488,57 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_DarkMechaDragon_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.29"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.28"
     },
     "Properties": {
-      "WalkCameraArmLength": 800.0,
+      "WalkCameraArmLength": 500.0,
       "WalkCameraOffset": {
         "X": 0.0,
-        "Y": 180.0,
-        "Z": 180.0
+        "Y": 160.0,
+        "Z": 130.0
       },
-      "AimCameraArmLength": 170.0,
+      "HipShootCameraArmLength": 500.0,
+      "AimCameraArmLength": 400.0,
       "AimCameraOffset": {
         "X": 0.0,
-        "Y": 55.0,
-        "Z": 105.0
+        "Y": 120.0,
+        "Z": 180.0
       },
-      "AirCameraArmLength": 800.0,
+      "AirCameraArmLength": 500.0,
       "AirCameraOffset": {
         "X": 0.0,
-        "Y": 180.0,
-        "Z": 180.0
+        "Y": 160.0,
+        "Z": 130.0
       },
-      "AirAimCameraArmLength": 170.0,
+      "AirHipShootCameraArmLength": 500.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 160.0,
+        "Z": 130.0
+      },
+      "AirAimCameraArmLength": 400.0,
       "AirAimCameraOffset": {
         "X": 0.0,
-        "Y": 55.0,
-        "Z": 105.0
+        "Y": 150.0,
+        "Z": 250.0
       },
-      "FlyCameraArmLength": 800.0,
+      "FlyCameraArmLength": 500.0,
       "FlyCameraOffset": {
         "X": 0.0,
-        "Y": 180.0,
-        "Z": 180.0
+        "Y": 160.0,
+        "Z": 130.0
       },
+      "FlyHipShootCameraArmLength": 500.0,
+      "FlyHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 160.0,
+        "Z": 130.0
+      },
+      "FlyAimCameraArmLength": 400.0,
       "FlyAimCameraOffset": {
         "X": 0.0,
-        "Y": 80.0,
-        "Z": 180.0
+        "Y": 150.0,
+        "Z": 250.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_DarkMechaDragon_BOSS_C:CollisionCylinder'",
@@ -462,7 +562,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_DarkMechaDragon_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.29"
     },
     "Properties": {
       "AttachParent": {
@@ -492,7 +592,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_DarkMechaDragon_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.32"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.31"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 190.54,
@@ -578,7 +678,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_DarkMechaDragon_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.33"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.32"
     }
   },
   {
@@ -592,7 +692,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_DarkMechaDragon_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.34"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.33"
     }
   },
   {
@@ -654,7 +754,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_DarkMechaDragon_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkMechaDragon/BP_DarkMechaDragon.49"
     },
     "Properties": {
       "AttachParent": {

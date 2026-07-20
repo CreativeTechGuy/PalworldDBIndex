@@ -1,0 +1,1712 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_FlowerPrince_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_FlowerPrince_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.47"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_FlowerPrince_C:InheritableComponentHandler'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule10",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule9",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule8",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule7",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule6",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule5",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsSphere",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsSphereComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_FlowerPrince_C'Default__BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_FlowerPrince_C",
+    "Name": "Default__BP_FlowerPrince_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.BP_FlowerPrince_C'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince",
+    "Template": {
+      "ObjectName": "BP_MonsterBase_C'Default__BP_MonsterBase_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.1"
+    },
+    "Properties": {
+      "LiftupObjectComponent": {
+        "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_FlowerPrince_C:Liftup'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.21"
+      },
+      "ActionComponent": {
+        "ObjectName": "PalActionComponent'Default__BP_FlowerPrince_C:ActionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.5"
+      },
+      "CharacterParameterComponent": {
+        "ObjectName": "PalCharacterParameterComponent'Default__BP_FlowerPrince_C:CharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.23"
+      },
+      "StaticCharacterParameterComponent": {
+        "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_FlowerPrince_C:StaticCharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.30"
+      },
+      "DamageReactionComponent": {
+        "ObjectName": "PalDamageReactionComponent'Default__BP_FlowerPrince_C:DamageReactionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.24"
+      },
+      "StatusComponent": {
+        "ObjectName": "PalStatusComponent'Default__BP_FlowerPrince_C:StatusComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.31"
+      },
+      "CameraBoom": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_FlowerPrince_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.28"
+      },
+      "FollowCamera": {
+        "ObjectName": "PalCharacterCameraComponent'Default__BP_FlowerPrince_C:FollowCamera'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.20"
+      },
+      "LookAtComponent": {
+        "ObjectName": "PalLookAtComponent'Default__BP_FlowerPrince_C:LookAtComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.26"
+      },
+      "FootIKComponent": {
+        "ObjectName": "PalFootIKComponent'Default__BP_FlowerPrince_C:FootIKComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.25"
+      },
+      "VisualEffectComponent": {
+        "ObjectName": "PalVisualEffectComponent'Default__BP_FlowerPrince_C:VisualEffectComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.32"
+      },
+      "PassiveSkillComponent": {
+        "ObjectName": "PalPassiveSkillComponent'Default__BP_FlowerPrince_C:PassiveSkillComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.27"
+      },
+      "AnimNotifyComponent": {
+        "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_FlowerPrince_C:AnimNotifyComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.6"
+      },
+      "AroundInfoCollectorComponent": {
+        "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_FlowerPrince_C:AroundInfoCollectorComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.19"
+      },
+      "RagdollInteractiveSphere": {
+        "ObjectName": "SphereComponent'Default__BP_FlowerPrince_C:RagdollInteractiveSphere'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.48"
+      },
+      "Mesh": {
+        "ObjectName": "PalSkeletalMeshComponent'Default__BP_FlowerPrince_C:CharacterMesh0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.29"
+      },
+      "CharacterMovement": {
+        "ObjectName": "PalCharacterMovementComponent'Default__BP_FlowerPrince_C:CharMoveComp'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.22"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_FlowerPrince_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.3"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_FlowerPrince_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.3"
+      }
+    }
+  },
+  {
+    "Type": "BP_PalCryComponent_C",
+    "Name": "BP_PalCryComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.BP_PalCryComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalCryComponent_C'BP_MonsterBase_C:BP_PalCryComponent_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.2"
+    },
+    "Properties": {
+      "CryPalID": "EPalTribeID::BlackFurDragon"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_FlowerPrince_C'Default__BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.1"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_MonsterBase_C:CollisionCylinder'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.3"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 30.0,
+      "CapsuleRadius": 30.0
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
+            "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BP_PalCryComponent_C'BP_FlowerPrince_C:BP_PalCryComponent_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.2"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+            },
+            "SCSVariableName": "BP_PalCryComponent",
+            "AssociatedGuid": "A971BE27-4B3C10FC-863FA284-ECDC3286"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PalActionComponent",
+    "Name": "ActionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalActionComponent'",
+    "Outer": {
+      "ObjectName": "BP_FlowerPrince_C'Default__BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.1"
+    },
+    "Template": {
+      "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+    },
+    "Properties": {
+      "ActionMap": [
+        {
+          "Key": "EPalActionType::EPalActionType_MAX",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_ActionEatOneshot_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Action/Common/BP_ActionEatOneshot.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::PartnerSkill",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_Action_Coop_StatusUp_ToPlayer_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Action/MonsterCoop/BP_Action_Coop_StatusUp_ToPlayer.0"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PalAnimNotifyParameterComponent",
+    "Name": "AnimNotifyComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_FlowerPrince_C'Default__BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.1"
+    },
+    "Template": {
+      "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule10_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 25.0,
+      "CapsuleRadius": 15.0,
+      "RelativeLocation": {
+        "X": -18.0,
+        "Y": -4.141132E-14,
+        "Z": 8.376633E-14
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -2.7757685E-14,
+        "Roll": 2.0054225E-13
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 20.0,
+      "CapsuleRadius": 10.0,
+      "RelativeLocation": {
+        "X": 17.0,
+        "Y": 1.01030295E-14,
+        "Z": -1.26565425E-14
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -178.68384,
+        "Roll": 178.68384
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 35.0,
+      "CapsuleRadius": 15.0,
+      "RelativeLocation": {
+        "X": 32.0,
+        "Y": 2.6312286E-14,
+        "Z": -3.430589E-14
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -178.68384,
+        "Roll": 178.68384
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule3_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 20.0,
+      "CapsuleRadius": 10.0,
+      "RelativeLocation": {
+        "X": -20.0,
+        "Y": -9.65894E-15,
+        "Z": -6.27276E-14
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -179.68349,
+        "Roll": 179.68349
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule4_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 35.0,
+      "CapsuleRadius": 15.0,
+      "RelativeLocation": {
+        "X": -35.0,
+        "Y": -2.0095037E-14,
+        "Z": -6.4726E-14
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -179.68349,
+        "Roll": 179.68349
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule5_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 45.0,
+      "CapsuleRadius": 7.0,
+      "RelativeLocation": {
+        "X": 17.0,
+        "Y": 1.01030295E-14,
+        "Z": -1.26565425E-14
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -178.68384,
+        "Roll": 178.68384
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule6_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 45.0,
+      "CapsuleRadius": 7.0,
+      "RelativeLocation": {
+        "X": -17.0,
+        "Y": -5.2180482E-15,
+        "Z": 1.7541524E-14
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -179.68349,
+        "Roll": 179.68349
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule7_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 30.0,
+      "CapsuleRadius": 7.0,
+      "RelativeLocation": {
+        "X": 32.0,
+        "Y": 1.2767565E-14,
+        "Z": 2.9087843E-14
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -179.68349,
+        "Roll": 179.68349
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule8_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 30.0,
+      "CapsuleRadius": 7.0,
+      "RelativeLocation": {
+        "X": -32.0,
+        "Y": 4.2188475E-14,
+        "Z": 5.1680882E-14
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -179.68349,
+        "Roll": 179.68349
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule9_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 25.0,
+      "CapsuleRadius": 15.0,
+      "RelativeLocation": {
+        "X": 20.0,
+        "Y": 5.87308E-14,
+        "Z": 7.122081E-14
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -179.68349,
+        "Roll": 179.68349
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 35.0,
+      "CapsuleRadius": 15.0,
+      "RelativeLocation": {
+        "X": 9.0,
+        "Y": 2.9976022E-15,
+        "Z": -5.9952043E-15
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -178.68384,
+        "Roll": 178.68384
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsSphereComponent",
+    "Name": "PalBodyPartsSphere_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsSphereComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.0"
+    },
+    "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Weak",
+      "SphereRadius": 40.0,
+      "RelativeLocation": {
+        "X": 24.0,
+        "Y": -1.0658141E-14,
+        "Z": -1.0658141E-14
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterAroundInfoCollectorComponent",
+    "Name": "AroundInfoCollectorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+    "Outer": {
+      "ObjectName": "BP_FlowerPrince_C'Default__BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_FlowerPrince_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.3"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterCameraComponent",
+    "Name": "FollowCamera",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterCameraComponent'",
+    "Outer": {
+      "ObjectName": "BP_FlowerPrince_C'Default__BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_FlowerPrince_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.28"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterLiftupObjectComponent",
+    "Name": "Liftup",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+    "Outer": {
+      "ObjectName": "BP_FlowerPrince_C'Default__BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+    }
+  },
+  {
+    "Type": "PalCharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_FlowerPrince_C'Default__BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+    },
+    "Properties": {
+      "InWaterRate": 0.049999997,
+      "bIsHoverWaterPal": true,
+      "Buoyancy": 12.0
+    }
+  },
+  {
+    "Type": "PalCharacterParameterComponent",
+    "Name": "CharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_FlowerPrince_C'Default__BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+    }
+  },
+  {
+    "Type": "PalDamageReactionComponent",
+    "Name": "DamageReactionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalDamageReactionComponent'",
+    "Outer": {
+      "ObjectName": "BP_FlowerPrince_C'Default__BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.1"
+    },
+    "Template": {
+      "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
+    }
+  },
+  {
+    "Type": "PalFootIKComponent",
+    "Name": "FootIKComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalFootIKComponent'",
+    "Outer": {
+      "ObjectName": "BP_FlowerPrince_C'Default__BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.1"
+    },
+    "Template": {
+      "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
+    }
+  },
+  {
+    "Type": "PalLookAtComponent",
+    "Name": "LookAtComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalLookAtComponent'",
+    "Outer": {
+      "ObjectName": "BP_FlowerPrince_C'Default__BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.1"
+    },
+    "Template": {
+      "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
+    }
+  },
+  {
+    "Type": "PalPassiveSkillComponent",
+    "Name": "PassiveSkillComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalPassiveSkillComponent'",
+    "Outer": {
+      "ObjectName": "BP_FlowerPrince_C'Default__BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.1"
+    },
+    "Template": {
+      "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
+    }
+  },
+  {
+    "Type": "PalShooterSpringArmComponent",
+    "Name": "CameraBoom",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalShooterSpringArmComponent'",
+    "Outer": {
+      "ObjectName": "BP_FlowerPrince_C'Default__BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.1"
+    },
+    "Template": {
+      "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_FlowerPrince_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.3"
+      }
+    }
+  },
+  {
+    "Type": "PalSkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_FlowerPrince_C'Default__BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.1"
+    },
+    "Template": {
+      "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_FlowerPrince_C'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/ABP_FlowerPrince.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_FlowerPrince'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/FlowerPrince/SK_FlowerPrince.0"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_FlowerPrince'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/FlowerPrince/SK_FlowerPrince.0"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_FlowerPrince_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -30.0
+      }
+    }
+  },
+  {
+    "Type": "PalStaticCharacterParameterComponent",
+    "Name": "StaticCharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_FlowerPrince_C'Default__BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.1"
+    },
+    "Template": {
+      "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+    },
+    "Properties": {
+      "MeshCapsuleHalfHeight": 160.0,
+      "MeshCapsuleRadius": 60.0,
+      "MeshRelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -160.0
+      },
+      "AIActionMap": [
+        {
+          "Key": "EPalAIActionType::Cooperation",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AIActionCoop_StatusUp_FlowerPrince_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Coop/BP_AIActionCoop_StatusUp_FlowerPrince.0"
+          }
+        }
+      ],
+      "RandomRestMontageInfos": [
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_FlowerPrince_Rest01'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FlowerPrince/AM_FlowerPrince_Rest01.0"
+          },
+          "Weight": 0.4,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 4,
+          "AfterIdleTime": 5.0
+        },
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_FlowerPrince_Rest02'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FlowerPrince/AM_FlowerPrince_Rest02.0"
+          },
+          "Weight": 0.6,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 5.0
+        }
+      ],
+      "GeneralAnimSequenceMap": [
+        {
+          "Key": "EPalGeneralAnimSequenceType::JumpLoop",
+          "Value": {
+            "ObjectName": "AnimSequence'AS_FlowerPrince_JumpLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FlowerPrince/AS_FlowerPrince_JumpLoop.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralAnimSequenceType::JumpEnd",
+          "Value": {
+            "ObjectName": "AnimSequence'AS_FlowerPrince_JumpEnd'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FlowerPrince/AS_FlowerPrince_JumpEnd.0"
+          }
+        }
+      ],
+      "GeneralMontageMap": [
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackReady_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_FlowerPrince_FarSkill_Start'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FlowerPrince/AM_FlowerPrince_FarSkill_Start.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackReadyLoop_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_FlowerPrince_FarSkill_StartLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FlowerPrince/AM_FlowerPrince_FarSkill_StartLoop.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackProcess_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_FlowerPrince_FarSkill_Action'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FlowerPrince/AM_FlowerPrince_FarSkill_Action.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackProcessLoop_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_FlowerPrince_FarSkill_ActionLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FlowerPrince/AM_FlowerPrince_FarSkill_ActionLoop.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::GeneralAttackAfter_Far",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_FlowerPrince_FarSkill_End'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FlowerPrince/AM_FlowerPrince_FarSkill_End.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::SleepStart",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_FlowerPrince_SleepStart'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FlowerPrince/AM_FlowerPrince_SleepStart.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::SleepLoop",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_FlowerPrince_SleepLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FlowerPrince/AM_FlowerPrince_SleepLoop.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::SleepEnd",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_FlowerPrince_SleepEnd'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FlowerPrince/AM_FlowerPrince_SleepEnd.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::DamageAdditive",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_FlowerPrince_Hit'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FlowerPrince/AM_FlowerPrince_Hit.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::BeLiftupStart",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_FlowerPrince_Carrying'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FlowerPrince/AM_FlowerPrince_Carrying.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::BeLiftupLoop",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_FlowerPrince_Carrying'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FlowerPrince/AM_FlowerPrince_Carrying.0"
+          }
+        }
+      ],
+      "GeneralBlendSpaceMap": [
+        {
+          "Key": "EPalGeneralBlendSpaceType::GeneralMove",
+          "Value": {
+            "ObjectName": "BlendSpace1D'BS_Move_FlowerPrince'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BS_Move_FlowerPrince.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralBlendSpaceType::Swim",
+          "Value": {
+            "ObjectName": "BlendSpace1D'BS_Swim_FlowerPrince'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BS_Swim_FlowerPrince.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralBlendSpaceType::TransportingObjectMove",
+          "Value": {
+            "ObjectName": "BlendSpace1D'BS_Transport_FlowerPrince'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BS_Transport_FlowerPrince.0"
+          }
+        }
+      ],
+      "ActionMontageMap": [
+        {
+          "Key": "EPalActionType::Menace",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_FlowerPrince_Encount'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FlowerPrince/AM_FlowerPrince_Encount.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::Eat",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_FlowerPrince_Eat'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FlowerPrince/AM_FlowerPrince_Eat.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::KnockBack",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_FlowerPrince_Damage'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FlowerPrince/AM_FlowerPrince_Damage.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::ForwardWalk",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_FlowerPrince_Walk'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FlowerPrince/AM_FlowerPrince_Walk.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::Architecture",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_FlowerPrince_Architecture'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FlowerPrince/AM_FlowerPrince_Architecture.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::GetupUtubuse_orRight",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_FlowerPrince_GetUp_FrontDown'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FlowerPrince/AM_FlowerPrince_GetUp_FrontDown.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::PalPetting",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_FlowerPrince_Petting'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FlowerPrince/AM_FlowerPrince_Petting.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::CommonWork",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_FlowerPrince_CommonWork'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FlowerPrince/AM_FlowerPrince_CommonWork.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::ElectricShock",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_FlowerPrince_ElectricShock'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FlowerPrince/AM_FlowerPrince_ElectricShock.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::DefenseGunner",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_FlowerPrince_Gunner'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FlowerPrince/AM_FlowerPrince_Gunner.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::Feeding",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_FlowerPrince_Planting'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FlowerPrince/AM_FlowerPrince_Planting.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::IdleInSpa",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_FlowerPrince_Spa'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FlowerPrince/AM_FlowerPrince_Spa.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::FishPond",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_FlowerPrince_SleepLoop'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/FlowerPrince/AM_FlowerPrince_SleepLoop.0"
+          }
+        }
+      ],
+      "SleepOnSideInfoMapForMapObject": [
+        {
+          "Key": {
+            "Key": "MedicalPalBed_02"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": 0.0,
+              "Y": -20.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 120.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_03"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": 0.0,
+              "Y": -20.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 120.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_04"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 120.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        }
+      ],
+      "WazaActionDeclarationMap": [
+        {
+          "Key": "EPalWazaID::Unique_FlowerPrince_PoisonGasDance",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/FlowerPrince/BP_UniqueAction_FlowerPrince_PoisonGasDance.BP_UniqueAction_FlowerPrince_PoisonGasDance_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EPalWazaID::Unique_FlowerPrince_PoisonGasTackle",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/FlowerPrince/BP_UniqueAction_FlowerPrince_PoisonGasTackle.BP_UniqueAction_FlowerPrince_PoisonGasTackle_C",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "HPGaugeUIOffset": {
+        "X": 30.0,
+        "Y": 50.0
+      },
+      "GetupMotion_UtubuseOrRight_0FramePelvisLocation": {
+        "X": 6.432053,
+        "Y": 9.819969,
+        "Z": 17.418232
+      },
+      "PettingSize": "EPalPettingSizeType::Large",
+      "PettingDistance": 80.0,
+      "PettingEndLeaveDistance": 20.0,
+      "PettingCameraCenterDistance_Override": 50.0,
+      "PettingCameraHeight_Override": 50.0,
+      "DefenseBuildObjectAssignDistance": 30.0
+    }
+  },
+  {
+    "Type": "PalStatusComponent",
+    "Name": "StatusComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStatusComponent'",
+    "Outer": {
+      "ObjectName": "BP_FlowerPrince_C'Default__BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.1"
+    },
+    "Template": {
+      "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+    }
+  },
+  {
+    "Type": "PalVisualEffectComponent",
+    "Name": "VisualEffectComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalVisualEffectComponent'",
+    "Outer": {
+      "ObjectName": "BP_FlowerPrince_C'Default__BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.1"
+    },
+    "Template": {
+      "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FlowerPrince_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_FlowerPrince_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.33"
+      },
+      "VariableGuid": "C94432FA-47CC19FD-73387087-A6B4BE34",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FlowerPrince_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsSphereComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsSphereComponent'BP_FlowerPrince_C:PalBodyPartsSphere_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.18"
+      },
+      "AttachToName": "head",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "B61C121B-4B563E1C-2A4D98A7-1ABE5C9F",
+      "InternalVariableName": "PalBodyPartsSphere"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FlowerPrince_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_FlowerPrince_C:PalBodyPartsCapsule8_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.15"
+      },
+      "AttachToName": "calf_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "831CA3B2-462C6EC3-F80E2DA3-82F4BF3C",
+      "InternalVariableName": "PalBodyPartsCapsule8"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FlowerPrince_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_FlowerPrince_C:PalBodyPartsCapsule9_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.16"
+      },
+      "AttachToName": "foot_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "39FBAF44-459C5EB4-16E2B1A6-C08D29BD",
+      "InternalVariableName": "PalBodyPartsCapsule9"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FlowerPrince_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_FlowerPrince_C:PalBodyPartsCapsule10_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.7"
+      },
+      "AttachToName": "foot_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "55E096FE-43CDDE7D-B4CF8A81-A57BEF91",
+      "InternalVariableName": "PalBodyPartsCapsule10"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FlowerPrince_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_FlowerPrince_C:PalBodyPartsCapsule_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.17"
+      },
+      "AttachToName": "pelvis",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "A315BDB6-40E096BE-2FC753AE-017E8692",
+      "InternalVariableName": "PalBodyPartsCapsule"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FlowerPrince_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_FlowerPrince_C:PalBodyPartsCapsule1_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.8"
+      },
+      "AttachToName": "upperarm_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "3B96C7AE-4B9EDB0A-22F5AC8C-CF9677F3",
+      "InternalVariableName": "PalBodyPartsCapsule1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FlowerPrince_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_FlowerPrince_C:PalBodyPartsCapsule2_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.9"
+      },
+      "AttachToName": "lowerarm_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "BB6FB0AA-45A22BB5-5C9C88BD-D0E25C9D",
+      "InternalVariableName": "PalBodyPartsCapsule2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FlowerPrince_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_FlowerPrince_C:PalBodyPartsCapsule3_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.10"
+      },
+      "AttachToName": "upperarm_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "65375EEE-4375827B-0812C5AC-460610A9",
+      "InternalVariableName": "PalBodyPartsCapsule3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FlowerPrince_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_FlowerPrince_C:PalBodyPartsCapsule4_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.11"
+      },
+      "AttachToName": "lowerarm_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8DE8C60C-45B7D801-703507BD-A60489FA",
+      "InternalVariableName": "PalBodyPartsCapsule4"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FlowerPrince_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_FlowerPrince_C:PalBodyPartsCapsule5_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.12"
+      },
+      "AttachToName": "thigh_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "1CE43066-4EE9CD4E-A199E0A1-5368CB91",
+      "InternalVariableName": "PalBodyPartsCapsule5"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FlowerPrince_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_FlowerPrince_C:PalBodyPartsCapsule6_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.13"
+      },
+      "AttachToName": "thigh_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "EB9671FC-46901A3B-8B5E7E91-96A19092",
+      "InternalVariableName": "PalBodyPartsCapsule6"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FlowerPrince_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.47"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_FlowerPrince_C:PalBodyPartsCapsule7_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.14"
+      },
+      "AttachToName": "calf_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "14D2174D-4FED5B0A-DE7E33AC-54F9247C",
+      "InternalVariableName": "PalBodyPartsCapsule7"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_FlowerPrince_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlowerPrince_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlowerPrince_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlowerPrince_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlowerPrince_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlowerPrince_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlowerPrince_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlowerPrince_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.45"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlowerPrince_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlowerPrince_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlowerPrince_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlowerPrince_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.38"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_FlowerPrince_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlowerPrince_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlowerPrince_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlowerPrince_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlowerPrince_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlowerPrince_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlowerPrince_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlowerPrince_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.45"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlowerPrince_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlowerPrince_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlowerPrince_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlowerPrince_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.38"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_FlowerPrince_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.34"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "RagdollInteractiveSphere",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BP_FlowerPrince_C'Default__BP_FlowerPrince_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.1"
+    },
+    "Template": {
+      "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_FlowerPrince_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerPrince/BP_FlowerPrince.3"
+      }
+    }
+  }
+]

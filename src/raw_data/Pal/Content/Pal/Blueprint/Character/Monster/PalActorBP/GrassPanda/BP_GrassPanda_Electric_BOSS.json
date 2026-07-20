@@ -340,7 +340,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_GrassPanda_Electric_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.17"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.16"
     }
   },
   {
@@ -354,7 +354,7 @@
     },
     "Template": {
       "ObjectName": "PalRideMarkerComponent'BP_GrassPanda_C:PalRideMarker_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.22"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda.21"
     },
     "Properties": {
       "RelativeLocation": {
@@ -380,32 +380,44 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_GrassPanda_Electric_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.18"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.17"
     },
     "Properties": {
-      "WalkCameraArmLength": 1050.0,
+      "WalkCameraArmLength": 650.0,
       "WalkCameraOffset": {
         "X": 0.0,
-        "Y": 200.0,
+        "Y": 240.0,
+        "Z": 180.0
+      },
+      "HipShootCameraArmLength": 650.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 240.0,
         "Z": 180.0
       },
       "AimCameraArmLength": 500.0,
       "AimCameraOffset": {
         "X": 0.0,
-        "Y": 200.0,
-        "Z": 280.0
+        "Y": 250.0,
+        "Z": 250.0
       },
-      "AirCameraArmLength": 1050.0,
+      "AirCameraArmLength": 650.0,
       "AirCameraOffset": {
         "X": 0.0,
-        "Y": 200.0,
+        "Y": 240.0,
+        "Z": 180.0
+      },
+      "AirHipShootCameraArmLength": 650.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 240.0,
         "Z": 180.0
       },
       "AirAimCameraArmLength": 500.0,
       "AirAimCameraOffset": {
         "X": 0.0,
-        "Y": 200.0,
-        "Z": 280.0
+        "Y": 250.0,
+        "Z": 250.0
       },
       "FlyCameraArmLength": 1050.0,
       "FlyCameraOffset": {
@@ -441,7 +453,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_GrassPanda_Electric_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.19"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.18"
     },
     "Properties": {
       "AttachParent": {
@@ -466,7 +478,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_GrassPanda_Electric_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.20"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.19"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 225.0,
@@ -483,13 +495,13 @@
           },
           "Value": {
             "LocationOffset": {
-              "X": 140.0,
-              "Y": -120.0,
+              "X": 0.0,
+              "Y": -80.0,
               "Z": 0.0
             },
             "RotatorOffset": {
               "Pitch": 0.0,
-              "Yaw": -100.0,
+              "Yaw": 0.0,
               "Roll": 0.0
             },
             "bShouldApply": true
@@ -501,13 +513,13 @@
           },
           "Value": {
             "LocationOffset": {
-              "X": 140.0,
-              "Y": -120.0,
+              "X": 0.0,
+              "Y": -80.0,
               "Z": 0.0
             },
             "RotatorOffset": {
               "Pitch": 0.0,
-              "Yaw": -100.0,
+              "Yaw": 0.0,
               "Roll": 0.0
             },
             "bShouldApply": true
@@ -519,13 +531,13 @@
           },
           "Value": {
             "LocationOffset": {
-              "X": 140.0,
-              "Y": 60.0,
+              "X": 0.0,
+              "Y": 40.0,
               "Z": 0.0
             },
             "RotatorOffset": {
               "Pitch": 0.0,
-              "Yaw": -100.0,
+              "Yaw": 0.0,
               "Roll": 0.0
             },
             "bShouldApply": true
@@ -555,7 +567,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_GrassPanda_Electric_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.21"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.20"
     }
   },
   {
@@ -569,7 +581,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_GrassPanda_Electric_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.22"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.21"
     }
   },
   {
@@ -631,7 +643,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_GrassPanda_Electric_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassPanda/BP_GrassPanda_Electric.26"
     },
     "Properties": {
       "AttachParent": {

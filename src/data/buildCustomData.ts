@@ -41,28 +41,18 @@ export function buildCustomData(key: string, palData: PalMonsterParameter): Deri
     if (palName === undefined) {
         return null;
     }
+    const palDescription = getObjectByCaseInsensitiveKey(descriptionsMap, `PAL_FIRST_SPAWN_DESC_${key}`)!.TextData
+        .LocalizedString;
     let partnerSkillUnlockLevel = "";
     let isFlying = false;
     let isFlyingAndGround = false;
-    let isRidable = false;
+    const isRidable = palDescription.includes("Can be ridden");
     let isSwimming = false;
-    const blueprintSkillParameterComponent = getPalBlueprint(key, "PalPartnerSkillParameter_GEN_VARIABLE");
-
-    if (blueprintSkillParameterComponent !== undefined) {
-        const skillUnlockItem = blueprintSkillParameterComponent.Properties?.RestrictionItems?.[0].Key;
-        if (skillUnlockItem !== undefined && skillUnlockItem in techUnlockMap) {
-            partnerSkillUnlockLevel = techUnlockMap[skillUnlockItem].LevelCap.toString();
-        }
+    if (`SkillUnlock_${key}` in techUnlockMap) {
+        partnerSkillUnlockLevel = techUnlockMap[`SkillUnlock_${key}`].LevelCap.toString();
     }
     const blueprintStaticCharacterComponent = getPalBlueprint(key, "StaticCharacterParameterComponent");
     if (blueprintStaticCharacterComponent !== undefined) {
-        if (
-            blueprintStaticCharacterComponent.Properties?.AIActionMap?.some((action) =>
-                action.Value.ObjectName.includes("ActionRide")
-            ) === true
-        ) {
-            isRidable = true;
-        }
         const movementType = (blueprintStaticCharacterComponent as (typeof RidablePalBlueprintType)[number]).Properties
             ?.MovementType;
         if (movementType?.includes("::Fly") === true) {
@@ -83,7 +73,7 @@ export function buildCustomData(key: string, palData: PalMonsterParameter): Deri
         AttackWithFriendship: Math.round(palData.ShotAttack + palData.Friendship_ShotAttack * maxFriendship).toString(),
         DefenseWithFriendship: Math.round(palData.Defense + palData.Friendship_Defense * maxFriendship).toString(),
         ItemDrops: getPalItemDrops(key)
-            .map((item) => itemNameMap[`ITEM_NAME_${item.Id}`].TextData.LocalizedString)
+            .map((item) => getObjectByCaseInsensitiveKey(itemNameMap, `ITEM_NAME_${item.Id}`)!.TextData.LocalizedString)
             .join(", "),
         Rideable: isRidable
             ? isFlyingAndGround
@@ -107,8 +97,7 @@ export function buildCustomData(key: string, palData: PalMonsterParameter): Deri
         PartnerSkill: skillNameMap[`PARTNERSKILL_${key}`]?.TextData.LocalizedString ?? "",
         PartnerSkillUnlockLevel: partnerSkillUnlockLevel,
         SpawnLocations: "Map",
-        PalDescription: getObjectByCaseInsensitiveKey(descriptionsMap, `PAL_FIRST_SPAWN_DESC_${key}`)!.TextData
-            .LocalizedString,
+        PalDescription: palDescription,
         Id: key,
     };
 }

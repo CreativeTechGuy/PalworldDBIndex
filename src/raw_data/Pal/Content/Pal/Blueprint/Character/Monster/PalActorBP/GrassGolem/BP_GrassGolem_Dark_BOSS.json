@@ -1,0 +1,667 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_GrassGolem_Dark_BOSS_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_GrassGolem_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_GrassGolem_Dark_BOSS_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.25"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_GrassGolem_Dark_BOSS_C:InheritableComponentHandler'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_GrassGolem_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem.0"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_GrassGolem_Dark_BOSS_C'Default__BP_GrassGolem_Dark_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_GrassGolem_Dark_BOSS_C",
+    "Name": "Default__BP_GrassGolem_Dark_BOSS_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.BP_GrassGolem_Dark_BOSS_C'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS",
+    "Template": {
+      "ObjectName": "BP_GrassGolem_C'Default__BP_GrassGolem_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem.1"
+    },
+    "Properties": {
+      "LiftupObjectComponent": {
+        "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_GrassGolem_Dark_BOSS_C:Liftup'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.10"
+      },
+      "ActionComponent": {
+        "ObjectName": "PalActionComponent'Default__BP_GrassGolem_Dark_BOSS_C:ActionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.6"
+      },
+      "CharacterParameterComponent": {
+        "ObjectName": "PalCharacterParameterComponent'Default__BP_GrassGolem_Dark_BOSS_C:CharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.12"
+      },
+      "StaticCharacterParameterComponent": {
+        "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_GrassGolem_Dark_BOSS_C:StaticCharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.20"
+      },
+      "DamageReactionComponent": {
+        "ObjectName": "PalDamageReactionComponent'Default__BP_GrassGolem_Dark_BOSS_C:DamageReactionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.13"
+      },
+      "StatusComponent": {
+        "ObjectName": "PalStatusComponent'Default__BP_GrassGolem_Dark_BOSS_C:StatusComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.21"
+      },
+      "CameraBoom": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_GrassGolem_Dark_BOSS_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.18"
+      },
+      "FollowCamera": {
+        "ObjectName": "PalCharacterCameraComponent'Default__BP_GrassGolem_Dark_BOSS_C:FollowCamera'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.9"
+      },
+      "LookAtComponent": {
+        "ObjectName": "PalLookAtComponent'Default__BP_GrassGolem_Dark_BOSS_C:LookAtComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.15"
+      },
+      "FootIKComponent": {
+        "ObjectName": "PalFootIKComponent'Default__BP_GrassGolem_Dark_BOSS_C:FootIKComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.14"
+      },
+      "VisualEffectComponent": {
+        "ObjectName": "PalVisualEffectComponent'Default__BP_GrassGolem_Dark_BOSS_C:VisualEffectComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.22"
+      },
+      "PassiveSkillComponent": {
+        "ObjectName": "PalPassiveSkillComponent'Default__BP_GrassGolem_Dark_BOSS_C:PassiveSkillComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.16"
+      },
+      "AnimNotifyComponent": {
+        "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_GrassGolem_Dark_BOSS_C:AnimNotifyComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.7"
+      },
+      "AroundInfoCollectorComponent": {
+        "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_GrassGolem_Dark_BOSS_C:AroundInfoCollectorComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.8"
+      },
+      "RagdollInteractiveSphere": {
+        "ObjectName": "SphereComponent'Default__BP_GrassGolem_Dark_BOSS_C:RagdollInteractiveSphere'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.26"
+      },
+      "Mesh": {
+        "ObjectName": "PalSkeletalMeshComponent'Default__BP_GrassGolem_Dark_BOSS_C:CharacterMesh0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.19"
+      },
+      "CharacterMovement": {
+        "ObjectName": "PalCharacterMovementComponent'Default__BP_GrassGolem_Dark_BOSS_C:CharMoveComp'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.11"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_GrassGolem_Dark_BOSS_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.4"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_GrassGolem_Dark_BOSS_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.4"
+      }
+    }
+  },
+  {
+    "Type": "BP_PalRideMarkerSit_C",
+    "Name": "BP_PalRideMarkerSit_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerSit.BP_PalRideMarkerSit_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_GrassGolem_Dark_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalRideMarkerSit_C'BP_GrassGolem_C:BP_PalRideMarkerSit_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem.3"
+    },
+    "Properties": {
+      "UniqueRidePalWeaponClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_UniqueRideWeapon_ArmLaser_GrassGolem_Dark_C'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Weapon/UniqueRidePalWeapon/BP_UniqueRideWeapon_ArmLaser_GrassGolem_Dark.0"
+      }
+    }
+  },
+  {
+    "Type": "BP_PalTimerPointLightComponent_C",
+    "Name": "BP_PalTimerPointLightComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.BP_PalTimerPointLightComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_GrassGolem_Dark_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalTimerPointLightComponent_C'BP_GrassGolem_C:BP_PalTimerPointLightComponent_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem.4"
+    },
+    "Properties": {
+      "LightColor": {
+        "B": 97,
+        "G": 85,
+        "R": 92,
+        "A": 255,
+        "Hex": "5C5561"
+      }
+    },
+    "IntensityNits": 0.0
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_GrassGolem_Dark_BOSS_C'Default__BP_GrassGolem_Dark_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_GrassGolem_C:CollisionCylinder'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem.5"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_GrassGolem_Dark_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_PalTimerPointLightComponent_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.0"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BP_PalTimerPointLightComponent_C'BP_GrassGolem_Dark_BOSS_C:BP_PalTimerPointLightComponent_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.3"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_GrassGolem_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem.0"
+            },
+            "SCSVariableName": "BP_PalTimerPointLightComponent",
+            "AssociatedGuid": "FEA799ED-4D130DCE-8D7E2386-4F3E2B47"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'PalShooterComponent'",
+            "ObjectPath": "/Script/Pal"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "PalShooterComponent'BP_GrassGolem_Dark_BOSS_C:PalShooter_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.17"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_GrassGolem_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem.0"
+            },
+            "SCSVariableName": "PalShooter",
+            "AssociatedGuid": "D62AF84E-4DC3162B-E3EE85A2-01A7F33F"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_PalRideMarkerSit_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerSit.0"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BP_PalRideMarkerSit_C'BP_GrassGolem_Dark_BOSS_C:BP_PalRideMarkerSit_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.2"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_GrassGolem_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem.0"
+            },
+            "SCSVariableName": "BP_PalRideMarkerSit",
+            "AssociatedGuid": "B2C86B0F-4E509F78-B77669BF-652B8F3F"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PalActionComponent",
+    "Name": "ActionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalActionComponent'",
+    "Outer": {
+      "ObjectName": "BP_GrassGolem_Dark_BOSS_C'Default__BP_GrassGolem_Dark_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalActionComponent'Default__BP_GrassGolem_C:ActionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem.12"
+    }
+  },
+  {
+    "Type": "PalAnimNotifyParameterComponent",
+    "Name": "AnimNotifyComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_GrassGolem_Dark_BOSS_C'Default__BP_GrassGolem_Dark_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_GrassGolem_C:AnimNotifyComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem.13"
+    }
+  },
+  {
+    "Type": "PalCharacterAroundInfoCollectorComponent",
+    "Name": "AroundInfoCollectorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+    "Outer": {
+      "ObjectName": "BP_GrassGolem_Dark_BOSS_C'Default__BP_GrassGolem_Dark_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_GrassGolem_C:AroundInfoCollectorComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem.24"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_GrassGolem_Dark_BOSS_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.4"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterCameraComponent",
+    "Name": "FollowCamera",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterCameraComponent'",
+    "Outer": {
+      "ObjectName": "BP_GrassGolem_Dark_BOSS_C'Default__BP_GrassGolem_Dark_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterCameraComponent'Default__BP_GrassGolem_C:FollowCamera'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem.25"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_GrassGolem_Dark_BOSS_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.18"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterLiftupObjectComponent",
+    "Name": "Liftup",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+    "Outer": {
+      "ObjectName": "BP_GrassGolem_Dark_BOSS_C'Default__BP_GrassGolem_Dark_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_GrassGolem_C:Liftup'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem.26"
+    }
+  },
+  {
+    "Type": "PalCharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_GrassGolem_Dark_BOSS_C'Default__BP_GrassGolem_Dark_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterMovementComponent'Default__BP_GrassGolem_C:CharMoveComp'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem.27"
+    }
+  },
+  {
+    "Type": "PalCharacterParameterComponent",
+    "Name": "CharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_GrassGolem_Dark_BOSS_C'Default__BP_GrassGolem_Dark_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterParameterComponent'Default__BP_GrassGolem_C:CharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem.28"
+    }
+  },
+  {
+    "Type": "PalDamageReactionComponent",
+    "Name": "DamageReactionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalDamageReactionComponent'",
+    "Outer": {
+      "ObjectName": "BP_GrassGolem_Dark_BOSS_C'Default__BP_GrassGolem_Dark_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalDamageReactionComponent'Default__BP_GrassGolem_C:DamageReactionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem.29"
+    }
+  },
+  {
+    "Type": "PalFootIKComponent",
+    "Name": "FootIKComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalFootIKComponent'",
+    "Outer": {
+      "ObjectName": "BP_GrassGolem_Dark_BOSS_C'Default__BP_GrassGolem_Dark_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalFootIKComponent'Default__BP_GrassGolem_C:FootIKComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem.30"
+    }
+  },
+  {
+    "Type": "PalLookAtComponent",
+    "Name": "LookAtComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalLookAtComponent'",
+    "Outer": {
+      "ObjectName": "BP_GrassGolem_Dark_BOSS_C'Default__BP_GrassGolem_Dark_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalLookAtComponent'Default__BP_GrassGolem_C:LookAtComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem.31"
+    }
+  },
+  {
+    "Type": "PalPassiveSkillComponent",
+    "Name": "PassiveSkillComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalPassiveSkillComponent'",
+    "Outer": {
+      "ObjectName": "BP_GrassGolem_Dark_BOSS_C'Default__BP_GrassGolem_Dark_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalPassiveSkillComponent'Default__BP_GrassGolem_C:PassiveSkillComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem.32"
+    }
+  },
+  {
+    "Type": "PalShooterComponent",
+    "Name": "PalShooter_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'PalShooterComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_GrassGolem_Dark_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.0"
+    },
+    "Template": {
+      "ObjectName": "PalShooterComponent'BP_GrassGolem_C:PalShooter_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem.33"
+    },
+    "Properties": {
+      "OtherWeaponAnimeAssetBPSoftClassMap": [
+        {
+          "Key": "/Game/Pal/Blueprint/Weapon/UniqueRidePalWeapon/BP_UniqueRideWeapon_ArmLaser_GrassGolem_Dark.BP_UniqueRideWeapon_ArmLaser_GrassGolem_Dark_C",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolemShooterAnime.BP_GrassGolemShooterAnime_C",
+            "SubPathString": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PalShooterSpringArmComponent",
+    "Name": "CameraBoom",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalShooterSpringArmComponent'",
+    "Outer": {
+      "ObjectName": "BP_GrassGolem_Dark_BOSS_C'Default__BP_GrassGolem_Dark_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalShooterSpringArmComponent'Default__BP_GrassGolem_C:CameraBoom'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem.34"
+    },
+    "Properties": {
+      "WalkCameraArmLength": 1100.0,
+      "WalkCameraOffset": {
+        "X": 0.0,
+        "Y": 400.0,
+        "Z": 300.0
+      },
+      "HipShootCameraArmLength": 1100.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 400.0,
+        "Z": 300.0
+      },
+      "AimCameraArmLength": 900.0,
+      "AimCameraOffset": {
+        "X": 0.0,
+        "Y": 400.0,
+        "Z": 300.0
+      },
+      "AirCameraArmLength": 1100.0,
+      "AirCameraOffset": {
+        "X": 0.0,
+        "Y": 400.0,
+        "Z": 300.0
+      },
+      "AirHipShootCameraArmLength": 1100.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 400.0,
+        "Z": 300.0
+      },
+      "AirAimCameraArmLength": 900.0,
+      "AirAimCameraOffset": {
+        "X": 0.0,
+        "Y": 400.0,
+        "Z": 300.0
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_GrassGolem_Dark_BOSS_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.4"
+      }
+    }
+  },
+  {
+    "Type": "PalSkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_GrassGolem_Dark_BOSS_C'Default__BP_GrassGolem_Dark_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalSkeletalMeshComponent'Default__BP_GrassGolem_C:CharacterMesh0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem.35"
+    },
+    "Properties": {
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_GrassGolem_Dark'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/GrassGolem_Dark/SK_GrassGolem_Dark.0"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_GrassGolem_Dark'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/GrassGolem_Dark/SK_GrassGolem_Dark.0"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_GrassGolem_Dark_BOSS_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.4"
+      },
+      "RelativeScale3D": {
+        "X": 1.3,
+        "Y": 1.3,
+        "Z": 1.3
+      }
+    }
+  },
+  {
+    "Type": "PalStaticCharacterParameterComponent",
+    "Name": "StaticCharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_GrassGolem_Dark_BOSS_C'Default__BP_GrassGolem_Dark_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_GrassGolem_C:StaticCharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem.37"
+    },
+    "Properties": {
+      "MeshCapsuleHalfHeight": 260.0,
+      "MeshCapsuleRadius": 130.0,
+      "MeshRelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -260.0
+      }
+    }
+  },
+  {
+    "Type": "PalStatusComponent",
+    "Name": "StatusComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStatusComponent'",
+    "Outer": {
+      "ObjectName": "BP_GrassGolem_Dark_BOSS_C'Default__BP_GrassGolem_Dark_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalStatusComponent'Default__BP_GrassGolem_C:StatusComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem.38"
+    }
+  },
+  {
+    "Type": "PalVisualEffectComponent",
+    "Name": "VisualEffectComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalVisualEffectComponent'",
+    "Outer": {
+      "ObjectName": "BP_GrassGolem_Dark_BOSS_C'Default__BP_GrassGolem_Dark_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "PalVisualEffectComponent'Default__BP_GrassGolem_C:VisualEffectComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem.39"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_GrassGolem_Dark_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_GrassGolem_Dark_BOSS_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.25"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_GrassGolem_Dark_BOSS_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.23"
+      },
+      "VariableGuid": "2006055E-49F46E66-465EC6B0-5444FAC0",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_GrassGolem_Dark_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_GrassGolem_Dark_BOSS_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.24"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "RagdollInteractiveSphere",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BP_GrassGolem_Dark_BOSS_C'Default__BP_GrassGolem_Dark_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.1"
+    },
+    "Template": {
+      "ObjectName": "SphereComponent'Default__BP_GrassGolem_C:RagdollInteractiveSphere'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem.57"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_GrassGolem_Dark_BOSS_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolem_Dark_BOSS.4"
+      }
+    }
+  }
+]

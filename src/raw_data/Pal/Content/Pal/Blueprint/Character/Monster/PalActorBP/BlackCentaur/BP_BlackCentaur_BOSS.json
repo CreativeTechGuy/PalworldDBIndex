@@ -378,29 +378,41 @@
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackCentaur/BP_BlackCentaur.26"
     },
     "Properties": {
-      "WalkCameraArmLength": 950.0,
+      "WalkCameraArmLength": 550.0,
       "WalkCameraOffset": {
         "X": 0.0,
-        "Y": 150.0,
-        "Z": 180.0
+        "Y": 170.0,
+        "Z": 150.0
       },
-      "AimCameraArmLength": 500.0,
+      "HipShootCameraArmLength": 550.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 170.0,
+        "Z": 150.0
+      },
+      "AimCameraArmLength": 350.0,
       "AimCameraOffset": {
         "X": 0.0,
-        "Y": 100.0,
-        "Z": 185.0
+        "Y": 150.0,
+        "Z": 200.0
       },
-      "AirCameraArmLength": 950.0,
+      "AirCameraArmLength": 550.0,
       "AirCameraOffset": {
         "X": 0.0,
-        "Y": 150.0,
-        "Z": 160.0
+        "Y": 170.0,
+        "Z": 150.0
       },
-      "AirAimCameraArmLength": 500.0,
+      "AirHipShootCameraArmLength": 550.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 170.0,
+        "Z": 150.0
+      },
+      "AirAimCameraArmLength": 350.0,
       "AirAimCameraOffset": {
         "X": 0.0,
-        "Y": 100.0,
-        "Z": 185.0
+        "Y": 150.0,
+        "Z": 200.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_BlackCentaur_BOSS_C:CollisionCylinder'",

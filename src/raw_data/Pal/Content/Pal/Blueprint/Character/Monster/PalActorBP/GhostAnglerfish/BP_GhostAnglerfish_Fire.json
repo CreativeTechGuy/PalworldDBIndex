@@ -12,7 +12,7 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_GhostAnglerfish_Fire_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish_Fire.25"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish_Fire.24"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_GhostAnglerfish_Fire_C:InheritableComponentHandler'",
@@ -75,7 +75,7 @@
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_GhostAnglerfish_Fire_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish_Fire.20"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish_Fire.19"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_GhostAnglerfish_Fire_C:DamageReactionComponent'",
@@ -83,11 +83,11 @@
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_GhostAnglerfish_Fire_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish_Fire.21"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish_Fire.20"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_GhostAnglerfish_Fire_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish_Fire.18"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish_Fire.17"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_GhostAnglerfish_Fire_C:FollowCamera'",
@@ -103,11 +103,11 @@
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_GhostAnglerfish_Fire_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish_Fire.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish_Fire.21"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_GhostAnglerfish_Fire_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish_Fire.17"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish_Fire.16"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_GhostAnglerfish_Fire_C:AnimNotifyComponent'",
@@ -119,11 +119,11 @@
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_GhostAnglerfish_Fire_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish_Fire.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish_Fire.25"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_GhostAnglerfish_Fire_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish_Fire.19"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish_Fire.18"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_GhostAnglerfish_Fire_C:CharMoveComp'",
@@ -253,28 +253,6 @@
       "Records": [
         {
           "ComponentClass": {
-            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-            "ObjectPath": "/Script/Pal"
-          },
-          "ComponentTemplate": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_GhostAnglerfish_Fire_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish_Fire.16"
-          },
-          "ComponentKey": {
-            "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-            },
-            "SCSVariableName": "PalPartnerSkillParameter",
-            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
-          },
-          "CookedComponentInstancingData": {
-            "ChangedPropertyList": [],
-            "bHasValidCookedData": false
-          }
-        },
-        {
-          "ComponentClass": {
             "ObjectName": "BlueprintGeneratedClass'BP_PalTimerPointLightComponent_C'",
             "ObjectPath": "Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.0"
           },
@@ -362,7 +340,7 @@
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_GhostAnglerfish_Fire_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish_Fire.18"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish_Fire.17"
       }
     }
   },
@@ -451,163 +429,6 @@
     }
   },
   {
-    "Type": "PalPartnerSkillParameterComponent",
-    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_GhostAnglerfish_Fire_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish_Fire.0"
-    },
-    "Template": {
-      "ObjectName": "PalPartnerSkillParameterComponent'BP_GhostAnglerfish_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish.22"
-    },
-    "Properties": {
-      "RestrictionItems": [
-        {
-          "Key": "SkillUnlock_GhostAnglerfish_Fire"
-        }
-      ],
-      "PassiveSkills": [
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "Fishing_GhostAnglerfish_FIre_PartnerSkill_1"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            },
-            {
-              "Key": {
-                "Key": "Fishing_GhostAnglerfish_FIre_PartnerSkill_2"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            },
-            {
-              "Key": {
-                "Key": "Fishing_GhostAnglerfish_FIre_PartnerSkill_3"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            },
-            {
-              "Key": {
-                "Key": "Fishing_GhostAnglerfish_FIre_PartnerSkill_4"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            },
-            {
-              "Key": {
-                "Key": "Fishing_GhostAnglerfish_FIre_PartnerSkill_5"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
     "Type": "PalPassiveSkillComponent",
     "Name": "PassiveSkillComponent",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
@@ -618,7 +439,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_GhostAnglerfish_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish.22"
     }
   },
   {
@@ -632,7 +453,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_GhostAnglerfish_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish.23"
     },
     "Properties": {
       "AttachParent": {
@@ -652,7 +473,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_GhostAnglerfish_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish.24"
     },
     "Properties": {
       "SkeletalMesh": {
@@ -680,7 +501,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_GhostAnglerfish_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish.25"
     },
     "Properties": {
       "WazaActionDeclarationMap": [
@@ -705,7 +526,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_GhostAnglerfish_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish.26"
     }
   },
   {
@@ -719,7 +540,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_GhostAnglerfish_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish.27"
     }
   },
   {
@@ -739,7 +560,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_GhostAnglerfish_Fire_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish_Fire.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish_Fire.24"
     },
     "Properties": {
       "ComponentClass": {
@@ -748,7 +569,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_GhostAnglerfish_Fire_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish_Fire.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish_Fire.22"
       },
       "VariableGuid": "F9158A3F-40DA342C-8E3EC1A8-B698235F",
       "InternalVariableName": "DefaultSceneRoot"
@@ -766,7 +587,7 @@
     "Properties": {
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_GhostAnglerfish_Fire_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish_Fire.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish_Fire.23"
       }
     }
   },
@@ -781,7 +602,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_GhostAnglerfish_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish.38"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish.37"
     },
     "Properties": {
       "AttachParent": {

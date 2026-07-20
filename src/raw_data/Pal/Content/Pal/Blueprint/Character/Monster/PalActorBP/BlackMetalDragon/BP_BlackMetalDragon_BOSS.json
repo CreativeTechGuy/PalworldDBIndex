@@ -41,7 +41,7 @@
   {
     "Type": "BP_BlackMetalDragon_BOSS_C",
     "Name": "Default__BP_BlackMetalDragon_BOSS_C",
-    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackMetalDragon/BP_BlackMetalDragon_BOSS.BP_BlackMetalDragon_BOSS_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackMetalDragon/BP_BlackMetalDragon_BOSS",
     "Template": {
@@ -314,7 +314,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_BlackMetalDragon_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackMetalDragon/BP_BlackMetalDragon.29"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackMetalDragon/BP_BlackMetalDragon.28"
     }
   },
   {
@@ -328,41 +328,62 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_BlackMetalDragon_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackMetalDragon/BP_BlackMetalDragon.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackMetalDragon/BP_BlackMetalDragon.29"
     },
     "Properties": {
-      "WalkCameraArmLength": 1650.0,
+      "WalkCameraArmLength": 850.0,
       "WalkCameraOffset": {
-        "X": 10.0,
-        "Y": 240.0,
+        "X": 0.0,
+        "Y": 200.0,
         "Z": 250.0
       },
+      "HipShootCameraArmLength": 850.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 200.0,
+        "Z": 250.0
+      },
+      "AimCameraArmLength": 350.0,
       "AimCameraOffset": {
-        "X": 170.0,
-        "Y": 20.0,
-        "Z": 190.0
-      },
-      "AirCameraArmLength": 1650.0,
-      "AirCameraOffset": {
-        "X": 10.0,
-        "Y": 240.0,
+        "X": 0.0,
+        "Y": 150.0,
         "Z": 250.0
       },
-      "AirAimCameraOffset": {
-        "X": 170.0,
-        "Y": 20.0,
-        "Z": 190.0
+      "AirCameraArmLength": 850.0,
+      "AirCameraOffset": {
+        "X": 0.0,
+        "Y": 200.0,
+        "Z": 250.0
       },
-      "FlyCameraArmLength": 1650.0,
+      "AirHipShootCameraArmLength": 850.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 200.0,
+        "Z": 250.0
+      },
+      "AirAimCameraArmLength": 350.0,
+      "AirAimCameraOffset": {
+        "X": 0.0,
+        "Y": 150.0,
+        "Z": 250.0
+      },
+      "FlyCameraArmLength": 850.0,
       "FlyCameraOffset": {
         "X": 0.0,
-        "Y": 240.0,
+        "Y": 200.0,
         "Z": 250.0
       },
+      "FlyHipShootCameraArmLength": 850.0,
+      "FlyHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 200.0,
+        "Z": 250.0
+      },
+      "FlyAimCameraArmLength": 350.0,
       "FlyAimCameraOffset": {
-        "X": 170.0,
-        "Y": 20.0,
-        "Z": 190.0
+        "X": 0.0,
+        "Y": 150.0,
+        "Z": 250.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_BlackMetalDragon_BOSS_C:CollisionCylinder'",
@@ -386,7 +407,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_BlackMetalDragon_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackMetalDragon/BP_BlackMetalDragon.31"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackMetalDragon/BP_BlackMetalDragon.30"
     },
     "Properties": {
       "AttachParent": {
@@ -411,7 +432,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_BlackMetalDragon_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackMetalDragon/BP_BlackMetalDragon.33"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackMetalDragon/BP_BlackMetalDragon.32"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 450.0,
@@ -443,7 +464,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_BlackMetalDragon_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackMetalDragon/BP_BlackMetalDragon.34"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackMetalDragon/BP_BlackMetalDragon.33"
     }
   },
   {
@@ -457,7 +478,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_BlackMetalDragon_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackMetalDragon/BP_BlackMetalDragon.35"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackMetalDragon/BP_BlackMetalDragon.34"
     }
   },
   {
@@ -519,7 +540,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_BlackMetalDragon_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackMetalDragon/BP_BlackMetalDragon.51"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackMetalDragon/BP_BlackMetalDragon.50"
     },
     "Properties": {
       "AttachParent": {

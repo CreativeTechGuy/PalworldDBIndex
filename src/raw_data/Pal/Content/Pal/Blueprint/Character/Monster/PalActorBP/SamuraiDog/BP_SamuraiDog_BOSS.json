@@ -46,7 +46,7 @@
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog_BOSS",
     "Template": {
       "ObjectName": "BP_SamuraiDog_C'Default__BP_SamuraiDog_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.2"
     },
     "Properties": {
       "LiftupObjectComponent": {
@@ -138,7 +138,7 @@
     },
     "Template": {
       "ObjectName": "CapsuleComponent'Default__BP_SamuraiDog_C:CollisionCylinder'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.3"
     }
   },
   {
@@ -162,7 +162,7 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_SamuraiDog_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.4"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.5"
     }
   },
   {
@@ -176,7 +176,7 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_SamuraiDog_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.5"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.6"
     }
   },
   {
@@ -190,7 +190,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_SamuraiDog_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.7"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.14"
     },
     "Properties": {
       "AttachParent": {
@@ -210,7 +210,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_SamuraiDog_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.8"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.15"
     },
     "Properties": {
       "AttachParent": {
@@ -230,7 +230,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_SamuraiDog_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.9"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.16"
     }
   },
   {
@@ -244,7 +244,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_SamuraiDog_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.10"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.17"
     }
   },
   {
@@ -258,7 +258,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_SamuraiDog_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.11"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.18"
     }
   },
   {
@@ -272,7 +272,7 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_SamuraiDog_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.12"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.19"
     }
   },
   {
@@ -286,7 +286,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_SamuraiDog_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.13"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.20"
     }
   },
   {
@@ -300,7 +300,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_SamuraiDog_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.14"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.21"
     }
   },
   {
@@ -314,7 +314,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_SamuraiDog_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.15"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.22"
     }
   },
   {
@@ -328,7 +328,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_SamuraiDog_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.16"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.23"
     },
     "Properties": {
       "AttachParent": {
@@ -348,7 +348,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_SamuraiDog_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.17"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.24"
     },
     "Properties": {
       "AttachParent": {
@@ -373,7 +373,56 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_SamuraiDog_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.18"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.25"
+    },
+    "Properties": {
+      "MeshCapsuleHalfHeight": 49.0,
+      "MeshCapsuleRadius": 42.0,
+      "MeshRelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -49.0
+      },
+      "SleepOnSideInfoMapForMapObject": [
+        {
+          "Key": {
+            "Key": "MedicalPalBed_02"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -40.0,
+              "Y": 20.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 120.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_03"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -40.0,
+              "Y": 20.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 120.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        }
+      ],
+      "PettingSize": "EPalPettingSizeType::SmallMiddle",
+      "PettingDistance": 100.0
     }
   },
   {
@@ -387,7 +436,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_SamuraiDog_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.19"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.26"
     }
   },
   {
@@ -401,7 +450,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_SamuraiDog_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.20"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.27"
     }
   },
   {
@@ -463,7 +512,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_SamuraiDog_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SamuraiDog/BP_SamuraiDog.38"
     },
     "Properties": {
       "AttachParent": {

@@ -361,7 +361,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_GoldenHorse_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.25"
     }
   },
   {
@@ -375,32 +375,30 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_GoldenHorse_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.26"
     },
     "Properties": {
-      "WalkCameraArmLength": 450.0,
-      "WalkCameraOffset": {
-        "X": 0.0,
-        "Y": 100.0,
-        "Z": 95.0
-      },
-      "AimCameraArmLength": 200.0,
+      "AimCameraArmLength": 250.0,
       "AimCameraOffset": {
         "X": 0.0,
-        "Y": 55.0,
-        "Z": 115.0
+        "Y": 100.0,
+        "Z": 140.0
       },
-      "AirCameraArmLength": 450.0,
       "AirCameraOffset": {
         "X": 0.0,
         "Y": 100.0,
-        "Z": 95.0
+        "Z": 150.0
       },
-      "AirAimCameraArmLength": 200.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 100.0,
+        "Z": 150.0
+      },
+      "AirAimCameraArmLength": 250.0,
       "AirAimCameraOffset": {
         "X": 0.0,
-        "Y": 55.0,
-        "Z": 115.0
+        "Y": 100.0,
+        "Z": 170.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_GoldenHorse_BOSS_C:CollisionCylinder'",
@@ -424,7 +422,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_GoldenHorse_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.27"
     },
     "Properties": {
       "AttachParent": {
@@ -454,7 +452,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_GoldenHorse_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.29"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 136.5,
@@ -538,7 +536,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_GoldenHorse_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.31"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.30"
     }
   },
   {
@@ -552,7 +550,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_GoldenHorse_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.32"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.31"
     }
   },
   {
@@ -614,7 +612,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_GoldenHorse_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GoldenHorse/BP_GoldenHorse.46"
     },
     "Properties": {
       "AttachParent": {

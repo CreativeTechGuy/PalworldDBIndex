@@ -12,7 +12,7 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_SkyDragon_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.41"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.40"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_SkyDragon_C:InheritableComponentHandler'",
@@ -196,7 +196,7 @@
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_SkyDragon_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.28"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.27"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_SkyDragon_C:DamageReactionComponent'",
@@ -204,11 +204,11 @@
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_SkyDragon_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.29"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.28"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_SkyDragon_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.25"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.24"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_SkyDragon_C:FollowCamera'",
@@ -224,11 +224,11 @@
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_SkyDragon_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.30"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.29"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_SkyDragon_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.23"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_SkyDragon_C:AnimNotifyComponent'",
@@ -240,11 +240,11 @@
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_SkyDragon_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.42"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.41"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_SkyDragon_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.25"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_SkyDragon_C:CharMoveComp'",
@@ -313,28 +313,6 @@
         },
         {
           "ComponentClass": {
-            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-            "ObjectPath": "/Script/Pal"
-          },
-          "ComponentTemplate": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_SkyDragon_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.23"
-          },
-          "ComponentKey": {
-            "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-            },
-            "SCSVariableName": "PalPartnerSkillParameter",
-            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
-          },
-          "CookedComponentInstancingData": {
-            "ChangedPropertyList": [],
-            "bHasValidCookedData": false
-          }
-        },
-        {
-          "ComponentClass": {
             "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
             "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
           },
@@ -369,7 +347,7 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
     }
   },
   {
@@ -383,7 +361,7 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
     }
   },
   {
@@ -587,7 +565,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
@@ -607,12 +585,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_SkyDragon_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.25"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.24"
       }
     }
   },
@@ -627,7 +605,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -641,7 +619,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
     },
     "Properties": {
       "OverrideFlySpeed": 900.0,
@@ -662,7 +640,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -676,7 +654,7 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
     }
   },
   {
@@ -690,7 +668,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     },
     "Properties": {
       "FootIKSettings": [
@@ -726,7 +704,7 @@
     },
     "Template": {
       "ObjectName": "PalInteractableSphereComponentNative'BP_MonsterBase_C:BP_InteractableSphere_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
     },
     "Properties": {
       "RelativeLocation": {
@@ -752,180 +730,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
-    }
-  },
-  {
-    "Type": "PalPartnerSkillParameterComponent",
-    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_SkyDragon_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.0"
-    },
-    "Template": {
-      "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
-    },
-    "Properties": {
-      "RestrictionItems": [
-        {
-          "Key": "SkillUnlock_SkyDragon"
-        }
-      ],
-      "PassiveSkills": [
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "ElementBoost_Dragon_PAL_PartnerSKill_1"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "ElementBoost_Dragon_PAL_PartnerSKill_2"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "ElementBoost_Dragon_PAL_PartnerSKill_3"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "ElementBoost_Dragon_PAL_PartnerSKill_4"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "ElementBoost_Dragon_PAL_PartnerSKill_5"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        }
-      ]
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
     }
   },
   {
@@ -939,7 +744,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -953,44 +758,62 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
-      "WalkCameraArmLength": 1000.0,
+      "WalkCameraArmLength": 600.0,
       "WalkCameraOffset": {
-        "X": 10.0,
-        "Y": 160.0,
-        "Z": 180.0
+        "X": 0.0,
+        "Y": 150.0,
+        "Z": 200.0
       },
-      "AimCameraArmLength": 220.0,
+      "HipShootCameraArmLength": 600.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 150.0,
+        "Z": 200.0
+      },
+      "AimCameraArmLength": 350.0,
       "AimCameraOffset": {
         "X": 0.0,
-        "Y": 75.0,
-        "Z": 170.0
+        "Y": 180.0,
+        "Z": 220.0
       },
-      "AirCameraArmLength": 1000.0,
+      "AirCameraArmLength": 600.0,
       "AirCameraOffset": {
-        "X": 10.0,
-        "Y": 160.0,
-        "Z": 180.0
+        "X": 0.0,
+        "Y": 150.0,
+        "Z": 200.0
       },
-      "AirAimCameraArmLength": 220.0,
+      "AirHipShootCameraArmLength": 600.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 150.0,
+        "Z": 200.0
+      },
+      "AirAimCameraArmLength": 350.0,
       "AirAimCameraOffset": {
         "X": 0.0,
-        "Y": 75.0,
-        "Z": 170.0
+        "Y": 180.0,
+        "Z": 220.0
       },
-      "FlyCameraArmLength": 1000.0,
+      "FlyCameraArmLength": 600.0,
       "FlyCameraOffset": {
-        "X": 10.0,
-        "Y": 160.0,
-        "Z": 280.0
+        "X": 0.0,
+        "Y": 150.0,
+        "Z": 300.0
       },
-      "FlyAimCameraArmLength": 160.0,
+      "FlyHipShootCameraArmLength": 600.0,
+      "FlyHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 150.0,
+        "Z": 300.0
+      },
+      "FlyAimCameraArmLength": 400.0,
       "FlyAimCameraOffset": {
         "X": 0.0,
-        "Y": 75.0,
-        "Z": 250.0
+        "Y": 150.0,
+        "Z": 300.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_SkyDragon_C:CollisionCylinder'",
@@ -1014,7 +837,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
       "bIsEnableGroundTilt": true,
@@ -1086,7 +909,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 180.0,
@@ -1096,6 +919,7 @@
         "Y": 0.0,
         "Z": -180.0
       },
+      "ApproachArrivalRadius": 100.0,
       "AIActionMap": [
         {
           "Key": "EPalAIActionType::Cooperation",
@@ -1450,7 +1274,7 @@
           "Value": {
             "Effect": {
               "ObjectName": "NiagaraSystem'NS_SplashFeetPal'",
-              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_SplashFeetPal.71"
+              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_SplashFeetPal.55"
             },
             "Offset": {
               "X": 100.0,
@@ -1465,7 +1289,7 @@
           "Value": {
             "Effect": {
               "ObjectName": "NiagaraSystem'NS_SplashBodyPal'",
-              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_SplashBodyPal.15"
+              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_SplashBodyPal.25"
             },
             "Offset": {
               "X": 0.0,
@@ -1480,7 +1304,7 @@
           "Value": {
             "Effect": {
               "ObjectName": "NiagaraSystem'NS_SwimPal01'",
-              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_SwimPal01.33"
+              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_SwimPal01.27"
             },
             "Offset": {
               "X": 0.0,
@@ -1495,7 +1319,7 @@
           "Value": {
             "Effect": {
               "ObjectName": "NiagaraSystem'NS_InWaterPal'",
-              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_InWaterPal.14"
+              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_InWaterPal.24"
             },
             "Offset": {
               "X": 0.0,
@@ -1510,7 +1334,7 @@
           "Value": {
             "Effect": {
               "ObjectName": "NiagaraSystem'NS_DivePal_Shallow'",
-              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_DivePal_Shallow.110"
+              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_DivePal_Shallow.84"
             },
             "Offset": {
               "X": 0.0,
@@ -1534,7 +1358,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     }
   },
   {
@@ -1548,7 +1372,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -1568,7 +1392,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_SkyDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.40"
     },
     "Properties": {
       "ComponentClass": {
@@ -1577,7 +1401,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_SkyDragon_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.31"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.30"
       },
       "VariableGuid": "29226D8B-42F1A263-B54726B4-285995F0",
       "InternalVariableName": "DefaultSceneRoot"
@@ -1590,7 +1414,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_SkyDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.40"
     },
     "Properties": {
       "ComponentClass": {
@@ -1599,7 +1423,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalSpeedCollisionComponent'BP_SkyDragon_C:PalSpeedCollision1_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.27"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.26"
       },
       "AttachToName": "root",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1615,7 +1439,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_SkyDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.40"
     },
     "Properties": {
       "ComponentClass": {
@@ -1640,7 +1464,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_SkyDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.40"
     },
     "Properties": {
       "ComponentClass": {
@@ -1665,7 +1489,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_SkyDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.40"
     },
     "Properties": {
       "ComponentClass": {
@@ -1690,7 +1514,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_SkyDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.40"
     },
     "Properties": {
       "ComponentClass": {
@@ -1715,7 +1539,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_SkyDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.40"
     },
     "Properties": {
       "ComponentClass": {
@@ -1740,7 +1564,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_SkyDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.40"
     },
     "Properties": {
       "ComponentClass": {
@@ -1765,7 +1589,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_SkyDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.40"
     },
     "Properties": {
       "ComponentClass": {
@@ -1796,74 +1620,74 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.36"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_6'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.37"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_7'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.38"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_8'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.39"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_9'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.40"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_10'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.34"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_11'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.35"
         },
         {
-          "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_10'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.32"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.36"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_6'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.37"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_7'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.38"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_8'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.39"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_9'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.40"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_10'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.34"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_11'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.35"
         },
         {
-          "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_10'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.32"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_SkyDragon_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.32"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SkyDragon/BP_SkyDragon.31"
       }
     }
   },
@@ -1878,7 +1702,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {

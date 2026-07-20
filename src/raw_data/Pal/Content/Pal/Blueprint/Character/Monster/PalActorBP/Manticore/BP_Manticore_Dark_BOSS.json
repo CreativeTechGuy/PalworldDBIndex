@@ -314,7 +314,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_Manticore_Dark_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore_Dark.16"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore_Dark.15"
     }
   },
   {
@@ -328,9 +328,45 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_Manticore_Dark_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore_Dark.17"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore_Dark.16"
     },
     "Properties": {
+      "WalkCameraArmLength": 650.0,
+      "WalkCameraOffset": {
+        "X": 0.0,
+        "Y": 250.0,
+        "Z": 200.0
+      },
+      "HipShootCameraArmLength": 650.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 250.0,
+        "Z": 200.0
+      },
+      "AimCameraArmLength": 550.0,
+      "AimCameraOffset": {
+        "X": 0.0,
+        "Y": 250.0,
+        "Z": 300.0
+      },
+      "AirCameraArmLength": 650.0,
+      "AirCameraOffset": {
+        "X": 0.0,
+        "Y": 250.0,
+        "Z": 200.0
+      },
+      "AirHipShootCameraArmLength": 650.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 250.0,
+        "Z": 200.0
+      },
+      "AirAimCameraArmLength": 550.0,
+      "AirAimCameraOffset": {
+        "X": 0.0,
+        "Y": 250.0,
+        "Z": 300.0
+      },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_Manticore_Dark_BOSS_C:CollisionCylinder'",
         "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore_Dark_BOSS.2"
@@ -353,7 +389,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_Manticore_Dark_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore_Dark.18"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore_Dark.17"
     },
     "Properties": {
       "AttachParent": {
@@ -378,7 +414,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_Manticore_Dark_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore_Dark.19"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore_Dark.18"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 180.0,
@@ -407,7 +443,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_Manticore_Dark_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore_Dark.20"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore_Dark.19"
     }
   },
   {
@@ -421,7 +457,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_Manticore_Dark_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore_Dark.21"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore_Dark.20"
     }
   },
   {
@@ -483,7 +519,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_Manticore_Dark_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore_Dark.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore_Dark.24"
     },
     "Properties": {
       "AttachParent": {

@@ -39,7 +39,8 @@ export const unconfigurableColumns: (keyof CombinedData)[] = ["Name"];
 export const forceHiddenColumns: (keyof CombinedData)[] = [
     "OverrideNameTextID",
     "NamePrefixID",
-    "OverridePartnerSkillTextID",
+    "OverridePartnerSkillNameTextID",
+    "OverridePartnerSkillDescTextID",
     "IsPal",
     "MeleeAttack",
     "IsBoss",
@@ -69,6 +70,10 @@ export const defaultHiddenColumns: (keyof CombinedData)[] = [
     "Support",
     "CaptureRateCorrect",
     "ExpRatio",
+    "PassiveSkill1",
+    "PassiveSkill2",
+    "PassiveSkill3",
+    "PassiveSkill4",
 ];
 
 export const unsortableColumns: (keyof CombinedData)[] = ["ItemDrops"];

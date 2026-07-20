@@ -1,0 +1,528 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_VolcanoDragon_Ice_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_VolcanoDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_VolcanoDragon_Ice_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.23"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_VolcanoDragon_Ice_C:InheritableComponentHandler'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_VolcanoDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.0"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_VolcanoDragon_Ice_C'Default__BP_VolcanoDragon_Ice_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_PalTimerPointLightComponent_C",
+    "Name": "BP_PalTimerPointLightComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.BP_PalTimerPointLightComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_VolcanoDragon_Ice_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalTimerPointLightComponent_C'BP_VolcanoDragon_C:BP_PalTimerPointLightComponent_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.3"
+    },
+    "Properties": {
+      "LightColor": {
+        "B": 136,
+        "G": 133,
+        "R": 113,
+        "A": 255,
+        "Hex": "718588"
+      }
+    },
+    "IntensityNits": 0.0
+  },
+  {
+    "Type": "BP_VolcanoDragon_Ice_C",
+    "Name": "Default__BP_VolcanoDragon_Ice_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.BP_VolcanoDragon_Ice_C'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice",
+    "Template": {
+      "ObjectName": "BP_VolcanoDragon_C'Default__BP_VolcanoDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.4"
+    },
+    "Properties": {
+      "LiftupObjectComponent": {
+        "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_VolcanoDragon_Ice_C:Liftup'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.9"
+      },
+      "ActionComponent": {
+        "ObjectName": "PalActionComponent'Default__BP_VolcanoDragon_Ice_C:ActionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.5"
+      },
+      "CharacterParameterComponent": {
+        "ObjectName": "PalCharacterParameterComponent'Default__BP_VolcanoDragon_Ice_C:CharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.11"
+      },
+      "StaticCharacterParameterComponent": {
+        "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_VolcanoDragon_Ice_C:StaticCharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.18"
+      },
+      "DamageReactionComponent": {
+        "ObjectName": "PalDamageReactionComponent'Default__BP_VolcanoDragon_Ice_C:DamageReactionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.12"
+      },
+      "StatusComponent": {
+        "ObjectName": "PalStatusComponent'Default__BP_VolcanoDragon_Ice_C:StatusComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.19"
+      },
+      "CameraBoom": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_VolcanoDragon_Ice_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.16"
+      },
+      "FollowCamera": {
+        "ObjectName": "PalCharacterCameraComponent'Default__BP_VolcanoDragon_Ice_C:FollowCamera'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.8"
+      },
+      "LookAtComponent": {
+        "ObjectName": "PalLookAtComponent'Default__BP_VolcanoDragon_Ice_C:LookAtComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.14"
+      },
+      "FootIKComponent": {
+        "ObjectName": "PalFootIKComponent'Default__BP_VolcanoDragon_Ice_C:FootIKComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.13"
+      },
+      "VisualEffectComponent": {
+        "ObjectName": "PalVisualEffectComponent'Default__BP_VolcanoDragon_Ice_C:VisualEffectComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.20"
+      },
+      "PassiveSkillComponent": {
+        "ObjectName": "PalPassiveSkillComponent'Default__BP_VolcanoDragon_Ice_C:PassiveSkillComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.15"
+      },
+      "AnimNotifyComponent": {
+        "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_VolcanoDragon_Ice_C:AnimNotifyComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.6"
+      },
+      "AroundInfoCollectorComponent": {
+        "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_VolcanoDragon_Ice_C:AroundInfoCollectorComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.7"
+      },
+      "RagdollInteractiveSphere": {
+        "ObjectName": "SphereComponent'Default__BP_VolcanoDragon_Ice_C:RagdollInteractiveSphere'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.24"
+      },
+      "Mesh": {
+        "ObjectName": "PalSkeletalMeshComponent'Default__BP_VolcanoDragon_Ice_C:CharacterMesh0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.17"
+      },
+      "CharacterMovement": {
+        "ObjectName": "PalCharacterMovementComponent'Default__BP_VolcanoDragon_Ice_C:CharMoveComp'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.10"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_VolcanoDragon_Ice_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.3"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_VolcanoDragon_Ice_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.3"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_VolcanoDragon_Ice_C'Default__BP_VolcanoDragon_Ice_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.2"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_VolcanoDragon_C:CollisionCylinder'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.5"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_VolcanoDragon_Ice_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_PalTimerPointLightComponent_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.0"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BP_PalTimerPointLightComponent_C'BP_VolcanoDragon_Ice_C:BP_PalTimerPointLightComponent_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.1"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_VolcanoDragon_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.0"
+            },
+            "SCSVariableName": "BP_PalTimerPointLightComponent",
+            "AssociatedGuid": "75B2D795-479311B3-496275B4-C29119E2"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PalActionComponent",
+    "Name": "ActionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalActionComponent'",
+    "Outer": {
+      "ObjectName": "BP_VolcanoDragon_Ice_C'Default__BP_VolcanoDragon_Ice_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.2"
+    },
+    "Template": {
+      "ObjectName": "PalActionComponent'Default__BP_VolcanoDragon_C:ActionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.8"
+    }
+  },
+  {
+    "Type": "PalAnimNotifyParameterComponent",
+    "Name": "AnimNotifyComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_VolcanoDragon_Ice_C'Default__BP_VolcanoDragon_Ice_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.2"
+    },
+    "Template": {
+      "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_VolcanoDragon_C:AnimNotifyComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.9"
+    }
+  },
+  {
+    "Type": "PalCharacterAroundInfoCollectorComponent",
+    "Name": "AroundInfoCollectorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+    "Outer": {
+      "ObjectName": "BP_VolcanoDragon_Ice_C'Default__BP_VolcanoDragon_Ice_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.2"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_VolcanoDragon_C:AroundInfoCollectorComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.19"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_VolcanoDragon_Ice_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.3"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterCameraComponent",
+    "Name": "FollowCamera",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterCameraComponent'",
+    "Outer": {
+      "ObjectName": "BP_VolcanoDragon_Ice_C'Default__BP_VolcanoDragon_Ice_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.2"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterCameraComponent'Default__BP_VolcanoDragon_C:FollowCamera'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.20"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_VolcanoDragon_Ice_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.16"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterLiftupObjectComponent",
+    "Name": "Liftup",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+    "Outer": {
+      "ObjectName": "BP_VolcanoDragon_Ice_C'Default__BP_VolcanoDragon_Ice_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.2"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_VolcanoDragon_C:Liftup'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.21"
+    }
+  },
+  {
+    "Type": "PalCharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_VolcanoDragon_Ice_C'Default__BP_VolcanoDragon_Ice_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.2"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterMovementComponent'Default__BP_VolcanoDragon_C:CharMoveComp'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.22"
+    }
+  },
+  {
+    "Type": "PalCharacterParameterComponent",
+    "Name": "CharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_VolcanoDragon_Ice_C'Default__BP_VolcanoDragon_Ice_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.2"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterParameterComponent'Default__BP_VolcanoDragon_C:CharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.23"
+    }
+  },
+  {
+    "Type": "PalDamageReactionComponent",
+    "Name": "DamageReactionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalDamageReactionComponent'",
+    "Outer": {
+      "ObjectName": "BP_VolcanoDragon_Ice_C'Default__BP_VolcanoDragon_Ice_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.2"
+    },
+    "Template": {
+      "ObjectName": "PalDamageReactionComponent'Default__BP_VolcanoDragon_C:DamageReactionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.24"
+    }
+  },
+  {
+    "Type": "PalFootIKComponent",
+    "Name": "FootIKComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalFootIKComponent'",
+    "Outer": {
+      "ObjectName": "BP_VolcanoDragon_Ice_C'Default__BP_VolcanoDragon_Ice_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.2"
+    },
+    "Template": {
+      "ObjectName": "PalFootIKComponent'Default__BP_VolcanoDragon_C:FootIKComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.25"
+    }
+  },
+  {
+    "Type": "PalLookAtComponent",
+    "Name": "LookAtComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalLookAtComponent'",
+    "Outer": {
+      "ObjectName": "BP_VolcanoDragon_Ice_C'Default__BP_VolcanoDragon_Ice_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.2"
+    },
+    "Template": {
+      "ObjectName": "PalLookAtComponent'Default__BP_VolcanoDragon_C:LookAtComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.26"
+    }
+  },
+  {
+    "Type": "PalPassiveSkillComponent",
+    "Name": "PassiveSkillComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalPassiveSkillComponent'",
+    "Outer": {
+      "ObjectName": "BP_VolcanoDragon_Ice_C'Default__BP_VolcanoDragon_Ice_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.2"
+    },
+    "Template": {
+      "ObjectName": "PalPassiveSkillComponent'Default__BP_VolcanoDragon_C:PassiveSkillComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.27"
+    }
+  },
+  {
+    "Type": "PalShooterSpringArmComponent",
+    "Name": "CameraBoom",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalShooterSpringArmComponent'",
+    "Outer": {
+      "ObjectName": "BP_VolcanoDragon_Ice_C'Default__BP_VolcanoDragon_Ice_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.2"
+    },
+    "Template": {
+      "ObjectName": "PalShooterSpringArmComponent'Default__BP_VolcanoDragon_C:CameraBoom'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.28"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_VolcanoDragon_Ice_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.3"
+      }
+    }
+  },
+  {
+    "Type": "PalSkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_VolcanoDragon_Ice_C'Default__BP_VolcanoDragon_Ice_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.2"
+    },
+    "Template": {
+      "ObjectName": "PalSkeletalMeshComponent'Default__BP_VolcanoDragon_C:CharacterMesh0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.29"
+    },
+    "Properties": {
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_VolcanoDragon_Ice'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/VolcanoDragon_Ice/SK_VolcanoDragon_Ice.0"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_VolcanoDragon_Ice'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/VolcanoDragon_Ice/SK_VolcanoDragon_Ice.0"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_VolcanoDragon_Ice_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.3"
+      }
+    }
+  },
+  {
+    "Type": "PalStaticCharacterParameterComponent",
+    "Name": "StaticCharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_VolcanoDragon_Ice_C'Default__BP_VolcanoDragon_Ice_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.2"
+    },
+    "Template": {
+      "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_VolcanoDragon_C:StaticCharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.31"
+    }
+  },
+  {
+    "Type": "PalStatusComponent",
+    "Name": "StatusComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStatusComponent'",
+    "Outer": {
+      "ObjectName": "BP_VolcanoDragon_Ice_C'Default__BP_VolcanoDragon_Ice_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.2"
+    },
+    "Template": {
+      "ObjectName": "PalStatusComponent'Default__BP_VolcanoDragon_C:StatusComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.32"
+    }
+  },
+  {
+    "Type": "PalVisualEffectComponent",
+    "Name": "VisualEffectComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalVisualEffectComponent'",
+    "Outer": {
+      "ObjectName": "BP_VolcanoDragon_Ice_C'Default__BP_VolcanoDragon_Ice_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.2"
+    },
+    "Template": {
+      "ObjectName": "PalVisualEffectComponent'Default__BP_VolcanoDragon_C:VisualEffectComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.33"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_VolcanoDragon_Ice_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_VolcanoDragon_Ice_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.23"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_VolcanoDragon_Ice_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.21"
+      },
+      "VariableGuid": "BFA2E843-494130DA-ABB5D692-728120D9",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_VolcanoDragon_Ice_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_VolcanoDragon_Ice_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.22"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "RagdollInteractiveSphere",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BP_VolcanoDragon_Ice_C'Default__BP_VolcanoDragon_Ice_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.2"
+    },
+    "Template": {
+      "ObjectName": "SphereComponent'Default__BP_VolcanoDragon_C:RagdollInteractiveSphere'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.49"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_VolcanoDragon_Ice_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon_Ice.3"
+      }
+    }
+  }
+]

@@ -131,7 +131,7 @@
   {
     "Type": "BP_Baphomet_Dark_Oilrig_C",
     "Name": "Default__BP_Baphomet_Dark_Oilrig_C",
-    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig.BP_Baphomet_Dark_Oilrig_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark_Oilrig",
     "Template": {
@@ -694,9 +694,6 @@
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_Baphomet_Dark_C:StaticCharacterParameterComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Baphomet/BP_Baphomet_Dark.17"
-    },
-    "Properties": {
-      "IsUncapturable": true
     }
   },
   {

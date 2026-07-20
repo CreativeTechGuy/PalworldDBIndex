@@ -12,7 +12,7 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_SaintCentaur_BOSS_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SaintCentaur/BP_SaintCentaur_BOSS.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SaintCentaur/BP_SaintCentaur_BOSS.24"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_SaintCentaur_BOSS_C:InheritableComponentHandler'",
@@ -84,7 +84,7 @@
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_SaintCentaur_BOSS_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SaintCentaur/BP_SaintCentaur_BOSS.18"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SaintCentaur/BP_SaintCentaur_BOSS.19"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_SaintCentaur_BOSS_C:DamageReactionComponent'",
@@ -92,11 +92,11 @@
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_SaintCentaur_BOSS_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SaintCentaur/BP_SaintCentaur_BOSS.19"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SaintCentaur/BP_SaintCentaur_BOSS.20"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_SaintCentaur_BOSS_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SaintCentaur/BP_SaintCentaur_BOSS.16"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SaintCentaur/BP_SaintCentaur_BOSS.17"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_SaintCentaur_BOSS_C:FollowCamera'",
@@ -112,11 +112,11 @@
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_SaintCentaur_BOSS_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SaintCentaur/BP_SaintCentaur_BOSS.20"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SaintCentaur/BP_SaintCentaur_BOSS.21"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_SaintCentaur_BOSS_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SaintCentaur/BP_SaintCentaur_BOSS.15"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SaintCentaur/BP_SaintCentaur_BOSS.16"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_SaintCentaur_BOSS_C:AnimNotifyComponent'",
@@ -128,11 +128,11 @@
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_SaintCentaur_BOSS_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SaintCentaur/BP_SaintCentaur_BOSS.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SaintCentaur/BP_SaintCentaur_BOSS.25"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_SaintCentaur_BOSS_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SaintCentaur/BP_SaintCentaur_BOSS.17"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SaintCentaur/BP_SaintCentaur_BOSS.18"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_SaintCentaur_BOSS_C:CharMoveComp'",
@@ -189,6 +189,28 @@
             },
             "SCSVariableName": "BP_PalRideMarkerSaddle",
             "AssociatedGuid": "61521F39-42F33110-96648588-E66C5070"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
+            "ObjectPath": "/Script/Pal"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "PalPartnerSkillParameterComponent'BP_SaintCentaur_BOSS_C:PalPartnerSkillParameter_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SaintCentaur/BP_SaintCentaur_BOSS.15"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+            },
+            "SCSVariableName": "PalPartnerSkillParameter",
+            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
           },
           "CookedComponentInstancingData": {
             "ChangedPropertyList": [],
@@ -262,7 +284,7 @@
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_SaintCentaur_BOSS_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SaintCentaur/BP_SaintCentaur_BOSS.16"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SaintCentaur/BP_SaintCentaur_BOSS.17"
       }
     }
   },
@@ -351,6 +373,26 @@
     }
   },
   {
+    "Type": "PalPartnerSkillParameterComponent",
+    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SaintCentaur_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SaintCentaur/BP_SaintCentaur_BOSS.0"
+    },
+    "Template": {
+      "ObjectName": "PalPartnerSkillParameterComponent'BP_SaintCentaur_C:PalPartnerSkillParameter_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SaintCentaur/BP_SaintCentaur.24"
+    },
+    "Properties": {
+      "FunnelCharacterClass_NoAutoSpawn": {
+        "ObjectName": "BlueprintGeneratedClass'BP_FunnelCharacter_SaintCentaur_BOSS_C'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Funnel/BP_FunnelCharacter_SaintCentaur_BOSS.0"
+      }
+    }
+  },
+  {
     "Type": "PalPassiveSkillComponent",
     "Name": "PassiveSkillComponent",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
@@ -378,29 +420,41 @@
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SaintCentaur/BP_SaintCentaur.26"
     },
     "Properties": {
-      "WalkCameraArmLength": 950.0,
+      "WalkCameraArmLength": 550.0,
       "WalkCameraOffset": {
         "X": 0.0,
-        "Y": 150.0,
-        "Z": 170.0
+        "Y": 170.0,
+        "Z": 150.0
       },
-      "AimCameraArmLength": 500.0,
+      "HipShootCameraArmLength": 550.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 170.0,
+        "Z": 150.0
+      },
+      "AimCameraArmLength": 350.0,
       "AimCameraOffset": {
         "X": 0.0,
-        "Y": 100.0,
-        "Z": 185.0
+        "Y": 150.0,
+        "Z": 200.0
       },
-      "AirCameraArmLength": 950.0,
+      "AirCameraArmLength": 550.0,
       "AirCameraOffset": {
         "X": 0.0,
-        "Y": 150.0,
-        "Z": 160.0
+        "Y": 170.0,
+        "Z": 150.0
       },
-      "AirAimCameraArmLength": 500.0,
+      "AirHipShootCameraArmLength": 550.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 170.0,
+        "Z": 150.0
+      },
+      "AirAimCameraArmLength": 350.0,
       "AirAimCameraOffset": {
         "X": 0.0,
-        "Y": 100.0,
-        "Z": 185.0
+        "Y": 150.0,
+        "Z": 200.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_SaintCentaur_BOSS_C:CollisionCylinder'",
@@ -537,7 +591,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_SaintCentaur_BOSS_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SaintCentaur/BP_SaintCentaur_BOSS.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SaintCentaur/BP_SaintCentaur_BOSS.24"
     },
     "Properties": {
       "ComponentClass": {
@@ -546,7 +600,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_SaintCentaur_BOSS_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SaintCentaur/BP_SaintCentaur_BOSS.21"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SaintCentaur/BP_SaintCentaur_BOSS.22"
       },
       "VariableGuid": "AFB09DE7-40F8A229-32A33CA7-D18099EB",
       "InternalVariableName": "DefaultSceneRoot"
@@ -564,7 +618,7 @@
     "Properties": {
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_SaintCentaur_BOSS_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SaintCentaur/BP_SaintCentaur_BOSS.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SaintCentaur/BP_SaintCentaur_BOSS.23"
       }
     }
   },

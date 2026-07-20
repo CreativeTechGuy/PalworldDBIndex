@@ -258,6 +258,21 @@
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_PurpleSpider_C:ActionComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PurpleSpider/BP_PurpleSpider.7"
+    },
+    "Properties": {
+      "ActionMap": [
+        {
+          "Key": "EPalActionType::EPalActionType_MAX",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_ActionEatOneshot_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Action/Common/BP_ActionEatOneshot.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::SpawnItem",
+          "Value": null
+        }
+      ]
     }
   },
   {
@@ -409,7 +424,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_PurpleSpider_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PurpleSpider/BP_PurpleSpider.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PurpleSpider/BP_PurpleSpider.26"
     }
   },
   {
@@ -423,7 +438,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_PurpleSpider_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PurpleSpider/BP_PurpleSpider.29"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PurpleSpider/BP_PurpleSpider.28"
     },
     "Properties": {
       "WalkCameraArmLength": 450.0,
@@ -472,7 +487,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_PurpleSpider_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PurpleSpider/BP_PurpleSpider.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PurpleSpider/BP_PurpleSpider.29"
     },
     "Properties": {
       "AttachParent": {
@@ -502,7 +517,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_PurpleSpider_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PurpleSpider/BP_PurpleSpider.31"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PurpleSpider/BP_PurpleSpider.30"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 99.75,
@@ -553,7 +568,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_PurpleSpider_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PurpleSpider/BP_PurpleSpider.32"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PurpleSpider/BP_PurpleSpider.31"
     }
   },
   {
@@ -567,7 +582,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_PurpleSpider_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PurpleSpider/BP_PurpleSpider.33"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PurpleSpider/BP_PurpleSpider.32"
     }
   },
   {
@@ -629,7 +644,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_PurpleSpider_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PurpleSpider/BP_PurpleSpider.49"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/PurpleSpider/BP_PurpleSpider.48"
     },
     "Properties": {
       "AttachParent": {

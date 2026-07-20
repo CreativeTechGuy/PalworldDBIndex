@@ -41,7 +41,7 @@
   {
     "Type": "BP_HawkBird_BOSS_C",
     "Name": "Default__BP_HawkBird_BOSS_C",
-    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HawkBird/BP_HawkBird_BOSS.BP_HawkBird_BOSS_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HawkBird/BP_HawkBird_BOSS",
     "Template": {
@@ -314,7 +314,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_HawkBird_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HawkBird/BP_HawkBird.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HawkBird/BP_HawkBird.23"
     }
   },
   {
@@ -328,44 +328,62 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_HawkBird_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HawkBird/BP_HawkBird.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HawkBird/BP_HawkBird.24"
     },
     "Properties": {
-      "WalkCameraArmLength": 1050.0,
+      "WalkCameraArmLength": 800.0,
       "WalkCameraOffset": {
         "X": 0.0,
-        "Y": 165.0,
-        "Z": 265.0
+        "Y": 200.0,
+        "Z": 300.0
       },
-      "AimCameraArmLength": 300.0,
+      "HipShootCameraArmLength": 800.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 200.0,
+        "Z": 300.0
+      },
+      "AimCameraArmLength": 450.0,
       "AimCameraOffset": {
-        "X": 125.0,
-        "Y": 55.0,
-        "Z": 220.0
+        "X": 0.0,
+        "Y": 150.0,
+        "Z": 250.0
       },
-      "AirCameraArmLength": 1050.0,
+      "AirCameraArmLength": 800.0,
       "AirCameraOffset": {
         "X": 0.0,
-        "Y": 165.0,
-        "Z": 265.0
+        "Y": 200.0,
+        "Z": 300.0
       },
-      "AirAimCameraArmLength": 300.0,
+      "AirHipShootCameraArmLength": 800.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 200.0,
+        "Z": 300.0
+      },
+      "AirAimCameraArmLength": 450.0,
       "AirAimCameraOffset": {
-        "X": 125.0,
-        "Y": 55.0,
-        "Z": 220.0
+        "X": 0.0,
+        "Y": 150.0,
+        "Z": 250.0
       },
-      "FlyCameraArmLength": 1050.0,
+      "FlyCameraArmLength": 800.0,
       "FlyCameraOffset": {
         "X": 0.0,
-        "Y": 165.0,
-        "Z": 265.0
+        "Y": 200.0,
+        "Z": 300.0
       },
-      "FlyAimCameraArmLength": 300.0,
+      "FlyHipShootCameraArmLength": 800.0,
+      "FlyHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 200.0,
+        "Z": 300.0
+      },
+      "FlyAimCameraArmLength": 450.0,
       "FlyAimCameraOffset": {
-        "X": 125.0,
-        "Y": 55.0,
-        "Z": 220.0
+        "X": 0.0,
+        "Y": 150.0,
+        "Z": 250.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_HawkBird_BOSS_C:CollisionCylinder'",
@@ -389,7 +407,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_HawkBird_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HawkBird/BP_HawkBird.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HawkBird/BP_HawkBird.25"
     },
     "Properties": {
       "AttachParent": {
@@ -414,7 +432,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_HawkBird_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HawkBird/BP_HawkBird.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HawkBird/BP_HawkBird.27"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 260.0,
@@ -425,13 +443,6 @@
         "Z": -260.0
       },
       "GeneralBlendSpaceMap": [
-        {
-          "Key": "EPalGeneralBlendSpaceType::RidingMove",
-          "Value": {
-            "ObjectName": "BlendSpace'BS_Move_HawkBird_Riding'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HawkBird/BS_Move_HawkBird_Riding.0"
-          }
-        },
         {
           "Key": "EPalGeneralBlendSpaceType::FlyingRidingMove",
           "Value": {
@@ -518,7 +529,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_HawkBird_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HawkBird/BP_HawkBird.29"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HawkBird/BP_HawkBird.28"
     }
   },
   {
@@ -532,7 +543,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_HawkBird_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HawkBird/BP_HawkBird.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HawkBird/BP_HawkBird.29"
     }
   },
   {
@@ -594,7 +605,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_HawkBird_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HawkBird/BP_HawkBird.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HawkBird/BP_HawkBird.41"
     },
     "Properties": {
       "AttachParent": {

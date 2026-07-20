@@ -147,8 +147,10 @@ export function PalTable(): JSXElement {
                             }}
                             onClick={function (this: HTMLTableRowElement, evt) {
                                 const composedPath = evt.composedPath();
+                                const thisDepth = composedPath.indexOf(this);
                                 if (
                                     !composedPath.includes(this) ||
+                                    thisDepth > 2 ||
                                     composedPath.some((elem) => elem instanceof HTMLButtonElement)
                                 ) {
                                     return;

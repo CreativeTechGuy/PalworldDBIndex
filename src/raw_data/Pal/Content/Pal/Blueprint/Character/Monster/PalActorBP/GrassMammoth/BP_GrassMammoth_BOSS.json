@@ -41,7 +41,7 @@
   {
     "Type": "BP_GrassMammoth_BOSS_C",
     "Name": "Default__BP_GrassMammoth_BOSS_C",
-    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth_BOSS.BP_GrassMammoth_BOSS_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth_BOSS",
     "Template": {
@@ -314,7 +314,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_GrassMammoth_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.22"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.21"
     }
   },
   {
@@ -328,31 +328,43 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_GrassMammoth_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.22"
     },
     "Properties": {
-      "WalkCameraArmLength": 1750.0,
+      "WalkCameraArmLength": 750.0,
       "WalkCameraOffset": {
-        "X": 500.0,
-        "Y": 180.0,
-        "Z": 300.0
+        "X": 0.0,
+        "Y": 270.0,
+        "Z": 250.0
       },
-      "AimCameraArmLength": 630.0,
+      "HipShootCameraArmLength": 750.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 270.0,
+        "Z": 250.0
+      },
+      "AimCameraArmLength": 350.0,
       "AimCameraOffset": {
-        "X": 450.0,
-        "Y": 30.0,
+        "X": 0.0,
+        "Y": 120.0,
         "Z": 350.0
       },
-      "AirCameraArmLength": 1750.0,
+      "AirCameraArmLength": 750.0,
       "AirCameraOffset": {
-        "X": 500.0,
-        "Y": 180.0,
-        "Z": 300.0
+        "X": 0.0,
+        "Y": 270.0,
+        "Z": 250.0
       },
-      "AirAimCameraArmLength": 630.0,
+      "AirHipShootCameraArmLength": 750.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 270.0,
+        "Z": 250.0
+      },
+      "AirAimCameraArmLength": 350.0,
       "AirAimCameraOffset": {
-        "X": 450.0,
-        "Y": 30.0,
+        "X": 0.0,
+        "Y": 120.0,
         "Z": 350.0
       },
       "AttachParent": {
@@ -377,7 +389,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_GrassMammoth_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.23"
     },
     "Properties": {
       "AttachParent": {
@@ -402,7 +414,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_GrassMammoth_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.25"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 304.5,
@@ -434,7 +446,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_GrassMammoth_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.26"
     }
   },
   {
@@ -448,7 +460,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_GrassMammoth_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.27"
     }
   },
   {
@@ -510,7 +522,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_GrassMammoth_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.38"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassMammoth/BP_GrassMammoth.37"
     },
     "Properties": {
       "AttachParent": {

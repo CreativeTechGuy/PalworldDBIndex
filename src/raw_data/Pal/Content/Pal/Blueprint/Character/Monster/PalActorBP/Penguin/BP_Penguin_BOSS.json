@@ -162,7 +162,7 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_Penguin_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.18"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.19"
     }
   },
   {
@@ -176,7 +176,7 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_Penguin_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.19"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.20"
     }
   },
   {
@@ -190,7 +190,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_Penguin_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.22"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.23"
     },
     "Properties": {
       "AttachParent": {
@@ -210,7 +210,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_Penguin_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.24"
     },
     "Properties": {
       "AttachParent": {
@@ -230,7 +230,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_Penguin_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.25"
     }
   },
   {
@@ -244,7 +244,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_Penguin_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.26"
     }
   },
   {
@@ -258,7 +258,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_Penguin_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.27"
     }
   },
   {
@@ -272,7 +272,7 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_Penguin_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.28"
     }
   },
   {
@@ -286,7 +286,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_Penguin_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.29"
     }
   },
   {
@@ -300,7 +300,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_Penguin_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Penguin/BP_Penguin.31"
     }
   },
   {
@@ -405,7 +405,7 @@
           "Value": {
             "LocationOffset": {
               "X": -40.0,
-              "Y": 0.0,
+              "Y": -10.0,
               "Z": 0.0
             },
             "RotatorOffset": {
@@ -423,7 +423,7 @@
           "Value": {
             "LocationOffset": {
               "X": -40.0,
-              "Y": 0.0,
+              "Y": -10.0,
               "Z": 0.0
             },
             "RotatorOffset": {
@@ -440,8 +440,8 @@
           },
           "Value": {
             "LocationOffset": {
-              "X": -50.0,
-              "Y": 100.0,
+              "X": -40.0,
+              "Y": 85.0,
               "Z": 0.0
             },
             "RotatorOffset": {

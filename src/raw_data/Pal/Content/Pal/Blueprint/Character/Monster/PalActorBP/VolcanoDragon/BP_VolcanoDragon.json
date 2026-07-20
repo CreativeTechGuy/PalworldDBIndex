@@ -12,18 +12,46 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_VolcanoDragon_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.43"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.48"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_VolcanoDragon_C:InheritableComponentHandler'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.4"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.7"
       }
     },
     "SuperStruct": {
       "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
     },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_VolcanoDragon_C:GetVisual_ExceptMainMesh_SyncAnyway'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.6"
+      }
+    ],
     "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalSpeedCollision",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalSpeedCollisionComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_PalTimerPointLightComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PalTimerPointLightComponent_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.0"
+        }
+      },
       {
         "Type": "ObjectProperty",
         "Name": "BP_PalRideMarkerBiggerHorse",
@@ -135,6 +163,12 @@
         }
       }
     ],
+    "FuncMap": {
+      "GetVisual_ExceptMainMesh_SyncAnyway": {
+        "ObjectName": "Function'BP_VolcanoDragon_C:GetVisual_ExceptMainMesh_SyncAnyway'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.6"
+      }
+    },
     "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
     "ClassWithin": {
       "ObjectName": "Class'Object'",
@@ -144,10 +178,27 @@
     "bCooked": true,
     "ClassDefaultObject": {
       "ObjectName": "BP_VolcanoDragon_C'Default__BP_VolcanoDragon_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.4"
     },
     "EditorTags": {
       "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_PalCryComponent_C",
+    "Name": "BP_PalCryComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.BP_PalCryComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_VolcanoDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalCryComponent_C'BP_MonsterBase_C:BP_PalCryComponent_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.2"
+    },
+    "Properties": {
+      "CryPalID": "EPalTribeID::VolcanoDragon"
     }
   },
   {
@@ -177,6 +228,46 @@
     }
   },
   {
+    "Type": "BP_PalTimerPointLightComponent_C",
+    "Name": "BP_PalTimerPointLightComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.BP_PalTimerPointLightComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_VolcanoDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalTimerPointLightComponent_C'Default__BP_PalTimerPointLightComponent_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.1"
+    },
+    "Properties": {
+      "bUseInverseSquaredFalloff": false,
+      "SourceRadius": 1000.0,
+      "SoftSourceRadius": 1000.0,
+      "InverseExposureBlend": 1.0,
+      "AttenuationRadius": 2000.0,
+      "Intensity": 30.0,
+      "LightColor": {
+        "B": 0,
+        "G": 97,
+        "R": 163,
+        "A": 255,
+        "Hex": "A36100"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 400.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": -0.0
+      }
+    },
+    "IntensityNits": 30.0
+  },
+  {
     "Type": "BP_VolcanoDragon_C",
     "Name": "Default__BP_VolcanoDragon_C",
     "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
@@ -189,79 +280,79 @@
     "Properties": {
       "LiftupObjectComponent": {
         "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_VolcanoDragon_C:Liftup'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.18"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.21"
       },
       "ActionComponent": {
         "ObjectName": "PalActionComponent'Default__BP_VolcanoDragon_C:ActionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.5"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.8"
       },
       "CharacterParameterComponent": {
         "ObjectName": "PalCharacterParameterComponent'Default__BP_VolcanoDragon_C:CharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.20"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.23"
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_VolcanoDragon_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.28"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.31"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_VolcanoDragon_C:DamageReactionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.21"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.24"
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_VolcanoDragon_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.29"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.32"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_VolcanoDragon_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.28"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_VolcanoDragon_C:FollowCamera'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.17"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.20"
       },
       "LookAtComponent": {
         "ObjectName": "PalLookAtComponent'Default__BP_VolcanoDragon_C:LookAtComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.26"
       },
       "FootIKComponent": {
         "ObjectName": "PalFootIKComponent'Default__BP_VolcanoDragon_C:FootIKComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.25"
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_VolcanoDragon_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.30"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.33"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_VolcanoDragon_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.25"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.27"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_VolcanoDragon_C:AnimNotifyComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.6"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.9"
       },
       "AroundInfoCollectorComponent": {
         "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_VolcanoDragon_C:AroundInfoCollectorComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.16"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.19"
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_VolcanoDragon_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.44"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.49"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_VolcanoDragon_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.27"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.29"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_VolcanoDragon_C:CharMoveComp'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.19"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.22"
       },
       "CapsuleComponent": {
         "ObjectName": "CapsuleComponent'Default__BP_VolcanoDragon_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.3"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.5"
       },
       "RootComponent": {
         "ObjectName": "CapsuleComponent'Default__BP_VolcanoDragon_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.3"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.5"
       }
     }
   },
@@ -272,7 +363,7 @@
     "Class": "UScriptClass'CapsuleComponent'",
     "Outer": {
       "ObjectName": "BP_VolcanoDragon_C'Default__BP_VolcanoDragon_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.4"
     },
     "Template": {
       "ObjectName": "CapsuleComponent'Default__BP_MonsterBase_C:CollisionCylinder'",
@@ -282,6 +373,69 @@
       "CapsuleHalfHeight": 30.0,
       "CapsuleRadius": 30.0
     }
+  },
+  {
+    "Type": "Function",
+    "Name": "GetVisual_ExceptMainMesh_SyncAnyway",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_VolcanoDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.0"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_MonsterBase_C:GetVisual_ExceptMainMesh_SyncAnyway'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.16"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'BP_MonsterBase_C:GetVisual_ExceptMainMesh_SyncAnyway'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.16"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ArrayProperty",
+        "Name": "OutComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "Parm | OutParm | ContainsInstancedReference",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "OutComponent",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "InstancedReference",
+          "PropertyClass": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "NewLocalVar",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | ContainsInstancedReference",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "NewLocalVar",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "InstancedReference",
+          "PropertyClass": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Add_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
   },
   {
     "Type": "InheritableComponentHandler",
@@ -296,20 +450,20 @@
       "Records": [
         {
           "ComponentClass": {
-            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-            "ObjectPath": "/Script/Pal"
+            "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
+            "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
           },
           "ComponentTemplate": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_VolcanoDragon_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.24"
+            "ObjectName": "BP_PalCryComponent_C'BP_VolcanoDragon_C:BP_PalCryComponent_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.1"
           },
           "ComponentKey": {
             "OwnerClass": {
               "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
               "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
             },
-            "SCSVariableName": "PalPartnerSkillParameter",
-            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
+            "SCSVariableName": "BP_PalCryComponent",
+            "AssociatedGuid": "A971BE27-4B3C10FC-863FA284-ECDC3286"
           },
           "CookedComponentInstancingData": {
             "ChangedPropertyList": [],
@@ -326,11 +480,26 @@
     "Class": "UScriptClass'PalActionComponent'",
     "Outer": {
       "ObjectName": "BP_VolcanoDragon_C'Default__BP_VolcanoDragon_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.4"
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+    },
+    "Properties": {
+      "ActionMap": [
+        {
+          "Key": "EPalActionType::EPalActionType_MAX",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_ActionEatOneshot_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Action/Common/BP_ActionEatOneshot.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::None",
+          "Value": null
+        }
+      ]
     }
   },
   {
@@ -340,11 +509,11 @@
     "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
     "Outer": {
       "ObjectName": "BP_VolcanoDragon_C'Default__BP_VolcanoDragon_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.4"
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
     }
   },
   {
@@ -357,6 +526,7 @@
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.0"
     },
     "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Weak",
       "CapsuleHalfHeight": 99.70129,
       "CapsuleRadius": 60.041252,
       "RelativeLocation": {
@@ -565,16 +735,16 @@
     "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
     "Outer": {
       "ObjectName": "BP_VolcanoDragon_C'Default__BP_VolcanoDragon_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.4"
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_VolcanoDragon_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.3"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.5"
       }
     }
   },
@@ -585,16 +755,16 @@
     "Class": "UScriptClass'PalCharacterCameraComponent'",
     "Outer": {
       "ObjectName": "BP_VolcanoDragon_C'Default__BP_VolcanoDragon_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.4"
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_VolcanoDragon_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.28"
       }
     }
   },
@@ -605,11 +775,11 @@
     "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
     "Outer": {
       "ObjectName": "BP_VolcanoDragon_C'Default__BP_VolcanoDragon_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.4"
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -619,11 +789,17 @@
     "Class": "UScriptClass'PalCharacterMovementComponent'",
     "Outer": {
       "ObjectName": "BP_VolcanoDragon_C'Default__BP_VolcanoDragon_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.4"
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+    },
+    "Properties": {
+      "InWaterRate": 0.64,
+      "GravityScale": 1.5,
+      "JumpZVelocity": 500.0,
+      "Buoyancy": 1.5
     }
   },
   {
@@ -633,11 +809,11 @@
     "Class": "UScriptClass'PalCharacterParameterComponent'",
     "Outer": {
       "ObjectName": "BP_VolcanoDragon_C'Default__BP_VolcanoDragon_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.4"
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -647,11 +823,11 @@
     "Class": "UScriptClass'PalDamageReactionComponent'",
     "Outer": {
       "ObjectName": "BP_VolcanoDragon_C'Default__BP_VolcanoDragon_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.4"
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
     }
   },
   {
@@ -661,11 +837,11 @@
     "Class": "UScriptClass'PalFootIKComponent'",
     "Outer": {
       "ObjectName": "BP_VolcanoDragon_C'Default__BP_VolcanoDragon_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.4"
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     }
   },
   {
@@ -675,184 +851,11 @@
     "Class": "UScriptClass'PalLookAtComponent'",
     "Outer": {
       "ObjectName": "BP_VolcanoDragon_C'Default__BP_VolcanoDragon_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.4"
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
-    }
-  },
-  {
-    "Type": "PalPartnerSkillParameterComponent",
-    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_VolcanoDragon_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.0"
-    },
-    "Template": {
-      "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
-    },
-    "Properties": {
-      "RestrictionItems": [
-        {
-          "Key": "SkillUnlock_VolcanoDragon"
-        }
-      ],
-      "PassiveSkills": [
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "VolcanoDragon_PartnerSkill_1"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": true,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "VolcanoDragon_PartnerSkill_2"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": true,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "VolcanoDragon_PartnerSkill_3"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": true,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "VolcanoDragon_PartnerSkill_4"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "VolcanoDragon_PartnerSkill_5"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        }
-      ]
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
     }
   },
   {
@@ -862,11 +865,11 @@
     "Class": "UScriptClass'PalPassiveSkillComponent'",
     "Outer": {
       "ObjectName": "BP_VolcanoDragon_C'Default__BP_VolcanoDragon_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.4"
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -876,16 +879,52 @@
     "Class": "UScriptClass'PalShooterSpringArmComponent'",
     "Outer": {
       "ObjectName": "BP_VolcanoDragon_C'Default__BP_VolcanoDragon_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.4"
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
+      "WalkCameraArmLength": 600.0,
+      "WalkCameraOffset": {
+        "X": 0.0,
+        "Y": 220.0,
+        "Z": 150.0
+      },
+      "HipShootCameraArmLength": 600.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 220.0,
+        "Z": 150.0
+      },
+      "AimCameraArmLength": 550.0,
+      "AimCameraOffset": {
+        "X": 0.0,
+        "Y": 220.0,
+        "Z": 250.0
+      },
+      "AirCameraArmLength": 600.0,
+      "AirCameraOffset": {
+        "X": 0.0,
+        "Y": 220.0,
+        "Z": 150.0
+      },
+      "AirHipShootCameraArmLength": 600.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 220.0,
+        "Z": 150.0
+      },
+      "AirAimCameraArmLength": 550.0,
+      "AirAimCameraOffset": {
+        "X": 0.0,
+        "Y": 220.0,
+        "Z": 250.0
+      },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_VolcanoDragon_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.3"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.5"
       },
       "RelativeLocation": {
         "X": 0.0,
@@ -901,33 +940,61 @@
     "Class": "UScriptClass'PalSkeletalMeshComponent'",
     "Outer": {
       "ObjectName": "BP_VolcanoDragon_C'Default__BP_VolcanoDragon_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.4"
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
+      "bIsEnableGroundTilt": true,
+      "PitchAngle": 10.0,
+      "RollAngle": 10.0,
+      "TiltingInterpTime": 1.0,
       "AnimClass": {
         "ObjectName": "AnimBlueprintGeneratedClass'ABP_VolcanoDragon_C'",
         "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/ABP_VolcanoDragon.1"
       },
+      "AnimationData": {
+        "AnimToPlay": {
+          "ObjectName": "AnimSequence'AS_VolcanoDragon_Run'",
+          "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/VolcanoDragon/AS_VolcanoDragon_Run.0"
+        }
+      },
       "SkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_VolcanoDragon'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/VolcanoDragon/SK_VolcanoDragon"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/VolcanoDragon/SK_VolcanoDragon.0"
       },
       "SkinnedAsset": {
         "ObjectName": "SkeletalMesh'SK_VolcanoDragon'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/VolcanoDragon/SK_VolcanoDragon"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/VolcanoDragon/SK_VolcanoDragon.0"
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_VolcanoDragon_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.3"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.5"
       },
       "RelativeLocation": {
         "X": 0.0,
         "Y": 0.0,
         "Z": -30.0
+      }
+    }
+  },
+  {
+    "Type": "PalSpeedCollisionComponent",
+    "Name": "PalSpeedCollision_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalSpeedCollisionComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_VolcanoDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.0"
+    },
+    "Properties": {
+      "SphereRadius": 120.0,
+      "RelativeLocation": {
+        "X": 175.40141,
+        "Y": -2.8805964E-06,
+        "Z": 60.262707
       }
     }
   },
@@ -938,11 +1005,11 @@
     "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
     "Outer": {
       "ObjectName": "BP_VolcanoDragon_C'Default__BP_VolcanoDragon_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.4"
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 180.0,
@@ -952,6 +1019,7 @@
         "Y": 0.0,
         "Z": -180.0
       },
+      "ApproachArrivalRadius": 250.0,
       "AIActionMap": [
         {
           "Key": "EPalAIActionType::Cooperation",
@@ -959,6 +1027,45 @@
             "ObjectName": "BlueprintGeneratedClass'BP_AIActionRideCall_C'",
             "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Coop/BP_AIActionRideCall.0"
           }
+        },
+        {
+          "Key": "EPalAIActionType::Leave",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AIAction_Leave_TurnRun_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Combat/BP_AIAction_Leave_TurnRun.0"
+          }
+        }
+      ],
+      "RandomRestMontageInfos": [
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_VolcanoDragon_Rest01'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_Rest01.0"
+          },
+          "Weight": 0.6,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 4.0
+        },
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_VolcanoDragon_Rest02'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_Rest02.0"
+          },
+          "Weight": 0.3,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 4.0
+        },
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_VolcanoDragon_Rest03'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_Rest03.0"
+          },
+          "Weight": 0.5,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 3.0
         }
       ],
       "GeneralAnimSequenceMap": [
@@ -966,14 +1073,14 @@
           "Key": "EPalGeneralAnimSequenceType::JumpLoop",
           "Value": {
             "ObjectName": "AnimSequence'AS_VolcanoDragon_JumpLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/VolcanoDragon/AS_VolcanoDragon_JumpLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/VolcanoDragon/AS_VolcanoDragon_JumpLoop.0"
           }
         },
         {
           "Key": "EPalGeneralAnimSequenceType::JumpEnd",
           "Value": {
             "ObjectName": "AnimSequence'AS_VolcanoDragon_JumpEnd'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/VolcanoDragon/AS_VolcanoDragon_JumpEnd"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/VolcanoDragon/AS_VolcanoDragon_JumpEnd.0"
           }
         }
       ],
@@ -982,77 +1089,77 @@
           "Key": "EPalGeneralMontageType::GeneralAttackReady_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_VolcanoDragon_FarSkill_Start'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_FarSkill_Start"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_FarSkill_Start.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackReadyLoop_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_VolcanoDragon_FarSkill_StartLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_FarSkill_StartLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_FarSkill_StartLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackProcess_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_VolcanoDragon_FarSkill_Action'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_FarSkill_Action"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_FarSkill_Action.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackProcessLoop_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_VolcanoDragon_FarSkill_ActionLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_FarSkill_ActionLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_FarSkill_ActionLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackAfter_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_VolcanoDragon_FarSkill_End'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_FarSkill_End"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_FarSkill_End.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepStart",
           "Value": {
             "ObjectName": "AnimMontage'AM_VolcanoDragon_SleepStart'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_SleepStart"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_SleepStart.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepLoop",
           "Value": {
             "ObjectName": "AnimMontage'AM_VolcanoDragon_SleepLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_SleepLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_SleepLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepEnd",
           "Value": {
             "ObjectName": "AnimMontage'AM_VolcanoDragon_SleepEnd'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_SleepEnd"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_SleepEnd.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::DamageAdditive",
           "Value": {
             "ObjectName": "AnimMontage'AM_VolcanoDragon_Hit'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_Hit"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_Hit.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::BeLiftupStart",
           "Value": {
             "ObjectName": "AnimMontage'AM_VolcanoDragon_Carrying_Start'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_Carrying_Start"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_Carrying_Start.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::BeLiftupLoop",
           "Value": {
             "ObjectName": "AnimMontage'AM_VolcanoDragon_Carrying'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_Carrying"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_Carrying.0"
           }
         }
       ],
@@ -1063,6 +1170,13 @@
             "ObjectName": "BlendSpace1D'BS_Move_VolcanoDragon'",
             "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BS_Move_VolcanoDragon.0"
           }
+        },
+        {
+          "Key": "EPalGeneralBlendSpaceType::Swim",
+          "Value": {
+            "ObjectName": "BlendSpace1D'BS_Swim_VolcanoDragon'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BS_Swim_VolcanoDragon.0"
+          }
         }
       ],
       "ActionMontageMap": [
@@ -1070,67 +1184,144 @@
           "Key": "EPalActionType::Menace",
           "Value": {
             "ObjectName": "AnimMontage'AM_VolcanoDragon_Encount'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_Encount"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_Encount.0"
           }
         },
         {
           "Key": "EPalActionType::Eat",
           "Value": {
             "ObjectName": "AnimMontage'AM_VolcanoDragon_Eat'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_Eat"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_Eat.0"
           }
         },
         {
           "Key": "EPalActionType::KnockBack",
           "Value": {
             "ObjectName": "AnimMontage'AM_VolcanoDragon_Damage'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_Damage"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_Damage.0"
           }
         },
         {
           "Key": "EPalActionType::ForwardWalk",
           "Value": {
             "ObjectName": "AnimMontage'AM_VolcanoDragon_Walk'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_Walk"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_Walk.0"
           }
         },
         {
           "Key": "EPalActionType::Mining",
           "Value": {
             "ObjectName": "AnimMontage'AM_VolcanoDragon_Mining'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_Mining"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_Mining.0"
           }
         },
         {
           "Key": "EPalActionType::GetupUtubuse_orRight",
           "Value": {
             "ObjectName": "AnimMontage'AM_VolcanoDragon_GetUp_FrontDown'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_GetUp_FrontDown"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_GetUp_FrontDown.0"
           }
         },
         {
           "Key": "EPalActionType::Cooking",
           "Value": {
             "ObjectName": "AnimMontage'AM_VolcanoDragon_Cooking'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_Cooking"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_Cooking.0"
           }
         },
         {
           "Key": "EPalActionType::PalPetting",
           "Value": {
             "ObjectName": "AnimMontage'AM_VolcanoDragon_Petting'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_Petting"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_Petting.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::Cool",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_VolcanoDragon_Cooling'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_Cooling.0"
           }
         },
         {
           "Key": "EPalActionType::IdleInSpa",
           "Value": {
             "ObjectName": "AnimMontage'AM_VolcanoDragon_Spa'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_Spa"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/VolcanoDragon/AM_VolcanoDragon_Spa.0"
+          }
+        }
+      ],
+      "SleepOnSideInfoMapForMapObject": [
+        {
+          "Key": {
+            "Key": "MedicalPalBed_02"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": 50.0,
+              "Y": -100.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 170.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_03"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": 50.0,
+              "Y": -100.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 170.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_04"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 170.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
           }
         }
       ],
       "WazaActionDeclarationMap": [
+        {
+          "Key": "EPalWazaID::Unique_VolcanoDragon_Ice_IcicleSpit",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/VolcanoDragon/BP_UniqueAction_VolcanoDragon_IcicleSpit.BP_UniqueAction_VolcanoDragon_IcicleSpit_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EPalWazaID::Unique_VolcanoDragon_Ice_IceLaser",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/VolcanoDragon/BP_UniqueAction_VolcanoDragon_IceLaser.BP_UniqueAction_VolcanoDragon_IceLaser_C",
+            "SubPathString": ""
+          }
+        },
         {
           "Key": "EPalWazaID::Unique_VolcanoDragon_VolcanicLaser",
           "Value": {
@@ -1146,9 +1337,15 @@
           }
         }
       ],
+      "ToolAttachBoneName": "None",
       "HPGaugeUIOffset": {
         "X": 0.0,
-        "Y": 150.0
+        "Y": -150.0
+      },
+      "GetupMotion_UtubuseOrRight_0FramePelvisLocation": {
+        "X": 0.0,
+        "Y": -29.974249,
+        "Z": 61.932278
       },
       "PettingSize": "EPalPettingSizeType::Large",
       "PettingDistance": 350.0,
@@ -1165,11 +1362,11 @@
     "Class": "UScriptClass'PalStatusComponent'",
     "Outer": {
       "ObjectName": "BP_VolcanoDragon_C'Default__BP_VolcanoDragon_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.4"
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     }
   },
   {
@@ -1179,11 +1376,11 @@
     "Class": "UScriptClass'PalVisualEffectComponent'",
     "Outer": {
       "ObjectName": "BP_VolcanoDragon_C'Default__BP_VolcanoDragon_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.4"
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -1203,7 +1400,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_VolcanoDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.48"
     },
     "Properties": {
       "ComponentClass": {
@@ -1212,7 +1409,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_VolcanoDragon_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.31"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.34"
       },
       "VariableGuid": "260A34EF-4BACB879-A4C54582-134C5A75",
       "InternalVariableName": "DefaultSceneRoot"
@@ -1225,7 +1422,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_VolcanoDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.48"
     },
     "Properties": {
       "ComponentClass": {
@@ -1234,7 +1431,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_VolcanoDragon_C:PalBodyPartsCapsule_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.15"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.18"
       },
       "AttachToName": "spine_02",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1250,7 +1447,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_VolcanoDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.48"
     },
     "Properties": {
       "ComponentClass": {
@@ -1259,7 +1456,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "BP_PalRideMarkerBiggerHorse_C'BP_VolcanoDragon_C:BP_PalRideMarkerBiggerHorse_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.1"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.2"
       },
       "AttachToName": "head",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1270,12 +1467,60 @@
   },
   {
     "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_VolcanoDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.48"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalSpeedCollisionComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalSpeedCollisionComponent'BP_VolcanoDragon_C:PalSpeedCollision_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.30"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8177E623-4D781AE7-579F43AD-E2E4205A",
+      "InternalVariableName": "PalSpeedCollision"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_VolcanoDragon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.48"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PalTimerPointLightComponent_C'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_PalTimerPointLightComponent_C'BP_VolcanoDragon_C:BP_PalTimerPointLightComponent_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.3"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "75B2D795-479311B3-496275B4-C29119E2",
+      "InternalVariableName": "BP_PalTimerPointLightComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
     "Name": "SCS_Node_2",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_VolcanoDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.48"
     },
     "Properties": {
       "ComponentClass": {
@@ -1284,7 +1529,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_VolcanoDragon_C:PalBodyPartsCapsule1_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.7"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.10"
       },
       "AttachToName": "head",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1300,7 +1545,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_VolcanoDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.48"
     },
     "Properties": {
       "ComponentClass": {
@@ -1309,7 +1554,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_VolcanoDragon_C:PalBodyPartsCapsule2_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.8"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.11"
       },
       "AttachToName": "neck_03",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1325,7 +1570,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_VolcanoDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.48"
     },
     "Properties": {
       "ComponentClass": {
@@ -1334,7 +1579,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_VolcanoDragon_C:PalBodyPartsCapsule3_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.9"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.12"
       },
       "AttachToName": "tail_03",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1350,7 +1595,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_VolcanoDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.48"
     },
     "Properties": {
       "ComponentClass": {
@@ -1359,7 +1604,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_VolcanoDragon_C:PalBodyPartsCapsule4_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.10"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.13"
       },
       "AttachToName": "tail_06",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1375,7 +1620,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_VolcanoDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.48"
     },
     "Properties": {
       "ComponentClass": {
@@ -1384,7 +1629,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_VolcanoDragon_C:PalBodyPartsCapsule5_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.11"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.14"
       },
       "AttachToName": "leg_back_02_l",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1400,7 +1645,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_VolcanoDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.48"
     },
     "Properties": {
       "ComponentClass": {
@@ -1409,7 +1654,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_VolcanoDragon_C:PalBodyPartsCapsule6_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.12"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.15"
       },
       "AttachToName": "leg_back_02_r",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1425,7 +1670,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_VolcanoDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.48"
     },
     "Properties": {
       "ComponentClass": {
@@ -1434,7 +1679,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_VolcanoDragon_C:PalBodyPartsCapsule7_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.13"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.16"
       },
       "AttachToName": "leg_front_02_r",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1450,7 +1695,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_VolcanoDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.48"
     },
     "Properties": {
       "ComponentClass": {
@@ -1459,7 +1704,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_VolcanoDragon_C:PalBodyPartsCapsule8_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.14"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.17"
       },
       "AttachToName": "leg_front_02_l",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1481,90 +1726,106 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.33"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.35"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_3'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.36"
         },
         {
-          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.37"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_5'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.38"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_6'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.39"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_2'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.40"
         },
         {
-          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_3'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.41"
         },
         {
-          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_4'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.42"
         },
         {
+          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.45"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.47"
+        },
+        {
           "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_10'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.34"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.38"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.33"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.35"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_3'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.36"
         },
         {
-          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.37"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_5'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.38"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_6'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.39"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_2'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.40"
         },
         {
-          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_3'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.41"
         },
         {
-          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_4'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.42"
         },
         {
+          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.43"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.44"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.45"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.46"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.47"
+        },
+        {
           "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_10'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.34"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.38"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_VolcanoDragon_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.32"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.35"
       }
     }
   },
@@ -1575,16 +1836,16 @@
     "Class": "UScriptClass'SphereComponent'",
     "Outer": {
       "ObjectName": "BP_VolcanoDragon_C'Default__BP_VolcanoDragon_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.4"
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_VolcanoDragon_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.3"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanoDragon/BP_VolcanoDragon.5"
       }
     }
   }

@@ -41,7 +41,7 @@
   {
     "Type": "BP_IceDeer_BOSS_C",
     "Name": "Default__BP_IceDeer_BOSS_C",
-    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceDeer/BP_IceDeer_BOSS.BP_IceDeer_BOSS_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceDeer/BP_IceDeer_BOSS",
     "Template": {
@@ -361,7 +361,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_IceDeer_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceDeer/BP_IceDeer.22"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceDeer/BP_IceDeer.21"
     }
   },
   {
@@ -375,32 +375,42 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_IceDeer_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceDeer/BP_IceDeer.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceDeer/BP_IceDeer.22"
     },
     "Properties": {
-      "WalkCameraArmLength": 700.0,
+      "WalkCameraArmLength": 450.0,
       "WalkCameraOffset": {
         "X": 0.0,
-        "Y": 125.0,
-        "Z": 110.0
+        "Y": 150.0,
+        "Z": 125.0
       },
-      "AimCameraArmLength": 450.0,
+      "HipShootCameraArmLength": 450.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 150.0,
+        "Z": 125.0
+      },
       "AimCameraOffset": {
         "X": 0.0,
-        "Y": 100.0,
-        "Z": 130.0
+        "Y": 120.0,
+        "Z": 150.0
       },
-      "AirCameraArmLength": 700.0,
+      "AirCameraArmLength": 450.0,
       "AirCameraOffset": {
         "X": 0.0,
-        "Y": 125.0,
-        "Z": 110.0
+        "Y": 150.0,
+        "Z": 125.0
       },
-      "AirAimCameraArmLength": 450.0,
+      "AirHipShootCameraArmLength": 450.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 150.0,
+        "Z": 125.0
+      },
       "AirAimCameraOffset": {
         "X": 0.0,
-        "Y": 100.0,
-        "Z": 130.0
+        "Y": 120.0,
+        "Z": 150.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_IceDeer_BOSS_C:CollisionCylinder'",
@@ -419,7 +429,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_IceDeer_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceDeer/BP_IceDeer.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceDeer/BP_IceDeer.23"
     },
     "Properties": {
       "AttachParent": {
@@ -444,7 +454,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_IceDeer_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceDeer/BP_IceDeer.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceDeer/BP_IceDeer.25"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 190.4,
@@ -523,7 +533,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_IceDeer_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceDeer/BP_IceDeer.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceDeer/BP_IceDeer.26"
     }
   },
   {
@@ -537,7 +547,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_IceDeer_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceDeer/BP_IceDeer.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceDeer/BP_IceDeer.27"
     }
   },
   {
@@ -599,7 +609,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_IceDeer_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceDeer/BP_IceDeer.38"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/IceDeer/BP_IceDeer.37"
     },
     "Properties": {
       "AttachParent": {

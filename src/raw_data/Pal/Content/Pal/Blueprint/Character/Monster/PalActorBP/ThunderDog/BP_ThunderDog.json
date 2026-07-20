@@ -12,7 +12,7 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_ThunderDog_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.30"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.29"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_ThunderDog_C:InheritableComponentHandler'",
@@ -120,7 +120,7 @@
   {
     "Type": "BP_ThunderDog_C",
     "Name": "Default__BP_ThunderDog_C",
-    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.BP_ThunderDog_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog",
     "Template": {
@@ -142,7 +142,7 @@
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_ThunderDog_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.21"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_ThunderDog_C:DamageReactionComponent'",
@@ -150,11 +150,11 @@
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_ThunderDog_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.22"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_ThunderDog_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.20"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.19"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_ThunderDog_C:FollowCamera'",
@@ -170,11 +170,11 @@
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_ThunderDog_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.23"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_ThunderDog_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.19"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.18"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_ThunderDog_C:AnimNotifyComponent'",
@@ -186,11 +186,11 @@
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_ThunderDog_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.31"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.30"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_ThunderDog_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.21"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.20"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_ThunderDog_C:CharMoveComp'",
@@ -238,28 +238,6 @@
       "Records": [
         {
           "ComponentClass": {
-            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-            "ObjectPath": "/Script/Pal"
-          },
-          "ComponentTemplate": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_ThunderDog_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.18"
-          },
-          "ComponentKey": {
-            "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-            },
-            "SCSVariableName": "PalPartnerSkillParameter",
-            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
-          },
-          "CookedComponentInstancingData": {
-            "ChangedPropertyList": [],
-            "bHasValidCookedData": false
-          }
-        },
-        {
-          "ComponentClass": {
             "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
             "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
           },
@@ -294,7 +272,7 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
     }
   },
   {
@@ -308,7 +286,7 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
     }
   },
   {
@@ -382,7 +360,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
@@ -402,12 +380,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_ThunderDog_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.20"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.19"
       }
     }
   },
@@ -422,7 +400,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -436,7 +414,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
     },
     "Properties": {
       "OverrideJumpZVelocityMap": [
@@ -463,7 +441,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -477,7 +455,7 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
     }
   },
   {
@@ -491,7 +469,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     },
     "Properties": {
       "FootIKSettings": [
@@ -545,153 +523,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
-    }
-  },
-  {
-    "Type": "PalPartnerSkillParameterComponent",
-    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_ThunderDog_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.0"
-    },
-    "Template": {
-      "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
-    },
-    "Properties": {
-      "RestrictionItems": [
-        {
-          "Key": "SkillUnlock_ThunderDog"
-        }
-      ],
-      "PassiveSkills": [
-        {
-          "SkillAndParameters": []
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "MoveSpeed_up_PartnerSkill_Ride_1"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "MoveSpeed_up_PartnerSkill_Ride_2"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "MoveSpeed_up_PartnerSkill_Ride_3"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "MoveSpeed_up_PartnerSkill_Ride_4"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        }
-      ]
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
     }
   },
   {
@@ -705,7 +537,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -719,32 +551,44 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
-      "WalkCameraArmLength": 450.0,
+      "WalkCameraArmLength": 350.0,
       "WalkCameraOffset": {
         "X": 0.0,
-        "Y": 87.0,
-        "Z": 115.0
+        "Y": 120.0,
+        "Z": 120.0
       },
-      "AimCameraArmLength": 140.0,
+      "HipShootCameraArmLength": 350.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 120.0,
+        "Z": 120.0
+      },
+      "AimCameraArmLength": 200.0,
       "AimCameraOffset": {
         "X": 0.0,
-        "Y": 50.0,
-        "Z": 120.0
+        "Y": 100.0,
+        "Z": 130.0
       },
-      "AirCameraArmLength": 450.0,
+      "AirCameraArmLength": 350.0,
       "AirCameraOffset": {
         "X": 0.0,
-        "Y": 87.0,
-        "Z": 115.0
+        "Y": 120.0,
+        "Z": 120.0
       },
-      "AirAimCameraArmLength": 140.0,
+      "AirHipShootCameraArmLength": 350.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 120.0,
+        "Z": 120.0
+      },
+      "AirAimCameraArmLength": 200.0,
       "AirAimCameraOffset": {
         "X": 0.0,
-        "Y": 50.0,
-        "Z": 120.0
+        "Y": 100.0,
+        "Z": 130.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_ThunderDog_C:CollisionCylinder'",
@@ -768,7 +612,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
       "bIsEnableGroundTilt": true,
@@ -808,7 +652,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 100.0,
@@ -825,6 +669,52 @@
             "ObjectName": "BlueprintGeneratedClass'BP_AIActionRideCall_C'",
             "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Coop/BP_AIActionRideCall.0"
           }
+        },
+        {
+          "Key": "EPalAIActionType::Leave",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AIAction_Leave_AnimationBackStep_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Combat/BP_AIAction_Leave_AnimationBackStep.0"
+          }
+        },
+        {
+          "Key": "EPalAIActionType::SideMove",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AIAction_DashTurn_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Combat/BP_AIAction_DashTurn.0"
+          }
+        }
+      ],
+      "RandomRestMontageInfos": [
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_ThunderDog_Rest01'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderDog/AM_ThunderDog_Rest01.0"
+          },
+          "Weight": 0.4,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 3,
+          "AfterIdleTime": 4.0
+        },
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_ThunderDog_Rest02'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderDog/AM_ThunderDog_Rest02.0"
+          },
+          "Weight": 0.6,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 2,
+          "AfterIdleTime": 3.0
+        },
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_ThunderDog_Eat'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderDog/AM_ThunderDog_Eat.0"
+          },
+          "Weight": 0.3,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 2,
+          "AfterIdleTime": 4.0
         }
       ],
       "GeneralAnimSequenceMap": [
@@ -927,6 +817,13 @@
             "ObjectName": "AnimMontage'AM_ThunderDog_JumpStart'",
             "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderDog/AM_ThunderDog_JumpStart.0"
           }
+        },
+        {
+          "Key": "EPalGeneralMontageType::Ragdoll",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_ThunderDog_Ragdoll'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderDog/AM_ThunderDog_Ragdoll.0"
+          }
         }
       ],
       "GeneralBlendSpaceMap": [
@@ -1003,10 +900,10 @@
           }
         },
         {
-          "Key": "EPalActionType::IdleInSpa",
+          "Key": "EPalActionType::ElectricShock",
           "Value": {
-            "ObjectName": "AnimMontage'AM_ThunderDog_Spa'",
-            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderDog/AM_ThunderDog_Spa.0"
+            "ObjectName": "AnimMontage'AM_ThunderDog_ElectricShock'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderDog/AM_ThunderDog_ElectricShock.0"
           }
         },
         {
@@ -1014,6 +911,13 @@
           "Value": {
             "ObjectName": "AnimMontage'AM_ThunderDog_Cooling'",
             "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderDog/AM_ThunderDog_Cooling.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::IdleInSpa",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_ThunderDog_Spa'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ThunderDog/AM_ThunderDog_Spa.0"
           }
         },
         {
@@ -1093,6 +997,47 @@
             "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/ThunderDog/BP_Action_Unique_ThunderDog_InazumaShorai.BP_Action_Unique_ThunderDog_InazumaShorai_C",
             "SubPathString": ""
           }
+        },
+        {
+          "Key": "EPalWazaID::Unique_ThunderDog_Ice_KoriShorai",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/ThunderDog/BP_Action_Unique_ThunderDog_Ice_KoriShorai.BP_Action_Unique_ThunderDog_Ice_KoriShorai_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EPalWazaID::Unique_ThunderDog_Ice_Bite",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/ThunderDog/BP_UniqueAction_ThunderDog_Ice_Bite.BP_UniqueAction_ThunderDog_Ice_Bite_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EPalWazaID::Unique_ThunderDog_Ice_BiteV2",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/ThunderDog/BP_UniqueAction_ThunderDog_Ice_BiteV2.BP_UniqueAction_ThunderDog_Ice_BiteV2_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EPalWazaID::Unique_ThunderDog_BiteV2",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/ThunderDog/BP_UniqueAction_ThunderDog_BiteV2.BP_UniqueAction_ThunderDog_BiteV2_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EPalWazaID::Unique_ThunderDog_Bite",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/ThunderDog/BP_UniqueAction_ThunderDog_Bite.BP_UniqueAction_ThunderDog_Bite_C",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "NameToWazaIDConvertMap": [
+        {
+          "Key": "BiteV2",
+          "Value": "EPalWazaID::Unique_ThunderDog_BiteV2"
         }
       ],
       "HPGaugeUIOffset": {
@@ -1123,7 +1068,7 @@
           "Value": {
             "Effect": {
               "ObjectName": "NiagaraSystem'NS_InWaterPal'",
-              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_InWaterPal.14"
+              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_InWaterPal.24"
             },
             "Offset": {
               "X": 100.0,
@@ -1149,7 +1094,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     }
   },
   {
@@ -1163,7 +1108,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -1183,7 +1128,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_ThunderDog_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.29"
     },
     "Properties": {
       "ComponentClass": {
@@ -1192,7 +1137,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_ThunderDog_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.25"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.24"
       },
       "VariableGuid": "31461330-47FDBA65-B46E468E-EEA95826",
       "InternalVariableName": "DefaultSceneRoot"
@@ -1205,7 +1150,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_ThunderDog_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.29"
     },
     "Properties": {
       "ComponentClass": {
@@ -1236,7 +1181,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_ThunderDog_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.29"
     },
     "Properties": {
       "ComponentClass": {
@@ -1261,7 +1206,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_ThunderDog_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.29"
     },
     "Properties": {
       "ComponentClass": {
@@ -1292,34 +1237,34 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'BP_ThunderDog_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.29"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.28"
         },
         {
           "ObjectName": "SCS_Node'BP_ThunderDog_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.27"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.26"
         },
         {
           "ObjectName": "SCS_Node'BP_ThunderDog_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.28"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.27"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'BP_ThunderDog_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.29"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.28"
         },
         {
           "ObjectName": "SCS_Node'BP_ThunderDog_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.27"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.26"
         },
         {
           "ObjectName": "SCS_Node'BP_ThunderDog_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.28"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.27"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_ThunderDog_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.25"
       }
     }
   },
@@ -1334,7 +1279,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {

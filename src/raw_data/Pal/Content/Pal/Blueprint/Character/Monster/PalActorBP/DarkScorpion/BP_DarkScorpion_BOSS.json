@@ -41,7 +41,7 @@
   {
     "Type": "BP_DarkScorpion_BOSS_C",
     "Name": "Default__BP_DarkScorpion_BOSS_C",
-    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkScorpion/BP_DarkScorpion_BOSS.BP_DarkScorpion_BOSS_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkScorpion/BP_DarkScorpion_BOSS",
     "Template": {
@@ -314,7 +314,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_DarkScorpion_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkScorpion/BP_DarkScorpion.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkScorpion/BP_DarkScorpion.23"
     }
   },
   {
@@ -328,7 +328,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_DarkScorpion_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkScorpion/BP_DarkScorpion.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkScorpion/BP_DarkScorpion.24"
     },
     "Properties": {
       "AttachParent": {
@@ -348,7 +348,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_DarkScorpion_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkScorpion/BP_DarkScorpion.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkScorpion/BP_DarkScorpion.25"
     },
     "Properties": {
       "AttachParent": {
@@ -373,11 +373,12 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_DarkScorpion_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkScorpion/BP_DarkScorpion.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkScorpion/BP_DarkScorpion.27"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 290.0,
       "MeshCapsuleRadius": 174.0,
+      "ApproachArrivalRadius": 400.0,
       "SleepOnSideInfoMapForMapObject": [
         {
           "Key": {
@@ -414,7 +415,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_DarkScorpion_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkScorpion/BP_DarkScorpion.29"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkScorpion/BP_DarkScorpion.28"
     }
   },
   {
@@ -428,7 +429,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_DarkScorpion_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkScorpion/BP_DarkScorpion.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkScorpion/BP_DarkScorpion.29"
     }
   },
   {
@@ -490,7 +491,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_DarkScorpion_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkScorpion/BP_DarkScorpion.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/DarkScorpion/BP_DarkScorpion.40"
     },
     "Properties": {
       "AttachParent": {

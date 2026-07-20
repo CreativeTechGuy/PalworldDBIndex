@@ -319,7 +319,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_Yeti_Grass_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Yeti/BP_Yeti_Grass.15"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Yeti/BP_Yeti_Grass.14"
     }
   },
   {
@@ -333,7 +333,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_Yeti_Grass_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Yeti/BP_Yeti_Grass.16"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Yeti/BP_Yeti_Grass.15"
     },
     "Properties": {
       "WalkCameraArmLength": 1700.0,
@@ -382,7 +382,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_Yeti_Grass_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Yeti/BP_Yeti_Grass.17"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Yeti/BP_Yeti_Grass.16"
     },
     "Properties": {
       "AttachParent": {
@@ -407,7 +407,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_Yeti_Grass_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Yeti/BP_Yeti_Grass.18"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Yeti/BP_Yeti_Grass.17"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 280.0,
@@ -417,6 +417,7 @@
         "Y": 0.0,
         "Z": -320.0
       },
+      "ApproachArrivalRadius": 250.0,
       "SleepOnSideInfoMapForMapObject": [
         {
           "Key": {
@@ -487,7 +488,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_Yeti_Grass_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Yeti/BP_Yeti_Grass.19"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Yeti/BP_Yeti_Grass.18"
     }
   },
   {
@@ -501,7 +502,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_Yeti_Grass_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Yeti/BP_Yeti_Grass.20"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Yeti/BP_Yeti_Grass.19"
     }
   },
   {
@@ -563,7 +564,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_Yeti_Grass_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Yeti/BP_Yeti_Grass.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Yeti/BP_Yeti_Grass.23"
     },
     "Properties": {
       "AttachParent": {

@@ -12,7 +12,7 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_Werewolf_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.43"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.42"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_Werewolf_C:InheritableComponentHandler'",
@@ -181,7 +181,7 @@
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_Werewolf_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.29"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.28"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_Werewolf_C:DamageReactionComponent'",
@@ -189,11 +189,11 @@
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_Werewolf_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.30"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.29"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_Werewolf_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.25"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_Werewolf_C:FollowCamera'",
@@ -209,11 +209,11 @@
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_Werewolf_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.31"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.30"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_Werewolf_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.25"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.24"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_Werewolf_C:AnimNotifyComponent'",
@@ -225,11 +225,11 @@
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_Werewolf_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.44"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.43"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_Werewolf_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.27"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.26"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_Werewolf_C:CharMoveComp'",
@@ -298,28 +298,6 @@
         },
         {
           "ComponentClass": {
-            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-            "ObjectPath": "/Script/Pal"
-          },
-          "ComponentTemplate": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_Werewolf_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.24"
-          },
-          "ComponentKey": {
-            "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-            },
-            "SCSVariableName": "PalPartnerSkillParameter",
-            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
-          },
-          "CookedComponentInstancingData": {
-            "ChangedPropertyList": [],
-            "bHasValidCookedData": false
-          }
-        },
-        {
-          "ComponentClass": {
             "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
             "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
           },
@@ -354,7 +332,7 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
     }
   },
   {
@@ -368,7 +346,7 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
     }
   },
   {
@@ -626,7 +604,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
@@ -646,12 +624,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_Werewolf_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.25"
       }
     }
   },
@@ -666,7 +644,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -680,7 +658,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
     },
     "Properties": {
       "InWaterRate": 0.71,
@@ -698,7 +676,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -712,7 +690,7 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
     }
   },
   {
@@ -726,7 +704,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     }
   },
   {
@@ -740,7 +718,7 @@
     },
     "Template": {
       "ObjectName": "PalInteractableSphereComponentNative'BP_MonsterBase_C:BP_InteractableSphere_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
     },
     "Properties": {
       "RelativeLocation": {
@@ -761,34 +739,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
-    }
-  },
-  {
-    "Type": "PalPartnerSkillParameterComponent",
-    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_Werewolf_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.0"
-    },
-    "Template": {
-      "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
-    },
-    "Properties": {
-      "SkillName": "Waza",
-      "WazaID": "EPalWazaID::Unique_Werewolf_Scratch",
-      "bIdlelCostDecreaseEveryFrame": true,
-      "ActiveSkill_MainValue_Overview_EditorOnly": "威力の倍率",
-      "ActiveSkill_MainValueByRank": [
-        1.1,
-        1.3,
-        1.6,
-        2.0,
-        2.5
-      ]
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
     }
   },
   {
@@ -802,7 +753,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -816,7 +767,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
       "AttachParent": {
@@ -841,7 +792,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
       "bIsEnableGroundTilt": true,
@@ -908,7 +859,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 120.0,
@@ -924,6 +875,13 @@
           "Value": {
             "ObjectName": "BlueprintGeneratedClass'BP_AIAction_UseWaza_C'",
             "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Coop/BP_AIAction_UseWaza.0"
+          }
+        },
+        {
+          "Key": "EPalAIActionType::SideMove",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AIAction_AnimationSideStep_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Combat/BP_AIAction_AnimationSideStep.0"
           }
         }
       ],
@@ -1114,6 +1072,20 @@
           }
         },
         {
+          "Key": "EPalActionType::FishPond",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_Werewolf_Rest02'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Werewolf/AM_Werewolf_Rest02.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::IdleInSpa",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_Werewolf_Spa'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Werewolf/AM_Werewolf_Spa.0"
+          }
+        },
+        {
           "Key": "EPalActionType::PalPetting",
           "Value": {
             "ObjectName": "AnimMontage'AM_Werewolf_Petting'",
@@ -1128,10 +1100,10 @@
           }
         },
         {
-          "Key": "EPalActionType::FishPond",
+          "Key": "EPalActionType::SideStep_Left",
           "Value": {
-            "ObjectName": "AnimMontage'AM_Werewolf_Rest02'",
-            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Werewolf/AM_Werewolf_Rest02.0"
+            "ObjectName": "AnimMontage'AM_Werewolf_SideStep_Left'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Werewolf/AM_Werewolf_SideStep_Left.0"
           }
         },
         {
@@ -1156,10 +1128,10 @@
           }
         },
         {
-          "Key": "EPalActionType::IdleInSpa",
+          "Key": "EPalActionType::SideStep_Right",
           "Value": {
-            "ObjectName": "AnimMontage'AM_Werewolf_Spa'",
-            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Werewolf/AM_Werewolf_Spa.0"
+            "ObjectName": "AnimMontage'AM_Werewolf_SideStep_Right'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Werewolf/AM_Werewolf_SideStep_Right.0"
           }
         }
       ],
@@ -1252,14 +1224,14 @@
           "Value": {
             "Effect": {
               "ObjectName": "NiagaraSystem'NS_DrownPal'",
-              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_DrownPal.107"
+              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_DrownPal.41"
             },
             "Offset": {
               "X": 0.0,
               "Y": 0.0,
               "Z": 0.0
             },
-            "Scale": 1.0
+            "Scale": 0.8
           }
         },
         {
@@ -1267,7 +1239,7 @@
           "Value": {
             "Effect": {
               "ObjectName": "NiagaraSystem'NS_DrownPal'",
-              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_DrownPal.107"
+              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_DrownPal.41"
             },
             "Offset": {
               "X": 0.0,
@@ -1292,7 +1264,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     }
   },
   {
@@ -1306,7 +1278,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -1326,7 +1298,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_Werewolf_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.42"
     },
     "Properties": {
       "ComponentClass": {
@@ -1335,7 +1307,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_Werewolf_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.32"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.31"
       },
       "VariableGuid": "449990B3-4BF60EF8-5CB113A5-DEF05890",
       "InternalVariableName": "DefaultSceneRoot"
@@ -1348,7 +1320,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_Werewolf_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.42"
     },
     "Properties": {
       "ComponentClass": {
@@ -1373,7 +1345,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_Werewolf_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.42"
     },
     "Properties": {
       "ComponentClass": {
@@ -1398,7 +1370,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_Werewolf_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.42"
     },
     "Properties": {
       "ComponentClass": {
@@ -1407,7 +1379,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalSpeedCollisionComponent'BP_Werewolf_C:PalSpeedCollision_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.28"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.27"
       },
       "AttachToName": "root",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1423,7 +1395,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_Werewolf_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.42"
     },
     "Properties": {
       "ComponentClass": {
@@ -1448,7 +1420,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_Werewolf_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.42"
     },
     "Properties": {
       "ComponentClass": {
@@ -1473,7 +1445,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_Werewolf_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.42"
     },
     "Properties": {
       "ComponentClass": {
@@ -1498,7 +1470,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_Werewolf_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.42"
     },
     "Properties": {
       "ComponentClass": {
@@ -1523,7 +1495,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_Werewolf_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.42"
     },
     "Properties": {
       "ComponentClass": {
@@ -1548,7 +1520,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_Werewolf_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.42"
     },
     "Properties": {
       "ComponentClass": {
@@ -1579,82 +1551,82 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'BP_Werewolf_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.34"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.33"
         },
         {
           "ObjectName": "SCS_Node'BP_Werewolf_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.37"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.36"
         },
         {
           "ObjectName": "SCS_Node'BP_Werewolf_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.38"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.37"
         },
         {
           "ObjectName": "SCS_Node'BP_Werewolf_C:SimpleConstructionScript_0.SCS_Node_6'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.39"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.38"
         },
         {
           "ObjectName": "SCS_Node'BP_Werewolf_C:SimpleConstructionScript_0.SCS_Node_7'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.40"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.39"
         },
         {
           "ObjectName": "SCS_Node'BP_Werewolf_C:SimpleConstructionScript_0.SCS_Node_8'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.41"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.40"
         },
         {
           "ObjectName": "SCS_Node'BP_Werewolf_C:SimpleConstructionScript_0.SCS_Node_9'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.42"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.41"
         },
         {
           "ObjectName": "SCS_Node'BP_Werewolf_C:SimpleConstructionScript_0.SCS_Node_10'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.35"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.34"
         },
         {
           "ObjectName": "SCS_Node'BP_Werewolf_C:SimpleConstructionScript_0.SCS_Node_11'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.36"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.35"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'BP_Werewolf_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.34"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.33"
         },
         {
           "ObjectName": "SCS_Node'BP_Werewolf_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.37"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.36"
         },
         {
           "ObjectName": "SCS_Node'BP_Werewolf_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.38"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.37"
         },
         {
           "ObjectName": "SCS_Node'BP_Werewolf_C:SimpleConstructionScript_0.SCS_Node_6'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.39"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.38"
         },
         {
           "ObjectName": "SCS_Node'BP_Werewolf_C:SimpleConstructionScript_0.SCS_Node_7'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.40"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.39"
         },
         {
           "ObjectName": "SCS_Node'BP_Werewolf_C:SimpleConstructionScript_0.SCS_Node_8'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.41"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.40"
         },
         {
           "ObjectName": "SCS_Node'BP_Werewolf_C:SimpleConstructionScript_0.SCS_Node_9'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.42"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.41"
         },
         {
           "ObjectName": "SCS_Node'BP_Werewolf_C:SimpleConstructionScript_0.SCS_Node_10'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.35"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.34"
         },
         {
           "ObjectName": "SCS_Node'BP_Werewolf_C:SimpleConstructionScript_0.SCS_Node_11'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.36"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.35"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_Werewolf_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.33"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Werewolf/BP_Werewolf.32"
       }
     }
   },
@@ -1669,7 +1641,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {

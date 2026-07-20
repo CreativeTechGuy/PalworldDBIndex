@@ -29,10 +29,7 @@ export function PassiveSkill(props: CustomFieldProps<string>): JSXElement {
                     title={skillNameMap[`PASSIVE_${props.value}`].TextData.LocalizedString}
                 >
                     {skillDescriptionKey() in skillDescriptionMap ? (
-                        <FormatTextTags
-                            interpolationData={skillData()}
-                            text={skillDescriptionMap[skillDescriptionKey()]!.TextData.LocalizedString}
-                        />
+                        <FormatTextTags text={skillDescriptionMap[skillDescriptionKey()]!.TextData.LocalizedString} />
                     ) : (
                         skillData() !== undefined && (
                             <table>

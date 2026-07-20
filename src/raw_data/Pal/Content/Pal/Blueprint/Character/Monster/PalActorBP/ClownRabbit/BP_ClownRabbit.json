@@ -16,7 +16,7 @@
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_ClownRabbit_C:InheritableComponentHandler'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.3"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.4"
       }
     },
     "SuperStruct": {
@@ -197,7 +197,7 @@
   {
     "Type": "BP_ClownRabbit_C",
     "Name": "Default__BP_ClownRabbit_C",
-    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.BP_ClownRabbit_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit",
     "Template": {
@@ -207,15 +207,15 @@
     "Properties": {
       "LiftupObjectComponent": {
         "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_ClownRabbit_C:Liftup'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.23"
       },
       "ActionComponent": {
         "ObjectName": "PalActionComponent'Default__BP_ClownRabbit_C:ActionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.4"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.5"
       },
       "CharacterParameterComponent": {
         "ObjectName": "PalCharacterParameterComponent'Default__BP_ClownRabbit_C:CharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.25"
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_ClownRabbit_C:StaticCharacterParameterComponent'",
@@ -223,7 +223,7 @@
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_ClownRabbit_C:DamageReactionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.25"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.26"
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_ClownRabbit_C:StatusComponent'",
@@ -235,15 +235,15 @@
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_ClownRabbit_C:FollowCamera'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.21"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.22"
       },
       "LookAtComponent": {
         "ObjectName": "PalLookAtComponent'Default__BP_ClownRabbit_C:LookAtComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.27"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.28"
       },
       "FootIKComponent": {
         "ObjectName": "PalFootIKComponent'Default__BP_ClownRabbit_C:FootIKComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.27"
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_ClownRabbit_C:VisualEffectComponent'",
@@ -255,11 +255,11 @@
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_ClownRabbit_C:AnimNotifyComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.5"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.6"
       },
       "AroundInfoCollectorComponent": {
         "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_ClownRabbit_C:AroundInfoCollectorComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.20"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.21"
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_ClownRabbit_C:RagdollInteractiveSphere'",
@@ -271,16 +271,33 @@
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_ClownRabbit_C:CharMoveComp'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.24"
       },
       "CapsuleComponent": {
         "ObjectName": "CapsuleComponent'Default__BP_ClownRabbit_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.3"
       },
       "RootComponent": {
         "ObjectName": "CapsuleComponent'Default__BP_ClownRabbit_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.3"
       }
+    }
+  },
+  {
+    "Type": "BP_PalCryComponent_C",
+    "Name": "BP_PalCryComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.BP_PalCryComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ClownRabbit_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalCryComponent_C'BP_MonsterBase_C:BP_PalCryComponent_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.2"
+    },
+    "Properties": {
+      "CryPalID": "EPalTribeID::ClownRabbit"
     }
   },
   {
@@ -314,20 +331,20 @@
       "Records": [
         {
           "ComponentClass": {
-            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-            "ObjectPath": "/Script/Pal"
+            "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
+            "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
           },
           "ComponentTemplate": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_ClownRabbit_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.28"
+            "ObjectName": "BP_PalCryComponent_C'BP_ClownRabbit_C:BP_PalCryComponent_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.2"
           },
           "ComponentKey": {
             "OwnerClass": {
               "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
               "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
             },
-            "SCSVariableName": "PalPartnerSkillParameter",
-            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
+            "SCSVariableName": "BP_PalCryComponent",
+            "AssociatedGuid": "A971BE27-4B3C10FC-863FA284-ECDC3286"
           },
           "CookedComponentInstancingData": {
             "ChangedPropertyList": [],
@@ -348,25 +365,7 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
-    },
-    "Properties": {
-      "ActionMap": [
-        {
-          "Key": "EPalActionType::EPalActionType_MAX",
-          "Value": {
-            "ObjectName": "BlueprintGeneratedClass'BP_ActionEatOneshot_C'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Action/Common/BP_ActionEatOneshot.0"
-          }
-        },
-        {
-          "Key": "EPalActionType::PartnerSkill",
-          "Value": {
-            "ObjectName": "BlueprintGeneratedClass'BP_Action_Coop_GiveFireAndBurn_C'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Action/MonsterCoop/BP_Action_Coop_GiveFireAndBurn.0"
-          }
-        }
-      ]
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
     }
   },
   {
@@ -380,7 +379,7 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
     }
   },
   {
@@ -681,6 +680,7 @@
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.0"
     },
     "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Weak",
       "CapsuleHalfHeight": 22.895964,
       "CapsuleRadius": 22.573372,
       "RelativeLocation": {
@@ -725,12 +725,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_ClownRabbit_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.3"
       }
     }
   },
@@ -745,7 +745,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
       "AttachParent": {
@@ -765,7 +765,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -779,7 +779,15 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+    },
+    "Properties": {
+      "InWaterRate": 0.07,
+      "HoveringWaterEffectParameter": {
+        "EnableIdleHoveringWaterEffect": false
+      },
+      "bIsHoverWaterPal": true,
+      "Buoyancy": 10.0
     }
   },
   {
@@ -793,7 +801,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -807,7 +815,7 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
     }
   },
   {
@@ -821,7 +829,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     }
   },
   {
@@ -835,25 +843,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
-    }
-  },
-  {
-    "Type": "PalPartnerSkillParameterComponent",
-    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_ClownRabbit_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.0"
-    },
-    "Template": {
-      "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
-    },
-    "Properties": {
-      "SkillName": "GiveFireAndBurn",
-      "bIdlelCostDecreaseEveryFrame": true
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
     }
   },
   {
@@ -867,7 +857,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -881,12 +871,12 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_ClownRabbit_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.3"
       }
     }
   },
@@ -901,7 +891,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
       "AnimClass": {
@@ -910,15 +900,15 @@
       },
       "SkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_ClownRabbit'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/ClownRabbit/SK_ClownRabbit"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/ClownRabbit/SK_ClownRabbit.0"
       },
       "SkinnedAsset": {
         "ObjectName": "SkeletalMesh'SK_ClownRabbit'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/ClownRabbit/SK_ClownRabbit"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/ClownRabbit/SK_ClownRabbit.0"
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_ClownRabbit_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.3"
       },
       "RelativeLocation": {
         "X": 0.0,
@@ -938,25 +928,21 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 88.0,
       "MeshCapsuleRadius": 34.0,
-      "AIActionMap": [
-        {
-          "Key": "EPalAIActionType::Cooperation",
-          "Value": {
-            "ObjectName": "BlueprintGeneratedClass'BP_AIActionCoop_GiveFireAndBurn_C'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Coop/BP_AIActionCoop_GiveFireAndBurn.0"
-          }
-        }
-      ],
+      "MeshRelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -88.0
+      },
       "RandomRestMontageInfos": [
         {
           "RandomRestMontage": {
             "ObjectName": "AnimMontage'AM_ClownRabbit_Rest01'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_Rest01"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_Rest01.0"
           },
           "Weight": 1.0,
           "LoopNum_Min": 1,
@@ -966,7 +952,7 @@
         {
           "RandomRestMontage": {
             "ObjectName": "AnimMontage'AM_ClownRabbit_Rest02'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_Rest02"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_Rest02.0"
           },
           "Weight": 0.2,
           "LoopNum_Min": 1,
@@ -979,14 +965,14 @@
           "Key": "EPalGeneralAnimSequenceType::JumpLoop",
           "Value": {
             "ObjectName": "AnimSequence'AS_ClownRabbit_JumpLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ClownRabbit/AS_ClownRabbit_JumpLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ClownRabbit/AS_ClownRabbit_JumpLoop.0"
           }
         },
         {
           "Key": "EPalGeneralAnimSequenceType::JumpEnd",
           "Value": {
             "ObjectName": "AnimSequence'AS_ClownRabbit_JumpEnd'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ClownRabbit/AS_ClownRabbit_JumpEnd"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ClownRabbit/AS_ClownRabbit_JumpEnd.0"
           }
         }
       ],
@@ -995,63 +981,77 @@
           "Key": "EPalGeneralMontageType::GeneralAttackReady_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_ClownRabbit_FarSkill_Start'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_FarSkill_Start"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_FarSkill_Start.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackReadyLoop_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_ClownRabbit_FarSkill_StartLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_FarSkill_StartLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_FarSkill_StartLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackProcess_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_ClownRabbit_FarSkill_Action'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_FarSkill_Action"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_FarSkill_Action.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackProcessLoop_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_ClownRabbit_FarSkill_ActionLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_FarSkill_ActionLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_FarSkill_ActionLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackAfter_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_ClownRabbit_FarSkill_End'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_FarSkill_End"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_FarSkill_End.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepStart",
           "Value": {
             "ObjectName": "AnimMontage'AM_ClownRabbit_SleepStart'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_SleepStart"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_SleepStart.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepLoop",
           "Value": {
             "ObjectName": "AnimMontage'AM_ClownRabbit_SleepLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_SleepLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_SleepLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepEnd",
           "Value": {
             "ObjectName": "AnimMontage'AM_ClownRabbit_SleepEnd'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_SleepEnd"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_SleepEnd.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::DamageAdditive",
           "Value": {
             "ObjectName": "AnimMontage'AM_ClownRabbit_Hit'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_Hit"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_Hit.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::BeLiftupStart",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_ClownRabbit_Carrying_Start'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_Carrying_Start.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::BeLiftupLoop",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_ClownRabbit_Carrying'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_Carrying.0"
           }
         }
       ],
@@ -1069,6 +1069,22 @@
             "ObjectName": "BlendSpace1D'BS_Transport_ClownRabbit'",
             "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BS_Transport_ClownRabbit.0"
           }
+        },
+        {
+          "Key": "EPalGeneralBlendSpaceType::Swim",
+          "Value": {
+            "ObjectName": "BlendSpace1D'BS_Swim_ClownRabbit'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BS_Swim_ClownRabbit.0"
+          }
+        }
+      ],
+      "RagdollPresetMap": [
+        {
+          "Key": "EPalRagdollPresetType::BeLiftup",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_RagdollPreset_Liftup_ClownRabbit_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Ragdoll/BP_RagdollPreset_Liftup_ClownRabbit.0"
+          }
         }
       ],
       "ActionMontageMap": [
@@ -1076,81 +1092,163 @@
           "Key": "EPalActionType::Menace",
           "Value": {
             "ObjectName": "AnimMontage'AM_ClownRabbit_Encount'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_Encount"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_Encount.0"
           }
         },
         {
           "Key": "EPalActionType::Eat",
           "Value": {
             "ObjectName": "AnimMontage'AM_ClownRabbit_Eat'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_Eat"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_Eat.0"
           }
         },
         {
           "Key": "EPalActionType::KnockBack",
           "Value": {
             "ObjectName": "AnimMontage'AM_ClownRabbit_Damage'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_Damage"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_Damage.0"
           }
         },
         {
           "Key": "EPalActionType::ForwardWalk",
           "Value": {
             "ObjectName": "AnimMontage'AM_ClownRabbit_Walk'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_Walk"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_Walk.0"
           }
         },
         {
           "Key": "EPalActionType::Architecture",
           "Value": {
             "ObjectName": "AnimMontage'AM_ClownRabbit_Architecture'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_Architecture"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_Architecture.0"
           }
         },
         {
           "Key": "EPalActionType::GetupUtubuse_orRight",
           "Value": {
             "ObjectName": "AnimMontage'AM_ClownRabbit_GetUp_FrontDown'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_GetUp_FrontDown"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_GetUp_FrontDown.0"
           }
         },
         {
           "Key": "EPalActionType::Cooking",
           "Value": {
             "ObjectName": "AnimMontage'AM_ClownRabbit_Cooking'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_Cooking"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_Cooking.0"
           }
         },
         {
           "Key": "EPalActionType::PalPetting",
           "Value": {
             "ObjectName": "AnimMontage'AM_ClownRabbit_Petting'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_Petting"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_Petting.0"
           }
         },
         {
           "Key": "EPalActionType::CommonWork",
           "Value": {
             "ObjectName": "AnimMontage'AM_ClownRabbit_CommonWork'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_CommonWork"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_CommonWork.0"
           }
         },
         {
           "Key": "EPalActionType::ElectricShock",
           "Value": {
             "ObjectName": "AnimMontage'AM_ClownRabbit_ElectricShock'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_ElectricShock"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_ElectricShock.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::DefenseGunner",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_ClownRabbit_Gunner'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_Gunner.0"
           }
         },
         {
           "Key": "EPalActionType::IdleInSpa",
           "Value": {
             "ObjectName": "AnimMontage'AM_ClownRabbit_Spa'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_Spa"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/ClownRabbit/AM_ClownRabbit_Spa.0"
           }
         }
       ],
-      "PettingSize": "EPalPettingSizeType::Medium"
+      "SleepOnSideInfoMapForMapObject": [
+        {
+          "Key": {
+            "Key": "MedicalPalBed_02"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -20.0,
+              "Y": 50.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 90.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_03"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -20.0,
+              "Y": 50.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 90.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_04"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -20.0,
+              "Y": 140.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 90.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        }
+      ],
+      "WazaActionDeclarationMap": [
+        {
+          "Key": "EPalWazaID::Unique_ClownRabbit_TrickShow",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/ClownRabbit/BP_UniqueAction_ClownRabbit_TrickShow.BP_UniqueAction_ClownRabbit_TrickShow_C",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "HPGaugeUIOffset": {
+        "X": 25.0,
+        "Y": 35.0
+      },
+      "GetupMotion_UtubuseOrRight_0FramePelvisLocation": {
+        "X": 0.920422,
+        "Y": 23.112425,
+        "Z": 18.060469
+      },
+      "PettingSize": "EPalPettingSizeType::Medium",
+      "DefenseBuildObjectAssignDistance": 10.0
     }
   },
   {
@@ -1164,7 +1262,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     }
   },
   {
@@ -1178,7 +1276,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -1229,7 +1327,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_ClownRabbit_C:PalBodyPartsCapsule_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.19"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.20"
       },
       "AttachToName": "pelvis",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1254,7 +1352,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_ClownRabbit_C:PalBodyPartsCapsule9_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.18"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.19"
       },
       "AttachToName": "head",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1279,7 +1377,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_ClownRabbit_C:PalBodyPartsCapsule10_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.6"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.7"
       },
       "AttachToName": "ear_01_l",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1304,7 +1402,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_ClownRabbit_C:PalBodyPartsCapsule11_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.7"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.8"
       },
       "AttachToName": "ear_04_l",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1329,7 +1427,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_ClownRabbit_C:PalBodyPartsCapsule12_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.8"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.9"
       },
       "AttachToName": "ear_01_r",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1354,7 +1452,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_ClownRabbit_C:PalBodyPartsCapsule13_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.9"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.10"
       },
       "AttachToName": "ear_04_r",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1379,7 +1477,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_ClownRabbit_C:PalBodyPartsCapsule1_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.10"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.11"
       },
       "AttachToName": "thigh_r",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1404,7 +1502,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_ClownRabbit_C:PalBodyPartsCapsule2_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.11"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.12"
       },
       "AttachToName": "thigh_l",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1429,7 +1527,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_ClownRabbit_C:PalBodyPartsCapsule3_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.12"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.13"
       },
       "AttachToName": "calf_l",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1454,7 +1552,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_ClownRabbit_C:PalBodyPartsCapsule4_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.13"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.14"
       },
       "AttachToName": "calf_r",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1479,7 +1577,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_ClownRabbit_C:PalBodyPartsCapsule5_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.14"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.15"
       },
       "AttachToName": "upperarm_r",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1504,7 +1602,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_ClownRabbit_C:PalBodyPartsCapsule6_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.15"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.16"
       },
       "AttachToName": "lowerarm_r",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1529,7 +1627,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_ClownRabbit_C:PalBodyPartsCapsule7_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.16"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.17"
       },
       "AttachToName": "lowerarm_l",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1554,7 +1652,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_ClownRabbit_C:PalBodyPartsCapsule8_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.17"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.18"
       },
       "AttachToName": "upperarm_l",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1706,12 +1804,12 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_ClownRabbit_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.3"
       }
     }
   }

@@ -12,7 +12,7 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_CaptainPenguin_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.30"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.29"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_CaptainPenguin_C:InheritableComponentHandler'",
@@ -98,7 +98,7 @@
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_CaptainPenguin_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.21"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_CaptainPenguin_C:DamageReactionComponent'",
@@ -106,11 +106,11 @@
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_CaptainPenguin_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.22"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_CaptainPenguin_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.19"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.18"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_CaptainPenguin_C:FollowCamera'",
@@ -126,11 +126,11 @@
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_CaptainPenguin_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.23"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_CaptainPenguin_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.18"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.17"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_CaptainPenguin_C:AnimNotifyComponent'",
@@ -142,11 +142,11 @@
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_CaptainPenguin_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.31"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.30"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_CaptainPenguin_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.20"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.19"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_CaptainPenguin_C:CharMoveComp'",
@@ -210,28 +210,6 @@
       "Records": [
         {
           "ComponentClass": {
-            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-            "ObjectPath": "/Script/Pal"
-          },
-          "ComponentTemplate": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_CaptainPenguin_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.17"
-          },
-          "ComponentKey": {
-            "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-            },
-            "SCSVariableName": "PalPartnerSkillParameter",
-            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
-          },
-          "CookedComponentInstancingData": {
-            "ChangedPropertyList": [],
-            "bHasValidCookedData": false
-          }
-        },
-        {
-          "ComponentClass": {
             "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
             "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
           },
@@ -266,7 +244,7 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
     }
   },
   {
@@ -280,7 +258,7 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
     }
   },
   {
@@ -349,7 +327,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
@@ -369,12 +347,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_CaptainPenguin_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.19"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.18"
       }
     }
   },
@@ -389,7 +367,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -403,7 +381,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
     },
     "Properties": {
       "InWaterRate": 0.56,
@@ -421,7 +399,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -435,7 +413,7 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
     }
   },
   {
@@ -449,7 +427,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     },
     "Properties": {
       "FootIKSettings": [
@@ -485,183 +463,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
-    }
-  },
-  {
-    "Type": "PalPartnerSkillParameterComponent",
-    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_CaptainPenguin_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.0"
-    },
-    "Template": {
-      "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
-    },
-    "Properties": {
-      "SkillName": "None",
-      "bIdlelCostDecreaseEveryFrame": true,
-      "PassiveSkills": [
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "ElementAddDrop_Fire_1_PAL"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "ElementAddDrop_Fire_2_PAL"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "ElementAddDrop_Fire_3_PAL"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "ElementAddDrop_Fire_4_PAL"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "ElementAddDrop_Fire_5_PAL"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        }
-      ],
-      "ActiveSkill_MainValueByRank": [
-        1.5,
-        2.0,
-        2.5,
-        3.0
-      ]
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
     }
   },
   {
@@ -675,7 +477,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -689,7 +491,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
       "AttachParent": {
@@ -714,7 +516,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
       "bIsEnableGroundTilt": true,
@@ -786,7 +588,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 100.0,
@@ -816,6 +618,16 @@
           "LoopNum_Min": 1,
           "LoopNum_Max": 1,
           "AfterIdleTime": 3.0
+        },
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_CaptainPenguin_Rest03'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CaptainPenguin/AM_CaptainPenguin_Rest03.0"
+          },
+          "Weight": 1.0,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 2.0
         }
       ],
       "GeneralAnimSequenceMap": [
@@ -973,17 +785,17 @@
           }
         },
         {
-          "Key": "EPalActionType::Watering",
+          "Key": "EPalActionType::IdleInSpa",
           "Value": {
-            "ObjectName": "AnimMontage'AM_CaptainPenguin_Watering'",
-            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CaptainPenguin/AM_CaptainPenguin_Watering.0"
+            "ObjectName": "AnimMontage'AM_CaptainPenguin_Spa'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CaptainPenguin/AM_CaptainPenguin_Spa.0"
           }
         },
         {
-          "Key": "EPalActionType::FishingCaught",
+          "Key": "EPalActionType::FishPond",
           "Value": {
-            "ObjectName": "AnimMontage'AM_CaptainPenguin_FishingCaught'",
-            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CaptainPenguin/AM_CaptainPenguin_FishingCaught.0"
+            "ObjectName": "AnimMontage'AM_CaptainPenguin_Rest01'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CaptainPenguin/AM_CaptainPenguin_Rest01.0"
           }
         },
         {
@@ -1001,10 +813,10 @@
           }
         },
         {
-          "Key": "EPalActionType::FishPond",
+          "Key": "EPalActionType::FishingCaught",
           "Value": {
-            "ObjectName": "AnimMontage'AM_CaptainPenguin_Rest01'",
-            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CaptainPenguin/AM_CaptainPenguin_Rest01.0"
+            "ObjectName": "AnimMontage'AM_CaptainPenguin_FishingCaught'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CaptainPenguin/AM_CaptainPenguin_FishingCaught.0"
           }
         },
         {
@@ -1029,10 +841,17 @@
           }
         },
         {
-          "Key": "EPalActionType::IdleInSpa",
+          "Key": "EPalActionType::Watering",
           "Value": {
-            "ObjectName": "AnimMontage'AM_CaptainPenguin_Spa'",
-            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CaptainPenguin/AM_CaptainPenguin_Spa.0"
+            "ObjectName": "AnimMontage'AM_CaptainPenguin_Watering'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CaptainPenguin/AM_CaptainPenguin_Watering.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::FishingCaught_Jump",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_CaptainPenguin_Walk'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/CaptainPenguin/AM_CaptainPenguin_Walk.0"
           }
         }
       ],
@@ -1130,6 +949,11 @@
         "Y": 0.0,
         "Z": 50.0
       },
+      "FishingCaughtJumpRotatorOffset": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 45.0
+      },
       "FishingSize": "EPalSizeType::M",
       "FishingPlayerMotionType": "EPalFishingPlayerMotionType::M1",
       "DefenseBuildObjectAssignDistance": 40.0,
@@ -1139,7 +963,7 @@
           "Value": {
             "Effect": {
               "ObjectName": "NiagaraSystem'NS_SplashFeetPal'",
-              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_SplashFeetPal.71"
+              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_SplashFeetPal.55"
             },
             "Offset": {
               "X": 0.0,
@@ -1163,7 +987,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     }
   },
   {
@@ -1177,7 +1001,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -1197,7 +1021,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_CaptainPenguin_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.29"
     },
     "Properties": {
       "ComponentClass": {
@@ -1206,7 +1030,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_CaptainPenguin_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.25"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.24"
       },
       "VariableGuid": "23109270-42266264-3FCE10BC-68A6DF57",
       "InternalVariableName": "DefaultSceneRoot"
@@ -1219,7 +1043,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_CaptainPenguin_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.29"
     },
     "Properties": {
       "ComponentClass": {
@@ -1228,7 +1052,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalSpeedCollisionComponent'BP_CaptainPenguin_C:PalSpeedCollision1_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.21"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.20"
       },
       "ParentComponentOrVariableName": "CharacterMesh0",
       "bIsParentComponentNative": true,
@@ -1243,7 +1067,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_CaptainPenguin_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.29"
     },
     "Properties": {
       "ComponentClass": {
@@ -1268,7 +1092,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_CaptainPenguin_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.29"
     },
     "Properties": {
       "ComponentClass": {
@@ -1299,34 +1123,34 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'BP_CaptainPenguin_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.27"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.26"
         },
         {
           "ObjectName": "SCS_Node'BP_CaptainPenguin_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.28"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.27"
         },
         {
           "ObjectName": "SCS_Node'BP_CaptainPenguin_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.29"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.28"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'BP_CaptainPenguin_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.27"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.26"
         },
         {
           "ObjectName": "SCS_Node'BP_CaptainPenguin_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.28"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.27"
         },
         {
           "ObjectName": "SCS_Node'BP_CaptainPenguin_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.29"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.28"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_CaptainPenguin_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/CaptainPenguin/BP_CaptainPenguin.25"
       }
     }
   },
@@ -1341,7 +1165,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {

@@ -12,11 +12,11 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_MummyPal_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.43"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_MummyPal_C:InheritableComponentHandler'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.3"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.4"
       }
     },
     "SuperStruct": {
@@ -24,6 +24,105 @@
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
     },
     "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule8",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule7",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule6",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule5",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
       {
         "Type": "ObjectProperty",
         "Name": "PalBodyPartsSphere",
@@ -54,7 +153,7 @@
   {
     "Type": "BP_MummyPal_C",
     "Name": "Default__BP_MummyPal_C",
-    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.BP_MummyPal_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal",
     "Template": {
@@ -64,80 +163,97 @@
     "Properties": {
       "LiftupObjectComponent": {
         "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MummyPal_C:Liftup'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.9"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.19"
       },
       "ActionComponent": {
         "ObjectName": "PalActionComponent'Default__BP_MummyPal_C:ActionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.4"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.5"
       },
       "CharacterParameterComponent": {
         "ObjectName": "PalCharacterParameterComponent'Default__BP_MummyPal_C:CharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.11"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.21"
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MummyPal_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.18"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.28"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_MummyPal_C:DamageReactionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.12"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.22"
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_MummyPal_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.19"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.29"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_MummyPal_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.16"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.26"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_MummyPal_C:FollowCamera'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.8"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.18"
       },
       "LookAtComponent": {
         "ObjectName": "PalLookAtComponent'Default__BP_MummyPal_C:LookAtComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.14"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.24"
       },
       "FootIKComponent": {
         "ObjectName": "PalFootIKComponent'Default__BP_MummyPal_C:FootIKComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.13"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.23"
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_MummyPal_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.20"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.30"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_MummyPal_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.15"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.25"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MummyPal_C:AnimNotifyComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.5"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.6"
       },
       "AroundInfoCollectorComponent": {
         "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MummyPal_C:AroundInfoCollectorComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.7"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.17"
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_MummyPal_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.25"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.44"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_MummyPal_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.17"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.27"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_MummyPal_C:CharMoveComp'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.10"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.20"
       },
       "CapsuleComponent": {
         "ObjectName": "CapsuleComponent'Default__BP_MummyPal_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.3"
       },
       "RootComponent": {
         "ObjectName": "CapsuleComponent'Default__BP_MummyPal_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.3"
       }
+    }
+  },
+  {
+    "Type": "BP_PalCryComponent_C",
+    "Name": "BP_PalCryComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.BP_PalCryComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MummyPal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalCryComponent_C'BP_MonsterBase_C:BP_PalCryComponent_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.2"
+    },
+    "Properties": {
+      "CryPalID": "EPalTribeID::Mutant"
     }
   },
   {
@@ -166,6 +282,32 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'BP_MummyPal_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
+            "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BP_PalCryComponent_C'BP_MummyPal_C:BP_PalCryComponent_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.2"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
+            },
+            "SCSVariableName": "BP_PalCryComponent",
+            "AssociatedGuid": "A971BE27-4B3C10FC-863FA284-ECDC3286"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
     }
   },
   {
@@ -179,7 +321,7 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
     }
   },
   {
@@ -193,7 +335,223 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MummyPal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 30.0,
+      "CapsuleRadius": 15.0,
+      "RelativeLocation": {
+        "X": 27.0,
+        "Y": -3.2853504E-07,
+        "Z": -1.5699205E-08
+      },
+      "RelativeRotation": {
+        "Pitch": -7.008545E-07,
+        "Yaw": 90.0,
+        "Roll": -90.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MummyPal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 45.0,
+      "CapsuleRadius": 30.0,
+      "RelativeLocation": {
+        "X": 46.0,
+        "Y": -5.5972635E-07,
+        "Z": -2.5616501E-08
+      },
+      "RelativeRotation": {
+        "Pitch": -7.008545E-07,
+        "Yaw": 90.0,
+        "Roll": -90.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule3_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MummyPal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 30.0,
+      "CapsuleRadius": 15.0,
+      "RelativeLocation": {
+        "X": -29.0,
+        "Y": 3.5287096E-07,
+        "Z": 1.3530496E-08
+      },
+      "RelativeRotation": {
+        "Pitch": -7.0085446E-07,
+        "Yaw": 90.0,
+        "Roll": -90.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule4_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MummyPal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 45.0,
+      "CapsuleRadius": 30.0,
+      "RelativeLocation": {
+        "X": -46.0,
+        "Y": 5.5972635E-07,
+        "Z": 2.2403738E-08
+      },
+      "RelativeRotation": {
+        "Pitch": -7.0085446E-07,
+        "Yaw": 90.0,
+        "Roll": -90.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule5_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MummyPal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 35.0,
+      "CapsuleRadius": 17.0,
+      "RelativeLocation": {
+        "X": 21.0,
+        "Y": -2.5552725E-07,
+        "Z": -1.2567355E-08
+      },
+      "RelativeRotation": {
+        "Pitch": -7.0085446E-07,
+        "Yaw": 90.0,
+        "Roll": -90.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule6_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MummyPal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 30.0,
+      "CapsuleRadius": 13.0,
+      "RelativeLocation": {
+        "X": 21.0,
+        "Y": -2.5552725E-07,
+        "Z": -1.2567355E-08
+      },
+      "RelativeRotation": {
+        "Pitch": -7.0085446E-07,
+        "Yaw": 90.0,
+        "Roll": -90.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule7_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MummyPal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 35.0,
+      "CapsuleRadius": 17.0,
+      "RelativeLocation": {
+        "X": -21.0,
+        "Y": 2.5552725E-07,
+        "Z": 9.354869E-09
+      },
+      "RelativeRotation": {
+        "Pitch": -7.0085446E-07,
+        "Yaw": 90.0,
+        "Roll": -90.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule8_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MummyPal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 30.0,
+      "CapsuleRadius": 13.0,
+      "RelativeLocation": {
+        "X": -21.0,
+        "Y": 2.5552725E-07,
+        "Z": 9.354877E-09
+      },
+      "RelativeRotation": {
+        "Pitch": -7.0085446E-07,
+        "Yaw": 90.0,
+        "Roll": -90.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MummyPal_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 50.0,
+      "CapsuleRadius": 30.0,
+      "RelativeLocation": {
+        "X": 2.7755576E-15,
+        "Y": -25.0,
+        "Z": 3.0419926E-07
+      },
+      "RelativeRotation": {
+        "Pitch": 1.28261735E-14,
+        "Yaw": 2.7776421E-15,
+        "Roll": -90.0
+      }
     }
   },
   {
@@ -204,6 +562,20 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'BP_MummyPal_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.0"
+    },
+    "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Weak",
+      "SphereRadius": 43.0,
+      "RelativeLocation": {
+        "X": -7.049916E-15,
+        "Y": -29.0,
+        "Z": -1.44329E-14
+      },
+      "RelativeRotation": {
+        "Pitch": 2.4172214E-13,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
     }
   },
   {
@@ -217,12 +589,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_MummyPal_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.3"
       }
     }
   },
@@ -237,12 +609,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_MummyPal_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.16"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.26"
       }
     }
   },
@@ -257,7 +629,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -271,7 +643,11 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+    },
+    "Properties": {
+      "InWaterRate": 0.71,
+      "Buoyancy": 1.35
     }
   },
   {
@@ -285,7 +661,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -299,7 +675,7 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
     }
   },
   {
@@ -313,7 +689,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     }
   },
   {
@@ -327,7 +703,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
     }
   },
   {
@@ -341,7 +717,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -355,12 +731,12 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_MummyPal_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.3"
       }
     }
   },
@@ -375,7 +751,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
       "AnimClass": {
@@ -384,15 +760,15 @@
       },
       "SkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_MummyPal'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/MummyPal/SK_MummyPal"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/MummyPal/SK_MummyPal.0"
       },
       "SkinnedAsset": {
         "ObjectName": "SkeletalMesh'SK_MummyPal'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/MummyPal/SK_MummyPal"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/MummyPal/SK_MummyPal.0"
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_MummyPal_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.3"
       },
       "RelativeLocation": {
         "X": 0.0,
@@ -412,24 +788,68 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 120.0,
       "MeshCapsuleRadius": 40.0,
+      "MeshRelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -120.0
+      },
+      "ApproachArrivalRadius": 100.0,
+      "AIActionMap": [
+        {
+          "Key": "EPalAIActionType::Cooperation",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AIActionRevivePal_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Coop/BP_AIActionRevivePal.0"
+          }
+        },
+        {
+          "Key": "EPalAIActionType::SideMove",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AIAction_AnimationSideStep_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Combat/BP_AIAction_AnimationSideStep.0"
+          }
+        }
+      ],
+      "RandomRestMontageInfos": [
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_MummyPal_Rest01'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_Rest01.0"
+          },
+          "Weight": 0.5,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 4.0
+        },
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_MummyPal_Rest02'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_Rest02.0"
+          },
+          "Weight": 0.5,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 4.0
+        }
+      ],
       "GeneralAnimSequenceMap": [
         {
           "Key": "EPalGeneralAnimSequenceType::JumpLoop",
           "Value": {
             "ObjectName": "AnimSequence'AS_MummyPal_JumpLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MummyPal/AS_MummyPal_JumpLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MummyPal/AS_MummyPal_JumpLoop.0"
           }
         },
         {
           "Key": "EPalGeneralAnimSequenceType::JumpEnd",
           "Value": {
             "ObjectName": "AnimSequence'AS_MummyPal_JumpEnd'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MummyPal/AS_MummyPal_JumpEnd"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MummyPal/AS_MummyPal_JumpEnd.0"
           }
         }
       ],
@@ -438,63 +858,77 @@
           "Key": "EPalGeneralMontageType::GeneralAttackReady_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_MummyPal_FarSkill_Start'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_FarSkill_Start"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_FarSkill_Start.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackReadyLoop_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_MummyPal_FarSkill_StartLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_FarSkill_StartLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_FarSkill_StartLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackProcess_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_MummyPal_FarSkill_Action'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_FarSkill_Action"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_FarSkill_Action.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackProcessLoop_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_MummyPal_FarSkill_ActionLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_FarSkill_ActionLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_FarSkill_ActionLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackAfter_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_MummyPal_FarSkill_End'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_FarSkill_End"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_FarSkill_End.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepStart",
           "Value": {
             "ObjectName": "AnimMontage'AM_MummyPal_SleepStart'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_SleepStart"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_SleepStart.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepLoop",
           "Value": {
             "ObjectName": "AnimMontage'AM_MummyPal_SleepLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_SleepLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_SleepLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepEnd",
           "Value": {
             "ObjectName": "AnimMontage'AM_MummyPal_SleepEnd'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_SleepEnd"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_SleepEnd.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::DamageAdditive",
           "Value": {
             "ObjectName": "AnimMontage'AM_MummyPal_Hit'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_Hit"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_Hit.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::BeLiftupStart",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MummyPal_Carrying'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_Carrying.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::BeLiftupLoop",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MummyPal_Carrying'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_Carrying.0"
           }
         }
       ],
@@ -512,6 +946,29 @@
             "ObjectName": "BlendSpace1D'BS_Transport_MummyPal'",
             "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BS_Transport_MummyPal.0"
           }
+        },
+        {
+          "Key": "EPalGeneralBlendSpaceType::Swim",
+          "Value": {
+            "ObjectName": "BlendSpace1D'BS_Swim_MummyPal'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BS_Swim_MummyPal.0"
+          }
+        }
+      ],
+      "RagdollPresetMap": [
+        {
+          "Key": "EPalRagdollPresetType::BeLiftup",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_RagdollPreset_Liftup_MummyPal_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Ragdoll/BP_RagdollPreset_Liftup_MummyPal.0"
+          }
+        },
+        {
+          "Key": "EPalRagdollPresetType::RevivePal",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_RagdollPreset_RevivePal_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Ragdoll/BP_RagdollPreset_RevivePal.0"
+          }
         }
       ],
       "ActionMontageMap": [
@@ -519,75 +976,178 @@
           "Key": "EPalActionType::Menace",
           "Value": {
             "ObjectName": "AnimMontage'AM_MummyPal_Encount'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_Encount"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_Encount.0"
           }
         },
         {
           "Key": "EPalActionType::Eat",
           "Value": {
             "ObjectName": "AnimMontage'AM_MummyPal_Eat'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_Eat"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_Eat.0"
           }
         },
         {
           "Key": "EPalActionType::KnockBack",
           "Value": {
             "ObjectName": "AnimMontage'AM_MummyPal_Damage'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_Damage"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_Damage.0"
           }
         },
         {
           "Key": "EPalActionType::ForwardWalk",
           "Value": {
             "ObjectName": "AnimMontage'AM_MummyPal_Walk'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_Walk"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_Walk.0"
           }
         },
         {
           "Key": "EPalActionType::Architecture",
           "Value": {
             "ObjectName": "AnimMontage'AM_MummyPal_Architecture'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_Architecture"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_Architecture.0"
           }
         },
         {
           "Key": "EPalActionType::GetupUtubuse_orRight",
           "Value": {
             "ObjectName": "AnimMontage'AM_MummyPal_GetUp_FrontDown'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_GetUp_FrontDown"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_GetUp_FrontDown.0"
           }
         },
         {
           "Key": "EPalActionType::PalPetting",
           "Value": {
             "ObjectName": "AnimMontage'AM_MummyPal_Petting'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_Petting"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_Petting.0"
           }
         },
         {
           "Key": "EPalActionType::CommonWork",
           "Value": {
             "ObjectName": "AnimMontage'AM_MummyPal_CommonWork'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_CommonWork"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_CommonWork.0"
           }
         },
         {
           "Key": "EPalActionType::ElectricShock",
           "Value": {
             "ObjectName": "AnimMontage'AM_MummyPal_ElectricShock'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_ElectricShock"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_ElectricShock.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::DefenseGunner",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MummyPal_Gunner'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_Gunner.0"
           }
         },
         {
           "Key": "EPalActionType::IdleInSpa",
           "Value": {
             "ObjectName": "AnimMontage'AM_MummyPal_Spa'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_Spa"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_Spa.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::SideStep_Left",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MummyPal_SideStep_Left'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_SideStep_Left.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::SideStep_Right",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MummyPal_SideStep_Right'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_SideStep_Right.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::FishPond",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_MummyPal_Petting'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/MummyPal/AM_MummyPal_Petting.0"
           }
         }
       ],
+      "SleepOnSideInfoMapForMapObject": [
+        {
+          "Key": {
+            "Key": "MedicalPalBed_02"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": 70.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": -10.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_03"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": 70.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": -10.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_04"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": 90.0,
+              "Y": 100.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": -10.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        }
+      ],
+      "WazaActionDeclarationMap": [
+        {
+          "Key": "EPalWazaID::Unique_MummyPal_MummyAttack",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/MummyPal/BP_UniqueAction_MummyPal_MummyAttack.BP_UniqueAction_MummyPal_MummyAttack_C",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "HPGaugeUIOffset": {
+        "X": 35.0,
+        "Y": -230.0
+      },
+      "GetupMotion_UtubuseOrRight_0FramePelvisLocation": {
+        "X": 1E-06,
+        "Y": 119.202805,
+        "Z": 24.254126
+      },
       "PettingSize": "EPalPettingSizeType::Large",
-      "PettingDistance": 60.0
+      "PettingDistance": 60.0,
+      "DefenseBuildObjectAssignDistance": 70.0
     }
   },
   {
@@ -601,7 +1161,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     }
   },
   {
@@ -615,7 +1175,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -635,7 +1195,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_MummyPal_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.43"
     },
     "Properties": {
       "ComponentClass": {
@@ -644,7 +1204,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_MummyPal_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.21"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.31"
       },
       "VariableGuid": "61C46BC6-4B4464E9-10F615AF-D2A03FFF",
       "InternalVariableName": "DefaultSceneRoot"
@@ -657,7 +1217,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_MummyPal_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.43"
     },
     "Properties": {
       "ComponentClass": {
@@ -666,13 +1226,238 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsSphereComponent'BP_MummyPal_C:PalBodyPartsSphere_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.6"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.16"
       },
       "AttachToName": "head",
       "ParentComponentOrVariableName": "CharacterMesh0",
       "bIsParentComponentNative": true,
       "VariableGuid": "D74A643B-49497A5D-FDC8C197-7130C7E3",
       "InternalVariableName": "PalBodyPartsSphere"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MummyPal_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.43"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_MummyPal_C:PalBodyPartsCapsule8_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.14"
+      },
+      "AttachToName": "calf_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "3E51D274-40105260-195F7AAF-095F2A72",
+      "InternalVariableName": "PalBodyPartsCapsule8"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MummyPal_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.43"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_MummyPal_C:PalBodyPartsCapsule_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.15"
+      },
+      "AttachToName": "pelvis",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "735941C1-4627A6C9-392A9188-8E50C5B7",
+      "InternalVariableName": "PalBodyPartsCapsule"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MummyPal_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.43"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_MummyPal_C:PalBodyPartsCapsule1_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.7"
+      },
+      "AttachToName": "upperarm_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "1B31AFF2-4F5D82AA-BC7BFB80-BB9624D4",
+      "InternalVariableName": "PalBodyPartsCapsule1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MummyPal_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.43"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_MummyPal_C:PalBodyPartsCapsule2_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.8"
+      },
+      "AttachToName": "lowerarm_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "898AEAB2-4FF6B47A-C1468F91-E884A52B",
+      "InternalVariableName": "PalBodyPartsCapsule2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MummyPal_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.43"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_MummyPal_C:PalBodyPartsCapsule3_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.9"
+      },
+      "AttachToName": "upperarm_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "951753BA-41283782-818223AB-B701157A",
+      "InternalVariableName": "PalBodyPartsCapsule3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MummyPal_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.43"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_MummyPal_C:PalBodyPartsCapsule4_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.10"
+      },
+      "AttachToName": "lowerarm_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "259DF42C-4212B241-BC0F1081-9689AE2C",
+      "InternalVariableName": "PalBodyPartsCapsule4"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MummyPal_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.43"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_MummyPal_C:PalBodyPartsCapsule5_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.11"
+      },
+      "AttachToName": "thigh_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "FDB76485-4B1C21E6-D80298A7-74B52515",
+      "InternalVariableName": "PalBodyPartsCapsule5"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MummyPal_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.43"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_MummyPal_C:PalBodyPartsCapsule6_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.12"
+      },
+      "AttachToName": "calf_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "EE4CA194-4777869C-102B2286-1F0E4F86",
+      "InternalVariableName": "PalBodyPartsCapsule6"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MummyPal_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.43"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_MummyPal_C:PalBodyPartsCapsule7_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.13"
+      },
+      "AttachToName": "thigh_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "DBF8926D-4F33ABCA-56905A90-EFCB3ACB",
+      "InternalVariableName": "PalBodyPartsCapsule7"
     }
   },
   {
@@ -688,18 +1473,90 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'BP_MummyPal_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.23"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MummyPal_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MummyPal_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MummyPal_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MummyPal_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MummyPal_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MummyPal_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MummyPal_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MummyPal_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MummyPal_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.34"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'BP_MummyPal_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.23"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MummyPal_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MummyPal_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MummyPal_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MummyPal_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MummyPal_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MummyPal_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MummyPal_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MummyPal_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MummyPal_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.34"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_MummyPal_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.32"
       }
     }
   },
@@ -714,12 +1571,12 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_MummyPal_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MummyPal/BP_MummyPal.3"
       }
     }
   }

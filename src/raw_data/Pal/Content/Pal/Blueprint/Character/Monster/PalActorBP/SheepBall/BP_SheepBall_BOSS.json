@@ -107,7 +107,7 @@
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_SheepBall_BOSS_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SheepBall/BP_SheepBall_BOSS.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SheepBall/BP_SheepBall_BOSS.25"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_SheepBall_BOSS_C:CharacterMesh0'",
@@ -168,6 +168,28 @@
             },
             "SCSVariableName": "BP_InteractableSphere",
             "AssociatedGuid": "E1723F2E-426F1652-C58C1AA3-7D95233B"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'SphereComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "SphereComponent'BP_SheepBall_BOSS_C:Shield_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SheepBall/BP_SheepBall_BOSS.24"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_SheepBall_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SheepBall/BP_SheepBall.0"
+            },
+            "SCSVariableName": "Shield",
+            "AssociatedGuid": "A9D66E9E-4FF45ED6-E510A586-7371AA16"
           },
           "CookedComponentInstancingData": {
             "ChangedPropertyList": [],
@@ -326,7 +348,7 @@
     },
     "Template": {
       "ObjectName": "PalInteractableSphereComponentNative'BP_MonsterBase_C:BP_InteractableSphere_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
     },
     "Properties": {
       "SphereRadius": 200.0
@@ -357,7 +379,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_SheepBall_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SheepBall/BP_SheepBall.19"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SheepBall/BP_SheepBall.18"
     }
   },
   {
@@ -371,7 +393,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_SheepBall_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SheepBall/BP_SheepBall.20"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SheepBall/BP_SheepBall.19"
     },
     "Properties": {
       "AttachParent": {
@@ -396,7 +418,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_SheepBall_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SheepBall/BP_SheepBall.21"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SheepBall/BP_SheepBall.20"
     },
     "Properties": {
       "AttachParent": {
@@ -426,7 +448,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_SheepBall_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SheepBall/BP_SheepBall.22"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SheepBall/BP_SheepBall.21"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 110.0,
@@ -516,7 +538,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_SheepBall_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SheepBall/BP_SheepBall.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SheepBall/BP_SheepBall.22"
     }
   },
   {
@@ -530,7 +552,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_SheepBall_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SheepBall/BP_SheepBall.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SheepBall/BP_SheepBall.23"
     }
   },
   {
@@ -583,6 +605,23 @@
   },
   {
     "Type": "SphereComponent",
+    "Name": "Shield_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SheepBall_BOSS_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SheepBall/BP_SheepBall_BOSS.0"
+    },
+    "Template": {
+      "ObjectName": "SphereComponent'BP_SheepBall_C:Shield_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SheepBall/BP_SheepBall.31"
+    },
+    "Properties": {
+      "SphereRadius": 100.0
+    }
+  },
+  {
+    "Type": "SphereComponent",
     "Name": "RagdollInteractiveSphere",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'SphereComponent'",
@@ -592,7 +631,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_SheepBall_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SheepBall/BP_SheepBall.33"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SheepBall/BP_SheepBall.32"
     },
     "Properties": {
       "AttachParent": {

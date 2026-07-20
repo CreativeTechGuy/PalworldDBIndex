@@ -41,7 +41,7 @@
   {
     "Type": "BP_HadesBird_BOSS_C",
     "Name": "Default__BP_HadesBird_BOSS_C",
-    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_BOSS.BP_HadesBird_BOSS_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_BOSS",
     "Template": {
@@ -361,7 +361,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_HadesBird_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.25"
     }
   },
   {
@@ -375,44 +375,62 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_HadesBird_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.26"
     },
     "Properties": {
-      "WalkCameraArmLength": 1000.0,
+      "WalkCameraArmLength": 500.0,
       "WalkCameraOffset": {
         "X": 0.0,
-        "Y": 160.0,
+        "Y": 140.0,
         "Z": 220.0
       },
-      "AimCameraArmLength": 180.0,
+      "HipShootCameraArmLength": 500.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 140.0,
+        "Z": 220.0
+      },
+      "AimCameraArmLength": 300.0,
       "AimCameraOffset": {
         "X": 0.0,
-        "Y": 50.0,
-        "Z": 185.0
+        "Y": 100.0,
+        "Z": 220.0
       },
-      "AirCameraArmLength": 1000.0,
+      "AirCameraArmLength": 500.0,
       "AirCameraOffset": {
         "X": 0.0,
-        "Y": 160.0,
+        "Y": 140.0,
         "Z": 220.0
       },
-      "AirAimCameraArmLength": 180.0,
+      "AirHipShootCameraArmLength": 500.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 140.0,
+        "Z": 220.0
+      },
+      "AirAimCameraArmLength": 300.0,
       "AirAimCameraOffset": {
         "X": 0.0,
-        "Y": 50.0,
-        "Z": 185.0
-      },
-      "FlyCameraArmLength": 1000.0,
-      "FlyCameraOffset": {
-        "X": 0.0,
-        "Y": 160.0,
+        "Y": 100.0,
         "Z": 220.0
       },
-      "FlyAimCameraArmLength": 180.0,
+      "FlyCameraArmLength": 500.0,
+      "FlyCameraOffset": {
+        "X": 0.0,
+        "Y": 140.0,
+        "Z": 220.0
+      },
+      "FlyHipShootCameraArmLength": 500.0,
+      "FlyHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 140.0,
+        "Z": 220.0
+      },
+      "FlyAimCameraArmLength": 300.0,
       "FlyAimCameraOffset": {
         "X": 0.0,
-        "Y": 50.0,
-        "Z": 185.0
+        "Y": 100.0,
+        "Z": 200.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_HadesBird_BOSS_C:CollisionCylinder'",
@@ -436,7 +454,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_HadesBird_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.27"
     },
     "Properties": {
       "AttachParent": {
@@ -461,7 +479,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_HadesBird_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.29"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 300.0,
@@ -512,7 +530,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_HadesBird_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.31"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.30"
     }
   },
   {
@@ -526,7 +544,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_HadesBird_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.32"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.31"
     }
   },
   {
@@ -588,7 +606,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_HadesBird_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird.46"
     },
     "Properties": {
       "AttachParent": {

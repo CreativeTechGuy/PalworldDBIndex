@@ -340,7 +340,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_FlowerDinosaur_Electric_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerDinosaur/BP_FlowerDinosaur_Electric.15"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerDinosaur/BP_FlowerDinosaur_Electric.14"
     }
   },
   {
@@ -354,7 +354,7 @@
     },
     "Template": {
       "ObjectName": "PalRideMarkerComponent'BP_FlowerDinosaur_C:PalRideMarker_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerDinosaur/BP_FlowerDinosaur.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerDinosaur/BP_FlowerDinosaur.22"
     },
     "Properties": {
       "RelativeLocation": {
@@ -375,20 +375,32 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_FlowerDinosaur_Electric_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerDinosaur/BP_FlowerDinosaur_Electric.16"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerDinosaur/BP_FlowerDinosaur_Electric.15"
     },
     "Properties": {
-      "WalkCameraArmLength": 900.0,
+      "WalkCameraArmLength": 500.0,
       "WalkCameraOffset": {
         "X": 0.0,
-        "Y": 170.0,
-        "Z": 150.0
+        "Y": 160.0,
+        "Z": 140.0
       },
-      "AirCameraArmLength": 900.0,
+      "HipShootCameraArmLength": 500.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 160.0,
+        "Z": 140.0
+      },
+      "AirCameraArmLength": 500.0,
       "AirCameraOffset": {
         "X": 0.0,
-        "Y": 170.0,
-        "Z": 150.0
+        "Y": 160.0,
+        "Z": 140.0
+      },
+      "AirHipShootCameraArmLength": 500.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 160.0,
+        "Z": 140.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_FlowerDinosaur_Electric_BOSS_C:CollisionCylinder'",
@@ -412,7 +424,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_FlowerDinosaur_Electric_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerDinosaur/BP_FlowerDinosaur_Electric.17"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerDinosaur/BP_FlowerDinosaur_Electric.16"
     },
     "Properties": {
       "AttachParent": {
@@ -437,7 +449,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_FlowerDinosaur_Electric_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerDinosaur/BP_FlowerDinosaur_Electric.18"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerDinosaur/BP_FlowerDinosaur_Electric.17"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 240.0,
@@ -454,13 +466,13 @@
           },
           "Value": {
             "LocationOffset": {
-              "X": 150.0,
-              "Y": -40.0,
+              "X": -20.0,
+              "Y": 70.0,
               "Z": 0.0
             },
             "RotatorOffset": {
               "Pitch": 0.0,
-              "Yaw": -90.0,
+              "Yaw": 0.0,
               "Roll": 0.0
             },
             "bShouldApply": true
@@ -472,13 +484,13 @@
           },
           "Value": {
             "LocationOffset": {
-              "X": 150.0,
-              "Y": -40.0,
+              "X": -20.0,
+              "Y": 70.0,
               "Z": 0.0
             },
             "RotatorOffset": {
               "Pitch": 0.0,
-              "Yaw": -90.0,
+              "Yaw": 0.0,
               "Roll": 0.0
             },
             "bShouldApply": true
@@ -490,14 +502,14 @@
           },
           "Value": {
             "LocationOffset": {
-              "X": 140.0,
-              "Y": 20.0,
+              "X": -20.0,
+              "Y": 170.0,
               "Z": 0.0
             },
             "RotatorOffset": {
-              "Pitch": 10.0,
-              "Yaw": -100.0,
-              "Roll": 5.0
+              "Pitch": -10.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
             },
             "bShouldApply": true
           }
@@ -522,7 +534,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_FlowerDinosaur_Electric_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerDinosaur/BP_FlowerDinosaur_Electric.19"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerDinosaur/BP_FlowerDinosaur_Electric.18"
     }
   },
   {
@@ -536,7 +548,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_FlowerDinosaur_Electric_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerDinosaur/BP_FlowerDinosaur_Electric.20"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerDinosaur/BP_FlowerDinosaur_Electric.19"
     }
   },
   {
@@ -598,7 +610,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_FlowerDinosaur_Electric_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerDinosaur/BP_FlowerDinosaur_Electric.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FlowerDinosaur/BP_FlowerDinosaur_Electric.23"
     },
     "Properties": {
       "AttachParent": {

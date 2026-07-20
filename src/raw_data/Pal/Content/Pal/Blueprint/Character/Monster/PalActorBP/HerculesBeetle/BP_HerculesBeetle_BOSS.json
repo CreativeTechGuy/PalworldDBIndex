@@ -41,7 +41,7 @@
   {
     "Type": "BP_HerculesBeetle_BOSS_C",
     "Name": "Default__BP_HerculesBeetle_BOSS_C",
-    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HerculesBeetle/BP_HerculesBeetle_BOSS.BP_HerculesBeetle_BOSS_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HerculesBeetle/BP_HerculesBeetle_BOSS",
     "Template": {
@@ -314,7 +314,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_HerculesBeetle_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HerculesBeetle/BP_HerculesBeetle.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HerculesBeetle/BP_HerculesBeetle.24"
     }
   },
   {
@@ -328,7 +328,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_HerculesBeetle_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HerculesBeetle/BP_HerculesBeetle.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HerculesBeetle/BP_HerculesBeetle.25"
     },
     "Properties": {
       "AttachParent": {
@@ -353,7 +353,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_HerculesBeetle_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HerculesBeetle/BP_HerculesBeetle.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HerculesBeetle/BP_HerculesBeetle.26"
     },
     "Properties": {
       "AttachParent": {
@@ -378,7 +378,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_HerculesBeetle_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HerculesBeetle/BP_HerculesBeetle.29"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HerculesBeetle/BP_HerculesBeetle.28"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 198.52,
@@ -388,6 +388,7 @@
         "Y": 0.0,
         "Z": -200.0
       },
+      "ApproachArrivalRadius": 200.0,
       "SleepOnSideInfoMapForMapObject": [
         {
           "Key": {
@@ -467,7 +468,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_HerculesBeetle_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HerculesBeetle/BP_HerculesBeetle.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HerculesBeetle/BP_HerculesBeetle.29"
     }
   },
   {
@@ -481,7 +482,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_HerculesBeetle_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HerculesBeetle/BP_HerculesBeetle.31"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HerculesBeetle/BP_HerculesBeetle.30"
     }
   },
   {
@@ -543,7 +544,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_HerculesBeetle_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HerculesBeetle/BP_HerculesBeetle.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HerculesBeetle/BP_HerculesBeetle.43"
     },
     "Properties": {
       "AttachParent": {

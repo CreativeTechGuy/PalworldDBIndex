@@ -1,0 +1,701 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_GhostDragon_Fire_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_GhostDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_GhostDragon_Fire_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.27"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_GhostDragon_Fire_C:InheritableComponentHandler'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_GhostDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon.0"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_GhostDragon_Fire_C'Default__BP_GhostDragon_Fire_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_GhostDragon_Fire_C",
+    "Name": "Default__BP_GhostDragon_Fire_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.BP_GhostDragon_Fire_C'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire",
+    "Template": {
+      "ObjectName": "BP_GhostDragon_C'Default__BP_GhostDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon.1"
+    },
+    "Properties": {
+      "LiftupObjectComponent": {
+        "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_GhostDragon_Fire_C:Liftup'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.13"
+      },
+      "ActionComponent": {
+        "ObjectName": "PalActionComponent'Default__BP_GhostDragon_Fire_C:ActionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.9"
+      },
+      "CharacterParameterComponent": {
+        "ObjectName": "PalCharacterParameterComponent'Default__BP_GhostDragon_Fire_C:CharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.15"
+      },
+      "StaticCharacterParameterComponent": {
+        "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_GhostDragon_Fire_C:StaticCharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.22"
+      },
+      "DamageReactionComponent": {
+        "ObjectName": "PalDamageReactionComponent'Default__BP_GhostDragon_Fire_C:DamageReactionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.16"
+      },
+      "StatusComponent": {
+        "ObjectName": "PalStatusComponent'Default__BP_GhostDragon_Fire_C:StatusComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.23"
+      },
+      "CameraBoom": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_GhostDragon_Fire_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.20"
+      },
+      "FollowCamera": {
+        "ObjectName": "PalCharacterCameraComponent'Default__BP_GhostDragon_Fire_C:FollowCamera'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.12"
+      },
+      "LookAtComponent": {
+        "ObjectName": "PalLookAtComponent'Default__BP_GhostDragon_Fire_C:LookAtComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.18"
+      },
+      "FootIKComponent": {
+        "ObjectName": "PalFootIKComponent'Default__BP_GhostDragon_Fire_C:FootIKComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.17"
+      },
+      "VisualEffectComponent": {
+        "ObjectName": "PalVisualEffectComponent'Default__BP_GhostDragon_Fire_C:VisualEffectComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.24"
+      },
+      "PassiveSkillComponent": {
+        "ObjectName": "PalPassiveSkillComponent'Default__BP_GhostDragon_Fire_C:PassiveSkillComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.19"
+      },
+      "AnimNotifyComponent": {
+        "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_GhostDragon_Fire_C:AnimNotifyComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.10"
+      },
+      "AroundInfoCollectorComponent": {
+        "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_GhostDragon_Fire_C:AroundInfoCollectorComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.11"
+      },
+      "RagdollInteractiveSphere": {
+        "ObjectName": "SphereComponent'Default__BP_GhostDragon_Fire_C:RagdollInteractiveSphere'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.28"
+      },
+      "Mesh": {
+        "ObjectName": "PalSkeletalMeshComponent'Default__BP_GhostDragon_Fire_C:CharacterMesh0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.21"
+      },
+      "CharacterMovement": {
+        "ObjectName": "PalCharacterMovementComponent'Default__BP_GhostDragon_Fire_C:CharMoveComp'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.14"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_GhostDragon_Fire_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.3"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_GhostDragon_Fire_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.3"
+      }
+    }
+  },
+  {
+    "Type": "BP_PalTimerPointLightComponent_C",
+    "Name": "BP_PalTimerPointLightComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.BP_PalTimerPointLightComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_GhostDragon_Fire_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalTimerPointLightComponent_C'BP_GhostDragon_C:BP_PalTimerPointLightComponent_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon.4"
+    },
+    "Properties": {
+      "LightColor": {
+        "B": 65,
+        "G": 111,
+        "R": 170,
+        "A": 255,
+        "Hex": "AA6F41"
+      }
+    },
+    "IntensityNits": 0.0
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_GhostDragon_Fire_C'Default__BP_GhostDragon_Fire_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.1"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_GhostDragon_C:CollisionCylinder'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon.5"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_GhostDragon_Fire_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_PalTimerPointLightComponent_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Component/LightComponent/BP_PalTimerPointLightComponent.0"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BP_PalTimerPointLightComponent_C'BP_GhostDragon_Fire_C:BP_PalTimerPointLightComponent_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.2"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_GhostDragon_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon.0"
+            },
+            "SCSVariableName": "BP_PalTimerPointLightComponent",
+            "AssociatedGuid": "C7AC754A-445B8752-A55C28A6-2E0194F0"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'NiagaraComponent'",
+            "ObjectPath": "/Script/Niagara"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "NiagaraComponent'BP_GhostDragon_Fire_C:Niagara_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.5"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_GhostDragon_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon.0"
+            },
+            "SCSVariableName": "Niagara",
+            "AssociatedGuid": "C4C89C5D-4A22391D-42EAFCAA-26468E31"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "Niagara_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_GhostDragon_Fire_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.0"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'BP_GhostDragon_C:Niagara_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon.8"
+    },
+    "Properties": {
+      "OverrideParameters": {
+        "DataInterfaces": [
+          {
+            "ObjectName": "NiagaraDataInterfaceArrayColor'BP_GhostDragon_Fire_C:Niagara_GEN_VARIABLE.NiagaraDataInterfaceArrayColor_1'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.7"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceArrayColor",
+    "Name": "NiagaraDataInterfaceArrayColor_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraDataInterfaceArrayColor'",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'BP_GhostDragon_Fire_C:Niagara_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.5"
+    },
+    "Properties": {
+      "ColorData": [
+        {
+          "R": 10.0,
+          "G": 76.46652,
+          "B": 80.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        {
+          "R": 0.880208,
+          "G": 0.993888,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "F2FFFF"
+        },
+        {
+          "R": 30.208332,
+          "G": 39.44408,
+          "B": 40.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        {
+          "R": 3.177083,
+          "G": 8.599089,
+          "B": 10.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        }
+      ],
+      "MaxElements": 4
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceArrayColor",
+    "Name": "NiagaraDataInterfaceArrayColor_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraDataInterfaceArrayColor'",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'BP_GhostDragon_Fire_C:Niagara_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.5"
+    },
+    "Properties": {
+      "ColorData": [
+        {
+          "R": 80.0,
+          "G": 5.956211,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FFFF00"
+        },
+        {
+          "R": 0.510417,
+          "G": 0.06301,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "BD4700"
+        },
+        {
+          "R": 40.0,
+          "G": 0.2,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FF7C00"
+        },
+        {
+          "R": 20.0,
+          "G": 0.050213,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FF3F00"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceArrayColor",
+    "Name": "NiagaraDataInterfaceArrayColor_2",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraDataInterfaceArrayColor'",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'BP_GhostDragon_Fire_C:Niagara_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.5"
+    },
+    "Properties": {
+      "ColorData": [
+        {
+          "R": 80.0,
+          "G": 5.956211,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FFFF00"
+        },
+        {
+          "R": 0.510417,
+          "G": 0.06301,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "BD4700"
+        },
+        {
+          "R": 40.0,
+          "G": 0.2,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FF7C00"
+        },
+        {
+          "R": 20.0,
+          "G": 0.050213,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FF3F00"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PalActionComponent",
+    "Name": "ActionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalActionComponent'",
+    "Outer": {
+      "ObjectName": "BP_GhostDragon_Fire_C'Default__BP_GhostDragon_Fire_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.1"
+    },
+    "Template": {
+      "ObjectName": "PalActionComponent'Default__BP_GhostDragon_C:ActionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon.10"
+    }
+  },
+  {
+    "Type": "PalAnimNotifyParameterComponent",
+    "Name": "AnimNotifyComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_GhostDragon_Fire_C'Default__BP_GhostDragon_Fire_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.1"
+    },
+    "Template": {
+      "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_GhostDragon_C:AnimNotifyComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon.11"
+    }
+  },
+  {
+    "Type": "PalCharacterAroundInfoCollectorComponent",
+    "Name": "AroundInfoCollectorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+    "Outer": {
+      "ObjectName": "BP_GhostDragon_Fire_C'Default__BP_GhostDragon_Fire_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_GhostDragon_C:AroundInfoCollectorComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon.31"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_GhostDragon_Fire_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.3"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterCameraComponent",
+    "Name": "FollowCamera",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterCameraComponent'",
+    "Outer": {
+      "ObjectName": "BP_GhostDragon_Fire_C'Default__BP_GhostDragon_Fire_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterCameraComponent'Default__BP_GhostDragon_C:FollowCamera'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon.32"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_GhostDragon_Fire_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.20"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterLiftupObjectComponent",
+    "Name": "Liftup",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+    "Outer": {
+      "ObjectName": "BP_GhostDragon_Fire_C'Default__BP_GhostDragon_Fire_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_GhostDragon_C:Liftup'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon.33"
+    }
+  },
+  {
+    "Type": "PalCharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_GhostDragon_Fire_C'Default__BP_GhostDragon_Fire_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterMovementComponent'Default__BP_GhostDragon_C:CharMoveComp'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon.34"
+    }
+  },
+  {
+    "Type": "PalCharacterParameterComponent",
+    "Name": "CharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_GhostDragon_Fire_C'Default__BP_GhostDragon_Fire_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterParameterComponent'Default__BP_GhostDragon_C:CharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon.35"
+    }
+  },
+  {
+    "Type": "PalDamageReactionComponent",
+    "Name": "DamageReactionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalDamageReactionComponent'",
+    "Outer": {
+      "ObjectName": "BP_GhostDragon_Fire_C'Default__BP_GhostDragon_Fire_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.1"
+    },
+    "Template": {
+      "ObjectName": "PalDamageReactionComponent'Default__BP_GhostDragon_C:DamageReactionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon.36"
+    }
+  },
+  {
+    "Type": "PalFootIKComponent",
+    "Name": "FootIKComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalFootIKComponent'",
+    "Outer": {
+      "ObjectName": "BP_GhostDragon_Fire_C'Default__BP_GhostDragon_Fire_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.1"
+    },
+    "Template": {
+      "ObjectName": "PalFootIKComponent'Default__BP_GhostDragon_C:FootIKComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon.38"
+    }
+  },
+  {
+    "Type": "PalLookAtComponent",
+    "Name": "LookAtComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalLookAtComponent'",
+    "Outer": {
+      "ObjectName": "BP_GhostDragon_Fire_C'Default__BP_GhostDragon_Fire_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.1"
+    },
+    "Template": {
+      "ObjectName": "PalLookAtComponent'Default__BP_GhostDragon_C:LookAtComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon.39"
+    }
+  },
+  {
+    "Type": "PalPassiveSkillComponent",
+    "Name": "PassiveSkillComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalPassiveSkillComponent'",
+    "Outer": {
+      "ObjectName": "BP_GhostDragon_Fire_C'Default__BP_GhostDragon_Fire_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.1"
+    },
+    "Template": {
+      "ObjectName": "PalPassiveSkillComponent'Default__BP_GhostDragon_C:PassiveSkillComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon.40"
+    }
+  },
+  {
+    "Type": "PalShooterSpringArmComponent",
+    "Name": "CameraBoom",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalShooterSpringArmComponent'",
+    "Outer": {
+      "ObjectName": "BP_GhostDragon_Fire_C'Default__BP_GhostDragon_Fire_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.1"
+    },
+    "Template": {
+      "ObjectName": "PalShooterSpringArmComponent'Default__BP_GhostDragon_C:CameraBoom'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon.41"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_GhostDragon_Fire_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.3"
+      }
+    }
+  },
+  {
+    "Type": "PalSkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_GhostDragon_Fire_C'Default__BP_GhostDragon_Fire_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.1"
+    },
+    "Template": {
+      "ObjectName": "PalSkeletalMeshComponent'Default__BP_GhostDragon_C:CharacterMesh0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon.42"
+    },
+    "Properties": {
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_GhostDragon_Fire'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/GhostDragon_Fire/SK_GhostDragon_Fire.0"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_GhostDragon_Fire'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/GhostDragon_Fire/SK_GhostDragon_Fire.0"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_GhostDragon_Fire_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.3"
+      }
+    }
+  },
+  {
+    "Type": "PalStaticCharacterParameterComponent",
+    "Name": "StaticCharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_GhostDragon_Fire_C'Default__BP_GhostDragon_Fire_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.1"
+    },
+    "Template": {
+      "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_GhostDragon_C:StaticCharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon.44"
+    }
+  },
+  {
+    "Type": "PalStatusComponent",
+    "Name": "StatusComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStatusComponent'",
+    "Outer": {
+      "ObjectName": "BP_GhostDragon_Fire_C'Default__BP_GhostDragon_Fire_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.1"
+    },
+    "Template": {
+      "ObjectName": "PalStatusComponent'Default__BP_GhostDragon_C:StatusComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon.45"
+    }
+  },
+  {
+    "Type": "PalVisualEffectComponent",
+    "Name": "VisualEffectComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalVisualEffectComponent'",
+    "Outer": {
+      "ObjectName": "BP_GhostDragon_Fire_C'Default__BP_GhostDragon_Fire_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.1"
+    },
+    "Template": {
+      "ObjectName": "PalVisualEffectComponent'Default__BP_GhostDragon_C:VisualEffectComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon.46"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_GhostDragon_Fire_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_GhostDragon_Fire_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.27"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_GhostDragon_Fire_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.25"
+      },
+      "VariableGuid": "2C17D52B-492B8684-87126CAC-9096C8E9",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_GhostDragon_Fire_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_GhostDragon_Fire_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.26"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "RagdollInteractiveSphere",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BP_GhostDragon_Fire_C'Default__BP_GhostDragon_Fire_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.1"
+    },
+    "Template": {
+      "ObjectName": "SphereComponent'Default__BP_GhostDragon_C:RagdollInteractiveSphere'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon.74"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_GhostDragon_Fire_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostDragon/BP_GhostDragon_Fire.3"
+      }
+    }
+  }
+]

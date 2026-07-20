@@ -12,11 +12,11 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_KingSunfish_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.35"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_KingSunfish_C:InheritableComponentHandler'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.4"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.5"
       }
     },
     "SuperStruct": {
@@ -26,6 +26,61 @@
     "ChildProperties": [
       {
         "Type": "ObjectProperty",
+        "Name": "PalBodyPartsSphere2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsSphereComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsSphere1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsSphereComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsSphere",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsSphereComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalFlyMeshHeightCtrl",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalFlyMeshHeightCtrlComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
         "Name": "BP_PalRideMarkerSaddle",
         "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
@@ -33,17 +88,6 @@
         "PropertyClass": {
           "ObjectName": "BlueprintGeneratedClass'BP_PalRideMarkerSaddle_C'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerSaddle.0"
-        }
-      },
-      {
-        "Type": "ObjectProperty",
-        "Name": "Sphere",
-        "Flags": "RF_Public | RF_LoadCompleted",
-        "ElementSize": 8,
-        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
-        "PropertyClass": {
-          "ObjectName": "Class'SphereComponent'",
-          "ObjectPath": "/Script/Engine"
         }
       }
     ],
@@ -75,80 +119,97 @@
     "Properties": {
       "LiftupObjectComponent": {
         "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_KingSunfish_C:Liftup'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.9"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.14"
       },
       "ActionComponent": {
         "ObjectName": "PalActionComponent'Default__BP_KingSunfish_C:ActionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.5"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.6"
       },
       "CharacterParameterComponent": {
         "ObjectName": "PalCharacterParameterComponent'Default__BP_KingSunfish_C:CharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.11"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.16"
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_KingSunfish_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.19"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.24"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_KingSunfish_C:DamageReactionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.12"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.17"
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_KingSunfish_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.20"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.25"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_KingSunfish_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.17"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.22"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_KingSunfish_C:FollowCamera'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.8"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.13"
       },
       "LookAtComponent": {
         "ObjectName": "PalLookAtComponent'Default__BP_KingSunfish_C:LookAtComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.14"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.20"
       },
       "FootIKComponent": {
         "ObjectName": "PalFootIKComponent'Default__BP_KingSunfish_C:FootIKComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.13"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.19"
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_KingSunfish_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.21"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.26"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_KingSunfish_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.16"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.21"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_KingSunfish_C:AnimNotifyComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.6"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.7"
       },
       "AroundInfoCollectorComponent": {
         "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_KingSunfish_C:AroundInfoCollectorComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.7"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.12"
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_KingSunfish_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.28"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.36"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_KingSunfish_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.18"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.23"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_KingSunfish_C:CharMoveComp'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.10"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.15"
       },
       "CapsuleComponent": {
         "ObjectName": "CapsuleComponent'Default__BP_KingSunfish_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.3"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.4"
       },
       "RootComponent": {
         "ObjectName": "CapsuleComponent'Default__BP_KingSunfish_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.3"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.4"
       }
+    }
+  },
+  {
+    "Type": "BP_PalCryComponent_C",
+    "Name": "BP_PalCryComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.BP_PalCryComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingSunfish_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalCryComponent_C'BP_MonsterBase_C:BP_PalCryComponent_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.2"
+    },
+    "Properties": {
+      "CryPalID": "EPalTribeID::Owl"
     }
   },
   {
@@ -203,20 +264,20 @@
       "Records": [
         {
           "ComponentClass": {
-            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-            "ObjectPath": "/Script/Pal"
+            "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
+            "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
           },
           "ComponentTemplate": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_KingSunfish_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.15"
+            "ObjectName": "BP_PalCryComponent_C'BP_KingSunfish_C:BP_PalCryComponent_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.2"
           },
           "ComponentKey": {
             "OwnerClass": {
               "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
               "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
             },
-            "SCSVariableName": "PalPartnerSkillParameter",
-            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
+            "SCSVariableName": "BP_PalCryComponent",
+            "AssociatedGuid": "A971BE27-4B3C10FC-863FA284-ECDC3286"
           },
           "CookedComponentInstancingData": {
             "ChangedPropertyList": [],
@@ -237,7 +298,7 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
     }
   },
   {
@@ -251,7 +312,86 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingSunfish_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 65.0,
+      "CapsuleRadius": 55.0,
+      "RelativeLocation": {
+        "X": 6.1950445E-14,
+        "Y": -0.11005529,
+        "Z": 12.773323
+      },
+      "RelativeRotation": {
+        "Pitch": 1.6461147E-14,
+        "Yaw": -8.04632E-15,
+        "Roll": 6.971731E-07
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsSphereComponent",
+    "Name": "PalBodyPartsSphere1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsSphereComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingSunfish_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.0"
+    },
+    "Properties": {
+      "SphereRadius": 35.0,
+      "RelativeLocation": {
+        "X": 13.0,
+        "Y": -1.0,
+        "Z": 8.881784E-15
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsSphereComponent",
+    "Name": "PalBodyPartsSphere2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsSphereComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingSunfish_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.0"
+    },
+    "Properties": {
+      "SphereRadius": 25.0,
+      "RelativeLocation": {
+        "X": -2.0,
+        "Y": -1.0,
+        "Z": 2.220446E-15
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsSphereComponent",
+    "Name": "PalBodyPartsSphere_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsSphereComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingSunfish_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.0"
+    },
+    "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Weak",
+      "SphereRadius": 35.0,
+      "RelativeLocation": {
+        "X": -1.5543122E-14,
+        "Y": -22.0,
+        "Z": 13.0
+      }
     }
   },
   {
@@ -265,12 +405,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_KingSunfish_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.3"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.4"
       }
     }
   },
@@ -285,12 +425,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_KingSunfish_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.17"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.22"
       }
     }
   },
@@ -305,7 +445,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -319,11 +459,13 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
     },
     "Properties": {
-      "InWaterRate": 1.0,
-      "Buoyancy": 1.0
+      "InWaterRate": 0.68,
+      "GravityScale": 0.8,
+      "JumpZVelocity": 450.0,
+      "Buoyancy": 1.4
     }
   },
   {
@@ -337,7 +479,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -351,7 +493,17 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
+    }
+  },
+  {
+    "Type": "PalFlyMeshHeightCtrlComponent",
+    "Name": "PalFlyMeshHeightCtrl_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalFlyMeshHeightCtrlComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KingSunfish_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.0"
     }
   },
   {
@@ -365,7 +517,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     }
   },
   {
@@ -379,28 +531,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
-    }
-  },
-  {
-    "Type": "PalPartnerSkillParameterComponent",
-    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_KingSunfish_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.0"
-    },
-    "Template": {
-      "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
-    },
-    "Properties": {
-      "RestrictionItems": [
-        {
-          "Key": "SkillUnlock_KingSunfish"
-        }
-      ]
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
     }
   },
   {
@@ -414,7 +545,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -428,12 +559,88 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
+      "WalkCameraArmLength": 400.0,
+      "WalkCameraOffset": {
+        "X": 0.0,
+        "Y": 160.0,
+        "Z": 100.0
+      },
+      "HipShootCameraArmLength": 400.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 160.0,
+        "Z": 100.0
+      },
+      "AimCameraArmLength": 300.0,
+      "AimCameraOffset": {
+        "X": 0.0,
+        "Y": 160.0,
+        "Z": 120.0
+      },
+      "AirCameraArmLength": 400.0,
+      "AirCameraOffset": {
+        "X": 0.0,
+        "Y": 160.0,
+        "Z": 100.0
+      },
+      "AirHipShootCameraArmLength": 400.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 160.0,
+        "Z": 100.0
+      },
+      "AirAimCameraArmLength": 300.0,
+      "AirAimCameraOffset": {
+        "X": 0.0,
+        "Y": 160.0,
+        "Z": 120.0
+      },
+      "FlyCameraOffset": {
+        "X": 0.0,
+        "Y": 160.0,
+        "Z": 100.0
+      },
+      "FlyHipShootCameraArmLength": 400.0,
+      "FlyHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 160.0,
+        "Z": 100.0
+      },
+      "FlyAimCameraArmLength": 300.0,
+      "FlyAimCameraOffset": {
+        "X": 0.0,
+        "Y": 160.0,
+        "Z": 120.0
+      },
+      "bUseWaterCameraParameter": true,
+      "WaterCameraOffset": {
+        "X": 0.0,
+        "Y": 160.0,
+        "Z": 0.0
+      },
+      "WaterHipShootCameraArmLength": 400.0,
+      "WaterHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 160.0,
+        "Z": 0.0
+      },
+      "WaterAimCameraArmLength": 300.0,
+      "WaterAimCameraOffset": {
+        "X": 0.0,
+        "Y": 160.0,
+        "Z": 0.0
+      },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_KingSunfish_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.3"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.4"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 100.0
       }
     }
   },
@@ -448,7 +655,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
       "AnimClass": {
@@ -457,15 +664,15 @@
       },
       "SkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_KingSunfish'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/KingSunfish/SK_KingSunfish"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/KingSunfish/SK_KingSunfish.0"
       },
       "SkinnedAsset": {
         "ObjectName": "SkeletalMesh'SK_KingSunfish'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/KingSunfish/SK_KingSunfish"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/KingSunfish/SK_KingSunfish.0"
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_KingSunfish_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.3"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.4"
       },
       "RelativeLocation": {
         "X": 0.0,
@@ -485,11 +692,16 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 100.0,
       "MeshCapsuleRadius": 45.0,
+      "MeshRelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -100.0
+      },
       "AIActionMap": [
         {
           "Key": "EPalAIActionType::Cooperation",
@@ -497,6 +709,45 @@
             "ObjectName": "BlueprintGeneratedClass'BP_AIActionRideCall_C'",
             "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Coop/BP_AIActionRideCall.0"
           }
+        },
+        {
+          "Key": "EPalAIActionType::Leave",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AIAction_Leave_TurnRun_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Combat/BP_AIAction_Leave_TurnRun.0"
+          }
+        }
+      ],
+      "RandomRestMontageInfos": [
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_KingSunfish_Rest01'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_Rest01.0"
+          },
+          "Weight": 0.5,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 3.0
+        },
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_KingSunfish_Rest02'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_Rest02.0"
+          },
+          "Weight": 0.5,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 3.0
+        },
+        {
+          "RandomRestMontage": {
+            "ObjectName": "AnimMontage'AM_KingSunfish_Eat'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_Eat.0"
+          },
+          "Weight": 0.4,
+          "LoopNum_Min": 1,
+          "LoopNum_Max": 1,
+          "AfterIdleTime": 4.0
         }
       ],
       "GeneralMontageMap": [
@@ -504,63 +755,77 @@
           "Key": "EPalGeneralMontageType::GeneralAttackReady_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingSunfish_FarSkill_Start'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_FarSkill_Start"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_FarSkill_Start.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackReadyLoop_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingSunfish_FarSkill_StartLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_FarSkill_StartLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_FarSkill_StartLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackProcess_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingSunfish_FarSkill_Action'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_FarSkill_Action"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_FarSkill_Action.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackProcessLoop_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingSunfish_FarSkill_ActionLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_FarSkill_ActionLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_FarSkill_ActionLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackAfter_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingSunfish_FarSkill_End'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_FarSkill_End"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_FarSkill_End.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepStart",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingSunfish_SleepStart'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_SleepStart"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_SleepStart.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepLoop",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingSunfish_SleepLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_SleepLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_SleepLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepEnd",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingSunfish_SleepEnd'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_SleepEnd"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_SleepEnd.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::DamageAdditive",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingSunfish_Hit'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_Hit"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_Hit.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::BeLiftupStart",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_KingSunfish_Carrying'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_Carrying.0"
+          }
+        },
+        {
+          "Key": "EPalGeneralMontageType::BeLiftupLoop",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_KingSunfish_Carrying'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_Carrying.0"
           }
         }
       ],
@@ -592,84 +857,198 @@
           "Key": "EPalActionType::Menace",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingSunfish_Encount'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_Encount"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_Encount.0"
           }
         },
         {
           "Key": "EPalActionType::Eat",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingSunfish_Eat'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_Eat"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_Eat.0"
           }
         },
         {
           "Key": "EPalActionType::KnockBack",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingSunfish_Damage'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_Damage"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_Damage.0"
           }
         },
         {
           "Key": "EPalActionType::ForwardWalk",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingSunfish_Walk'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_Walk"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_Walk.0"
           }
         },
         {
           "Key": "EPalActionType::GetupUtubuse_orRight",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingSunfish_GetUp_RightDown'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_GetUp_RightDown"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_GetUp_RightDown.0"
           }
         },
         {
           "Key": "EPalActionType::GetupAomuke_orRight",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingSunfish_GetUp_LeftDown'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_GetUp_LeftDown"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_GetUp_LeftDown.0"
           }
         },
         {
           "Key": "EPalActionType::PalPetting",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingSunfish_Petting'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_Petting"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_Petting.0"
           }
         },
         {
-          "Key": "EPalActionType::IdleInSpa",
+          "Key": "EPalActionType::FishingCaught_Jump",
           "Value": {
-            "ObjectName": "AnimMontage'AM_KingSunfish_Spa'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_Spa"
+            "ObjectName": "AnimMontage'AM_KingSunfish_Walk'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_Walk.0"
           }
         },
         {
           "Key": "EPalActionType::ElectricShock",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingSunfish_ElectricShock'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_ElectricShock"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_ElectricShock.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::IdleInSpa",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_KingSunfish_Spa'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_Spa.0"
           }
         },
         {
           "Key": "EPalActionType::Watering",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingSunfish_Watering'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_Watering"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_Watering.0"
           }
         },
         {
           "Key": "EPalActionType::FishingCaught",
           "Value": {
             "ObjectName": "AnimMontage'AM_KingSunfish_FishingCaught'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_FishingCaught"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_FishingCaught.0"
           }
         }
       ],
+      "ElectricActionInfo": {
+        "StartLoopOverwrite": {
+          "ObjectName": "AnimMontage'AM_KingSunfish_FarSkill_StartLoop'",
+          "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_FarSkill_StartLoop.0"
+        },
+        "LoopContinueSeconds": 14.0
+      },
+      "SleepOnSideInfoMapForMapObject": [
+        {
+          "Key": {
+            "Key": "MedicalPalBed_02"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -50.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 120.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_03"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -50.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 120.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_04"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": -30.0,
+              "Y": 60.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 150.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_05"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        }
+      ],
+      "SleepOnSideAnimMontage": {
+        "ObjectName": "AnimMontage'AM_KingSunfish_SleepLoopTogether'",
+        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/KingSunfish/AM_KingSunfish_SleepLoopTogether.0"
+      },
+      "HPGaugeUIOffset": {
+        "X": 30.0,
+        "Y": 40.0
+      },
+      "MovementType": "EPalMonsterMovementType::Swim",
       "IsBackWalkForwardAnime": true,
+      "GetupMotion_UtubuseOrRight_0FramePelvisLocation": {
+        "X": -18.460981,
+        "Y": 0.087307,
+        "Z": 35.70584
+      },
+      "GetupMotion_AomukeOrLeft_0FramePelvisLocation": {
+        "X": 18.460981,
+        "Y": 0.087307,
+        "Z": 35.70584
+      },
+      "Ragdoll_RightLeftGetup_ForwardTailName": "head",
+      "Ragdoll_RightLeftGetup_RightLegName": "finD_01_r",
       "PettingSize": "EPalPettingSizeType::Medium",
       "PettingDistance": 130.0,
       "PettingCameraCenterDistance_Override": 30.0,
+      "FishingCaughtJumpRotatorOffset": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      },
       "FishingSize": "EPalSizeType::M",
       "FishingPlayerMotionType": "EPalFishingPlayerMotionType::M1"
     }
@@ -685,7 +1064,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     }
   },
   {
@@ -699,7 +1078,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -719,7 +1098,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_KingSunfish_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -728,35 +1107,10 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_KingSunfish_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.27"
       },
       "VariableGuid": "F6DDEE27-4C3EF1F6-CBEF6BA6-C98BF5D7",
       "InternalVariableName": "DefaultSceneRoot"
-    }
-  },
-  {
-    "Type": "SCS_Node",
-    "Name": "SCS_Node_1",
-    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
-    "Class": "UScriptClass'SCS_Node'",
-    "Outer": {
-      "ObjectName": "SimpleConstructionScript'BP_KingSunfish_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.26"
-    },
-    "Properties": {
-      "ComponentClass": {
-        "ObjectName": "Class'SphereComponent'",
-        "ObjectPath": "/Script/Engine"
-      },
-      "ComponentTemplate": {
-        "ObjectName": "SphereComponent'BP_KingSunfish_C:Sphere_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.27"
-      },
-      "AttachToName": "head",
-      "ParentComponentOrVariableName": "CharacterMesh0",
-      "bIsParentComponentNative": true,
-      "VariableGuid": "4BA80ABF-42E71EF6-115DEC8B-6B8D876D",
-      "InternalVariableName": "Sphere"
     }
   },
   {
@@ -766,7 +1120,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_KingSunfish_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -775,13 +1129,135 @@
       },
       "ComponentTemplate": {
         "ObjectName": "BP_PalRideMarkerSaddle_C'BP_KingSunfish_C:BP_PalRideMarkerSaddle_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.3"
       },
       "AttachToName": "spine",
       "ParentComponentOrVariableName": "CharacterMesh0",
       "bIsParentComponentNative": true,
       "VariableGuid": "FE80FD98-49C3F75C-FC0F36BF-8628C32E",
       "InternalVariableName": "BP_PalRideMarkerSaddle"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_KingSunfish_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalFlyMeshHeightCtrlComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalFlyMeshHeightCtrlComponent'BP_KingSunfish_C:PalFlyMeshHeightCtrl_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.18"
+      },
+      "VariableGuid": "42D64638-4E876526-6C4650A2-D66E00AA",
+      "InternalVariableName": "PalFlyMeshHeightCtrl"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_KingSunfish_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_KingSunfish_C:PalBodyPartsCapsule_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.8"
+      },
+      "AttachToName": "pelvis",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "29FA46F1-467AD84C-13367181-3EDFFA26",
+      "InternalVariableName": "PalBodyPartsCapsule"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_KingSunfish_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsSphereComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsSphereComponent'BP_KingSunfish_C:PalBodyPartsSphere_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.11"
+      },
+      "AttachToName": "head",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "0EBB0539-41509C34-0BD1B7BA-245A1769",
+      "InternalVariableName": "PalBodyPartsSphere"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_KingSunfish_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsSphereComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsSphereComponent'BP_KingSunfish_C:PalBodyPartsSphere1_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.9"
+      },
+      "AttachToName": "hairB_02",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "93CBE09A-42A2635F-77506AAD-5BA9FB17",
+      "InternalVariableName": "PalBodyPartsSphere1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_KingSunfish_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsSphereComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsSphereComponent'BP_KingSunfish_C:PalBodyPartsSphere2_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.10"
+      },
+      "AttachToName": "finF_02_01",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "FCD37EC7-4147C046-6DB6E59D-37C241CA",
+      "InternalVariableName": "PalBodyPartsSphere2"
     }
   },
   {
@@ -796,50 +1272,59 @@
     "Properties": {
       "RootNodes": [
         {
-          "ObjectName": "SCS_Node'BP_KingSunfish_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.24"
+          "ObjectName": "SCS_Node'BP_KingSunfish_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.29"
         },
         {
-          "ObjectName": "SCS_Node'BP_KingSunfish_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.25"
+          "ObjectName": "SCS_Node'BP_KingSunfish_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingSunfish_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingSunfish_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingSunfish_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingSunfish_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.34"
         }
       ],
       "AllNodes": [
         {
-          "ObjectName": "SCS_Node'BP_KingSunfish_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.24"
+          "ObjectName": "SCS_Node'BP_KingSunfish_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.29"
         },
         {
-          "ObjectName": "SCS_Node'BP_KingSunfish_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.25"
+          "ObjectName": "SCS_Node'BP_KingSunfish_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingSunfish_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingSunfish_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingSunfish_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_KingSunfish_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.34"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_KingSunfish_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.23"
-      }
-    }
-  },
-  {
-    "Type": "SphereComponent",
-    "Name": "Sphere_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-    "Class": "UScriptClass'SphereComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_KingSunfish_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.0"
-    },
-    "Properties": {
-      "SphereRadius": 50.0,
-      "RelativeLocation": {
-        "X": 1.0615293E-14,
-        "Y": -1.6823736E-14,
-        "Z": 0.12266221
-      },
-      "RelativeRotation": {
-        "Pitch": 1.41245E-30,
-        "Yaw": 90.0,
-        "Roll": 0.0
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.28"
       }
     }
   },
@@ -854,12 +1339,12 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_KingSunfish_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.3"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingSunfish/BP_KingSunfish.4"
       }
     }
   }

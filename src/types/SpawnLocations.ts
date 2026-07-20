@@ -3,11 +3,11 @@ export type SpawnData = Partial<
         string,
         {
             dayTimeLocations: {
-                locations: { X: number; Y: number; Z: number }[];
+                Locations: { X: number; Y: number; Z: number }[];
                 Radius: number;
             };
             nightTimeLocations: {
-                locations: { X: number; Y: number; Z: number }[];
+                Locations: { X: number; Y: number; Z: number }[];
                 Radius: number;
             };
         }

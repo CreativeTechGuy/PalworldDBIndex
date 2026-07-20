@@ -41,7 +41,7 @@
   {
     "Type": "BP_ScorpionMan_Electric_BOSS_C",
     "Name": "Default__BP_ScorpionMan_Electric_BOSS_C",
-    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ScorpionMan/BP_ScorpionMan_Electric_BOSS.BP_ScorpionMan_Electric_BOSS_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ScorpionMan/BP_ScorpionMan_Electric_BOSS",
     "Template": {
@@ -163,6 +163,24 @@
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_ScorpionMan_BOSS_C:ActionComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ScorpionMan/BP_ScorpionMan_BOSS.4"
+    },
+    "Properties": {
+      "ActionMap": [
+        {
+          "Key": "EPalActionType::EPalActionType_MAX",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_ActionEatOneshot_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Action/Common/BP_ActionEatOneshot.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::PartnerSkill",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_Action_Coop_StatusUp_ToPlayer_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Action/MonsterCoop/BP_Action_Coop_StatusUp_ToPlayer.0"
+          }
+        }
+      ]
     }
   },
   {
@@ -353,11 +371,11 @@
     "Properties": {
       "SkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_ScorpionMan_Electric'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/ScorpionMan_Electric/SK_ScorpionMan_Electric"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/ScorpionMan_Electric/SK_ScorpionMan_Electric.0"
       },
       "SkinnedAsset": {
         "ObjectName": "SkeletalMesh'SK_ScorpionMan_Electric'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/ScorpionMan_Electric/SK_ScorpionMan_Electric"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/ScorpionMan_Electric/SK_ScorpionMan_Electric.0"
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_ScorpionMan_Electric_BOSS_C:CollisionCylinder'",
@@ -377,6 +395,21 @@
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_ScorpionMan_BOSS_C:StaticCharacterParameterComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ScorpionMan/BP_ScorpionMan_BOSS.17"
+    },
+    "Properties": {
+      "AIActionMap": [
+        {
+          "Key": "EPalAIActionType::Cooperation",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AIActionCoop_StatusUp_ScorpionMan_Electric_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Coop/BP_AIActionCoop_StatusUp_ScorpionMan_Electric.0"
+          }
+        }
+      ],
+      "HPGaugeUIOffset": {
+        "X": 50.0,
+        "Y": -170.0
+      }
     }
   },
   {

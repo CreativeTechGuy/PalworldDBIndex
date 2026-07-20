@@ -41,7 +41,7 @@
   {
     "Type": "BP_HadesBird_Electric_BOSS_C",
     "Name": "Default__BP_HadesBird_Electric_BOSS_C",
-    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Electric_BOSS.BP_HadesBird_Electric_BOSS_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Electric_BOSS",
     "Template": {
@@ -314,7 +314,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_HadesBird_Electric_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Electric.15"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Electric.14"
     }
   },
   {
@@ -328,9 +328,63 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_HadesBird_Electric_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Electric.16"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Electric.15"
     },
     "Properties": {
+      "WalkCameraArmLength": 500.0,
+      "WalkCameraOffset": {
+        "X": 0.0,
+        "Y": 140.0,
+        "Z": 220.0
+      },
+      "HipShootCameraArmLength": 500.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 140.0,
+        "Z": 220.0
+      },
+      "AimCameraArmLength": 300.0,
+      "AimCameraOffset": {
+        "X": 0.0,
+        "Y": 100.0,
+        "Z": 220.0
+      },
+      "AirCameraArmLength": 500.0,
+      "AirCameraOffset": {
+        "X": 0.0,
+        "Y": 140.0,
+        "Z": 220.0
+      },
+      "AirHipShootCameraArmLength": 500.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 140.0,
+        "Z": 220.0
+      },
+      "AirAimCameraArmLength": 300.0,
+      "AirAimCameraOffset": {
+        "X": 0.0,
+        "Y": 100.0,
+        "Z": 220.0
+      },
+      "FlyCameraArmLength": 500.0,
+      "FlyCameraOffset": {
+        "X": 0.0,
+        "Y": 140.0,
+        "Z": 220.0
+      },
+      "FlyHipShootCameraArmLength": 500.0,
+      "FlyHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 140.0,
+        "Z": 220.0
+      },
+      "FlyAimCameraArmLength": 300.0,
+      "FlyAimCameraOffset": {
+        "X": 0.0,
+        "Y": 100.0,
+        "Z": 200.0
+      },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_HadesBird_Electric_BOSS_C:CollisionCylinder'",
         "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Electric_BOSS.2"
@@ -338,7 +392,7 @@
       "RelativeLocation": {
         "X": 0.0,
         "Y": 0.0,
-        "Z": 374.70593
+        "Z": 270.0
       }
     }
   },
@@ -353,17 +407,12 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_HadesBird_Electric_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Electric.17"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Electric.16"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_HadesBird_Electric_BOSS_C:CollisionCylinder'",
         "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Electric_BOSS.2"
-      },
-      "RelativeLocation": {
-        "X": 4.0779167E-07,
-        "Y": 8.210264E-15,
-        "Z": -29.999987
       },
       "RelativeScale3D": {
         "X": 1.45,
@@ -383,7 +432,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_HadesBird_Electric_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Electric.18"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Electric.17"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 290.0,
@@ -433,7 +482,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_HadesBird_Electric_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Electric.19"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Electric.18"
     }
   },
   {
@@ -447,7 +496,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_HadesBird_Electric_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Electric.20"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Electric.19"
     }
   },
   {
@@ -509,7 +558,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_HadesBird_Electric_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Electric.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/HadesBird/BP_HadesBird_Electric.23"
     },
     "Properties": {
       "AttachParent": {

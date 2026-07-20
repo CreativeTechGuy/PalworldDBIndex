@@ -345,7 +345,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_LazyDragon_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.23"
     }
   },
   {
@@ -359,7 +359,7 @@
     },
     "Template": {
       "ObjectName": "PalRideMarkerComponent'BP_LazyDragon_C:PalRideMarker_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.24"
     },
     "Properties": {
       "RelativeLocation": {
@@ -385,32 +385,44 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_LazyDragon_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.26"
     },
     "Properties": {
-      "WalkCameraArmLength": 1400.0,
+      "WalkCameraArmLength": 1000.0,
       "WalkCameraOffset": {
         "X": 0.0,
-        "Y": 230.0,
-        "Z": 220.0
+        "Y": 300.0,
+        "Z": 250.0
       },
-      "AimCameraArmLength": 350.0,
+      "HipShootCameraArmLength": 1000.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 300.0,
+        "Z": 250.0
+      },
+      "AimCameraArmLength": 750.0,
       "AimCameraOffset": {
         "X": 0.0,
-        "Y": 130.0,
-        "Z": 280.0
+        "Y": 300.0,
+        "Z": 300.0
       },
-      "AirCameraArmLength": 1400.0,
+      "AirCameraArmLength": 1000.0,
       "AirCameraOffset": {
         "X": 0.0,
-        "Y": 230.0,
-        "Z": 220.0
+        "Y": 300.0,
+        "Z": 250.0
       },
-      "AirAimCameraArmLength": 350.0,
+      "AirHipShootCameraArmLength": 1000.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 300.0,
+        "Z": 250.0
+      },
+      "AirAimCameraArmLength": 750.0,
       "AirAimCameraOffset": {
         "X": 0.0,
-        "Y": 130.0,
-        "Z": 280.0
+        "Y": 300.0,
+        "Z": 300.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_LazyDragon_BOSS_C:CollisionCylinder'",
@@ -434,7 +446,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_LazyDragon_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.27"
     },
     "Properties": {
       "AttachParent": {
@@ -459,7 +471,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_LazyDragon_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.29"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 320.0,
@@ -543,7 +555,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_LazyDragon_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.31"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.30"
     }
   },
   {
@@ -557,7 +569,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_LazyDragon_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.32"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.31"
     }
   },
   {
@@ -619,7 +631,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_LazyDragon_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LazyDragon/BP_LazyDragon.41"
     },
     "Properties": {
       "AttachParent": {

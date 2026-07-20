@@ -12,7 +12,7 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_JetDragon_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.50"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.49"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_JetDragon_C:InheritableComponentHandler'",
@@ -209,7 +209,7 @@
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_JetDragon_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.33"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.32"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_JetDragon_C:DamageReactionComponent'",
@@ -217,11 +217,11 @@
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_JetDragon_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.34"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.33"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_JetDragon_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.30"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.29"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_JetDragon_C:FollowCamera'",
@@ -237,11 +237,11 @@
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_JetDragon_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.35"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.34"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_JetDragon_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.27"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.26"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_JetDragon_C:AnimNotifyComponent'",
@@ -253,11 +253,11 @@
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_JetDragon_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.51"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.50"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_JetDragon_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.31"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.30"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_JetDragon_C:CharMoveComp'",
@@ -358,11 +358,11 @@
     },
     "Super": {
       "ObjectName": "Function'BP_MonsterBase_C:GetVisual_ExceptMainMesh_SyncAnyway'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.15"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.16"
     },
     "SuperStruct": {
       "ObjectName": "Function'BP_MonsterBase_C:GetVisual_ExceptMainMesh_SyncAnyway'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.15"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.16"
     },
     "ChildProperties": [
       {
@@ -423,20 +423,20 @@
       "Records": [
         {
           "ComponentClass": {
-            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-            "ObjectPath": "/Script/Pal"
+            "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
+            "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
           },
           "ComponentTemplate": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_JetDragon_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.26"
+            "ObjectName": "BP_PalCryComponent_C'BP_JetDragon_C:BP_PalCryComponent_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.2"
           },
           "ComponentKey": {
             "OwnerClass": {
               "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
               "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
             },
-            "SCSVariableName": "PalPartnerSkillParameter",
-            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
+            "SCSVariableName": "BP_PalCryComponent",
+            "AssociatedGuid": "A971BE27-4B3C10FC-863FA284-ECDC3286"
           },
           "CookedComponentInstancingData": {
             "ChangedPropertyList": [],
@@ -459,28 +459,6 @@
             },
             "SCSVariableName": "BP_InteractableSphere",
             "AssociatedGuid": "E1723F2E-426F1652-C58C1AA3-7D95233B"
-          },
-          "CookedComponentInstancingData": {
-            "ChangedPropertyList": [],
-            "bHasValidCookedData": false
-          }
-        },
-        {
-          "ComponentClass": {
-            "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
-            "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
-          },
-          "ComponentTemplate": {
-            "ObjectName": "BP_PalCryComponent_C'BP_JetDragon_C:BP_PalCryComponent_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.2"
-          },
-          "ComponentKey": {
-            "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-            },
-            "SCSVariableName": "BP_PalCryComponent",
-            "AssociatedGuid": "A971BE27-4B3C10FC-863FA284-ECDC3286"
           },
           "CookedComponentInstancingData": {
             "ChangedPropertyList": [],
@@ -819,7 +797,7 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
     }
   },
   {
@@ -833,7 +811,7 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
     }
   },
   {
@@ -1037,7 +1015,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
@@ -1057,12 +1035,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_JetDragon_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.30"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.29"
       }
     }
   },
@@ -1077,7 +1055,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -1091,7 +1069,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
     },
     "Properties": {
       "HoveringWaterEffectParameter": {
@@ -1114,7 +1092,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -1128,7 +1106,7 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
     }
   },
   {
@@ -1152,7 +1130,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     }
   },
   {
@@ -1166,7 +1144,7 @@
     },
     "Template": {
       "ObjectName": "PalInteractableSphereComponentNative'BP_MonsterBase_C:BP_InteractableSphere_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
     },
     "Properties": {
       "RelativeLocation": {
@@ -1192,37 +1170,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
-    }
-  },
-  {
-    "Type": "PalPartnerSkillParameterComponent",
-    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_JetDragon_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.0"
-    },
-    "Template": {
-      "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
-    },
-    "Properties": {
-      "RestrictionItems": [
-        {
-          "Key": "SkillUnlock_JetDragon"
-        }
-      ],
-      "SkillName": "UniqueRideShooting_JetMissile",
-      "ActiveSkill_MainValue_Overview_EditorOnly": "威力",
-      "ActiveSkill_MainValueByRank": [
-        13.0,
-        14.3,
-        16.9,
-        20.9,
-        26.0
-      ]
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
     }
   },
   {
@@ -1236,7 +1184,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -1302,7 +1250,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
       "WalkCameraArmLength": 1100.0,
@@ -1369,7 +1317,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
       "AnimClass": {
@@ -1435,7 +1383,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 180.0,
@@ -1451,6 +1399,13 @@
           "Value": {
             "ObjectName": "BlueprintGeneratedClass'BP_AIActionRideCall_C'",
             "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Coop/BP_AIActionRideCall.0"
+          }
+        },
+        {
+          "Key": "EPalAIActionType::Leave",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AIAction_Leave_TurnRun_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Combat/BP_AIAction_Leave_TurnRun.0"
           }
         }
       ],
@@ -1651,8 +1606,8 @@
         {
           "Key": "EPalActionType::CommonWork",
           "Value": {
-            "ObjectName": "AnimMontage'AM_JetDragon_Eat'",
-            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/JetDragon/AM_JetDragon_Eat.0"
+            "ObjectName": "AnimMontage'AM_JetDragon_CommonWork'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/JetDragon/AM_JetDragon_CommonWork.0"
           }
         },
         {
@@ -1706,7 +1661,7 @@
           "Value": {
             "Effect": {
               "ObjectName": "NiagaraSystem'NS_InWaterFlyingPal'",
-              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_InWaterFlyingPal.30"
+              "ObjectPath": "Pal/Content/Pal/Effect/Common/Swim/SwimPal/NS_InWaterFlyingPal.24"
             },
             "Offset": {
               "X": 0.0,
@@ -1730,7 +1685,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     }
   },
   {
@@ -1744,7 +1699,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -1764,7 +1719,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_JetDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -1773,7 +1728,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_JetDragon_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.36"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.35"
       },
       "VariableGuid": "C47E648B-495EFB4F-6FBFA4AE-AEAF4880",
       "InternalVariableName": "DefaultSceneRoot"
@@ -1786,7 +1741,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_JetDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -1808,7 +1763,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_JetDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -1833,7 +1788,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_JetDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -1842,7 +1797,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalSpeedCollisionComponent'BP_JetDragon_C:PalSpeedCollision_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.32"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.31"
       },
       "ParentComponentOrVariableName": "CollisionCylinder",
       "bIsParentComponentNative": true,
@@ -1857,7 +1812,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_JetDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -1866,7 +1821,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalShooterComponent'BP_JetDragon_C:PalShooter_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.29"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.28"
       },
       "VariableGuid": "83A987D4-4F661C8B-78EF0CAD-C3FB804B",
       "InternalVariableName": "PalShooter"
@@ -1879,7 +1834,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_JetDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -1903,7 +1858,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_JetDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -1928,7 +1883,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_JetDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -1937,7 +1892,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalRideMarkerComponent'BP_JetDragon_C:PalRideMarker_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.28"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.27"
       },
       "AttachToName": "spine_01",
       "ParentComponentOrVariableName": "CharacterMesh0",
@@ -1953,7 +1908,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_JetDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -1978,7 +1933,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_JetDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -2003,7 +1958,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_JetDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -2028,7 +1983,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_JetDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -2053,7 +2008,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_JetDragon_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.49"
     },
     "Properties": {
       "ComponentClass": {
@@ -2084,106 +2039,106 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.44"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.38"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.42"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_3'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.43"
         },
         {
+          "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.42"
+        },
+        {
           "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_5'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.45"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.44"
         },
         {
           "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_6'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.46"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.45"
         },
         {
           "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_7'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.47"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.46"
         },
         {
           "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_8'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.48"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.47"
         },
         {
           "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_9'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.49"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.48"
         },
         {
           "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_10'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.39"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.38"
         },
         {
           "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_11'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.40"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.39"
         },
         {
           "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_12'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.41"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.40"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_4'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.44"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.38"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.42"
-        },
-        {
-          "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_3'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.43"
         },
         {
+          "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.42"
+        },
+        {
           "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_5'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.45"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.44"
         },
         {
           "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_6'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.46"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.45"
         },
         {
           "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_7'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.47"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.46"
         },
         {
           "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_8'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.48"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.47"
         },
         {
           "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_9'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.49"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.48"
         },
         {
           "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_10'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.39"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.38"
         },
         {
           "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_11'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.40"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.39"
         },
         {
           "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_12'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.41"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.40"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_JetDragon_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.37"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/JetDragon/BP_JetDragon.36"
       }
     }
   },
@@ -2198,7 +2153,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {

@@ -41,7 +41,7 @@
   {
     "Type": "BP_Garm_BOSS_C",
     "Name": "Default__BP_Garm_BOSS_C",
-    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Garm/BP_Garm_BOSS.BP_Garm_BOSS_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Garm/BP_Garm_BOSS",
     "Template": {
@@ -210,6 +210,21 @@
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_Garm_C:ActionComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Garm/BP_Garm.6"
+    },
+    "Properties": {
+      "ActionMap": [
+        {
+          "Key": "EPalActionType::EPalActionType_MAX",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_ActionEatOneshot_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Action/Common/BP_ActionEatOneshot.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::SpawnItem",
+          "Value": null
+        }
+      ]
     }
   },
   {
@@ -361,7 +376,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_Garm_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Garm/BP_Garm.20"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Garm/BP_Garm.19"
     }
   },
   {
@@ -375,32 +390,44 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_Garm_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Garm/BP_Garm.21"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Garm/BP_Garm.20"
     },
     "Properties": {
-      "WalkCameraArmLength": 570.0,
+      "WalkCameraArmLength": 300.0,
       "WalkCameraOffset": {
         "X": 0.0,
         "Y": 100.0,
-        "Z": 40.0
+        "Z": 0.0
       },
-      "AimCameraArmLength": 175.0,
+      "HipShootCameraArmLength": 300.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 100.0,
+        "Z": 0.0
+      },
+      "AimCameraArmLength": 250.0,
       "AimCameraOffset": {
         "X": 0.0,
-        "Y": 52.0,
-        "Z": 27.0
+        "Y": 120.0,
+        "Z": 50.0
       },
-      "AirCameraArmLength": 570.0,
+      "AirCameraArmLength": 300.0,
       "AirCameraOffset": {
         "X": 0.0,
         "Y": 100.0,
-        "Z": 40.0
+        "Z": 0.0
       },
-      "AirAimCameraArmLength": 175.0,
+      "AirHipShootCameraArmLength": 300.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 100.0,
+        "Z": 0.0
+      },
+      "AirAimCameraArmLength": 250.0,
       "AirAimCameraOffset": {
         "X": 0.0,
-        "Y": 52.0,
-        "Z": 27.0
+        "Y": 120.0,
+        "Z": 50.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_Garm_BOSS_C:CollisionCylinder'",
@@ -424,7 +451,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_Garm_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Garm/BP_Garm.22"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Garm/BP_Garm.21"
     },
     "Properties": {
       "AttachParent": {
@@ -449,7 +476,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_Garm_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Garm/BP_Garm.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Garm/BP_Garm.22"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 110.0,
@@ -537,7 +564,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_Garm_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Garm/BP_Garm.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Garm/BP_Garm.23"
     }
   },
   {
@@ -551,7 +578,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_Garm_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Garm/BP_Garm.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Garm/BP_Garm.24"
     }
   },
   {
@@ -613,7 +640,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_Garm_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Garm/BP_Garm.32"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Garm/BP_Garm.31"
     },
     "Properties": {
       "AttachParent": {

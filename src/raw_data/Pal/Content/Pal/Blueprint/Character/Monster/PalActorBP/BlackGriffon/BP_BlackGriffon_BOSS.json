@@ -356,7 +356,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_BlackGriffon_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackGriffon/BP_BlackGriffon.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackGriffon/BP_BlackGriffon.22"
     }
   },
   {
@@ -370,44 +370,62 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_BlackGriffon_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackGriffon/BP_BlackGriffon.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackGriffon/BP_BlackGriffon.23"
     },
     "Properties": {
-      "WalkCameraArmLength": 1000.0,
+      "WalkCameraArmLength": 750.0,
       "WalkCameraOffset": {
-        "X": 100.0,
-        "Y": 140.0,
-        "Z": 150.0
+        "X": 0.0,
+        "Y": 120.0,
+        "Z": 250.0
       },
-      "AimCameraArmLength": 450.0,
+      "HipShootCameraArmLength": 750.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 120.0,
+        "Z": 250.0
+      },
+      "AimCameraArmLength": 500.0,
       "AimCameraOffset": {
-        "X": 70.0,
+        "X": 0.0,
         "Y": 100.0,
-        "Z": 130.0
+        "Z": 250.0
       },
-      "AirCameraArmLength": 1000.0,
+      "AirCameraArmLength": 750.0,
       "AirCameraOffset": {
-        "X": 100.0,
-        "Y": 140.0,
-        "Z": 150.0
+        "X": 0.0,
+        "Y": 120.0,
+        "Z": 250.0
       },
-      "AirAimCameraArmLength": 450.0,
+      "AirHipShootCameraArmLength": 750.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 120.0,
+        "Z": 250.0
+      },
+      "AirAimCameraArmLength": 500.0,
       "AirAimCameraOffset": {
-        "X": 70.0,
+        "X": 0.0,
         "Y": 100.0,
-        "Z": 130.0
+        "Z": 250.0
       },
-      "FlyCameraArmLength": 1000.0,
+      "FlyCameraArmLength": 750.0,
       "FlyCameraOffset": {
-        "X": 100.0,
-        "Y": 140.0,
-        "Z": 300.0
+        "X": 0.0,
+        "Y": 120.0,
+        "Z": 250.0
       },
-      "FlyAimCameraArmLength": 450.0,
+      "FlyHipShootCameraArmLength": 750.0,
+      "FlyHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 120.0,
+        "Z": 250.0
+      },
+      "FlyAimCameraArmLength": 500.0,
       "FlyAimCameraOffset": {
-        "X": 70.0,
+        "X": 0.0,
         "Y": 100.0,
-        "Z": 270.0
+        "Z": 250.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_BlackGriffon_BOSS_C:CollisionCylinder'",
@@ -431,7 +449,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_BlackGriffon_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackGriffon/BP_BlackGriffon.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackGriffon/BP_BlackGriffon.24"
     },
     "Properties": {
       "AttachParent": {
@@ -456,7 +474,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_BlackGriffon_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackGriffon/BP_BlackGriffon.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackGriffon/BP_BlackGriffon.26"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 180.0,
@@ -544,7 +562,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_BlackGriffon_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackGriffon/BP_BlackGriffon.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackGriffon/BP_BlackGriffon.27"
     }
   },
   {
@@ -558,7 +576,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_BlackGriffon_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackGriffon/BP_BlackGriffon.29"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackGriffon/BP_BlackGriffon.28"
     }
   },
   {
@@ -657,7 +675,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_BlackGriffon_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackGriffon/BP_BlackGriffon.40"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlackGriffon/BP_BlackGriffon.39"
     },
     "Properties": {
       "AttachParent": {

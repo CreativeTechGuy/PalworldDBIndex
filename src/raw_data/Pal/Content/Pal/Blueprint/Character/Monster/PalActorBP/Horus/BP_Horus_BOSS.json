@@ -41,7 +41,7 @@
   {
     "Type": "BP_Horus_BOSS_C",
     "Name": "Default__BP_Horus_BOSS_C",
-    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_BOSS.BP_Horus_BOSS_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_BOSS",
     "Template": {
@@ -361,7 +361,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_Horus_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.23"
     }
   },
   {
@@ -375,44 +375,62 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_Horus_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.24"
     },
     "Properties": {
-      "WalkCameraArmLength": 1300.0,
+      "WalkCameraArmLength": 700.0,
       "WalkCameraOffset": {
         "X": 0.0,
-        "Y": 200.0,
-        "Z": 420.0
+        "Y": 180.0,
+        "Z": 350.0
       },
-      "AimCameraArmLength": 255.0,
+      "HipShootCameraArmLength": 700.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 180.0,
+        "Z": 350.0
+      },
+      "AimCameraArmLength": 450.0,
       "AimCameraOffset": {
-        "X": 90.0,
-        "Y": 50.0,
-        "Z": 365.0
+        "X": 0.0,
+        "Y": 180.0,
+        "Z": 400.0
       },
-      "AirCameraArmLength": 1300.0,
+      "AirCameraArmLength": 700.0,
       "AirCameraOffset": {
         "X": 0.0,
-        "Y": 200.0,
-        "Z": 420.0
+        "Y": 180.0,
+        "Z": 350.0
       },
-      "AirAimCameraArmLength": 255.0,
+      "AirHipShootCameraArmLength": 700.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 180.0,
+        "Z": 350.0
+      },
+      "AirAimCameraArmLength": 500.0,
       "AirAimCameraOffset": {
-        "X": 90.0,
-        "Y": 50.0,
-        "Z": 365.0
+        "X": 0.0,
+        "Y": 180.0,
+        "Z": 350.0
       },
-      "FlyCameraArmLength": 1300.0,
+      "FlyCameraArmLength": 700.0,
       "FlyCameraOffset": {
         "X": 0.0,
-        "Y": 200.0,
-        "Z": 420.0
+        "Y": 180.0,
+        "Z": 350.0
       },
-      "FlyAimCameraArmLength": 255.0,
+      "FlyHipShootCameraArmLength": 700.0,
+      "FlyHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 180.0,
+        "Z": 350.0
+      },
+      "FlyAimCameraArmLength": 500.0,
       "FlyAimCameraOffset": {
-        "X": 90.0,
-        "Y": 50.0,
-        "Z": 365.0
+        "X": 0.0,
+        "Y": 180.0,
+        "Z": 350.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_Horus_BOSS_C:CollisionCylinder'",
@@ -436,7 +454,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_Horus_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.25"
     },
     "Properties": {
       "AttachParent": {
@@ -461,7 +479,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_Horus_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.27"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 435.0,
@@ -548,7 +566,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_Horus_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.29"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.28"
     }
   },
   {
@@ -562,7 +580,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_Horus_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.29"
     }
   },
   {
@@ -624,7 +642,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_Horus_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.43"
     },
     "Properties": {
       "AttachParent": {

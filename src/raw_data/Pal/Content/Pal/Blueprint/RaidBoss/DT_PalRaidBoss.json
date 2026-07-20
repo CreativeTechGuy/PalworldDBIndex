@@ -24,7 +24,7 @@
             "PalId": {
               "Key": "RAID_NightLady"
             },
-            "Level": 30,
+            "Level": 35,
             "WarpWazaID": "EPalWazaID::Unique_NightLady_WarpBeam_Straight",
             "BaseCampAttackWazaIDs": [
               "EPalWazaID::Unique_NightLady_WarpBeam_Straight"
@@ -61,19 +61,11 @@
         "SuccessItemList": [
           {
             "ItemName": {
-              "Key": "Accessory_HeatColdResist_2"
+              "Key": "SkillCard_Apocalypse"
             },
             "Rate": 100.0,
             "Min": 1,
             "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "ExpBoost_04"
-            },
-            "Rate": 100.0,
-            "Min": 1,
-            "Max": 3
           },
           {
             "ItemName": {
@@ -81,25 +73,33 @@
             },
             "Rate": 100.0,
             "Min": 1,
-            "Max": 1
+            "Max": 3
+          },
+          {
+            "ItemName": {
+              "Key": "ExpBoost_04"
+            },
+            "Rate": 100.0,
+            "Min": 3,
+            "Max": 5
           }
         ],
         "SuccessAnyOneItemList": [
           {
             "ItemName": {
-              "Key": "PalCrystal_Ex"
+              "Key": "WorkSuitability_AddTicket_MonsterFarm"
             },
             "Num": 1
           },
           {
             "ItemName": {
-              "Key": "Ruby"
+              "Key": "WorkSuitability_AddTicket_Transport"
             },
-            "Num": 3
+            "Num": 1
           },
           {
             "ItemName": {
-              "Key": "LvUP_01"
+              "Key": "WorkSuitability_AddTicket_ProductMedicine"
             },
             "Num": 1
           }
@@ -113,7 +113,7 @@
             "PalId": {
               "Key": "RAID_NightLady_Dark"
             },
-            "Level": 50,
+            "Level": 45,
             "WarpWazaID": "EPalWazaID::Unique_NightLady_WarpBeam",
             "BaseCampAttackWazaIDs": [
               "EPalWazaID::Unique_NightLady_WarpBeam",
@@ -167,7 +167,15 @@
         "SuccessItemList": [
           {
             "ItemName": {
-              "Key": "Accessory_HeatColdResist_3"
+              "Key": "AncientParts2"
+            },
+            "Rate": 100.0,
+            "Min": 2,
+            "Max": 4
+          },
+          {
+            "ItemName": {
+              "Key": "PalSummon_NightLady_Dark_2"
             },
             "Rate": 100.0,
             "Min": 1,
@@ -175,15 +183,15 @@
           },
           {
             "ItemName": {
-              "Key": "AncientParts2"
+              "Key": "ExpBoost_04"
             },
             "Rate": 100.0,
-            "Min": 1,
-            "Max": 2
+            "Min": 4,
+            "Max": 6
           },
           {
             "ItemName": {
-              "Key": "PalSummon_NightLady_Dark_2"
+              "Key": "SkillCard_DarkLegion"
             },
             "Rate": 100.0,
             "Min": 1,
@@ -193,19 +201,19 @@
         "SuccessAnyOneItemList": [
           {
             "ItemName": {
-              "Key": "Fruit_hp_01"
+              "Key": "WorkSuitability_AddTicket_MonsterFarm"
             },
             "Num": 1
           },
           {
             "ItemName": {
-              "Key": "Fruit_attack_01"
+              "Key": "WorkSuitability_AddTicket_Transport"
             },
             "Num": 1
           },
           {
             "ItemName": {
-              "Key": "Fruit__defense_01"
+              "Key": "WorkSuitability_AddTicket_ProductMedicine"
             },
             "Num": 1
           }
@@ -219,7 +227,7 @@
             "PalId": {
               "Key": "RAID_NightLady_Dark_2"
             },
-            "Level": 50,
+            "Level": 80,
             "WarpWazaID": "EPalWazaID::Unique_NightLady_WarpBeam",
             "BaseCampAttackWazaIDs": [
               "EPalWazaID::Unique_NightLady_WarpBeam",
@@ -233,17 +241,17 @@
             "ModeChange_Element1": "EPalElementType::Ice",
             "ModeChange_Element2": "EPalElementType::None",
             "ModeChange_AddPassiveSkill": [
-              "PAL_ALLAttack_up2",
+              "PAL_ALLAttack_up3",
               "Noukin",
               "PAL_sadist",
               "PAL_oraora",
-              "ElementBoost_Dark_2_PAL"
+              "Witch"
             ],
             "ModeChange_AddWaza": [
               "EPalWazaID::DiamondFall",
-              "EPalWazaID::IcicleThrow",
-              "EPalWazaID::FrostBreath",
-              "EPalWazaID::IceBlade"
+              "EPalWazaID::DoubleIcicleThrow",
+              "EPalWazaID::IceAge",
+              "EPalWazaID::IcicleLine"
             ],
             "ModeChange_RemoveWaza": [
               "EPalWazaID::DarkPulse",
@@ -273,7 +281,15 @@
         "SuccessItemList": [
           {
             "ItemName": {
-              "Key": "Accessory_HeatColdResist_3"
+              "Key": "AncientParts2"
+            },
+            "Rate": 100.0,
+            "Min": 10,
+            "Max": 10
+          },
+          {
+            "ItemName": {
+              "Key": "HeadEquip001_purple"
             },
             "Rate": 100.0,
             "Min": 1,
@@ -281,15 +297,15 @@
           },
           {
             "ItemName": {
-              "Key": "AncientParts2"
+              "Key": "LvUP_01"
             },
             "Rate": 100.0,
-            "Min": 2,
-            "Max": 3
+            "Min": 10,
+            "Max": 10
           },
           {
             "ItemName": {
-              "Key": "HeadEquip001_purple"
+              "Key": "PalSummon_NightLady_Dark_2"
             },
             "Rate": 100.0,
             "Min": 1,
@@ -299,21 +315,21 @@
         "SuccessAnyOneItemList": [
           {
             "ItemName": {
-              "Key": "Fruit_hp_01"
+              "Key": "WorkSuitability_AddTicket_MonsterFarm"
             },
-            "Num": 1
+            "Num": 2
           },
           {
             "ItemName": {
-              "Key": "Fruit_attack_01"
+              "Key": "WorkSuitability_AddTicket_Transport"
             },
-            "Num": 1
+            "Num": 2
           },
           {
             "ItemName": {
-              "Key": "Fruit__defense_01"
+              "Key": "WorkSuitability_AddTicket_ProductMedicine"
             },
-            "Num": 1
+            "Num": 2
           }
         ],
         "AchievementId": "12",
@@ -379,19 +395,11 @@
         "SuccessItemList": [
           {
             "ItemName": {
-              "Key": "Accessory_HP_3"
-            },
-            "Rate": 33.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
               "Key": "AncientParts2"
             },
             "Rate": 100.0,
             "Min": 2,
-            "Max": 2
+            "Max": 4
           },
           {
             "ItemName": {
@@ -403,81 +411,17 @@
           },
           {
             "ItemName": {
-              "Key": "Accessory_AT_3"
-            },
-            "Rate": 33.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Accessory_defense_3"
-            },
-            "Rate": 33.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "LvUP_01"
-            },
-            "Rate": 100.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Ruby"
+              "Key": "ExpBoost_04"
             },
             "Rate": 100.0,
             "Min": 5,
-            "Max": 10
+            "Max": 7
           },
           {
             "ItemName": {
-              "Key": "PalCrystal_Ex"
+              "Key": "SkillCard_BeamSlicer"
             },
             "Rate": 100.0,
-            "Min": 10,
-            "Max": 10
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_hp_01"
-            },
-            "Rate": 20.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_stamina_01"
-            },
-            "Rate": 20.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_attack_01"
-            },
-            "Rate": 100.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_workspeed_01"
-            },
-            "Rate": 20.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_weight_01"
-            },
-            "Rate": 20.0,
             "Min": 1,
             "Max": 1
           }
@@ -485,19 +429,19 @@
         "SuccessAnyOneItemList": [
           {
             "ItemName": {
-              "Key": "Fruit_hp_01"
+              "Key": "WorkSuitability_AddTicket_Mining"
             },
             "Num": 1
           },
           {
             "ItemName": {
-              "Key": "Fruit_attack_01"
+              "Key": "WorkSuitability_AddTicket_Deforest"
             },
             "Num": 1
           },
           {
             "ItemName": {
-              "Key": "Fruit__defense_01"
+              "Key": "WorkSuitability_AddTicket_Collection"
             },
             "Num": 1
           }
@@ -511,7 +455,7 @@
             "PalId": {
               "Key": "RAID_KingBahamut_Dragon_2"
             },
-            "Level": 55,
+            "Level": 80,
             "WarpWazaID": "EPalWazaID::Unique_KingBahamut_AirCrash",
             "BaseCampAttackWazaIDs": [
               "EPalWazaID::Unique_KingBahamut_AirCrash"
@@ -539,7 +483,7 @@
             ],
             "ModeChange_RemoveWaza": [
               "EPalWazaID::DragonMeteor",
-              "EPalWazaID::FlameWall",
+              "EPalWazaID::Inferno",
               "EPalWazaID::Eruption",
               "EPalWazaID::FireBall"
             ],
@@ -568,8 +512,8 @@
               "Key": "AncientParts2"
             },
             "Rate": 100.0,
-            "Min": 3,
-            "Max": 3
+            "Min": 10,
+            "Max": 10
           },
           {
             "ItemName": {
@@ -584,24 +528,8 @@
               "Key": "LvUP_01"
             },
             "Rate": 100.0,
-            "Min": 2,
-            "Max": 3
-          },
-          {
-            "ItemName": {
-              "Key": "Diamond"
-            },
-            "Rate": 100.0,
-            "Min": 5,
-            "Max": 10
-          },
-          {
-            "ItemName": {
-              "Key": "PalCrystal_Ex"
-            },
-            "Rate": 100.0,
             "Min": 10,
-            "Max": 20
+            "Max": 10
           },
           {
             "ItemName": {
@@ -610,64 +538,24 @@
             "Rate": 100.0,
             "Min": 1,
             "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_hp_02"
-            },
-            "Rate": 20.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_stamina_02"
-            },
-            "Rate": 20.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_attack_02"
-            },
-            "Rate": 20.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_workspeed_02"
-            },
-            "Rate": 20.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_weight_02"
-            },
-            "Rate": 20.0,
-            "Min": 1,
-            "Max": 1
           }
         ],
         "SuccessAnyOneItemList": [
           {
             "ItemName": {
-              "Key": "Fruit_hp_01"
+              "Key": "WorkSuitability_AddTicket_Mining"
             },
             "Num": 2
           },
           {
             "ItemName": {
-              "Key": "Fruit_attack_01"
+              "Key": "WorkSuitability_AddTicket_Deforest"
             },
             "Num": 2
           },
           {
             "ItemName": {
-              "Key": "Fruit__defense_01"
+              "Key": "WorkSuitability_AddTicket_Collection"
             },
             "Num": 2
           }
@@ -681,7 +569,7 @@
             "PalId": {
               "Key": "RAID_DarkMechaDragon"
             },
-            "Level": 60,
+            "Level": 65,
             "WarpWazaID": "EPalWazaID::Unique_DarkMechaDragon_WarpComet",
             "BaseCampAttackWazaIDs": [
               "EPalWazaID::Unique_DarkMechaDragon_WarpComet"
@@ -850,19 +738,11 @@
         "SuccessItemList": [
           {
             "ItemName": {
-              "Key": "Accessory_DragonResist_3"
-            },
-            "Rate": 33.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
               "Key": "AncientParts2"
             },
             "Rate": 100.0,
             "Min": 3,
-            "Max": 3
+            "Max": 6
           },
           {
             "ItemName": {
@@ -874,81 +754,17 @@
           },
           {
             "ItemName": {
-              "Key": "Accessory_DarkResist_3"
-            },
-            "Rate": 33.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Accessory_MaxWeightUp_03"
-            },
-            "Rate": 33.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
               "Key": "LvUP_01"
             },
             "Rate": 100.0,
-            "Min": 2,
-            "Max": 2
+            "Min": 4,
+            "Max": 5
           },
           {
             "ItemName": {
-              "Key": "Ruby"
+              "Key": "SkillCard_DragonMeteor"
             },
             "Rate": 100.0,
-            "Min": 5,
-            "Max": 10
-          },
-          {
-            "ItemName": {
-              "Key": "PalCrystal_Ex"
-            },
-            "Rate": 100.0,
-            "Min": 10,
-            "Max": 10
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_hp_01"
-            },
-            "Rate": 100.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_stamina_01"
-            },
-            "Rate": 20.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_attack_01"
-            },
-            "Rate": 20.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_workspeed_01"
-            },
-            "Rate": 20.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_weight_01"
-            },
-            "Rate": 20.0,
             "Min": 1,
             "Max": 1
           }
@@ -956,19 +772,19 @@
         "SuccessAnyOneItemList": [
           {
             "ItemName": {
-              "Key": "Fruit_hp_01"
+              "Key": "WorkSuitability_AddTicket_Handcraft"
             },
             "Num": 1
           },
           {
             "ItemName": {
-              "Key": "Fruit_attack_01"
+              "Key": "WorkSuitability_AddTicket_GenerateElectricity"
             },
             "Num": 1
           },
           {
             "ItemName": {
-              "Key": "Fruit__defense_01"
+              "Key": "WorkSuitability_AddTicket_Cool"
             },
             "Num": 1
           }
@@ -982,7 +798,7 @@
             "PalId": {
               "Key": "RAID_DarkMechaDragon_2"
             },
-            "Level": 60,
+            "Level": 80,
             "WarpWazaID": "EPalWazaID::Unique_DarkMechaDragon_WarpComet",
             "BaseCampAttackWazaIDs": [
               "EPalWazaID::Unique_DarkMechaDragon_WarpComet"
@@ -1263,8 +1079,8 @@
               "Key": "AncientParts2"
             },
             "Rate": 100.0,
-            "Min": 3,
-            "Max": 3
+            "Min": 10,
+            "Max": 10
           },
           {
             "ItemName": {
@@ -1279,64 +1095,8 @@
               "Key": "LvUP_01"
             },
             "Rate": 100.0,
-            "Min": 2,
-            "Max": 3
-          },
-          {
-            "ItemName": {
-              "Key": "Diamond"
-            },
-            "Rate": 100.0,
-            "Min": 5,
-            "Max": 10
-          },
-          {
-            "ItemName": {
-              "Key": "PalCrystal_Ex"
-            },
-            "Rate": 100.0,
             "Min": 10,
-            "Max": 20
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_hp_02"
-            },
-            "Rate": 20.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_stamina_02"
-            },
-            "Rate": 20.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_attack_02"
-            },
-            "Rate": 20.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_workspeed_02"
-            },
-            "Rate": 20.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_weight_02"
-            },
-            "Rate": 100.0,
-            "Min": 1,
-            "Max": 1
+            "Max": 10
           },
           {
             "ItemName": {
@@ -1350,21 +1110,21 @@
         "SuccessAnyOneItemList": [
           {
             "ItemName": {
-              "Key": "Fruit_hp_01"
+              "Key": "WorkSuitability_AddTicket_Handcraft"
             },
-            "Num": 3
+            "Num": 2
           },
           {
             "ItemName": {
-              "Key": "Fruit_attack_01"
+              "Key": "WorkSuitability_AddTicket_GenerateElectricity"
             },
-            "Num": 3
+            "Num": 2
           },
           {
             "ItemName": {
-              "Key": "Fruit__defense_01"
+              "Key": "WorkSuitability_AddTicket_Cool"
             },
-            "Num": 3
+            "Num": 2
           }
         ],
         "AchievementId": "33",
@@ -1403,99 +1163,19 @@
         "SuccessItemList": [
           {
             "ItemName": {
-              "Key": "Accessory_HP_3"
-            },
-            "Rate": 33.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
               "Key": "AncientParts2"
             },
             "Rate": 100.0,
-            "Min": 2,
-            "Max": 2
-          },
-          {
-            "ItemName": {
-              "Key": "Accessory_AT_3"
-            },
-            "Rate": 33.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Accessory_defense_3"
-            },
-            "Rate": 33.0,
-            "Min": 1,
-            "Max": 1
+            "Min": 4,
+            "Max": 6
           },
           {
             "ItemName": {
               "Key": "LvUP_01"
             },
             "Rate": 100.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Ruby"
-            },
-            "Rate": 100.0,
-            "Min": 5,
-            "Max": 10
-          },
-          {
-            "ItemName": {
-              "Key": "PalCrystal_Ex"
-            },
-            "Rate": 100.0,
-            "Min": 10,
-            "Max": 10
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_hp_01"
-            },
-            "Rate": 20.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_stamina_01"
-            },
-            "Rate": 20.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_attack_01"
-            },
-            "Rate": 100.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_workspeed_01"
-            },
-            "Rate": 20.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_weight_01"
-            },
-            "Rate": 20.0,
-            "Min": 1,
-            "Max": 1
+            "Min": 4,
+            "Max": 4
           },
           {
             "ItemName": {
@@ -1518,6 +1198,38 @@
               "Key": "PalSummon_YakushimaBoss002_2"
             },
             "Rate": 100.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Blueprint_YakushimaBlade002_3"
+            },
+            "Rate": 25.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Blueprint_YakushimaGun001_3"
+            },
+            "Rate": 25.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Blueprint_YakushimaLantern001_3"
+            },
+            "Rate": 25.0,
+            "Min": 1,
+            "Max": 1
+          },
+          {
+            "ItemName": {
+              "Key": "Blueprint_YakushimaBlade003_3"
+            },
+            "Rate": 25.0,
             "Min": 1,
             "Max": 1
           }
@@ -1554,7 +1266,7 @@
             "PalId": {
               "Key": "RAID_YakushimaBoss002_2"
             },
-            "Level": 65,
+            "Level": 80,
             "WarpWazaID": "EPalWazaID::None",
             "BaseCampAttackWazaIDs": [
               "EPalWazaID::Unique_YakushimaBoss002_PhantasmalEye"
@@ -1732,7 +1444,7 @@
             "PalId": {
               "Key": "RAID_LegendDeer"
             },
-            "Level": 65,
+            "Level": 70,
             "WarpWazaID": "EPalWazaID::Unique_LegendDeer_WarpPillarBurst",
             "BaseCampAttackWazaIDs": [
               "EPalWazaID::Unique_LegendDeer_WarpPillarBurst"
@@ -1762,7 +1474,8 @@
               "EPalWazaID::SeaGush",
               "EPalWazaID::WallSplash",
               "EPalWazaID::RipTide",
-              "EPalWazaID::RootLance"
+              "EPalWazaID::RootLance",
+              "EPalWazaID::WindBurst"
             ],
             "AIControllerClass": {
               "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_RaidBoss_LegendDeer_C'",
@@ -1789,19 +1502,11 @@
         "SuccessItemList": [
           {
             "ItemName": {
-              "Key": "Accessory_AquaResist_3"
-            },
-            "Rate": 33.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
               "Key": "AncientParts2"
             },
             "Rate": 100.0,
-            "Min": 3,
-            "Max": 3
+            "Min": 4,
+            "Max": 7
           },
           {
             "ItemName": {
@@ -1813,89 +1518,17 @@
           },
           {
             "ItemName": {
-              "Key": "Accessory_LeafResist_3"
-            },
-            "Rate": 33.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Accessory_MaxWeightUp_03"
-            },
-            "Rate": 33.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
               "Key": "LvUP_01"
             },
             "Rate": 100.0,
-            "Min": 2,
-            "Max": 2
+            "Min": 4,
+            "Max": 6
           },
           {
             "ItemName": {
-              "Key": "Ruby"
+              "Key": "SkillCard_HolyBlast"
             },
             "Rate": 100.0,
-            "Min": 5,
-            "Max": 10
-          },
-          {
-            "ItemName": {
-              "Key": "PalCrystal_Ex"
-            },
-            "Rate": 100.0,
-            "Min": 10,
-            "Max": 10
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_hp_01"
-            },
-            "Rate": 100.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_stamina_01"
-            },
-            "Rate": 20.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_attack_01"
-            },
-            "Rate": 20.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_workspeed_01"
-            },
-            "Rate": 20.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_weight_01"
-            },
-            "Rate": 20.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Accessory_NormalResist_3"
-            },
-            "Rate": 33.0,
             "Min": 1,
             "Max": 1
           }
@@ -1903,19 +1536,19 @@
         "SuccessAnyOneItemList": [
           {
             "ItemName": {
-              "Key": "Fruit_hp_01"
+              "Key": "WorkSuitability_AddTicket_EmitFlame"
             },
             "Num": 1
           },
           {
             "ItemName": {
-              "Key": "Fruit_attack_01"
+              "Key": "WorkSuitability_AddTicket_Watering"
             },
             "Num": 1
           },
           {
             "ItemName": {
-              "Key": "Fruit__defense_01"
+              "Key": "WorkSuitability_AddTicket_Seeding"
             },
             "Num": 1
           }
@@ -1932,7 +1565,7 @@
             "PalId": {
               "Key": "RAID_LegendDeer_2"
             },
-            "Level": 65,
+            "Level": 80,
             "WarpWazaID": "EPalWazaID::Unique_LegendDeer_WarpPillarBurst",
             "BaseCampAttackWazaIDs": [
               "EPalWazaID::Unique_LegendDeer_WarpPillarBurst"
@@ -1962,7 +1595,8 @@
               "EPalWazaID::SeaGush",
               "EPalWazaID::WallSplash",
               "EPalWazaID::RipTide",
-              "EPalWazaID::RootLance"
+              "EPalWazaID::RootLance",
+              "EPalWazaID::WindBurst"
             ],
             "AIControllerClass": {
               "ObjectName": "BlueprintGeneratedClass'BP_MonsterAIController_RaidBoss_LegendDeer_2_C'",
@@ -1992,8 +1626,8 @@
               "Key": "AncientParts2"
             },
             "Rate": 100.0,
-            "Min": 3,
-            "Max": 3
+            "Min": 10,
+            "Max": 10
           },
           {
             "ItemName": {
@@ -2008,64 +1642,8 @@
               "Key": "LvUP_01"
             },
             "Rate": 100.0,
-            "Min": 2,
-            "Max": 3
-          },
-          {
-            "ItemName": {
-              "Key": "Diamond"
-            },
-            "Rate": 100.0,
-            "Min": 5,
-            "Max": 10
-          },
-          {
-            "ItemName": {
-              "Key": "PalCrystal_Ex"
-            },
-            "Rate": 100.0,
             "Min": 10,
-            "Max": 20
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_hp_02"
-            },
-            "Rate": 20.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_stamina_02"
-            },
-            "Rate": 20.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_attack_02"
-            },
-            "Rate": 20.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_workspeed_02"
-            },
-            "Rate": 20.0,
-            "Min": 1,
-            "Max": 1
-          },
-          {
-            "ItemName": {
-              "Key": "Lotus_weight_02"
-            },
-            "Rate": 100.0,
-            "Min": 1,
-            "Max": 1
+            "Max": 10
           },
           {
             "ItemName": {
@@ -2079,21 +1657,21 @@
         "SuccessAnyOneItemList": [
           {
             "ItemName": {
-              "Key": "Fruit_hp_01"
+              "Key": "WorkSuitability_AddTicket_EmitFlame"
             },
-            "Num": 4
+            "Num": 2
           },
           {
             "ItemName": {
-              "Key": "Fruit_attack_01"
+              "Key": "WorkSuitability_AddTicket_Watering"
             },
-            "Num": 4
+            "Num": 2
           },
           {
             "ItemName": {
-              "Key": "Fruit__defense_01"
+              "Key": "WorkSuitability_AddTicket_Seeding"
             },
-            "Num": 4
+            "Num": 2
           }
         ],
         "AchievementId": "57",

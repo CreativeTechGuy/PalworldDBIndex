@@ -148,7 +148,7 @@
   {
     "Type": "BP_ElecPanda_Normal_C",
     "Name": "Default__BP_ElecPanda_Normal_C",
-    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.BP_ElecPanda_Normal_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal",
     "Template": {
@@ -597,7 +597,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_ElecPanda_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.22"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.21"
     }
   },
   {
@@ -662,9 +662,28 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_ElecPanda_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.23"
     },
     "Properties": {
+      "WalkCameraArmLength": 450.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 140.0,
+        "Z": 40.0
+      },
+      "AimCameraArmLength": 400.0,
+      "AirCameraOffset": {
+        "X": 0.0,
+        "Y": 140.0,
+        "Z": 120.0
+      },
+      "AirHipShootCameraArmLength": 600.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 140.0,
+        "Z": 120.0
+      },
+      "AirAimCameraArmLength": 400.0,
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_ElecPanda_Normal_C:CollisionCylinder'",
         "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda_Normal.3"
@@ -682,7 +701,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_ElecPanda_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.24"
     },
     "Properties": {
       "AttachParent": {
@@ -729,7 +748,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_ElecPanda_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.26"
     }
   },
   {
@@ -743,7 +762,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_ElecPanda_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.27"
     }
   },
   {
@@ -757,7 +776,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_ElecPanda_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.29"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.28"
     }
   },
   {
@@ -1081,7 +1100,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_ElecPanda_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.40"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ElecPanda/BP_ElecPanda.39"
     },
     "Properties": {
       "AttachParent": {

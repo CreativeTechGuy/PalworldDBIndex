@@ -41,7 +41,7 @@
   {
     "Type": "BP_Manticore_BOSS_C",
     "Name": "Default__BP_Manticore_BOSS_C",
-    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore_BOSS.BP_Manticore_BOSS_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore_BOSS",
     "Template": {
@@ -314,7 +314,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_Manticore_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore.26"
     }
   },
   {
@@ -328,32 +328,44 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_Manticore_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore.27"
     },
     "Properties": {
-      "WalkCameraArmLength": 1200.0,
+      "WalkCameraArmLength": 650.0,
       "WalkCameraOffset": {
         "X": 0.0,
-        "Y": 150.0,
-        "Z": 220.0
+        "Y": 250.0,
+        "Z": 200.0
       },
-      "AimCameraArmLength": 205.0,
+      "HipShootCameraArmLength": 650.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 250.0,
+        "Z": 200.0
+      },
+      "AimCameraArmLength": 550.0,
       "AimCameraOffset": {
         "X": 0.0,
-        "Y": 24.0,
-        "Z": 170.0
+        "Y": 250.0,
+        "Z": 300.0
       },
-      "AirCameraArmLength": 1200.0,
+      "AirCameraArmLength": 650.0,
       "AirCameraOffset": {
         "X": 0.0,
-        "Y": 150.0,
-        "Z": 220.0
+        "Y": 250.0,
+        "Z": 200.0
       },
-      "AirAimCameraArmLength": 205.0,
+      "AirHipShootCameraArmLength": 650.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 250.0,
+        "Z": 200.0
+      },
+      "AirAimCameraArmLength": 550.0,
       "AirAimCameraOffset": {
         "X": 0.0,
-        "Y": 24.0,
-        "Z": 170.0
+        "Y": 250.0,
+        "Z": 300.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_Manticore_BOSS_C:CollisionCylinder'",
@@ -377,7 +389,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_Manticore_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore.29"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore.28"
     },
     "Properties": {
       "AttachParent": {
@@ -402,7 +414,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_Manticore_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore.31"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore.30"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 182.0,
@@ -487,7 +499,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_Manticore_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore.32"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore.31"
     }
   },
   {
@@ -501,7 +513,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_Manticore_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore.33"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore.32"
     }
   },
   {
@@ -563,7 +575,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_Manticore_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Manticore/BP_Manticore.46"
     },
     "Properties": {
       "AttachParent": {

@@ -62,7 +62,7 @@
   {
     "Type": "BP_Serpent_BOSS_C",
     "Name": "Default__BP_Serpent_BOSS_C",
-    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Serpent/BP_Serpent_BOSS.BP_Serpent_BOSS_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Serpent/BP_Serpent_BOSS",
     "Template": {
@@ -210,6 +210,21 @@
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_Serpent_C:ActionComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Serpent/BP_Serpent.6"
+    },
+    "Properties": {
+      "ActionMap": [
+        {
+          "Key": "EPalActionType::EPalActionType_MAX",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_ActionEatOneshot_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Action/Common/BP_ActionEatOneshot.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::SpawnItem",
+          "Value": null
+        }
+      ]
     }
   },
   {
@@ -361,7 +376,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_Serpent_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Serpent/BP_Serpent.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Serpent/BP_Serpent.27"
     }
   },
   {
@@ -375,7 +390,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_Serpent_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Serpent/BP_Serpent.29"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Serpent/BP_Serpent.28"
     },
     "Properties": {
       "WalkCameraArmLength": 800.0,
@@ -424,7 +439,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_Serpent_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Serpent/BP_Serpent.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Serpent/BP_Serpent.29"
     },
     "Properties": {
       "AttachParent": {
@@ -449,7 +464,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_Serpent_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Serpent/BP_Serpent.31"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Serpent/BP_Serpent.30"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 160.0,
@@ -554,7 +569,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_Serpent_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Serpent/BP_Serpent.32"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Serpent/BP_Serpent.31"
     }
   },
   {
@@ -568,7 +583,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_Serpent_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Serpent/BP_Serpent.33"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Serpent/BP_Serpent.32"
     }
   },
   {
@@ -630,7 +645,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_Serpent_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Serpent/BP_Serpent.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Serpent/BP_Serpent.47"
     },
     "Properties": {
       "AttachParent": {

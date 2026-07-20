@@ -5,11 +5,11 @@ import mapObjectNames from "~/raw_data/Pal/Content/L10N/en/Pal/DataTable/Text/DT
 import skillNames from "~/raw_data/Pal/Content/L10N/en/Pal/DataTable/Text/DT_SkillNameText_Common.json";
 import uiNames from "~/raw_data/Pal/Content/L10N/en/Pal/DataTable/Text/DT_UI_Common_Text_Common.json";
 import { convertDataTableType } from "~/utils/convertDataTableType";
+import { getObjectByCaseInsensitiveKey } from "~/utils/getObjectByCaseInsensitiveKey";
 import { getPalName } from "~/utils/getPalName";
 
 type FormatTextTagsProps = {
     text: string;
-    interpolationData?: Record<string, string | number | boolean>;
     oneLine?: boolean;
 };
 
@@ -20,7 +20,7 @@ const skillNamesMap = convertDataTableType(skillNames);
 
 export function FormatTextTags(props: FormatTextTagsProps): JSXElement {
     const replacedStringParts = createMemo(() => {
-        const lines = replaceInString(props.text, props.interpolationData).split("\r\n");
+        const lines = replaceInString(props.text).split("\r\n");
         if (props.oneLine === true) {
             return [lines.join(" ")];
         }
@@ -29,33 +29,35 @@ export function FormatTextTags(props: FormatTextTagsProps): JSXElement {
     return <For each={replacedStringParts()}>{(str) => str}</For>;
 }
 
-function replaceInString(str: string, data?: Record<string, string | number | boolean>): string {
-    str = str.replace(/<itemName id=\|(\w+)\|\/>/gi, (match, id) => {
-        return itemNamesMap[`ITEM_NAME_${id}`].TextData.LocalizedString;
-    });
-    str = str.replace(/<mapObjectName id=\|(\w+)\|\/>/gi, (match, id) => {
-        return mapNamesMap[`MAPOBJECT_NAME_${id}`].TextData.LocalizedString;
-    });
-    str = str.replace(/<uiCommon id=\|(\w+)\|\/>/gi, (match, id: string) => {
+function replaceInString(str: string): string {
+    str = str.replace(
+        /<Status_Up>(.*?){(\w+)}(.*?)<\/>/gi,
+        (match, prefix: string | undefined, id: string, postfix: string | undefined) => {
+            return `${prefix ?? ""}${id}${postfix ?? ""}`;
+        }
+    );
+    str = str.replace(
+        /<Status_Keyword>(.*?){?([a-z0-9-_ ]+)}?(.*?)<\/>/gi,
+        (match, prefix: string | undefined, id: string, postfix: string | undefined) => {
+            return `${prefix ?? ""}${id}${postfix ?? ""}`;
+        }
+    );
+    str = str.replace(/<img id=\|(\w+)\|\/>/gi, "");
+    str = str.replace(/<uiCommon id=\|(\w+)\|.*?\/>/gi, (match, id: string) => {
         return uiNamesMap[id].TextData.LocalizedString;
     });
-    str = str.replace(/<activeSkillName id=\|(\w+)\|\/>/gi, (match, id) => {
-        return skillNamesMap[`ACTION_SKILL_${id}`].TextData.LocalizedString;
-    });
-    str = str.replace(/<characterName id=\|(\w+)\|\/>/gi, (match, id: string) => {
+    str = str.replace(/<characterName id=\|(\w+)\|.*?\/>/gi, (match, id: string) => {
         return getPalName(id)!;
     });
-    str = str.replace(/<Num(Red|Blue)_13>(.+)<\/>/gi, "$2");
-    if (data !== undefined) {
-        str = str.replace(/{(\w+)}/g, (match, id: string) => {
-            return data[id].toString();
-        });
-    }
-    if (str.includes("id=|")) {
-        throw new Error(`String tag not replaced: ${str}`);
-    }
-    if (str.match(/{\w+}/) !== null) {
-        throw new Error(`String variable not interpolated: ${str}`);
-    }
+    // str = str.replace(/{ReferenceMsgId_.*?}/gi, "");
+    str = str.replace(/<itemName id=\|(\w+)\|.*?\/>/gi, (match, id) => {
+        return getObjectByCaseInsensitiveKey(itemNamesMap, `ITEM_NAME_${id}`)!.TextData.LocalizedString;
+    });
+    str = str.replace(/<activeSkillName id=\|(\w+)\|.*?\/>/gi, (match, id) => {
+        return skillNamesMap[`ACTION_SKILL_${id}`].TextData.LocalizedString;
+    });
+    str = str.replace(/<mapObjectName id=\|(\w+)\|.*?\/>/gi, (match, id) => {
+        return mapNamesMap[`MAPOBJECT_NAME_${id}`].TextData.LocalizedString;
+    });
     return str;
 }

@@ -552,7 +552,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_Kirin_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.35"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.34"
     }
   },
   {
@@ -566,9 +566,60 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_Kirin_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.36"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.35"
     },
     "Properties": {
+      "WalkCameraArmLength": 300.0,
+      "WalkCameraOffset": {
+        "X": 0.0,
+        "Y": 120.0,
+        "Z": -40.0
+      },
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 120.0,
+        "Z": -40.0
+      },
+      "AimCameraArmLength": 200.0,
+      "AimCameraOffset": {
+        "X": 0.0,
+        "Y": 80.0,
+        "Z": 0.0
+      },
+      "AirCameraArmLength": 300.0,
+      "AirCameraOffset": {
+        "X": 0.0,
+        "Y": 120.0,
+        "Z": -40.0
+      },
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 120.0,
+        "Z": -40.0
+      },
+      "AirAimCameraArmLength": 200.0,
+      "AirAimCameraOffset": {
+        "X": 0.0,
+        "Y": 80.0,
+        "Z": 0.0
+      },
+      "FlyCameraArmLength": 300.0,
+      "FlyCameraOffset": {
+        "X": 0.0,
+        "Y": 120.0,
+        "Z": -40.0
+      },
+      "FlyHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 120.0,
+        "Z": -40.0
+      },
+      "FlyAimCameraArmLength": 200.0,
+      "FlyAimCameraOffset": {
+        "X": 0.0,
+        "Y": 80.0,
+        "Z": 0.0
+      },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_Kirin_Normal_C:CollisionCylinder'",
         "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin_Normal.3"
@@ -586,7 +637,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_Kirin_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.37"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.36"
     },
     "Properties": {
       "AttachParent": {
@@ -606,7 +657,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_Kirin_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.39"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.38"
     }
   },
   {
@@ -620,7 +671,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_Kirin_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.40"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.39"
     }
   },
   {
@@ -634,7 +685,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_Kirin_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.40"
     }
   },
   {
@@ -733,7 +784,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_Kirin_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Kirin/BP_Kirin.54"
     },
     "Properties": {
       "AttachParent": {

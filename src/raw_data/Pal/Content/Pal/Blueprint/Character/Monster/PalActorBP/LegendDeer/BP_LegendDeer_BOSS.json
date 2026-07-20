@@ -12,7 +12,7 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_LegendDeer_BOSS_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer_BOSS.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer_BOSS.24"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_LegendDeer_BOSS_C:InheritableComponentHandler'",
@@ -23,6 +23,19 @@
       "ObjectName": "BlueprintGeneratedClass'BP_LegendDeer_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer.0"
     },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalSpeedCollision_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalSpeedCollisionComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      }
+    ],
     "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
     "ClassWithin": {
       "ObjectName": "Class'Object'",
@@ -41,7 +54,7 @@
   {
     "Type": "BP_LegendDeer_BOSS_C",
     "Name": "Default__BP_LegendDeer_BOSS_C",
-    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer_BOSS.BP_LegendDeer_BOSS_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer_BOSS",
     "Template": {
@@ -107,7 +120,7 @@
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_LegendDeer_BOSS_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer_BOSS.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer_BOSS.25"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_LegendDeer_BOSS_C:CharacterMesh0'",
@@ -149,32 +162,6 @@
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'BP_LegendDeer_BOSS_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer_BOSS.0"
-    },
-    "Properties": {
-      "Records": [
-        {
-          "ComponentClass": {
-            "ObjectName": "Class'PalSpeedCollisionComponent'",
-            "ObjectPath": "/Script/Pal"
-          },
-          "ComponentTemplate": {
-            "ObjectName": "PalSpeedCollisionComponent'BP_LegendDeer_BOSS_C:PalSpeedCollision_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer_BOSS.17"
-          },
-          "ComponentKey": {
-            "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass'BP_LegendDeer_C'",
-              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer.0"
-            },
-            "SCSVariableName": "PalSpeedCollision",
-            "AssociatedGuid": "86EAC4AC-4CD6152B-5EAD3189-CE91DBFD"
-          },
-          "CookedComponentInstancingData": {
-            "ChangedPropertyList": [],
-            "bHasValidCookedData": false
-          }
-        }
-      ]
     }
   },
   {
@@ -340,7 +327,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_LegendDeer_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer.25"
     }
   },
   {
@@ -354,9 +341,45 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_LegendDeer_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer.26"
     },
     "Properties": {
+      "WalkCameraArmLength": 500.0,
+      "WalkCameraOffset": {
+        "X": 0.0,
+        "Y": 200.0,
+        "Z": 200.0
+      },
+      "HipShootCameraArmLength": 500.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 200.0,
+        "Z": 200.0
+      },
+      "AimCameraArmLength": 400.0,
+      "AimCameraOffset": {
+        "X": 0.0,
+        "Y": 175.0,
+        "Z": 250.0
+      },
+      "AirCameraArmLength": 500.0,
+      "AirCameraOffset": {
+        "X": 0.0,
+        "Y": 200.0,
+        "Z": 200.0
+      },
+      "AirHipShootCameraArmLength": 500.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 200.0,
+        "Z": 200.0
+      },
+      "AirAimCameraArmLength": 400.0,
+      "AirAimCameraOffset": {
+        "X": 0.0,
+        "Y": 175.0,
+        "Z": 250.0
+      },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_LegendDeer_BOSS_C:CollisionCylinder'",
         "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer_BOSS.2"
@@ -374,7 +397,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_LegendDeer_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer.27"
     },
     "Properties": {
       "AttachParent": {
@@ -390,16 +413,12 @@
   },
   {
     "Type": "PalSpeedCollisionComponent",
-    "Name": "PalSpeedCollision_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Name": "PalSpeedCollision_0_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'PalSpeedCollisionComponent'",
     "Outer": {
       "ObjectName": "BlueprintGeneratedClass'BP_LegendDeer_BOSS_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer_BOSS.0"
-    },
-    "Template": {
-      "ObjectName": "PalSpeedCollisionComponent'BP_LegendDeer_C:PalSpeedCollision_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer.29"
     },
     "Properties": {
       "SphereRadius": 85.0,
@@ -421,7 +440,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_LegendDeer_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer.29"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 195.0,
@@ -430,7 +449,9 @@
         "X": 0.0,
         "Y": 0.0,
         "Z": -195.0
-      }
+      },
+      "PettingDistance": 230.0,
+      "PettingCameraArmLength_Override": 500.0
     }
   },
   {
@@ -444,7 +465,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_LegendDeer_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer.31"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer.30"
     }
   },
   {
@@ -458,7 +479,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_LegendDeer_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer.32"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer.31"
     }
   },
   {
@@ -478,7 +499,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_LegendDeer_BOSS_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer_BOSS.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer_BOSS.24"
     },
     "Properties": {
       "ComponentClass": {
@@ -494,6 +515,30 @@
     }
   },
   {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_LegendDeer_BOSS_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer_BOSS.24"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalSpeedCollisionComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalSpeedCollisionComponent'BP_LegendDeer_BOSS_C:PalSpeedCollision_0_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer_BOSS.17"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "047426ED-41920C12-E1917EAF-FB7BD1C9",
+      "InternalVariableName": "PalSpeedCollision_0"
+    }
+  },
+  {
     "Type": "SimpleConstructionScript",
     "Name": "SimpleConstructionScript_0",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
@@ -503,6 +548,18 @@
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer_BOSS.0"
     },
     "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_LegendDeer_BOSS_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer_BOSS.23"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_LegendDeer_BOSS_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer_BOSS.23"
+        }
+      ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_LegendDeer_BOSS_C:SimpleConstructionScript_0.SCS_Node_0'",
         "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer_BOSS.22"
@@ -520,7 +577,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_LegendDeer_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LegendDeer/BP_LegendDeer.43"
     },
     "Properties": {
       "AttachParent": {

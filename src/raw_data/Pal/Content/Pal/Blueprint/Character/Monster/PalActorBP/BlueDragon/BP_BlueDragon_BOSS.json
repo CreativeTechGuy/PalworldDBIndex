@@ -41,7 +41,7 @@
   {
     "Type": "BP_BlueDragon_BOSS_C",
     "Name": "Default__BP_BlueDragon_BOSS_C",
-    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueDragon/BP_BlueDragon_BOSS.BP_BlueDragon_BOSS_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueDragon/BP_BlueDragon_BOSS",
     "Template": {
@@ -361,7 +361,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_BlueDragon_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueDragon/BP_BlueDragon.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueDragon/BP_BlueDragon.23"
     }
   },
   {
@@ -375,33 +375,35 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_BlueDragon_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueDragon/BP_BlueDragon.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueDragon/BP_BlueDragon.24"
     },
     "Properties": {
-      "WalkCameraArmLength": 1000.0,
+      "WalkCameraArmLength": 550.0,
       "WalkCameraOffset": {
         "X": 0.0,
         "Y": 150.0,
-        "Z": 70.0
+        "Z": 20.0
       },
-      "AimCameraArmLength": 900.0,
-      "AimCameraOffset": {
-        "X": 80.0,
+      "HipShootCameraArmLength": 550.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
         "Y": 150.0,
-        "Z": 130.0
+        "Z": 20.0
       },
-      "AirCameraArmLength": 1000.0,
+      "AimCameraArmLength": 350.0,
+      "AirCameraArmLength": 550.0,
       "AirCameraOffset": {
         "X": 0.0,
         "Y": 150.0,
-        "Z": 70.0
+        "Z": 20.0
       },
-      "AirAimCameraArmLength": 900.0,
-      "AirAimCameraOffset": {
-        "X": 80.0,
+      "AirHipShootCameraArmLength": 550.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
         "Y": 150.0,
-        "Z": 130.0
+        "Z": 20.0
       },
+      "AirAimCameraArmLength": 350.0,
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_BlueDragon_BOSS_C:CollisionCylinder'",
         "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueDragon/BP_BlueDragon_BOSS.3"
@@ -424,7 +426,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_BlueDragon_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueDragon/BP_BlueDragon.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueDragon/BP_BlueDragon.25"
     },
     "Properties": {
       "AttachParent": {
@@ -454,7 +456,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_BlueDragon_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueDragon/BP_BlueDragon.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueDragon/BP_BlueDragon.27"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 220.0,
@@ -559,7 +561,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_BlueDragon_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueDragon/BP_BlueDragon.29"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueDragon/BP_BlueDragon.28"
     }
   },
   {
@@ -573,7 +575,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_BlueDragon_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueDragon/BP_BlueDragon.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueDragon/BP_BlueDragon.29"
     }
   },
   {
@@ -635,7 +637,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_BlueDragon_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueDragon/BP_BlueDragon.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueDragon/BP_BlueDragon.41"
     },
     "Properties": {
       "AttachParent": {

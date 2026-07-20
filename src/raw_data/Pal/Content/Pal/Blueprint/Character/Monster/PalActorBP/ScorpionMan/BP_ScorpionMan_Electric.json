@@ -163,6 +163,24 @@
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_ScorpionMan_C:ActionComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ScorpionMan/BP_ScorpionMan.5"
+    },
+    "Properties": {
+      "ActionMap": [
+        {
+          "Key": "EPalActionType::EPalActionType_MAX",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_ActionEatOneshot_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Action/Common/BP_ActionEatOneshot.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::PartnerSkill",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_Action_Coop_StatusUp_ToPlayer_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Action/MonsterCoop/BP_Action_Coop_StatusUp_ToPlayer.0"
+          }
+        }
+      ]
     }
   },
   {
@@ -314,7 +332,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_ScorpionMan_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ScorpionMan/BP_ScorpionMan.22"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ScorpionMan/BP_ScorpionMan.21"
     }
   },
   {
@@ -328,7 +346,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_ScorpionMan_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ScorpionMan/BP_ScorpionMan.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ScorpionMan/BP_ScorpionMan.22"
     },
     "Properties": {
       "AttachParent": {
@@ -348,16 +366,16 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_ScorpionMan_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ScorpionMan/BP_ScorpionMan.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ScorpionMan/BP_ScorpionMan.23"
     },
     "Properties": {
       "SkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_ScorpionMan_Electric'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/ScorpionMan_Electric/SK_ScorpionMan_Electric"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/ScorpionMan_Electric/SK_ScorpionMan_Electric.0"
       },
       "SkinnedAsset": {
         "ObjectName": "SkeletalMesh'SK_ScorpionMan_Electric'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/ScorpionMan_Electric/SK_ScorpionMan_Electric"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/ScorpionMan_Electric/SK_ScorpionMan_Electric.0"
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_ScorpionMan_Electric_C:CollisionCylinder'",
@@ -376,7 +394,18 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_ScorpionMan_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ScorpionMan/BP_ScorpionMan.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ScorpionMan/BP_ScorpionMan.24"
+    },
+    "Properties": {
+      "AIActionMap": [
+        {
+          "Key": "EPalAIActionType::Cooperation",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AIActionCoop_StatusUp_ScorpionMan_Electric_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Coop/BP_AIActionCoop_StatusUp_ScorpionMan_Electric.0"
+          }
+        }
+      ]
     }
   },
   {
@@ -390,7 +419,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_ScorpionMan_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ScorpionMan/BP_ScorpionMan.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ScorpionMan/BP_ScorpionMan.25"
     }
   },
   {
@@ -404,7 +433,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_ScorpionMan_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ScorpionMan/BP_ScorpionMan.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ScorpionMan/BP_ScorpionMan.26"
     }
   },
   {
@@ -466,7 +495,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_ScorpionMan_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ScorpionMan/BP_ScorpionMan.37"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ScorpionMan/BP_ScorpionMan.36"
     },
     "Properties": {
       "AttachParent": {

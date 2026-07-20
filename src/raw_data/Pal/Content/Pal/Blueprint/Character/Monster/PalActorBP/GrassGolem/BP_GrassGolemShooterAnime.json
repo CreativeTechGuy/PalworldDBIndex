@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_GrassGolemShooterAnime_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolemShooterAnime",
+    "SuperStruct": {
+      "ObjectName": "Class'PalShooterAnimeAssetBase'",
+      "ObjectPath": "/Script/Pal"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_GrassGolemShooterAnime_C'Default__BP_GrassGolemShooterAnime_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolemShooterAnime.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_GrassGolemShooterAnime_C",
+    "Name": "Default__BP_GrassGolemShooterAnime_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolemShooterAnime.BP_GrassGolemShooterAnime_C'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BP_GrassGolemShooterAnime",
+    "Properties": {
+      "AnimeInfo": {
+        "NormalMoveBlendSpace": {
+          "ObjectName": "BlendSpace1D'BS_Move_GrassGolem'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BS_Move_GrassGolem.0"
+        },
+        "AimingMoveBlendSpace": {
+          "ObjectName": "BlendSpace'BS_AimMove_GrassGolem'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BS_AimMove_GrassGolem.0"
+        },
+        "HipShootingMoveBlendSpace": {
+          "ObjectName": "BlendSpace'BS_AimMove_GrassGolem'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GrassGolem/BS_AimMove_GrassGolem.0"
+        }
+      }
+    }
+  }
+]

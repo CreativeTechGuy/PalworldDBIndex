@@ -10,13 +10,18 @@
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen.0"
     },
     "Properties": {
+      "NumReplicatedProperties": 1,
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_MoonQueen_Gym_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.29"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.32"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_MoonQueen_Gym_C:InheritableComponentHandler'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.5"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.8"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_MoonQueen_Gym_C:ExecuteUbergraph_BP_MoonQueen_Gym'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.4"
       }
     },
     "SuperStruct": {
@@ -25,11 +30,34 @@
     },
     "Children": [
       {
+        "ObjectName": "Function'BP_MoonQueen_Gym_C:GetCurrentInstanceRoot'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.5"
+      },
+      {
         "ObjectName": "Function'BP_MoonQueen_Gym_C:GetRideNPCMesh'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.6"
+      },
+      {
+        "ObjectName": "Function'BP_MoonQueen_Gym_C:SetBossCurrentInstanceRoot'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.7"
+      },
+      {
+        "ObjectName": "Function'BP_MoonQueen_Gym_C:ExecuteUbergraph_BP_MoonQueen_Gym'",
         "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.4"
       }
     ],
     "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
       {
         "Type": "ObjectProperty",
         "Name": "PalBodyPartsCapsule3_0",
@@ -62,12 +90,36 @@
           "ObjectName": "Class'AkAudioEvent'",
           "ObjectPath": "/Script/AkAudio"
         }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Instance Root",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | Net | DisableEditOnTemplate | Transient | DisableEditOnInstance",
+        "RepIndex": 31,
+        "PropertyClass": {
+          "ObjectName": "Class'PalBossBattleInstanceRoot'",
+          "ObjectPath": "/Script/Pal"
+        }
       }
     ],
     "FuncMap": {
+      "ExecuteUbergraph_BP_MoonQueen_Gym": {
+        "ObjectName": "Function'BP_MoonQueen_Gym_C:ExecuteUbergraph_BP_MoonQueen_Gym'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.4"
+      },
+      "SetBossCurrentInstanceRoot": {
+        "ObjectName": "Function'BP_MoonQueen_Gym_C:SetBossCurrentInstanceRoot'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.7"
+      },
       "GetRideNPCMesh": {
         "ObjectName": "Function'BP_MoonQueen_Gym_C:GetRideNPCMesh'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.4"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.6"
+      },
+      "GetCurrentInstanceRoot": {
+        "ObjectName": "Function'BP_MoonQueen_Gym_C:GetCurrentInstanceRoot'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.5"
       }
     },
     "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
@@ -76,19 +128,30 @@
       "ObjectPath": "/Script/CoreUObject"
     },
     "ClassConfigName": "Game",
+    "Interfaces": [
+      {
+        "Class": {
+          "ObjectName": "BlueprintGeneratedClass'BI_PalTowerBossLevelInstanceInterface_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Interface/BI_PalTowerBossLevelInstanceInterface.1"
+        },
+        "PointerOffset": 0,
+        "bImplementedByK2": true
+      }
+    ],
     "bCooked": true,
     "ClassDefaultObject": {
       "ObjectName": "BP_MoonQueen_Gym_C'Default__BP_MoonQueen_Gym_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.1"
     },
     "EditorTags": {
-      "BlueprintType": "BPTYPE_Normal"
+      "BlueprintType": "BPTYPE_Normal",
+      "ImplementedInterfaces": "((Interface=/Script/Engine.BlueprintGeneratedClass'\"/Game/Pal/Blueprint/Interface/BI_PalTowerBossLevelInstanceInterface.BI_PalTowerBossLevelInstanceInterface_C\"'))"
     }
   },
   {
     "Type": "BP_MoonQueen_Gym_C",
     "Name": "Default__BP_MoonQueen_Gym_C",
-    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.BP_MoonQueen_Gym_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym",
     "Template": {
@@ -96,74 +159,76 @@
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen.1"
     },
     "Properties": {
+      "UberGraphFrame": {},
       "LiftupObjectComponent": {
         "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MoonQueen_Gym_C:Liftup'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.12"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.15"
       },
       "DefaultVoiceID": 17,
       "ActionComponent": {
         "ObjectName": "PalActionComponent'Default__BP_MoonQueen_Gym_C:ActionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.6"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.9"
       },
       "CharacterParameterComponent": {
         "ObjectName": "PalCharacterParameterComponent'Default__BP_MoonQueen_Gym_C:CharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.14"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.17"
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MoonQueen_Gym_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.25"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_MoonQueen_Gym_C:DamageReactionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.15"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.18"
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_MoonQueen_Gym_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.26"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_MoonQueen_Gym_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.20"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.23"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_MoonQueen_Gym_C:FollowCamera'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.11"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.14"
       },
       "LookAtComponent": {
         "ObjectName": "PalLookAtComponent'Default__BP_MoonQueen_Gym_C:LookAtComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.17"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.20"
       },
       "FootIKComponent": {
         "ObjectName": "PalFootIKComponent'Default__BP_MoonQueen_Gym_C:FootIKComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.16"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.19"
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_MoonQueen_Gym_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.27"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_MoonQueen_Gym_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.19"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.22"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MoonQueen_Gym_C:AnimNotifyComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.7"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.10"
       },
       "AroundInfoCollectorComponent": {
         "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MoonQueen_Gym_C:AroundInfoCollectorComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.10"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.13"
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_MoonQueen_Gym_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.30"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.33"
       },
+      "bIsDisable_ChangeTickInterval_ByImportance": true,
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_MoonQueen_Gym_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.21"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.24"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_MoonQueen_Gym_C:CharMoveComp'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.13"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.16"
       },
       "CapsuleComponent": {
         "ObjectName": "CapsuleComponent'Default__BP_MoonQueen_Gym_C:CollisionCylinder'",
@@ -225,6 +290,22 @@
       },
       "DoUniqueWazaSeparetedAnim?": false,
       "DoCommonWazaSeparetedAnim?": true,
+      "WazaMontage": [
+        {
+          "Key": "EPalWazaID::Unique_MoonQueen_GYM_Act",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_SakurajimaBoss_Ride_FullMoon_Boss'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/NPC/Boss/SakurajimaBoss/AM_SakurajimaBoss_Ride_FullMoon_Boss.0"
+          }
+        },
+        {
+          "Key": "EPalWazaID::Unique_MoonQueen_GYM_Hard_Act",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_SakurajimaBoss_Ride_FullMoon_Boss'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/NPC/Boss/SakurajimaBoss/AM_SakurajimaBoss_Ride_FullMoon_Boss.0"
+          }
+        }
+      ],
       "AnimClass": {
         "ObjectName": "AnimBlueprintGeneratedClass'ABP_RidingBoss_C'",
         "ObjectPath": "Pal/Content/Pal/Blueprint/Character/NPC/Boss/ABP_RidingBoss.1"
@@ -272,6 +353,60 @@
   },
   {
     "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_MoonQueen_Gym",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MoonQueen_Gym_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_InstanceRoot",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'PalBossBattleInstanceRoot'",
+          "ObjectPath": "/Script/Pal"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "GetCurrentInstanceRoot",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MoonQueen_Gym_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InstanceRoot",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "Parm | OutParm",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBossBattleInstanceRoot'",
+          "ObjectPath": "/Script/Pal"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
     "Name": "GetRideNPCMesh",
     "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'Function'",
@@ -299,6 +434,30 @@
     "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure | FUNC_Const"
   },
   {
+    "Type": "Function",
+    "Name": "SetBossCurrentInstanceRoot",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MoonQueen_Gym_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InstanceRoot",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBossBattleInstanceRoot'",
+          "ObjectPath": "/Script/Pal"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
     "Type": "InheritableComponentHandler",
     "Name": "InheritableComponentHandler",
     "Flags": "RF_WasLoaded | RF_LoadCompleted",
@@ -316,7 +475,7 @@
           },
           "ComponentTemplate": {
             "ObjectName": "PalBodyPartsCapsuleComponent'BP_MoonQueen_Gym_C:PalBodyPartsCapsule3_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.9"
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.12"
           },
           "ComponentKey": {
             "OwnerClass": {
@@ -338,7 +497,7 @@
           },
           "ComponentTemplate": {
             "ObjectName": "PalNavigationInvokerComponent'BP_MoonQueen_Gym_C:PalNavigationInvoker_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.18"
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.21"
           },
           "ComponentKey": {
             "OwnerClass": {
@@ -478,7 +637,7 @@
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_MoonQueen_Gym_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.20"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.23"
       }
     }
   },
@@ -577,7 +736,7 @@
     },
     "Template": {
       "ObjectName": "PalNavigationInvokerComponent'BP_MonsterBase_C:PalNavigationInvoker_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
     },
     "Properties": {
       "bIsAutoActivateInvoker": true
@@ -594,7 +753,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MoonQueen_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen.29"
     }
   },
   {
@@ -608,7 +767,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MoonQueen_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen.32"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen.31"
     },
     "Properties": {
       "AttachParent": {
@@ -633,7 +792,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MoonQueen_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen.33"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen.32"
     },
     "Properties": {
       "AttachParent": {
@@ -663,7 +822,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MoonQueen_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen.34"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen.33"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 179.11377,
@@ -673,6 +832,15 @@
         "Y": 0.0,
         "Z": -191.0
       },
+      "WazaActionDeclarationMap": [
+        {
+          "Key": "EPalWazaID::Unique_MoonQueen_GYM_Act",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/MoonQueen/BP_UniqueAction_MoonQueen_GymAct.BP_UniqueAction_MoonQueen_GymAct_C",
+            "SubPathString": ""
+          }
+        }
+      ],
       "HPGaugeUIOffset": {
         "X": 20.0,
         "Y": 89.11377
@@ -691,7 +859,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MoonQueen_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen.35"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen.34"
     }
   },
   {
@@ -705,7 +873,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MoonQueen_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen.36"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen.35"
     }
   },
   {
@@ -725,7 +893,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_MoonQueen_Gym_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.29"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.32"
     },
     "Properties": {
       "ComponentClass": {
@@ -734,7 +902,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_MoonQueen_Gym_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.25"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.28"
       },
       "VariableGuid": "982C2A35-4718BF39-7597E6BE-E4738658",
       "InternalVariableName": "DefaultSceneRoot"
@@ -747,7 +915,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_MoonQueen_Gym_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.29"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.32"
     },
     "Properties": {
       "ComponentClass": {
@@ -764,7 +932,7 @@
       "ChildNodes": [
         {
           "ObjectName": "SCS_Node'BP_MoonQueen_Gym_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.28"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.31"
         }
       ],
       "VariableGuid": "9A844849-48E1FB0F-291BA5AB-CDD6C58D",
@@ -778,7 +946,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_MoonQueen_Gym_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.29"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.32"
     },
     "Properties": {
       "ComponentClass": {
@@ -787,7 +955,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "PalBodyPartsCapsuleComponent'BP_MoonQueen_Gym_C:PalBodyPartsCapsule3_0_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.8"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.11"
       },
       "AttachToName": "pelvis",
       "VariableGuid": "D364D85C-407040DE-2455F4AB-508DE62E",
@@ -807,22 +975,22 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'BP_MoonQueen_Gym_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.27"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.30"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'BP_MoonQueen_Gym_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.27"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.30"
         },
         {
           "ObjectName": "SCS_Node'BP_MoonQueen_Gym_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.28"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.31"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_MoonQueen_Gym_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen_Gym.29"
       }
     }
   },
@@ -837,7 +1005,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MoonQueen_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/MoonQueen/BP_MoonQueen.54"
     },
     "Properties": {
       "AttachParent": {

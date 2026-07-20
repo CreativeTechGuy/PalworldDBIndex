@@ -353,7 +353,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_Alpaca_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Alpaca/BP_Alpaca.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Alpaca/BP_Alpaca.25"
     }
   },
   {
@@ -367,9 +367,45 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_Alpaca_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Alpaca/BP_Alpaca.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Alpaca/BP_Alpaca.26"
     },
     "Properties": {
+      "WalkCameraArmLength": 275.0,
+      "WalkCameraOffset": {
+        "X": 0.0,
+        "Y": 80.0,
+        "Z": 100.0
+      },
+      "HipShootCameraArmLength": 275.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 80.0,
+        "Z": 100.0
+      },
+      "AimCameraArmLength": 200.0,
+      "AimCameraOffset": {
+        "X": 0.0,
+        "Y": 90.0,
+        "Z": 120.0
+      },
+      "AirCameraArmLength": 275.0,
+      "AirCameraOffset": {
+        "X": 0.0,
+        "Y": 80.0,
+        "Z": 100.0
+      },
+      "AirHipShootCameraArmLength": 275.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 80.0,
+        "Z": 100.0
+      },
+      "AirAimCameraArmLength": 200.0,
+      "AirAimCameraOffset": {
+        "X": 0.0,
+        "Y": 90.0,
+        "Z": 120.0
+      },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_Alpaca_Normal_C:CollisionCylinder'",
         "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Alpaca/BP_Alpaca_Normal.3"
@@ -387,7 +423,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_Alpaca_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Alpaca/BP_Alpaca.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Alpaca/BP_Alpaca.27"
     },
     "Properties": {
       "AttachParent": {
@@ -407,7 +443,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_Alpaca_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Alpaca/BP_Alpaca.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Alpaca/BP_Alpaca.29"
     }
   },
   {
@@ -421,7 +457,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_Alpaca_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Alpaca/BP_Alpaca.31"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Alpaca/BP_Alpaca.30"
     }
   },
   {
@@ -435,7 +471,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_Alpaca_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Alpaca/BP_Alpaca.32"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Alpaca/BP_Alpaca.31"
     }
   },
   {
@@ -534,7 +570,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_Alpaca_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Alpaca/BP_Alpaca.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Alpaca/BP_Alpaca.45"
     },
     "Properties": {
       "AttachParent": {

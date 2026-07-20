@@ -314,7 +314,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_KingBahamut_Dragon_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut_Dragon.15"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut_Dragon.14"
     }
   },
   {
@@ -328,9 +328,45 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_KingBahamut_Dragon_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut_Dragon.16"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut_Dragon.15"
     },
     "Properties": {
+      "WalkCameraArmLength": 900.0,
+      "WalkCameraOffset": {
+        "X": 0.0,
+        "Y": 250.0,
+        "Z": 300.0
+      },
+      "HipShootCameraArmLength": 900.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 250.0,
+        "Z": 300.0
+      },
+      "AimCameraArmLength": 700.0,
+      "AimCameraOffset": {
+        "X": 0.0,
+        "Y": 250.0,
+        "Z": 400.0
+      },
+      "AirCameraArmLength": 900.0,
+      "AirCameraOffset": {
+        "X": 0.0,
+        "Y": 250.0,
+        "Z": 300.0
+      },
+      "AirHipShootCameraArmLength": 900.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 250.0,
+        "Z": 300.0
+      },
+      "AirAimCameraArmLength": 700.0,
+      "AirAimCameraOffset": {
+        "X": 0.0,
+        "Y": 250.0,
+        "Z": 400.0
+      },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_KingBahamut_Dragon_BOSS_C:CollisionCylinder'",
         "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut_Dragon_BOSS.2"
@@ -353,7 +389,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_KingBahamut_Dragon_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut_Dragon.17"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut_Dragon.16"
     },
     "Properties": {
       "AttachParent": {
@@ -383,7 +419,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_KingBahamut_Dragon_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut_Dragon.18"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut_Dragon.17"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 208.0,
@@ -419,7 +455,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_KingBahamut_Dragon_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut_Dragon.19"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut_Dragon.18"
     }
   },
   {
@@ -433,7 +469,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_KingBahamut_Dragon_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut_Dragon.20"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut_Dragon.19"
     }
   },
   {
@@ -495,7 +531,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_KingBahamut_Dragon_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut_Dragon.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut_Dragon.23"
     },
     "Properties": {
       "AttachParent": {

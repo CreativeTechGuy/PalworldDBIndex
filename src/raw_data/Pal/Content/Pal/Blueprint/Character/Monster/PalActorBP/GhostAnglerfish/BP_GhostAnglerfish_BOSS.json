@@ -357,7 +357,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_GhostAnglerfish_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish.22"
     }
   },
   {
@@ -371,32 +371,40 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_GhostAnglerfish_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish.23"
     },
     "Properties": {
-      "WalkCameraArmLength": 400.0,
       "WalkCameraOffset": {
         "X": 0.0,
-        "Y": 85.0,
-        "Z": 170.0
+        "Y": 100.0,
+        "Z": 140.0
       },
-      "AimCameraArmLength": 110.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 100.0,
+        "Z": 140.0
+      },
+      "AimCameraArmLength": 200.0,
       "AimCameraOffset": {
         "X": 0.0,
-        "Y": 50.0,
-        "Z": 170.0
+        "Y": 100.0,
+        "Z": 140.0
       },
-      "AirCameraArmLength": 400.0,
       "AirCameraOffset": {
         "X": 0.0,
-        "Y": 85.0,
-        "Z": 170.0
+        "Y": 100.0,
+        "Z": 140.0
       },
-      "AirAimCameraArmLength": 110.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 100.0,
+        "Z": 140.0
+      },
+      "AirAimCameraArmLength": 200.0,
       "AirAimCameraOffset": {
         "X": 0.0,
-        "Y": 50.0,
-        "Z": 170.0
+        "Y": 100.0,
+        "Z": 140.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_GhostAnglerfish_BOSS_C:CollisionCylinder'",
@@ -420,7 +428,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_GhostAnglerfish_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish.24"
     },
     "Properties": {
       "AttachParent": {
@@ -450,7 +458,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_GhostAnglerfish_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish.25"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 103.28,
@@ -480,7 +488,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_GhostAnglerfish_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish.26"
     }
   },
   {
@@ -494,7 +502,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_GhostAnglerfish_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish.27"
     }
   },
   {
@@ -556,7 +564,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_GhostAnglerfish_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish.38"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/GhostAnglerfish/BP_GhostAnglerfish.37"
     },
     "Properties": {
       "AttachParent": {

@@ -361,7 +361,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_FengyunDeeper_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FengyunDeeper/BP_FengyunDeeper.22"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FengyunDeeper/BP_FengyunDeeper.21"
     }
   },
   {
@@ -375,32 +375,42 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_FengyunDeeper_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FengyunDeeper/BP_FengyunDeeper.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FengyunDeeper/BP_FengyunDeeper.22"
     },
     "Properties": {
       "WalkCameraArmLength": 350.0,
       "WalkCameraOffset": {
         "X": 0.0,
-        "Y": 95.0,
-        "Z": 135.0
+        "Y": 100.0,
+        "Z": 130.0
       },
-      "AimCameraArmLength": 122.0,
+      "HipShootCameraArmLength": 350.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 100.0,
+        "Z": 130.0
+      },
       "AimCameraOffset": {
         "X": 0.0,
-        "Y": 50.0,
-        "Z": 118.0
+        "Y": 90.0,
+        "Z": 140.0
       },
-      "AirCameraArmLength": 400.0,
+      "AirCameraArmLength": 350.0,
       "AirCameraOffset": {
         "X": 0.0,
         "Y": 100.0,
-        "Z": 140.0
+        "Z": 130.0
       },
-      "AirAimCameraArmLength": 120.0,
+      "AirHipShootCameraArmLength": 350.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 100.0,
+        "Z": 130.0
+      },
       "AirAimCameraOffset": {
         "X": 0.0,
-        "Y": 50.0,
-        "Z": 130.0
+        "Y": 90.0,
+        "Z": 140.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_FengyunDeeper_BOSS_C:CollisionCylinder'",
@@ -419,7 +429,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_FengyunDeeper_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FengyunDeeper/BP_FengyunDeeper.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FengyunDeeper/BP_FengyunDeeper.23"
     },
     "Properties": {
       "AttachParent": {
@@ -444,7 +454,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_FengyunDeeper_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FengyunDeeper/BP_FengyunDeeper.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FengyunDeeper/BP_FengyunDeeper.25"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 182.0,
@@ -465,7 +475,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_FengyunDeeper_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FengyunDeeper/BP_FengyunDeeper.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FengyunDeeper/BP_FengyunDeeper.26"
     }
   },
   {
@@ -479,7 +489,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_FengyunDeeper_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FengyunDeeper/BP_FengyunDeeper.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FengyunDeeper/BP_FengyunDeeper.27"
     }
   },
   {
@@ -541,7 +551,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_FengyunDeeper_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FengyunDeeper/BP_FengyunDeeper.38"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FengyunDeeper/BP_FengyunDeeper.37"
     },
     "Properties": {
       "AttachParent": {

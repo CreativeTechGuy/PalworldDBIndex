@@ -314,7 +314,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_LIttleBriarRose_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LittleBriarRose/BP_LIttleBriarRose.19"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LittleBriarRose/BP_LIttleBriarRose.18"
     }
   },
   {
@@ -328,7 +328,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_LIttleBriarRose_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LittleBriarRose/BP_LIttleBriarRose.20"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LittleBriarRose/BP_LIttleBriarRose.19"
     },
     "Properties": {
       "AttachParent": {
@@ -353,7 +353,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_LIttleBriarRose_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LittleBriarRose/BP_LIttleBriarRose.21"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LittleBriarRose/BP_LIttleBriarRose.20"
     },
     "Properties": {
       "AttachParent": {
@@ -383,7 +383,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_LIttleBriarRose_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LittleBriarRose/BP_LIttleBriarRose.22"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LittleBriarRose/BP_LIttleBriarRose.21"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 120.0,
@@ -447,6 +447,24 @@
             },
             "bShouldApply": true
           }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_05"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": 100.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
         }
       ],
       "HPGaugeUIOffset": {
@@ -470,7 +488,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_LIttleBriarRose_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LittleBriarRose/BP_LIttleBriarRose.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LittleBriarRose/BP_LIttleBriarRose.22"
     }
   },
   {
@@ -484,7 +502,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_LIttleBriarRose_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LittleBriarRose/BP_LIttleBriarRose.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LittleBriarRose/BP_LIttleBriarRose.23"
     }
   },
   {
@@ -546,7 +564,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_LIttleBriarRose_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LittleBriarRose/BP_LIttleBriarRose.31"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LittleBriarRose/BP_LIttleBriarRose.30"
     },
     "Properties": {
       "AttachParent": {

@@ -41,7 +41,7 @@
   {
     "Type": "BP_Bastet_Ice_C",
     "Name": "Default__BP_Bastet_Ice_C",
-    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Bastet/BP_Bastet_Ice.BP_Bastet_Ice_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Bastet/BP_Bastet_Ice",
     "Template": {
@@ -377,6 +377,72 @@
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_Bastet_C:StaticCharacterParameterComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Bastet/BP_Bastet.21"
+    },
+    "Properties": {
+      "SpawnItem": {
+        "FieldLotteryNameByRank": [
+          {
+            "Key": "1",
+            "Value": {
+              "Key": "CharacterSpawnItem_Bastet_Ice_1"
+            }
+          },
+          {
+            "Key": "2",
+            "Value": {
+              "Key": "CharacterSpawnItem_Bastet_Ice_2"
+            }
+          },
+          {
+            "Key": "3",
+            "Value": {
+              "Key": "CharacterSpawnItem_Bastet_Ice_3"
+            }
+          },
+          {
+            "Key": "4",
+            "Value": {
+              "Key": "CharacterSpawnItem_Bastet_Ice_4"
+            }
+          },
+          {
+            "Key": "5",
+            "Value": {
+              "Key": "CharacterSpawnItem_Bastet_Ice_5"
+            }
+          },
+          {
+            "Key": "6",
+            "Value": {
+              "Key": "CharacterSpawnItem_Bastet_Ice_6"
+            }
+          },
+          {
+            "Key": "7",
+            "Value": {
+              "Key": "CharacterSpawnItem_Bastet_Ice_7"
+            }
+          },
+          {
+            "Key": "8",
+            "Value": {
+              "Key": "CharacterSpawnItem_Bastet_Ice_8"
+            }
+          },
+          {
+            "Key": "9",
+            "Value": {
+              "Key": "CharacterSpawnItem_Bastet_Ice_9"
+            }
+          },
+          {
+            "Key": "10",
+            "Value": {
+              "Key": "CharacterSpawnItem_Bastet_Ice_10"
+            }
+          }
+        ]
+      }
     }
   },
   {

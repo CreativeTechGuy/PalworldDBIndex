@@ -12,11 +12,11 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_Sekhmet_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.35"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_Sekhmet_C:InheritableComponentHandler'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.3"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.4"
       }
     },
     "SuperStruct": {
@@ -26,13 +26,68 @@
     "ChildProperties": [
       {
         "Type": "ObjectProperty",
-        "Name": "Sphere",
+        "Name": "PalBodyPartsCapsule4",
         "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 8,
         "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
         "PropertyClass": {
-          "ObjectName": "Class'SphereComponent'",
-          "ObjectPath": "/Script/Engine"
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsSphere",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsSphereComponent'",
+          "ObjectPath": "/Script/Pal"
         }
       }
     ],
@@ -45,10 +100,27 @@
     "bCooked": true,
     "ClassDefaultObject": {
       "ObjectName": "BP_Sekhmet_C'Default__BP_Sekhmet_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.2"
     },
     "EditorTags": {
       "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_PalCryComponent_C",
+    "Name": "BP_PalCryComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.BP_PalCryComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Sekhmet_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalCryComponent_C'BP_MonsterBase_C:BP_PalCryComponent_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.2"
+    },
+    "Properties": {
+      "CryPalID": "EPalTribeID::Sekhmet"
     }
   },
   {
@@ -64,79 +136,79 @@
     "Properties": {
       "LiftupObjectComponent": {
         "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_Sekhmet_C:Liftup'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.8"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.15"
       },
       "ActionComponent": {
         "ObjectName": "PalActionComponent'Default__BP_Sekhmet_C:ActionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.4"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.5"
       },
       "CharacterParameterComponent": {
         "ObjectName": "PalCharacterParameterComponent'Default__BP_Sekhmet_C:CharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.10"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.17"
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_Sekhmet_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.18"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.24"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_Sekhmet_C:DamageReactionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.11"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.18"
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_Sekhmet_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.19"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.25"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_Sekhmet_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.16"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.22"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_Sekhmet_C:FollowCamera'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.7"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.14"
       },
       "LookAtComponent": {
         "ObjectName": "PalLookAtComponent'Default__BP_Sekhmet_C:LookAtComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.13"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.20"
       },
       "FootIKComponent": {
         "ObjectName": "PalFootIKComponent'Default__BP_Sekhmet_C:FootIKComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.12"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.19"
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_Sekhmet_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.20"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.26"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_Sekhmet_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.15"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.21"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_Sekhmet_C:AnimNotifyComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.5"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.6"
       },
       "AroundInfoCollectorComponent": {
         "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_Sekhmet_C:AroundInfoCollectorComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.6"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.13"
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_Sekhmet_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.36"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_Sekhmet_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.17"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.23"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_Sekhmet_C:CharMoveComp'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.9"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.16"
       },
       "CapsuleComponent": {
         "ObjectName": "CapsuleComponent'Default__BP_Sekhmet_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.3"
       },
       "RootComponent": {
         "ObjectName": "CapsuleComponent'Default__BP_Sekhmet_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.3"
       }
     }
   },
@@ -147,7 +219,7 @@
     "Class": "UScriptClass'CapsuleComponent'",
     "Outer": {
       "ObjectName": "BP_Sekhmet_C'Default__BP_Sekhmet_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.2"
     },
     "Template": {
       "ObjectName": "CapsuleComponent'Default__BP_MonsterBase_C:CollisionCylinder'",
@@ -171,20 +243,20 @@
       "Records": [
         {
           "ComponentClass": {
-            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-            "ObjectPath": "/Script/Pal"
+            "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
+            "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
           },
           "ComponentTemplate": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_Sekhmet_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.14"
+            "ObjectName": "BP_PalCryComponent_C'BP_Sekhmet_C:BP_PalCryComponent_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.1"
           },
           "ComponentKey": {
             "OwnerClass": {
               "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
               "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
             },
-            "SCSVariableName": "PalPartnerSkillParameter",
-            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
+            "SCSVariableName": "BP_PalCryComponent",
+            "AssociatedGuid": "A971BE27-4B3C10FC-863FA284-ECDC3286"
           },
           "CookedComponentInstancingData": {
             "ChangedPropertyList": [],
@@ -201,11 +273,11 @@
     "Class": "UScriptClass'PalActionComponent'",
     "Outer": {
       "ObjectName": "BP_Sekhmet_C'Default__BP_Sekhmet_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.2"
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
     }
   },
   {
@@ -215,11 +287,147 @@
     "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
     "Outer": {
       "ObjectName": "BP_Sekhmet_C'Default__BP_Sekhmet_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.2"
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Sekhmet_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 38.074528,
+      "CapsuleRadius": 12.605227,
+      "RelativeLocation": {
+        "X": 55.0,
+        "Y": -2.4424907E-14,
+        "Z": 2.4424907E-14
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -179.36699,
+        "Roll": 179.36699
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Sekhmet_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 38.074528,
+      "CapsuleRadius": 12.605227,
+      "RelativeLocation": {
+        "X": -60.0,
+        "Y": 2.379747E-09,
+        "Z": 4.2632564E-14
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": -0.17223531,
+        "Roll": -0.17223531
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule3_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Sekhmet_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 38.074528,
+      "CapsuleRadius": 12.605227,
+      "RelativeLocation": {
+        "X": -25.0,
+        "Y": -1.0462311E-09,
+        "Z": 1.7763568E-15
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 359.98022,
+        "Roll": -359.98022
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule4_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Sekhmet_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.0"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 38.074528,
+      "CapsuleRadius": 12.605227,
+      "RelativeLocation": {
+        "X": 25.0,
+        "Y": 1.7763568E-14,
+        "Z": 1.7763568E-14
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 359.98022,
+        "Roll": -359.98022
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Sekhmet_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.0"
+    },
+    "Properties": {
+      "RelativeRotation": {
+        "Pitch": -80.0,
+        "Yaw": 180.0,
+        "Roll": -180.0
+      }
+    }
+  },
+  {
+    "Type": "PalBodyPartsSphereComponent",
+    "Name": "PalBodyPartsSphere_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsSphereComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Sekhmet_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.0"
+    },
+    "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Weak",
+      "RelativeLocation": {
+        "X": 15.0,
+        "Y": -6.661338E-15,
+        "Z": -7.993606E-15
+      },
+      "RelativeScale3D": {
+        "X": 0.75,
+        "Y": 0.75,
+        "Z": 0.75
+      }
     }
   },
   {
@@ -229,16 +437,16 @@
     "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
     "Outer": {
       "ObjectName": "BP_Sekhmet_C'Default__BP_Sekhmet_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.2"
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_Sekhmet_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.3"
       }
     }
   },
@@ -249,16 +457,16 @@
     "Class": "UScriptClass'PalCharacterCameraComponent'",
     "Outer": {
       "ObjectName": "BP_Sekhmet_C'Default__BP_Sekhmet_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.2"
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_Sekhmet_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.16"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.22"
       }
     }
   },
@@ -269,11 +477,11 @@
     "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
     "Outer": {
       "ObjectName": "BP_Sekhmet_C'Default__BP_Sekhmet_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.2"
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -283,11 +491,15 @@
     "Class": "UScriptClass'PalCharacterMovementComponent'",
     "Outer": {
       "ObjectName": "BP_Sekhmet_C'Default__BP_Sekhmet_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.2"
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+    },
+    "Properties": {
+      "InWaterRate": 0.61,
+      "Buoyancy": 1.55
     }
   },
   {
@@ -297,11 +509,11 @@
     "Class": "UScriptClass'PalCharacterParameterComponent'",
     "Outer": {
       "ObjectName": "BP_Sekhmet_C'Default__BP_Sekhmet_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.2"
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -311,11 +523,11 @@
     "Class": "UScriptClass'PalDamageReactionComponent'",
     "Outer": {
       "ObjectName": "BP_Sekhmet_C'Default__BP_Sekhmet_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.2"
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
     }
   },
   {
@@ -325,11 +537,11 @@
     "Class": "UScriptClass'PalFootIKComponent'",
     "Outer": {
       "ObjectName": "BP_Sekhmet_C'Default__BP_Sekhmet_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.2"
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     }
   },
   {
@@ -339,179 +551,11 @@
     "Class": "UScriptClass'PalLookAtComponent'",
     "Outer": {
       "ObjectName": "BP_Sekhmet_C'Default__BP_Sekhmet_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.2"
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
-    }
-  },
-  {
-    "Type": "PalPartnerSkillParameterComponent",
-    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_Sekhmet_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.0"
-    },
-    "Template": {
-      "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
-    },
-    "Properties": {
-      "PassiveSkills": [
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "AttackUp_IfAllOtomoTribeDifferent_PartnerSkill_1"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "AttackUp_IfAllOtomoTribeDifferent_PartnerSkill_2"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "AttackUp_IfAllOtomoTribeDifferent_PartnerSkill_3"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "AttackUp_IfAllOtomoTribeDifferent_PartnerSkill_4"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        },
-        {
-          "SkillAndParameters": [
-            {
-              "Key": {
-                "Key": "AttackUp_IfAllOtomoTribeDifferent_PartnerSkill_5"
-              },
-              "Value": {
-                "DelayTime": 0.0,
-                "TriggerTypeFlags": 0,
-                "WorkType": "EPalWorkType::None",
-                "MapObjectId": [],
-                "ItemId": [],
-                "AssignOthers": false,
-                "TargetElementType": "EPalElementType::None",
-                "PalIds": [],
-                "PalTribeIds": [],
-                "bNotAssignSelf": false,
-                "ItemParam": {
-                  "ItemTypeA": "EPalItemTypeA::None",
-                  "ItemTypeB": "EPalItemTypeB::None",
-                  "ItemIds": [],
-                  "ExcludedItemIds": []
-                },
-                "RegeneParam": {
-                  "Interval": 0
-                }
-              }
-            }
-          ]
-        }
-      ]
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
     }
   },
   {
@@ -521,11 +565,11 @@
     "Class": "UScriptClass'PalPassiveSkillComponent'",
     "Outer": {
       "ObjectName": "BP_Sekhmet_C'Default__BP_Sekhmet_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.2"
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -535,16 +579,16 @@
     "Class": "UScriptClass'PalShooterSpringArmComponent'",
     "Outer": {
       "ObjectName": "BP_Sekhmet_C'Default__BP_Sekhmet_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.2"
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_Sekhmet_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.3"
       },
       "RelativeLocation": {
         "X": 0.0,
@@ -560,11 +604,11 @@
     "Class": "UScriptClass'PalSkeletalMeshComponent'",
     "Outer": {
       "ObjectName": "BP_Sekhmet_C'Default__BP_Sekhmet_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.2"
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
       "AnimClass": {
@@ -573,15 +617,15 @@
       },
       "SkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_Sekhmet'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/Sekhmet/SK_Sekhmet"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/Sekhmet/SK_Sekhmet.0"
       },
       "SkinnedAsset": {
         "ObjectName": "SkeletalMesh'SK_Sekhmet'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/Sekhmet/SK_Sekhmet"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/Sekhmet/SK_Sekhmet.0"
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_Sekhmet_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.3"
       },
       "RelativeLocation": {
         "X": 0.0,
@@ -597,11 +641,11 @@
     "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
     "Outer": {
       "ObjectName": "BP_Sekhmet_C'Default__BP_Sekhmet_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.2"
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 88.0,
@@ -611,11 +655,20 @@
         "Y": 0.0,
         "Z": -90.0
       },
+      "AIActionMap": [
+        {
+          "Key": "EPalAIActionType::SideMove",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_AIAction_AnimationSideStep_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Combat/BP_AIAction_AnimationSideStep.0"
+          }
+        }
+      ],
       "RandomRestMontageInfos": [
         {
           "RandomRestMontage": {
             "ObjectName": "AnimMontage'AM_Sekhmet_Rest01'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Rest01"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Rest01.0"
           },
           "Weight": 1.0,
           "LoopNum_Min": 1,
@@ -625,7 +678,7 @@
         {
           "RandomRestMontage": {
             "ObjectName": "AnimMontage'AM_Sekhmet_Rest02'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Rest02"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Rest02.0"
           },
           "Weight": 1.0,
           "LoopNum_Min": 1,
@@ -635,7 +688,7 @@
         {
           "RandomRestMontage": {
             "ObjectName": "AnimMontage'AM_Sekhmet_Rest03'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Rest03"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Rest03.0"
           },
           "Weight": 0.2,
           "LoopNum_Min": 1,
@@ -645,7 +698,7 @@
         {
           "RandomRestMontage": {
             "ObjectName": "AnimMontage'AM_Sekhmet_Rest04'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Rest04"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Rest04.0"
           },
           "Weight": 0.1,
           "LoopNum_Min": 1,
@@ -655,7 +708,7 @@
         {
           "RandomRestMontage": {
             "ObjectName": "AnimMontage'AM_Sekhmet_Eat'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Eat"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Eat.0"
           },
           "Weight": 1.0,
           "LoopNum_Min": 1,
@@ -668,14 +721,14 @@
           "Key": "EPalGeneralAnimSequenceType::JumpLoop",
           "Value": {
             "ObjectName": "AnimSequence'AS_Sekhmet_JumpLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AS_Sekhmet_JumpLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AS_Sekhmet_JumpLoop.0"
           }
         },
         {
           "Key": "EPalGeneralAnimSequenceType::JumpEnd",
           "Value": {
             "ObjectName": "AnimSequence'AS_Sekhmet_JumpEnd'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AS_Sekhmet_JumpEnd"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AS_Sekhmet_JumpEnd.0"
           }
         }
       ],
@@ -684,77 +737,77 @@
           "Key": "EPalGeneralMontageType::GeneralAttackReady_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_Sekhmet_FarSkill_Start'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_FarSkill_Start"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_FarSkill_Start.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackReadyLoop_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_Sekhmet_FarSkill_StartLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_FarSkill_StartLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_FarSkill_StartLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackProcess_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_Sekhmet_FarSkill_Action'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_FarSkill_Action"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_FarSkill_Action.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackProcessLoop_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_Sekhmet_FarSkill_ActionLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_FarSkill_ActionLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_FarSkill_ActionLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::GeneralAttackAfter_Far",
           "Value": {
             "ObjectName": "AnimMontage'AM_Sekhmet_FarSkill_End'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_FarSkill_End"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_FarSkill_End.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepStart",
           "Value": {
             "ObjectName": "AnimMontage'AM_Sekhmet_SleepStart'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_SleepStart"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_SleepStart.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepLoop",
           "Value": {
             "ObjectName": "AnimMontage'AM_Sekhmet_SleepLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_SleepLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_SleepLoop.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::SleepEnd",
           "Value": {
             "ObjectName": "AnimMontage'AM_Sekhmet_SleepEnd'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_SleepEnd"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_SleepEnd.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::DamageAdditive",
           "Value": {
             "ObjectName": "AnimMontage'AM_Sekhmet_Hit'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Hit"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Hit.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::BeLiftupStart",
           "Value": {
             "ObjectName": "AnimMontage'AM_Sekhmet_Carrying_Start'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Carrying_Start"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Carrying_Start.0"
           }
         },
         {
           "Key": "EPalGeneralMontageType::BeLiftupLoop",
           "Value": {
             "ObjectName": "AnimMontage'AM_Sekhmet_Carrying'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Carrying"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Carrying.0"
           }
         }
       ],
@@ -772,6 +825,13 @@
             "ObjectName": "BlendSpace1D'BS_Transport_Sekhmet'",
             "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BS_Transport_Sekhmet.0"
           }
+        },
+        {
+          "Key": "EPalGeneralBlendSpaceType::Swim",
+          "Value": {
+            "ObjectName": "BlendSpace1D'BS_Swim_Sekhmet'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BS_Swim_Sekhmet.0"
+          }
         }
       ],
       "RagdollPresetMap": [
@@ -788,94 +848,193 @@
           "Key": "EPalActionType::Menace",
           "Value": {
             "ObjectName": "AnimMontage'AM_Sekhmet_Encount'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Encount"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Encount.0"
           }
         },
         {
           "Key": "EPalActionType::Eat",
           "Value": {
             "ObjectName": "AnimMontage'AM_Sekhmet_Eat'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Eat"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Eat.0"
           }
         },
         {
           "Key": "EPalActionType::KnockBack",
           "Value": {
             "ObjectName": "AnimMontage'AM_Sekhmet_Damage'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Damage"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Damage.0"
           }
         },
         {
           "Key": "EPalActionType::ForwardWalk",
           "Value": {
             "ObjectName": "AnimMontage'AM_Sekhmet_Walk'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Walk"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Walk.0"
           }
         },
         {
           "Key": "EPalActionType::Architecture",
           "Value": {
             "ObjectName": "AnimMontage'AM_Sekhmet_Architecture'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Architecture"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Architecture.0"
           }
         },
         {
           "Key": "EPalActionType::Mining",
           "Value": {
             "ObjectName": "AnimMontage'AM_Sekhmet_Mining'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Mining"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Mining.0"
           }
         },
         {
           "Key": "EPalActionType::GetupUtubuse_orRight",
           "Value": {
             "ObjectName": "AnimMontage'AM_Sekhmet_GetUp_FrontDown'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_GetUp_FrontDown"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_GetUp_FrontDown.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::SideStep_Right",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_Sekhmet_SideStep_Right'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_SideStep_Right.0"
           }
         },
         {
           "Key": "EPalActionType::GetupAomuke_orRight",
           "Value": {
             "ObjectName": "AnimMontage'AM_Sekhmet_GetUp_BackDown'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_GetUp_BackDown"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_GetUp_BackDown.0"
           }
         },
         {
           "Key": "EPalActionType::PalPetting",
           "Value": {
             "ObjectName": "AnimMontage'AM_Sekhmet_Petting'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Petting"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Petting.0"
           }
         },
         {
           "Key": "EPalActionType::CommonWork",
           "Value": {
             "ObjectName": "AnimMontage'AM_Sekhmet_CommonWork'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_CommonWork"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_CommonWork.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::SideStep_Left",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_Sekhmet_SideStep_Left'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_SideStep_Left.0"
           }
         },
         {
           "Key": "EPalActionType::ElectricShock",
           "Value": {
             "ObjectName": "AnimMontage'AM_Sekhmet_ElectricShock'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_ElectricShock"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_ElectricShock.0"
           }
         },
         {
           "Key": "EPalActionType::FishPond",
           "Value": {
             "ObjectName": "AnimMontage'AM_Sekhmet_SleepLoop'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_SleepLoop"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_SleepLoop.0"
+          }
+        },
+        {
+          "Key": "EPalActionType::DefenseGunner",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_Sekhmet_Gunner'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Gunner.0"
           }
         },
         {
           "Key": "EPalActionType::IdleInSpa",
           "Value": {
             "ObjectName": "AnimMontage'AM_Sekhmet_Spa'",
-            "ObjectPath": "/Game/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Spa"
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_Spa.0"
           }
         }
       ],
+      "SleepOnSideInfoMapForMapObject": [
+        {
+          "Key": {
+            "Key": "MedicalPalBed_02"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": 0.0,
+              "Y": 130.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_03"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": 0.0,
+              "Y": 120.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_04"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": 0.0,
+              "Y": 210.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_05"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": 30.0,
+              "Y": 80.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
+        }
+      ],
+      "SleepOnSideAnimMontage": {
+        "ObjectName": "AnimMontage'AM_Sekhmet_SleepLoopTogether'",
+        "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/Sekhmet/AM_Sekhmet_SleepLoopTogether.0"
+      },
       "WazaActionDeclarationMap": [
         {
           "Key": "EPalWazaID::Unique_Sekhmet_SomersaultScratch",
@@ -896,8 +1055,19 @@
         "X": 0.0,
         "Y": 58.0
       },
+      "GetupMotion_UtubuseOrRight_0FramePelvisLocation": {
+        "X": 0.0,
+        "Y": 8.45622,
+        "Z": 12.098778
+      },
+      "GetupMotion_AomukeOrLeft_0FramePelvisLocation": {
+        "X": -0.0,
+        "Y": -14.308898,
+        "Z": 6.655964
+      },
       "PettingSize": "EPalPettingSizeType::Medium",
-      "PettingDistance": 80.0
+      "PettingDistance": 80.0,
+      "DefenseBuildObjectAssignDistance": 20.0
     }
   },
   {
@@ -907,11 +1077,11 @@
     "Class": "UScriptClass'PalStatusComponent'",
     "Outer": {
       "ObjectName": "BP_Sekhmet_C'Default__BP_Sekhmet_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.2"
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     }
   },
   {
@@ -921,11 +1091,11 @@
     "Class": "UScriptClass'PalVisualEffectComponent'",
     "Outer": {
       "ObjectName": "BP_Sekhmet_C'Default__BP_Sekhmet_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.2"
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -945,7 +1115,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_Sekhmet_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.35"
     },
     "Properties": {
       "ComponentClass": {
@@ -954,7 +1124,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_Sekhmet_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.21"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.27"
       },
       "VariableGuid": "DB463F11-4D0E64C0-2DDF1984-D2372356",
       "InternalVariableName": "DefaultSceneRoot"
@@ -962,27 +1132,152 @@
   },
   {
     "Type": "SCS_Node",
-    "Name": "SCS_Node_1",
+    "Name": "SCS_Node_2",
     "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_Sekhmet_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.35"
     },
     "Properties": {
       "ComponentClass": {
-        "ObjectName": "Class'SphereComponent'",
-        "ObjectPath": "/Script/Engine"
+        "ObjectName": "Class'PalBodyPartsSphereComponent'",
+        "ObjectPath": "/Script/Pal"
       },
       "ComponentTemplate": {
-        "ObjectName": "SphereComponent'BP_Sekhmet_C:Sphere_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.25"
+        "ObjectName": "PalBodyPartsSphereComponent'BP_Sekhmet_C:PalBodyPartsSphere_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.12"
       },
       "AttachToName": "head",
       "ParentComponentOrVariableName": "CharacterMesh0",
       "bIsParentComponentNative": true,
-      "VariableGuid": "F1E56818-4F042846-F09F1ABB-7FDF5EA2",
-      "InternalVariableName": "Sphere"
+      "VariableGuid": "36916266-4FA0E801-8E7A0BA7-F76AC2A2",
+      "InternalVariableName": "PalBodyPartsSphere"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Sekhmet_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_Sekhmet_C:PalBodyPartsCapsule_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.11"
+      },
+      "AttachToName": "pelvis",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "DD5E7531-49804709-F28EE0AB-EC3D2EBC",
+      "InternalVariableName": "PalBodyPartsCapsule"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Sekhmet_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_Sekhmet_C:PalBodyPartsCapsule1_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.7"
+      },
+      "AttachToName": "thigh_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "87221378-4E78BE95-EDF3679E-B6F3A657",
+      "InternalVariableName": "PalBodyPartsCapsule1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Sekhmet_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_Sekhmet_C:PalBodyPartsCapsule2_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.8"
+      },
+      "AttachToName": "thigh_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "41F52D84-426115CC-579BD1B8-97ECF955",
+      "InternalVariableName": "PalBodyPartsCapsule2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Sekhmet_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_Sekhmet_C:PalBodyPartsCapsule3_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.9"
+      },
+      "AttachToName": "upperarm_r",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "77380FE0-4DE13CAE-14576891-40D9B366",
+      "InternalVariableName": "PalBodyPartsCapsule3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Sekhmet_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_Sekhmet_C:PalBodyPartsCapsule4_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.10"
+      },
+      "AttachToName": "upperarm_l",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "3C1F5139-4F0DFFD7-56BF89A3-835537E6",
+      "InternalVariableName": "PalBodyPartsCapsule4"
     }
   },
   {
@@ -997,30 +1292,60 @@
     "Properties": {
       "RootNodes": [
         {
-          "ObjectName": "SCS_Node'BP_Sekhmet_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.23"
+          "ObjectName": "SCS_Node'BP_Sekhmet_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Sekhmet_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Sekhmet_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Sekhmet_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Sekhmet_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Sekhmet_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.34"
         }
       ],
       "AllNodes": [
         {
-          "ObjectName": "SCS_Node'BP_Sekhmet_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.23"
+          "ObjectName": "SCS_Node'BP_Sekhmet_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Sekhmet_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Sekhmet_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Sekhmet_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Sekhmet_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Sekhmet_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.34"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_Sekhmet_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.28"
       }
-    }
-  },
-  {
-    "Type": "SphereComponent",
-    "Name": "Sphere_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
-    "Class": "UScriptClass'SphereComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_Sekhmet_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.0"
     }
   },
   {
@@ -1030,16 +1355,16 @@
     "Class": "UScriptClass'SphereComponent'",
     "Outer": {
       "ObjectName": "BP_Sekhmet_C'Default__BP_Sekhmet_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.1"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.2"
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_Sekhmet_C:CollisionCylinder'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.2"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Sekhmet/BP_Sekhmet.3"
       }
     }
   }

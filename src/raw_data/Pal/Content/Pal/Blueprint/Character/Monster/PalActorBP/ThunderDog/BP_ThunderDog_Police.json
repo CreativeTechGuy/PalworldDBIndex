@@ -1,0 +1,769 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_ThunderDog_Police_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ThunderDog_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_ThunderDog_Police_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.26"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_ThunderDog_Police_C:InheritableComponentHandler'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ThunderDog_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.0"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_ThunderDog_Police_C:GetRideNPCMesh'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.5"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_PalBossNPCMarker",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PalBossNPCMarker_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/NPC/Boss/BP_PalBossNPCMarker.0"
+        }
+      }
+    ],
+    "FuncMap": {
+      "GetRideNPCMesh": {
+        "ObjectName": "Function'BP_ThunderDog_Police_C:GetRideNPCMesh'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.5"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ThunderDog_Police_C'Default__BP_ThunderDog_Police_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_PalBossNPCMarker_C",
+    "Name": "BP_PalBossNPCMarker_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/NPC/Boss/BP_PalBossNPCMarker.BP_PalBossNPCMarker_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ThunderDog_Police_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalBossNPCMarker_C'Default__BP_PalBossNPCMarker_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/NPC/Boss/BP_PalBossNPCMarker.1"
+    },
+    "Properties": {
+      "Anim List": {
+        "Encount_4_CAEBC8464E94BDC737DE3B986D4A3E01": {
+          "ObjectName": "AnimSequence'AS_GrassBoss_Ride_CommonWaza'",
+          "ObjectPath": "Pal/Content/Pal/Animation/Character/NPC/Boss/GrassBoss/AS_GrassBoss_Ride_CommonWaza.1"
+        },
+        "Commonwaza_6_17ED6C604B6AD2942DB495ADBF01265C": {
+          "ObjectName": "AnimSequence'AS_GrassBoss_Ride_Idle'",
+          "ObjectPath": "Pal/Content/Pal/Animation/Character/NPC/Boss/GrassBoss/AS_GrassBoss_Ride_Idle.0"
+        },
+        "UniqueWazaIn_8_CBE584EA46E3D7C383A579A852555702": null,
+        "UniqueWaza_10_B46A727E400A2EB055FF7EA1BB989F16": null,
+        "UniqueWazaOut_12_F2286E794F07E21A4D6DFBB8EBF34026": null
+      },
+      "ActionMontageMap": [
+        {
+          "Key": "EPalActionType::Menace",
+          "Value": {
+            "Start_6_C7B30EDC41E967F89A3806B66CD8B02F": null,
+            "Loop_7_D7226C18460A4DF614177A8A27BA584C": {
+              "ObjectName": "AnimMontage'AM_GrassBoss_Ride_CommonWaza'",
+              "ObjectPath": "Pal/Content/Pal/Animation/Character/NPC/Boss/GrassBoss/AM_GrassBoss_Ride_CommonWaza.0"
+            },
+            "End_8_4804F93B4C862C9A6D46E181F86598D2": null
+          }
+        },
+        {
+          "Key": "EPalActionType::Architecture",
+          "Value": {
+            "Start_6_C7B30EDC41E967F89A3806B66CD8B02F": null,
+            "Loop_7_D7226C18460A4DF614177A8A27BA584C": {
+              "ObjectName": "AnimMontage'AM_GrassBoss_Stand_Rest01'",
+              "ObjectPath": "Pal/Content/Pal/Animation/Character/NPC/Boss/GrassBoss/AM_GrassBoss_Stand_Rest01.0"
+            },
+            "End_8_4804F93B4C862C9A6D46E181F86598D2": null
+          }
+        },
+        {
+          "Key": "EPalActionType::IdleInSpa",
+          "Value": {
+            "Start_6_C7B30EDC41E967F89A3806B66CD8B02F": null,
+            "Loop_7_D7226C18460A4DF614177A8A27BA584C": {
+              "ObjectName": "AnimMontage'AM_NPC_Police01_SleepLoop'",
+              "ObjectPath": "Pal/Content/Pal/Animation/Character/NPC/Police01/AM_NPC_Police01_SleepLoop.0"
+            },
+            "End_8_4804F93B4C862C9A6D46E181F86598D2": null
+          }
+        },
+        {
+          "Key": "EPalActionType::Sleep",
+          "Value": {
+            "Start_6_C7B30EDC41E967F89A3806B66CD8B02F": {
+              "ObjectName": "AnimMontage'AM_NPC_Police01_SleepStart'",
+              "ObjectPath": "Pal/Content/Pal/Animation/Character/NPC/Police01/AM_NPC_Police01_SleepStart.0"
+            },
+            "Loop_7_D7226C18460A4DF614177A8A27BA584C": {
+              "ObjectName": "AnimMontage'AM_NPC_Police01_SleepLoop'",
+              "ObjectPath": "Pal/Content/Pal/Animation/Character/NPC/Police01/AM_NPC_Police01_SleepLoop.0"
+            },
+            "End_8_4804F93B4C862C9A6D46E181F86598D2": {
+              "ObjectName": "AnimMontage'AM_NPC_Police01_SleepEnd'",
+              "ObjectPath": "Pal/Content/Pal/Animation/Character/NPC/Police01/AM_NPC_Police01_SleepEnd.0"
+            }
+          }
+        },
+        {
+          "Key": "EPalActionType::GenerateEnergyElectric",
+          "Value": {
+            "Start_6_C7B30EDC41E967F89A3806B66CD8B02F": null,
+            "Loop_7_D7226C18460A4DF614177A8A27BA584C": null,
+            "End_8_4804F93B4C862C9A6D46E181F86598D2": null
+          }
+        },
+        {
+          "Key": "EPalActionType::FishPond",
+          "Value": {
+            "Start_6_C7B30EDC41E967F89A3806B66CD8B02F": null,
+            "Loop_7_D7226C18460A4DF614177A8A27BA584C": null,
+            "End_8_4804F93B4C862C9A6D46E181F86598D2": null
+          }
+        },
+        {
+          "Key": "EPalActionType::Liftup",
+          "Value": {
+            "Start_6_C7B30EDC41E967F89A3806B66CD8B02F": null,
+            "Loop_7_D7226C18460A4DF614177A8A27BA584C": {
+              "ObjectName": "AnimMontage'AM_GrassBoss_Ride_Carrying'",
+              "ObjectPath": "Pal/Content/Pal/Animation/Character/NPC/Boss/GrassBoss/AM_GrassBoss_Ride_Carrying.0"
+            },
+            "End_8_4804F93B4C862C9A6D46E181F86598D2": null
+          }
+        },
+        {
+          "Key": "EPalActionType::BeLiftup",
+          "Value": {
+            "Start_6_C7B30EDC41E967F89A3806B66CD8B02F": null,
+            "Loop_7_D7226C18460A4DF614177A8A27BA584C": {
+              "ObjectName": "AnimMontage'AM_GrassBoss_Ride_Carrying'",
+              "ObjectPath": "Pal/Content/Pal/Animation/Character/NPC/Boss/GrassBoss/AM_GrassBoss_Ride_Carrying.0"
+            },
+            "End_8_4804F93B4C862C9A6D46E181F86598D2": null
+          }
+        },
+        {
+          "Key": "EPalActionType::DefenseWait",
+          "Value": {
+            "Start_6_C7B30EDC41E967F89A3806B66CD8B02F": null,
+            "Loop_7_D7226C18460A4DF614177A8A27BA584C": null,
+            "End_8_4804F93B4C862C9A6D46E181F86598D2": null
+          }
+        },
+        {
+          "Key": "EPalActionType::GetupAomuke_orRight",
+          "Value": {
+            "Start_6_C7B30EDC41E967F89A3806B66CD8B02F": null,
+            "Loop_7_D7226C18460A4DF614177A8A27BA584C": null,
+            "End_8_4804F93B4C862C9A6D46E181F86598D2": null
+          }
+        }
+      ],
+      "AnimLayerClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_NPC_Male_Police01_Implimentation_C'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/NPC/Imp/ABP_NPC_Male_Police01_Implimentation.1"
+      },
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_RidingPolice_C'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/NPC/ABP_RidingPolice.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_NPC_Male_Police01'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/NPC/SK_NPC_Male_Police01/SK_NPC_Male_Police01.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_NPC_Male_Police01'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/NPC/SK_NPC_Male_Police01/SK_NPC_Male_Police01.1"
+      },
+      "RelativeLocation": {
+        "X": -30.0,
+        "Y": 60.0,
+        "Z": 30.0
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": -90.0
+      },
+      "bAbsoluteScale": true
+    }
+  },
+  {
+    "Type": "BP_PalRideMarkerSaddle_C",
+    "Name": "BP_PalRideMarkerSaddle_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerSaddle.BP_PalRideMarkerSaddle_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ThunderDog_Police_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalRideMarkerSaddle_C'BP_ThunderDog_C:BP_PalRideMarkerSaddle_GEN_VARIABLE'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.2"
+    },
+    "Properties": {
+      "bDisableRide": true
+    }
+  },
+  {
+    "Type": "BP_ThunderDog_Police_C",
+    "Name": "Default__BP_ThunderDog_Police_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.BP_ThunderDog_Police_C'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police",
+    "Template": {
+      "ObjectName": "BP_ThunderDog_C'Default__BP_ThunderDog_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.3"
+    },
+    "Properties": {
+      "LiftupObjectComponent": {
+        "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_ThunderDog_Police_C:Liftup'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.11"
+      },
+      "DefaultVoiceID": 15,
+      "ActionComponent": {
+        "ObjectName": "PalActionComponent'Default__BP_ThunderDog_Police_C:ActionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.7"
+      },
+      "CharacterParameterComponent": {
+        "ObjectName": "PalCharacterParameterComponent'Default__BP_ThunderDog_Police_C:CharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.13"
+      },
+      "StaticCharacterParameterComponent": {
+        "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_ThunderDog_Police_C:StaticCharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.20"
+      },
+      "DamageReactionComponent": {
+        "ObjectName": "PalDamageReactionComponent'Default__BP_ThunderDog_Police_C:DamageReactionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.14"
+      },
+      "StatusComponent": {
+        "ObjectName": "PalStatusComponent'Default__BP_ThunderDog_Police_C:StatusComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.21"
+      },
+      "CameraBoom": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_ThunderDog_Police_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.18"
+      },
+      "FollowCamera": {
+        "ObjectName": "PalCharacterCameraComponent'Default__BP_ThunderDog_Police_C:FollowCamera'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.10"
+      },
+      "LookAtComponent": {
+        "ObjectName": "PalLookAtComponent'Default__BP_ThunderDog_Police_C:LookAtComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.16"
+      },
+      "FootIKComponent": {
+        "ObjectName": "PalFootIKComponent'Default__BP_ThunderDog_Police_C:FootIKComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.15"
+      },
+      "VisualEffectComponent": {
+        "ObjectName": "PalVisualEffectComponent'Default__BP_ThunderDog_Police_C:VisualEffectComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.22"
+      },
+      "PassiveSkillComponent": {
+        "ObjectName": "PalPassiveSkillComponent'Default__BP_ThunderDog_Police_C:PassiveSkillComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.17"
+      },
+      "AnimNotifyComponent": {
+        "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_ThunderDog_Police_C:AnimNotifyComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.8"
+      },
+      "AroundInfoCollectorComponent": {
+        "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_ThunderDog_Police_C:AroundInfoCollectorComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.9"
+      },
+      "RagdollInteractiveSphere": {
+        "ObjectName": "SphereComponent'Default__BP_ThunderDog_Police_C:RagdollInteractiveSphere'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.27"
+      },
+      "Mesh": {
+        "ObjectName": "PalSkeletalMeshComponent'Default__BP_ThunderDog_Police_C:CharacterMesh0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.19"
+      },
+      "CharacterMovement": {
+        "ObjectName": "PalCharacterMovementComponent'Default__BP_ThunderDog_Police_C:CharMoveComp'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.12"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_ThunderDog_Police_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.4"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_ThunderDog_Police_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.4"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_ThunderDog_Police_C'Default__BP_ThunderDog_Police_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.3"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_ThunderDog_C:CollisionCylinder'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.4"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "GetRideNPCMesh",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ThunderDog_Police_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'PalMonsterCharacter:GetRideNPCMesh'",
+      "ObjectPath": "/Script/Pal"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "Parm | OutParm | ReturnParm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure | FUNC_Const"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ThunderDog_Police_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_PalRideMarkerSaddle_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Component/RideMarker/BP_PalRideMarkerSaddle.0"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BP_PalRideMarkerSaddle_C'BP_ThunderDog_Police_C:BP_PalRideMarkerSaddle_GEN_VARIABLE'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.2"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_ThunderDog_C'",
+              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.0"
+            },
+            "SCSVariableName": "BP_PalRideMarkerSaddle",
+            "AssociatedGuid": "57875315-4C4F6551-50D51CB7-1EDA86A0"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PalActionComponent",
+    "Name": "ActionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalActionComponent'",
+    "Outer": {
+      "ObjectName": "BP_ThunderDog_Police_C'Default__BP_ThunderDog_Police_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.3"
+    },
+    "Template": {
+      "ObjectName": "PalActionComponent'Default__BP_ThunderDog_C:ActionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.6"
+    }
+  },
+  {
+    "Type": "PalAnimNotifyParameterComponent",
+    "Name": "AnimNotifyComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_ThunderDog_Police_C'Default__BP_ThunderDog_Police_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.3"
+    },
+    "Template": {
+      "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_ThunderDog_C:AnimNotifyComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.7"
+    }
+  },
+  {
+    "Type": "PalCharacterAroundInfoCollectorComponent",
+    "Name": "AroundInfoCollectorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+    "Outer": {
+      "ObjectName": "BP_ThunderDog_Police_C'Default__BP_ThunderDog_Police_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.3"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_ThunderDog_C:AroundInfoCollectorComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.10"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_ThunderDog_Police_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.4"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterCameraComponent",
+    "Name": "FollowCamera",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterCameraComponent'",
+    "Outer": {
+      "ObjectName": "BP_ThunderDog_Police_C'Default__BP_ThunderDog_Police_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.3"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterCameraComponent'Default__BP_ThunderDog_C:FollowCamera'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.11"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_ThunderDog_Police_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.18"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterLiftupObjectComponent",
+    "Name": "Liftup",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+    "Outer": {
+      "ObjectName": "BP_ThunderDog_Police_C'Default__BP_ThunderDog_Police_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.3"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_ThunderDog_C:Liftup'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.12"
+    }
+  },
+  {
+    "Type": "PalCharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_ThunderDog_Police_C'Default__BP_ThunderDog_Police_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.3"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterMovementComponent'Default__BP_ThunderDog_C:CharMoveComp'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.13"
+    }
+  },
+  {
+    "Type": "PalCharacterParameterComponent",
+    "Name": "CharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_ThunderDog_Police_C'Default__BP_ThunderDog_Police_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.3"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterParameterComponent'Default__BP_ThunderDog_C:CharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.14"
+    }
+  },
+  {
+    "Type": "PalDamageReactionComponent",
+    "Name": "DamageReactionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalDamageReactionComponent'",
+    "Outer": {
+      "ObjectName": "BP_ThunderDog_Police_C'Default__BP_ThunderDog_Police_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.3"
+    },
+    "Template": {
+      "ObjectName": "PalDamageReactionComponent'Default__BP_ThunderDog_C:DamageReactionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.15"
+    }
+  },
+  {
+    "Type": "PalFootIKComponent",
+    "Name": "FootIKComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalFootIKComponent'",
+    "Outer": {
+      "ObjectName": "BP_ThunderDog_Police_C'Default__BP_ThunderDog_Police_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.3"
+    },
+    "Template": {
+      "ObjectName": "PalFootIKComponent'Default__BP_ThunderDog_C:FootIKComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.16"
+    }
+  },
+  {
+    "Type": "PalLookAtComponent",
+    "Name": "LookAtComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalLookAtComponent'",
+    "Outer": {
+      "ObjectName": "BP_ThunderDog_Police_C'Default__BP_ThunderDog_Police_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.3"
+    },
+    "Template": {
+      "ObjectName": "PalLookAtComponent'Default__BP_ThunderDog_C:LookAtComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.17"
+    }
+  },
+  {
+    "Type": "PalPassiveSkillComponent",
+    "Name": "PassiveSkillComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalPassiveSkillComponent'",
+    "Outer": {
+      "ObjectName": "BP_ThunderDog_Police_C'Default__BP_ThunderDog_Police_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.3"
+    },
+    "Template": {
+      "ObjectName": "PalPassiveSkillComponent'Default__BP_ThunderDog_C:PassiveSkillComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.18"
+    }
+  },
+  {
+    "Type": "PalShooterSpringArmComponent",
+    "Name": "CameraBoom",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalShooterSpringArmComponent'",
+    "Outer": {
+      "ObjectName": "BP_ThunderDog_Police_C'Default__BP_ThunderDog_Police_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.3"
+    },
+    "Template": {
+      "ObjectName": "PalShooterSpringArmComponent'Default__BP_ThunderDog_C:CameraBoom'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.19"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_ThunderDog_Police_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.4"
+      }
+    }
+  },
+  {
+    "Type": "PalSkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_ThunderDog_Police_C'Default__BP_ThunderDog_Police_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.3"
+    },
+    "Template": {
+      "ObjectName": "PalSkeletalMeshComponent'Default__BP_ThunderDog_C:CharacterMesh0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.20"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_ThunderDog_Police_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.4"
+      }
+    }
+  },
+  {
+    "Type": "PalStaticCharacterParameterComponent",
+    "Name": "StaticCharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_ThunderDog_Police_C'Default__BP_ThunderDog_Police_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.3"
+    },
+    "Template": {
+      "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_ThunderDog_C:StaticCharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.21"
+    },
+    "Properties": {
+      "AIActionMap": []
+    }
+  },
+  {
+    "Type": "PalStatusComponent",
+    "Name": "StatusComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStatusComponent'",
+    "Outer": {
+      "ObjectName": "BP_ThunderDog_Police_C'Default__BP_ThunderDog_Police_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.3"
+    },
+    "Template": {
+      "ObjectName": "PalStatusComponent'Default__BP_ThunderDog_C:StatusComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.22"
+    }
+  },
+  {
+    "Type": "PalVisualEffectComponent",
+    "Name": "VisualEffectComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalVisualEffectComponent'",
+    "Outer": {
+      "ObjectName": "BP_ThunderDog_Police_C'Default__BP_ThunderDog_Police_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.3"
+    },
+    "Template": {
+      "ObjectName": "PalVisualEffectComponent'Default__BP_ThunderDog_C:VisualEffectComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.23"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ThunderDog_Police_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ThunderDog_Police_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_ThunderDog_Police_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.23"
+      },
+      "VariableGuid": "2F9D1F5A-441833D2-831E9EA1-8D98DC90",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ThunderDog_Police_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PalBossNPCMarker_C'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/NPC/Boss/BP_PalBossNPCMarker.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_PalBossNPCMarker_C'BP_ThunderDog_Police_C:BP_PalBossNPCMarker_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.1"
+      },
+      "AttachToName": "spine_02",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "955A6C2B-4604E6D2-B1768095-7B5B174D",
+      "InternalVariableName": "BP_PalBossNPCMarker"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ThunderDog_Police_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ThunderDog_Police_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.25"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ThunderDog_Police_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.25"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_ThunderDog_Police_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.24"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "RagdollInteractiveSphere",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BP_ThunderDog_Police_C'Default__BP_ThunderDog_Police_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.3"
+    },
+    "Template": {
+      "ObjectName": "SphereComponent'Default__BP_ThunderDog_C:RagdollInteractiveSphere'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog.30"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_ThunderDog_Police_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDog/BP_ThunderDog_Police.4"
+      }
+    }
+  }
+]

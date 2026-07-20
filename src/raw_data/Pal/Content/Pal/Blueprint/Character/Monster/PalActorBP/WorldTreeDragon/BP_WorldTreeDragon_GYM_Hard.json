@@ -1,0 +1,1042 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_WorldTreeDragon_GYM_Hard_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WorldTreeDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_WorldTreeDragon_GYM_Hard_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.31"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_WorldTreeDragon_GYM_Hard_C:InheritableComponentHandler'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.7"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_WorldTreeDragon_GYM_Hard_C:ExecuteUbergraph_BP_WorldTreeDragon_GYM_Hard'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WorldTreeDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon.0"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_WorldTreeDragon_GYM_Hard_C:GetCurrentInstanceRoot'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.5"
+      },
+      {
+        "ObjectName": "Function'BP_WorldTreeDragon_GYM_Hard_C:SetBossCurrentInstanceRoot'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.6"
+      },
+      {
+        "ObjectName": "Function'BP_WorldTreeDragon_GYM_Hard_C:ExecuteUbergraph_BP_WorldTreeDragon_GYM_Hard'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.4"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Niagara",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraComponent'",
+          "ObjectPath": "/Script/Niagara"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PalBodyPartsCapsule45",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+          "ObjectPath": "/Script/Pal"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_PalBossNPCMarker",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PalBossNPCMarker_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/NPC/Boss/BP_PalBossNPCMarker.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Instance Root",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBossBattleInstanceRoot'",
+          "ObjectPath": "/Script/Pal"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_WorldTreeDragon_GYM_Hard": {
+        "ObjectName": "Function'BP_WorldTreeDragon_GYM_Hard_C:ExecuteUbergraph_BP_WorldTreeDragon_GYM_Hard'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.4"
+      },
+      "SetBossCurrentInstanceRoot": {
+        "ObjectName": "Function'BP_WorldTreeDragon_GYM_Hard_C:SetBossCurrentInstanceRoot'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.6"
+      },
+      "GetCurrentInstanceRoot": {
+        "ObjectName": "Function'BP_WorldTreeDragon_GYM_Hard_C:GetCurrentInstanceRoot'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.5"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "Interfaces": [
+      {
+        "Class": {
+          "ObjectName": "BlueprintGeneratedClass'BI_PalTowerBossLevelInstanceInterface_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Interface/BI_PalTowerBossLevelInstanceInterface.1"
+        },
+        "PointerOffset": 0,
+        "bImplementedByK2": true
+      }
+    ],
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_WorldTreeDragon_GYM_Hard_C'Default__BP_WorldTreeDragon_GYM_Hard_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal",
+      "ImplementedInterfaces": "((Interface=/Script/Engine.BlueprintGeneratedClass'\"/Game/Pal/Blueprint/Interface/BI_PalTowerBossLevelInstanceInterface.BI_PalTowerBossLevelInstanceInterface_C\"'))"
+    }
+  },
+  {
+    "Type": "BP_PalBossNPCMarker_C",
+    "Name": "BP_PalBossNPCMarker_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/NPC/Boss/BP_PalBossNPCMarker.BP_PalBossNPCMarker_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WorldTreeDragon_GYM_Hard_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.0"
+    },
+    "Template": {
+      "ObjectName": "BP_PalBossNPCMarker_C'Default__BP_PalBossNPCMarker_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/NPC/Boss/BP_PalBossNPCMarker.1"
+    },
+    "Properties": {
+      "Anim List": {
+        "Idle_2_1EBBA0384D935467F36F6CB60245AB11": {
+          "ObjectName": "AnimSequence'AS_WorldTreeBoss_Ride_Idle'",
+          "ObjectPath": "Pal/Content/Pal/Animation/Character/NPC/Boss/WorldTreeBoss/AS_WorldTreeBoss_Ride_Idle.0"
+        },
+        "Encount_4_CAEBC8464E94BDC737DE3B986D4A3E01": {
+          "ObjectName": "AnimSequence'AS_WorldTreeBoss_Ride_Encount'",
+          "ObjectPath": "Pal/Content/Pal/Animation/Character/NPC/Boss/WorldTreeBoss/AS_WorldTreeBoss_Ride_Encount.0"
+        },
+        "Commonwaza_6_17ED6C604B6AD2942DB495ADBF01265C": {
+          "ObjectName": "AnimSequence'AS_WorldTreeBoss_Ride_CommonWaza'",
+          "ObjectPath": "Pal/Content/Pal/Animation/Character/NPC/Boss/WorldTreeBoss/AS_WorldTreeBoss_Ride_CommonWaza.1"
+        },
+        "UniqueWazaIn_8_CBE584EA46E3D7C383A579A852555702": null,
+        "UniqueWaza_10_B46A727E400A2EB055FF7EA1BB989F16": null,
+        "UniqueWazaOut_12_F2286E794F07E21A4D6DFBB8EBF34026": null
+      },
+      "WazaMontage": [
+        {
+          "Key": "EPalWazaID::Unique_WorldTreeDragon_PaldiumCannon",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_WorldTreeBoss_Ride_PaldiumCannon'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/NPC/Boss/WorldTreeBoss/AM_WorldTreeBoss_Ride_PaldiumCannon.0"
+          }
+        },
+        {
+          "Key": "EPalWazaID::Unique_WorldTreeDragon_Supernova",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_WorldTreeBoss_Ride_Supernova'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/NPC/Boss/WorldTreeBoss/AM_WorldTreeBoss_Ride_Supernova.0"
+          }
+        },
+        {
+          "Key": "EPalWazaID::Unique_WorldTreeDragon_LaserGliding",
+          "Value": {
+            "ObjectName": "AnimMontage'AM_WorldTreeBoss_Ride_LaserGliding'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/NPC/Boss/WorldTreeBoss/AM_WorldTreeBoss_Ride_LaserGliding.0"
+          }
+        }
+      ],
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_RidingBoss_C'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/NPC/Boss/ABP_RidingBoss.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_NPC_WorldTreeBoss001'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/NPC/Boss/WorldTreeBoss/SK_NPC_WorldTreeBoss001.5"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_NPC_WorldTreeBoss001'",
+        "ObjectPath": "Pal/Content/Pal/Model/Character/NPC/Boss/WorldTreeBoss/SK_NPC_WorldTreeBoss001.5"
+      },
+      "OverrideMaterials": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_NPC_Outfit_WorldTreeBoss001_M01_Black'",
+          "ObjectPath": "Pal/Content/Pal/Model/Character/NPC/Boss/WorldTreeBoss/MI_NPC_Outfit_WorldTreeBoss001_M01_Black.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_NPC_Outfit_WorldTreeBoss001_M02_Black'",
+          "ObjectPath": "Pal/Content/Pal/Model/Character/NPC/Boss/WorldTreeBoss/MI_NPC_Outfit_WorldTreeBoss001_M02_Black.0"
+        }
+      ],
+      "RelativeRotation": {
+        "Pitch": -5.155492E-12,
+        "Yaw": -6.766471E-11,
+        "Roll": -90.0
+      },
+      "bAbsoluteScale": true
+    }
+  },
+  {
+    "Type": "BP_WorldTreeDragon_GYM_Hard_C",
+    "Name": "Default__BP_WorldTreeDragon_GYM_Hard_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.BP_WorldTreeDragon_GYM_Hard_C'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard",
+    "Template": {
+      "ObjectName": "BP_WorldTreeDragon_C'Default__BP_WorldTreeDragon_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon.2"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "LiftupObjectComponent": {
+        "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_WorldTreeDragon_GYM_Hard_C:Liftup'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.14"
+      },
+      "ActionComponent": {
+        "ObjectName": "PalActionComponent'Default__BP_WorldTreeDragon_GYM_Hard_C:ActionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.9"
+      },
+      "CharacterParameterComponent": {
+        "ObjectName": "PalCharacterParameterComponent'Default__BP_WorldTreeDragon_GYM_Hard_C:CharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.16"
+      },
+      "StaticCharacterParameterComponent": {
+        "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_WorldTreeDragon_GYM_Hard_C:StaticCharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.23"
+      },
+      "DamageReactionComponent": {
+        "ObjectName": "PalDamageReactionComponent'Default__BP_WorldTreeDragon_GYM_Hard_C:DamageReactionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.17"
+      },
+      "StatusComponent": {
+        "ObjectName": "PalStatusComponent'Default__BP_WorldTreeDragon_GYM_Hard_C:StatusComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.24"
+      },
+      "CameraBoom": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_WorldTreeDragon_GYM_Hard_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.21"
+      },
+      "FollowCamera": {
+        "ObjectName": "PalCharacterCameraComponent'Default__BP_WorldTreeDragon_GYM_Hard_C:FollowCamera'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.13"
+      },
+      "LookAtComponent": {
+        "ObjectName": "PalLookAtComponent'Default__BP_WorldTreeDragon_GYM_Hard_C:LookAtComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.19"
+      },
+      "FootIKComponent": {
+        "ObjectName": "PalFootIKComponent'Default__BP_WorldTreeDragon_GYM_Hard_C:FootIKComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.18"
+      },
+      "VisualEffectComponent": {
+        "ObjectName": "PalVisualEffectComponent'Default__BP_WorldTreeDragon_GYM_Hard_C:VisualEffectComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.25"
+      },
+      "PassiveSkillComponent": {
+        "ObjectName": "PalPassiveSkillComponent'Default__BP_WorldTreeDragon_GYM_Hard_C:PassiveSkillComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.20"
+      },
+      "AnimNotifyComponent": {
+        "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_WorldTreeDragon_GYM_Hard_C:AnimNotifyComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.10"
+      },
+      "AroundInfoCollectorComponent": {
+        "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_WorldTreeDragon_GYM_Hard_C:AroundInfoCollectorComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.12"
+      },
+      "RagdollInteractiveSphere": {
+        "ObjectName": "SphereComponent'Default__BP_WorldTreeDragon_GYM_Hard_C:RagdollInteractiveSphere'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.32"
+      },
+      "bUseActorNetCullDistance": true,
+      "bIsDisable_ChangeTickInterval_ByImportance": true,
+      "Mesh": {
+        "ObjectName": "PalSkeletalMeshComponent'Default__BP_WorldTreeDragon_GYM_Hard_C:CharacterMesh0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.22"
+      },
+      "CharacterMovement": {
+        "ObjectName": "PalCharacterMovementComponent'Default__BP_WorldTreeDragon_GYM_Hard_C:CharMoveComp'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.15"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_WorldTreeDragon_GYM_Hard_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.3"
+      },
+      "NetCullDistanceSquared": 400000000.0,
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_WorldTreeDragon_GYM_Hard_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.3"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_WorldTreeDragon_GYM_Hard_C'Default__BP_WorldTreeDragon_GYM_Hard_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.2"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_WorldTreeDragon_C:CollisionCylinder'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon.3"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_WorldTreeDragon_GYM_Hard",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WorldTreeDragon_GYM_Hard_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_InstanceRoot",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'PalBossBattleInstanceRoot'",
+          "ObjectPath": "/Script/Pal"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "GetCurrentInstanceRoot",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WorldTreeDragon_GYM_Hard_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InstanceRoot",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "Parm | OutParm",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBossBattleInstanceRoot'",
+          "ObjectPath": "/Script/Pal"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetBossCurrentInstanceRoot",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WorldTreeDragon_GYM_Hard_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InstanceRoot",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBossBattleInstanceRoot'",
+          "ObjectPath": "/Script/Pal"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WorldTreeDragon_GYM_Hard_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.0"
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "Niagara_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WorldTreeDragon_GYM_Hard_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.0"
+    },
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'NS_WorldTreeDragon'",
+        "ObjectPath": "Pal/Content/Pal/Effect/Common/PalMeshEffect/NS_WorldTreeDragon.31"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Lifetime",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Lifetime",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Rate",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Rate",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Scale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Scale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2,
+                "Flags": 0
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.Lifetime",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 4,
+            "Name": "User.Rate",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          },
+          {
+            "Offset": 8,
+            "Name": "User.Scale",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2,
+              "Flags": 0
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          128,
+          63
+        ]
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 130.0,
+        "Z": 80.0
+      }
+    }
+  },
+  {
+    "Type": "PalActionComponent",
+    "Name": "ActionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalActionComponent'",
+    "Outer": {
+      "ObjectName": "BP_WorldTreeDragon_GYM_Hard_C'Default__BP_WorldTreeDragon_GYM_Hard_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.2"
+    },
+    "Template": {
+      "ObjectName": "PalActionComponent'Default__BP_WorldTreeDragon_C:ActionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon.11"
+    }
+  },
+  {
+    "Type": "PalAnimNotifyParameterComponent",
+    "Name": "AnimNotifyComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_WorldTreeDragon_GYM_Hard_C'Default__BP_WorldTreeDragon_GYM_Hard_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.2"
+    },
+    "Template": {
+      "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_WorldTreeDragon_C:AnimNotifyComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon.12"
+    }
+  },
+  {
+    "Type": "PalBodyPartsCapsuleComponent",
+    "Name": "PalBodyPartsCapsule45_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalBodyPartsCapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WorldTreeDragon_GYM_Hard_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.0"
+    },
+    "Properties": {
+      "BodyPartsType": "EPalBodyPartsType::Weak",
+      "CapsuleHalfHeight": 18.0,
+      "CapsuleRadius": 10.0,
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "RelativeLocation": {
+        "X": 12.287247,
+        "Y": 114.29194,
+        "Z": 71.59824
+      },
+      "RelativeRotation": {
+        "Pitch": -15.140007,
+        "Yaw": 130.51067,
+        "Roll": -14.230347
+      },
+      "RelativeScale3D": {
+        "X": -5.774775,
+        "Y": -1.990877,
+        "Z": 5.246577
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterAroundInfoCollectorComponent",
+    "Name": "AroundInfoCollectorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+    "Outer": {
+      "ObjectName": "BP_WorldTreeDragon_GYM_Hard_C'Default__BP_WorldTreeDragon_GYM_Hard_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.2"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_WorldTreeDragon_C:AroundInfoCollectorComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon.58"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_WorldTreeDragon_GYM_Hard_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.3"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterCameraComponent",
+    "Name": "FollowCamera",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterCameraComponent'",
+    "Outer": {
+      "ObjectName": "BP_WorldTreeDragon_GYM_Hard_C'Default__BP_WorldTreeDragon_GYM_Hard_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.2"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterCameraComponent'Default__BP_WorldTreeDragon_C:FollowCamera'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon.59"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_WorldTreeDragon_GYM_Hard_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.21"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterLiftupObjectComponent",
+    "Name": "Liftup",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+    "Outer": {
+      "ObjectName": "BP_WorldTreeDragon_GYM_Hard_C'Default__BP_WorldTreeDragon_GYM_Hard_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.2"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_WorldTreeDragon_C:Liftup'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon.60"
+    }
+  },
+  {
+    "Type": "PalCharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_WorldTreeDragon_GYM_Hard_C'Default__BP_WorldTreeDragon_GYM_Hard_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.2"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterMovementComponent'Default__BP_WorldTreeDragon_C:CharMoveComp'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon.61"
+    }
+  },
+  {
+    "Type": "PalCharacterParameterComponent",
+    "Name": "CharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_WorldTreeDragon_GYM_Hard_C'Default__BP_WorldTreeDragon_GYM_Hard_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.2"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterParameterComponent'Default__BP_WorldTreeDragon_C:CharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon.62"
+    }
+  },
+  {
+    "Type": "PalDamageReactionComponent",
+    "Name": "DamageReactionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalDamageReactionComponent'",
+    "Outer": {
+      "ObjectName": "BP_WorldTreeDragon_GYM_Hard_C'Default__BP_WorldTreeDragon_GYM_Hard_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.2"
+    },
+    "Template": {
+      "ObjectName": "PalDamageReactionComponent'Default__BP_WorldTreeDragon_C:DamageReactionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon.63"
+    }
+  },
+  {
+    "Type": "PalFootIKComponent",
+    "Name": "FootIKComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalFootIKComponent'",
+    "Outer": {
+      "ObjectName": "BP_WorldTreeDragon_GYM_Hard_C'Default__BP_WorldTreeDragon_GYM_Hard_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.2"
+    },
+    "Template": {
+      "ObjectName": "PalFootIKComponent'Default__BP_WorldTreeDragon_C:FootIKComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon.65"
+    }
+  },
+  {
+    "Type": "PalLookAtComponent",
+    "Name": "LookAtComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalLookAtComponent'",
+    "Outer": {
+      "ObjectName": "BP_WorldTreeDragon_GYM_Hard_C'Default__BP_WorldTreeDragon_GYM_Hard_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.2"
+    },
+    "Template": {
+      "ObjectName": "PalLookAtComponent'Default__BP_WorldTreeDragon_C:LookAtComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon.66"
+    }
+  },
+  {
+    "Type": "PalPassiveSkillComponent",
+    "Name": "PassiveSkillComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalPassiveSkillComponent'",
+    "Outer": {
+      "ObjectName": "BP_WorldTreeDragon_GYM_Hard_C'Default__BP_WorldTreeDragon_GYM_Hard_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.2"
+    },
+    "Template": {
+      "ObjectName": "PalPassiveSkillComponent'Default__BP_WorldTreeDragon_C:PassiveSkillComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon.67"
+    }
+  },
+  {
+    "Type": "PalShooterSpringArmComponent",
+    "Name": "CameraBoom",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalShooterSpringArmComponent'",
+    "Outer": {
+      "ObjectName": "BP_WorldTreeDragon_GYM_Hard_C'Default__BP_WorldTreeDragon_GYM_Hard_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.2"
+    },
+    "Template": {
+      "ObjectName": "PalShooterSpringArmComponent'Default__BP_WorldTreeDragon_C:CameraBoom'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon.68"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_WorldTreeDragon_GYM_Hard_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.3"
+      }
+    }
+  },
+  {
+    "Type": "PalSkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_WorldTreeDragon_GYM_Hard_C'Default__BP_WorldTreeDragon_GYM_Hard_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.2"
+    },
+    "Template": {
+      "ObjectName": "PalSkeletalMeshComponent'Default__BP_WorldTreeDragon_C:CharacterMesh0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon.69"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_WorldTreeDragon_GYM_Hard_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.3"
+      }
+    }
+  },
+  {
+    "Type": "PalStaticCharacterParameterComponent",
+    "Name": "StaticCharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_WorldTreeDragon_GYM_Hard_C'Default__BP_WorldTreeDragon_GYM_Hard_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.2"
+    },
+    "Template": {
+      "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_WorldTreeDragon_C:StaticCharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon.70"
+    }
+  },
+  {
+    "Type": "PalStatusComponent",
+    "Name": "StatusComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStatusComponent'",
+    "Outer": {
+      "ObjectName": "BP_WorldTreeDragon_GYM_Hard_C'Default__BP_WorldTreeDragon_GYM_Hard_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.2"
+    },
+    "Template": {
+      "ObjectName": "PalStatusComponent'Default__BP_WorldTreeDragon_C:StatusComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon.71"
+    },
+    "Properties": {
+      "StatusMap": [
+        {
+          "Key": "EPalStatusID::LowGravity",
+          "Value": {
+            "ObjectName": "BlueprintGeneratedClass'BP_Status_WorldTreeDragon_Gym_NoGravity_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Status/WorldTreeDragon/BP_Status_WorldTreeDragon_Gym_NoGravity.0"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PalVisualEffectComponent",
+    "Name": "VisualEffectComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalVisualEffectComponent'",
+    "Outer": {
+      "ObjectName": "BP_WorldTreeDragon_GYM_Hard_C'Default__BP_WorldTreeDragon_GYM_Hard_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.2"
+    },
+    "Template": {
+      "ObjectName": "PalVisualEffectComponent'Default__BP_WorldTreeDragon_C:VisualEffectComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon.72"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WorldTreeDragon_GYM_Hard_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WorldTreeDragon_GYM_Hard_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.31"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_WorldTreeDragon_GYM_Hard_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.26"
+      },
+      "VariableGuid": "E0BF373D-4EAE6577-FF3A0DA4-54E0BC62",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WorldTreeDragon_GYM_Hard_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.31"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PalBossNPCMarker_C'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/NPC/Boss/BP_PalBossNPCMarker.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_PalBossNPCMarker_C'BP_WorldTreeDragon_GYM_Hard_C:BP_PalBossNPCMarker_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.1"
+      },
+      "AttachToName": "spine_03",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_WorldTreeDragon_GYM_Hard_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_WorldTreeDragon_GYM_Hard_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.30"
+        }
+      ],
+      "VariableGuid": "200204BA-458C493D-6DE0E8B0-C23E7C88",
+      "InternalVariableName": "BP_PalBossNPCMarker"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WorldTreeDragon_GYM_Hard_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.31"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PalBodyPartsCapsuleComponent'",
+        "ObjectPath": "/Script/Pal"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PalBodyPartsCapsuleComponent'BP_WorldTreeDragon_GYM_Hard_C:PalBodyPartsCapsule45_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.11"
+      },
+      "VariableGuid": "EAE801A6-4D5A5FB8-0A506994-AF5FE6C1",
+      "InternalVariableName": "PalBodyPartsCapsule45"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_WorldTreeDragon_GYM_Hard_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.31"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'NiagaraComponent'",
+        "ObjectPath": "/Script/Niagara"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "NiagaraComponent'BP_WorldTreeDragon_GYM_Hard_C:Niagara_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.8"
+      },
+      "VariableGuid": "63DD1245-4C34A0A5-45A056B5-542ED0BD",
+      "InternalVariableName": "Niagara"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WorldTreeDragon_GYM_Hard_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_WorldTreeDragon_GYM_Hard_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.28"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_WorldTreeDragon_GYM_Hard_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_WorldTreeDragon_GYM_Hard_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_WorldTreeDragon_GYM_Hard_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.30"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_WorldTreeDragon_GYM_Hard_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.27"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "RagdollInteractiveSphere",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BP_WorldTreeDragon_GYM_Hard_C'Default__BP_WorldTreeDragon_GYM_Hard_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.2"
+    },
+    "Template": {
+      "ObjectName": "SphereComponent'Default__BP_WorldTreeDragon_C:RagdollInteractiveSphere'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon.123"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_WorldTreeDragon_GYM_Hard_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/WorldTreeDragon/BP_WorldTreeDragon_GYM_Hard.3"
+      }
+    }
+  }
+]

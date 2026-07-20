@@ -120,7 +120,7 @@
   {
     "Type": "BP_Horus_Oilrig_C",
     "Name": "Default__BP_Horus_Oilrig_C",
-    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig.BP_Horus_Oilrig_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus_Oilrig",
     "Template": {
@@ -669,7 +669,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_Horus_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.23"
     }
   },
   {
@@ -683,7 +683,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_Horus_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.24"
     },
     "Properties": {
       "AttachParent": {
@@ -703,7 +703,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_Horus_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.25"
     },
     "Properties": {
       "AttachParent": {
@@ -750,10 +750,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_Horus_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.28"
-    },
-    "Properties": {
-      "IsUncapturable": true
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.27"
     }
   },
   {
@@ -767,7 +764,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_Horus_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.29"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.28"
     }
   },
   {
@@ -781,7 +778,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_Horus_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.29"
     }
   },
   {
@@ -1078,7 +1075,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_Horus_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Horus/BP_Horus.43"
     },
     "Properties": {
       "AttachParent": {

@@ -319,7 +319,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_Yeti_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Yeti/BP_Yeti.22"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Yeti/BP_Yeti.21"
     }
   },
   {
@@ -333,7 +333,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_Yeti_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Yeti/BP_Yeti.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Yeti/BP_Yeti.22"
     },
     "Properties": {
       "WalkCameraArmLength": 1700.0,
@@ -382,7 +382,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_Yeti_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Yeti/BP_Yeti.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Yeti/BP_Yeti.23"
     },
     "Properties": {
       "AttachParent": {
@@ -407,7 +407,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_Yeti_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Yeti/BP_Yeti.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Yeti/BP_Yeti.25"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 280.0,
@@ -417,6 +417,7 @@
         "Y": 0.0,
         "Z": -300.0
       },
+      "ApproachArrivalRadius": 250.0,
       "SleepOnSideInfoMapForMapObject": [
         {
           "Key": {
@@ -488,7 +489,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_Yeti_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Yeti/BP_Yeti.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Yeti/BP_Yeti.26"
     }
   },
   {
@@ -502,7 +503,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_Yeti_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Yeti/BP_Yeti.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Yeti/BP_Yeti.27"
     }
   },
   {
@@ -564,7 +565,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_Yeti_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Yeti/BP_Yeti.38"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Yeti/BP_Yeti.37"
     },
     "Properties": {
       "AttachParent": {

@@ -446,7 +446,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_Boar_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Boar/BP_Boar.19"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Boar/BP_Boar.18"
     }
   },
   {
@@ -460,32 +460,44 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_Boar_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Boar/BP_Boar.20"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Boar/BP_Boar.19"
     },
     "Properties": {
-      "WalkCameraArmLength": 850.0,
+      "WalkCameraArmLength": 450.0,
       "WalkCameraOffset": {
         "X": 0.0,
-        "Y": 125.0,
-        "Z": 185.0
+        "Y": 140.0,
+        "Z": 140.0
       },
-      "AimCameraArmLength": 275.0,
+      "HipShootCameraArmLength": 450.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 140.0,
+        "Z": 140.0
+      },
+      "AimCameraArmLength": 300.0,
       "AimCameraOffset": {
-        "X": 55.0,
-        "Y": 50.0,
-        "Z": 190.0
+        "X": 0.0,
+        "Y": 120.0,
+        "Z": 200.0
       },
-      "AirCameraArmLength": 850.0,
+      "AirCameraArmLength": 450.0,
       "AirCameraOffset": {
         "X": 0.0,
-        "Y": 125.0,
-        "Z": 185.0
+        "Y": 140.0,
+        "Z": 140.0
       },
-      "AirAimCameraArmLength": 275.0,
+      "AirHipShootCameraArmLength": 450.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 140.0,
+        "Z": 140.0
+      },
+      "AirAimCameraArmLength": 300.0,
       "AirAimCameraOffset": {
-        "X": 55.0,
-        "Y": 50.0,
-        "Z": 190.0
+        "X": 0.0,
+        "Y": 120.0,
+        "Z": 200.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_Boar_BOSS_C:CollisionCylinder'",
@@ -509,7 +521,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_Boar_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Boar/BP_Boar.21"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Boar/BP_Boar.20"
     },
     "Properties": {
       "AttachParent": {
@@ -534,7 +546,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_Boar_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Boar/BP_Boar.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Boar/BP_Boar.22"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 160.0,
@@ -622,7 +634,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_Boar_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Boar/BP_Boar.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Boar/BP_Boar.23"
     }
   },
   {
@@ -636,7 +648,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_Boar_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Boar/BP_Boar.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Boar/BP_Boar.24"
     }
   },
   {
@@ -698,7 +710,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_Boar_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Boar/BP_Boar.33"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Boar/BP_Boar.32"
     },
     "Properties": {
       "AttachParent": {

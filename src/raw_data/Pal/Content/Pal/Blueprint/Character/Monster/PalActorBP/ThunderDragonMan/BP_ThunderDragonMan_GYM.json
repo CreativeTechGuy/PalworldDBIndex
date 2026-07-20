@@ -10,13 +10,18 @@
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan.0"
     },
     "Properties": {
+      "NumReplicatedProperties": 1,
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_ThunderDragonMan_GYM_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.29"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_ThunderDragonMan_GYM_C:InheritableComponentHandler'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.5"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.8"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_ThunderDragonMan_GYM_C:ExecuteUbergraph_BP_ThunderDragonMan_GYM'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.4"
       }
     },
     "SuperStruct": {
@@ -25,11 +30,34 @@
     },
     "Children": [
       {
+        "ObjectName": "Function'BP_ThunderDragonMan_GYM_C:GetCurrentInstanceRoot'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.5"
+      },
+      {
         "ObjectName": "Function'BP_ThunderDragonMan_GYM_C:GetRideNPCMesh'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.6"
+      },
+      {
+        "ObjectName": "Function'BP_ThunderDragonMan_GYM_C:SetBossCurrentInstanceRoot'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.7"
+      },
+      {
+        "ObjectName": "Function'BP_ThunderDragonMan_GYM_C:ExecuteUbergraph_BP_ThunderDragonMan_GYM'",
         "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.4"
       }
     ],
     "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
       {
         "Type": "ObjectProperty",
         "Name": "BP_PalBossNPCMarker",
@@ -40,12 +68,36 @@
           "ObjectName": "BlueprintGeneratedClass'BP_PalBossNPCMarker_C'",
           "ObjectPath": "Pal/Content/Pal/Blueprint/Character/NPC/Boss/BP_PalBossNPCMarker.0"
         }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CurrentBossBattleInstanceRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | Net | DisableEditOnTemplate | Transient | DisableEditOnInstance",
+        "RepIndex": 31,
+        "PropertyClass": {
+          "ObjectName": "Class'PalBossBattleInstanceRoot'",
+          "ObjectPath": "/Script/Pal"
+        }
       }
     ],
     "FuncMap": {
+      "ExecuteUbergraph_BP_ThunderDragonMan_GYM": {
+        "ObjectName": "Function'BP_ThunderDragonMan_GYM_C:ExecuteUbergraph_BP_ThunderDragonMan_GYM'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.4"
+      },
+      "SetBossCurrentInstanceRoot": {
+        "ObjectName": "Function'BP_ThunderDragonMan_GYM_C:SetBossCurrentInstanceRoot'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.7"
+      },
       "GetRideNPCMesh": {
         "ObjectName": "Function'BP_ThunderDragonMan_GYM_C:GetRideNPCMesh'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.4"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.6"
+      },
+      "GetCurrentInstanceRoot": {
+        "ObjectName": "Function'BP_ThunderDragonMan_GYM_C:GetCurrentInstanceRoot'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.5"
       }
     },
     "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
@@ -54,13 +106,24 @@
       "ObjectPath": "/Script/CoreUObject"
     },
     "ClassConfigName": "Game",
+    "Interfaces": [
+      {
+        "Class": {
+          "ObjectName": "BlueprintGeneratedClass'BI_PalTowerBossLevelInstanceInterface_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Interface/BI_PalTowerBossLevelInstanceInterface.1"
+        },
+        "PointerOffset": 0,
+        "bImplementedByK2": true
+      }
+    ],
     "bCooked": true,
     "ClassDefaultObject": {
       "ObjectName": "BP_ThunderDragonMan_GYM_C'Default__BP_ThunderDragonMan_GYM_C'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.2"
     },
     "EditorTags": {
-      "BlueprintType": "BPTYPE_Normal"
+      "BlueprintType": "BPTYPE_Normal",
+      "ImplementedInterfaces": "((Interface=/Script/Engine.BlueprintGeneratedClass'\"/Game/Pal/Blueprint/Interface/BI_PalTowerBossLevelInstanceInterface.BI_PalTowerBossLevelInstanceInterface_C\"'))"
     }
   },
   {
@@ -138,7 +201,7 @@
   {
     "Type": "BP_ThunderDragonMan_GYM_C",
     "Name": "Default__BP_ThunderDragonMan_GYM_C",
-    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.BP_ThunderDragonMan_GYM_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM",
     "Template": {
@@ -146,74 +209,76 @@
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan.3"
     },
     "Properties": {
+      "UberGraphFrame": {},
       "LiftupObjectComponent": {
         "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_ThunderDragonMan_GYM_C:Liftup'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.10"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.13"
       },
       "DefaultVoiceID": 5,
       "ActionComponent": {
         "ObjectName": "PalActionComponent'Default__BP_ThunderDragonMan_GYM_C:ActionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.6"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.9"
       },
       "CharacterParameterComponent": {
         "ObjectName": "PalCharacterParameterComponent'Default__BP_ThunderDragonMan_GYM_C:CharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.12"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.15"
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_ThunderDragonMan_GYM_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.20"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.23"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_ThunderDragonMan_GYM_C:DamageReactionComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.13"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.16"
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_ThunderDragonMan_GYM_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.21"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.24"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_ThunderDragonMan_GYM_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.18"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.21"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_ThunderDragonMan_GYM_C:FollowCamera'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.9"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.12"
       },
       "LookAtComponent": {
         "ObjectName": "PalLookAtComponent'Default__BP_ThunderDragonMan_GYM_C:LookAtComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.15"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.18"
       },
       "FootIKComponent": {
         "ObjectName": "PalFootIKComponent'Default__BP_ThunderDragonMan_GYM_C:FootIKComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.14"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.17"
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_ThunderDragonMan_GYM_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.25"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_ThunderDragonMan_GYM_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.17"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.20"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_ThunderDragonMan_GYM_C:AnimNotifyComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.7"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.10"
       },
       "AroundInfoCollectorComponent": {
         "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_ThunderDragonMan_GYM_C:AroundInfoCollectorComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.8"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.11"
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_ThunderDragonMan_GYM_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.27"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.30"
       },
+      "bIsDisable_ChangeTickInterval_ByImportance": true,
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_ThunderDragonMan_GYM_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.19"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.22"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_ThunderDragonMan_GYM_C:CharMoveComp'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.11"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.14"
       },
       "CapsuleComponent": {
         "ObjectName": "CapsuleComponent'Default__BP_ThunderDragonMan_GYM_C:CollisionCylinder'",
@@ -238,6 +303,60 @@
       "ObjectName": "CapsuleComponent'Default__BP_ThunderDragonMan_C:CollisionCylinder'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan.4"
     }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_ThunderDragonMan_GYM",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ThunderDragonMan_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_InstanceRoot",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'PalBossBattleInstanceRoot'",
+          "ObjectPath": "/Script/Pal"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "GetCurrentInstanceRoot",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ThunderDragonMan_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InstanceRoot",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "Parm | OutParm",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBossBattleInstanceRoot'",
+          "ObjectPath": "/Script/Pal"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
   },
   {
     "Type": "Function",
@@ -268,6 +387,30 @@
     "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure | FUNC_Const"
   },
   {
+    "Type": "Function",
+    "Name": "SetBossCurrentInstanceRoot",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ThunderDragonMan_GYM_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InstanceRoot",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'PalBossBattleInstanceRoot'",
+          "ObjectPath": "/Script/Pal"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
     "Type": "InheritableComponentHandler",
     "Name": "InheritableComponentHandler",
     "Flags": "RF_WasLoaded | RF_LoadCompleted",
@@ -285,7 +428,7 @@
           },
           "ComponentTemplate": {
             "ObjectName": "PalNavigationInvokerComponent'BP_ThunderDragonMan_GYM_C:PalNavigationInvoker_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.16"
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.19"
           },
           "ComponentKey": {
             "OwnerClass": {
@@ -367,7 +510,7 @@
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_ThunderDragonMan_GYM_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.18"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.21"
       }
     }
   },
@@ -466,7 +609,7 @@
     },
     "Template": {
       "ObjectName": "PalNavigationInvokerComponent'BP_MonsterBase_C:PalNavigationInvoker_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
     },
     "Properties": {
       "bIsAutoActivateInvoker": true
@@ -483,7 +626,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_ThunderDragonMan_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan.25"
     }
   },
   {
@@ -497,7 +640,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_ThunderDragonMan_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan.26"
     },
     "Properties": {
       "AttachParent": {
@@ -517,7 +660,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_ThunderDragonMan_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan.27"
     },
     "Properties": {
       "AttachParent": {
@@ -542,10 +685,19 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_ThunderDragonMan_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan.29"
     },
     "Properties": {
       "MeshCapsuleRadius": 80.0,
+      "WazaActionDeclarationMap": [
+        {
+          "Key": "EPalWazaID::Unique_ThunderDragonMan_GYM_Act",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/ThunderDragonMan/BP_UniqueAction_ThunderDragonMan_GYM_SpecialAction.BP_UniqueAction_ThunderDragonMan_GYM_SpecialAction_C",
+            "SubPathString": ""
+          }
+        }
+      ],
       "IsUncapturable": true
     }
   },
@@ -560,7 +712,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_ThunderDragonMan_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan.31"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan.30"
     }
   },
   {
@@ -574,7 +726,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_ThunderDragonMan_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan.32"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan.31"
     }
   },
   {
@@ -594,7 +746,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_ThunderDragonMan_GYM_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.29"
     },
     "Properties": {
       "ComponentClass": {
@@ -603,7 +755,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_ThunderDragonMan_GYM_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.26"
       },
       "VariableGuid": "277FB740-4C1A4776-DB695E98-47970148",
       "InternalVariableName": "DefaultSceneRoot"
@@ -616,7 +768,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_ThunderDragonMan_GYM_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.29"
     },
     "Properties": {
       "ComponentClass": {
@@ -647,18 +799,18 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'BP_ThunderDragonMan_GYM_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.25"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.28"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'BP_ThunderDragonMan_GYM_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.25"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.28"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_ThunderDragonMan_GYM_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan_GYM.27"
       }
     }
   },
@@ -673,7 +825,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_ThunderDragonMan_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ThunderDragonMan/BP_ThunderDragonMan.44"
     },
     "Properties": {
       "AttachParent": {

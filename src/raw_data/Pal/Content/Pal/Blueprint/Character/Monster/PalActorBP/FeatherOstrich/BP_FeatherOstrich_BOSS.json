@@ -41,7 +41,7 @@
   {
     "Type": "BP_FeatherOstrich_BOSS_C",
     "Name": "Default__BP_FeatherOstrich_BOSS_C",
-    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FeatherOstrich/BP_FeatherOstrich_BOSS.BP_FeatherOstrich_BOSS_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FeatherOstrich/BP_FeatherOstrich_BOSS",
     "Template": {
@@ -314,7 +314,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_FeatherOstrich_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FeatherOstrich/BP_FeatherOstrich.22"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FeatherOstrich/BP_FeatherOstrich.21"
     }
   },
   {
@@ -328,32 +328,44 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_FeatherOstrich_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FeatherOstrich/BP_FeatherOstrich.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FeatherOstrich/BP_FeatherOstrich.22"
     },
     "Properties": {
-      "WalkCameraArmLength": 500.0,
+      "WalkCameraArmLength": 350.0,
       "WalkCameraOffset": {
         "X": 0.0,
-        "Y": 85.0,
-        "Z": 150.0
+        "Y": 120.0,
+        "Z": 100.0
       },
-      "AimCameraArmLength": 150.0,
+      "HipShootCameraArmLength": 350.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 120.0,
+        "Z": 100.0
+      },
+      "AimCameraArmLength": 250.0,
       "AimCameraOffset": {
         "X": 0.0,
-        "Y": 50.0,
-        "Z": 121.0
+        "Y": 120.0,
+        "Z": 140.0
       },
-      "AirCameraArmLength": 500.0,
+      "AirCameraArmLength": 350.0,
       "AirCameraOffset": {
         "X": 0.0,
-        "Y": 85.0,
-        "Z": 150.0
+        "Y": 120.0,
+        "Z": 100.0
       },
-      "AirAimCameraArmLength": 150.0,
+      "AirHipShootCameraArmLength": 350.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 120.0,
+        "Z": 100.0
+      },
+      "AirAimCameraArmLength": 250.0,
       "AirAimCameraOffset": {
         "X": 0.0,
-        "Y": 50.0,
-        "Z": 121.0
+        "Y": 120.0,
+        "Z": 140.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_FeatherOstrich_BOSS_C:CollisionCylinder'",
@@ -377,7 +389,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_FeatherOstrich_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FeatherOstrich/BP_FeatherOstrich.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FeatherOstrich/BP_FeatherOstrich.23"
     },
     "Properties": {
       "AttachParent": {
@@ -407,7 +419,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_FeatherOstrich_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FeatherOstrich/BP_FeatherOstrich.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FeatherOstrich/BP_FeatherOstrich.25"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 150.37,
@@ -492,7 +504,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_FeatherOstrich_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FeatherOstrich/BP_FeatherOstrich.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FeatherOstrich/BP_FeatherOstrich.26"
     }
   },
   {
@@ -506,7 +518,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_FeatherOstrich_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FeatherOstrich/BP_FeatherOstrich.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FeatherOstrich/BP_FeatherOstrich.27"
     }
   },
   {
@@ -568,7 +580,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_FeatherOstrich_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FeatherOstrich/BP_FeatherOstrich.39"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FeatherOstrich/BP_FeatherOstrich.38"
     },
     "Properties": {
       "AttachParent": {

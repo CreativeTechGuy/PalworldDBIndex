@@ -12,7 +12,7 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_LilyQueen_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.30"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.29"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_LilyQueen_C:InheritableComponentHandler'",
@@ -76,7 +76,7 @@
   {
     "Type": "BP_LilyQueen_C",
     "Name": "Default__BP_LilyQueen_C",
-    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.BP_LilyQueen_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen",
     "Template": {
@@ -98,7 +98,7 @@
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_LilyQueen_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.21"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_LilyQueen_C:DamageReactionComponent'",
@@ -106,11 +106,11 @@
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_LilyQueen_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.22"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_LilyQueen_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.20"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.19"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_LilyQueen_C:FollowCamera'",
@@ -126,11 +126,11 @@
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_LilyQueen_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.23"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_LilyQueen_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.19"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.18"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_LilyQueen_C:AnimNotifyComponent'",
@@ -142,11 +142,11 @@
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_LilyQueen_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.31"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.30"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_LilyQueen_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.21"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.20"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_LilyQueen_C:CharMoveComp'",
@@ -249,28 +249,6 @@
       "Records": [
         {
           "ComponentClass": {
-            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-            "ObjectPath": "/Script/Pal"
-          },
-          "ComponentTemplate": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_LilyQueen_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.18"
-          },
-          "ComponentKey": {
-            "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-            },
-            "SCSVariableName": "PalPartnerSkillParameter",
-            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
-          },
-          "CookedComponentInstancingData": {
-            "ChangedPropertyList": [],
-            "bHasValidCookedData": false
-          }
-        },
-        {
-          "ComponentClass": {
             "ObjectName": "BlueprintGeneratedClass'BP_PalCryComponent_C'",
             "ObjectPath": "Pal/Content/Pal/Sound/Pal/Cry/BP_PalCryComponent.0"
           },
@@ -305,7 +283,7 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_MonsterBase_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.41"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
     },
     "Properties": {
       "ActionMap": [
@@ -337,7 +315,7 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_MonsterBase_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
     }
   },
   {
@@ -406,7 +384,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_MonsterBase_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.43"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
     },
     "Properties": {
       "AttachParent": {
@@ -426,12 +404,12 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_MonsterBase_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.44"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
     },
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_LilyQueen_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.20"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.19"
       }
     }
   },
@@ -446,7 +424,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_MonsterBase_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.45"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
     }
   },
   {
@@ -460,7 +438,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_MonsterBase_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.46"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
     },
     "Properties": {
       "HoveringWaterEffectParameter": {
@@ -479,7 +457,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_MonsterBase_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
     }
   },
   {
@@ -493,7 +471,7 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_MonsterBase_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.48"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.49"
     }
   },
   {
@@ -517,7 +495,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_MonsterBase_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.50"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.51"
     }
   },
   {
@@ -531,32 +509,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_MonsterBase_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.52"
-    }
-  },
-  {
-    "Type": "PalPartnerSkillParameterComponent",
-    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_LilyQueen_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.0"
-    },
-    "Template": {
-      "ObjectName": "PalPartnerSkillParameterComponent'BP_MonsterBase_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.54"
-    },
-    "Properties": {
-      "SkillName": "Heal_LilyQueen",
-      "ActiveSkill_MainValue_Overview_EditorOnly": "回復量実数値",
-      "ActiveSkill_MainValueByRank": [
-        1000.0,
-        1100.0,
-        1300.0,
-        1600.0,
-        2000.0
-      ]
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.53"
     }
   },
   {
@@ -570,7 +523,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_MonsterBase_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.55"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.56"
     }
   },
   {
@@ -584,7 +537,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_MonsterBase_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.57"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
     },
     "Properties": {
       "AttachParent": {
@@ -609,7 +562,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_MonsterBase_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.58"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
     },
     "Properties": {
       "AnimClass": {
@@ -652,7 +605,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_MonsterBase_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.59"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 150.0,
@@ -662,12 +615,13 @@
         "Y": 0.0,
         "Z": -150.0
       },
+      "ApproachArrivalRadius": 50.0,
       "AIActionMap": [
         {
           "Key": "EPalAIActionType::Cooperation",
           "Value": {
-            "ObjectName": "BlueprintGeneratedClass'BP_AIActionHealCall_C'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Coop/BP_AIActionHealCall.0"
+            "ObjectName": "BlueprintGeneratedClass'BP_AIActionHealCall_LilyQueen_C'",
+            "ObjectPath": "Pal/Content/Pal/Blueprint/Controller/AIAction/Coop/BP_AIActionHealCall_LilyQueen.0"
           }
         }
       ],
@@ -849,10 +803,10 @@
           }
         },
         {
-          "Key": "EPalActionType::IdleInSpa",
+          "Key": "EPalActionType::Feeding",
           "Value": {
-            "ObjectName": "AnimMontage'AM_LilyQueen_Spa'",
-            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LilyQueen/AM_LilyQueen_Spa.0"
+            "ObjectName": "AnimMontage'AM_LilyQueen_Planting'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LilyQueen/AM_LilyQueen_Planting.0"
           }
         },
         {
@@ -877,10 +831,10 @@
           }
         },
         {
-          "Key": "EPalActionType::Feeding",
+          "Key": "EPalActionType::IdleInSpa",
           "Value": {
-            "ObjectName": "AnimMontage'AM_LilyQueen_Planting'",
-            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LilyQueen/AM_LilyQueen_Planting.0"
+            "ObjectName": "AnimMontage'AM_LilyQueen_Spa'",
+            "ObjectPath": "Pal/Content/Pal/Animation/Character/Monster/LilyQueen/AM_LilyQueen_Spa.0"
           }
         }
       ],
@@ -948,7 +902,7 @@
         {
           "Key": "EPalWazaID::Unique_LilyQueen_LilyHealing",
           "Value": {
-            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/LilyQueen/BP_ActionUnique_LilyQueen_SelfHeal.BP_ActionUnique_LilyQueen_SelfHeal_C",
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/LilyQueen/BP_ActionUnique_LilyQueen_SelfHeal_Otomo.BP_ActionUnique_LilyQueen_SelfHeal_Otomo_C",
             "SubPathString": ""
           }
         },
@@ -956,6 +910,13 @@
           "Key": "EPalWazaID::Unique_LilyQueen_WindBarrier",
           "Value": {
             "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/LilyQueen/BP_ActionUnique_LilyQueen_WindBarrier.BP_ActionUnique_LilyQueen_WindBarrier_C",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "EPalWazaID::Unique_LilyQueen_LilyHealing_Boss",
+          "Value": {
+            "AssetPathName": "/Game/Pal/Blueprint/Action/Waza/LilyQueen/BP_ActionUnique_LilyQueen_SelfHeal.BP_ActionUnique_LilyQueen_SelfHeal_C",
             "SubPathString": ""
           }
         }
@@ -986,7 +947,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_MonsterBase_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.60"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
     }
   },
   {
@@ -1000,7 +961,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_MonsterBase_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.61"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.62"
     }
   },
   {
@@ -1020,7 +981,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_LilyQueen_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.29"
     },
     "Properties": {
       "ComponentClass": {
@@ -1029,7 +990,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_LilyQueen_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.25"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.24"
       },
       "VariableGuid": "44E9E5AC-4DDE20BB-042E5A92-134BA67A",
       "InternalVariableName": "DefaultSceneRoot"
@@ -1042,7 +1003,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_LilyQueen_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.29"
     },
     "Properties": {
       "ComponentClass": {
@@ -1067,7 +1028,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_LilyQueen_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.29"
     },
     "Properties": {
       "ComponentClass": {
@@ -1092,7 +1053,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_LilyQueen_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.29"
     },
     "Properties": {
       "ComponentClass": {
@@ -1120,34 +1081,34 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'BP_LilyQueen_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.27"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.26"
         },
         {
           "ObjectName": "SCS_Node'BP_LilyQueen_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.28"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.27"
         },
         {
           "ObjectName": "SCS_Node'BP_LilyQueen_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.29"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.28"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'BP_LilyQueen_C:SimpleConstructionScript_0.SCS_Node_1'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.27"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.26"
         },
         {
           "ObjectName": "SCS_Node'BP_LilyQueen_C:SimpleConstructionScript_0.SCS_Node_2'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.28"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.27"
         },
         {
           "ObjectName": "SCS_Node'BP_LilyQueen_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.29"
+          "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.28"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_LilyQueen_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.26"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/LilyQueen/BP_LilyQueen.25"
       }
     }
   },
@@ -1162,7 +1123,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_MonsterBase_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.72"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.73"
     },
     "Properties": {
       "AttachParent": {

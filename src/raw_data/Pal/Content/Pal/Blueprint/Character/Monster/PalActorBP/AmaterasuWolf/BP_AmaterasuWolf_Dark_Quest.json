@@ -1,0 +1,604 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_AmaterasuWolf_Dark_Quest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmaterasuWolf_Dark_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_AmaterasuWolf_Dark_Quest_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.24"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_AmaterasuWolf_Dark_Quest_C:InheritableComponentHandler'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.5"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_AmaterasuWolf_Dark_Quest_C:ExecuteUbergraph_BP_AmaterasuWolf_Dark_Quest'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.3"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmaterasuWolf_Dark_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark.0"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_AmaterasuWolf_Dark_Quest_C:ReceiveBeginPlay'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.4"
+      },
+      {
+        "ObjectName": "Function'BP_AmaterasuWolf_Dark_Quest_C:ExecuteUbergraph_BP_AmaterasuWolf_Dark_Quest'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.3"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_AmaterasuWolf_Dark_Quest": {
+        "ObjectName": "Function'BP_AmaterasuWolf_Dark_Quest_C:ExecuteUbergraph_BP_AmaterasuWolf_Dark_Quest'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.3"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_AmaterasuWolf_Dark_Quest_C:ReceiveBeginPlay'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.4"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_AmaterasuWolf_Dark_Quest_C'Default__BP_AmaterasuWolf_Dark_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_AmaterasuWolf_Dark_Quest_C",
+    "Name": "Default__BP_AmaterasuWolf_Dark_Quest_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.BP_AmaterasuWolf_Dark_Quest_C'",
+    "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest",
+    "Template": {
+      "ObjectName": "BP_AmaterasuWolf_Dark_C'Default__BP_AmaterasuWolf_Dark_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark.1"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "LiftupObjectComponent": {
+        "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_AmaterasuWolf_Dark_Quest_C:Liftup'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.10"
+      },
+      "ActionComponent": {
+        "ObjectName": "PalActionComponent'Default__BP_AmaterasuWolf_Dark_Quest_C:ActionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.6"
+      },
+      "CharacterParameterComponent": {
+        "ObjectName": "PalCharacterParameterComponent'Default__BP_AmaterasuWolf_Dark_Quest_C:CharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.12"
+      },
+      "StaticCharacterParameterComponent": {
+        "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_AmaterasuWolf_Dark_Quest_C:StaticCharacterParameterComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.19"
+      },
+      "DamageReactionComponent": {
+        "ObjectName": "PalDamageReactionComponent'Default__BP_AmaterasuWolf_Dark_Quest_C:DamageReactionComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.13"
+      },
+      "StatusComponent": {
+        "ObjectName": "PalStatusComponent'Default__BP_AmaterasuWolf_Dark_Quest_C:StatusComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.20"
+      },
+      "CameraBoom": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_AmaterasuWolf_Dark_Quest_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.17"
+      },
+      "FollowCamera": {
+        "ObjectName": "PalCharacterCameraComponent'Default__BP_AmaterasuWolf_Dark_Quest_C:FollowCamera'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.9"
+      },
+      "LookAtComponent": {
+        "ObjectName": "PalLookAtComponent'Default__BP_AmaterasuWolf_Dark_Quest_C:LookAtComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.15"
+      },
+      "FootIKComponent": {
+        "ObjectName": "PalFootIKComponent'Default__BP_AmaterasuWolf_Dark_Quest_C:FootIKComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.14"
+      },
+      "VisualEffectComponent": {
+        "ObjectName": "PalVisualEffectComponent'Default__BP_AmaterasuWolf_Dark_Quest_C:VisualEffectComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.21"
+      },
+      "PassiveSkillComponent": {
+        "ObjectName": "PalPassiveSkillComponent'Default__BP_AmaterasuWolf_Dark_Quest_C:PassiveSkillComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.16"
+      },
+      "AnimNotifyComponent": {
+        "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_AmaterasuWolf_Dark_Quest_C:AnimNotifyComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.7"
+      },
+      "AroundInfoCollectorComponent": {
+        "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_AmaterasuWolf_Dark_Quest_C:AroundInfoCollectorComponent'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.8"
+      },
+      "RagdollInteractiveSphere": {
+        "ObjectName": "SphereComponent'Default__BP_AmaterasuWolf_Dark_Quest_C:RagdollInteractiveSphere'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.25"
+      },
+      "Mesh": {
+        "ObjectName": "PalSkeletalMeshComponent'Default__BP_AmaterasuWolf_Dark_Quest_C:CharacterMesh0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.18"
+      },
+      "CharacterMovement": {
+        "ObjectName": "PalCharacterMovementComponent'Default__BP_AmaterasuWolf_Dark_Quest_C:CharMoveComp'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.11"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_AmaterasuWolf_Dark_Quest_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.2"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_AmaterasuWolf_Dark_Quest_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.2"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_AmaterasuWolf_Dark_Quest_C'Default__BP_AmaterasuWolf_Dark_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_AmaterasuWolf_Dark_C:CollisionCylinder'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark.3"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_AmaterasuWolf_Dark_Quest",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmaterasuWolf_Dark_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasAuthority_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetTransform_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 96,
+        "PropertyFlags": "ConstParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_FinishSpawningActor_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_PalTalkableLevelObject_AmaterasuWolf_Dark_2_C'",
+          "ObjectPath": "Pal/Content/Pal/Blueprint/FlowGraph/TalkableLevelObject/LoneWolf/BP_PalTalkableLevelObject_AmaterasuWolf_Dark_2.0"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetActorRelativeLocation_SweepHitResult",
+        "Flags": "RF_Public",
+        "ElementSize": 240,
+        "PropertyFlags": "ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmaterasuWolf_Dark_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.0"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_MonsterBase_C:ReceiveBeginPlay'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.33"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'BP_MonsterBase_C:ReceiveBeginPlay'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.33"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmaterasuWolf_Dark_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.0"
+    }
+  },
+  {
+    "Type": "PalActionComponent",
+    "Name": "ActionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalActionComponent'",
+    "Outer": {
+      "ObjectName": "BP_AmaterasuWolf_Dark_Quest_C'Default__BP_AmaterasuWolf_Dark_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalActionComponent'Default__BP_AmaterasuWolf_Dark_C:ActionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark.5"
+    }
+  },
+  {
+    "Type": "PalAnimNotifyParameterComponent",
+    "Name": "AnimNotifyComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalAnimNotifyParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_AmaterasuWolf_Dark_Quest_C'Default__BP_AmaterasuWolf_Dark_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_AmaterasuWolf_Dark_C:AnimNotifyComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark.6"
+    }
+  },
+  {
+    "Type": "PalCharacterAroundInfoCollectorComponent",
+    "Name": "AroundInfoCollectorComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterAroundInfoCollectorComponent'",
+    "Outer": {
+      "ObjectName": "BP_AmaterasuWolf_Dark_Quest_C'Default__BP_AmaterasuWolf_Dark_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_AmaterasuWolf_Dark_C:AroundInfoCollectorComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark.7"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_AmaterasuWolf_Dark_Quest_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.2"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterCameraComponent",
+    "Name": "FollowCamera",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterCameraComponent'",
+    "Outer": {
+      "ObjectName": "BP_AmaterasuWolf_Dark_Quest_C'Default__BP_AmaterasuWolf_Dark_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterCameraComponent'Default__BP_AmaterasuWolf_Dark_C:FollowCamera'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark.8"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "PalShooterSpringArmComponent'Default__BP_AmaterasuWolf_Dark_Quest_C:CameraBoom'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.17"
+      }
+    }
+  },
+  {
+    "Type": "PalCharacterLiftupObjectComponent",
+    "Name": "Liftup",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterLiftupObjectComponent'",
+    "Outer": {
+      "ObjectName": "BP_AmaterasuWolf_Dark_Quest_C'Default__BP_AmaterasuWolf_Dark_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_AmaterasuWolf_Dark_C:Liftup'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark.9"
+    }
+  },
+  {
+    "Type": "PalCharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_AmaterasuWolf_Dark_Quest_C'Default__BP_AmaterasuWolf_Dark_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterMovementComponent'Default__BP_AmaterasuWolf_Dark_C:CharMoveComp'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark.10"
+    }
+  },
+  {
+    "Type": "PalCharacterParameterComponent",
+    "Name": "CharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_AmaterasuWolf_Dark_Quest_C'Default__BP_AmaterasuWolf_Dark_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalCharacterParameterComponent'Default__BP_AmaterasuWolf_Dark_C:CharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark.11"
+    }
+  },
+  {
+    "Type": "PalDamageReactionComponent",
+    "Name": "DamageReactionComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalDamageReactionComponent'",
+    "Outer": {
+      "ObjectName": "BP_AmaterasuWolf_Dark_Quest_C'Default__BP_AmaterasuWolf_Dark_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalDamageReactionComponent'Default__BP_AmaterasuWolf_Dark_C:DamageReactionComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark.12"
+    }
+  },
+  {
+    "Type": "PalFootIKComponent",
+    "Name": "FootIKComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalFootIKComponent'",
+    "Outer": {
+      "ObjectName": "BP_AmaterasuWolf_Dark_Quest_C'Default__BP_AmaterasuWolf_Dark_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalFootIKComponent'Default__BP_AmaterasuWolf_Dark_C:FootIKComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark.13"
+    }
+  },
+  {
+    "Type": "PalLookAtComponent",
+    "Name": "LookAtComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalLookAtComponent'",
+    "Outer": {
+      "ObjectName": "BP_AmaterasuWolf_Dark_Quest_C'Default__BP_AmaterasuWolf_Dark_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalLookAtComponent'Default__BP_AmaterasuWolf_Dark_C:LookAtComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark.14"
+    }
+  },
+  {
+    "Type": "PalPassiveSkillComponent",
+    "Name": "PassiveSkillComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalPassiveSkillComponent'",
+    "Outer": {
+      "ObjectName": "BP_AmaterasuWolf_Dark_Quest_C'Default__BP_AmaterasuWolf_Dark_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalPassiveSkillComponent'Default__BP_AmaterasuWolf_Dark_C:PassiveSkillComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark.15"
+    }
+  },
+  {
+    "Type": "PalShooterSpringArmComponent",
+    "Name": "CameraBoom",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalShooterSpringArmComponent'",
+    "Outer": {
+      "ObjectName": "BP_AmaterasuWolf_Dark_Quest_C'Default__BP_AmaterasuWolf_Dark_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalShooterSpringArmComponent'Default__BP_AmaterasuWolf_Dark_C:CameraBoom'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark.16"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_AmaterasuWolf_Dark_Quest_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.2"
+      }
+    }
+  },
+  {
+    "Type": "PalSkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalSkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_AmaterasuWolf_Dark_Quest_C'Default__BP_AmaterasuWolf_Dark_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalSkeletalMeshComponent'Default__BP_AmaterasuWolf_Dark_C:CharacterMesh0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark.17"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_AmaterasuWolf_Dark_Quest_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.2"
+      }
+    }
+  },
+  {
+    "Type": "PalStaticCharacterParameterComponent",
+    "Name": "StaticCharacterParameterComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStaticCharacterParameterComponent'",
+    "Outer": {
+      "ObjectName": "BP_AmaterasuWolf_Dark_Quest_C'Default__BP_AmaterasuWolf_Dark_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_AmaterasuWolf_Dark_C:StaticCharacterParameterComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark.18"
+    },
+    "Properties": {
+      "IsUncapturable": true
+    }
+  },
+  {
+    "Type": "PalStatusComponent",
+    "Name": "StatusComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalStatusComponent'",
+    "Outer": {
+      "ObjectName": "BP_AmaterasuWolf_Dark_Quest_C'Default__BP_AmaterasuWolf_Dark_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalStatusComponent'Default__BP_AmaterasuWolf_Dark_C:StatusComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark.19"
+    }
+  },
+  {
+    "Type": "PalVisualEffectComponent",
+    "Name": "VisualEffectComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PalVisualEffectComponent'",
+    "Outer": {
+      "ObjectName": "BP_AmaterasuWolf_Dark_Quest_C'Default__BP_AmaterasuWolf_Dark_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "PalVisualEffectComponent'Default__BP_AmaterasuWolf_Dark_C:VisualEffectComponent'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark.20"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmaterasuWolf_Dark_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AmaterasuWolf_Dark_Quest_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.24"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_AmaterasuWolf_Dark_Quest_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.22"
+      },
+      "VariableGuid": "56D2A149-42E4A727-01CE3AAC-9DFE793E",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmaterasuWolf_Dark_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_AmaterasuWolf_Dark_Quest_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.23"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "RagdollInteractiveSphere",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BP_AmaterasuWolf_Dark_Quest_C'Default__BP_AmaterasuWolf_Dark_Quest_C'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.1"
+    },
+    "Template": {
+      "ObjectName": "SphereComponent'Default__BP_AmaterasuWolf_Dark_C:RagdollInteractiveSphere'",
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark.24"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_AmaterasuWolf_Dark_Quest_C:CollisionCylinder'",
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/AmaterasuWolf/BP_AmaterasuWolf_Dark_Quest.2"
+      }
+    }
+  }
+]

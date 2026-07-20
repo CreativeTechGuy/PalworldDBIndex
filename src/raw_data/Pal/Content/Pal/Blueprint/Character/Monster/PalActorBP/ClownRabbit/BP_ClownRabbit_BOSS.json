@@ -41,7 +41,7 @@
   {
     "Type": "BP_ClownRabbit_BOSS_C",
     "Name": "Default__BP_ClownRabbit_BOSS_C",
-    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit_BOSS.BP_ClownRabbit_BOSS_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit_BOSS",
     "Template": {
@@ -138,7 +138,7 @@
     },
     "Template": {
       "ObjectName": "CapsuleComponent'Default__BP_ClownRabbit_C:CollisionCylinder'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.2"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.3"
     }
   },
   {
@@ -162,7 +162,7 @@
     },
     "Template": {
       "ObjectName": "PalActionComponent'Default__BP_ClownRabbit_C:ActionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.4"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.5"
     }
   },
   {
@@ -176,7 +176,7 @@
     },
     "Template": {
       "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_ClownRabbit_C:AnimNotifyComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.5"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.6"
     }
   },
   {
@@ -190,7 +190,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterAroundInfoCollectorComponent'Default__BP_ClownRabbit_C:AroundInfoCollectorComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.20"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.21"
     },
     "Properties": {
       "AttachParent": {
@@ -210,7 +210,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterCameraComponent'Default__BP_ClownRabbit_C:FollowCamera'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.21"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.22"
     },
     "Properties": {
       "AttachParent": {
@@ -230,7 +230,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterLiftupObjectComponent'Default__BP_ClownRabbit_C:Liftup'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.22"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.23"
     }
   },
   {
@@ -244,7 +244,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterMovementComponent'Default__BP_ClownRabbit_C:CharMoveComp'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.24"
     }
   },
   {
@@ -258,7 +258,7 @@
     },
     "Template": {
       "ObjectName": "PalCharacterParameterComponent'Default__BP_ClownRabbit_C:CharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.25"
     }
   },
   {
@@ -272,7 +272,7 @@
     },
     "Template": {
       "ObjectName": "PalDamageReactionComponent'Default__BP_ClownRabbit_C:DamageReactionComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.26"
     }
   },
   {
@@ -286,7 +286,7 @@
     },
     "Template": {
       "ObjectName": "PalFootIKComponent'Default__BP_ClownRabbit_C:FootIKComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.27"
     }
   },
   {
@@ -300,7 +300,7 @@
     },
     "Template": {
       "ObjectName": "PalLookAtComponent'Default__BP_ClownRabbit_C:LookAtComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.28"
     }
   },
   {
@@ -374,6 +374,16 @@
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_ClownRabbit_C:StaticCharacterParameterComponent'",
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/ClownRabbit/BP_ClownRabbit.32"
+    },
+    "Properties": {
+      "MeshCapsuleHalfHeight": 123.0,
+      "MeshCapsuleRadius": 48.0,
+      "MeshRelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -123.0
+      },
+      "PettingCameraArmLength_Override": 500.0
     }
   },
   {

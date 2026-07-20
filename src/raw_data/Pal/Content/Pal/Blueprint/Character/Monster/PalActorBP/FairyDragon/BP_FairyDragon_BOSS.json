@@ -364,7 +364,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_FairyDragon_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FairyDragon/BP_FairyDragon.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FairyDragon/BP_FairyDragon.23"
     }
   },
   {
@@ -378,44 +378,62 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_FairyDragon_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FairyDragon/BP_FairyDragon.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FairyDragon/BP_FairyDragon.24"
     },
     "Properties": {
-      "WalkCameraArmLength": 1000.0,
+      "WalkCameraArmLength": 600.0,
       "WalkCameraOffset": {
         "X": 0.0,
-        "Y": 145.0,
-        "Z": 180.0
+        "Y": 200.0,
+        "Z": 140.0
       },
-      "AimCameraArmLength": 180.0,
+      "HipShootCameraArmLength": 600.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 200.0,
+        "Z": 140.0
+      },
+      "AimCameraArmLength": 350.0,
       "AimCameraOffset": {
         "X": 0.0,
-        "Y": 65.0,
-        "Z": 195.0
+        "Y": 180.0,
+        "Z": 240.0
       },
-      "AirCameraArmLength": 1000.0,
+      "AirCameraArmLength": 600.0,
       "AirCameraOffset": {
         "X": 0.0,
-        "Y": 145.0,
-        "Z": 180.0
+        "Y": 200.0,
+        "Z": 140.0
       },
-      "AirAimCameraArmLength": 180.0,
+      "AirHipShootCameraArmLength": 600.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 200.0,
+        "Z": 140.0
+      },
+      "AirAimCameraArmLength": 350.0,
       "AirAimCameraOffset": {
         "X": 0.0,
-        "Y": 65.0,
-        "Z": 195.0
+        "Y": 180.0,
+        "Z": 240.0
       },
-      "FlyCameraArmLength": 1000.0,
+      "FlyCameraArmLength": 600.0,
       "FlyCameraOffset": {
         "X": 0.0,
-        "Y": 140.0,
-        "Z": 300.0
+        "Y": 200.0,
+        "Z": 250.0
       },
-      "FlyAimCameraArmLength": 130.0,
+      "FlyHipShootCameraArmLength": 600.0,
+      "FlyHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 200.0,
+        "Z": 250.0
+      },
+      "FlyAimCameraArmLength": 400.0,
       "FlyAimCameraOffset": {
         "X": 0.0,
-        "Y": 65.0,
-        "Z": 295.0
+        "Y": 140.0,
+        "Z": 250.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_FairyDragon_BOSS_C:CollisionCylinder'",
@@ -434,7 +452,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_FairyDragon_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FairyDragon/BP_FairyDragon.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FairyDragon/BP_FairyDragon.25"
     },
     "Properties": {
       "AttachParent": {
@@ -459,7 +477,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_FairyDragon_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FairyDragon/BP_FairyDragon.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FairyDragon/BP_FairyDragon.27"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 234.0,
@@ -534,7 +552,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_FairyDragon_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FairyDragon/BP_FairyDragon.29"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FairyDragon/BP_FairyDragon.28"
     }
   },
   {
@@ -548,7 +566,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_FairyDragon_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FairyDragon/BP_FairyDragon.30"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FairyDragon/BP_FairyDragon.29"
     }
   },
   {
@@ -610,7 +628,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_FairyDragon_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FairyDragon/BP_FairyDragon.42"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/FairyDragon/BP_FairyDragon.41"
     },
     "Properties": {
       "AttachParent": {

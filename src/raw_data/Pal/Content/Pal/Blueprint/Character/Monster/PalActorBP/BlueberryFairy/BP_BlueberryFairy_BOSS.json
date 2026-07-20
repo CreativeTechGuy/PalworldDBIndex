@@ -41,7 +41,7 @@
   {
     "Type": "BP_BlueberryFairy_BOSS_C",
     "Name": "Default__BP_BlueberryFairy_BOSS_C",
-    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy_BOSS.BP_BlueberryFairy_BOSS_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy_BOSS",
     "Template": {
@@ -314,7 +314,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_BlueberryFairy_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.20"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.19"
     }
   },
   {
@@ -328,7 +328,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_BlueberryFairy_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.21"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.20"
     },
     "Properties": {
       "AttachParent": {
@@ -353,7 +353,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_BlueberryFairy_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.22"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.21"
     },
     "Properties": {
       "AttachParent": {
@@ -383,7 +383,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_BlueberryFairy_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.22"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 135.9,
@@ -393,6 +393,7 @@
         "Y": 0.0,
         "Z": -135.857
       },
+      "ApproachArrivalRadius": 90.0,
       "HPGaugeUIOffset": {
         "X": 0.0,
         "Y": 75.856995
@@ -415,7 +416,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_BlueberryFairy_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.23"
     }
   },
   {
@@ -429,7 +430,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_BlueberryFairy_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.24"
     }
   },
   {
@@ -491,7 +492,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_BlueberryFairy_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.33"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/BlueberryFairy/BP_BlueberryFairy.32"
     },
     "Properties": {
       "AttachParent": {

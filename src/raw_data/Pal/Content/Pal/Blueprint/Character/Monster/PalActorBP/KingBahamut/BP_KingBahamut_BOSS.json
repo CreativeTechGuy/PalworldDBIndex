@@ -41,7 +41,7 @@
   {
     "Type": "BP_KingBahamut_BOSS_C",
     "Name": "Default__BP_KingBahamut_BOSS_C",
-    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut_BOSS.BP_KingBahamut_BOSS_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut_BOSS",
     "Template": {
@@ -361,7 +361,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_KingBahamut_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut.22"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut.21"
     }
   },
   {
@@ -375,30 +375,44 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_KingBahamut_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut.22"
     },
     "Properties": {
-      "WalkCameraArmLength": 1200.0,
+      "WalkCameraArmLength": 900.0,
       "WalkCameraOffset": {
-        "X": 100.0,
-        "Y": 165.0,
-        "Z": 270.0
+        "X": 0.0,
+        "Y": 250.0,
+        "Z": 300.0
       },
+      "HipShootCameraArmLength": 900.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 250.0,
+        "Z": 300.0
+      },
+      "AimCameraArmLength": 700.0,
       "AimCameraOffset": {
-        "X": 170.0,
-        "Y": 48.0,
-        "Z": 305.0
+        "X": 0.0,
+        "Y": 250.0,
+        "Z": 400.0
       },
-      "AirCameraArmLength": 1200.0,
+      "AirCameraArmLength": 900.0,
       "AirCameraOffset": {
-        "X": 100.0,
-        "Y": 165.0,
-        "Z": 270.0
+        "X": 0.0,
+        "Y": 250.0,
+        "Z": 300.0
       },
+      "AirHipShootCameraArmLength": 900.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 250.0,
+        "Z": 300.0
+      },
+      "AirAimCameraArmLength": 700.0,
       "AirAimCameraOffset": {
-        "X": 170.0,
-        "Y": 48.0,
-        "Z": 305.0
+        "X": 0.0,
+        "Y": 250.0,
+        "Z": 400.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_KingBahamut_BOSS_C:CollisionCylinder'",
@@ -417,7 +431,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_KingBahamut_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut.23"
     },
     "Properties": {
       "AttachParent": {
@@ -442,7 +456,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_KingBahamut_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut.25"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 208.0,
@@ -501,6 +515,24 @@
             },
             "bShouldApply": true
           }
+        },
+        {
+          "Key": {
+            "Key": "MedicalPalBed_05"
+          },
+          "Value": {
+            "LocationOffset": {
+              "X": 200.0,
+              "Y": -100.0,
+              "Z": 0.0
+            },
+            "RotatorOffset": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "bShouldApply": true
+          }
         }
       ],
       "OverrideWazaRangeMap": [
@@ -525,7 +557,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_KingBahamut_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut.26"
     }
   },
   {
@@ -539,7 +571,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_KingBahamut_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut.27"
     }
   },
   {
@@ -601,7 +633,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_KingBahamut_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut.37"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/KingBahamut/BP_KingBahamut.36"
     },
     "Properties": {
       "AttachParent": {

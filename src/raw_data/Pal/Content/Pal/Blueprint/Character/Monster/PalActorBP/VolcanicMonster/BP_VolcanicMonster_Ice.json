@@ -12,7 +12,7 @@
     "Properties": {
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_VolcanicMonster_Ice_C:SimpleConstructionScript_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster_Ice.24"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster_Ice.23"
       },
       "InheritableComponentHandler": {
         "ObjectName": "InheritableComponentHandler'BP_VolcanicMonster_Ice_C:InheritableComponentHandler'",
@@ -87,7 +87,7 @@
       },
       "StaticCharacterParameterComponent": {
         "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_VolcanicMonster_Ice_C:StaticCharacterParameterComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster_Ice.19"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster_Ice.18"
       },
       "DamageReactionComponent": {
         "ObjectName": "PalDamageReactionComponent'Default__BP_VolcanicMonster_Ice_C:DamageReactionComponent'",
@@ -95,11 +95,11 @@
       },
       "StatusComponent": {
         "ObjectName": "PalStatusComponent'Default__BP_VolcanicMonster_Ice_C:StatusComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster_Ice.20"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster_Ice.19"
       },
       "CameraBoom": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_VolcanicMonster_Ice_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster_Ice.17"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster_Ice.16"
       },
       "FollowCamera": {
         "ObjectName": "PalCharacterCameraComponent'Default__BP_VolcanicMonster_Ice_C:FollowCamera'",
@@ -115,11 +115,11 @@
       },
       "VisualEffectComponent": {
         "ObjectName": "PalVisualEffectComponent'Default__BP_VolcanicMonster_Ice_C:VisualEffectComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster_Ice.21"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster_Ice.20"
       },
       "PassiveSkillComponent": {
         "ObjectName": "PalPassiveSkillComponent'Default__BP_VolcanicMonster_Ice_C:PassiveSkillComponent'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster_Ice.16"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster_Ice.15"
       },
       "AnimNotifyComponent": {
         "ObjectName": "PalAnimNotifyParameterComponent'Default__BP_VolcanicMonster_Ice_C:AnimNotifyComponent'",
@@ -131,11 +131,11 @@
       },
       "RagdollInteractiveSphere": {
         "ObjectName": "SphereComponent'Default__BP_VolcanicMonster_Ice_C:RagdollInteractiveSphere'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster_Ice.25"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster_Ice.24"
       },
       "Mesh": {
         "ObjectName": "PalSkeletalMeshComponent'Default__BP_VolcanicMonster_Ice_C:CharacterMesh0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster_Ice.18"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster_Ice.17"
       },
       "CharacterMovement": {
         "ObjectName": "PalCharacterMovementComponent'Default__BP_VolcanicMonster_Ice_C:CharMoveComp'",
@@ -192,28 +192,6 @@
             },
             "SCSVariableName": "BP_PalTimerPointLightComponent",
             "AssociatedGuid": "C429C1A1-4075FD1C-E060FBB9-73EEBAEF"
-          },
-          "CookedComponentInstancingData": {
-            "ChangedPropertyList": [],
-            "bHasValidCookedData": false
-          }
-        },
-        {
-          "ComponentClass": {
-            "ObjectName": "Class'PalPartnerSkillParameterComponent'",
-            "ObjectPath": "/Script/Pal"
-          },
-          "ComponentTemplate": {
-            "ObjectName": "PalPartnerSkillParameterComponent'BP_VolcanicMonster_Ice_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-            "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster_Ice.15"
-          },
-          "ComponentKey": {
-            "OwnerClass": {
-              "ObjectName": "BlueprintGeneratedClass'BP_MonsterBase_C'",
-              "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/BP_MonsterBase.0"
-            },
-            "SCSVariableName": "PalPartnerSkillParameter",
-            "AssociatedGuid": "D3F63977-4633371F-44BA068B-1594045A"
           },
           "CookedComponentInstancingData": {
             "ChangedPropertyList": [],
@@ -287,7 +265,7 @@
     "Properties": {
       "AttachParent": {
         "ObjectName": "PalShooterSpringArmComponent'Default__BP_VolcanicMonster_Ice_C:CameraBoom'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster_Ice.17"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster_Ice.16"
       }
     }
   },
@@ -376,27 +354,6 @@
     }
   },
   {
-    "Type": "PalPartnerSkillParameterComponent",
-    "Name": "PalPartnerSkillParameter_GEN_VARIABLE",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
-    "Class": "UScriptClass'PalPartnerSkillParameterComponent'",
-    "Outer": {
-      "ObjectName": "BlueprintGeneratedClass'BP_VolcanicMonster_Ice_C'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster_Ice.0"
-    },
-    "Template": {
-      "ObjectName": "PalPartnerSkillParameterComponent'BP_VolcanicMonster_C:PalPartnerSkillParameter_GEN_VARIABLE'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster.26"
-    },
-    "Properties": {
-      "RestrictionItems": [
-        {
-          "Key": "SkillUnlock_VolcanicMonster_Ice"
-        }
-      ]
-    }
-  },
-  {
     "Type": "PalPassiveSkillComponent",
     "Name": "PassiveSkillComponent",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
@@ -407,7 +364,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_VolcanicMonster_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster.26"
     }
   },
   {
@@ -421,7 +378,7 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_VolcanicMonster_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster.28"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster.27"
     },
     "Properties": {
       "AttachParent": {
@@ -441,7 +398,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_VolcanicMonster_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster.29"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster.28"
     },
     "Properties": {
       "SkeletalMesh": {
@@ -469,7 +426,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_VolcanicMonster_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster.31"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster.30"
     },
     "Properties": {
       "WazaActionDeclarationMap": [
@@ -494,7 +451,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_VolcanicMonster_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster.32"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster.31"
     }
   },
   {
@@ -508,7 +465,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_VolcanicMonster_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster.33"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster.32"
     }
   },
   {
@@ -528,7 +485,7 @@
     "Class": "UScriptClass'SCS_Node'",
     "Outer": {
       "ObjectName": "SimpleConstructionScript'BP_VolcanicMonster_Ice_C:SimpleConstructionScript_0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster_Ice.24"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster_Ice.23"
     },
     "Properties": {
       "ComponentClass": {
@@ -537,7 +494,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_VolcanicMonster_Ice_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster_Ice.22"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster_Ice.21"
       },
       "VariableGuid": "8C289A2B-493BDE05-F95B61BB-BE93B146",
       "InternalVariableName": "DefaultSceneRoot"
@@ -555,7 +512,7 @@
     "Properties": {
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_VolcanicMonster_Ice_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster_Ice.23"
+        "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster_Ice.22"
       }
     }
   },
@@ -570,7 +527,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_VolcanicMonster_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster.47"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/VolcanicMonster/BP_VolcanicMonster.46"
     },
     "Properties": {
       "AttachParent": {

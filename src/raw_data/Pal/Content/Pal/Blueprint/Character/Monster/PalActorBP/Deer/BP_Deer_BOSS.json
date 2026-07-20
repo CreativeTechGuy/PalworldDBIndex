@@ -437,7 +437,7 @@
     },
     "Template": {
       "ObjectName": "PalPassiveSkillComponent'Default__BP_Deer_C:PassiveSkillComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Deer/BP_Deer.21"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Deer/BP_Deer.20"
     }
   },
   {
@@ -451,32 +451,42 @@
     },
     "Template": {
       "ObjectName": "PalShooterSpringArmComponent'Default__BP_Deer_C:CameraBoom'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Deer/BP_Deer.22"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Deer/BP_Deer.21"
     },
     "Properties": {
-      "WalkCameraArmLength": 900.0,
+      "WalkCameraArmLength": 350.0,
       "WalkCameraOffset": {
-        "X": 50.0,
-        "Y": 135.0,
-        "Z": 105.0
+        "X": 0.0,
+        "Y": 120.0,
+        "Z": 50.0
       },
-      "AimCameraArmLength": 195.0,
+      "HipShootCameraArmLength": 350.0,
+      "HipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 120.0,
+        "Z": 50.0
+      },
       "AimCameraOffset": {
-        "X": 50.0,
-        "Y": 50.0,
-        "Z": 45.0
+        "X": 0.0,
+        "Y": 100.0,
+        "Z": 80.0
       },
-      "AirCameraArmLength": 900.0,
+      "AirCameraArmLength": 350.0,
       "AirCameraOffset": {
-        "X": 50.0,
-        "Y": 135.0,
-        "Z": 105.0
+        "X": 0.0,
+        "Y": 120.0,
+        "Z": 50.0
       },
-      "AirAimCameraArmLength": 195.0,
+      "AirHipShootCameraArmLength": 350.0,
+      "AirHipShootCameraOffset": {
+        "X": 0.0,
+        "Y": 120.0,
+        "Z": 50.0
+      },
       "AirAimCameraOffset": {
-        "X": 50.0,
-        "Y": 50.0,
-        "Z": 45.0
+        "X": 0.0,
+        "Y": 100.0,
+        "Z": 80.0
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_Deer_BOSS_C:CollisionCylinder'",
@@ -500,7 +510,7 @@
     },
     "Template": {
       "ObjectName": "PalSkeletalMeshComponent'Default__BP_Deer_C:CharacterMesh0'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Deer/BP_Deer.23"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Deer/BP_Deer.22"
     },
     "Properties": {
       "AttachParent": {
@@ -525,7 +535,7 @@
     },
     "Template": {
       "ObjectName": "PalStaticCharacterParameterComponent'Default__BP_Deer_C:StaticCharacterParameterComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Deer/BP_Deer.25"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Deer/BP_Deer.24"
     },
     "Properties": {
       "MeshCapsuleHalfHeight": 360.0,
@@ -613,7 +623,7 @@
     },
     "Template": {
       "ObjectName": "PalStatusComponent'Default__BP_Deer_C:StatusComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Deer/BP_Deer.26"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Deer/BP_Deer.25"
     }
   },
   {
@@ -627,7 +637,7 @@
     },
     "Template": {
       "ObjectName": "PalVisualEffectComponent'Default__BP_Deer_C:VisualEffectComponent'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Deer/BP_Deer.27"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Deer/BP_Deer.26"
     }
   },
   {
@@ -726,7 +736,7 @@
     },
     "Template": {
       "ObjectName": "SphereComponent'Default__BP_Deer_C:RagdollInteractiveSphere'",
-      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Deer/BP_Deer.36"
+      "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/Deer/BP_Deer.35"
     },
     "Properties": {
       "AttachParent": {

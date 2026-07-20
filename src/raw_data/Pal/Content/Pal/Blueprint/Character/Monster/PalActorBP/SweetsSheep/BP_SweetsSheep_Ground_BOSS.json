@@ -41,7 +41,7 @@
   {
     "Type": "BP_SweetsSheep_Ground_BOSS_C",
     "Name": "Default__BP_SweetsSheep_Ground_BOSS_C",
-    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Class": "BlueprintGeneratedClass'Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SweetsSheep/BP_SweetsSheep_Ground_BOSS.BP_SweetsSheep_Ground_BOSS_C'",
     "Package": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SweetsSheep/BP_SweetsSheep_Ground_BOSS",
     "Template": {
@@ -371,11 +371,11 @@
     "Properties": {
       "SkeletalMesh": {
         "ObjectName": "SkeletalMesh'SK_SweetsSheep_Ground'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/SweetsSheep_Ground/SK_SweetsSheep_Ground"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/SweetsSheep_Ground/SK_SweetsSheep_Ground.0"
       },
       "SkinnedAsset": {
         "ObjectName": "SkeletalMesh'SK_SweetsSheep_Ground'",
-        "ObjectPath": "/Game/Pal/Model/Character/Monster/SweetsSheep_Ground/SK_SweetsSheep_Ground"
+        "ObjectPath": "Pal/Content/Pal/Model/Character/Monster/SweetsSheep_Ground/SK_SweetsSheep_Ground.0"
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_SweetsSheep_Ground_BOSS_C:CollisionCylinder'",
@@ -397,6 +397,10 @@
       "ObjectPath": "Pal/Content/Pal/Blueprint/Character/Monster/PalActorBP/SweetsSheep/BP_SweetsSheep_BOSS.17"
     },
     "Properties": {
+      "HPGaugeUIOffset": {
+        "X": 40.0,
+        "Y": 0.0
+      },
       "SpawnItem": {
         "FieldLotteryNameByRank": [
           {
@@ -427,6 +431,36 @@
             "Key": "5",
             "Value": {
               "Key": "CharacterSpawnItem_Sweets_Caramel_5"
+            }
+          },
+          {
+            "Key": "6",
+            "Value": {
+              "Key": "CharacterSpawnItem_Sweets_Caramel_6"
+            }
+          },
+          {
+            "Key": "7",
+            "Value": {
+              "Key": "CharacterSpawnItem_Sweets_Caramel_7"
+            }
+          },
+          {
+            "Key": "8",
+            "Value": {
+              "Key": "CharacterSpawnItem_Sweets_Caramel_8"
+            }
+          },
+          {
+            "Key": "9",
+            "Value": {
+              "Key": "CharacterSpawnItem_Sweets_Caramel_9"
+            }
+          },
+          {
+            "Key": "10",
+            "Value": {
+              "Key": "CharacterSpawnItem_Sweets_Caramel_10"
             }
           }
         ]
