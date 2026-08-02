@@ -5,7 +5,6 @@ import palIconMapping from "~/raw_data/Pal/Content/Pal/DataTable/Character/DT_Pa
 import { getObjectByCaseInsensitiveKey } from "~/utils/getObjectByCaseInsensitiveKey";
 import type { CustomFieldProps } from "./customFields";
 
-// Some of the keys aren't the same case sensitivity as their IDs elsewhere, so normalize the key casing
 const iconMapping = palIconMapping[0].Rows;
 
 export function Name(props: CustomFieldProps<string, { Id: string }>): JSXElement {

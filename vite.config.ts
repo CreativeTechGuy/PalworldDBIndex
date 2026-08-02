@@ -6,6 +6,9 @@ import solidPlugin from "vite-plugin-solid";
 import { viteNoReloadOnError } from "./scripts/viteNoReloadOnError";
 import { pruneJsonPlugin } from "./scripts/vitePruneJson";
 
+// Change this to true to see each JSON file as an individual file to check what gets bundled.
+const debugJsonPruning = false as boolean;
+
 export default defineConfig({
     base: "./",
     plugins: [
@@ -39,11 +42,20 @@ export default defineConfig({
             overlay: false,
         },
     },
+    json: {
+        stringify: debugJsonPruning ? false : undefined,
+    },
     build: {
         target: browserslistToEsbuild(),
         assetsInlineLimit: 0,
         license: {
             fileName: "license.txt",
+        },
+        rollupOptions: {
+            output: {
+                preserveModules: debugJsonPruning ? true : undefined,
+            },
+            preserveEntrySignatures: debugJsonPruning ? "exports-only" : undefined,
         },
     },
 });

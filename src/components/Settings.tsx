@@ -1,7 +1,6 @@
 import { createSignal, type JSXElement } from "solid-js";
 import { Portal } from "solid-js/web";
 import { rootElement } from "~/config/rootElement";
-import { resetSphereSettings } from "~/config/sphereSettings";
 import { unconfigurableColumns } from "~/config/tableColumns";
 import { resetTableSort } from "~/config/tableSort";
 import { resetColumnSettings, setUserColumnSettings, userColumnSettings } from "~/config/userColumns";
@@ -31,7 +30,6 @@ export function Settings(): JSXElement {
                             setOpen(false);
                         }}
                     >
-                        {/* Currently unused since the formula is incorrect. <SphereCaptureSettings /> */}
                         <table>
                             <tbody>
                                 <tr>
@@ -93,7 +91,6 @@ export function Settings(): JSXElement {
                                         <button
                                             class="link-button"
                                             onClick={() => {
-                                                resetSphereSettings();
                                                 resetColumnSettings();
                                                 resetTableSort();
                                             }}

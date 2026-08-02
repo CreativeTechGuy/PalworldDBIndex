@@ -7,7 +7,6 @@ import { Name } from "./Name";
 import { NoMapCellValue } from "./NoMapCellValue";
 import { PalDescription } from "./PalDescription";
 import { PartnerSkill } from "./PartnerSkill";
-import { PassiveSkill } from "./PassiveSkill";
 import { Rideable } from "./Rideable";
 import { SpawnLocations } from "./SpawnLocations";
 
@@ -21,8 +20,6 @@ export type CustomFieldProps<Value, PalData = CombinedData> = {
 export const customFields: Record<string, (props: CustomFieldProps<any>) => JSXElement> = {
     Name,
     PalDescription,
-    PassiveSkill1: PassiveSkill,
-    PassiveSkill2: PassiveSkill,
     PartnerSkill,
     ItemDrops,
     SpawnLocations,

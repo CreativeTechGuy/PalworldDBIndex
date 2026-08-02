@@ -19,6 +19,32 @@ const jsonFieldsToTransform: Record<string, (key: string, value: unknown) => unk
         }
         return value;
     },
+    "DT_PalMonsterParameter.json": (key, value) => {
+        if (
+            key.startsWith("BOSS_") ||
+            key.startsWith("RAID_") ||
+            key.startsWith("GYM_") ||
+            key.startsWith("PREDATOR_") ||
+            key.endsWith("_Quest") ||
+            key.endsWith("_Tower")
+        ) {
+            return undefined;
+        }
+        return value;
+    },
+    "DT_PalDropItem.json": (key, value) => {
+        if (
+            key.startsWith("BOSS_") ||
+            key.startsWith("RAID_") ||
+            key.startsWith("PREDATOR_") ||
+            key.includes("Quest_") ||
+            key.includes("_Quest") ||
+            key.startsWith("Police_")
+        ) {
+            return undefined;
+        }
+        return value;
+    },
     "DT_PalSpawnerPlacement.json": (key, value) => {
         if (
             [
@@ -46,6 +72,30 @@ const jsonFieldsToTransform: Record<string, (key: string, value: unknown) => unk
         return value;
     },
     "DT_PassiveSkill_Main.json": (key, value) => {
+        if (typeof value === "object") {
+            return value;
+        }
+        if (key.startsWith("EffectValue")) {
+            return value;
+        }
+        return undefined;
+    },
+    "DT_TechnologyRecipeUnlock.json": (key, value) => {
+        if (
+            key === "" ||
+            key.match(/^\d+$/) !== null ||
+            key === "Rows" ||
+            key.startsWith("SkillUnlock_") ||
+            key === "LevelCap"
+        ) {
+            return value;
+        }
+        return undefined;
+    },
+    "DT_PartnerSkillParameter.json": (key, value) => {
+        if (key === "Parameters" || key.startsWith("BOSS_") || key.startsWith("RAID_") || key.startsWith("GYM_")) {
+            return undefined;
+        }
         if (typeof value === "boolean") {
             return undefined;
         }
@@ -112,23 +162,10 @@ function trimPalActorBlueprint(json: string): string {
     return JSON.stringify(
         jsonObj.filter((obj) => {
             // cspell:words Interactable
-            if (
-                [
-                    "SphereComponent",
-                    "SimpleConstructionScript",
-                    "SCS_Node",
-                    "PalSkeletalMeshComponent",
-                    "PalShooterSpringArmComponent",
-                    "PalInteractableSphereComponentNative",
-                    "PalFootIKComponent",
-                    "PalBodyPartsCapsuleComponent",
-                    "PalBodyPartsSphereComponent",
-                    "PalCharacterAroundInfoCollectorComponent",
-                ].includes(obj.Type as string)
-            ) {
-                return false;
+            if (["CharMoveComp", "StaticCharacterParameterComponent"].includes(obj.Name as string)) {
+                return true;
             }
-            return true;
+            return false;
         })
     );
 }
@@ -142,7 +179,12 @@ export function pruneJsonPlugin(): PluginOption {
                 const code = readFileSync(id, "utf-8");
                 const transformations = jsonFieldsToTransform[filename];
                 const jsonObj = JSON.parse(code) as unknown;
-                return JSON.stringify(jsonObj, transformations);
+                const final = JSON.stringify(jsonObj, transformations);
+                // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
+                if (final === undefined) {
+                    throw new Error(`Filtered out entire JSON file. Probably a mistake?`);
+                }
+                return final;
             }
             if (id.includes("/PalActorBP/")) {
                 return trimPalActorBlueprint(readFileSync(id, "utf-8"));

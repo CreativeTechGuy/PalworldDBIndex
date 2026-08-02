@@ -12,8 +12,6 @@ const helpText = {
         "The settings gear in the bottom corner lets you configure global settings for the site. There you can hide/show and drag to reorder columns to focus on the data that you care about. Columns are hidden by default if the data is unused or not commonly useful.",
     Filters:
         "The filter funnel in the bottom corner lets you control how rows are displayed in the main table. Any highlighted rows can be automatically grouped together at the top of the table with an option here. Additionally you can only display rows which contain whatever filter text you enter on that popup. The filter rows option will try to match text across all of the currently visible columns.",
-    // "Minimum Spheres":
-    //     "In the settings, configure your Pal capture preferences to make this feature most useful. In the Minimum Spheres column, you'll see a popup showing the minimum sphere you need to get at least the capture rate you configured, based on the Pal level.",
     Element:
         "Pals have weaknesses and advantages against other elements. Your Pal's weaknesses are based on the Elements of your Pal. The strengths are based on the Elements of the attacks your Pal uses. The popup on this column will show the strengths and weaknesses of the Pal's two Elements combined.",
     Friendship:
