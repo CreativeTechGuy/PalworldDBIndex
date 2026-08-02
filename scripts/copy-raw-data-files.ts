@@ -29,6 +29,7 @@ const patterns = [
     "Pal/Content/Pal/DataTable/Incident/SupplyIncident/**",
     "Pal/Content/Pal/DataTable/PartnerSkill/DT_PartnerSkill.json",
     "Pal/Content/Pal/DataTable/PassiveSkill/DT_PassiveSkill_Main.json",
+    "Pal/Content/Pal/DataTable/PassiveSkill/DT_PartnerSkillParameter.json",
     "Pal/Content/Pal/DataTable/Spawner/DT_PalSpawnerPlacement.json",
     "Pal/Content/Pal/DataTable/Spawner/DT_PalWildSpawner.json",
     "Pal/Content/Pal/DataTable/Technology/DT_TechnologyRecipeUnlock.json",

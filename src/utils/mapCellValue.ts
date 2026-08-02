@@ -1,4 +1,5 @@
 // cspell:words Regene, Syncro
+import { mapWorkSkills } from "./mapWorkSkills";
 import { pascalCaseToTitleCase } from "./pascalCaseToTitleCase";
 
 const map: Record<string, string> = {
@@ -22,6 +23,7 @@ export function mapCellValue(value: string): string {
     if (value.match(/^[0-9.]+$/) !== null) {
         return (Math.round(parseFloat(value) * 100) / 100).toLocaleString();
     }
+    value = mapWorkSkills(value);
     value = pascalCaseToTitleCase(value);
     value = value.replaceAll("_", " ");
     return value;

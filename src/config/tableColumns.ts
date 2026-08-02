@@ -32,6 +32,7 @@ export const defaultColumnOrder: (keyof CombinedData)[] = [
     "WorkSuitability_Mining",
     "WorkSuitability_Cool",
     "WorkSuitability_MonsterFarm",
+    "BestWorkSuitability",
 ];
 
 export const unconfigurableColumns: (keyof CombinedData)[] = ["Name"];

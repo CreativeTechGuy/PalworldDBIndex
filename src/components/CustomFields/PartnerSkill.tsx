@@ -1,165 +1,56 @@
 import { createMemo, For, Show, type JSXElement } from "solid-js";
 import { FormatTextTags } from "~/components/FormatTextTags";
 import { Hover } from "~/components/Hover";
-import { getPalBlueprint } from "~/data/palBlueprints";
-// import partnerSkills from "~/raw_data/Pal/Content/Pal/DataTable/PartnerSkill/DT_PartnerSkill.json";
-// import passiveSkills from "~/raw_data/Pal/Content/Pal/DataTable/PassiveSkill/DT_PassiveSkill_Main.json";
-import attackDataTable from "~/raw_data/Pal/Content/Pal/DataTable/Waza/DT_WazaDataTable.json";
+import { partnerSkillParametersMap as partnerSkillParametersMapRaw } from "~/data/partnerSkillParameters";
+import partnerSkills from "~/raw_data/Pal/Content/Pal/DataTable/PartnerSkill/DT_PartnerSkill.json";
+import type { PartnerSkillParameters } from "~/types/PartnerSkillParameters";
 import { convertDataTableType } from "~/utils/convertDataTableType";
-import { mapCellValue } from "~/utils/mapCellValue";
+import { getObjectByCaseInsensitiveKey } from "~/utils/getObjectByCaseInsensitiveKey";
 // import { mapWorkSkills } from "~/utils/mapWorkSkills";
 import type { CustomFieldProps } from "./customFields";
 
-// /* eslint-disable @typescript-eslint/naming-convention */
-// type PartnerSkillParameterProperties = {
-//     ActiveSkill_MainValue_Overview_EditorOnly?: string;
-//     ActiveSkill_MainValueByRank?: number[];
-//     ActiveSkill_OverWriteCoolTimeByRank?: number[];
-// };
-// /* eslint-enable @typescript-eslint/naming-convention */
-
 type PartnerSkillData = {
-    name?: string;
     duration?: number;
     power?: number[];
     powerMultiplier?: number[];
     cooldown?: number[];
-    element?: string;
 };
 
-// const targetMapping: Partial<Record<string, "self" | "trainer" | "both" | "basePal" | "base">> = {
-//     "EPalPassiveSkillEffectTargetType::ToSelf": "self",
-//     "EPalPassiveSkillEffectTargetType::ToTrainer": "trainer",
-//     "EPalPassiveSkillEffectTargetType::ToSelfAndTrainer": "both",
-//     "EPalPassiveSkillEffectTargetType::ToBaseCampPal": "basePal",
-//     "EPalPassiveSkillEffectTargetType::ToBuildObject": "base",
-// };
-
-// const namePrefix = {
-//     self: "Pal ",
-//     trainer: "Trainer ",
-//     both: "",
-//     basePal: "Base Pal ",
-//     base: "",
-// };
-
-// const nonMultiplierStats = ["MaxInventoryWeight"];
-
-// const partnerSkillMap = convertDataTableType(partnerSkills, { partialData: true });
-// const passiveSkillMap = convertDataTableType(passiveSkills, { partialData: true });
-const attackDataList = Object.values(convertDataTableType(attackDataTable));
+const partnerSkillMap = convertDataTableType(partnerSkills, { partialData: true });
+const partnerSkillParametersMap = partnerSkillParametersMapRaw as PartnerSkillParameters;
 
 export function PartnerSkill(props: CustomFieldProps<string>): JSXElement {
-    const skillId = createMemo(() => {
-        return getPalBlueprint(props.palData.Id, "PalPartnerSkillParameter_GEN_VARIABLE")?.Properties
-            ?.FunnelAttackWazaID;
-    });
     const partnerSkillData = createMemo<PartnerSkillData[]>(() => {
         const data: PartnerSkillData[] = [];
-        const partnerSkillComponent = getPalBlueprint(props.palData.Id, "PalPartnerSkillParameter_GEN_VARIABLE");
-        if (partnerSkillComponent !== undefined) {
-            const attackId = skillId();
-            const attackEntry: PartnerSkillData = {};
-            if (attackId !== undefined) {
-                const attackData = attackDataList.find((item) => item.WazaType === attackId);
-                if (attackData !== undefined) {
-                    attackEntry.power = [attackData.Power];
-                    attackEntry.cooldown = [attackData.CoolTime];
-                    if (attackData.Element !== "EPalElementType::None") {
-                        attackEntry.element = attackData.Element;
-                    }
+        const skillParameters = getObjectByCaseInsensitiveKey(partnerSkillParametersMap, props.palData.Id);
+        if (skillParameters !== undefined) {
+            if (
+                skillParameters.ActiveSkill.SkillName !== "Unknown" &&
+                skillParameters.ActiveSkill.SkillName !== "None"
+            ) {
+                const activeSkillData = getObjectByCaseInsensitiveKey(
+                    partnerSkillMap,
+                    skillParameters.ActiveSkill.SkillName
+                )!;
+                const isMainValueMultiplier =
+                    skillParameters.ActiveSkill.ActiveSkill_MainValue_Overview_EditorOnly.includes("倍率");
+                const newData: PartnerSkillData = {
+                    duration: activeSkillData.EffectTime > 1 ? activeSkillData.EffectTime : undefined,
+                    cooldown: [activeSkillData.CoolDownTime],
+                };
+                if (skillParameters.ActiveSkill.ActiveSkill_OverWriteCoolTimeByRank.length > 0) {
+                    newData.cooldown = skillParameters.ActiveSkill.ActiveSkill_OverWriteCoolTimeByRank;
                 }
+                if (!isMainValueMultiplier && skillParameters.ActiveSkill.ActiveSkill_MainValueByRank.length > 0) {
+                    // 威力
+                    newData.power = skillParameters.ActiveSkill.ActiveSkill_MainValueByRank;
+                }
+                if (isMainValueMultiplier && skillParameters.ActiveSkill.ActiveSkill_MainValueByRank.length > 0) {
+                    // includes: 倍率
+                    newData.powerMultiplier = skillParameters.ActiveSkill.ActiveSkill_MainValueByRank;
+                }
+                data.push(newData);
             }
-            // const partnerSkillId = partnerSkillComponent.Properties?.SkillName;
-            // if (partnerSkillId !== undefined && partnerSkillId in partnerSkillMap) {
-            //     const properties = partnerSkillComponent.Properties as unknown as PartnerSkillParameterProperties;
-            //     const isMainValueMultiplier =
-            //         properties.ActiveSkill_MainValue_Overview_EditorOnly?.includes("倍率") === true;
-            //     const skillData = partnerSkillMap[partnerSkillId]!;
-            //     const newData: PartnerSkillData = {
-            //         ...attackEntry,
-            //         duration: skillData.EffectTime > 1 ? skillData.EffectTime : undefined,
-            //         cooldown: [skillData.CoolDownTime],
-            //     };
-            //     if (Array.isArray(properties.ActiveSkill_OverWriteCoolTimeByRank)) {
-            //         newData.cooldown = properties.ActiveSkill_OverWriteCoolTimeByRank;
-            //     }
-            //     if (!isMainValueMultiplier && Array.isArray(properties.ActiveSkill_MainValueByRank)) {
-            //         // 威力
-            //         newData.power = properties.ActiveSkill_MainValueByRank;
-            //     }
-            //     if (isMainValueMultiplier && Array.isArray(properties.ActiveSkill_MainValueByRank)) {
-            //         // includes: 倍率
-            //         newData.powerMultiplier = properties.ActiveSkill_MainValueByRank;
-            //     }
-            //     data.push(newData);
-            // } else if (Object.keys(attackEntry).length > 0) {
-            //     data.push(attackEntry);
-            // }
-            // const passiveSkillsByLevel = partnerSkillComponent.Properties?.PassiveSkills;
-            // if (passiveSkillsByLevel !== undefined) {
-            //     const skills: Record<string, PartnerSkillData> = {};
-            //     for (let level = 0; level < passiveSkillsByLevel.length; level++) {
-            //         const levelData = passiveSkillsByLevel[level];
-            //         // eslint-disable-next-line @typescript-eslint/prefer-for-of
-            //         for (let index = 0; index < levelData.SkillAndParameters.length; index++) {
-            //             const skill = levelData.SkillAndParameters[index];
-            //             const passiveSkillData = passiveSkillMap[skill.Key.Key];
-            //             if (passiveSkillData === undefined) {
-            //                 continue;
-            //             }
-            //             const affectedSkill =
-            //                 skill.Value.WorkType !== "EPalWorkType::None"
-            //                     ? skill.Value.WorkType.replace("EPalWorkType::", "")
-            //                     : undefined;
-            //             for (let i = 1; i <= 3; i++) {
-            //                 const targetType = passiveSkillData[`TargetType${i as 1 | 2 | 3}`];
-            //                 const target = targetMapping[targetType] ?? "none";
-            //                 let effectType = passiveSkillData[`EffectType${i as 1 | 2 | 3}`].replace(
-            //                     "EPalPassiveSkillEffectType::",
-            //                     ""
-            //                 );
-            //                 if (target === "none" || effectType === "no") {
-            //                     continue;
-            //                 }
-            //                 if (effectType === "CraftSpeed" && affectedSkill !== undefined) {
-            //                     effectType = `Work Speed ${mapWorkSkills(affectedSkill)}`;
-            //                 }
-            //                 skills[`${effectType}-${i}`] ??= {};
-            //                 const effectValue = passiveSkillData[`EffectValue${i as 1 | 2 | 3}`];
-
-            //                 if (target === "trainer") {
-            //                     if (effectType.startsWith("ElementResist")) {
-            //                         skills[`${effectType}-${i}`].name = "Trainer Resistance Type";
-            //                         skills[`${effectType}-${i}`].element = effectType.replace("ElementResist", "");
-            //                     } else if (effectType.startsWith("Element")) {
-            //                         skills[`${effectType}-${i}`].name = "Trainer Attack Type";
-            //                         skills[`${effectType}-${i}`].element = effectType.replace("Element", "");
-            //                         continue;
-            //                     }
-            //                 }
-            //                 skills[`${effectType}-${i}`].element ??=
-            //                     skill.Value.TargetElementType !== "EPalElementType::None"
-            //                         ? skill.Value.TargetElementType
-            //                         : undefined;
-            //                 skills[`${effectType}-${i}`].name ??= `${namePrefix[target]}${mapCellValue(effectType)}`;
-            //                 const property = nonMultiplierStats.includes(effectType) ? "power" : "powerMultiplier";
-            //                 if (effectValue !== 0) {
-            //                     if (skills[`${effectType}-${i}`][property] === undefined) {
-            //                         skills[`${effectType}-${i}`][property] = Array.from<number>({
-            //                             length: level,
-            //                         }).fill(1);
-            //                     }
-            //                     const computedEffectValue = property === "power" ? effectValue : effectValue / 100 + 1;
-            //                     if (skills[`${effectType}-${i}`][property]!.at(-1) !== computedEffectValue) {
-            //                         skills[`${effectType}-${i}`][property]!.push(computedEffectValue);
-            //                     }
-            //                 }
-            //             }
-            //         }
-            //     }
-            //     data.push(...Object.values(skills).filter((skill) => Object.keys(skill).length > 1));
-            // }
         }
         return data;
     });
@@ -167,12 +58,12 @@ export function PartnerSkill(props: CustomFieldProps<string>): JSXElement {
         <Hover label={props.value} title={props.value}>
             {partnerSkillData().length === 0 ? (
                 <div style={{ "max-width": "min(30rem, 80vw)" }}>
-                    <FormatTextTags text={props.palData.PalDescription} oneLine={true} />
+                    <FormatTextTags text={props.palData.PalDescription} palId={props.palData.Id} oneLine={true} />
                 </div>
             ) : (
                 <div style={{ "max-width": "min-content" }}>
                     <div>
-                        <FormatTextTags text={props.palData.PalDescription} oneLine={true} />
+                        <FormatTextTags text={props.palData.PalDescription} palId={props.palData.Id} oneLine={true} />
                     </div>
                     <For each={partnerSkillData()}>
                         {(skill) => (
@@ -183,26 +74,11 @@ export function PartnerSkill(props: CustomFieldProps<string>): JSXElement {
                                     style={{ "text-wrap": "nowrap", "min-width": "15rem" }}
                                 >
                                     <tbody>
-                                        <Show when={skill.name}>
-                                            {(name) => (
-                                                <tr>
-                                                    <td colSpan={2}>{name()}</td>
-                                                </tr>
-                                            )}
-                                        </Show>
                                         <Show when={skill.duration}>
                                             {(duration) => (
                                                 <tr>
                                                     <td>Effect duration</td>
                                                     <td>{duration()}s</td>
-                                                </tr>
-                                            )}
-                                        </Show>
-                                        <Show when={skill.element}>
-                                            {(element) => (
-                                                <tr>
-                                                    <td>Element</td>
-                                                    <td>{mapCellValue(element())}</td>
                                                 </tr>
                                             )}
                                         </Show>
