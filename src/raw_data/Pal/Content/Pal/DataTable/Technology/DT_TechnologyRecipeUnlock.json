@@ -2345,6 +2345,22 @@
         "Tier": 0,
         "Cost": 2
       },
+      "WaterBuildKit": {
+        "UnlockBuildObjects": [],
+        "UnlockItemRecipes": [
+          "WaterBuildKit"
+        ],
+        "Name": "NAME_RECIPE_WaterBuildKit",
+        "Description": "DESC_RECIPE_WaterBuildKit",
+        "IconName": "WaterBuildKit",
+        "RequireDefeatTowerBoss": "EPalBossType::None",
+        "RequireTechnology": "None",
+        "RequireResearchId": "None",
+        "IsBossTechnology": true,
+        "LevelCap": 23,
+        "Tier": 0,
+        "Cost": 1
+      },
       "MakeshiftHandgun": {
         "UnlockBuildObjects": [],
         "UnlockItemRecipes": [
@@ -7634,22 +7650,6 @@
         "Tier": 0,
         "Cost": 3
       },
-      "WaterBuildKit": {
-        "UnlockBuildObjects": [],
-        "UnlockItemRecipes": [
-          "WaterBuildKit"
-        ],
-        "Name": "NAME_RECIPE_WaterBuildKit",
-        "Description": "DESC_RECIPE_WaterBuildKit",
-        "IconName": "WaterBuildKit",
-        "RequireDefeatTowerBoss": "EPalBossType::None",
-        "RequireTechnology": "None",
-        "RequireResearchId": "None",
-        "IsBossTechnology": true,
-        "LevelCap": 66,
-        "Tier": 0,
-        "Cost": 4
-      },
       "SkillUnlock_KingSunfish_Thunder": {
         "UnlockBuildObjects": [],
         "UnlockItemRecipes": [
@@ -8051,6 +8051,54 @@
         "LevelCap": 70,
         "Tier": 0,
         "Cost": 5
+      },
+      "SkillUnlock_VolcanoDragon_Ice": {
+        "UnlockBuildObjects": [],
+        "UnlockItemRecipes": [
+          "SkillUnlock_VolcanoDragon_Ice"
+        ],
+        "Name": "NAME_RECIPE_SkillUnlock_VolcanoDragon_Ice",
+        "Description": "ITEM_DESC_SkillUnlock_VolcanoDragon_Ice",
+        "IconName": "VolcanoDragon_Ice",
+        "RequireDefeatTowerBoss": "EPalBossType::None",
+        "RequireTechnology": "None",
+        "RequireResearchId": "None",
+        "IsBossTechnology": false,
+        "LevelCap": 70,
+        "Tier": 0,
+        "Cost": 4
+      },
+      "SkillUnlock_JetDragon": {
+        "UnlockBuildObjects": [],
+        "UnlockItemRecipes": [
+          "SkillUnlock_JetDragon"
+        ],
+        "Name": "NAME_RECIPE_SkillUnlock_JetDragon",
+        "Description": "ITEM_DESC_SkillUnlock_JetDragon",
+        "IconName": "JetDragon",
+        "RequireDefeatTowerBoss": "EPalBossType::None",
+        "RequireTechnology": "None",
+        "RequireResearchId": "None",
+        "IsBossTechnology": false,
+        "LevelCap": 70,
+        "Tier": 0,
+        "Cost": 5
+      },
+      "JetDragonStatue": {
+        "UnlockBuildObjects": [
+          "JetDragonStatue"
+        ],
+        "UnlockItemRecipes": [],
+        "Name": "NAME_RECIPE_JetDragonStatue",
+        "Description": "BUILDOBJECT_DESC_JetDragonStatue",
+        "IconName": "JetDragonStatue",
+        "RequireDefeatTowerBoss": "EPalBossType::None",
+        "RequireTechnology": "None",
+        "RequireResearchId": "None",
+        "IsBossTechnology": false,
+        "LevelCap": 70,
+        "Tier": 0,
+        "Cost": 1
       },
       "Accessory_JumpCount_Increase2": {
         "UnlockBuildObjects": [],
@@ -8677,22 +8725,6 @@
         "Tier": 0,
         "Cost": 4
       },
-      "SkillUnlock_JetDragon": {
-        "UnlockBuildObjects": [],
-        "UnlockItemRecipes": [
-          "SkillUnlock_JetDragon"
-        ],
-        "Name": "NAME_RECIPE_SkillUnlock_JetDragon",
-        "Description": "ITEM_DESC_SkillUnlock_JetDragon",
-        "IconName": "JetDragon",
-        "RequireDefeatTowerBoss": "EPalBossType::None",
-        "RequireTechnology": "None",
-        "RequireResearchId": "None",
-        "IsBossTechnology": false,
-        "LevelCap": 79,
-        "Tier": 0,
-        "Cost": 5
-      },
       "BeamLauncher": {
         "UnlockBuildObjects": [],
         "UnlockItemRecipes": [
@@ -8804,22 +8836,6 @@
         "LevelCap": 36,
         "Tier": 0,
         "Cost": 2
-      },
-      "SkillUnlock_VolcanoDragon_Ice": {
-        "UnlockBuildObjects": [],
-        "UnlockItemRecipes": [
-          "SkillUnlock_VolcanoDragon_Ice"
-        ],
-        "Name": "NAME_RECIPE_SkillUnlock_VolcanoDragon_Ice",
-        "Description": "ITEM_DESC_SkillUnlock_VolcanoDragon_Ice",
-        "IconName": "VolcanoDragon_Ice",
-        "RequireDefeatTowerBoss": "EPalBossType::None",
-        "RequireTechnology": "None",
-        "RequireResearchId": "None",
-        "IsBossTechnology": false,
-        "LevelCap": 70,
-        "Tier": 0,
-        "Cost": 4
       },
       "SkillUnlock_Thunderdog_Ice": {
         "UnlockBuildObjects": [],
@@ -9066,22 +9082,6 @@
         "RequireResearchId": "None",
         "IsBossTechnology": false,
         "LevelCap": 12,
-        "Tier": 0,
-        "Cost": 1
-      },
-      "JetDragonStatue": {
-        "UnlockBuildObjects": [
-          "JetDragonStatue"
-        ],
-        "UnlockItemRecipes": [],
-        "Name": "NAME_RECIPE_JetDragonStatue",
-        "Description": "BUILDOBJECT_DESC_JetDragonStatue",
-        "IconName": "JetDragonStatue",
-        "RequireDefeatTowerBoss": "EPalBossType::None",
-        "RequireTechnology": "None",
-        "RequireResearchId": "None",
-        "IsBossTechnology": false,
-        "LevelCap": 79,
         "Tier": 0,
         "Cost": 1
       },
