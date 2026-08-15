@@ -165,6 +165,9 @@ function trimPalActorBlueprint(json: string): string {
             if (["CharMoveComp", "StaticCharacterParameterComponent"].includes(obj.Name as string)) {
                 return true;
             }
+            if (obj.Type === "BlueprintGeneratedClass") {
+                return true;
+            }
             return false;
         })
     );
