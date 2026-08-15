@@ -37,6 +37,7 @@ const patterns = [
     "Pal/Content/Pal/DataTable/Waza/DT_WazaDataTable.json",
     "Pal/Content/Pal/DataTable/WorldMapUIData/DT_WorldMapUIData.json",
     "Pal/Content/Pal/Texture/PalIcon/Normal/**",
+    "Pal/Content/Pal/Texture/UI/Map/T_TreeMap.png",
     "Pal/Content/Pal/Texture/UI/Map/T_WorldMap.png",
 ];
 const destinationDir = "src/raw_data";

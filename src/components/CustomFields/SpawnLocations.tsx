@@ -4,7 +4,8 @@ import { palSpawners } from "~/data/palSpawners";
 import { randomEventPal } from "~/data/randomEventPal";
 import raidBossData from "~/raw_data/Pal/Content/Pal/Blueprint/RaidBoss/DT_PalRaidBoss.json";
 import worldMapScaleData from "~/raw_data/Pal/Content/Pal/DataTable/WorldMapUIData/DT_WorldMapUIData.json";
-import mapImg from "~/raw_data/Pal/Content/Pal/Texture/UI/Map/T_WorldMap.png";
+import treeMapImg from "~/raw_data/Pal/Content/Pal/Texture/UI/Map/T_TreeMap.png";
+import mainMapImg from "~/raw_data/Pal/Content/Pal/Texture/UI/Map/T_WorldMap.png";
 import { convertDataTableType } from "~/utils/convertDataTableType";
 import type { CustomFieldProps } from "./customFields";
 
@@ -60,6 +61,16 @@ export function SpawnLocations(props: CustomFieldProps<string>): JSXElement {
         }
         return `${displayMode() === "day" ? "Daytime" : "Nighttime"} Spawn Areas for ${props.palData.Name} (${(displayMode() === "day" ? daySpawnLocations() : nightSpawnLocations()).length})`;
     });
+    const maps = createMemo(() => {
+        const maps: ("main" | "tree")[] = [];
+        if (palSpawners[props.palData.Id]?.spawnPoints.some((spawn) => spawn.Map === "main") === true) {
+            maps.push("main");
+        }
+        if (palSpawners[props.palData.Id]?.spawnPoints.some((spawn) => spawn.Map === "tree") === true) {
+            maps.push("tree");
+        }
+        return maps;
+    });
     const displayText = createMemo(() => {
         if (hasNoOverworldSpawns()) {
             if (fishingSpawnLocations().length > 0) {
@@ -76,7 +87,10 @@ export function SpawnLocations(props: CustomFieldProps<string>): JSXElement {
             }
             return "Dungeon";
         }
-        return "Overworld";
+        if (maps().includes("main")) {
+            return "Overworld";
+        }
+        return "World Tree";
     });
 
     onMount(() => {
@@ -117,6 +131,83 @@ export function SpawnLocations(props: CustomFieldProps<string>): JSXElement {
         return options;
     });
 
+    function MapRenderer(mapRendererProps: {
+        mapName: "main" | "tree";
+        img: string;
+        mapBounds: typeof worldMapScale.MainMap | typeof worldMapScale.Tree;
+    }): JSXElement {
+        const points = createMemo(() =>
+            displayMode() === "dungeon"
+                ? dungeonSpawnLocations()
+                : displayMode() === "fishing"
+                  ? fishingSpawnLocations()
+                  : displayMode() === "nightFishing"
+                    ? nightFishingSpawnLocations()
+                    : displayMode() === "day"
+                      ? daySpawnLocations()
+                      : nightSpawnLocations()
+        );
+        const pointsInView = createMemo(() => points().filter((point) => point.Map === mapRendererProps.mapName));
+
+        return (
+            <div
+                style={{
+                    position: "relative",
+                    margin: "auto",
+                    width: "fit-content",
+                    display: pointsInView().length === 0 ? "none" : undefined,
+                }}
+            >
+                <img
+                    src={mapRendererProps.img}
+                    class="map-image"
+                    style={{
+                        filter:
+                            displayMode() === "night" || displayMode() === "nightFishing" ? "brightness(0.5)" : "none",
+                    }}
+                    alt="World map"
+                />
+                <svg
+                    classList={{ "map-markers": true, "map-hover": touchHover() }}
+                    onTouchStart={() => {
+                        setTouchHover(true);
+                        document.body.classList.add("select-none");
+                    }}
+                    onTouchEnd={() => {
+                        setTouchHover(false);
+                        document.body.classList.remove("select-none");
+                    }}
+                    viewBox={`${mapRendererProps.mapBounds.landScapeRealPositionMin.X} ${mapRendererProps.mapBounds.landScapeRealPositionMin.Y} ${mapRendererProps.mapBounds.landScapeRealPositionMax.X - mapRendererProps.mapBounds.landScapeRealPositionMin.X} ${mapRendererProps.mapBounds.landScapeRealPositionMax.Y - mapRendererProps.mapBounds.landScapeRealPositionMin.Y}`}
+                >
+                    <For each={pointsInView()}>
+                        {(point) => {
+                            const radius = point.Map === "main" ? point.Radius : Math.round(point.Radius / 3);
+                            return (
+                                <circle
+                                    style={{ "--initial-radius": radius }}
+                                    class="map-dot"
+                                    r={radius}
+                                    fill="yellow"
+                                    fill-opacity="1"
+                                    cx={point.X}
+                                    cy={point.Y}
+                                >
+                                    <title>
+                                        {point.MaxLevel > 0
+                                            ? point.MinLevel === point.MaxLevel
+                                                ? `Level: ${point.MinLevel}`
+                                                : `Levels: ${point.MinLevel} - ${point.MaxLevel}`
+                                            : ""}
+                                    </title>
+                                </circle>
+                            );
+                        }}
+                    </For>
+                </svg>
+            </div>
+        );
+    }
+
     return (
         <>
             {!hasNoOverworldSpawns() || dungeonSpawnLocations().length > 0 || fishingSpawnLocations().length > 0 ? (
@@ -155,65 +246,14 @@ export function SpawnLocations(props: CustomFieldProps<string>): JSXElement {
                                         {palSpawners[props.palData.Id]?.max}
                                     </div>
                                 )}
-                                <div style={{ position: "relative", margin: "auto", width: "fit-content" }}>
-                                    <img
-                                        src={mapImg}
-                                        class="map-image"
-                                        style={{
-                                            filter:
-                                                displayMode() === "night" || displayMode() === "nightFishing"
-                                                    ? "brightness(0.5)"
-                                                    : "none",
-                                        }}
-                                        alt="World map"
-                                    />
-                                    <svg
-                                        classList={{ "map-markers": true, "map-hover": touchHover() }}
-                                        onTouchStart={() => {
-                                            setTouchHover(true);
-                                            document.body.classList.add("select-none");
-                                        }}
-                                        onTouchEnd={() => {
-                                            setTouchHover(false);
-                                            document.body.classList.remove("select-none");
-                                        }}
-                                        viewBox={`${worldMapScale.MainMap.landScapeRealPositionMin.X} ${worldMapScale.MainMap.landScapeRealPositionMin.Y} ${worldMapScale.MainMap.landScapeRealPositionMax.X - worldMapScale.MainMap.landScapeRealPositionMin.X} ${worldMapScale.MainMap.landScapeRealPositionMax.Y - worldMapScale.MainMap.landScapeRealPositionMin.Y}`}
-                                    >
-                                        <For
-                                            each={
-                                                displayMode() === "dungeon"
-                                                    ? dungeonSpawnLocations()
-                                                    : displayMode() === "fishing"
-                                                      ? fishingSpawnLocations()
-                                                      : displayMode() === "nightFishing"
-                                                        ? nightFishingSpawnLocations()
-                                                        : displayMode() === "day"
-                                                          ? daySpawnLocations()
-                                                          : nightSpawnLocations()
-                                            }
-                                        >
-                                            {(point) => (
-                                                <circle
-                                                    style={{ "--initial-radius": point.Radius }}
-                                                    class="map-dot"
-                                                    r={point.Radius}
-                                                    fill="yellow"
-                                                    fill-opacity="1"
-                                                    cx={point.X}
-                                                    cy={point.Y}
-                                                >
-                                                    <title>
-                                                        {point.MaxLevel > 0
-                                                            ? point.MinLevel === point.MaxLevel
-                                                                ? `Level: ${point.MinLevel}`
-                                                                : `Levels: ${point.MinLevel} - ${point.MaxLevel}`
-                                                            : ""}
-                                                    </title>
-                                                </circle>
-                                            )}
-                                        </For>
-                                    </svg>
-                                </div>
+                            </div>
+                            <div style={{ "overflow-y": "auto" }}>
+                                {maps().includes("main") && (
+                                    <MapRenderer img={mainMapImg} mapBounds={worldMapScale.MainMap} mapName="main" />
+                                )}
+                                {maps().includes("tree") && (
+                                    <MapRenderer img={treeMapImg} mapBounds={worldMapScale.Tree} mapName="tree" />
+                                )}
                             </div>
                         </Dialog>
                     )}

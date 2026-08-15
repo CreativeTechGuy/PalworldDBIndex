@@ -94,6 +94,8 @@ body:has(.dialog-backdrop) .floating-button-area {
     overflow-y: auto;
     overflow-x: hidden;
     max-height: 85vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .dialog-header {

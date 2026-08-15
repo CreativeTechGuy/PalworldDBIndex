@@ -1,14 +1,17 @@
 import fishLotteryDataTable from "~/raw_data/Pal/Content/Pal/DataTable/Fishing/DT_PalFishingSpotLotteryDataTable.json";
 import fishShadowDataTable from "~/raw_data/Pal/Content/Pal/DataTable/Fishing/DT_PalFishShadowDataTable.json";
 import wildPalsStats from "~/raw_data/Pal/Content/Pal/DataTable/Spawner/DT_PalWildSpawner.json";
+import worldMapScaleData from "~/raw_data/Pal/Content/Pal/DataTable/WorldMapUIData/DT_WorldMapUIData.json";
 import type { SpawnData, SpawnerData } from "~/types/SpawnLocations";
 import { convertDataTableType } from "~/utils/convertDataTableType";
+import { isPointInRect } from "~/utils/isPointInRect";
 import { spawnerLocationMap, spawnLocationMap } from "./spawnLocations";
 
 const spawnPointData = spawnLocationMap as SpawnData;
 const fishLotteryData = Object.values(convertDataTableType(fishLotteryDataTable));
 const fishShadowData = convertDataTableType(fishShadowDataTable);
 const spawnerLocations = Object.values(spawnerLocationMap as SpawnerData);
+const worldMapScale = worldMapScaleData[0].Rows;
 let maxWildPalLevel = 0;
 const palSpawners: Partial<
     Record<
@@ -25,6 +28,7 @@ const palSpawners: Partial<
                 NightOnly: boolean;
                 Dungeon: boolean;
                 Fishing: boolean;
+                Map: "main" | "tree";
             }[];
         }
     >
@@ -65,6 +69,7 @@ for (const spawn of Object.values(wildPalsStats[0].Rows)) {
                     NightOnly: spawn.OnlyTime === nightOnlyValue,
                     Dungeon: location.PlacementType.startsWith("EPalSpawnerPlacementType::Dungeon"),
                     Fishing: false,
+                    Map: isInMap(worldMapScale.MainMap, location.Location) ? "main" : "tree",
                 });
             }
         }
@@ -108,8 +113,16 @@ for (const [fishShadowId, fishShadow] of Object.entries(fishShadowData)) {
             Dungeon: false,
             Fishing: true,
             NightOnly: nightOnly,
+            Map: isInMap(worldMapScale.MainMap, dayLocation) ? "main" : "tree",
         });
     }
 }
 
 export { maxWildPalLevel, palSpawners };
+
+function isInMap(mapData: typeof worldMapScale.MainMap, point: { X: number; Y: number }): boolean {
+    return isPointInRect(point, {
+        min: mapData.landScapeRealPositionMin,
+        max: mapData.landScapeRealPositionMax,
+    });
+}
